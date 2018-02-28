@@ -1,0 +1,258 @@
+---
+omd: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: omd
+o: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: o
+Aris: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: Aris
+天火狐: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: 天火狐
+Quazie: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: Quazie
+Publius Scribonius Scholasticus: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: Publius Scribonius Scholasticus
+Gaelan: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: Gaelan
+nichdel: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: nichdel
+G.: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: G.
+CuddleBeam: !entity/player
+  stones: 11
+  apples: 5
+  corn: 3
+  ore: 4
+  lumber: 8
+  cotton: 3
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: CuddleBeam
+ATMunn: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: ATMunn
+Trigon: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 5
+  papers: 3
+  fabric: 0
+  name: Trigon
+Alexis: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: Alexis
+Telnaior: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: Telnaior
+Corona: !entity/player
+  stones: 5
+  apples: 6
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 15
+  papers: 3
+  fabric: 0
+  name: Corona
+pokes: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: pokes
+Murphy: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: Murphy
+VJ Rada: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: VJ Rada
+!land -1,-1: !entity/facility/mine
+  stones: 0
+  apples: 0
+  corn: 0
+  ore: 0
+  lumber: 0
+  cotton: 0
+  coins: 0
+  papers: 0
+  fabric: 0
+  location: !land -1,-1
+  rank: 1
+!land 1,1: !entity/facility/mine
+  stones: 0
+  apples: 0
+  corn: 0
+  ore: 0
+  lumber: 0
+  cotton: 0
+  coins: 0
+  papers: 0
+  fabric: 0
+  location: !land 1,1
+  rank: 1
+!land -1,1: !entity/facility/orchard
+  stones: 0
+  apples: 0
+  corn: 0
+  ore: 0
+  lumber: 0
+  cotton: 0
+  coins: 0
+  papers: 0
+  fabric: 0
+  location: !land -1,1
+  rank: 1
+!land 1,-1: !entity/facility/farm
+  stones: 0
+  apples: 0
+  corn: 0
+  ore: 0
+  lumber: 0
+  cotton: 0
+  coins: 0
+  papers: 0
+  fabric: 0
+  location: !land 1,-1
+  rank: 1
+Kenyon: !entity/player
+  stones: 5
+  apples: 10
+  corn: 0
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 10
+  papers: 3
+  fabric: 0
+  name: Kenyon

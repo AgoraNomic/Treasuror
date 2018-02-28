@@ -6,6 +6,10 @@ module Treasuror
 			self.x, self.y = coder.scalar.split(',').map(&:to_i)
 		end
 
+		def encode_with coder
+			coder.scalar = "#{self.x},#{self.y}"
+		end
+
 		def to_s
 			"#{x},#{y}"
 		end
@@ -31,6 +35,7 @@ module Treasuror
 	end
 
 	class Facility::Farm < Facility
+		yaml_tag '!entity/facility/farm'
 		def type; 'farm'; end
 		def weekly_tick
 			self.cotton += rank * 3
@@ -38,6 +43,7 @@ module Treasuror
 		end
 	end
 	class Facility::Orchard < Facility
+		yaml_tag '!entity/facility/orchard'
 		def type; 'orchard'; end
 		def weekly_tick
 			self.apples += rank * 3
@@ -45,6 +51,7 @@ module Treasuror
 		end
 	end
 	class Facility::Mine < Facility
+		yaml_tag '!entity/facility/mine'
 		def type; 'mine'; end
 		def weekly_tick
 			self.stones += rank * 3

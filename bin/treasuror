@@ -29,6 +29,9 @@ class Treasuror::CLI < Thor
 			file.write(Treasuror::Report.html)
 		end
 		`open #{File.dirname(__FILE__) + "/../index.html"}`
+		File.open(File.dirname(__FILE__) + "/../current.yaml", 'w') do |file|
+			YAML.dump(Treasuror.current_state, file)
+		end
 	end
 end
 

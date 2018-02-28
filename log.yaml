@@ -42,8 +42,8 @@
     - pokes
     - Murphy
     - VJ Rada
-- !event/checkpoint
-  hash: dde0777525146c0a7c255ed4672870d4e3cbbc30
+# - !event/checkpoint
+#   hash: 133f212af311b9134fe1d95a19f3bc3dc561a4da
 - !event/weekly_tick
   date: 2018-2-26 00:00:00 +0000
 - !event/destroy
