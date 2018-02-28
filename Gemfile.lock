@@ -1,0 +1,45 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    css_parser (1.6.0)
+      addressable
+    equatable (0.5.0)
+    htmlentities (4.3.4)
+    mime (0.4.4)
+    necromancer (0.4.0)
+    pastel (0.7.2)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
+    premailer (1.11.1)
+      addressable
+      css_parser (>= 1.6.0)
+      htmlentities (>= 4.0.0)
+    public_suffix (3.0.2)
+    strings (0.1.1)
+      unicode-display_width (~> 1.3.0)
+      unicode_utils (~> 1.4.0)
+    thor (0.20.0)
+    tty-color (0.4.2)
+    tty-screen (0.6.4)
+    tty-table (0.10.0)
+      equatable (~> 0.5.0)
+      necromancer (~> 0.4.0)
+      pastel (~> 0.7.2)
+      strings (~> 0.1.0)
+      tty-screen (~> 0.6.4)
+    unicode-display_width (1.3.0)
+    unicode_utils (1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mime
+  premailer
+  thor
+  tty-table
+
+BUNDLED WITH
+   1.16.0

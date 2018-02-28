@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.dirname(__FILE__) + "/../lib"
+
+require 'thor'
+require 'treasuror'
+require 'tmpdir'
+
+class Treasuror::CLI < Thor
+	desc "email", "Generate an email with a report."
+	def email
+		Dir::Tmpname.create(["treasuror", ".eml"]) do |path|
+			File.open(path, "w") do |file|
+				file.write(Treasuror::Report.email)
+			end
+			puts path
+		end
+	end
+
+	desc "report", "Print out a report."
+	def report
+		puts Treasuror::Report.text_message
+	end
+end
+
+Treasuror::CLI.start
