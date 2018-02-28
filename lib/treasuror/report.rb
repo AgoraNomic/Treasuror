@@ -1,6 +1,7 @@
 require 'tty-table'
 require 'mime'
 require 'premailer'
+require 'erb'
 
 module Treasuror; end
 
@@ -23,7 +24,7 @@ module Treasuror::Report
 		table.render(:ascii, alignments: [:left] + ([:right] * 9))
 	end
 
-	def self.text_message
+	def self.text
 		table_footer = %(
 The following abbreviations are used in the table above:
 Ston = stone
@@ -44,68 +45,74 @@ Fabr = fabric
 		text_table + "\n\n" + table_footer.strip + "\n\n" + history_header + "\n" + history
 	end
 
-	def self.html_message
-		message = "<html><body>"
-		message << "<style>"
-		message << %(
-			table {
-				border:none;
-				border-collapse: collapse;
-			}
+	# def self.html_message
+	# 	message = "<html><body>"
+	# 	message << "<style>"
+	# 	message << %(
+	# 		table {
+	# 			border:none;
+	# 			border-collapse: collapse;
+	# 		}
 
-			table td, table th {
-				border-left: 1px solid #AAA;
-				border-right: 1px solid #AAA;
-				padding-left: 2px;
-				padding-right: 2px;
-			}
+	# 		table td, table th {
+	# 			border-left: 1px solid #AAA;
+	# 			border-right: 1px solid #AAA;
+	# 			padding-left: 2px;
+	# 			padding-right: 2px;
+	# 		}
 
-			table td {
-			  text-align: right;
-			}
+	# 		table td {
+	# 		  text-align: right;
+	# 		}
 
-			table td:first-child {
-			  text-align: left;
-			}
+	# 		table td:first-child {
+	# 		  text-align: left;
+	# 		}
 
-			table td:first-child, table th:first-child {
-				border-left: none;
-			}
+	# 		table td:first-child, table th:first-child {
+	# 			border-left: none;
+	# 		}
 
-			tbody tr:nth-child(even) {
-				background-color: #EEE
-			}
+	# 		tbody tr:nth-child(even) {
+	# 			background-color: #EEE
+	# 		}
 
-			table td:last-child, table th:last-child {
-				border-right: none;
-			}
-		)
-		message << "</style>"
-		message << "<table>"
-		message << "<thead><tr>"
-		%w(Name Stone Apples Corn Ore Lumber Cotton Coins Papers Fabric).each do |heading|
-			message << "<th>" + heading + "</th>"
-		end
-		message << "</tr></thead><tbody>"
-		Treasuror.current_state.values.each do |player|
-			message << "<tr>"
-			[
-				player.name,
-				player.stones, player.apples, player.corn,
-				player.ore, player.lumber, player.cotton,
-				player.coins, player.papers, player.fabric
-			].each do |val|
-				message << "<td>#{val}</td>"
-			end
-			message << "</tr>"
-		end
-		message << "</tbody></table>"
-		message << "<p>Recent changes (most recent first, times in UTC):<br>"
-		Treasuror.log.find_all(&:show_in_history?).reverse.take(100).each do |event|
-			message << "[#{event.date.getutc.strftime("%a %b %d %H:%M")}] #{event}<br>"
-		end.join("\n")
-		message << "</p>"
-		message << "</body></html>"
+	# 		table td:last-child, table th:last-child {
+	# 			border-right: none;
+	# 		}
+	# 	)
+	# 	message << "</style>"
+	# 	message << "<table>"
+	# 	message << "<thead><tr>"
+	# 	%w(Name Stone Apples Corn Ore Lumber Cotton Coins Papers Fabric).each do |heading|
+	# 		message << "<th>" + heading + "</th>"
+	# 	end
+	# 	message << "</tr></thead><tbody>"
+	# 	Treasuror.current_state.values.each do |player|
+	# 		message << "<tr>"
+	# 		[
+	# 			player.name,
+	# 			player.stones, player.apples, player.corn,
+	# 			player.ore, player.lumber, player.cotton,
+	# 			player.coins, player.papers, player.fabric
+	# 		].each do |val|
+	# 			message << "<td>#{val}</td>"
+	# 		end
+	# 		message << "</tr>"
+	# 	end
+	# 	message << "</tbody></table>"
+	# 	message << "<p>Recent changes (most recent first, times in UTC):<br>"
+	# 	Treasuror.log.find_all(&:show_in_history?).reverse.take(100).each do |event|
+	# 		message << "[#{event.date.getutc.strftime("%a %b %d %H:%M")}] #{event}<br>"
+	# 	end.join("\n")
+	# 	message << "</p>"
+	# 	message << "</body></html>"
+	# end
+
+	def self.html
+		erb = ERB.new(File.read(File.dirname(__FILE__) + "/web.erb"))
+		erb.filename = File.dirname(__FILE__) + "/web.erb"
+		erb.result
 	end
 
 	def self.email

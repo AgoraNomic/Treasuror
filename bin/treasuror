@@ -3,8 +3,9 @@
 $LOAD_PATH.unshift File.dirname(__FILE__) + "/../lib"
 
 require 'thor'
-require 'treasuror'
 require 'tmpdir'
+
+require 'treasuror'
 
 class Treasuror::CLI < Thor
 	desc "email", "Generate an email with a report."
@@ -20,6 +21,14 @@ class Treasuror::CLI < Thor
 	desc "report", "Print out a report."
 	def report
 		puts Treasuror::Report.text_message
+	end
+
+	desc "build", "Build the HTML report and current state YAML file"
+	def build
+		File.open(File.dirname(__FILE__) + "/../index.html", 'w') do |file|
+			file.write(Treasuror::Report.html)
+		end
+		`open #{File.dirname(__FILE__) + "/../index.html"}`
 	end
 end
 
