@@ -132,5 +132,18 @@ module Treasuror
 				false
 			end
 		end
+
+		class Pend < Base
+			yaml_tag '!event/pend'
+			attr_reader :date, :actor, :title
+
+			def apply(entities)
+				entities[actor].papers -= 1
+			end
+
+			def to_s
+				"#{actor} destroyed 1 paper to pend #{title}"
+			end
+		end
 	end
 end

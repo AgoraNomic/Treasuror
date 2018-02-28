@@ -106,7 +106,7 @@ CuddleBeam: !entity/player
   lumber: 8
   cotton: 3
   coins: 10
-  papers: 3
+  papers: 2
   fabric: 0
   name: CuddleBeam
 ATMunn: !entity/player

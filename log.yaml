@@ -42,8 +42,8 @@
     - pokes
     - Murphy
     - VJ Rada
-# - !event/checkpoint
-#   hash: 133f212af311b9134fe1d95a19f3bc3dc561a4da
+- !event/checkpoint
+  hash: 09fb10259dc57a20e60df1f8811b90a32d2a5a04
 - !event/weekly_tick
   date: 2018-2-26 00:00:00 +0000
 - !event/destroy
@@ -121,3 +121,7 @@
   actor: Kenyon
   targets:
     - Kenyon
+- !event/pend
+  date: 2018-2-27 21:14:00 -0800
+  actor: CuddleBeam
+  title: Nomicbots Minigame
