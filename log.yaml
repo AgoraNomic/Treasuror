@@ -229,3 +229,10 @@
     apples: all
     lumber: all
   to: Kenyon
+- !event/transfer
+  date: 2018-3-6 23:48:00 -0800
+  actor: Gaelan
+  from: Gaelan
+  assets:
+    lumber: 3
+  to: Murphy

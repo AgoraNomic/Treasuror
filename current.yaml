@@ -102,7 +102,7 @@ Gaelan: !entity/player
   apples: 15
   corn: 0
   ore: 0
-  lumber: 5
+  lumber: 2
   cotton: 0
   coins: 20
   papers: 5
@@ -281,7 +281,7 @@ Murphy: !entity/player
   apples: 15
   corn: 2
   ore: 0
-  lumber: 5
+  lumber: 8
   cotton: 0
   coins: 30
   papers: 5

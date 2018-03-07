@@ -80,7 +80,6 @@ module Treasuror
 				return unless entities[actor]
 				ranges = entities[actor].offices[office]
 				ranges[ranges.length - 1] = (ranges.last.begin..date)
-				p ranges
 			end
 
 			alias to_s desc
