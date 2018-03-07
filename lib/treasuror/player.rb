@@ -6,6 +6,7 @@ module Treasuror; end
 
 class Range
 	def clip(other)
+		return nil unless overlaps? other
 		([self.begin, other.begin].max..[self.end, other.end].min)
 	end
 end
@@ -33,7 +34,7 @@ class Treasuror::Player < Treasuror::Entity
 		self.papers += 2
 		offices.each do |office, ranges|
 			this_month = ((date - 1.month)..date)
-			time_this_month = ranges.map { |r| r.clip(this_month) }.map { |r| r.end - r.begin }.sum
+			time_this_month = ranges.map { |r| r.clip(this_month) }.compact.map { |r| r.end - r.begin }.sum
 			if time_this_month > 16.days
 				unless carded? office, date
 					self.coins += 5
@@ -52,6 +53,6 @@ class Treasuror::Player < Treasuror::Entity
 	end
 
 	def carded?(office, date)
-		cards[office].getutc.month == date.getutc.month
+		cards[office].getutc.month == (date.getutc.month - 1)
 	end
 end

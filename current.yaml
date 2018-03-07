@@ -30,6 +30,11 @@ o: !entity/player
       begin: 2017-10-21 17:00:00.000000000 -07:00
       end: 3000-01-01 00:00:00.000000000 -08:00
       excl: false
+    Referee:
+    - !ruby/range
+      begin: 2018-01-19 03:04:45.000000000 Z
+      end: &2 2018-01-31 19:36:57.000000000 Z
+      excl: false
 Aris: !entity/player
   stones: 5
   apples: 15
@@ -126,25 +131,56 @@ nichdel: !entity/player
 G.: !entity/player
   stones: 5
   apples: 15
-  corn: 0
+  corn: 2
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 20
+  coins: 30
   papers: 5
   fabric: 0
   name: G.
   cards:
     Referee: 2018-02-28 12:48:00.000000000 -08:00
   offices:
+    Arbitor:
+    - !ruby/range
+      begin: 2018-01-26 23:00:27.000000000 Z
+      end: &4 2018-01-28 23:28:19.000000000 Z
+      excl: false
     Assessor:
     - !ruby/range
-      begin: 2018-02-27 16:35:08.000000000 Z
+      begin: 2018-01-31 18:17:09.000000000 Z
+      end: 2018-02-02 22:36:38.000000000 Z
+      excl: false
+    - !ruby/range
+      begin: 2018-02-06 20:59:06.000000000 Z
+      end: &1 2018-02-27 16:35:08.000000000 Z
+      excl: false
+    - !ruby/range
+      begin: *1
       end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
+    Referee:
+    - !ruby/range
+      begin: *2
+      end: 2018-02-02 22:36:38.000000000 Z
+      excl: false
+    - !ruby/range
+      begin: 2018-02-08 22:06:21.000000000 Z
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
+    Treasuror:
+    - !ruby/range
+      begin: 2018-02-02 22:54:01.000000000 Z
+      end: 2018-02-11 15:50:42.000000000 Z
       excl: false
     Registrar:
     - !ruby/range
-      begin: 2018-02-27 16:35:08.000000000 Z
+      begin: 2018-02-06 21:06:15.000000000 Z
+      end: &3 2018-02-27 16:35:08.000000000 Z
+      excl: false
+    - !ruby/range
+      begin: *3
       end: 3000-01-01 00:00:00.000000000 -08:00
       excl: false
 CuddleBeam: !entity/player
@@ -243,16 +279,31 @@ pokes: !entity/player
 Murphy: !entity/player
   stones: 5
   apples: 15
-  corn: 0
+  corn: 2
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 20
+  coins: 30
   papers: 5
   fabric: 0
   name: Murphy
   cards: {}
-  offices: {}
+  offices:
+    ADoP:
+    - !ruby/range
+      begin: 2018-01-18 14:12:49.000000000 Z
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
+    Assessor:
+    - !ruby/range
+      begin: 2018-01-19 03:04:45.000000000 Z
+      end: 2018-01-19 03:04:45.000000000 Z
+      excl: false
+    Arbitor:
+    - !ruby/range
+      begin: *4
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
 VJ Rada: !entity/player
   stones: 5
   apples: 15

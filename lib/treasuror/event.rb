@@ -38,8 +38,8 @@ module Treasuror
 				entities[LandUnit.new(+1, -1)] = Facility::Farm.new(LandUnit.new(+1, -1))
 			end
 
-			def to_s
-				"new economy was enacted"
+			def show_in_history?
+				false
 			end
 		end
 

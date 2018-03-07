@@ -1,6 +1,6 @@
 ---
 - !event/init
-  date: 2018-2-24 07:45:00 -0800
+  date: 2000-1-1 00:00:00 -0000
   players:
     - omd
     - o
@@ -54,7 +54,7 @@
     - VJ Rada
 - !event/checkpoint
   date: 2018-2-25 00:00:00 -0800
-  hash: 202b2207e2e2666900e1f97c2c274b3cbfbb0db6
+  hash: fc4ba3963b9de32961d5c42665c46b98aa024750
 - !event/weekly_tick
   date: 2018-2-26 00:00:00 +0000
 - !event/destroy

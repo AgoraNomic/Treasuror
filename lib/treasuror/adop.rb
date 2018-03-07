@@ -56,7 +56,7 @@ module Treasuror
 			end
 
 			def apply(entities)
-				entities.each do |e|
+				entities.each do |_, e|
 					if e.respond_to? :offices
 						e.offices.delete(office)
 					end
@@ -79,7 +79,8 @@ module Treasuror
 			def apply(entities)
 				return unless entities[actor]
 				ranges = entities[actor].offices[office]
-				ranges[ranges.length - 1] = (ranges.last.start..date)
+				ranges[ranges.length - 1] = (ranges.last.begin..date)
+				p ranges
 			end
 
 			alias to_s desc
@@ -97,11 +98,11 @@ module Treasuror
 
 			def apply(entities)
 				return unless entities[office_recipient]
-				entities.each do |e|
+				entities.each do |_, e|
 					if e.respond_to? :offices
 						offices = e.offices[office]
-						if offices && offices.last.end > date
-							offices[offices.length - 1] = (offices.last.start..date)
+						if offices&.last && offices.last.end > date
+							offices[offices.length - 1] = (offices.last.begin..date)
 						end
 					end
 				end
