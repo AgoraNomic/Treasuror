@@ -20,6 +20,16 @@
     - pokes
     - Murphy
     - VJ Rada
+  offices:
+    Corona:
+      Herald: 2017-11-30 00:00:00
+    o:
+      Notary: 2017-10-22 00:00:00
+    Aris:
+      Promotor: 2016-10-21 00:00:00
+      Regkeepor: 2017-07-06 00:00:00
+    Telnaior:
+      Tailor: 2017-12-07 00:00:00
 - !event/welcome_packages
   date: 2018-2-24 11:32:00 -0800
   actor: G.
@@ -43,7 +53,8 @@
     - Murphy
     - VJ Rada
 - !event/checkpoint
-  hash: 09fb10259dc57a20e60df1f8811b90a32d2a5a04
+  date: 2018-2-25 00:00:00 -0800
+  hash: 202b2207e2e2666900e1f97c2c274b3cbfbb0db6
 - !event/weekly_tick
   date: 2018-2-26 00:00:00 +0000
 - !event/destroy
@@ -125,3 +136,96 @@
   date: 2018-2-27 21:14:00 -0800
   actor: CuddleBeam
   title: Nomicbots Minigame
+- !event/card
+  date: 2018-2-28 12:48:00 -0800
+  target: G.
+  card: pink
+  office: Referee
+- !event/deregister
+  date: 2018-2-28 03:09:00 -0800
+  actor: Alexis
+  targets:
+    - Alexis
+- !event/destroy
+  date: 2018-2-28 19:14:00 -0800
+  actor: CuddleBeam
+  assets:
+    apples: 7
+  desc: to move around to grab all the nonexistent new items
+- !event/transfer
+  date: 2018-2-28 19:14:00 -0800
+  actor: CuddleBeam
+  from: !land -1,-1
+  to: CuddleBeam
+  assets:
+    stones: all
+    ore: all
+- !event/transfer
+  date: 2018-2-28 19:14:00 -0800
+  actor: CuddleBeam
+  from: !land +1,-1
+  to: CuddleBeam
+  assets:
+    corn: all
+    cotton: all
+- !event/transfer
+  date: 2018-2-28 19:14:00 -0800
+  actor: CuddleBeam
+  from: !land +1,+1
+  to: CuddleBeam
+  assets:
+    stones: all
+    ore: all
+- !event/transfer
+  date: 2018-2-28 19:14:00 -0800
+  actor: CuddleBeam
+  from: !land -1,+1
+  to: CuddleBeam
+  assets:
+    apples: all
+    lumber: all
+- !event/monthly_tick
+  date: 2018-3-1 00:00:00 +0000
+- !event/pend
+  date: 2018-3-1 4:14:00 -0800
+  actor: Corona
+- !event/weekly_tick
+  date: 2018-3-5 00:00:00 +0000
+- !event/destroy
+  date: 2018-3-4 17:55:00 -0800
+  actor: Kenyon
+  assets:
+    apples: 8
+  desc: to move around and be that one guy
+- !event/transfer
+  date: 2018-3-4 17:55:00 -0800
+  actor: Kenyon
+  from: !land -1,-1
+  assets:
+    stones: all
+    ore: all
+  to: Kenyon
+- !event/transfer
+  date: 2018-3-4 17:55:00 -0800
+  actor: Kenyon
+  from: !land +1,+1
+  assets:
+    stones: all
+    ore: all
+  to: Kenyon
+- !event/transfer
+  date: 2018-3-4 17:55:00 -0800
+  actor: Kenyon
+  from: !land +1,-1
+  assets:
+    corn: all
+    cotton: all
+  to: Kenyon
+- !event/transfer
+  date: 2018-3-4 17:55:00 -0800
+  actor: Kenyon
+  from: !land -1,+1
+  assets:
+    apples: all
+    lumber: all
+  to: Kenyon

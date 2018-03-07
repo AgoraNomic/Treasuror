@@ -1,202 +1,276 @@
 ---
 omd: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: omd
+  cards: {}
+  offices: {}
 o: !entity/player
   stones: 5
-  apples: 10
-  corn: 0
+  apples: 15
+  corn: 1
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 25
+  papers: 5
   fabric: 0
   name: o
+  cards: {}
+  offices:
+    Notary:
+    - !ruby/range
+      begin: 2017-10-21 17:00:00.000000000 -07:00
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
 Aris: !entity/player
   stones: 5
-  apples: 10
-  corn: 0
+  apples: 15
+  corn: 2
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 30
+  papers: 5
   fabric: 0
   name: Aris
+  cards: {}
+  offices:
+    Promotor:
+    - !ruby/range
+      begin: 2016-10-20 17:00:00.000000000 -07:00
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
+    Regkeepor:
+    - !ruby/range
+      begin: 2017-07-05 17:00:00.000000000 -07:00
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
 天火狐: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: 天火狐
+  cards: {}
+  offices: {}
 Quazie: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: Quazie
+  cards: {}
+  offices: {}
 Publius Scribonius Scholasticus: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: Publius Scribonius Scholasticus
+  cards: {}
+  offices: {}
 Gaelan: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: Gaelan
+  cards: {}
+  offices:
+    Treasuror:
+    - !ruby/range
+      begin: 2018-02-25 01:35:12.000000000 Z
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
 nichdel: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: nichdel
+  cards: {}
+  offices: {}
 G.: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: G.
+  cards:
+    Referee: 2018-02-28 12:48:00.000000000 -08:00
+  offices:
+    Assessor:
+    - !ruby/range
+      begin: 2018-02-27 16:35:08.000000000 Z
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
+    Registrar:
+    - !ruby/range
+      begin: 2018-02-27 16:35:08.000000000 Z
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
 CuddleBeam: !entity/player
   stones: 11
-  apples: 5
+  apples: 3
   corn: 3
   ore: 4
   lumber: 8
   cotton: 3
-  coins: 10
-  papers: 2
+  coins: 20
+  papers: 4
   fabric: 0
   name: CuddleBeam
+  cards: {}
+  offices: {}
 ATMunn: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: ATMunn
+  cards: {}
+  offices: {}
 Trigon: !entity/player
   stones: 5
-  apples: 10
-  corn: 0
-  ore: 0
-  lumber: 5
-  cotton: 0
-  coins: 5
-  papers: 3
-  fabric: 0
-  name: Trigon
-Alexis: !entity/player
-  stones: 5
-  apples: 10
-  corn: 0
-  ore: 0
-  lumber: 5
-  cotton: 0
-  coins: 10
-  papers: 3
-  fabric: 0
-  name: Alexis
-Telnaior: !entity/player
-  stones: 5
-  apples: 10
-  corn: 0
-  ore: 0
-  lumber: 5
-  cotton: 0
-  coins: 10
-  papers: 3
-  fabric: 0
-  name: Telnaior
-Corona: !entity/player
-  stones: 5
-  apples: 6
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
   coins: 15
-  papers: 3
+  papers: 5
+  fabric: 0
+  name: Trigon
+  cards: {}
+  offices:
+    Cartographor:
+    - !ruby/range
+      begin: 2018-02-24 15:45:47.000000000 Z
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
+Telnaior: !entity/player
+  stones: 5
+  apples: 15
+  corn: 1
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 25
+  papers: 5
+  fabric: 0
+  name: Telnaior
+  cards: {}
+  offices:
+    Tailor:
+    - !ruby/range
+      begin: 2017-12-06 16:00:00.000000000 -08:00
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
+Corona: !entity/player
+  stones: 5
+  apples: 11
+  corn: 1
+  ore: 0
+  lumber: 5
+  cotton: 0
+  coins: 30
+  papers: 4
   fabric: 0
   name: Corona
+  cards: {}
+  offices:
+    Herald:
+    - !ruby/range
+      begin: 2017-11-29 16:00:00.000000000 -08:00
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
 pokes: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: pokes
+  cards: {}
+  offices: {}
 Murphy: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: Murphy
+  cards: {}
+  offices: {}
 VJ Rada: !entity/player
   stones: 5
-  apples: 10
+  apples: 15
   corn: 0
   ore: 0
   lumber: 5
   cotton: 0
-  coins: 10
-  papers: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: VJ Rada
+  cards: {}
+  offices:
+    Reportor:
+    - !ruby/range
+      begin: 2018-03-01 15:56:34.000000000 Z
+      end: 3000-01-01 00:00:00.000000000 -08:00
+      excl: false
 !land -1,-1: !entity/facility/mine
   stones: 0
   apples: 0
@@ -246,13 +320,15 @@ VJ Rada: !entity/player
   location: !land 1,-1
   rank: 1
 Kenyon: !entity/player
-  stones: 5
+  stones: 11
   apples: 10
-  corn: 0
-  ore: 0
-  lumber: 5
-  cotton: 0
-  coins: 10
-  papers: 3
+  corn: 3
+  ore: 4
+  lumber: 8
+  cotton: 3
+  coins: 20
+  papers: 5
   fabric: 0
   name: Kenyon
+  cards: {}
+  offices: {}

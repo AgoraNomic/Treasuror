@@ -21,11 +21,16 @@ module Treasuror
 
 		class Init < Base
 			yaml_tag '!event/init'
-			attr_reader :date, :players
+			attr_reader :date, :players, :offices
 
 			def apply(entities)
 				players.each do |name|
 					entities[name] = Player.new(name)
+				end
+				offices.each do |name, o|
+					o.each do |office, start_date|
+						entities[name].offices[office] += [start_date..Time.new('3000-01-01')]
+					end
 				end
 				entities[LandUnit.new(-1, -1)] = Facility::Mine.new(LandUnit.new(-1, -1))
 				entities[LandUnit.new(+1, +1)] = Facility::Mine.new(LandUnit.new(+1, +1))
@@ -109,7 +114,7 @@ module Treasuror
 			attr_reader :date
 
 			def apply(entities)
-				entities.values.each(&:weekly_tick)
+				entities.values.each { |e| e.weekly_tick(date) }
 			end
 
 			def to_s
@@ -117,14 +122,27 @@ module Treasuror
 			end
 		end
 
+		class MonthlyTick < Base
+			yaml_tag '!event/monthly_tick'
+			attr_reader :date
+
+			def apply(entities)
+				entities.values.each { |e| e.monthly_tick(date) }
+			end
+
+			def to_s
+				"new month begins (payday)"
+			end
+		end
+
 		class Checkpoint < Base
 			yaml_tag '!event/checkpoint'
-			attr_reader :hash
+			attr_reader :date, :hash
 
 			def apply(entities)
 				actual_hash = Digest::SHA1.hexdigest(YAML.dump(entities))
 				unless actual_hash == hash
-					throw "Checkpoint failed. Expected: #{hash}. Actual: #{actual_hash}"
+					raise "Checkpoint failed. Expected: #{hash}. Actual: #{actual_hash}"
 				end
 			end
 
@@ -143,6 +161,32 @@ module Treasuror
 
 			def to_s
 				"#{actor} destroyed 1 paper to pend #{title}"
+			end
+		end
+
+		class Card < Base
+			yaml_tag '!event/card'
+			attr_reader :date, :target, :office
+
+			def apply(entities)
+				entities[target].card(office, date)
+			end
+
+			def to_s
+				"#{target} was carded for a violation related to the office of #{office} (no salary next month)"
+			end
+		end
+
+		class Deregister < Base
+			yaml_tag '!event/deregister'
+			attr_reader :date, :actor, :targets
+
+			def apply(entities)
+				targets.each { |t| entities.delete(t) }
+			end
+
+			def to_s
+				"#{actor} deregistered #{targets.join(', ')}"
 			end
 		end
 	end

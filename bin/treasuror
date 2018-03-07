@@ -20,7 +20,7 @@ class Treasuror::CLI < Thor
 
 	desc "report", "Print out a report."
 	def report
-		puts Treasuror::Report.text_message
+		puts Treasuror::Report.text
 	end
 
 	desc "build", "Build the HTML report and current state YAML file"

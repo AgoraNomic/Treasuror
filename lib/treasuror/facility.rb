@@ -29,6 +29,9 @@ module Treasuror
 			"#{self.type} at #{location}"
 		end
 
+		def monthly_tick(_)
+		end
+
 		def sort_order
 			1
 		end
@@ -37,7 +40,7 @@ module Treasuror
 	class Facility::Farm < Facility
 		yaml_tag '!entity/facility/farm'
 		def type; 'farm'; end
-		def weekly_tick
+		def weekly_tick(_)
 			self.cotton += rank * 3
 			self.corn += rank * 3
 		end
@@ -45,7 +48,7 @@ module Treasuror
 	class Facility::Orchard < Facility
 		yaml_tag '!entity/facility/orchard'
 		def type; 'orchard'; end
-		def weekly_tick
+		def weekly_tick(_)
 			self.apples += rank * 3
 			self.lumber += rank * 3
 		end
@@ -53,7 +56,7 @@ module Treasuror
 	class Facility::Mine < Facility
 		yaml_tag '!entity/facility/mine'
 		def type; 'mine'; end
-		def weekly_tick
+		def weekly_tick(_)
 			self.stones += rank * 3
 			self.ore += rank * 2
 		end
