@@ -18,6 +18,6 @@ module Treasuror
 	end
 
 	def self.log
-		(YAML.load_file('log.yaml') + ADoP.log).sort_by(&:date)
+		(YAML.load_file('log.yaml') + ADoP.log).sort_by.with_index { |x, idx| [x.date, idx] }
 	end
 end

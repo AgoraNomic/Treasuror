@@ -196,19 +196,6 @@ CuddleBeam: !entity/player
   name: CuddleBeam
   cards: {}
   offices: {}
-ATMunn: !entity/player
-  stones: 5
-  apples: 15
-  corn: 0
-  ore: 0
-  lumber: 5
-  cotton: 0
-  coins: 20
-  papers: 5
-  fabric: 0
-  name: ATMunn
-  cards: {}
-  offices: {}
 Trigon: !entity/player
   stones: 5
   apples: 15

@@ -12,7 +12,6 @@
     - nichdel
     - G.
     - CuddleBeam
-    - ATMunn
     - Trigon
     - Alexis
     - Telnaior
@@ -44,7 +43,6 @@
     - nichdel
     - G.
     - CuddleBeam
-    - ATMunn
     - Trigon
     - Alexis
     - Telnaior
@@ -54,7 +52,7 @@
     - VJ Rada
 - !event/checkpoint
   date: 2018-2-25 00:00:00 -0800
-  hash: fc4ba3963b9de32961d5c42665c46b98aa024750
+  hash: b05346d6771eb06c86bc79a9c380558fd1c70a2b
 - !event/weekly_tick
   date: 2018-2-26 00:00:00 +0000
 - !event/destroy
@@ -236,3 +234,6 @@
   assets:
     lumber: 3
   to: Murphy
+- !event/checkpoint
+  date: 2018-3-6 23:49:00 -0800
+  hash: 9fb9d5b66a7da4163782e1ef1f19f7379f160b43

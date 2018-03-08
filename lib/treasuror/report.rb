@@ -10,8 +10,7 @@ module Treasuror::Report
 		table = TTY::Table.new(
 			header: %w(Entity Ston Appl Corn Ore Lmbr Cotn Coin Papr Fabr),
 			rows: Treasuror.current_state.values
-				.sort_by(&:name)
-				.sort_by(&:sort_order)
+				.sort_by {|x| [x.sort_order, x.name] }
 				.map do |entity| 
 					[
 						entity.name,

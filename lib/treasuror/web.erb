@@ -27,8 +27,8 @@
 	<% end %>
 	</tr></thead><tbody>
 	<% Treasuror.current_state.values
-				.sort_by(&:name)
-				.sort_by(&:sort_order).each do |player| %>
+				.sort_by { |x| [x.sort_order, x.name] }
+				.each do |player| %>
 		<tr>
 		<% [
 			player.name,
