@@ -60,7 +60,7 @@
   actor: CuddleBeam
   assets:
     apples: 8
-  desc: to move around and loot facilities
+  purpose: to move around and loot facilities
 - !event/transfer
   date: 2018-2-26 10:46:00 -0800
   actor: CuddleBeam
@@ -98,7 +98,7 @@
   actor: Corona
   assets:
     apples: 4
-  desc: to move around in an attempt to loot facilities
+  purpose: to move around in an attempt to loot facilities
 - !event/transfer
   date: 2018-2-26 10:50:00 -0800
   actor: Corona
@@ -149,7 +149,7 @@
   actor: CuddleBeam
   assets:
     apples: 7
-  desc: to move around to grab all the nonexistent new items
+  purpose: to move around to grab all the nonexistent new items
 - !event/transfer
   date: 2018-2-28 19:14:00 -0800
   actor: CuddleBeam
@@ -194,7 +194,7 @@
   actor: Kenyon
   assets:
     apples: 8
-  desc: to move around and be that one guy
+  purpose: to move around and be that one guy
 - !event/transfer
   date: 2018-3-4 17:55:00 -0800
   actor: Kenyon
@@ -237,3 +237,150 @@
 - !event/checkpoint
   date: 2018-3-6 23:49:00 -0800
   hash: 9fb9d5b66a7da4163782e1ef1f19f7379f160b43
+- !event/register
+  date: 2018-3-11 7:58:00 -0800
+  actor: ATMunn
+- !event/welcome_packages
+  date: 2018-3-11 7:58:00 -0800
+  actor: ATMunn
+  targets:
+    - ATMunn
+- !event/weekly_tick
+  date: 2018-3-12 00:00:00 +0000
+- !event/transfer
+  date: 2018-3-11 17:12:00 -0800
+  actor: Kenyon
+  from: !land -1,-1
+  assets: all
+  to: Kenyon
+- !event/conditional
+  date: 2018-3-11 17:28:00 -0800
+  condition: !condition/has_assets
+    entity: !land -1,-1
+    assets: any
+  action: !event/destroy
+    actor: Aris
+    assets:
+      apples: 2
+- !event/conditional
+  date: 2018-3-11 17:28:00 -0800
+  condition: !condition/has_assets
+    entity: !land -1,-1
+    assets: any
+  action: !event/transfer
+    actor: Aris
+    from: !land -1,-1
+    assets: all
+    to: Aris
+- !event/conditional
+  date: 2018-3-12 08:28:00 -0800
+  condition: !condition/and
+    conditions:
+      - !condition/entity_exists
+        entity: !land +1,+1
+        type: mine
+      - !condition/has_assets
+        entity: !land +1,+1
+        assets: any
+  action: !event/destroy
+    actor: Corona
+    assets:
+      apples: 2
+- !event/conditional
+  date: 2018-3-12 08:28:00 -0800
+  condition: !condition/and
+    conditions:
+      - !condition/entity_exists
+        entity: !land +1,+1
+        type: mine
+      - !condition/has_assets
+        entity: !land +1,+1
+        assets: any
+  action: !event/transfer
+    actor: Corona
+    from: !land +1,+1
+    assets: all
+    to: Corona
+- !event/pend
+  date: 2018-3-16 10:06:00 -0800
+  actor: ATMunn
+  title: PAoaM Patch
+- !event/conditional
+  date: 2018-3-16 14:05:00 -0800
+  condition: !condition/not_pending
+    proposal: PAoaM Patch
+  action: !event/pend
+    actor: Kenyon
+    title: PAoaM Patch
+- !event/weekly_tick
+  date: 2018-3-19 00:00:00 +0000
+- !event/conditional
+  date: 2018-3-18 17:17:00 -0800
+  condition: !condition/has_assets
+    entity: !land -1,1
+    assets: any
+  action: !event/transfer
+    actor: Kenyon
+    from: !land -1,1
+    assets: all
+    to: Kenyon
+- !event/transfer
+  date: 2018-3-18 5:18:00 -0800
+  actor: Aris
+  from: !land -1,-1
+  assets: all
+  to: Aris
+- !event/transfer
+  date: 2018-3-19 7:37:00 -0800
+  actor: CuddleBeam
+  from: !land +1,-1
+  assets: all
+  to: CuddleBeam
+- !event/transfer
+  date: 2018-3-19 14:56:00 -0800
+  actor: Corona
+  from: !land +1,+1
+  assets: all
+  to: Corona
+- !event/weekly_tick
+  date: 2018-3-26 00:00:00 +0000
+- !event/pend
+  date: 2018-3-26 6:21:00 -0800
+  actor: ATMunn
+  title: Free Tournaments
+- !event/pend
+  date: 2018-3-19 6:24:00 -0800
+  actor: G.
+  title: Blots v1.0
+- !event/monthly_tick
+  date: 2018-4-1 00:00:00 -0000
+- !event/pend
+  date: 2018-4-1 14:46:00 -0800
+  actor: Gaelan
+  title: Cross-Polination
+- !event/weekly_tick
+  date: 2018-4-2 00:00:00 +0000
+- !event/checkpoint
+  date: 2018-4-1 18:00:00 -0800
+  hash: 10a71501e4061a64d46797463a1821be94b6adbb
+- !event/behalf
+  date: 2018-4-1 23:38:00 -0800
+  actor: G.
+  via: zombification
+  action: !event/transfer
+    actor: omd
+    from: omd
+    assets: all
+    to: G.
+- !event/transfer
+  date: 2018-4-2 9:24:00 -0800
+  actor: Kenyon
+  from: !land -1,1
+  assets: all
+  to: Kenyon
+- !event/transfer
+  date: 2018-4-2 9:52:00 -0800
+  actor: Corona
+  from: !land 1,1
+  assets: all
+  to: Corona

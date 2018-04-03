@@ -55,7 +55,7 @@ module Treasuror
 				@desc = desc
 			end
 
-			def apply(entities)
+			def apply(entities, state)
 				entities.each do |_, e|
 					if e.respond_to? :offices
 						e.offices.delete(office)
@@ -63,7 +63,9 @@ module Treasuror
 				end
 			end
 
-			alias to_s desc
+			def desc(entites, state)
+				@desc
+			end
 		end
 
 		class Resign < Event::Base
@@ -76,17 +78,19 @@ module Treasuror
 				@desc = desc
 			end
 
-			def apply(entities)
+			def apply(entities, state)
 				return unless entities[actor]
 				ranges = entities[actor].offices[office]
 				ranges[ranges.length - 1] = (ranges.last.begin..date)
 			end
 
-			alias to_s desc
+			def desc(entities, state)
+				@desc
+			end
 		end
 
 		class GainOffice < Event::Base
-			attr_reader :date, :actor, :office, :desc
+			attr_reader :date, :actor, :office
 
 			def initialize(date:,actor:,office:,desc:)
 				@date = date
@@ -95,7 +99,7 @@ module Treasuror
 				@desc = desc
 			end
 
-			def apply(entities)
+			def apply(entities, state)
 				return unless entities[office_recipient]
 				entities.each do |_, e|
 					if e.respond_to? :offices
@@ -108,7 +112,9 @@ module Treasuror
 				entities[office_recipient].offices[office] += [date..Time.new('3000-01-01')]
 			end
 
-			alias to_s desc
+			def desc(entites, state)
+				@desc
+			end
 		end
 
 		class GainOfficeSelf < GainOffice

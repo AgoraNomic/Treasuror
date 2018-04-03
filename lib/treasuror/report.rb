@@ -37,8 +37,8 @@ Fabr = fabric
 
 		history_header = "Recent changes (most recent first, times in UTC):"
 
-		history = Treasuror.log.find_all(&:show_in_history?).reverse.take(100).map do |event|
-			"[#{event.date.getutc.strftime("%a %b %d %H:%M")}] #{event}"
+		history = Treasuror.history.reverse.take(100).map do |event, desc|
+			"[#{event.date.getutc.strftime("%a %b %d %H:%M")}] #{desc}"
 		end.join("\n")
 
 		text_table + "\n\n" + table_footer.strip + "\n\n" + history_header + "\n" + history

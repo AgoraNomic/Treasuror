@@ -1,12 +1,11 @@
 module Treasuror; end
 
 class Treasuror::Entity
-	attr_accessor :stones, :apples, :corn
-	attr_accessor :ore, :lumber, :cotton
-	attr_accessor :coins, :papers, :fabric
+	ASSET_TYPES = %i[stones apples corn ore lumber cotton coins papers fabric]
+	attr_accessor *ASSET_TYPES
 
 	def initialize
-		%i[stones apples corn ore lumber cotton coins papers fabric].each do |currency|
+		ASSET_TYPES.each do |currency|
 			self[currency] = 0
 		end
 	end

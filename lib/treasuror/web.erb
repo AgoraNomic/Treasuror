@@ -43,12 +43,12 @@
 	</tbody></table>
 	<h2>Recent changes</h2>
 	<ul id="history">
-		<% Treasuror.log.find_all(&:show_in_history?).reverse.take(100).each do |event| %>
+		<% Treasuror.history.reverse.take(100).map do |event, desc| %>
 		<li>
 			<span class="badge badge-secondary" data-date="<%= (event.date.to_f * 1000).to_i %>">
 			<%= event.date.getutc.strftime("%a %b %d %H:%M") %> UTC
 			</span>
-			<%= event %>
+			<%= desc %>
 		</li>
 		<% end %>
 	</ul>
