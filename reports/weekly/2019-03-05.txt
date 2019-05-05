@@ -1,0 +1,392 @@
+Date of this weekly report: 2019-03-05
+Date of last weekly report: 2019-02-18
+
+
+DISCLAIMER
+========================================================================
+This report may be partially incorrect in that, while compiling it, I
+used the incorrect assumption that Rule 2124/22 functions as intended.
+
+
+ASSET INDEX
+========================================================================
+This section does not self-ratify.
+
+   Asset class    Recordkeepor        Ownership
+   -----------    ----------------    -------------------------
+   Coins          Treasuror (twg)     Agora, players, contracts
+   Balloons       Clork (twg)         Players
+   Favours        Clork (twg)         Players
+   Blots          Referee (twg)       Persons
+   Spaceships     Astronomor (twg)    Players
+   Energy         Astronomor (twg)    Spaceships
+
+
+COIN BALANCES
+========================================================================
+This section self-ratifies.
+
+   Coins    Active player
+   -----    -------------
+     116    ATMunn
+      85    Aris
+      20    Baron von Vaderham
+      44    CuddleBeam
+     881    D. Margaux
+      20    Falsifian
+     593    G.
+      60    Gaelan
+      88    Jacob Arduino
+     137    Murphy
+      76    omd
+      30    Telnaior
+     370    Trigon
+     707    twg
+      59    V.J. Rada
+
+   Coins    Zombie
+   -----    ------
+      10    Corona
+      10    Hālian
+      20    L.
+      10    nichdel
+      10    Publius Scribonius Scholasticus
+      55    Tarhalindur
+
+   Coins    Non-player entity
+   -----    -----------------
+    1172    Agora
+      87    Lost and Found Department
+
+
+RECENT HISTORY
+========================================================================
+This section is purely informational and does not self-ratify.
+
+Entity             Change  Date (UTC)        Reason
+------------------------------------------------------------------------
+Murphy             +  5c.  2019-03-03 18:55  Reward (ADoP weekly)
+G.                 +  5c.  2019-03-03 18:09  Reward (Herald weekly)
+Tarhalindur        + 10c.  2019-03-01 00:00  Payday
+P.S.S.             + 10c.  2019-03-01 00:00  Payday
+nichdel            + 10c.  2019-03-01 00:00  Payday
+L.                 + 10c.  2019-03-01 00:00  Payday
+Hālian             + 10c.  2019-03-01 00:00  Payday
+Corona             + 10c.  2019-03-01 00:00  Payday
+V.J. Rada          + 10c.  2019-03-01 00:00  Payday
+twg                + 35c.  2019-03-01 00:00  Payday (Assessor etc.)
+Trigon             + 15c.  2019-03-01 00:00  Payday (Rulekeepor)
+Telnaior           + 10c.  2019-03-01 00:00  Payday
+omd                + 15c.  2019-03-01 00:00  Payday (Distributor)
+Murphy             + 15c.  2019-03-01 00:00  Payday (ADoP)
+Jacob Arduino      + 10c.  2019-03-01 00:00  Payday
+Gaelan             + 10c.  2019-03-01 00:00  Payday
+G.                 + 15c.  2019-03-01 00:00  Payday (Herald)
+Falsifian          + 10c.  2019-03-01 00:00  Payday
+D. Margaux         + 20c.  2019-03-01 00:00  Payday (Arbitor, Registrar)
+CuddleBeam         + 10c.  2019-03-01 00:00  Payday
+von Vaderham       + 10c.  2019-03-01 00:00  Payday
+Aris               + 15c.  2019-03-01 00:00  Payday (Promotor)
+ATMunn             + 10c.  2019-03-01 00:00  Payday
+D. Margaux         +  5c.  2019-02-24 23:49  Reward (CFJ 3719)
+D. Margaux         +  5c.  2019-02-24 23:49  Reward (CFJ 3718)
+D. Margaux         +  5c.  2019-02-24 23:49  Reward (CFJ 3701)
+D. Margaux         +  7c.  2019-02-24 23:49  Reward (Proposal 8160)
+D. Margaux         +  5c.  2019-02-24 23:49  Reward (Proposal 8153)
+Murphy             +  5c.  2019-02-24 20:17  Reward (ADoP weekly)
+D. Margaux         +  5c.  2019-02-20 18:48  Reward (Registrar weekly)
+-- time of last report --
+D. Margaux         +  5c.  2019-02-15 15:32  Reward (CFJ ????)
+Agora              + 10c.  2019-02-14 12:24  Transfer from CuddleBeam
+CuddleBeam         - 10c.  2019-02-14 12:24  Transfer to Agora
+D. Margaux         +  5c.  2019-02-13 22:54  Reward (CFJ ????)
+G.                 +  5c.  2019-02-13 15:24  Reward (CFJ 3708)
+G.                 +  5c.  2019-02-13 15:24  Reward (CFJ 3705)
+Falsifian          + 10c.  2019-02-13 00:59  Welcome Package
+D. Margaux         +  5c.  2019-02-12 21:22  Reward (CFJ 3702)
+D. Margaux         +  5c.  2019-02-12 14:57  Reward (Registrar monthly)
+D. Margaux         +  5c.  2019-02-12 14:57  Reward (Registrar weekly)
+D. Margaux         -  2c.  2019-02-11 23:20  Payment for Favour
+D. Margaux         -  2c.  2019-02-11 23:20  Payment for Favour
+D. Margaux         -  2c.  2019-02-11 23:20  Payment for Favour
+D. Margaux         -  2c.  2019-02-11 23:20  Payment for Favour
+twg                +  5c.  2019-02-11 22:55  Reward (Clork weekly)
+twg                +  5c.  2019-02-11 22:55  Reward (Referee weekly)
+Jacob Arduino      + 40c.  2019-02-10 13:16  Transfer from nichdel
+nichdel            - 40c.  2019-02-10 13:16  Transfer to Jacob Arduino
+Agora              +  2c.  2019-02-10 13:16  Transfer from Jacob Arduino
+Jacob Arduino      -  2c.  2019-02-10 13:16  Transfer to Agora
+Trigon             + 43c.  2019-02-09 00:38  Transfer from P.S.S.
+P.S.S.             - 43c.  2019-02-09 00:38  Transfer to Trigon
+Agora              +  5c.  2019-02-09 00:38  Transfer from Trigon
+Trigon             -  5c.  2019-02-09 00:38  Transfer to Agora
+twg                + 76c.  2019-02-07 22:25  Transfer from Corona
+Corona             - 76c.  2019-02-07 22:25  Transfer to twg
+Agora              +  1c.  2019-02-07 22:25  Transfer from twg
+twg                -  1c.  2019-02-07 22:25  Transfer to Agora
+D. Margaux         +  5c.  2019-02-07 18:15  Reward (Registrar weekly)
+D. Margaux         +  5c.  2019-02-07 18:15  Reward (Arbitor weekly)
+G.                 + 45c.  2019-02-07 15:16  Transfer from Hālian
+Hālian             - 45c.  2019-02-07 15:16  Transfer to G.
+Agora              + 10c.  2019-02-07 15:16  Transfer from G.
+G.                 - 10c.  2019-02-07 15:16  Transfer to Agora
+D. Margaux         +  5c.  2019-02-05 12:01  Reward (Registrar weekly)
+von Vaderham       + 10c.  2019-02-04 20:45  Welcome Package
+Lost & Found       + 30c.  2019-02-03 21:25  Deregistration of pokes
+pokes              - 30c.  2019-02-03 21:25  Deregistration
+Lost & Found       + 10c.  2019-02-03 21:25  Deregistration of 天火狐
+天火狐              - 10c.  2019-02-03 21:25  Deregistration
+Trigon             +  5c.  2019-02-02 22:00  Reward (CFJ 3699)
+Trigon             +  5c.  2019-02-02 22:00  Reward (Rulekeepor weekly)
+Trigon             +  5c.  2019-02-02 22:00  Reward (Rulekeepor weekly)
+twg                +  5c.  2019-02-02 14:45  Reward (Tailor monthly)
+天火狐              + 10c.  2019-02-01 00:00  Payday
+P.S.S.             + 10c.  2019-02-01 00:00  Payday
+pokes              + 10c.  2019-02-01 00:00  Payday
+nichdel            + 10c.  2019-02-01 00:00  Payday
+L.                 + 10c.  2019-02-01 00:00  Payday
+Hālian             + 10c.  2019-02-01 00:00  Payday
+Corona             + 10c.  2019-02-01 00:00  Payday
+V.J. Rada          + 10c.  2019-02-01 00:00  Payday
+twg                + 40c.  2019-02-01 00:00  Payday (Assessor etc.)
+Trigon             + 15c.  2019-02-01 00:00  Payday (Rulekeepor)
+Telnaior           + 10c.  2019-02-01 00:00  Payday
+Tarhalindur        + 10c.  2019-02-01 00:00  Payday
+omd                + 15c.  2019-02-01 00:00  Payday (Distributor)
+Murphy             + 15c.  2019-02-01 00:00  Payday (ADoP)
+Jacob Arduino      + 10c.  2019-02-01 00:00  Payday
+Gaelan             + 10c.  2019-02-01 00:00  Payday
+G.                 + 15c.  2019-02-01 00:00  Payday (Herald)
+D. Margaux         + 20c.  2019-02-01 00:00  Payday (Registrar, Speaker)
+CuddleBeam         + 10c.  2019-02-01 00:00  Payday
+Aris               + 15c.  2019-02-01 00:00  Payday (Promotor)
+ATMunn             + 15c.  2019-02-01 00:00  Payday (P.M.)
+G.                 +  5c.  2019-01-30 21:??  Reward (CFJ 3698)
+twg                +  5c.  2019-01-29 17:45  Reward (Clork weekly)
+twg                +  5c.  2019-01-29 17:45  Reward (Astronomor weekly)
+twg                +  5c.  2019-01-29 17:45  Reward (Referee weekly)
+twg                +  5c.  2019-01-29 17:45  Reward (Treasuror weekly)
+D. Margaux         +  5c.  2019-01-29 17:17  Reward (Registrar weekly)
+D. Margaux         +  5c.  2019-01-29 17:17  Reward (Arbitor weekly)
+twg                +  2c.  2019-01-29 16:43  Reward (Proposal 8151)
+twg                +  4c.  2019-01-29 16:43  Reward (Proposal 8149)
+Telnaior           + 10c.  2019-01-29 15:43  Welcome Package
+Lost & Found       + 10c.  2019-01-29 15:37  Deregistration of Telnaior
+Telnaior           - 10c.  2019-01-29 15:37  Deregistration
+Telnaior           + 10c.  2019-01-29 15:18  Welcome Package
+twg                +  5c.  2019-01-22 10:39  Reward (Clork weekly)
+twg                +  5c.  2019-01-22 10:39  Reward (Astronomor weekly)
+twg                +  5c.  2019-01-22 10:39  Reward (Referee weekly)
+twg                +  5c.  2019-01-22 10:39  Reward (Treasuror weekly)
+Aris               +  5c.  2019-01-22 08:03  Reward (Promotor weekly)
+D. Margaux         +  5c.  2019-01-20 16:33  Reward (Arbitor weekly)
+D. Margaux         +  5c.  2019-01-20 16:33  Reward (CFJ 3694)
+Trigon             +  5c.  2019-01-18 23:32  Reward (Rulekeepor monthly)
+Trigon             +  5c.  2019-01-18 23:32  Reward (Rulekeepor weekly)
+Trigon             +  5c.  2019-01-15 22:48  Reward (Proposal 8144)
+Trigon             +  5c.  2019-01-15 22:48  Reward (Proposal 8143)
+D. Margaux         + 35c.  2019-01-15 16:49  Transfer from L.
+L.                 - 35c.  2019-01-15 16:49  Transfer to D. Margaux
+Agora              + 10c.  2019-01-15 16:49  Transfer from D. Margaux
+D. Margaux         - 10c.  2019-01-15 16:49  Transfer to Agora
+Lost & Found       + 25c.  2019-01-15 18:28  Deregistration of Telnaior
+Telnaior           - 25c.  2019-01-15 18:28  Deregistration
+twg                +  5c.  2019-01-15 13:53  Reward (Proposal 8141)
+twg                +  4c.  2019-01-15 13:53  Reward (Proposal 8140)
+twg                + 18c.  2019-01-15 13:53  Reward (Proposal 8139)
+twg                + 14c.  2019-01-15 13:53  Reward (Proposal 8142)
+twg                +  5c.  2019-01-15 13:53  Reward (Astronomor weekly)
+twg                +  5c.  2019-01-15 13:53  Reward (Clork weekly)
+twg                -  2c.  2019-01-15 13:45  Payment for Energy
+twg                -  2c.  2019-01-15 13:45  Payment for Energy
+天火狐              -  2c.  2019-01-15 13:45  Payment for Energy
+天火狐              -  2c.  2019-01-15 13:45  Payment for Energy
+天火狐              -  2c.  2019-01-15 13:45  Payment for Energy
+天火狐              -  2c.  2019-01-15 13:45  Payment for Energy
+天火狐              -  2c.  2019-01-15 13:45  Payment for Energy
+天火狐              -  2c.  2019-01-15 13:45  Payment for Energy
+天火狐              -  2c.  2019-01-15 13:45  Payment for Energy
+天火狐              + 14c.  2019-01-15 13:45  Transfer from twg
+twg                - 14c.  2019-01-15 13:24  Transfer to 天火狐
+ATMunn             +  5c.  2019-01-15 13:24  Transfer from twg
+twg                -  5c.  2019-01-15 13:24  Transfer to ATMunn
+ATMunn             +  5c.  2019-01-15 13:24  Transfer from twg
+twg                -  5c.  2019-01-15 13:24  Transfer to ATMunn
+ATMunn             +  5c.  2019-01-15 13:24  Transfer from twg
+twg                -  5c.  2019-01-15 13:24  Transfer to ATMunn
+ATMunn             +  5c.  2019-01-15 13:24  Transfer from twg
+twg                -  5c.  2019-01-15 13:24  Transfer to ATMunn
+ATMunn             +  5c.  2019-01-15 13:24  Transfer from twg
+twg                -  5c.  2019-01-15 13:24  Transfer to ATMunn
+twg                +  5c.  2019-01-14 09:37  Reward (Referee weekly)
+twg                +  5c.  2019-01-14 09:37  Reward (Treasuror weekly)
+Trigon             +  5c.  2019-01-13 22:55  Reward (Rulekeepor weekly)
+D. Margaux         +  5c.  2019-01-13 18:40  Reward (Registrar weekly)
+Murphy             +  5c.  2019-01-13 18:14  Reward (ADoP weekly)
+twg                + 10c.  2019-01-08 16:38  Transfer from 天火狐
+天火狐              - 10c.  2019-01-08 16:38  Transfer to twg
+twg                +  5c.  2019-01-08 16:38  Reward (Tailor monthly)
+twg                +  5c.  2019-01-08 16:38  Reward (Referee weekly)
+twg                +  5c.  2019-01-08 16:38  Reward (Treasuror weekly)
+Aris               +  5c.  2019-01-07 07:55  Reward (Promotor weekly)
+twg                + 10c.  2019-01-07 08:16  Transfer from Aris
+Aris               - 10c.  2019-01-07 08:16  Transfer to twg
+D. Margaux         +  5c.  2019-01-07 01:06  Reward (Arbitor weekly)
+Murphy             +  5c.  2018-01-06 22:30  Reward (ADoP weekly)
+twg                + 10c.  2019-01-06 19:31  Transfer from Aris
+Aris               - 10c.  2019-01-06 19:31  Transfer to twg
+D. Margaux         +  5c.  2019-01-01 09:47  Reward (Arbitor weekly)
+V.J. Rada          + 10c.  2019-01-01 00:00  Payday
+twg                + 30c.  2019-01-01 00:00  Payday (Assessor etc.)
+Trigon             + 15c.  2019-01-01 00:00  Payday (Rulekeepor)
+天火狐              + 10c.  2019-01-01 00:00  Payday
+Telnaior           + 10c.  2019-01-01 00:00  Payday
+Tarhalindur        + 10c.  2019-01-01 00:00  Payday
+P.S.S.             + 10c.  2019-01-01 00:00  Payday
+pokes              + 10c.  2019-01-01 00:00  Payday
+omd                + 15c.  2019-01-01 00:00  Payday (Distributor)
+nichdel            + 10c.  2019-01-01 00:00  Payday
+Murphy             + 15c.  2019-01-01 00:00  Payday (ADoP)
+L.                 + 10c.  2019-01-01 00:00  Payday
+Jacob Arduino      + 10c.  2019-01-01 00:00  Payday
+Hālian             + 10c.  2019-01-01 00:00  Payday
+Gaelan             + 10c.  2019-01-01 00:00  Payday
+G.                 + 15c.  2019-01-01 00:00  Payday (Herald)
+D. Margaux         + 20c.  2019-01-01 00:00  Payday (Arbitor, Speaker)
+CuddleBeam         + 10c.  2019-01-01 00:00  Payday
+Corona             + 10c.  2019-01-01 00:00  Payday
+Aris               + 15c.  2019-01-01 00:00  Payday (Promotor)
+ATMunn             + 20c.  2019-01-01 00:00  Payday (P.M., Registrar)
+twg                +  5c.  2018-12-29 13:37  Reward (Treasuror weekly)
+twg                +  5c.  2018-12-29 13:37  Reward (Referee weekly)
+D. Margaux         +  5c.  2018-12-25 22:02  Reward (CFJ 3691)
+D. Margaux         +  5c.  2018-12-25 22:02  Reward (CFJ 3690)
+D. Margaux         +  5c.  2018-12-24 02:05  Reward (Arbitor weekly)
+G.                 +  5c.  2018-12-10 00:34  Reward (Herald weekly)
+twg                +  5c.  2018-12-10 00:21  Reward (Referee weekly)
+twg                +  5c.  2018-12-10 00:21  Reward (Treasuror weekly)
+D. Margaux         +  5c.  2018-12-10 00:08  Reward (Arbitor weekly)
+G.                 +  5c.  2018-12-08 19:19  Reward (Herald weekly)
+ATMunn             +  5c.  2018-12-08 18:44  Reward (Registrar monthly)
+D. Margaux         +  5c.  2018-12-03 14:31  Reward (Arbitor weekly)
+ATMunn             +  5c.  2018-12-03 01:01  Reward (Registrar weekly)
+Trigon             +  5c.  2018-12-03 00:17  Reward (Rulekeepor weekly)
+Trigon             + 10c.  2018-12-03 00:17  Reward (Proposal 8126)
+twg                + 10c.  2018-12-03 00:15  Transfer from 天火狐
+天火狐              - 10c.  2018-12-03 00:15  Transfer to twg
+twg                +  5c.  2018-12-03 00:15  Reward (Referee weekly)
+twg                +  5c.  2018-12-03 00:15  Reward (Tailor monthly)
+twg                +  5c.  2018-12-03 00:15  Reward (Treasuror weekly)
+Murphy             +  5c.  2018-12-01 22:47  Reward (ADoP weekly)
+V.J. Rada          + 10c.  2018-12-01 00:00  Payday
+twg                + 30c.  2018-12-01 00:00  Payday (Assessor etc.)
+Trigon             + 15c.  2018-12-01 00:00  Payday (Rulekeepor)
+天火狐              + 10c.  2018-12-01 00:00  Payday
+Telnaior           + 10c.  2018-12-01 00:00  Payday
+Tarhalindur        + 10c.  2018-12-01 00:00  Payday
+P.S.S.             + 10c.  2018-12-01 00:00  Payday
+pokes              + 10c.  2018-12-01 00:00  Payday
+omd                + 15c.  2018-12-01 00:00  Payday (Distributor)
+nichdel            + 10c.  2018-12-01 00:00  Payday
+Murphy             + 15c.  2018-12-01 00:00  Payday (ADoP)
+L.                 + 10c.  2018-12-01 00:00  Payday
+Jacob Arduino      + 10c.  2018-12-01 00:00  Payday
+Hālian             + 10c.  2018-12-01 00:00  Payday
+Gaelan             + 10c.  2018-12-01 00:00  Payday
+G.                 + 25c.  2018-12-01 00:00  Payday (Herald)
+D. Margaux         + 20c.  2018-12-01 00:00  Payday (Arbitor, Speaker)
+CuddleBeam         + 10c.  2018-12-01 00:00  Payday
+Corona             + 10c.  2018-12-01 00:00  Payday
+Aris               + 15c.  2018-12-01 00:00  Payday (Promotor)
+ATMunn             + 20c.  2018-12-01 00:00  Payday (P.M., Registrar)
+twg                +  5c.  2018-11-27 00:57  Reward (Referee weekly)
+twg                +  5c.  2018-11-27 00:57  Reward (Treasuror weekly)
+Aris               +  5c.  2018-11-25 22:36  Reward (Promotor weekly)
+Trigon             +  5c.  2018-11-25 22:35  Reward (Rulekeepor weekly)
+G.                 +  5c.  2018-11-25 22:29  Reward (Herald weekly)
+Murphy             +  5c.  2018-11-25 21:56  Reward (ADoP weekly)
+Trigon             + 72c.  2018-11-19 22:47  Reward (Proposal 8126)
+Trigon             + 18c.  2018-11-19 22:47  Reward (Proposal 8125)
+Trigon             + 26c.  2018-11-19 22:47  Reward (Proposal 8124)
+twg                +  5c.  2018-11-19 22:41  Reward (Referee weekly)
+twg                +  5c.  2018-11-19 22:39  Reward (Treasuror weekly)
+twg                + 80c.  2018-11-19 22:24  Transfer from 天火狐
+天火狐              - 80c.  2018-11-19 22:24  Transfer to twg
+天火狐              + 40c.  2018-11-19 22:24  Reward (Proposal 8131)
+twg                + 78c.  2018-11-19 22:24  Reward (Proposal 8129)
+Trigon             + 37c.  2018-11-19 22:22  Proposal 8127 ADOPTED
+天火狐              + 40c.  2018-11-19 22:22  Proposal 8131 ADOPTED
+twg                + 78c.  2018-11-19 22:22  Proposal 8129 ADOPTED
+Aris               +  5c.  2018-11-19 00:04  Judged CFJ 3674
+Murphy             +  5c.  2018-11-18 23:45  Judged CFJ 3689
+G.                 +  5c.  2018-11-16 20:01  Judged CFJ 3688
+Jacob Arduino      + 10c.  2018-11-12 16:02  Welcome Package
+nichdel            + 10c.  2018-11-12 00:21  Welcome Package
+Gaelan             + 10c.  2018-11-12 00:21  Transfer from nichdel
+nichdel            - 10c.  2018-11-12 00:21  Transfer to Gaelan
+nichdel            +  5c.  2018-11-12 00:21  Transfer from Gaelan
+Gaelan             -  5c.  2018-11-12 00:21  Transfer to nichdel
+Murphy             + 18c.  2018-11-13 01:13  Proposal 8122 ADOPTED
+G.                 + 15c.  2018-11-13 01:13  Proposal 8121 ADOPTED
+D. Margaux         +  8c.  2018-11-13 01:13  Proposal 8120 ADOPTED
+D. Margaux         + 16c.  2018-11-13 01:13  Proposal 8119 ADOPTED
+G.                 -  1c.  2018-11-13 01:13  Proposal 8118 REJECTED
+D. Margaux         +  6c.  2018-11-13 01:13  Proposal 8117 ADOPTED
+Trigon             + 11c.  2018-11-13 01:13  Proposal 8116 ADOPTED
+Aris               -  7c.  2018-11-13 01:13  Proposal 8115 REJECTED
+Trigon             +  3c.  2018-11-13 01:13  Proposal 8113 ADOPTED
+G.                 +  8c.  2018-11-13 01:13  Proposal 8112 ADOPTED
+Gaelan             +  3c.  2018-11-12 00:21  Transfer from ATMunn
+ATMunn             -  3c.  2018-11-12 00:21  Transfer to Gaelan
+ATMunn             +  3c.  2018-11-12 00:21  Transfer from Gaelan
+Gaelan             -  3c.  2018-11-12 00:21  Transfer to ATMunn
+Gaelan             +  1c.  2018-11-11 23:44  Transfer from ATMunn
+ATMunn             -  1c.  2018-11-11 23:44  Transfer to Gaelan
+Murphy             +  5c.  2018-11-11 17:37  Judged CFJ 3687
+D. Margaux         +  5c.  2018-11-10 20:05  Judged CFJ 3686
+D. Margaux         +  5c.  2018-11-10 20:05  Judged CFJ 3685
+G.                 +  9c.  2018-11-06 00:10  Transfer from pokes
+pokes              -  9c.  2018-11-06 00:10  Transfer to G.
+twg                +  8c.  2018-11-05 21:01  Transfer from 天火狐
+天火狐              -  8c.  2018-11-05 21:01  Transfer to twg
+Agora              + 13c.  2018-11-05 20:55  Zombie auction (天火狐)
+twg                - 13c.  2018-11-05 20:55  Zombie auction (天火狐)
+Agora              + 25c.  2018-11-05 15:12  Zombie auction (pokes)
+G.                 - 25c.  2018-11-05 15:12  Zombie auction (pokes)
+Trigon             +  5c.  2018-11-03 07:22  Judged CFJ 3684
+Trigon             +  5c.  2018-11-03 07:22  Judged CFJ 3683
+G.                 +  5c.  2018-11-02 17:45  Judged CFJ 3680
+G.                 +  5c.  2018-11-02 17:45  Judged CFJ 3679
+twg                +  5c.  2018-11-01 13:56  Judged CFJ 3677
+V.J. Rada          +  5c.  2018-11-01 00:00  Payday
+twg                + 25c.  2018-11-01 00:00  Payday (Assessor etc.)
+Trigon             + 10c.  2018-11-01 00:00  Payday (Rulekeepor)
+天火狐              +  5c.  2018-11-01 00:00  Payday
+Telnaior           +  5c.  2018-11-01 00:00  Payday
+Tarhalindur        +  5c.  2018-11-01 00:00  Payday
+P.S.S.             +  5c.  2018-11-01 00:00  Payday
+pokes              +  5c.  2018-11-01 00:00  Payday
+omd                + 10c.  2018-11-01 00:00  Payday (Distributor)
+nichdel            +  5c.  2018-11-01 00:00  Payday
+Murphy             + 10c.  2018-11-01 00:00  Payday (ADoP)
+L                  +  5c.  2018-11-01 00:00  Payday
+Hālian             +  5c.  2018-11-01 00:00  Payday
+Gaelan             +  5c.  2018-11-01 00:00  Payday
+G.                 + 15c.  2018-11-01 00:00  Payday (Herald, Registrar)
+D. Margaux         + 10c.  2018-11-01 00:00  Payday (Referee)
+CuddleBeam         +  5c.  2018-11-01 00:00  Payday
+Corona             +  5c.  2018-11-01 00:00  Payday
+Aris               + 15c.  2018-11-01 00:00  Payday (Promotor, P.M.)
+ATMunn             +  5c.  2018-11-01 00:00  Payday
+Tarhalindur        + 10c.  2018-10-31 20:23  Welcome Package
+twg                +  1c.  2018-10-31 16:32  Transfer from Gaelan
+Gaelan             -  1c.  2018-10-31 16:32  Transfer to twg
+G.                 +  5c.  2018-10-30 01:57  Judged CFJ 3681
+Trigon             +  5c.  2018-10-30 01:38  Judged CFJ 3673
+Trigon             +  5c.  2018-10-30 01:38  Judged CFJ 3672
+Trigon             +  5c.  2018-10-30 01:38  Judged CFJ 3671
+Trigon             +  5c.  2018-10-30 00:05  Judged CFJ 3670
+D. Margaux         +  5c.  2018-10-27 19:47  Judged CFJ 3652
+Gaelan             + 10c.  2018-10-27 15:02  Welcome Package
+                           2018-10-27 14:38  Convergence (retroactive;
+                                             triggered 2018-11-19 22:22)
