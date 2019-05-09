@@ -5,7 +5,7 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-05-05
+Date of this unofficial report: 2019-05-09
 Date of last weekly report:     2019-05-05
 
 
@@ -35,8 +35,8 @@ This section self-ratifies.
       20    Bernie
       64    CuddleBeam
      918    D. Margaux
-      50    Falsifian
-     638    G.
+      43    Falsifian
+     668    G.
       80    Gaelan
      108    Jacob Arduino
      172    Murphy
@@ -50,7 +50,7 @@ This section self-ratifies.
    Coins    Zombie
    -----    ------
       30    Corona
-      30    Hālian
+       0    Hālian
       50    L.
       30    nichdel
       30    Publius Scribonius Scholasticus
@@ -68,6 +68,9 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          -  7c.  2019-05-05 23:41  Fee to perform the Ritual
+G.                 + 30c.  2019-05-05 18:32  Transfer from Hālian
+Hālian             - 30c.  2019-05-05 18:32  Transfer to G.
 -- time of last weekly report --
 Falsifian          +  5c.  2019-05-04 15:52  Reward (Registrar weekly)
 ATMunn             + 10c.  2019-05-01 00:00  Payday
@@ -80,7 +83,7 @@ D. Margaux         + 15c.  2019-05-01 00:00  Payday (Speaker)
 Falsifian          + 10c.  2019-05-01 00:00  Payday
 G.                 + 10c.  2019-05-01 00:00  Payday
 Gaelan             + 10c.  2019-05-01 00:00  Payday
-Halian             + 10c.  2019-05-01 00:00  Payday
+Hālian             + 10c.  2019-05-01 00:00  Payday
 Jacob Arduino      + 10c.  2019-05-01 00:00  Payday
 L                  + 10c.  2019-05-01 00:00  Payday
 Murphy             + 15c.  2019-05-01 00:00  Payday (ADoP)
@@ -109,7 +112,7 @@ D. Margaux         + 25c.  2019-04-01 00:00  Payday (Speaker, Registrar, Arbitor
 G.                 + 15c.  2019-04-01 00:00  Payday (Herald)
 Falsifian          + 10c.  2019-04-01 00:00  Payday
 Gaelan             + 10c.  2019-04-01 00:00  Payday
-Halian             + 10c.  2019-04-01 00:00  Payday
+Hālian             + 10c.  2019-04-01 00:00  Payday
 Jacob Arduino      + 10c.  2019-04-01 00:00  Payday
 L                  + 10c.  2019-04-01 00:00  Payday
 Murphy             + 15c.  2019-04-01 00:00  Payday (ADoP)
