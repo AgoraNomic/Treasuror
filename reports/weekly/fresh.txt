@@ -5,7 +5,7 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-05-09
+Date of this unofficial report: 2019-05-10
 Date of last weekly report:     2019-05-05
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -47,7 +47,7 @@ This section self-ratifies.
       20    Bernie
       64    CuddleBeam
      918    D. Margaux
-      43    Falsifian
+     118    Falsifian
      668    G.
       80    Gaelan
      108    Jacob Arduino
@@ -66,7 +66,7 @@ This section self-ratifies.
       50    L.
       30    nichdel
       30    Publius Scribonius Scholasticus
-      75    Tarhalindur
+       0    Tarhalindur
 
    Coins    Non-player entity
    -----    -----------------
@@ -80,6 +80,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          + 75c.  2019-05-10 04:46  Transfer from Tarhalindur
+Tarhalindur        - 75c.  2019-05-10 04:46  Transfer to Falsifian
 Falsifian          -  7c.  2019-05-05 23:41  Fee to perform the Ritual
 G.                 + 30c.  2019-05-05 18:32  Transfer from Hālian
 Hālian             - 30c.  2019-05-05 18:32  Transfer to G.
