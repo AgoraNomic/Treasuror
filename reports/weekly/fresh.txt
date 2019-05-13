@@ -6,7 +6,7 @@ fresher than the latest official version.
 ----------------------------------------------------------------------------
 
 Date of this unofficial report: 2019-05-13
-Date of last weekly report:     2019-05-05
+Date of last weekly report:     2019-05-09
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
 
@@ -88,10 +88,10 @@ Falsifian          +  5c.  2019-05-11 02:49  Reward (Treasuror weekly)
 Falsifian          +  5c.  2019-05-11 02:49  Reward (Registrar monthly)
 Falsifian          + 75c.  2019-05-10 04:46  Transfer from Tarhalindur
 Tarhalindur        - 75c.  2019-05-10 04:46  Transfer to Falsifian
+-- time of last weekly report --
 Falsifian          -  7c.  2019-05-05 23:41  Fee to perform the Ritual
 G.                 + 30c.  2019-05-05 18:32  Transfer from Hālian
 Hālian             - 30c.  2019-05-05 18:32  Transfer to G.
--- time of last weekly report --
 Falsifian          +  5c.  2019-05-04 15:52  Reward (Registrar weekly)
 ATMunn             + 10c.  2019-05-01 00:00  Payday
 Aris               + 15c.  2019-05-01 00:00  Payday (Promotor)
