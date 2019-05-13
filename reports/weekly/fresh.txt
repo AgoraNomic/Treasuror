@@ -5,7 +5,7 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-05-11
+Date of this unofficial report: 2019-05-13
 Date of last weekly report:     2019-05-05
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -19,6 +19,7 @@ Unofficial new section. Does not self-ratify.
   -----------------  ------------  --------------------------------------
   2019-04-22..28     D. Margaux    Aris transferred 4 Coins to D. Margaux
   2019-04-29..05-05  Falsifian
+  2019-05-06..12     Falsifian
 
 
 ASSET INDEX
@@ -47,7 +48,7 @@ This section self-ratifies.
       20    Bernie
       64    CuddleBeam
      918    D. Margaux
-     138    Falsifian
+     131    Falsifian
      668    G.
       80    Gaelan
      108    Jacob Arduino
@@ -80,6 +81,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          -  7c.  2019-05-12 23:58  Fee to perform the Ritual
 Falsifian          +  5c.  2019-05-11 02:49  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-05-11 02:49  Reward (Treasuror weekly)
 Falsifian          +  5c.  2019-05-11 02:49  Reward (Treasuror weekly)
