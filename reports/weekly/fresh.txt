@@ -5,7 +5,7 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-05-13
+Date of this unofficial report: 2019-05-17
 Date of last weekly report:     2019-05-13
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -47,31 +47,31 @@ This section self-ratifies.
       40    Baron von Vaderham
       20    Bernie
       64    CuddleBeam
-     918    D. Margaux
-     141    Falsifian
+     966    D. Margaux
+     200    Falsifian
      668    G.
       80    Gaelan
      108    Jacob Arduino
-     172    Murphy
+     177    Murphy
      106    omd
       20    Rance
       50    Telnaior
      400    Trigon
      812    twg
-      79    V.J. Rada
+       0    V.J. Rada
 
    Coins    Zombie
    -----    ------
       30    Corona
        0    Hālian
-      50    L.
+       0    L.
       30    nichdel
       30    Publius Scribonius Scholasticus
        0    Tarhalindur
 
    Coins    Non-player entity
    -----    -----------------
-    1172    Agora
+    1194    Agora
       87    Lost and Found Department
 
 
@@ -81,6 +81,15 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          + 79c.  2019-05-17 02:42  Transfer from V.J. Rada
+V.J. Rada          - 79c.  2019-05-17 02:42  Transfer to Falsifian
+Agora              + 20c.  2019-05-17 02:42  Transfer from Falsifian
+Falsifian          - 20c.  2019-05-17 02:42  Transfer to Agora
+D. Margaux         + 50c.  2019-05-17 02:42  Transfer from L
+L                  - 50c.  2019-05-17 02:42  Transfer to D. Margaux
+Agora              +  2c.  2019-05-17 02:42  Transfer from D. Margaux
+D. Margaux         -  2c.  2019-05-17 02:42  Transfer to Agora
+Murphy             +  5c.  2019-05-15 14:29  Reward (ADoP weekly)
 -- time of last weekly report --
 Falsifian          +  5c.  2019-05-13 01:38  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-05-13 01:38  Reward (Treasuror weekly)
