@@ -44,7 +44,6 @@ This section self-ratifies.
    -----    -------------
      136    ATMunn
      116    Aris
-      40    Baron von Vaderham
       20    Bernie
       64    CuddleBeam
      966    D. Margaux
@@ -55,10 +54,8 @@ This section self-ratifies.
      177    Murphy
      106    omd
       20    Rance
-      50    Telnaior
      400    Trigon
      812    twg
-       0    V.J. Rada
 
    Coins    Zombie
    -----    ------
@@ -68,6 +65,9 @@ This section self-ratifies.
       30    nichdel
       30    Publius Scribonius Scholasticus
        0    Tarhalindur
+       0    V.J. Rada
+      50    Telnaior
+      40    Baron von Vaderham
 
    Coins    Non-player entity
    -----    -----------------
