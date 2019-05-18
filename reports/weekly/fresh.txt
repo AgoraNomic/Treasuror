@@ -48,7 +48,7 @@ This section self-ratifies.
       64    CuddleBeam
      966    D. Margaux
      200    Falsifian
-     668    G.
+     708    G.
       80    Gaelan
      108    Jacob Arduino
      177    Murphy
@@ -66,12 +66,12 @@ This section self-ratifies.
       30    Publius Scribonius Scholasticus
        0    Tarhalindur
        0    V.J. Rada
-      50    Telnaior
+       0    Telnaior
       40    Baron von Vaderham
 
    Coins    Non-player entity
    -----    -----------------
-    1194    Agora
+    1204    Agora
       87    Lost and Found Department
 
 
@@ -81,6 +81,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.                 + 50c.  2019-05-17 12:40  Transfer from Telnaior
+Telnaior           - 50c.  2019-05-17 12:40  Transfer to G.
+Agora              + 10c.  2019-05-17 12:40  Transfer from G.
+G.                 - 10c.  2019-05-17 12:40  Transfer to Agora
 Falsifian          + 79c.  2019-05-17 02:42  Transfer from V.J. Rada
 V.J. Rada          - 79c.  2019-05-17 02:42  Transfer to Falsifian
 Agora              + 20c.  2019-05-17 02:42  Transfer from Falsifian
