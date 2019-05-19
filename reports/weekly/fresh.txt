@@ -5,7 +5,7 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-05-17
+Date of this unofficial report: 2019-05-19
 Date of last weekly report:     2019-05-13
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -51,7 +51,7 @@ This section self-ratifies.
      708    G.
       80    Gaelan
      108    Jacob Arduino
-     177    Murphy
+     182    Murphy
      106    omd
       20    Rance
      400    Trigon
@@ -81,6 +81,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Murphy             +  5c.  2019-05-19 21:08  Reward (ADoP weekly)
 G.                 + 50c.  2019-05-17 12:40  Transfer from Telnaior
 Telnaior           - 50c.  2019-05-17 12:40  Transfer to G.
 Agora              + 10c.  2019-05-17 12:40  Transfer from G.
