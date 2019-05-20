@@ -36,7 +36,7 @@ This section self-ratifies.
       20    Bernie
       64    CuddleBeam
      966    D. Margaux
-     192    Falsifian
+     202    Falsifian
      708    G.
       80    Gaelan
      108    Jacob Arduino
@@ -82,6 +82,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          +  5c.  2019-05-20 00:22  Reward (Registrar weekly)
+Falsifian          +  5c.  2019-05-20 00:22  Reward (Treasuror weekly)
 -- time of last weekly report --
 Falsifian          -  7c.  2019-05-19 23:59  Fee to perform The Ritual
 Murphy             +  5c.  2019-05-19 21:08  Reward (ADoP weekly)
