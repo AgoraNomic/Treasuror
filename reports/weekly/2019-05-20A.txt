@@ -1,12 +1,9 @@
-This is an unofficial version of the Treasuror's weekly report that may be
-fresher than the latest official version.
-
 ----------------------------------------------------------------------------
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-05-20
-Date of last weekly report:     2019-05-20
+Date of this weekly report: 2019-05-20
+Date of last weekly report: 2019-05-13
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
 
@@ -82,7 +79,6 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
--- time of last weekly report --
 Falsifian          -  7c.  2019-05-19 23:59  Fee to perform The Ritual
 Murphy             +  5c.  2019-05-19 21:08  Reward (ADoP weekly)
 G.                 + 50c.  2019-05-17 12:40  Transfer from Telnaior
@@ -100,6 +96,7 @@ D. Margaux         -  2c.  2019-05-17 02:42  Transfer to Agora
 Murphy             +  5c.  2019-05-15 14:29  Reward (ADoP weekly)
 Falsifian          +  5c.  2019-05-13 01:38  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-05-13 01:38  Reward (Treasuror weekly)
+-- time of last weekly report --
 Falsifian          -  7c.  2019-05-12 23:58  Fee to perform The Ritual
 Falsifian          +  5c.  2019-05-11 02:49  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-05-11 02:49  Reward (Treasuror weekly)
