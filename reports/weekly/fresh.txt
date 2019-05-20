@@ -42,7 +42,7 @@ This section self-ratifies.
      108    Jacob Arduino
      182    Murphy
      106    omd
-      20    Rance
+      58    Rance
      400    Trigon
      812    twg
 
@@ -56,11 +56,11 @@ This section self-ratifies.
        0    Tarhalindur
        0    V.J. Rada
        0    Telnaior
-      40    Baron von Vaderham
+       0    Baron von Vaderham
 
    Coins    Non-player entity
    -----    -----------------
-    1205    Agora
+    1207    Agora
       87    Lost and Found Department
 
 
@@ -82,6 +82,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Rance              + 40c.  2019-05-20 01:06  Transfer from Baron von Vaderham
+Baron von Vaderham - 40c.  2019-05-20 01:06  Transfer to Rance
+Agora              +  2c.  2019-05-20 01:06  Transfer from Rance
+Rance              -  2c.  2019-05-20 01:06  Transfer to Agora
 Falsifian          +  5c.  2019-05-20 00:22  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-05-20 00:22  Reward (Treasuror weekly)
 -- time of last weekly report --
