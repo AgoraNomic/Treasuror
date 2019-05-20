@@ -32,7 +32,7 @@ This section self-ratifies.
    Coins    Active player
    -----    -------------
      136    ATMunn
-     116    Aris
+     126    Aris
       20    Bernie
       64    CuddleBeam
      966    D. Margaux
@@ -82,6 +82,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Aris               +  5c.  2019-05-20 03:18  Reward (Arbitor weekly)
+Aris               +  5c.  2019-05-20 03:18  Reward (Promotor weekly)
 Rance              + 40c.  2019-05-20 01:06  Transfer from Baron von Vaderham
 Baron von Vaderham - 40c.  2019-05-20 01:06  Transfer to Rance
 Agora              +  2c.  2019-05-20 01:06  Transfer from Rance
