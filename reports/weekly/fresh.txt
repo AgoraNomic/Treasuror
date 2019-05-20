@@ -20,6 +20,7 @@ Unofficial new section. Does not self-ratify.
   2019-04-22..28     D. Margaux    Aris transferred 4 Coins to D. Margaux
   2019-04-29..05-05  Falsifian
   2019-05-06..12     Falsifian
+  2019-05-13..19     Falsifian
 
 
 ASSET INDEX
@@ -47,7 +48,7 @@ This section self-ratifies.
       20    Bernie
       64    CuddleBeam
      966    D. Margaux
-     199    Falsifian
+     192    Falsifian
      708    G.
       80    Gaelan
      108    Jacob Arduino
@@ -81,6 +82,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          -  7c.  2019-05-19 23:59  Fee to perform The Ritual
 Murphy             +  5c.  2019-05-19 21:08  Reward (ADoP weekly)
 G.                 + 50c.  2019-05-17 12:40  Transfer from Telnaior
 Telnaior           - 50c.  2019-05-17 12:40  Transfer to G.
@@ -98,7 +100,7 @@ Murphy             +  5c.  2019-05-15 14:29  Reward (ADoP weekly)
 Falsifian          +  5c.  2019-05-13 01:38  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-05-13 01:38  Reward (Treasuror weekly)
 -- time of last weekly report --
-Falsifian          -  7c.  2019-05-12 23:58  Fee to perform the Ritual
+Falsifian          -  7c.  2019-05-12 23:58  Fee to perform The Ritual
 Falsifian          +  5c.  2019-05-11 02:49  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-05-11 02:49  Reward (Treasuror weekly)
 Falsifian          +  5c.  2019-05-11 02:49  Reward (Treasuror weekly)
@@ -107,7 +109,7 @@ Falsifian          + 75c.  2019-05-10 04:46  Transfer from Tarhalindur
 Tarhalindur        - 75c.  2019-05-10 04:46  Transfer to Falsifian
 Agora              +  1c.  2019-05-10 04:46  Transfer to Falsifian
 Falsifian          -  1c.  2019-05-10 04:46  Transfer to Agora
-Falsifian          -  7c.  2019-05-05 23:41  Fee to perform the Ritual
+Falsifian          -  7c.  2019-05-05 23:41  Fee to perform The Ritual
 G.                 + 30c.  2019-05-05 18:32  Transfer from Hālian
 Hālian             - 30c.  2019-05-05 18:32  Transfer to G.
 Falsifian          +  5c.  2019-05-04 15:52  Reward (Registrar weekly)
@@ -136,7 +138,7 @@ omd                + 15c.  2019-05-01 00:00  Payday (Distributor)
 twg                + 40c.  2019-05-01 00:00  Payday (Assessor etc.)
 D. Margaux         +  4c.  2019-04-28 17:39  Transfer from Aris
 Aris               -  4c.  2019-04-28 17:39  Transfer to D. Margaux
-D. Margaux         -  7c.  2019-04-28 02:51  Fee to perform the Ritual
+D. Margaux         -  7c.  2019-04-28 02:51  Fee to perform The Ritual
 Falsifian          +  5c.  2019-04-28 00:11  Reward (ADoP weekly)
 Aris               +  5c.  2019-04-09 03:41  Reward (Promotor weekly)
 Rance              + 10c.  2019-04-09 03:35  Welcome Package
