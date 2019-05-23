@@ -5,7 +5,7 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-05-20
+Date of this unofficial report: 2019-05-23
 Date of last weekly report:     2019-05-20
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -35,7 +35,7 @@ This section self-ratifies.
      126    Aris
       20    Bernie
       64    CuddleBeam
-     966    D. Margaux
+     981    D. Margaux
      202    Falsifian
      708    G.
       80    Gaelan
@@ -82,6 +82,9 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+D. Margaux         +  5c.  2019-05-21 13:21  Reward (Referee weekly)
+D. Margaux         +  5c.  2019-05-21 13:21  Reward (Clork weekly)
+D. Margaux         +  5c.  2019-05-21 13:21  Reward (Astronomor weekly)
 Aris               +  5c.  2019-05-20 03:18  Reward (Arbitor weekly)
 Aris               +  5c.  2019-05-20 03:18  Reward (Promotor weekly)
 Rance              + 40c.  2019-05-20 01:06  Transfer from Baron von Vaderham
