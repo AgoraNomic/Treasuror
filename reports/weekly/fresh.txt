@@ -5,7 +5,7 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-05-23
+Date of this unofficial report: 2019-05-24
 Date of last weekly report:     2019-05-20
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -41,6 +41,7 @@ This section self-ratifies.
       80    Gaelan
      108    Jacob Arduino
      182    Murphy
+      10    o
      106    omd
       58    Rance
      400    Trigon
@@ -82,6 +83,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+o                  + 10c.  2019-05-24 01:28  Welcome Package
 D. Margaux         +  5c.  2019-05-21 13:21  Reward (Referee weekly)
 D. Margaux         +  5c.  2019-05-21 13:21  Reward (Clork weekly)
 D. Margaux         +  5c.  2019-05-21 13:21  Reward (Astronomor weekly)
