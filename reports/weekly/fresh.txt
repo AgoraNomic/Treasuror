@@ -9,7 +9,7 @@ Disclaimer: This report assumes the Lost and Found Department did not receive
 nichdel's coins when e was deregistered on 2019-05-24. The Treasuror initiated
 a CFJ about this on the same day.
 
-Date of this unofficial report: 2019-05-25
+Date of this unofficial report: 2019-05-26
 Date of last weekly report:     2019-05-20
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -48,7 +48,7 @@ This section self-ratifies.
       10    o
      106    omd
       58    Rance
-     400    Trigon
+     405    Trigon
      812    twg
 
    Coins    Zombie
@@ -86,6 +86,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Trigon             +  5c.  2019-05-26 22:47  Reward (Rulekeepor weekly)
 nichdel            - 30c.  2019-05-24 01:39  Deregistration
 o                  + 10c.  2019-05-24 01:28  Welcome Package
 D. Margaux         +  5c.  2019-05-21 13:21  Reward (Referee weekly)
