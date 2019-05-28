@@ -6,10 +6,10 @@ fresher than the latest official version.
 ----------------------------------------------------------------------------
 
 Disclaimer: This report assumes the Lost and Found Department did not receive
-nichdel's coins when e was deregistered on 2019-05-24. The Treasuror initiated
-a CFJ about this on the same day.
+nichdel's coins when e was deregistered on 2019-05-24, and is incorrect if that
+assumption is wrong. The Treasuror initiated a CFJ about this on the same day.
 
-Date of this unofficial report: 2019-05-26
+Date of this unofficial report: 2019-05-28
 Date of last weekly report:     2019-05-20
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -36,11 +36,11 @@ This section self-ratifies.
    Coins    Active player
    -----    -------------
      136    ATMunn
-     126    Aris
+     136    Aris
       20    Bernie
       64    CuddleBeam
-     981    D. Margaux
-     202    Falsifian
+     986    D. Margaux
+     195    Falsifian
      708    G.
       80    Gaelan
      108    Jacob Arduino
@@ -78,6 +78,7 @@ Unofficial section. Does not self-ratify.
   2019-04-29..05-05  Falsifian
   2019-05-06..12     Falsifian
   2019-05-13..19     Falsifian
+  2019-05-20..26     Falsifian
 
 
 RECENT HISTORY
@@ -86,6 +87,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Aris               +  5c.  2019-05-27 20:45  Reward (Arbitor weekly)
+Aris               +  5c.  2019-05-27 20:45  Reward (Promotor weekly)
+D. Margaux         +  5c.  2019-05-27 15:01  Reward (Referee weekly)
+Falsifian          -  7c.  2019-05-26 23:46  Fee to perform The Ritual
 Trigon             +  5c.  2019-05-26 22:47  Reward (Rulekeepor weekly)
 nichdel            - 30c.  2019-05-24 01:39  Deregistration
 o                  + 10c.  2019-05-24 01:28  Welcome Package
