@@ -32,6 +32,7 @@ This section does not self-ratify.
 COIN BALANCES
 ========================================================================
 This section self-ratifies.
+Entities not listed have a Coin balance of 0.
 
    Coins    Active player
    -----    -------------
@@ -54,13 +55,7 @@ This section self-ratifies.
    Coins    Zombie
    -----    ------
       30    Corona
-       0    Hālian
-       0    L.
       30    Publius Scribonius Scholasticus
-       0    Tarhalindur
-       0    V.J. Rada
-       0    Telnaior
-       0    Baron von Vaderham
 
    Coins    Non-player entity
    -----    -----------------
