@@ -9,7 +9,7 @@ Disclaimer: This report assumes the Lost and Found Department did not receive
 nichdel's coins when e was deregistered on 2019-05-24, and is incorrect if that
 assumption is wrong. The Treasuror initiated a CFJ about this on the same day.
 
-Date of this unofficial report: 2019-05-28
+Date of this unofficial report: 2019-05-30
 Date of last weekly report:     2019-05-20
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -220,11 +220,3 @@ CuddleBeam         + 10c.  2019-03-01 00:00  Payday
 von Vaderham       + 10c.  2019-03-01 00:00  Payday
 Aris               + 15c.  2019-03-01 00:00  Payday (Promotor)
 ATMunn             + 10c.  2019-03-01 00:00  Payday
-D. Margaux         +  5c.  2019-02-24 23:49  Reward (CFJ 3719)
-D. Margaux         +  5c.  2019-02-24 23:49  Reward (CFJ 3718)
-D. Margaux         +  5c.  2019-02-24 23:49  Reward (CFJ 3701)
-D. Margaux         +  7c.  2019-02-24 23:49  Reward (Proposal 8160)
-D. Margaux         +  5c.  2019-02-24 23:49  Reward (Proposal 8153)
-Murphy             +  5c.  2019-02-24 20:17  Reward (ADoP weekly)
-G.                 +  5c.  2019-02-18 20:52  Reward (Herald weekly)
-D. Margaux         +  5c.  2019-02-20 18:48  Reward (Registrar weekly)
