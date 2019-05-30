@@ -41,7 +41,7 @@ Entities not listed have a Coin balance of 0.
       20    Bernie
       64    CuddleBeam
      986    D. Margaux
-     195    Falsifian
+     205    Falsifian
      708    G.
       80    Gaelan
      108    Jacob Arduino
@@ -82,6 +82,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          +  5c.  2019-05-30 01:51  Reward (Treasuror weekly)
+Falsifian          +  5c.  2019-05-30 01:51  Reward (Registrar weekly)
 -- time of last weekly report --
 Aris               +  5c.  2019-05-27 20:45  Reward (Arbitor weekly)
 Aris               +  5c.  2019-05-27 20:45  Reward (Promotor weekly)
