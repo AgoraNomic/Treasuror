@@ -10,7 +10,7 @@ nichdel's coins when e was deregistered on 2019-05-24, and is incorrect if that
 assumption is wrong. The Treasuror initiated a CFJ about this on the same day.
 
 Date of this unofficial report: 2019-05-30
-Date of last weekly report:     2019-05-20
+Date of last weekly report:     2019-05-30
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
 
@@ -82,6 +82,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- time of last weekly report --
 Aris               +  5c.  2019-05-27 20:45  Reward (Arbitor weekly)
 Aris               +  5c.  2019-05-27 20:45  Reward (Promotor weekly)
 D. Margaux         +  5c.  2019-05-27 15:01  Reward (Referee weekly)
@@ -100,7 +101,6 @@ Agora              +  2c.  2019-05-20 01:06  Transfer from Rance
 Rance              -  2c.  2019-05-20 01:06  Transfer to Agora
 Falsifian          +  5c.  2019-05-20 00:22  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-05-20 00:22  Reward (Treasuror weekly)
--- time of last weekly report --
 Falsifian          -  7c.  2019-05-19 23:59  Fee to perform The Ritual
 Murphy             +  5c.  2019-05-19 21:08  Reward (ADoP weekly)
 G.                 + 50c.  2019-05-17 12:40  Transfer from Telnaior
