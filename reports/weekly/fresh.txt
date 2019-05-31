@@ -9,7 +9,7 @@ Disclaimer: This report assumes the Lost and Found Department did not receive
 nichdel's coins when e was deregistered on 2019-05-24, and is incorrect if that
 assumption is wrong. The Treasuror initiated a CFJ about this on the same day.
 
-Date of this unofficial report: 2019-05-30
+Date of this unofficial report: 2019-05-31
 Date of last weekly report:     2019-05-30
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -41,14 +41,14 @@ Entities not listed have a Coin balance of 0.
       20    Bernie
       64    CuddleBeam
      986    D. Margaux
-     205    Falsifian
+     212    Falsifian
      708    G.
       80    Gaelan
      108    Jacob Arduino
      182    Murphy
       10    o
      106    omd
-      58    Rance
+      51    Rance
      405    Trigon
      812    twg
 
@@ -69,11 +69,11 @@ Unofficial section. Does not self-ratify.
 
   Week               Performer(s)  Notes
   -----------------  ------------  --------------------------------------
-  2019-04-22..28     D. Margaux    Aris transferred 4 Coins to D. Margaux
+  2019-04-22..28     D. Margaux    Aris transferred 4 Coins to D. Margaux.
   2019-04-29..05-05  Falsifian
   2019-05-06..12     Falsifian
   2019-05-13..19     Falsifian
-  2019-05-20..26     Falsifian
+  2019-05-20..26     Falsifian     Rance transferred 7 Coins to Falsifian.
 
 
 RECENT HISTORY
@@ -82,6 +82,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          +  7c.  2019-05-30 03:39  Transfer from Rance
+Rance              -  7c.  2019-05-30 03:39  Transfer to Falsifian
 Falsifian          +  5c.  2019-05-30 01:51  Reward (Treasuror weekly)
 Falsifian          +  5c.  2019-05-30 01:51  Reward (Registrar weekly)
 -- time of last weekly report --
