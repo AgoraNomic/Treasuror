@@ -5,9 +5,16 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Disclaimer: This report assumes the Lost and Found Department did not receive
-nichdel's coins when e was deregistered on 2019-05-24, and is incorrect if that
-assumption is wrong. The Treasuror initiated a CFJ about this on the same day.
+Disclaimers:
+* This report assumes the Lost and Found Department did not receive
+  nichdel's coins when e was deregistered on 2019-05-24, and is
+  incorrect if that assumption is wrong. The Treasuror initiated a CFJ
+  about this on the same day.
+* This report assumes the Referee's attempt to levy a fine on Murphy on
+  2019-05-28 was INEFFECTIVE. If it was EFFECTIVE, then Murphy only earned 10
+  Coins on the 2019-06-01 Payday. The Treasuror posted a message related to
+  this to agora-discussion on 2019-06-01 (subject "What authorizes the Referee
+  to impose the Cold Hand of Justice?").
 
 Date of this unofficial report: 2019-06-01
 Date of last weekly report:     2019-05-30
