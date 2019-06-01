@@ -9,7 +9,7 @@ Disclaimer: This report assumes the Lost and Found Department did not receive
 nichdel's coins when e was deregistered on 2019-05-24, and is incorrect if that
 assumption is wrong. The Treasuror initiated a CFJ about this on the same day.
 
-Date of this unofficial report: 2019-05-31
+Date of this unofficial report: 2019-06-01
 Date of last weekly report:     2019-05-30
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -49,7 +49,7 @@ Entities not listed have a Coin balance of 0.
       10    o
      106    omd
       51    Rance
-     405    Trigon
+     410    Trigon
      812    twg
 
    Coins    Zombie
@@ -82,6 +82,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Trigon             +  5c.  2019-05-31 23:48  Reward (Rulekeepor weekly)
 Falsifian          +  7c.  2019-05-30 03:39  Transfer from Rance
 Rance              -  7c.  2019-05-30 03:39  Transfer to Falsifian
 Falsifian          +  5c.  2019-05-30 01:51  Reward (Treasuror weekly)
