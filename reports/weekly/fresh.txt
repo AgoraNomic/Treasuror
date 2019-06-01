@@ -41,7 +41,7 @@ Entities not listed have a Coin balance of 0.
       30    Bernie
       74    CuddleBeam
     1011    D. Margaux
-     232    Falsifian
+     242    Falsifian
      723    G.
       90    Gaelan
      118    Jacob Arduino
@@ -60,7 +60,7 @@ Entities not listed have a Coin balance of 0.
       40    Publius Scribonius Scholasticus
       10    Tarhalindur
       10    Telnaior
-      10    V.J. Rada
+       0    V.J. Rada
 
    Coins    Non-player entity
    -----    -----------------
@@ -87,6 +87,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          + 10c.  2019-06-01 14:11  Transfer from V.J. Rada
+V.J. Rada          - 10c.  2019-06-01 14:11  Transfer to Falsifian
 ATMunn             + 10c.  2019-06-01 00:00  Payday
 Aris               + 20c.  2019-06-01 00:00  Payday (Arbitor, Promotor)
 Baron von Vaderham + 10c.  2019-06-01 00:00  Payday
