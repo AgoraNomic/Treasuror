@@ -36,26 +36,31 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Active player
    -----    -------------
-     136    ATMunn
-     136    Aris
-      20    Bernie
-      64    CuddleBeam
-     986    D. Margaux
-     212    Falsifian
-     708    G.
-      80    Gaelan
-     108    Jacob Arduino
-     182    Murphy
-      10    o
-     106    omd
-      51    Rance
-     410    Trigon
-     812    twg
+     146    ATMunn
+     156    Aris
+      30    Bernie
+      74    CuddleBeam
+    1011    D. Margaux
+     232    Falsifian
+     723    G.
+      90    Gaelan
+     118    Jacob Arduino
+     197    Murphy
+      20    o
+     121    omd
+      61    Rance
+     425    Trigon
+     822    twg
 
    Coins    Zombie
    -----    ------
-      30    Corona
-      30    Publius Scribonius Scholasticus
+      40    Corona
+      10    Hālian
+      10    L
+      40    Publius Scribonius Scholasticus
+      10    Tarhalindur
+      10    Telnaior
+      10    V.J. Rada
 
    Coins    Non-player entity
    -----    -----------------
@@ -82,6 +87,29 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+ATMunn             + 10c.  2019-06-01 00:00  Payday
+Aris               + 20c.  2019-06-01 00:00  Payday (Arbitor, Promotor)
+Baron von Vaderham + 10c.  2019-06-01 00:00  Payday
+Bernie             + 10c.  2019-06-01 00:00  Payday
+Corona             + 10c.  2019-06-01 00:00  Payday
+CuddleBeam         + 10c.  2019-06-01 00:00  Payday
+D. Margaux         + 25c.  2019-06-01 00:00  Payday (Assessor, Referee, Speaker)
+Falsifian          + 20c.  2019-06-01 00:00  Payday (Registrar, Treasuror)
+G.                 + 15c.  2019-06-01 00:00  Payday (Tailor)
+Gaelan             + 10c.  2019-06-01 00:00  Payday
+Hālian             + 10c.  2019-06-01 00:00  Payday
+Jacob Arduino      + 10c.  2019-06-01 00:00  Payday
+L                  + 10c.  2019-06-01 00:00  Payday
+Murphy             + 15c.  2019-06-01 00:00  Payday (ADoP)
+PSS                + 10c.  2019-06-01 00:00  Payday
+Rance              + 10c.  2019-06-01 00:00  Payday
+Tarhalindur        + 10c.  2019-06-01 00:00  Payday
+Telnaior           + 10c.  2019-06-01 00:00  Payday
+Trigon             + 15c.  2019-06-01 00:00  Payday (Rulekeepor)
+V.J. Rada          + 10c.  2019-06-01 00:00  Payday
+o                  + 10c.  2019-06-01 00:00  Payday
+omd                + 15c.  2019-06-01 00:00  Payday (Distributor)
+twg                + 10c.  2019-06-01 00:00  Payday
 Trigon             +  5c.  2019-05-31 23:48  Reward (Rulekeepor weekly)
 Falsifian          +  7c.  2019-05-30 03:39  Transfer from Rance
 Rance              -  7c.  2019-05-30 03:39  Transfer to Falsifian
