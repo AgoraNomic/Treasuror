@@ -9,7 +9,7 @@ Disclaimer: This report assumes the Lost and Found Department did not receive
 nichdel's coins when e was deregistered on 2019-05-24, and is incorrect if that
 assumption is wrong. The Treasuror initiated a CFJ about this on the same day.
 
-Date of this unofficial report: 2019-06-01
+Date of this unofficial report: 2019-06-02
 Date of last weekly report:     2019-05-30
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -45,6 +45,7 @@ Entities not listed have a Coin balance of 0.
      723    G.
       90    Gaelan
      118    Jacob Arduino
+      10    Jason Cobb
      192    Murphy
       20    o
      121    omd
@@ -87,6 +88,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb         + 10c.  2019-06-02 02:21  Welcome Package
 Falsifian          + 10c.  2019-06-01 14:11  Transfer from V.J. Rada
 V.J. Rada          - 10c.  2019-06-01 14:11  Transfer to Falsifian
 ATMunn             + 10c.  2019-06-01 00:00  Payday
