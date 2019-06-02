@@ -5,16 +5,9 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Disclaimers:
-* This report assumes the Lost and Found Department did not receive
-  nichdel's coins when e was deregistered on 2019-05-24, and is
-  incorrect if that assumption is wrong. The Treasuror initiated a CFJ
-  about this on the same day.
-* This report assumes the Referee's attempt to levy a fine on Murphy on
-  2019-05-28 was INEFFECTIVE. If it was EFFECTIVE, then Murphy only earned 10
-  Coins on the 2019-06-01 Payday. The Treasuror posted a message related to
-  this to agora-discussion on 2019-06-01 (subject "What authorizes the Referee
-  to impose the Cold Hand of Justice?").
+Disclaimer: This report assumes the Lost and Found Department did not receive
+nichdel's coins when e was deregistered on 2019-05-24, and is incorrect if that
+assumption is wrong. The Treasuror initiated a CFJ about this on the same day.
 
 Date of this unofficial report: 2019-06-01
 Date of last weekly report:     2019-05-30
@@ -52,7 +45,7 @@ Entities not listed have a Coin balance of 0.
      723    G.
       90    Gaelan
      118    Jacob Arduino
-     197    Murphy
+     192    Murphy
       20    o
      121    omd
       61    Rance
@@ -109,7 +102,7 @@ Gaelan             + 10c.  2019-06-01 00:00  Payday
 Hālian             + 10c.  2019-06-01 00:00  Payday
 Jacob Arduino      + 10c.  2019-06-01 00:00  Payday
 L                  + 10c.  2019-06-01 00:00  Payday
-Murphy             + 15c.  2019-06-01 00:00  Payday (ADoP)
+Murphy             + 10c.  2019-06-01 00:00  Payday
 PSS                + 10c.  2019-06-01 00:00  Payday
 Rance              + 10c.  2019-06-01 00:00  Payday
 Tarhalindur        + 10c.  2019-06-01 00:00  Payday
