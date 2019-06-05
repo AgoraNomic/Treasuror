@@ -53,7 +53,7 @@ Entities not listed have a Coin balance of 0.
       20    o
      121    omd
       61    Rance
-     425    Trigon
+     435    Trigon
      822    twg
 
    Coins    Zombie
@@ -91,6 +91,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Trigon             +  5c.  2019-06-02 08:58  Reward (judging unnumbered CFJ)
+Trigon             +  5c.  2019-06-02 08:58  Reward (judging CFJ 3728)
 Jason Cobb         + 10c.  2019-06-02 02:21  Welcome Package
 Falsifian          + 10c.  2019-06-01 14:11  Transfer from V.J. Rada
 V.J. Rada          - 10c.  2019-06-01 14:11  Transfer to Falsifian
