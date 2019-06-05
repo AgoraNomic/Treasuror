@@ -8,7 +8,7 @@ fresher than the latest official version.
 Disclaimer: This report assumes that Rance only paid 2 Coins to Agora
 once on 2019-05-20. The Treasuror initiated a CFJ about this on 2019-05-30.
 
-Date of this unofficial report: 2019-06-02
+Date of this unofficial report: 2019-06-05
 Date of last weekly report:     2019-05-30
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -51,6 +51,8 @@ Entities not listed have a Coin balance of 0.
       61    Rance
      435    Trigon
      822    twg
+      10    V.J. Rada
+      10    Walker
 
    Coins    Zombie
    -----    ------
@@ -60,7 +62,6 @@ Entities not listed have a Coin balance of 0.
       40    Publius Scribonius Scholasticus
       10    Tarhalindur
       10    Telnaior
-       0    V.J. Rada
 
    Coins    Non-player entity
    -----    -----------------
@@ -87,6 +88,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+V.J. Rada          + 10c.  2019-06-04 20:43  Welcome Package
+Walker             + 10c.  2019-06-03 02:20  Welcome Package
 Trigon             +  5c.  2019-06-02 08:58  Reward (judging unnumbered CFJ)
 Trigon             +  5c.  2019-06-02 08:58  Reward (judging CFJ 3728)
 Jason Cobb         + 10c.  2019-06-02 02:21  Welcome Package
