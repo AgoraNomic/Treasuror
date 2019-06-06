@@ -6,7 +6,7 @@ fresher than the latest official version.
 ----------------------------------------------------------------------------
 
 Date of this unofficial report: 2019-06-06
-Date of last weekly report:     2019-05-30
+Date of last weekly report:     2019-06-06
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
 
@@ -87,6 +87,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- time of last weekly report --
 Trigon             +  5c.  2019-06-06 21:35  Reward (Rulekeepor weekly)
 Jason Cobb         -  7c.  2019-06-05 17:50  Fee to perform The Ritual
 V.J. Rada          + 10c.  2019-06-04 20:43  Welcome Package
@@ -124,7 +125,6 @@ Falsifian          +  7c.  2019-05-30 03:39  Transfer from Rance
 Rance              -  7c.  2019-05-30 03:39  Transfer to Falsifian
 Falsifian          +  5c.  2019-05-30 01:51  Reward (Treasuror weekly)
 Falsifian          +  5c.  2019-05-30 01:51  Reward (Registrar weekly)
--- time of last weekly report --
 Aris               +  5c.  2019-05-27 20:45  Reward (Arbitor weekly)
 Aris               +  5c.  2019-05-27 20:45  Reward (Promotor weekly)
 D. Margaux         +  5c.  2019-05-27 15:01  Reward (Referee weekly)
