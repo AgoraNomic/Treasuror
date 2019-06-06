@@ -5,9 +5,6 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Disclaimer: This report assumes that Rance only paid 2 Coins to Agora
-once on 2019-05-20. The Treasuror initiated a CFJ about this on 2019-05-30.
-
 Date of this unofficial report: 2019-06-06
 Date of last weekly report:     2019-05-30
 
