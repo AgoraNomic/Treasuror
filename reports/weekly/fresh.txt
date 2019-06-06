@@ -8,7 +8,7 @@ fresher than the latest official version.
 Disclaimer: This report assumes that Rance only paid 2 Coins to Agora
 once on 2019-05-20. The Treasuror initiated a CFJ about this on 2019-05-30.
 
-Date of this unofficial report: 2019-06-05
+Date of this unofficial report: 2019-06-06
 Date of last weekly report:     2019-05-30
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -44,12 +44,12 @@ Entities not listed have a Coin balance of 0.
      723    G.
       90    Gaelan
      118    Jacob Arduino
-      10    Jason Cobb
+       3    Jason Cobb
      192    Murphy
       20    o
      121    omd
       61    Rance
-     435    Trigon
+     440    Trigon
      822    twg
       10    V.J. Rada
       10    Walker
@@ -80,6 +80,8 @@ Unofficial section. Does not self-ratify.
   2019-05-06..12     Falsifian
   2019-05-13..19     Falsifian
   2019-05-20..26     Falsifian     Rance transferred 7 Coins to Falsifian.
+  2019-05-27..06-02  (none)
+  2019-06-03..09     Jason Cobb
 
 
 RECENT HISTORY
@@ -88,6 +90,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Trigon             +  5c.  2019-06-06 21:35  Reward (Rulekeepor weekly)
+Jason Cobb         -  7c.  2019-06-05 17:50  Fee to perform The Ritual
 V.J. Rada          + 10c.  2019-06-04 20:43  Welcome Package
 Walker             + 10c.  2019-06-03 02:20  Welcome Package
 Trigon             +  5c.  2019-06-02 08:58  Reward (judging unnumbered CFJ)
