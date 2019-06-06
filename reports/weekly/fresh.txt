@@ -37,7 +37,7 @@ Entities not listed have a Coin balance of 0.
       30    Bernie
       74    CuddleBeam
     1011    D. Margaux
-     242    Falsifian
+     267    Falsifian
      723    G.
       90    Gaelan
      118    Jacob Arduino
@@ -87,6 +87,11 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          +  5c.  2019-06-06 23:42  Reward (Treasuror weekly)
+Falsifian          +  5c.  2019-06-06 23:42  Reward (Registrar weekly)
+Falsifian          +  5c.  2019-06-06 23:42  Reward (judging CFJ 3727)
+Falsifian          +  5c.  2019-06-06 23:42  Reward (judging CFJ 3726)
+Falsifian          +  5c.  2019-06-06 23:42  Reward (Registrar monthly)
 -- time of last weekly report --
 Trigon             +  5c.  2019-06-06 21:35  Reward (Rulekeepor weekly)
 Jason Cobb         -  7c.  2019-06-05 17:50  Fee to perform The Ritual
