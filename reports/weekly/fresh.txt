@@ -5,7 +5,10 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-06-06
+Disclaimer: This report assumes omd's attempt to earn 5 Coins on 2019-06-07
+succeeded.
+
+Date of this unofficial report: 2019-06-08
 Date of last weekly report:     2019-06-06
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -38,18 +41,18 @@ Entities not listed have a Coin balance of 0.
       74    CuddleBeam
     1011    D. Margaux
      267    Falsifian
-     723    G.
+     709    G.
       90    Gaelan
      118    Jacob Arduino
-       3    Jason Cobb
+      15    Jason Cobb
      192    Murphy
-      20    o
-     121    omd
-      61    Rance
+       0    o
+     126    omd
+      66    Rance
      440    Trigon
      822    twg
-      10    V.J. Rada
-      10    Walker
+      14    V.J. Rada
+      14    Walker
 
    Coins    Zombie
    -----    ------
@@ -58,12 +61,16 @@ Entities not listed have a Coin balance of 0.
       10    L
       40    Publius Scribonius Scholasticus
       10    Tarhalindur
-      10    Telnaior
+       0    Telnaior
 
    Coins    Non-player entity
    -----    -----------------
     1207    Agora
       87    Lost and Found Department
+      24    Reformed Church [0]
+
+[0] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of the
+    Ritual - Candle Division ("Reformed Church")'
 
 
 PERFORMANCES OF THE RITUAL
@@ -87,6 +94,20 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.                 + 10c.  2019-06-07 17:12  Transfer from Telnaior
+Telnaior           - 10c.  2019-06-07 17:12  Transfer to G.
+Reformed Church    +  3c.  2019-06-07 13:48  Transfor from G.
+G.                 -  3c.  2019-06-07 13:48  Transfer to Reformed Church
+Reformed Church    + 21c.  2019-06-07 13:48  Transfor from G.
+G.                 - 21c.  2019-06-07 13:48  Transfer to Reformed Church
+Rance              +  5c.  2019-06-07 04:00  Reward (Herald weekly)
+Walker             +  4c.  2019-06-07 03:13  Transfer from o
+o                  -  4c.  2019-06-07 03:13  Transfer to Walker
+V.J. Rada          +  4c.  2019-06-07 03:13  Transfer from o
+o                  -  4c.  2019-06-07 03:13  Transfer to V.J. Rada
+Jason Cobb         + 12c.  2019-06-07 03:13  Transfer from o
+o                  - 12c.  2019-06-07 03:13  Transfer to Jason Cobb
+omd                +  5c.  2019-06-07 02:20  Reward (Haberdashery)
 Falsifian          +  5c.  2019-06-06 23:42  Reward (Treasuror weekly)
 Falsifian          +  5c.  2019-06-06 23:42  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-06-06 23:42  Reward (judging CFJ 3727)
