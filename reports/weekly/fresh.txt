@@ -18,14 +18,10 @@ ASSET INDEX
 ========================================================================
 This section does not self-ratify.
 
-   Asset class    Recordkeepor          Ownership
-   -----------    ----------------      -------------------------
-   Coins          Treasuror (Falsifian) Agora, players, contracts
-   Balloons       Clork (twg)           Players
-   Favours        Clork (twg)           Players
-   Blots          Referee (vacant)      Persons
-   Spaceships     Astronomor (twg)      Players
-   Energy         Astronomor (twg)      Spaceships
+   Asset class    Recordkeepor    Ownership
+   -----------    ------------    -------------------------
+   Coins          Treasuror       Agora, players, contracts
+   Blots          Referee         Persons
 
 
 COIN BALANCES
@@ -154,6 +150,7 @@ Falsifian          +  5c.  2019-05-30 01:51  Reward (Registrar weekly)
 Aris               +  5c.  2019-05-27 20:45  Reward (Arbitor weekly)
 Aris               +  5c.  2019-05-27 20:45  Reward (Promotor weekly)
 D. Margaux         +  5c.  2019-05-27 15:01  Reward (Referee weekly)
+some asset classes removed 2019-05-27 02:39  Proposal 8177
 Falsifian          -  7c.  2019-05-26 23:46  Fee to perform The Ritual
 Trigon             +  5c.  2019-05-26 22:47  Reward (Rulekeepor weekly)
 nichdel            - 30c.  2019-05-24 01:39  Deregistration
