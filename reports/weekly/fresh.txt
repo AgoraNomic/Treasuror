@@ -9,7 +9,7 @@ Disclaimer: This report assumes omd's attempt to earn 5 Coins on 2019-06-07
 succeeded.
 
 Date of this unofficial report: 2019-06-11
-Date of last weekly report:     2019-06-06
+Date of last weekly report:     2019-06-11
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
 
@@ -91,6 +91,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- time of last weekly report --
 G.                 -  7c.  2019-06-10 15:24  Fee to perform The Ritual
 G.                 +  7c.  2019-06-10 15:24  Transfer from Reformed Church
 Reformed Church    -  7c.  2019-06-10 15:24  Transfer to G.
@@ -115,7 +116,6 @@ Falsifian          +  5c.  2019-06-06 23:42  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-06-06 23:42  Reward (judging CFJ 3727)
 Falsifian          +  5c.  2019-06-06 23:42  Reward (judging CFJ 3726)
 Falsifian          +  5c.  2019-06-06 23:42  Reward (Registrar monthly)
--- time of last weekly report --
 Trigon             +  5c.  2019-06-06 21:35  Reward (Rulekeepor weekly)
 Jason Cobb         -  7c.  2019-06-05 17:50  Fee to perform The Ritual
 V.J. Rada          + 10c.  2019-06-04 20:43  Welcome Package
