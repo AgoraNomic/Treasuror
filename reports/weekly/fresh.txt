@@ -8,7 +8,7 @@ fresher than the latest official version.
 Disclaimer: This report assumes omd's attempt to earn 5 Coins on 2019-06-07
 succeeded.
 
-Date of this unofficial report: 2019-06-08
+Date of this unofficial report: 2019-06-11
 Date of last weekly report:     2019-06-06
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -37,7 +37,7 @@ Entities not listed have a Coin balance of 0.
       74    CuddleBeam
     1011    D. Margaux
      267    Falsifian
-     709    G.
+     706    G.
       90    Gaelan
      118    Jacob Arduino
       15    Jason Cobb
@@ -63,7 +63,7 @@ Entities not listed have a Coin balance of 0.
    -----    -----------------
     1207    Agora
       87    Lost and Found Department
-      24    Reformed Church [0]
+      20    Reformed Church [0]
 
 [0] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of the
     Ritual - Candle Division ("Reformed Church")'
@@ -82,6 +82,7 @@ Unofficial section. Does not self-ratify.
   2019-05-20..26     Falsifian     Rance transferred 7 Coins to Falsifian.
   2019-05-27..06-02  (none)
   2019-06-03..09     Jason Cobb
+  2019-06-10..16     G.            Through the Reformed Church
 
 
 RECENT HISTORY
@@ -90,6 +91,11 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.                 -  7c.  2019-06-10 15:24  Fee to perform The Ritual
+G.                 +  7c.  2019-06-10 15:24  Transfer from Reformed Church
+Reformed Church    -  7c.  2019-06-10 15:24  Transfer to G.
+Reformed Church    +  3c.  2019-06-10 15:24  Transfer from G.
+G.                 -  3c.  2019-06-10 15:24  Transfer to Reformed Church
 G.                 + 10c.  2019-06-07 17:12  Transfer from Telnaior
 Telnaior           - 10c.  2019-06-07 17:12  Transfer to G.
 Reformed Church    +  3c.  2019-06-07 13:48  Transfor from G.
