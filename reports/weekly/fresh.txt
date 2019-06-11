@@ -36,7 +36,7 @@ Entities not listed have a Coin balance of 0.
       30    Bernie
       74    CuddleBeam
     1011    D. Margaux
-     267    Falsifian
+     277    Falsifian
      706    G.
       90    Gaelan
      118    Jacob Arduino
@@ -91,6 +91,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian          +  5c.  2019-06-11 02:01  Reward (Treasuror weekly)
+Falsifian          +  5c.  2019-06-11 02:01  Reward (Registrar weekly)
 -- time of last weekly report --
 G.                 -  7c.  2019-06-10 15:24  Fee to perform The Ritual
 G.                 +  7c.  2019-06-10 15:24  Transfer from Reformed Church
