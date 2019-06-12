@@ -8,7 +8,7 @@ fresher than the latest official version.
 Disclaimer: This report assumes omd's attempt to earn 5 Coins on 2019-06-07
 succeeded.
 
-Date of this unofficial report: 2019-06-11
+Date of this unofficial report: 2019-06-12
 Date of last weekly report:     2019-06-11
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -37,7 +37,7 @@ Entities not listed have a Coin balance of 0.
       74    CuddleBeam
     1011    D. Margaux
      277    Falsifian
-     706    G.
+     711    G.
       90    Gaelan
      118    Jacob Arduino
       15    Jason Cobb
@@ -91,6 +91,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.                 +  5c.  2019-06-11 22:04  Reward (Arbitor weekly)
 Falsifian          +  5c.  2019-06-11 02:01  Reward (Treasuror weekly)
 Falsifian          +  5c.  2019-06-11 02:01  Reward (Registrar weekly)
 -- time of last weekly report --
