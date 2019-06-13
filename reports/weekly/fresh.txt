@@ -35,7 +35,7 @@ Entities not listed have a Coin balance of 0.
      159    Aris
       30    Bernie
       74    CuddleBeam
-    1016    D. Margaux
+    1021    D. Margaux
      277    Falsifian
      711    G.
       90    Gaelan
@@ -126,6 +126,7 @@ Falsifian          +  5c.  2019-06-06 23:42  Reward (Registrar monthly)
 Trigon             +  5c.  2019-06-06 21:35  Reward (Rulekeepor weekly)
 Jason Cobb         -  7c.  2019-06-05 17:50  Fee to perform The Ritual
 V.J. Rada          + 10c.  2019-06-04 20:43  Welcome Package
+D. Margaux         +  5c.  2019-06-03 13:57  Reward (Referee weekly)
 Walker             + 10c.  2019-06-03 02:20  Welcome Package
 Trigon             +  5c.  2019-06-02 08:58  Reward (judging unnumbered CFJ)
 Trigon             +  5c.  2019-06-02 08:58  Reward (judging CFJ 3728)
