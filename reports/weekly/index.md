@@ -1,1 +1,1 @@
-See [parent directory](https://agoranomic.org/Treasuror/reports/weekly/).
+See [parent directory](https://agoranomic.org/Treasuror/reports/).
