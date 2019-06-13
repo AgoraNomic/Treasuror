@@ -8,7 +8,7 @@ fresher than the latest official version.
 Disclaimer: This report assumes omd's attempt to earn 5 Coins on 2019-06-07
 succeeded.
 
-Date of this unofficial report: 2019-06-12
+Date of this unofficial report: 2019-06-13
 Date of last weekly report:     2019-06-11
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -32,15 +32,15 @@ Entities not listed have a Coin balance of 0.
    Coins    Active player
    -----    -------------
      146    ATMunn
-     156    Aris
+     159    Aris
       30    Bernie
       74    CuddleBeam
-    1011    D. Margaux
+    1016    D. Margaux
      277    Falsifian
      711    G.
       90    Gaelan
      118    Jacob Arduino
-      15    Jason Cobb
+      17    Jason Cobb
      192    Murphy
        0    o
      126    omd
@@ -91,6 +91,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+D. Margaux         +  5c.  2019-06-12 20:19  Reward (Referee weekly)
+Aris               +  5c.  2019-06-12 06:03  Reward (Promotor weekly)
+Jason Cobb         +  2c.  2019-06-12 06:00  Transfer to Aris
+Aris               -  2c.  2019-06-12 06:00  Transfer to Jason Cobb
 G.                 +  5c.  2019-06-11 22:04  Reward (Arbitor weekly)
 Falsifian          +  5c.  2019-06-11 02:01  Reward (Treasuror weekly)
 Falsifian          +  5c.  2019-06-11 02:01  Reward (Registrar weekly)
