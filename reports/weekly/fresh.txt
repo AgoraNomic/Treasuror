@@ -5,9 +5,6 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Disclaimer: This report assumes omd's attempt to earn 5 Coins on 2019-06-07
-succeeded.
-
 Date of this unofficial report: 2019-06-13
 Date of last weekly report:     2019-06-11
 
@@ -43,7 +40,7 @@ Entities not listed have a Coin balance of 0.
       17    Jason Cobb
      192    Murphy
        0    o
-     126    omd
+     121    omd
       66    Rance
      440    Trigon
      822    twg
@@ -121,7 +118,6 @@ V.J. Rada          +  4c.  2019-06-07 03:13  Transfer from o
 o                  -  4c.  2019-06-07 03:13  Transfer to V.J. Rada
 Jason Cobb         + 12c.  2019-06-07 03:13  Transfer from o
 o                  - 12c.  2019-06-07 03:13  Transfer to Jason Cobb
-omd                +  5c.  2019-06-07 02:20  Reward (Haberdashery)
 Falsifian          +  5c.  2019-06-06 23:42  Reward (Treasuror weekly)
 Falsifian          +  5c.  2019-06-06 23:42  Reward (Registrar weekly)
 Falsifian          +  5c.  2019-06-06 23:42  Reward (judging CFJ 3727)
