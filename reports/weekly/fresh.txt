@@ -5,7 +5,10 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-06-13
+Disclaimer: This assumes D. Margaux's attempt on 2019-06-13 to earn 5 Coins for
+a "Preist's Weekly Report" failed.
+
+Date of this unofficial report: 2019-06-15
 Date of last weekly report:     2019-06-11
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -44,7 +47,7 @@ Entities not listed have a Coin balance of 0.
       66    Rance
      440    Trigon
      822    twg
-      14    V.J. Rada
+      19    V.J. Rada
       14    Walker
 
    Coins    Zombie
@@ -89,6 +92,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+V.J. Rada          +  5c.  2019-06-14 23:12  Reward (judging CFJ 3734)
 D. Margaux         +  5c.  2019-06-13 16:20  Reward (judging CFJ 3730)
 G.                 +  5c.  2019-06-13 16:14  Reward (judging CFJ 3733)
 D. Margaux         -  7c.  2019-06-13 11:09  Fee to perform The Ritual
