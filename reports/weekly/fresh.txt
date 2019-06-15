@@ -35,9 +35,9 @@ Entities not listed have a Coin balance of 0.
      159    Aris
       30    Bernie
       74    CuddleBeam
-    1014    D. Margaux
+    1019    D. Margaux
      277    Falsifian
-     711    G.
+     716    G.
       90    Gaelan
      118    Jacob Arduino
       17    Jason Cobb
@@ -92,6 +92,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+D. Margaux         +  5c.  2019-06-13 16:20  Reward (judging CFJ 3730)
+G.                 +  5c.  2019-06-13 16:14  Reward (judging CFJ 3733)
 D. Margaux         -  7c.  2019-06-13 11:09  Fee to perform The Ritual
 D. Margaux         +  5c.  2019-06-12 20:19  Reward (Referee weekly)
 Aris               +  5c.  2019-06-12 06:03  Reward (Promotor weekly)
