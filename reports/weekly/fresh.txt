@@ -8,7 +8,7 @@ fresher than the latest official version.
 Disclaimer: This assumes D. Margaux's attempt on 2019-06-13 to earn 5 Coins for
 a "Preist's Weekly Report" failed.
 
-Date of this unofficial report: 2019-06-15
+Date of this unofficial report: 2019-06-17
 Date of last weekly report:     2019-06-11
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -45,7 +45,7 @@ Entities not listed have a Coin balance of 0.
        0    o
      121    omd
       66    Rance
-     440    Trigon
+     455    Trigon
      822    twg
       19    V.J. Rada
       14    Walker
@@ -92,6 +92,9 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Trigon             +  5c.  2019-06-16 20:45  Reward (judging CFJ 3737)
+Trigon             +  5c.  2019-06-16 20:45  Reward (Rulekeepor monthly)
+Trigon             +  5c.  2019-06-16 20:45  Reward (Rulekeepor weekly)
 V.J. Rada          +  5c.  2019-06-14 23:12  Reward (judging CFJ 3734)
 D. Margaux         +  5c.  2019-06-13 16:20  Reward (judging CFJ 3730)
 G.                 +  5c.  2019-06-13 16:14  Reward (judging CFJ 3733)
