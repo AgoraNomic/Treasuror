@@ -1,14 +1,15 @@
-This is an unofficial version of the Treasuror's weekly report that may be
-fresher than the latest official version.
+This is an unofficial version of the Treasuror's weekly report that may
+be fresher than the latest official version.
 
-----------------------------------------------------------------------------
-                                Forbes 500
-----------------------------------------------------------------------------
+------------------------------------------------------------------------
+                              Forbes 500
+------------------------------------------------------------------------
 
 Date of this unofficial report: 2019-06-19
 Date of last weekly report:     2019-06-11
 
-Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
+Archive of reports on the web:
+https://agoranomic.org/Treasuror/reports/weekly/
 
 
 ASSET INDEX
@@ -60,10 +61,7 @@ Entities not listed have a Coin balance of 0.
    -----    -----------------
     1207    Agora
       87    Lost and Found Department
-      20    Reformed Church [0]
-
-[0] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of the
-    Ritual - Candle Division ("Reformed Church")'
+      20    Reformed Church [1]
 
 
 PERFORMANCES OF THE RITUAL
@@ -89,189 +87,197 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
-G.                 +  5c.  2019-06-18 08:00  Reward (Arbitor weekly)
-D. Margaux         +  5c.  2019-06-18 12:21  Reward (Referee weekly)
-G.                 +  5c.  2019-06-18 01:28  Reward (re-judging CFJ 3733)
-omd                +  5c.  2019-06-17 04:43  Reward (re-judging CFJ 3736)
-Trigon             +  5c.  2019-06-16 20:45  Reward (judging CFJ 3737)
-Trigon             +  5c.  2019-06-16 20:45  Reward (Rulekeepor monthly)
-Trigon             +  5c.  2019-06-16 20:45  Reward (Rulekeepor weekly)
-omd                +  5c.  2019-06-15 03:04  Reward (judging CFJ 3736)
-R. Lee             +  5c.  2019-06-14 23:12  Reward (judging CFJ 3734)
-D. Margaux         +  5c.  2019-06-13 16:20  Reward (judging CFJ 3730)
-G.                 +  5c.  2019-06-13 16:14  Reward (judging CFJ 3733)
-D. Margaux         -  7c.  2019-06-13 11:09  Fee to perform The Ritual
-D. Margaux         +  5c.  2019-06-12 20:19  Reward (Referee weekly)
-Aris               +  5c.  2019-06-12 06:03  Reward (Promotor weekly)
-Jason Cobb         +  2c.  2019-06-12 06:00  Transfer to Aris
-Aris               -  2c.  2019-06-12 06:00  Transfer to Jason Cobb
-G.                 +  5c.  2019-06-11 22:04  Reward (Arbitor weekly)
-Falsifian          +  5c.  2019-06-11 02:01  Reward (Treasuror weekly)
-Falsifian          +  5c.  2019-06-11 02:01  Reward (Registrar weekly)
+G.               +  5c.  2019-06-18 08:00  Reward (Arbitor weekly)
+D. Margaux       +  5c.  2019-06-18 12:21  Reward (Referee weekly)
+G.               +  5c.  2019-06-18 01:28  Reward (re-judging CFJ 3733)
+omd              +  5c.  2019-06-17 04:43  Reward (re-judging CFJ 3736)
+Trigon           +  5c.  2019-06-16 20:45  Reward (judging CFJ 3737)
+Trigon           +  5c.  2019-06-16 20:45  Reward (Rulekeepor monthly)
+Trigon           +  5c.  2019-06-16 20:45  Reward (Rulekeepor weekly)
+omd              +  5c.  2019-06-15 03:04  Reward (judging CFJ 3736)
+R. Lee           +  5c.  2019-06-14 23:12  Reward (judging CFJ 3734)
+D. Margaux       +  5c.  2019-06-13 16:20  Reward (judging CFJ 3730)
+G.               +  5c.  2019-06-13 16:14  Reward (judging CFJ 3733)
+D. Margaux       -  7c.  2019-06-13 11:09  Fee to perform The Ritual
+D. Margaux       +  5c.  2019-06-12 20:19  Reward (Referee weekly)
+Aris             +  5c.  2019-06-12 06:03  Reward (Promotor weekly)
+Jason Cobb       +  2c.  2019-06-12 06:00  Transfer to Aris
+Aris             -  2c.  2019-06-12 06:00  Transfer to Jason Cobb
+G.               +  5c.  2019-06-11 22:04  Reward (Arbitor weekly)
+Falsifian        +  5c.  2019-06-11 02:01  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-06-11 02:01  Reward (Registrar weekly)
 -- time of last weekly report --
-G.                 -  7c.  2019-06-10 15:24  Fee to perform The Ritual
-G.                 +  7c.  2019-06-10 15:24  Transfer from Reformed Church
-Reformed Church    -  7c.  2019-06-10 15:24  Transfer to G.
-Reformed Church    +  3c.  2019-06-10 15:24  Transfer from G.
-G.                 -  3c.  2019-06-10 15:24  Transfer to Reformed Church
-G.                 + 10c.  2019-06-07 17:12  Transfer from Telnaior
-Telnaior           - 10c.  2019-06-07 17:12  Transfer to G.
-Reformed Church    +  3c.  2019-06-07 13:48  Transfor from G.
-G.                 -  3c.  2019-06-07 13:48  Transfer to Reformed Church
-Reformed Church    + 21c.  2019-06-07 13:48  Transfor from G.
-G.                 - 21c.  2019-06-07 13:48  Transfer to Reformed Church
-Rance              +  5c.  2019-06-07 04:00  Reward (Herald weekly)
-Walker             +  4c.  2019-06-07 03:13  Transfer from o
-o                  -  4c.  2019-06-07 03:13  Transfer to Walker
-R. Lee             +  4c.  2019-06-07 03:13  Transfer from o
-o                  -  4c.  2019-06-07 03:13  Transfer to R. Lee
-Jason Cobb         + 12c.  2019-06-07 03:13  Transfer from o
-o                  - 12c.  2019-06-07 03:13  Transfer to Jason Cobb
-Falsifian          +  5c.  2019-06-06 23:42  Reward (Treasuror weekly)
-Falsifian          +  5c.  2019-06-06 23:42  Reward (Registrar weekly)
-Falsifian          +  5c.  2019-06-06 23:42  Reward (judging CFJ 3727)
-Falsifian          +  5c.  2019-06-06 23:42  Reward (judging CFJ 3726)
-Falsifian          +  5c.  2019-06-06 23:42  Reward (Registrar monthly)
-Trigon             +  5c.  2019-06-06 21:35  Reward (Rulekeepor weekly)
-Jason Cobb         -  7c.  2019-06-05 17:50  Fee to perform The Ritual
-R. Lee             + 10c.  2019-06-04 20:43  Welcome Package
-D. Margaux         +  5c.  2019-06-03 13:57  Reward (Referee weekly)
-Walker             + 10c.  2019-06-03 02:20  Welcome Package
-Trigon             +  5c.  2019-06-02 08:58  Reward (judging unnumbered CFJ)
-Trigon             +  5c.  2019-06-02 08:58  Reward (judging CFJ 3728)
-Jason Cobb         + 10c.  2019-06-02 02:21  Welcome Package
-Falsifian          + 10c.  2019-06-01 14:11  Transfer from R. Lee
-R. Lee             - 10c.  2019-06-01 14:11  Transfer to Falsifian
-ATMunn             + 10c.  2019-06-01 00:00  Payday
-Aris               + 20c.  2019-06-01 00:00  Payday (Arbitor, Promotor)
-Baron von Vaderham + 10c.  2019-06-01 00:00  Payday
-Bernie             + 10c.  2019-06-01 00:00  Payday
-Corona             + 10c.  2019-06-01 00:00  Payday
-CuddleBeam         + 10c.  2019-06-01 00:00  Payday
-D. Margaux         + 25c.  2019-06-01 00:00  Payday (Assessor, Referee, Speaker)
-Falsifian          + 20c.  2019-06-01 00:00  Payday (Registrar, Treasuror)
-G.                 + 15c.  2019-06-01 00:00  Payday (Tailor)
-Gaelan             + 10c.  2019-06-01 00:00  Payday
-Hālian             + 10c.  2019-06-01 00:00  Payday
-Jacob Arduino      + 10c.  2019-06-01 00:00  Payday
-L                  + 10c.  2019-06-01 00:00  Payday
-Murphy             + 10c.  2019-06-01 00:00  Payday
-PSS                + 10c.  2019-06-01 00:00  Payday
-Rance              + 10c.  2019-06-01 00:00  Payday
-Tarhalindur        + 10c.  2019-06-01 00:00  Payday
-Telnaior           + 10c.  2019-06-01 00:00  Payday
-Trigon             + 15c.  2019-06-01 00:00  Payday (Rulekeepor)
-R. Lee             + 10c.  2019-06-01 00:00  Payday
-o                  + 10c.  2019-06-01 00:00  Payday
-omd                + 15c.  2019-06-01 00:00  Payday (Distributor)
-twg                + 10c.  2019-06-01 00:00  Payday
-Trigon             +  5c.  2019-05-31 23:48  Reward (Rulekeepor weekly)
-Falsifian          +  7c.  2019-05-30 03:39  Transfer from Rance
-Rance              -  7c.  2019-05-30 03:39  Transfer to Falsifian
-Falsifian          +  5c.  2019-05-30 01:51  Reward (Treasuror weekly)
-Falsifian          +  5c.  2019-05-30 01:51  Reward (Registrar weekly)
-Aris               +  5c.  2019-05-27 20:45  Reward (Arbitor weekly)
-Aris               +  5c.  2019-05-27 20:45  Reward (Promotor weekly)
-D. Margaux         +  5c.  2019-05-27 15:01  Reward (Referee weekly)
-some asset classes removed 2019-05-27 02:39  Proposal 8177
-Falsifian          -  7c.  2019-05-26 23:46  Fee to perform The Ritual
-Trigon             +  5c.  2019-05-26 22:47  Reward (Rulekeepor weekly)
-nichdel            - 30c.  2019-05-24 01:39  Deregistration
-o                  + 10c.  2019-05-24 01:28  Welcome Package
-D. Margaux         +  5c.  2019-05-21 13:21  Reward (Referee weekly)
-D. Margaux         +  5c.  2019-05-21 13:21  Reward (Clork weekly)
-D. Margaux         +  5c.  2019-05-21 13:21  Reward (Astronomor weekly)
-Aris               +  5c.  2019-05-20 03:18  Reward (Arbitor weekly)
-Aris               +  5c.  2019-05-20 03:18  Reward (Promotor weekly)
-Rance              + 40c.  2019-05-20 01:06  Transfer from Baron von Vaderham
-Baron von Vaderham - 40c.  2019-05-20 01:06  Transfer to Rance
-Agora              +  2c.  2019-05-20 01:06  Transfer from Rance
-Rance              -  2c.  2019-05-20 01:06  Transfer to Agora
-Falsifian          +  5c.  2019-05-20 00:22  Reward (Registrar weekly)
-Falsifian          +  5c.  2019-05-20 00:22  Reward (Treasuror weekly)
-Falsifian          -  7c.  2019-05-19 23:59  Fee to perform The Ritual
-Murphy             +  5c.  2019-05-19 21:08  Reward (ADoP weekly)
-G.                 + 50c.  2019-05-17 12:40  Transfer from Telnaior
-Telnaior           - 50c.  2019-05-17 12:40  Transfer to G.
-Agora              + 10c.  2019-05-17 12:40  Transfer from G.
-G.                 - 10c.  2019-05-17 12:40  Transfer to Agora
-Falsifian          + 79c.  2019-05-17 02:42  Transfer from R. Lee
-R. Lee             - 79c.  2019-05-17 02:42  Transfer to Falsifian
-Agora              + 20c.  2019-05-17 02:42  Transfer from Falsifian
-Falsifian          - 20c.  2019-05-17 02:42  Transfer to Agora
-D. Margaux         + 50c.  2019-05-17 02:42  Transfer from L
-L                  - 50c.  2019-05-17 02:42  Transfer to D. Margaux
-Agora              +  2c.  2019-05-17 02:42  Transfer from D. Margaux
-D. Margaux         -  2c.  2019-05-17 02:42  Transfer to Agora
-Murphy             +  5c.  2019-05-15 14:29  Reward (ADoP weekly)
-Falsifian          +  5c.  2019-05-13 01:38  Reward (Registrar weekly)
-Falsifian          +  5c.  2019-05-13 01:38  Reward (Treasuror weekly)
-Falsifian          -  7c.  2019-05-12 23:58  Fee to perform The Ritual
-Falsifian          +  5c.  2019-05-11 02:49  Reward (Registrar weekly)
-Falsifian          +  5c.  2019-05-11 02:49  Reward (Treasuror weekly)
-Falsifian          +  5c.  2019-05-11 02:49  Reward (Treasuror weekly)
-Falsifian          +  5c.  2019-05-11 02:49  Reward (Registrar monthly)
-Falsifian          + 75c.  2019-05-10 04:46  Transfer from Tarhalindur
-Tarhalindur        - 75c.  2019-05-10 04:46  Transfer to Falsifian
-Agora              +  1c.  2019-05-10 04:46  Transfer to Falsifian
-Falsifian          -  1c.  2019-05-10 04:46  Transfer to Agora
-Falsifian          -  7c.  2019-05-05 23:41  Fee to perform The Ritual
-G.                 + 30c.  2019-05-05 18:32  Transfer from Hālian
-Hālian             - 30c.  2019-05-05 18:32  Transfer to G.
-Falsifian          +  5c.  2019-05-04 15:52  Reward (Registrar weekly)
-ATMunn             + 10c.  2019-05-01 00:00  Payday
-Aris               + 15c.  2019-05-01 00:00  Payday (Promotor)
-Baron von Vaderham + 10c.  2019-05-01 00:00  Payday
-Bernie             + 10c.  2019-05-01 00:00  Payday
-Corona             + 10c.  2019-05-01 00:00  Payday
-CuddleBeam         + 10c.  2019-05-01 00:00  Payday
-D. Margaux         + 15c.  2019-05-01 00:00  Payday (Speaker)
-Falsifian          + 10c.  2019-05-01 00:00  Payday
-G.                 + 10c.  2019-05-01 00:00  Payday
-Gaelan             + 10c.  2019-05-01 00:00  Payday
-Hālian             + 10c.  2019-05-01 00:00  Payday
-Jacob Arduino      + 10c.  2019-05-01 00:00  Payday
-L                  + 10c.  2019-05-01 00:00  Payday
-Murphy             + 15c.  2019-05-01 00:00  Payday (ADoP)
-PSS                + 10c.  2019-05-01 00:00  Payday
-Rance              + 10c.  2019-05-01 00:00  Payday
-Tarhalindur        + 10c.  2019-05-01 00:00  Payday
-Telnaior           + 10c.  2019-05-01 00:00  Payday
-Trigon             + 15c.  2019-05-01 00:00  Payday (Rulekeepor)
-R. Lee             + 10c.  2019-05-01 00:00  Payday
-nichdel            + 10c.  2019-05-01 00:00  Payday
-omd                + 15c.  2019-05-01 00:00  Payday (Distributor)
-twg                + 40c.  2019-05-01 00:00  Payday (Assessor etc.)
-D. Margaux         +  4c.  2019-04-28 17:39  Transfer from Aris
-Aris               -  4c.  2019-04-28 17:39  Transfer to D. Margaux
-D. Margaux         -  7c.  2019-04-28 02:51  Fee to perform The Ritual
-Falsifian          +  5c.  2019-04-28 00:11  Reward (ADoP weekly)
-Aris               +  5c.  2019-04-09 03:41  Reward (Promotor weekly)
-Rance              + 10c.  2019-04-09 03:35  Welcome Package
-Bernie             + 10c.  2019-04-07 02:17  Welcome Package
-ATMunn             + 10c.  2019-04-01 00:00  Payday
-Aris               + 15c.  2019-04-01 00:00  Payday (Promotor)
-Baron von Vaderham + 10c.  2019-04-01 00:00  Payday
-Corona             + 10c.  2019-04-01 00:00  Payday
-CuddleBeam         + 10c.  2019-04-01 00:00  Payday
-D. Margaux         + 25c.  2019-04-01 00:00  Payday (Speaker, Registrar, Arbitor)
-G.                 + 15c.  2019-04-01 00:00  Payday (Herald)
-Falsifian          + 10c.  2019-04-01 00:00  Payday
-Gaelan             + 10c.  2019-04-01 00:00  Payday
-Hālian             + 10c.  2019-04-01 00:00  Payday
-Jacob Arduino      + 10c.  2019-04-01 00:00  Payday
-L                  + 10c.  2019-04-01 00:00  Payday
-Murphy             + 15c.  2019-04-01 00:00  Payday (ADoP)
-PSS                + 10c.  2019-04-01 00:00  Payday
-Tarhalindur        + 10c.  2019-04-01 00:00  Payday
-Telnaior           + 10c.  2019-04-01 00:00  Payday
-Trigon             + 15c.  2019-04-01 00:00  Payday (Rulekeepor)
-R. Lee             + 10c.  2019-04-01 00:00  Payday
-nichdel            + 10c.  2019-04-01 00:00  Payday
-omd                + 15c.  2019-04-01 00:00  Payday (Distributor)
-twg                + 40c.  2019-04-01 00:00  Payday (Assessor etc.)
-G.                 +  5c.  2019-03-31 15:45  Reward (Herald monthly)
-G.                 +  5c.  2019-03-31 15:45  Reward (Herald weekly)
-G.                 +  5c.  2019-03-24 18:16  Reward (Herald weekly)
-Murphy             +  5c.  2019-03-17 20:35  Reward (ADoP weekly)
-G.                 +  5c.  2019-03-17 00:06  Reward (Herald weekly)
+G.               -  7c.  2019-06-10 15:24  Fee to perform The Ritual
+G.               +  7c.  2019-06-10 15:24  Transfer from Reformed Church
+Reformed Church  -  7c.  2019-06-10 15:24  Transfer to G.
+Reformed Church  +  3c.  2019-06-10 15:24  Transfer from G.
+G.               -  3c.  2019-06-10 15:24  Transfer to Reformed Church
+G.               + 10c.  2019-06-07 17:12  Transfer from Telnaior
+Telnaior         - 10c.  2019-06-07 17:12  Transfer to G.
+Reformed Church  +  3c.  2019-06-07 13:48  Transfor from G.
+G.               -  3c.  2019-06-07 13:48  Transfer to Reformed Church
+Reformed Church  + 21c.  2019-06-07 13:48  Transfor from G.
+G.               - 21c.  2019-06-07 13:48  Transfer to Reformed Church
+Rance            +  5c.  2019-06-07 04:00  Reward (Herald weekly)
+Walker           +  4c.  2019-06-07 03:13  Transfer from o
+o                -  4c.  2019-06-07 03:13  Transfer to Walker
+R. Lee           +  4c.  2019-06-07 03:13  Transfer from o
+o                -  4c.  2019-06-07 03:13  Transfer to R. Lee
+Jason Cobb       + 12c.  2019-06-07 03:13  Transfer from o
+o                - 12c.  2019-06-07 03:13  Transfer to Jason Cobb
+Falsifian        +  5c.  2019-06-06 23:42  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-06-06 23:42  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-06-06 23:42  Reward (judging CFJ 3727)
+Falsifian        +  5c.  2019-06-06 23:42  Reward (judging CFJ 3726)
+Falsifian        +  5c.  2019-06-06 23:42  Reward (Registrar monthly)
+Trigon           +  5c.  2019-06-06 21:35  Reward (Rulekeepor weekly)
+Jason Cobb       -  7c.  2019-06-05 17:50  Fee to perform The Ritual
+R. Lee           + 10c.  2019-06-04 20:43  Welcome Package
+D. Margaux       +  5c.  2019-06-03 13:57  Reward (Referee weekly)
+Walker           + 10c.  2019-06-03 02:20  Welcome Package
+Trigon           +  5c.  2019-06-02 08:58  Reward
+                                           (judging unnumbered CFJ)
+Trigon           +  5c.  2019-06-02 08:58  Reward (judging CFJ 3728)
+Jason Cobb       + 10c.  2019-06-02 02:21  Welcome Package
+Falsifian        + 10c.  2019-06-01 14:11  Transfer from R. Lee
+R. Lee           - 10c.  2019-06-01 14:11  Transfer to Falsifian
+ATMunn           + 10c.  2019-06-01 00:00  Payday
+Aris             + 20c.  2019-06-01 00:00  Payday (Arbitor, Promotor)
+Baron v V [0]    + 10c.  2019-06-01 00:00  Payday
+Bernie           + 10c.  2019-06-01 00:00  Payday
+Corona           + 10c.  2019-06-01 00:00  Payday
+CuddleBeam       + 10c.  2019-06-01 00:00  Payday
+D. Margaux       + 25c.  2019-06-01 00:00  Payday
+                                           (Assessor, Referee, Speaker)
+Falsifian        + 20c.  2019-06-01 00:00  Payday (Registrar, Treasuror)
+G.               + 15c.  2019-06-01 00:00  Payday (Tailor)
+Gaelan           + 10c.  2019-06-01 00:00  Payday
+Hālian           + 10c.  2019-06-01 00:00  Payday
+Jacob Arduino    + 10c.  2019-06-01 00:00  Payday
+L                + 10c.  2019-06-01 00:00  Payday
+Murphy           + 10c.  2019-06-01 00:00  Payday
+PSS              + 10c.  2019-06-01 00:00  Payday
+Rance            + 10c.  2019-06-01 00:00  Payday
+Tarhalindur      + 10c.  2019-06-01 00:00  Payday
+Telnaior         + 10c.  2019-06-01 00:00  Payday
+Trigon           + 15c.  2019-06-01 00:00  Payday (Rulekeepor)
+R. Lee           + 10c.  2019-06-01 00:00  Payday
+o                + 10c.  2019-06-01 00:00  Payday
+omd              + 15c.  2019-06-01 00:00  Payday (Distributor)
+twg              + 10c.  2019-06-01 00:00  Payday
+Trigon           +  5c.  2019-05-31 23:48  Reward (Rulekeepor weekly)
+Falsifian        +  7c.  2019-05-30 03:39  Transfer from Rance
+Rance            -  7c.  2019-05-30 03:39  Transfer to Falsifian
+Falsifian        +  5c.  2019-05-30 01:51  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-05-30 01:51  Reward (Registrar weekly)
+Aris             +  5c.  2019-05-27 20:45  Reward (Arbitor weekly)
+Aris             +  5c.  2019-05-27 20:45  Reward (Promotor weekly)
+D. Margaux       +  5c.  2019-05-27 15:01  Reward (Referee weekly)
+(some asset classes      2019-05-27 02:39  Proposal 8177
+removed)
+Falsifian        -  7c.  2019-05-26 23:46  Fee to perform The Ritual
+Trigon           +  5c.  2019-05-26 22:47  Reward (Rulekeepor weekly)
+nichdel          - 30c.  2019-05-24 01:39  Deregistration
+o                + 10c.  2019-05-24 01:28  Welcome Package
+D. Margaux       +  5c.  2019-05-21 13:21  Reward (Referee weekly)
+D. Margaux       +  5c.  2019-05-21 13:21  Reward (Clork weekly)
+D. Margaux       +  5c.  2019-05-21 13:21  Reward (Astronomor weekly)
+Aris             +  5c.  2019-05-20 03:18  Reward (Arbitor weekly)
+Aris             +  5c.  2019-05-20 03:18  Reward (Promotor weekly)
+Rance            + 40c.  2019-05-20 01:06  Transfer from Baron v V [0]
+Baron v V [0]    - 40c.  2019-05-20 01:06  Transfer to Rance
+Agora            +  2c.  2019-05-20 01:06  Transfer from Rance
+Rance            -  2c.  2019-05-20 01:06  Transfer to Agora
+Falsifian        +  5c.  2019-05-20 00:22  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-05-20 00:22  Reward (Treasuror weekly)
+Falsifian        -  7c.  2019-05-19 23:59  Fee to perform The Ritual
+Murphy           +  5c.  2019-05-19 21:08  Reward (ADoP weekly)
+G.               + 50c.  2019-05-17 12:40  Transfer from Telnaior
+Telnaior         - 50c.  2019-05-17 12:40  Transfer to G.
+Agora            + 10c.  2019-05-17 12:40  Transfer from G.
+G.               - 10c.  2019-05-17 12:40  Transfer to Agora
+Falsifian        + 79c.  2019-05-17 02:42  Transfer from R. Lee
+R. Lee           - 79c.  2019-05-17 02:42  Transfer to Falsifian
+Agora            + 20c.  2019-05-17 02:42  Transfer from Falsifian
+Falsifian        - 20c.  2019-05-17 02:42  Transfer to Agora
+D. Margaux       + 50c.  2019-05-17 02:42  Transfer from L
+L                - 50c.  2019-05-17 02:42  Transfer to D. Margaux
+Agora            +  2c.  2019-05-17 02:42  Transfer from D. Margaux
+D. Margaux       -  2c.  2019-05-17 02:42  Transfer to Agora
+Murphy           +  5c.  2019-05-15 14:29  Reward (ADoP weekly)
+Falsifian        +  5c.  2019-05-13 01:38  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-05-13 01:38  Reward (Treasuror weekly)
+Falsifian        -  7c.  2019-05-12 23:58  Fee to perform The Ritual
+Falsifian        +  5c.  2019-05-11 02:49  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-05-11 02:49  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-05-11 02:49  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-05-11 02:49  Reward (Registrar monthly)
+Falsifian        + 75c.  2019-05-10 04:46  Transfer from Tarhalindur
+Tarhalindur      - 75c.  2019-05-10 04:46  Transfer to Falsifian
+Agora            +  1c.  2019-05-10 04:46  Transfer to Falsifian
+Falsifian        -  1c.  2019-05-10 04:46  Transfer to Agora
+Falsifian        -  7c.  2019-05-05 23:41  Fee to perform The Ritual
+G.               + 30c.  2019-05-05 18:32  Transfer from Hālian
+Hālian           - 30c.  2019-05-05 18:32  Transfer to G.
+Falsifian        +  5c.  2019-05-04 15:52  Reward (Registrar weekly)
+ATMunn           + 10c.  2019-05-01 00:00  Payday
+Aris             + 15c.  2019-05-01 00:00  Payday (Promotor)
+Baron v V [0]    + 10c.  2019-05-01 00:00  Payday
+Bernie           + 10c.  2019-05-01 00:00  Payday
+Corona           + 10c.  2019-05-01 00:00  Payday
+CuddleBeam       + 10c.  2019-05-01 00:00  Payday
+D. Margaux       + 15c.  2019-05-01 00:00  Payday (Speaker)
+Falsifian        + 10c.  2019-05-01 00:00  Payday
+G.               + 10c.  2019-05-01 00:00  Payday
+Gaelan           + 10c.  2019-05-01 00:00  Payday
+Hālian           + 10c.  2019-05-01 00:00  Payday
+Jacob Arduino    + 10c.  2019-05-01 00:00  Payday
+L                + 10c.  2019-05-01 00:00  Payday
+Murphy           + 15c.  2019-05-01 00:00  Payday (ADoP)
+PSS              + 10c.  2019-05-01 00:00  Payday
+Rance            + 10c.  2019-05-01 00:00  Payday
+Tarhalindur      + 10c.  2019-05-01 00:00  Payday
+Telnaior         + 10c.  2019-05-01 00:00  Payday
+Trigon           + 15c.  2019-05-01 00:00  Payday (Rulekeepor)
+R. Lee           + 10c.  2019-05-01 00:00  Payday
+nichdel          + 10c.  2019-05-01 00:00  Payday
+omd              + 15c.  2019-05-01 00:00  Payday (Distributor)
+twg              + 40c.  2019-05-01 00:00  Payday (Assessor etc.)
+D. Margaux       +  4c.  2019-04-28 17:39  Transfer from Aris
+Aris             -  4c.  2019-04-28 17:39  Transfer to D. Margaux
+D. Margaux       -  7c.  2019-04-28 02:51  Fee to perform The Ritual
+Falsifian        +  5c.  2019-04-28 00:11  Reward (ADoP weekly)
+Aris             +  5c.  2019-04-09 03:41  Reward (Promotor weekly)
+Rance            + 10c.  2019-04-09 03:35  Welcome Package
+Bernie           + 10c.  2019-04-07 02:17  Welcome Package
+ATMunn           + 10c.  2019-04-01 00:00  Payday
+Aris             + 15c.  2019-04-01 00:00  Payday (Promotor)
+Baron v V [0]    + 10c.  2019-04-01 00:00  Payday
+Corona           + 10c.  2019-04-01 00:00  Payday
+CuddleBeam       + 10c.  2019-04-01 00:00  Payday
+D. Margaux       + 25c.  2019-04-01 00:00  Payday
+                                           (Speaker, Registrar, Arbitor)
+G.               + 15c.  2019-04-01 00:00  Payday (Herald)
+Falsifian        + 10c.  2019-04-01 00:00  Payday
+Gaelan           + 10c.  2019-04-01 00:00  Payday
+Hālian           + 10c.  2019-04-01 00:00  Payday
+Jacob Arduino    + 10c.  2019-04-01 00:00  Payday
+L                + 10c.  2019-04-01 00:00  Payday
+Murphy           + 15c.  2019-04-01 00:00  Payday (ADoP)
+PSS              + 10c.  2019-04-01 00:00  Payday
+Tarhalindur      + 10c.  2019-04-01 00:00  Payday
+Telnaior         + 10c.  2019-04-01 00:00  Payday
+Trigon           + 15c.  2019-04-01 00:00  Payday (Rulekeepor)
+R. Lee           + 10c.  2019-04-01 00:00  Payday
+nichdel          + 10c.  2019-04-01 00:00  Payday
+omd              + 15c.  2019-04-01 00:00  Payday (Distributor)
+twg              + 40c.  2019-04-01 00:00  Payday (Assessor etc.)
+G.               +  5c.  2019-03-31 15:45  Reward (Herald monthly)
+G.               +  5c.  2019-03-31 15:45  Reward (Herald weekly)
+G.               +  5c.  2019-03-24 18:16  Reward (Herald weekly)
+Murphy           +  5c.  2019-03-17 20:35  Reward (ADoP weekly)
+G.               +  5c.  2019-03-17 00:06  Reward (Herald weekly)
+
+[0] Baron von Vaderham, abbreviated to save space.
+[1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
+    the Ritual - Candle Division ("Reformed Church")'
