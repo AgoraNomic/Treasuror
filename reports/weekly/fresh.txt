@@ -43,7 +43,7 @@ Entities not listed have a Coin balance of 0.
       17    Jason Cobb
      192    Murphy
        0    o
-     121    omd
+     131    omd
       66    Rance
      455    Trigon
      822    twg
@@ -92,9 +92,11 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+omd                +  5c.  2019-06-17 04:43  Reward (re-judging CFJ 3736)
 Trigon             +  5c.  2019-06-16 20:45  Reward (judging CFJ 3737)
 Trigon             +  5c.  2019-06-16 20:45  Reward (Rulekeepor monthly)
 Trigon             +  5c.  2019-06-16 20:45  Reward (Rulekeepor weekly)
+omd                +  5c.  2019-06-15 03:04  Reward (judging CFJ 3736)
 V.J. Rada          +  5c.  2019-06-14 23:12  Reward (judging CFJ 3734)
 D. Margaux         +  5c.  2019-06-13 16:20  Reward (judging CFJ 3730)
 G.                 +  5c.  2019-06-13 16:14  Reward (judging CFJ 3733)
