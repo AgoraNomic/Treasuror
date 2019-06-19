@@ -5,9 +5,6 @@ fresher than the latest official version.
                                 Forbes 500
 ----------------------------------------------------------------------------
 
-Disclaimer: This assumes D. Margaux's attempt on 2019-06-13 to earn 5 Coins for
-a "Preist's Weekly Report" failed.
-
 Date of this unofficial report: 2019-06-19
 Date of last weekly report:     2019-06-11
 
