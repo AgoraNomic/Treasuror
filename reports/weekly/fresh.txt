@@ -44,10 +44,10 @@ Entities not listed have a Coin balance of 0.
      192    Murphy
        0    o
      131    omd
+      19    R. Lee
       66    Rance
      455    Trigon
      822    twg
-      19    V.J. Rada
       14    Walker
 
    Coins    Zombie
@@ -97,7 +97,7 @@ Trigon             +  5c.  2019-06-16 20:45  Reward (judging CFJ 3737)
 Trigon             +  5c.  2019-06-16 20:45  Reward (Rulekeepor monthly)
 Trigon             +  5c.  2019-06-16 20:45  Reward (Rulekeepor weekly)
 omd                +  5c.  2019-06-15 03:04  Reward (judging CFJ 3736)
-V.J. Rada          +  5c.  2019-06-14 23:12  Reward (judging CFJ 3734)
+R. Lee             +  5c.  2019-06-14 23:12  Reward (judging CFJ 3734)
 D. Margaux         +  5c.  2019-06-13 16:20  Reward (judging CFJ 3730)
 G.                 +  5c.  2019-06-13 16:14  Reward (judging CFJ 3733)
 D. Margaux         -  7c.  2019-06-13 11:09  Fee to perform The Ritual
@@ -123,8 +123,8 @@ G.                 - 21c.  2019-06-07 13:48  Transfer to Reformed Church
 Rance              +  5c.  2019-06-07 04:00  Reward (Herald weekly)
 Walker             +  4c.  2019-06-07 03:13  Transfer from o
 o                  -  4c.  2019-06-07 03:13  Transfer to Walker
-V.J. Rada          +  4c.  2019-06-07 03:13  Transfer from o
-o                  -  4c.  2019-06-07 03:13  Transfer to V.J. Rada
+R. Lee             +  4c.  2019-06-07 03:13  Transfer from o
+o                  -  4c.  2019-06-07 03:13  Transfer to R. Lee
 Jason Cobb         + 12c.  2019-06-07 03:13  Transfer from o
 o                  - 12c.  2019-06-07 03:13  Transfer to Jason Cobb
 Falsifian          +  5c.  2019-06-06 23:42  Reward (Treasuror weekly)
@@ -134,14 +134,14 @@ Falsifian          +  5c.  2019-06-06 23:42  Reward (judging CFJ 3726)
 Falsifian          +  5c.  2019-06-06 23:42  Reward (Registrar monthly)
 Trigon             +  5c.  2019-06-06 21:35  Reward (Rulekeepor weekly)
 Jason Cobb         -  7c.  2019-06-05 17:50  Fee to perform The Ritual
-V.J. Rada          + 10c.  2019-06-04 20:43  Welcome Package
+R. Lee             + 10c.  2019-06-04 20:43  Welcome Package
 D. Margaux         +  5c.  2019-06-03 13:57  Reward (Referee weekly)
 Walker             + 10c.  2019-06-03 02:20  Welcome Package
 Trigon             +  5c.  2019-06-02 08:58  Reward (judging unnumbered CFJ)
 Trigon             +  5c.  2019-06-02 08:58  Reward (judging CFJ 3728)
 Jason Cobb         + 10c.  2019-06-02 02:21  Welcome Package
-Falsifian          + 10c.  2019-06-01 14:11  Transfer from V.J. Rada
-V.J. Rada          - 10c.  2019-06-01 14:11  Transfer to Falsifian
+Falsifian          + 10c.  2019-06-01 14:11  Transfer from R. Lee
+R. Lee             - 10c.  2019-06-01 14:11  Transfer to Falsifian
 ATMunn             + 10c.  2019-06-01 00:00  Payday
 Aris               + 20c.  2019-06-01 00:00  Payday (Arbitor, Promotor)
 Baron von Vaderham + 10c.  2019-06-01 00:00  Payday
@@ -161,7 +161,7 @@ Rance              + 10c.  2019-06-01 00:00  Payday
 Tarhalindur        + 10c.  2019-06-01 00:00  Payday
 Telnaior           + 10c.  2019-06-01 00:00  Payday
 Trigon             + 15c.  2019-06-01 00:00  Payday (Rulekeepor)
-V.J. Rada          + 10c.  2019-06-01 00:00  Payday
+R. Lee             + 10c.  2019-06-01 00:00  Payday
 o                  + 10c.  2019-06-01 00:00  Payday
 omd                + 15c.  2019-06-01 00:00  Payday (Distributor)
 twg                + 10c.  2019-06-01 00:00  Payday
@@ -195,8 +195,8 @@ G.                 + 50c.  2019-05-17 12:40  Transfer from Telnaior
 Telnaior           - 50c.  2019-05-17 12:40  Transfer to G.
 Agora              + 10c.  2019-05-17 12:40  Transfer from G.
 G.                 - 10c.  2019-05-17 12:40  Transfer to Agora
-Falsifian          + 79c.  2019-05-17 02:42  Transfer from V.J. Rada
-V.J. Rada          - 79c.  2019-05-17 02:42  Transfer to Falsifian
+Falsifian          + 79c.  2019-05-17 02:42  Transfer from R. Lee
+R. Lee             - 79c.  2019-05-17 02:42  Transfer to Falsifian
 Agora              + 20c.  2019-05-17 02:42  Transfer from Falsifian
 Falsifian          - 20c.  2019-05-17 02:42  Transfer to Agora
 D. Margaux         + 50c.  2019-05-17 02:42  Transfer from L
@@ -238,7 +238,7 @@ Rance              + 10c.  2019-05-01 00:00  Payday
 Tarhalindur        + 10c.  2019-05-01 00:00  Payday
 Telnaior           + 10c.  2019-05-01 00:00  Payday
 Trigon             + 15c.  2019-05-01 00:00  Payday (Rulekeepor)
-V.J. Rada          + 10c.  2019-05-01 00:00  Payday
+R. Lee             + 10c.  2019-05-01 00:00  Payday
 nichdel            + 10c.  2019-05-01 00:00  Payday
 omd                + 15c.  2019-05-01 00:00  Payday (Distributor)
 twg                + 40c.  2019-05-01 00:00  Payday (Assessor etc.)
@@ -266,7 +266,7 @@ PSS                + 10c.  2019-04-01 00:00  Payday
 Tarhalindur        + 10c.  2019-04-01 00:00  Payday
 Telnaior           + 10c.  2019-04-01 00:00  Payday
 Trigon             + 15c.  2019-04-01 00:00  Payday (Rulekeepor)
-V.J. Rada          + 10c.  2019-04-01 00:00  Payday
+R. Lee             + 10c.  2019-04-01 00:00  Payday
 nichdel            + 10c.  2019-04-01 00:00  Payday
 omd                + 15c.  2019-04-01 00:00  Payday (Distributor)
 twg                + 40c.  2019-04-01 00:00  Payday (Assessor etc.)
