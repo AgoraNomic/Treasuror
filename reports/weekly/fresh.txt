@@ -8,7 +8,7 @@ fresher than the latest official version.
 Disclaimer: This assumes D. Margaux's attempt on 2019-06-13 to earn 5 Coins for
 a "Preist's Weekly Report" failed.
 
-Date of this unofficial report: 2019-06-17
+Date of this unofficial report: 2019-06-19
 Date of last weekly report:     2019-06-11
 
 Archive of reports on the web: https://agoranomic.org/Treasuror/reports/weekly/
@@ -35,9 +35,9 @@ Entities not listed have a Coin balance of 0.
      159    Aris
       30    Bernie
       74    CuddleBeam
-    1019    D. Margaux
+    1024    D. Margaux
      277    Falsifian
-     716    G.
+     726    G.
       90    Gaelan
      118    Jacob Arduino
       17    Jason Cobb
@@ -92,6 +92,9 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.                 +  5c.  2019-06-18 08:00  Reward (Arbitor weekly)
+D. Margaux         +  5c.  2019-06-18 12:21  Reward (Referee weekly)
+G.                 +  5c.  2019-06-18 01:28  Reward (re-judging CFJ 3733)
 omd                +  5c.  2019-06-17 04:43  Reward (re-judging CFJ 3736)
 Trigon             +  5c.  2019-06-16 20:45  Reward (judging CFJ 3737)
 Trigon             +  5c.  2019-06-16 20:45  Reward (Rulekeepor monthly)
