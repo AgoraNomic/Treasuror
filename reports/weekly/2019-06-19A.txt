@@ -1,12 +1,13 @@
-This is an unofficial version of the Treasuror's weekly report that may
-be fresher than the latest official version.
-
 ------------------------------------------------------------------------
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-06-19
-Date of last weekly report:     2019-06-19
+This is a revision of the 2019-06-19 Treasuror weekly report.  It describes the
+state of the game at the time the original report was published, which is
+2019-06-19 at 01:14 UTC.
+
+Date of this weekly report: 2019-06-19
+Date of last weekly report: 2019-06-11
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -87,7 +88,6 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
--- time of last weekly report --
 G.               +  5c.  2019-06-18 08:00  Reward (Arbitor weekly)
 D. Margaux       +  5c.  2019-06-18 12:21  Reward (Referee weekly)
 G.               +  5c.  2019-06-18 01:28  Reward (re-judging CFJ 3733)
@@ -107,6 +107,7 @@ Aris             -  2c.  2019-06-12 06:00  Transfer to Jason Cobb
 G.               +  5c.  2019-06-11 22:04  Reward (Arbitor weekly)
 Falsifian        +  5c.  2019-06-11 02:01  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-06-11 02:01  Reward (Registrar weekly)
+-- time of last weekly report --
 G.               -  7c.  2019-06-10 15:24  Fee to perform The Ritual
 G.               +  7c.  2019-06-10 15:24  Transfer from Reformed Church
 Reformed Church  -  7c.  2019-06-10 15:24  Transfer to G.
