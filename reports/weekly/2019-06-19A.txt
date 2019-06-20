@@ -2,9 +2,9 @@
                               Forbes 500
 ------------------------------------------------------------------------
 
-This is a revision of the 2019-06-19 Treasuror weekly report.  It describes the
-state of the game at the time the original report was published, which is
-2019-06-19 at 01:14 UTC.
+This is a revision of the 2019-06-19 Treasuror weekly report.  It
+describes the state of the game at the time the original report was
+published, which is 2019-06-19 at 01:14 UTC.
 
 Date of this weekly report: 2019-06-19
 Date of last weekly report: 2019-06-11
