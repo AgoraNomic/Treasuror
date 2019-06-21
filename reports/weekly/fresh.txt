@@ -5,6 +5,10 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
+Disclaimer: This report assumes a zombie auction was initiated on
+2019-06-09. Falsifian called a CFJ about this on 2019-06-19. Events in
+the Recent History section that depend on this are marked with "^0".
+
 Date of this unofficial report: 2019-06-19
 Date of last weekly report:     2019-06-19
 
@@ -42,7 +46,7 @@ Entities not listed have a Coin balance of 0.
      192    Murphy
        0    o
      131    omd
-      19    R. Lee
+      12    R. Lee
       66    Rance
      455    Trigon
      822    twg
@@ -59,7 +63,7 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Non-player entity
    -----    -----------------
-    1207    Agora
+    1214    Agora
       87    Lost and Found Department
       20    Reformed Church [1]
 
@@ -87,6 +91,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+^0 Agora         +  7c.  2019-06-19 21:31  Transfer from R. Lee
+^0 R. Lee        -  7c.  2019-06-19 21:31  Transfer to Agora
 -- time of last weekly report --
 G.               +  5c.  2019-06-18 08:00  Reward (Arbitor weekly)
 D. Margaux       +  5c.  2019-06-18 12:21  Reward (Referee weekly)
@@ -281,3 +287,5 @@ G.               +  5c.  2019-03-17 00:06  Reward (Herald weekly)
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
     the Ritual - Candle Division ("Reformed Church")'
+
+^0 Subject to the disclaimer posted at the top of this report.
