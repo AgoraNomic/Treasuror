@@ -9,7 +9,7 @@ Disclaimer: This report assumes a zombie auction was initiated on
 2019-06-09. Falsifian called a CFJ about this on 2019-06-19. Events in
 the Recent History section that depend on this are marked with "^0".
 
-Date of this unofficial report: 2019-06-19
+Date of this unofficial report: 2019-06-20
 Date of last weekly report:     2019-06-19
 
 Archive of reports on the web:
@@ -38,14 +38,14 @@ Entities not listed have a Coin balance of 0.
       30    Bernie
       74    CuddleBeam
     1024    D. Margaux
-     277    Falsifian
+     266    Falsifian
      726    G.
       90    Gaelan
      118    Jacob Arduino
       17    Jason Cobb
-     192    Murphy
+     197    Murphy
        0    o
-     131    omd
+     121    omd
       12    R. Lee
       66    Rance
      455    Trigon
@@ -54,6 +54,7 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Zombie
    -----    ------
+      11    Baron von Vaderham
       40    Corona
       10    Hālian
       10    L
@@ -63,7 +64,7 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Non-player entity
    -----    -----------------
-    1214    Agora
+    1224    Agora
       87    Lost and Found Department
       20    Reformed Church [1]
 
@@ -91,6 +92,11 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Baron v V        + 11c.  2019-06-20 16:39  Transfer from Falsifian
+Falsifian        - 11c.  2019-06-20 16:39  Transfer to Baron v V
+Agora            + 10c.  2019-06-20 04:58  Transfer from omd
+omd              - 10c.  2019-06-20 04:58  Transfer to Agora
+Murphy           +  5c.  2019-06-20 04:26  Reward (ADoP weekly)
 ^0 Agora         +  7c.  2019-06-19 21:31  Transfer from R. Lee
 ^0 R. Lee        -  7c.  2019-06-19 21:31  Transfer to Agora
 -- time of last weekly report --
