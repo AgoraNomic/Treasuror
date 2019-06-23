@@ -35,10 +35,10 @@ Entities not listed have a Coin balance of 0.
    -----    -------------
      146    ATMunn
      159    Aris
-       0    Baron von Vaderham
+      10    Baron von Vaderham
       30    Bernie
       74    CuddleBeam
-    1024    D. Margaux
+    1029    D. Margaux
      266    Falsifian
      726    G.
       90    Gaelan
@@ -92,6 +92,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+D. Margaux       +  5c.  2019-06-21 13:53  Reward (judging CFJ 3737)
+Baron v V        + 10c.  2019-06-21 04:23  Welcome Package
 ^0 Agora         + 11c.  2019-06-20 16:55  Transfer from Baron v V
 ^0 Baron v V     - 11c.  2019-06-20 16:55  Transfer to Agora
 Baron v V        + 11c.  2019-06-20 16:39  Transfer from Falsifian
