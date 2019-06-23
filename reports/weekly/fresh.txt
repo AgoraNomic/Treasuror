@@ -6,8 +6,8 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Disclaimer: This report assumes a zombie auction was initiated on
-2019-06-09. Falsifian called a CFJ about this on 2019-06-19. Events in
-the Recent History section that depend on this are marked with "^0".
+2019-06-09, as stated in CFJ 3741.  Events in the Recent History section
+that depend on this are marked with "^0".
 
 Date of this unofficial report: 2019-06-21
 Date of last weekly report:     2019-06-19
