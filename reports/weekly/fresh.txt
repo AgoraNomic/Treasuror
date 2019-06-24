@@ -41,11 +41,11 @@ Entities not listed have a Coin balance of 0.
       30    Bernie
       74    CuddleBeam
     1029    D. Margaux
-     266    Falsifian
+     286    Falsifian
      726    G.
       90    Gaelan
      118    Jacob Arduino
-      17    Jason Cobb
+      10    Jason Cobb
      197    Murphy
        0    o
      121    omd
@@ -86,6 +86,7 @@ Unofficial section. Does not self-ratify.
   2019-06-03..09     Jason Cobb
   2019-06-10..16     G.          Through the Reformed Church
   (same)             D. Margaux  Member of the Church of the Ritual
+  2019-06-17..23     Jason Cobb
 
 
 RECENT HISTORY
@@ -94,6 +95,11 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       -  7c.  2019-06-23 16:04  Fee to perform The Ritual
+Falsifian        +  5c.  2019-06-23 06:21  Reward (judging CFJ 3739)
+Falsifian        +  5c.  2019-06-23 06:21  Reward (judging CFJ 3735)
+Falsifian        +  5c.  2019-06-23 06:21  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-06-23 06:21  Reward (Registrar weekly)
 R. Lee           +  5c.  2019-06-23 02:39  Reward (Astronomor weekly)
 Trigon           +  5c.  2019-06-22 20:55  Reward (Rulekeepor weekly)
 D. Margaux       +  5c.  2019-06-21 13:53  Reward (judging CFJ 3737)
