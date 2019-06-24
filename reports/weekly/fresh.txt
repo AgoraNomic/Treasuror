@@ -32,7 +32,7 @@ Entities not listed have a Coin balance of 0.
    Coins    Active player
    -----    -------------
      146    ATMunn
-     159    Aris
+     164    Aris
       10    Baron von Vaderham
       30    Bernie
       74    CuddleBeam
@@ -91,6 +91,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Aris             +  5c.  2019-06-23 21:38  Reward (Promotor weekly)
 Jason Cobb       -  7c.  2019-06-23 16:04  Fee to perform The Ritual
 Falsifian        +  5c.  2019-06-23 06:21  Reward (judging CFJ 3739)
 Falsifian        +  5c.  2019-06-23 06:21  Reward (judging CFJ 3735)
