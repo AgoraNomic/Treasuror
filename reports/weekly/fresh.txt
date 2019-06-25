@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-06-23
+Date of this unofficial report: 2019-06-25
 Date of last weekly report:     2019-06-19
 
 Archive of reports on the web:
@@ -297,9 +297,6 @@ omd              + 15c.  2019-04-01 00:00  Payday (Distributor)
 twg              + 40c.  2019-04-01 00:00  Payday (Assessor etc.)
 G.               +  5c.  2019-03-31 15:45  Reward (Herald monthly)
 G.               +  5c.  2019-03-31 15:45  Reward (Herald weekly)
-G.               +  5c.  2019-03-24 18:16  Reward (Herald weekly)
-Murphy           +  5c.  2019-03-17 20:35  Reward (ADoP weekly)
-G.               +  5c.  2019-03-17 00:06  Reward (Herald weekly)
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
