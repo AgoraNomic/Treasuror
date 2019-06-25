@@ -1,11 +1,12 @@
 Treasuror's Report Archive:
 
-[Latest weekly report](weekly/2019-06-19A.txt)
+[Latest weekly report](weekly/2019-06-25.txt)
 
 [Unofficial fresher version of weekly report](weekly/fresh.txt)
 
 List of weekly reports:
 
+* [2019-06-19.txt](weekly/2019-06-25.txt)
 * [2019-06-19.txt](weekly/2019-06-19A.txt)
 * [2019-06-19.txt](weekly/2019-06-19.txt)
 * [2019-06-11.txt](weekly/2019-06-11.txt)
