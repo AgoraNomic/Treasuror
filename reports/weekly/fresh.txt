@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this unofficial report: 2019-06-25
-Date of last weekly report:     2019-06-19
+Date of last weekly report:     2019-06-25
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -91,6 +91,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- time of last weekly report --
 Aris             +  5c.  2019-06-23 21:38  Reward (Promotor weekly)
 Jason Cobb       -  7c.  2019-06-23 16:04  Fee to perform The Ritual
 Falsifian        +  5c.  2019-06-23 06:21  Reward (judging CFJ 3739)
@@ -112,7 +113,6 @@ omd              - 10c.  2019-06-20 04:58  Transfer to Agora
 Murphy           +  5c.  2019-06-20 04:26  Reward (ADoP weekly)
 Agora            +  7c.  2019-06-19 21:31  Transfer from R. Lee
 R. Lee           -  7c.  2019-06-19 21:31  Transfer to Agora
--- time of last weekly report --
 G.               +  5c.  2019-06-18 08:00  Reward (Arbitor weekly)
 D. Margaux       +  5c.  2019-06-18 12:21  Reward (Referee weekly)
 G.               +  5c.  2019-06-18 01:28  Reward (re-judging CFJ 3733)
