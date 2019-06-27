@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-06-25
+Date of this unofficial report: 2019-06-27
 Date of last weekly report:     2019-06-25
 
 Archive of reports on the web:
@@ -32,16 +32,16 @@ Entities not listed have a Coin balance of 0.
    Coins    Active player
    -----    -------------
      146    ATMunn
-     164    Aris
+     169    Aris
       10    Baron von Vaderham
       30    Bernie
       74    CuddleBeam
     1029    D. Margaux
-     286    Falsifian
+     296    Falsifian
      726    G.
       90    Gaelan
      118    Jacob Arduino
-      10    Jason Cobb
+       5    Jason Cobb
      197    Murphy
        0    o
      121    omd
@@ -91,6 +91,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Aris             +  5c.  2019-06-27 04:36  Transfer from Jason Cobb
+Jason Cobb       -  5c.  2019-06-27 04:36  Transfer to Aris
+Falsifian        +  5c.  2019-06-26 06:51  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-06-26 06:51  Reward (Treasuror weekly)
 -- time of last weekly report --
 Aris             +  5c.  2019-06-23 21:38  Reward (Promotor weekly)
 Jason Cobb       -  7c.  2019-06-23 16:04  Fee to perform The Ritual
