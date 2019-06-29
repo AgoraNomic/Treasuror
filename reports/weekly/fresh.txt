@@ -38,7 +38,7 @@ Entities not listed have a Coin balance of 0.
       74    CuddleBeam
     1029    D. Margaux
      296    Falsifian
-     726    G.
+     731    G.
       90    Gaelan
      118    Jacob Arduino
        5    Jason Cobb
@@ -91,6 +91,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.               +  5c.  2019-06-28 14:48  Reward (Tailor monthly)
 Aris             +  5c.  2019-06-27 04:36  Transfer from Jason Cobb
 Jason Cobb       -  5c.  2019-06-27 04:36  Transfer to Aris
 Falsifian        +  5c.  2019-06-26 06:51  Reward (Registrar weekly)
