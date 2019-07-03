@@ -5,7 +5,10 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-06-27
+Disclaimer: This report assumes CFJ 3750 is FALSE. The statement of that
+CFJ is "In this message, G. destroyed a coin.".
+
+Date of this unofficial report: 2019-07-03
 Date of last weekly report:     2019-06-25
 
 Archive of reports on the web:
@@ -36,16 +39,16 @@ Entities not listed have a Coin balance of 0.
       10    Baron von Vaderham
       30    Bernie
       74    CuddleBeam
-    1029    D. Margaux
+    1039    D. Margaux
      296    Falsifian
-     731    G.
+     741    G.
       90    Gaelan
      118    Jacob Arduino
        5    Jason Cobb
-     197    Murphy
+     202    Murphy
        0    o
      121    omd
-      17    R. Lee
+      22    R. Lee
       66    Rance
      460    Trigon
      822    twg
@@ -91,6 +94,12 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Murphy           +  5c.  2019-07-02 04:14  Reward (ADoP weekly)
+D. Margaux       +  5c.  2019-07-01 06:37  Reward (judging CFJ 3745)
+D. Margaux       +  5c.  2019-07-01 06:37  Reward (judging CFJ 3744)
+R. Lee           +  5c.  2019-07-01 02:21  Reward (judging CFJ 3746)
+G.               +  5c.  2019-06-30 20:16  Reward (judging CFJ 3741)
+G.               +  5c.  2019-06-30 20:16  Reward (Arbitor weekly)
 G.               +  5c.  2019-06-28 14:48  Reward (Tailor monthly)
 Aris             +  5c.  2019-06-27 04:36  Transfer from Jason Cobb
 Jason Cobb       -  5c.  2019-06-27 04:36  Transfer to Aris
