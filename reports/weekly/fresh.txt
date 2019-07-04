@@ -40,7 +40,6 @@ Entities not listed have a Coin balance of 0.
      316    Falsifian
      761    G.
      100    Gaelan
-     128    Jacob Arduino
       15    Jason Cobb
      222    Murphy
       10    o
@@ -55,6 +54,7 @@ Entities not listed have a Coin balance of 0.
    -----    ------
       50    Corona
       20    Hālian
+     128    Jacob Arduino
       20    L
       50    Publius Scribonius Scholasticus
       20    Tarhalindur
