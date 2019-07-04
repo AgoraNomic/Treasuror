@@ -1,6 +1,6 @@
 Treasuror's Report Archive:
 
-[Latest weekly report](weekly/2019-06-25.txt)
+[Latest weekly report](weekly/2019-07-04.txt)
 
 [Unofficial fresher version of weekly report](weekly/fresh.txt)
 

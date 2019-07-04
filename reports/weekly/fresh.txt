@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this unofficial report: 2019-07-04
-Date of last weekly report:     2019-06-25
+Date of last weekly report:     2019-07-04
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -92,6 +92,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- time of last weekly report --
 Murphy           +  5c.  2019-07-02 04:14  Reward (ADoP weekly)
 D. Margaux       +  5c.  2019-07-01 06:37  Reward (judging CFJ 3745)
 D. Margaux       +  5c.  2019-07-01 06:37  Reward (judging CFJ 3744)
@@ -129,7 +130,6 @@ Aris             +  5c.  2019-06-27 04:36  Transfer from Jason Cobb
 Jason Cobb       -  5c.  2019-06-27 04:36  Transfer to Aris
 Falsifian        +  5c.  2019-06-26 06:51  Reward (Registrar weekly)
 Falsifian        +  5c.  2019-06-26 06:51  Reward (Treasuror weekly)
--- time of last weekly report --
 Aris             +  5c.  2019-06-23 21:38  Reward (Promotor weekly)
 Jason Cobb       -  7c.  2019-06-23 16:04  Fee to perform The Ritual
 Falsifian        +  5c.  2019-06-23 06:21  Reward (judging CFJ 3739)
