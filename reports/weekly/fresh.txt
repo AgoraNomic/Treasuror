@@ -31,34 +31,34 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Active player
    -----    -------------
-     146    ATMunn
-     169    Aris
-      10    Baron von Vaderham
-      30    Bernie
-      74    CuddleBeam
-    1039    D. Margaux
-     296    Falsifian
-     741    G.
-      90    Gaelan
-     118    Jacob Arduino
-       5    Jason Cobb
-     202    Murphy
-       0    o
-     121    omd
-      22    R. Lee
-      66    Rance
-     460    Trigon
-     822    twg
-      14    Walker
+     156    ATMunn
+     184    Aris
+      20    Baron von Vaderham
+      40    Bernie
+      84    CuddleBeam
+    1064    D. Margaux
+     316    Falsifian
+     761    G.
+     100    Gaelan
+     128    Jacob Arduino
+      15    Jason Cobb
+     222    Murphy
+      10    o
+     136    omd
+      32    R. Lee
+      81    Rance
+     475    Trigon
+     832    twg
+      24    Walker
 
    Coins    Zombie
    -----    ------
-      40    Corona
-      10    Hālian
-      10    L
-      40    Publius Scribonius Scholasticus
-      10    Tarhalindur
-       0    Telnaior
+      50    Corona
+      20    Hālian
+      20    L
+      50    Publius Scribonius Scholasticus
+      20    Tarhalindur
+      10    Telnaior
 
    Coins    Non-player entity
    -----    -----------------
@@ -96,6 +96,32 @@ Murphy           +  5c.  2019-07-02 04:14  Reward (ADoP weekly)
 D. Margaux       +  5c.  2019-07-01 06:37  Reward (judging CFJ 3745)
 D. Margaux       +  5c.  2019-07-01 06:37  Reward (judging CFJ 3744)
 R. Lee           +  5c.  2019-07-01 02:21  Reward (judging CFJ 3746)
+ATMunn           + 10c.  2019-07-01 00:00  Payday
+Aris             + 15c.  2019-07-01 00:00  Payday (Promotor)
+Baron v V [0]    + 10c.  2019-07-01 00:00  Payday
+Bernie           + 10c.  2019-07-01 00:00  Payday
+Corona           + 10c.  2019-07-01 00:00  Payday
+Cuddle Beam      + 10c.  2019-07-01 00:00  Payday
+D. Margaux       + 25c.  2019-07-01 00:00  Payday
+                                           (Assessor, Referee, Speaker)
+Falsifian        + 20c.  2019-07-01 00:00  Payday (Registrar, Treasuror)
+G.               + 20c.  2019-07-01 00:00  Payday (Arbitor, Tailor)
+Gaelan           + 10c.  2019-07-01 00:00  Payday
+Hālian           + 10c.  2019-07-01 00:00  Payday
+Jacob Arduino    + 10c.  2019-07-01 00:00  Payday
+Jason Cobb       + 10c.  2019-07-01 00:00  Payday
+L                + 10c.  2019-07-01 00:00  Payday
+Murphy           + 20c.  2019-07-01 00:00  Payday (ADoP, Comptrollor)
+o                + 10c.  2019-07-01 00:00  Payday
+omd              + 15c.  2019-07-01 00:00  Payday (Distributor)
+PSS              + 10c.  2019-07-01 00:00  Payday
+R. Lee           + 10c.  2019-07-01 00:00  Payday
+Rance            + 15c.  2019-07-01 00:00  Payday (Herald)
+Tarhalindur      + 10c.  2019-07-01 00:00  Payday
+Telnaior         + 10c.  2019-07-01 00:00  Payday
+Trigon           + 15c.  2019-07-01 00:00  Payday (Rulekeepor)
+twg              + 10c.  2019-07-01 00:00  Payday
+Walker           + 10c.  2019-07-01 00:00  Payday
 G.               +  5c.  2019-06-30 20:16  Reward (judging CFJ 3741)
 G.               +  5c.  2019-06-30 20:16  Reward (Arbitor weekly)
 G.               +  5c.  2019-06-28 14:48  Reward (Tailor monthly)
