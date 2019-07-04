@@ -283,60 +283,6 @@ Falsifian        -  7c.  2019-05-05 23:41  Fee to perform The Ritual
 G.               + 30c.  2019-05-05 18:32  Transfer from Hālian
 Hālian           - 30c.  2019-05-05 18:32  Transfer to G.
 Falsifian        +  5c.  2019-05-04 15:52  Reward (Registrar weekly)
-ATMunn           + 10c.  2019-05-01 00:00  Payday
-Aris             + 15c.  2019-05-01 00:00  Payday (Promotor)
-Baron v V [0]    + 10c.  2019-05-01 00:00  Payday
-Bernie           + 10c.  2019-05-01 00:00  Payday
-Corona           + 10c.  2019-05-01 00:00  Payday
-CuddleBeam       + 10c.  2019-05-01 00:00  Payday
-D. Margaux       + 15c.  2019-05-01 00:00  Payday (Speaker)
-Falsifian        + 10c.  2019-05-01 00:00  Payday
-G.               + 10c.  2019-05-01 00:00  Payday
-Gaelan           + 10c.  2019-05-01 00:00  Payday
-Hālian           + 10c.  2019-05-01 00:00  Payday
-Jacob Arduino    + 10c.  2019-05-01 00:00  Payday
-L                + 10c.  2019-05-01 00:00  Payday
-Murphy           + 15c.  2019-05-01 00:00  Payday (ADoP)
-PSS              + 10c.  2019-05-01 00:00  Payday
-Rance            + 10c.  2019-05-01 00:00  Payday
-Tarhalindur      + 10c.  2019-05-01 00:00  Payday
-Telnaior         + 10c.  2019-05-01 00:00  Payday
-Trigon           + 15c.  2019-05-01 00:00  Payday (Rulekeepor)
-R. Lee           + 10c.  2019-05-01 00:00  Payday
-nichdel          + 10c.  2019-05-01 00:00  Payday
-omd              + 15c.  2019-05-01 00:00  Payday (Distributor)
-twg              + 40c.  2019-05-01 00:00  Payday (Assessor etc.)
-D. Margaux       +  4c.  2019-04-28 17:39  Transfer from Aris
-Aris             -  4c.  2019-04-28 17:39  Transfer to D. Margaux
-D. Margaux       -  7c.  2019-04-28 02:51  Fee to perform The Ritual
-Falsifian        +  5c.  2019-04-28 00:11  Reward (ADoP weekly)
-Aris             +  5c.  2019-04-09 03:41  Reward (Promotor weekly)
-Rance            + 10c.  2019-04-09 03:35  Welcome Package
-Bernie           + 10c.  2019-04-07 02:17  Welcome Package
-ATMunn           + 10c.  2019-04-01 00:00  Payday
-Aris             + 15c.  2019-04-01 00:00  Payday (Promotor)
-Baron v V [0]    + 10c.  2019-04-01 00:00  Payday
-Corona           + 10c.  2019-04-01 00:00  Payday
-CuddleBeam       + 10c.  2019-04-01 00:00  Payday
-D. Margaux       + 25c.  2019-04-01 00:00  Payday
-                                           (Speaker, Registrar, Arbitor)
-G.               + 15c.  2019-04-01 00:00  Payday (Herald)
-Falsifian        + 10c.  2019-04-01 00:00  Payday
-Gaelan           + 10c.  2019-04-01 00:00  Payday
-Hālian           + 10c.  2019-04-01 00:00  Payday
-Jacob Arduino    + 10c.  2019-04-01 00:00  Payday
-L                + 10c.  2019-04-01 00:00  Payday
-Murphy           + 15c.  2019-04-01 00:00  Payday (ADoP)
-PSS              + 10c.  2019-04-01 00:00  Payday
-Tarhalindur      + 10c.  2019-04-01 00:00  Payday
-Telnaior         + 10c.  2019-04-01 00:00  Payday
-Trigon           + 15c.  2019-04-01 00:00  Payday (Rulekeepor)
-R. Lee           + 10c.  2019-04-01 00:00  Payday
-nichdel          + 10c.  2019-04-01 00:00  Payday
-omd              + 15c.  2019-04-01 00:00  Payday (Distributor)
-twg              + 40c.  2019-04-01 00:00  Payday (Assessor etc.)
-G.               +  5c.  2019-03-31 15:45  Reward (Herald monthly)
-G.               +  5c.  2019-03-31 15:45  Reward (Herald weekly)
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
