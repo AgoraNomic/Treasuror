@@ -38,7 +38,7 @@ Entities not listed have a Coin balance of 0.
       84    CuddleBeam
     1064    D. Margaux
      316    Falsifian
-     761    G.
+     766    G.
      100    Gaelan
       15    Jason Cobb
      222    Murphy
@@ -95,6 +95,7 @@ Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
 R. Lee           + 20c.  2019-07-06 05:05  Transfer from Tarhalindur
 Tarhalindur      - 20c.  2019-07-06 05:05  Transfer to R. Lee
+G.               +  5c.  2019-07-05 15:11  Reward (Arbitor weekly)
 -- time of last weekly report --
 R. Lee           -  7c.  2019-07-04 21:41  Fee to perform The Ritual
 twg              +  5c.  2019-07-03 03:12  Reward (judging CFJ 3750)
