@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-07-04
+Date of this unofficial report: 2019-07-07
 Date of last weekly report:     2019-07-04
 
 Archive of reports on the web:
@@ -44,7 +44,7 @@ Entities not listed have a Coin balance of 0.
      222    Murphy
       10    o
      136    omd
-      32    R. Lee
+      52    R. Lee
       81    Rance
      475    Trigon
      832    twg
@@ -57,7 +57,7 @@ Entities not listed have a Coin balance of 0.
      128    Jacob Arduino
       20    L
       50    Publius Scribonius Scholasticus
-      20    Tarhalindur
+       0    Tarhalindur
       10    Telnaior
 
    Coins    Non-player entity
@@ -92,6 +92,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+R. Lee           + 20c.  2019-07-06 05:05  Transfer from Tarhalindur
+Tarhalindur      - 20c.  2019-07-06 05:05  Transfer to R. Lee
 -- time of last weekly report --
 Murphy           +  5c.  2019-07-02 04:14  Reward (ADoP weekly)
 D. Margaux       +  5c.  2019-07-01 06:37  Reward (judging CFJ 3745)
