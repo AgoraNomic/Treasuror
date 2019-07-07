@@ -1,12 +1,13 @@
-This is an unofficial version of the Treasuror's weekly report that may
-be fresher than the latest official version.
-
 ------------------------------------------------------------------------
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-07-07
-Date of last weekly report:     2019-07-04
+This is a revision of the 2019-07-04 Treasuror weekly report.  It
+describes the state of the game at the time the original report was
+published, which is 2019-07-04 at 23:10 UTC.
+
+Date of this weekly report: 2019-07-04
+Date of last weekly report: 2019-06-25
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -44,7 +45,7 @@ Entities not listed have a Coin balance of 0.
      222    Murphy
       10    o
      136    omd
-      45    R. Lee
+      25    R. Lee
       81    Rance
      475    Trigon
      837    twg
@@ -57,7 +58,7 @@ Entities not listed have a Coin balance of 0.
      128    Jacob Arduino
       20    L
       50    Publius Scribonius Scholasticus
-       0    Tarhalindur
+      20    Tarhalindur
       10    Telnaior
 
    Coins    Non-player entity
@@ -93,9 +94,6 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
-R. Lee           + 20c.  2019-07-06 05:05  Transfer from Tarhalindur
-Tarhalindur      - 20c.  2019-07-06 05:05  Transfer to R. Lee
--- time of last weekly report --
 R. Lee           -  7c.  2019-07-04 21:41  Fee to perform The Ritual
 twg              +  5c.  2019-07-03 03:12  Reward (judging CFJ 3750)
 Murphy           +  5c.  2019-07-02 04:14  Reward (ADoP weekly)
@@ -135,6 +133,7 @@ Aris             +  5c.  2019-06-27 04:36  Transfer from Jason Cobb
 Jason Cobb       -  5c.  2019-06-27 04:36  Transfer to Aris
 Falsifian        +  5c.  2019-06-26 06:51  Reward (Registrar weekly)
 Falsifian        +  5c.  2019-06-26 06:51  Reward (Treasuror weekly)
+-- time of last weekly report --
 Aris             +  5c.  2019-06-23 21:38  Reward (Promotor weekly)
 Jason Cobb       -  7c.  2019-06-23 16:04  Fee to perform The Ritual
 Falsifian        +  5c.  2019-06-23 06:21  Reward (judging CFJ 3739)
