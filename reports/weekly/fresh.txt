@@ -5,8 +5,8 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-07-07
-Date of last weekly report:     2019-07-04
+Date of this unofficial report: 2019-07-09
+Date of last weekly report:     2019-07-09
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -93,10 +93,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- time of last weekly report --
 R. Lee           + 20c.  2019-07-06 05:05  Transfer from Tarhalindur
 Tarhalindur      - 20c.  2019-07-06 05:05  Transfer to R. Lee
 G.               +  5c.  2019-07-05 15:11  Reward (Arbitor weekly)
--- time of last weekly report --
 R. Lee           -  7c.  2019-07-04 21:41  Fee to perform The Ritual
 twg              +  5c.  2019-07-03 03:12  Reward (judging CFJ 3750)
 Murphy           +  5c.  2019-07-02 04:14  Reward (ADoP weekly)
