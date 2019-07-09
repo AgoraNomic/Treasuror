@@ -37,8 +37,8 @@ Entities not listed have a Coin balance of 0.
       40    Bernie
       84    CuddleBeam
     1064    D. Margaux
-     316    Falsifian
-     766    G.
+     351    Falsifian
+     771    G.
      100    Gaelan
       15    Jason Cobb
      222    Murphy
@@ -93,6 +93,14 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian        +  5c.  2019-07-09 00:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-07-09 00:24  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-07-09 00:24  Reward (re-judging CFJ 3751)
+Falsifian        +  5c.  2019-07-09 00:24  Reward (judging CFJ 3751)
+Falsifian        +  5c.  2019-07-09 00:24  Reward (Registrar monthly)
+Falsifian        +  5c.  2019-07-09 00:24  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-07-09 00:24  Reward (Registrar weekly)
+G.               +  5c.  2019-07-09 00:23  Reward (Arbitor weekly)
 -- time of last weekly report --
 R. Lee           + 20c.  2019-07-06 05:05  Transfer from Tarhalindur
 Tarhalindur      - 20c.  2019-07-06 05:05  Transfer to R. Lee
