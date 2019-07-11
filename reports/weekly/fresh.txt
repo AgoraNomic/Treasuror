@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-07-10
+Date of this unofficial report: 2019-07-11
 Date of last weekly report:     2019-07-09
 
 Archive of reports on the web:
@@ -38,13 +38,13 @@ Entities not listed have a Coin balance of 0.
       84    CuddleBeam
     1064    D. Margaux
      351    Falsifian
-     776    G.
+     796    G.
      100    Gaelan
-      15    Jason Cobb
+      99    Jason Cobb
      222    Murphy
       10    o
      136    omd
-      50    R. Lee
+      65    R. Lee
       81    Rance
      475    Trigon
      837    twg
@@ -93,6 +93,16 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+R. Lee           +  5c.  2019-07-11 05:55  Reward (judging CFJ 3745)
+R. Lee           +  5c.  2019-07-11 05:55  Reward (judging CFJ 3744)
+R. Lee           +  5c.  2019-07-11 05:04  Reward (Referee weekly)
+Jason Cobb       +  5c.  2019-07-11 03:19  Reward (resolving)
+Jason Cobb       +  3c.  2019-07-11 01:04  Reward (Proposal 8198)
+G.               + 20c.  2019-07-11 00:12  Transfer from Jason Cobb
+Jason Cobb       - 20c.  2019-07-11 00:12  Transfer to G.
+Jason Cobb       + 36c.  2019-07-10 14:48  Reward (Proposal 8187)
+Jason Cobb       + 33c.  2019-07-10 14:48  Reward (Proposal 8186)
+Jason Cobb       + 27c.  2019-07-10 14:48  Reward (Proposal 8182)
 G.               +  5c.  2019-07-09 00:56  Reward (Herald weekly)
 R. Lee           +  5c.  2019-07-09 00:34  Reward (Astronomor weekly)
 Falsifian        +  5c.  2019-07-09 00:27  Reward (Treasuror weekly)
