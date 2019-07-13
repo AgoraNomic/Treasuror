@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-07-11
+Date of this unofficial report: 2019-07-13
 Date of last weekly report:     2019-07-09
 
 Archive of reports on the web:
@@ -38,7 +38,7 @@ Entities not listed have a Coin balance of 0.
       84    CuddleBeam
     1064    D. Margaux
      351    Falsifian
-     796    G.
+     801    G.
      100    Gaelan
       99    Jason Cobb
      222    Murphy
@@ -96,6 +96,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.               +  5c.  2019-07-12 21:30  Reward (judging CFJ 3754)
 R. Lee           +  5c.  2019-07-11 05:55  Reward (judging CFJ 3745)
 R. Lee           +  5c.  2019-07-11 05:55  Reward (judging CFJ 3744)
 R. Lee           +  5c.  2019-07-11 05:04  Reward (Referee weekly)
