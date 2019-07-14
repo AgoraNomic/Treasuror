@@ -5,7 +5,11 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this unofficial report: 2019-07-13
+Disclaimer: this report assumes Trigon successfully claimed a reward for
+a Rulekeepor weekly report on 2019-07-14. See annotation "^0" in the
+Recent History section.
+
+Date of this unofficial report: 2019-07-14
 Date of last weekly report:     2019-07-09
 
 Archive of reports on the web:
@@ -44,24 +48,24 @@ Entities not listed have a Coin balance of 0.
      222    Murphy
       10    o
      136    omd
-      65    R. Lee
+      80    R. Lee
       81    Rance
-     475    Trigon
-     837    twg
+     485    Trigon
+     878    twg
       24    Walker
 
    Coins    Zombie
    -----    ------
       50    Corona
-      20    Hālian
-     128    Jacob Arduino
+       0    Hālian
+       0    Jacob Arduino
       20    L
       50    Publius Scribonius Scholasticus
       10    Telnaior
 
    Coins    Non-player entity
    -----    -----------------
-    1235    Agora
+    1327    Agora
       87    Lost and Found Department
       20    Reformed Church [1]
 
@@ -95,6 +99,16 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Trigon           +  5c.  2019-07-14 07:47  Reward (Rulekeepor monthly)
+^0 Trigon        +  5c.  2019-07-14 07:47  Reward (Rulekeepor weekly)
+R. Lee           + 20c.  2019-07-13 21:53  Transfer from Hālian
+Hālian           - 20c.  2019-07-13 21:53  Transfer to R. Lee
+Agora            +  5c.  2019-07-13 21:53  Transfer from R. Lee
+R. Lee           -  5c.  2019-07-13 21:53  Transfer to Agora
+twg              +128c.  2019-07-13 20:35  Transfer from Jacob Arduino
+Jacob Arduino    -128c.  2019-07-13 20:35  Transfer to twg
+Agora            + 87c.  2019-07-13 20:35  Transfer from twg
+twg              - 87c.  2019-07-13 20:35  Transfer to Agora
 G.               +  5c.  2019-07-12 21:30  Reward (judging CFJ 3754)
 R. Lee           +  5c.  2019-07-11 05:55  Reward (judging CFJ 3745)
 R. Lee           +  5c.  2019-07-11 05:55  Reward (judging CFJ 3744)
