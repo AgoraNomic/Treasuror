@@ -57,7 +57,6 @@ Entities not listed have a Coin balance of 0.
      128    Jacob Arduino
       20    L
       50    Publius Scribonius Scholasticus
-       0    Tarhalindur
       10    Telnaior
 
    Coins    Non-player entity
