@@ -9,7 +9,7 @@ Disclaimer: this report assumes Trigon successfully claimed a reward for
 a Rulekeepor weekly report on 2019-07-14. See annotation "^0" in the
 Recent History section.
 
-Date of this unofficial report: 2019-07-14
+Date of this unofficial report: 2019-07-15
 Date of last weekly report:     2019-07-09
 
 Archive of reports on the web:
@@ -46,6 +46,7 @@ Entities not listed have a Coin balance of 0.
      100    Gaelan
       99    Jason Cobb
      222    Murphy
+       9    nch
       10    o
      136    omd
       80    R. Lee
@@ -99,6 +100,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+nch              -  1c.  2019-07-14 22:04  Spaceship repair
+nch              + 10c.  2019-07-14 21:32  Welcome Package
 Trigon           +  5c.  2019-07-14 07:47  Reward (Rulekeepor monthly)
 ^0 Trigon        +  5c.  2019-07-14 07:47  Reward (Rulekeepor weekly)
 R. Lee           + 20c.  2019-07-13 21:53  Transfer from Hālian
@@ -283,7 +286,7 @@ D. Margaux       +  5c.  2019-05-27 15:01  Reward (Referee weekly)
 removed)
 Falsifian        -  7c.  2019-05-26 23:46  Fee to perform The Ritual
 Trigon           +  5c.  2019-05-26 22:47  Reward (Rulekeepor weekly)
-nichdel          - 30c.  2019-05-24 01:39  Deregistration
+nch [2]          - 30c.  2019-05-24 01:39  Deregistration
 o                + 10c.  2019-05-24 01:28  Welcome Package
 D. Margaux       +  5c.  2019-05-21 13:21  Reward (Referee weekly)
 D. Margaux       +  5c.  2019-05-21 13:21  Reward (Clork weekly)
@@ -330,3 +333,4 @@ Falsifian        +  5c.  2019-05-04 15:52  Reward (Registrar weekly)
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
     the Ritual - Candle Division ("Reformed Church")'
+[2] Previously known as nichdel.
