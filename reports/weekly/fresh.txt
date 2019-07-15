@@ -5,9 +5,13 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Disclaimer: this report assumes Trigon successfully claimed a reward for
-a Rulekeepor weekly report on 2019-07-14. See annotation "^0" in the
-Recent History section.
+Disclaimers:
+* This report assumes Trigon successfully claimed a reward for a
+  Rulekeepor weekly report on 2019-07-14. See annotation "^0" in the
+  Recent History section.
+* This report assumes nch's attempt to pay 1 coin to repair eir
+  spaceship on 2019-07-14 at 22:04 UTC was successful. See annotation
+  "^1" in the Recent History section.
 
 Date of this unofficial report: 2019-07-15
 Date of last weekly report:     2019-07-09
@@ -100,7 +104,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
-nch              -  1c.  2019-07-14 22:04  Spaceship repair
+^1 nch           -  1c.  2019-07-14 22:04  Spaceship repair
 nch              + 10c.  2019-07-14 21:32  Welcome Package
 Trigon           +  5c.  2019-07-14 07:47  Reward (Rulekeepor monthly)
 ^0 Trigon        +  5c.  2019-07-14 07:47  Reward (Rulekeepor weekly)
