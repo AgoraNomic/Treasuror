@@ -10,7 +10,7 @@ a Rulekeepor weekly report on 2019-07-14. See annotation "^0" in the
 Recent History section.
 
 Date of this report: 2019-07-16
-Date of last report: 2019-07-09
+Date of last report: 2019-07-16
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -100,6 +100,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- time of last weekly report --
 Aris             +  5c.  2019-07-16 00:59  Reward (Promotor weekly)
 nch              -  1c.  2019-07-14 22:04  Spaceship repair
                      or  2019-07-15 02:15
@@ -135,7 +136,6 @@ Falsifian        +  5c.  2019-07-09 00:24  Reward (Registrar monthly)
 Falsifian        +  5c.  2019-07-09 00:24  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-07-09 00:24  Reward (Registrar weekly)
 G.               +  5c.  2019-07-09 00:23  Reward (Arbitor weekly)
--- time of last weekly report --
 R. Lee           + 20c.  2019-07-06 05:05  Transfer from Tarhalindur
 Tarhalindur      - 20c.  2019-07-06 05:05  Transfer to R. Lee
 G.               +  5c.  2019-07-05 15:11  Reward (Arbitor weekly)
