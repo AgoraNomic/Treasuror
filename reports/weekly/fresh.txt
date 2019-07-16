@@ -9,8 +9,8 @@ Disclaimer: this report assumes Trigon successfully claimed a reward for
 a Rulekeepor weekly report on 2019-07-14. See annotation "^0" in the
 Recent History section.
 
-Date of this unofficial report: 2019-07-16
-Date of last weekly report:     2019-07-09
+Date of this report: 2019-07-16
+Date of last report: 2019-07-09
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
