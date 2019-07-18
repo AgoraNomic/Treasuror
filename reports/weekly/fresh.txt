@@ -9,7 +9,7 @@ Disclaimer: this report assumes Trigon successfully claimed a reward for
 a Rulekeepor weekly report on 2019-07-14. See annotation "^0" in the
 Recent History section.
 
-Date of this report: 2019-07-16
+Date of this report: 2019-07-17
 Date of last report: 2019-07-16
 
 Archive of reports on the web:
@@ -49,7 +49,7 @@ Entities not listed have a Coin balance of 0.
        9    nch
       10    o
      136    omd
-      80    R. Lee
+      85    R. Lee
       81    Rance
      485    Trigon
      878    twg
@@ -78,6 +78,7 @@ This section is purely informational and does not self-ratify.
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
 -- time of last weekly report --
+R. Lee           +  5c.  2019-07-16 09:19  Reward (Astronomor weekly)
 Aris             +  5c.  2019-07-16 00:59  Reward (Promotor weekly)
 nch              -  1c.  2019-07-14 22:04  Spaceship repair
                      or  2019-07-15 02:15
