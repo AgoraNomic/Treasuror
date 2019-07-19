@@ -13,7 +13,7 @@ Disclaimers:
   said "I pay a fee of one coin to destroy a coin." on 2019-07-18 around
   01:22 UTC.
 
-Date of this report: 2019-07-18
+Date of this report: 2019-07-19
 Date of last report: 2019-07-16
 
 Archive of reports on the web:
@@ -53,7 +53,7 @@ Entities not listed have a Coin balance of 0.
        9    nch
       10    o
      136    omd
-      85    R. Lee
+      90    R. Lee
       81    Rance
      485    Trigon
      878    twg
@@ -81,6 +81,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+R. Lee           +  5c.  2019-07-19 01:05. Reward (Referee weekly)
 G.               +  5c.  2019-07-18 06:44  Reward (Arbitor weekly)
 G.               +  5c.  2019-07-18 06:44  Reward (judging CFJ 3755)
 -- time of last weekly report --
