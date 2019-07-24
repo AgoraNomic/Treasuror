@@ -13,7 +13,7 @@ Disclaimers:
   said "I pay a fee of one coin to destroy a coin." on 2019-07-18 around
   01:22 UTC.
 
-Date of this report: 2019-07-19
+Date of this report: 2019-07-23
 Date of last report: 2019-07-16
 
 Archive of reports on the web:
@@ -46,16 +46,16 @@ Entities not listed have a Coin balance of 0.
       84    CuddleBeam
     1064    D. Margaux
      351    Falsifian
-     811    G.
+     816    G.
      100    Gaelan
-      99    Jason Cobb
+     179    Jason Cobb
      222    Murphy
        9    nch
       10    o
      136    omd
-      90    R. Lee
+     116    R. Lee
       81    Rance
-     485    Trigon
+     495    Trigon
      878    twg
       24    Walker
 
@@ -81,7 +81,17 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
-R. Lee           +  5c.  2019-07-19 01:05. Reward (Referee weekly)
+Jason Cobb       +  5c.  2019-07-23 03:02  Reward (Resolving a decision)
+R. Lee           + 11c.  2019-07-23 01:50  Reward (Proposal 8204)
+R. Lee           + 15c.  2019-07-23 01:48  Reward (Proposal 8191)
+Jason Cobb       + 16c.  2019-07-23 01:46  Reward (Propsoal 8203)
+Jason Cobb       +  8c.  2019-07-23 01:46  Reward (Propsoal 8206)
+Jason Cobb       + 27c.  2019-07-23 01:46  Reward (Propsoal 8212)
+Jason Cobb       + 24c.  2019-07-23 01:42  Reward (Proposal 8189)
+Trigon           +  5c.  2019-07-21 22:19  Reward (Rulekeepor weekly)
+Trigon           +  5c.  2019-07-21 22:19  Reward (judging CFJ 3758)
+G.               +  5c.  2019-07-21 18:53  Reward (Herald weekly)
+R. Lee           +  5c.  2019-07-19 01:05  Reward (Referee weekly)
 G.               +  5c.  2019-07-18 06:44  Reward (Arbitor weekly)
 G.               +  5c.  2019-07-18 06:44  Reward (judging CFJ 3755)
 -- time of last weekly report --
