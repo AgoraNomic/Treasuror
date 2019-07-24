@@ -42,7 +42,7 @@ Entities not listed have a Coin balance of 0.
       40    Bernie
       84    CuddleBeam
     1064    D. Margaux
-     351    Falsifian
+     395    Falsifian
      831    G.
      100    Gaelan
      164    Jason Cobb
@@ -78,6 +78,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian        + 20c.  2019-07-24 14:30  Reward (degree of J.N.)
+Falsifian        + 24c.  2019-07-24 14:30  Reward (Proposal 8202)
 twg              +  5c.  2019-07-23 12:22  Reward (judging CFJ 3756)
 Jason Cobb       +  5c.  2019-07-23 03:02  Reward (Resolving a decision)
 G.               + 15c.  2019-07-23 02:57  Transfer from Jason Cobb
