@@ -96,8 +96,8 @@ G.               +  5c.  2019-07-21 18:53  Reward (Herald weekly)
 R. Lee           +  5c.  2019-07-19 01:05  Reward (Referee weekly)
 G.               +  5c.  2019-07-18 06:44  Reward (Arbitor weekly)
 G.               +  5c.  2019-07-18 06:44  Reward (judging CFJ 3755)
--- time of last weekly report --
 R. Lee           +  5c.  2019-07-16 09:19  Reward (Astronomor weekly)
+-- last weekly report -- 2019-07-16 06:34  -- last weekly report --
 Aris             +  5c.  2019-07-16 00:59  Reward (Promotor weekly)
 nch              -  1c.  2019-07-14 22:04  Spaceship repair
                      or  2019-07-15 02:15
