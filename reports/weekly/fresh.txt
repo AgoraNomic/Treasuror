@@ -5,15 +5,12 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Disclaimers:
-* This report assumes Trigon successfully claimed a reward for a
-  Rulekeepor weekly report on 2019-07-14. See annotation "^0" in the
-  Recent History section.
-* This report assumes G. did not successfuly destroy any Coins when e
-  said "I pay a fee of one coin to destroy a coin." on 2019-07-18 around
-  01:22 UTC.
+Disclaimer: This report assumes Jason Cobb did not destroy a Coin when e
+stated "I pay a fee of one coin to create a gift in my possession, as
+specified by [0]." on 2019-07-23 at 21:21 UTC. E called a CFJ about it
+in the same message.
 
-Date of this report: 2019-07-23
+Date of this report: 2019-07-24
 Date of last report: 2019-07-16
 
 Archive of reports on the web:
@@ -46,9 +43,9 @@ Entities not listed have a Coin balance of 0.
       84    CuddleBeam
     1064    D. Margaux
      351    Falsifian
-     816    G.
+     831    G.
      100    Gaelan
-     179    Jason Cobb
+     164    Jason Cobb
      222    Murphy
        9    nch
       10    o
@@ -56,7 +53,7 @@ Entities not listed have a Coin balance of 0.
      116    R. Lee
       81    Rance
      495    Trigon
-     878    twg
+     883    twg
       24    Walker
 
    Coins    Zombie
@@ -81,7 +78,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+twg              +  5c.  2019-07-23 12:22  Reward (judging CFJ 3756)
 Jason Cobb       +  5c.  2019-07-23 03:02  Reward (Resolving a decision)
+G.               + 15c.  2019-07-23 02:57  Transfer from Jason Cobb
+Jason Cobb       - 15c.  2019-07-23 02:57  Transfer to G.
 R. Lee           + 11c.  2019-07-23 01:50  Reward (Proposal 8204)
 R. Lee           + 15c.  2019-07-23 01:48  Reward (Proposal 8191)
 Jason Cobb       + 16c.  2019-07-23 01:46  Reward (Propsoal 8203)
@@ -101,7 +101,7 @@ nch              -  1c.  2019-07-14 22:04  Spaceship repair
                      or  2019-07-15 02:15
 nch              + 10c.  2019-07-14 21:32  Welcome Package
 Trigon           +  5c.  2019-07-14 07:47  Reward (Rulekeepor monthly)
-^0 Trigon        +  5c.  2019-07-14 07:47  Reward (Rulekeepor weekly)
+Trigon           +  5c.  2019-07-14 07:47  Reward (Rulekeepor weekly)
 R. Lee           + 20c.  2019-07-13 21:53  Transfer from Hālian
 Hālian           - 20c.  2019-07-13 21:53  Transfer to R. Lee
 Agora            +  5c.  2019-07-13 21:53  Transfer from R. Lee
