@@ -11,7 +11,7 @@ specified by [0]." on 2019-07-23 at 21:21 UTC. E called a CFJ about it
 in the same message.
 
 Date of this report: 2019-07-24
-Date of last report: 2019-07-16
+Date of last report: 2019-07-24
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -78,6 +78,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-07-24 15:44  -- last weekly report --
 Falsifian        + 20c.  2019-07-24 14:30  Reward (degree of J.N.)
 Falsifian        + 24c.  2019-07-24 14:30  Reward (Proposal 8202)
 twg              +  5c.  2019-07-23 12:22  Reward (judging CFJ 3756)
@@ -97,7 +98,6 @@ R. Lee           +  5c.  2019-07-19 01:05  Reward (Referee weekly)
 G.               +  5c.  2019-07-18 06:44  Reward (Arbitor weekly)
 G.               +  5c.  2019-07-18 06:44  Reward (judging CFJ 3755)
 R. Lee           +  5c.  2019-07-16 09:19  Reward (Astronomor weekly)
--- last weekly report -- 2019-07-16 06:34  -- last weekly report --
 Aris             +  5c.  2019-07-16 00:59  Reward (Promotor weekly)
 nch              -  1c.  2019-07-14 22:04  Spaceship repair
                      or  2019-07-15 02:15
