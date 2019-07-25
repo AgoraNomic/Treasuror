@@ -10,7 +10,7 @@ stated "I pay a fee of one coin to create a gift in my possession, as
 specified by [0]." on 2019-07-23 at 21:21 UTC. E called a CFJ about it
 in the same message.
 
-Date of this report: 2019-07-24
+Date of this report: 2019-07-25
 Date of last report: 2019-07-24
 
 Archive of reports on the web:
@@ -47,7 +47,6 @@ Entities not listed have a Coin balance of 0.
      100    Gaelan
      164    Jason Cobb
      222    Murphy
-       9    nch
       10    o
      136    omd
      116    R. Lee
@@ -78,6 +77,9 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+nch              - 35c.  2019-07-25 01:25  Deregistration
+nch              + 14c.  2019-07-25 00:38  Reward (Proposal 8214)
+nch              + 12c.  2019-07-25 00:38  Reward (Proposal 8213)
 -- last weekly report -- 2019-07-24 15:44  -- last weekly report --
 Falsifian        + 20c.  2019-07-24 14:30  Reward (degree of J.N.)
 Falsifian        + 24c.  2019-07-24 14:30  Reward (Proposal 8202)
