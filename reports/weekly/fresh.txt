@@ -10,7 +10,7 @@ stated "I pay a fee of one coin to create a gift in my possession, as
 specified by [0]." on 2019-07-23 at 21:21 UTC. E called a CFJ about it
 in the same message.
 
-Date of this report: 2019-07-27
+Date of this report: 2019-07-28
 Date of last report: 2019-07-24
 
 Archive of reports on the web:
@@ -43,7 +43,7 @@ Entities not listed have a Coin balance of 0.
       84    CuddleBeam
     1064    D. Margaux
      410    Falsifian
-     831    G.
+     956    G.
      100    Gaelan
      164    Jason Cobb
      222    Murphy
@@ -77,6 +77,11 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.               +  5c.  2019-07-28 22:38  Reward (Herald weekly)
+G.               + 39c.  2019-07-27 16:44  Reward (Proposal 8211)
+G.               + 14c.  2019-07-27 16:44  Reward (Proposal 8192)
+G.               + 28c.  2019-07-27 16:44  Reward (Proposal 8190)
+G.               + 39c.  2019-07-27 16:44  Reward (Proposal 8188)
 Falsifian        +  5c.  2019-07-27 12:43  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-07-27 12:43  Reward (Registrar weekly)
 Falsifian        +  5c.  2019-07-27 12:43  Reward (judging CFJ 3757)
