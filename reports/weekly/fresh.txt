@@ -10,7 +10,7 @@ stated "I pay a fee of one coin to create a gift in my possession, as
 specified by [0]." on 2019-07-23 at 21:21 UTC. E called a CFJ about it
 in the same message.
 
-Date of this report: 2019-07-31
+Date of this report: 2019-08-01
 Date of last report: 2019-07-30
 
 Archive of reports on the web:
@@ -43,7 +43,7 @@ Entities not listed have a Coin balance of 0.
       84    CuddleBeam
     1064    D. Margaux
      420    Falsifian
-     956    G.
+     966    G.
      100    Gaelan
       10    Hālian
      164    Jason Cobb
@@ -76,6 +76,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.               +  5c.  2019-07-31 20:44  Reward (Tailor monthly)
+G.               +  5c.  2019-07-31 20:44  Reward (Herald monthly)
 Aris             +  5c.  2019-07-30 19:13  Reward (judging CFJ 3759)
 Aris             +  5c.  2019-07-30 19:01  Reward (Promotor weekly)
 Hālian           + 10c.  2019-07-30 02:54  Welcome Package
