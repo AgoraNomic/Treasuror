@@ -10,7 +10,7 @@ stated "I pay a fee of one coin to create a gift in my possession, as
 specified by [0]." on 2019-07-23 at 21:21 UTC. E called a CFJ about it
 in the same message.
 
-Date of this report: 2019-08-01
+Date of this report: 2019-08-02
 Date of last report: 2019-07-30
 
 Archive of reports on the web:
@@ -42,7 +42,7 @@ Entities not listed have a Coin balance of 0.
       50    Bernie
       94    CuddleBeam
     1074    D. Margaux
-     440    Falsifian
+     445    Falsifian
      996    G.
      110    Gaelan
       20    Hālian
@@ -51,7 +51,7 @@ Entities not listed have a Coin balance of 0.
       20    o
      151    omd
       91    Rance
-     510    Trigon
+     515    Trigon
      893    twg
       34    Walker
 
@@ -76,6 +76,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Trigon           +  5c.  2019-08-01 19:44  Reward (Rulekeepor weekly)
+Falsifian        +  5c.  2019-08-01 15:59  Reward (Regsitrar monthly)
 ATMunn           + 10c.  2019-08-01 00:00  Payday
 Aris             + 20c.  2019-08-01 00:00  Payday (Promotor, Speaker)
 Baron v V [0]    + 10c.  2019-08-01 00:00  Payday
