@@ -10,7 +10,7 @@ stated "I pay a fee of one coin to create a gift in my possession, as
 specified by [0]." on 2019-07-23 at 21:21 UTC. E called a CFJ about it
 in the same message.
 
-Date of this report: 2019-08-02
+Date of this report: 2019-08-04
 Date of last report: 2019-07-30
 
 Archive of reports on the web:
@@ -43,10 +43,10 @@ Entities not listed have a Coin balance of 0.
       94    CuddleBeam
     1074    D. Margaux
      445    Falsifian
-     996    G.
+    1006    G.
      110    Gaelan
       20    Hālian
-     179    Jason Cobb
+     194    Jason Cobb
      237    Murphy
       20    o
      151    omd
@@ -76,6 +76,11 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       +  5c.  2019-08-04 05:07  Reward (Astronomor weekly)
+Jason Cobb       +  5c.  2019-08-03 22:43  Reward (judging CFJ 3765)
+Jason Cobb       +  5c.  2019-08-03 17:20  Reward (judging CFJ 3766)
+G.               +  5c.  2019-08-03 00:40  Reward (judging CFJ 3761)
+G.               +  5c.  2019-08-03 00:40  Reward (Arbitor weekly)
 Trigon           +  5c.  2019-08-01 19:44  Reward (Rulekeepor weekly)
 Falsifian        +  5c.  2019-08-01 15:59  Reward (Regsitrar monthly)
 ATMunn           + 10c.  2019-08-01 00:00  Payday
