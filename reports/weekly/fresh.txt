@@ -10,7 +10,7 @@ stated "I pay a fee of one coin to create a gift in my possession, as
 specified by [0]." on 2019-07-23 at 21:21 UTC. E called a CFJ about it
 in the same message.
 
-Date of this report: 2019-08-04
+Date of this report: 2019-08-05
 Date of last report: 2019-07-30
 
 Archive of reports on the web:
@@ -41,7 +41,7 @@ Entities not listed have a Coin balance of 0.
       30    Baron von Vaderham
       50    Bernie
       94    CuddleBeam
-    1074    D. Margaux
+    1079    D. Margaux
      445    Falsifian
     1006    G.
      110    Gaelan
@@ -52,7 +52,7 @@ Entities not listed have a Coin balance of 0.
      151    omd
       91    Rance
      515    Trigon
-     893    twg
+     898    twg
       34    Walker
 
    Coins    Zombie
@@ -76,6 +76,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+D. Margaux       +  5c.  2019-08-04 12:28  Reward (judging CFJ 3764)
+twg              +  5c.  2019-08-04 10:44  Reward (judging CFJ 3762)
 Jason Cobb       +  5c.  2019-08-04 05:07  Reward (Astronomor weekly)
 Jason Cobb       +  5c.  2019-08-03 22:43  Reward (judging CFJ 3765)
 Jason Cobb       +  5c.  2019-08-03 17:20  Reward (judging CFJ 3766)
