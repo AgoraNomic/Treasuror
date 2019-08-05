@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this report: 2019-08-05
-Date of last report: 2019-07-30
+Date of last report: 2019-08-05
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -71,6 +71,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-08-05 05:18  -- last weekly report --
 D. Margaux       +  5c.  2019-08-04 12:28  Reward (judging CFJ 3764)
 twg              +  5c.  2019-08-04 10:44  Reward (judging CFJ 3762)
 Jason Cobb       +  5c.  2019-08-04 05:07  Reward (Astronomor weekly)
@@ -111,7 +112,6 @@ Aris             +  5c.  2019-07-30 19:01  Reward (Promotor weekly)
 Hālian           + 10c.  2019-07-30 02:54  Welcome Package
 Falsifian        +  5c.  2019-07-30 02:50  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-07-30 02:50  Reward (Registrar weekly)
--- last weekly report -- 2019-07-30 02:45  -- last weekly report --
 R. Lee           -116c.  2019-07-29 03:00  Deregistration
 G.               +  5c.  2019-07-28 22:38  Reward (Herald weekly)
 G.               + 39c.  2019-07-27 16:44  Reward (Proposal 8211)
