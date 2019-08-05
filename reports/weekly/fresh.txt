@@ -40,7 +40,6 @@ Entities not listed have a Coin balance of 0.
      445    Falsifian
     1006    G.
      110    Gaelan
-      20    Hālian
      194    Jason Cobb
      237    Murphy
       20    o
@@ -53,6 +52,7 @@ Entities not listed have a Coin balance of 0.
    Coins    Zombie
    -----    ------
       60    Corona
+      20    Hālian
       10    Jacob Arduino
       30    L
       60    Publius Scribonius Scholasticus
