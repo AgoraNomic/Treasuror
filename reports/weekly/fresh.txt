@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-08-05
+Date of this report: 2019-08-08
 Date of last report: 2019-08-05
 
 Archive of reports on the web:
@@ -37,10 +37,10 @@ Entities not listed have a Coin balance of 0.
       50    Bernie
       94    CuddleBeam
     1079    D. Margaux
-     445    Falsifian
+     455    Falsifian
     1006    G.
      110    Gaelan
-     194    Jason Cobb
+     199    Jason Cobb
      237    Murphy
       20    o
      151    omd
@@ -71,6 +71,9 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       + 5c.   2019-08-05 01:25  Reward (Astronomor weekly)
+Falsifian        + 5c.   2019-08-05 01:24  Reward (Registrar weekly)
+Falsifian        + 5c.   2019-08-05 01:24  Reward (Treasuror weekly)
 -- last weekly report -- 2019-08-05 05:18  -- last weekly report --
 D. Margaux       +  5c.  2019-08-04 12:28  Reward (judging CFJ 3764)
 twg              +  5c.  2019-08-04 10:44  Reward (judging CFJ 3762)
