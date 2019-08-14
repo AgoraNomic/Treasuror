@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-08-08
+Date of this report: 2019-08-14
 Date of last report: 2019-08-05
 
 Archive of reports on the web:
@@ -38,25 +38,25 @@ Entities not listed have a Coin balance of 0.
       94    CuddleBeam
     1079    D. Margaux
      455    Falsifian
-    1006    G.
+    1051    G.
      110    Gaelan
-     199    Jason Cobb
+     209    Jason Cobb
      237    Murphy
       20    o
      151    omd
       91    Rance
      515    Trigon
-     898    twg
+     913    twg
       34    Walker
 
    Coins    Zombie
    -----    ------
       60    Corona
       20    Hālian
-      10    Jacob Arduino
+       0    Jacob Arduino
       30    L
       60    Publius Scribonius Scholasticus
-      20    Telnaior
+       0    Telnaior
 
    Coins    Non-player entity
    -----    -----------------
@@ -71,9 +71,21 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
-Jason Cobb       + 5c.   2019-08-05 01:25  Reward (Astronomor weekly)
-Falsifian        + 5c.   2019-08-05 01:24  Reward (Registrar weekly)
-Falsifian        + 5c.   2019-08-05 01:24  Reward (Treasuror weekly)
+twg              + 10c.  2019-08-13 15:58  Transfer from Jacob Arduino
+Jacob Arduino    - 10c.  2019-08-13 15:58  Transfer to twg
+twg              +  5c.  2019-08-13 15:58  Reward (judging CFJ 3769)
+Jason Cobb       +  5c.  2019-08-11 21:01  Reward (assessing a proposal)
+G.               + 20c.  2019-08-10 12:36  Transfer from Telnaior
+Telnaior         - 20c.  2019-08-10 12:36  Transfer to G.
+G.               +  5c.  2019-08-10 12:36  Reward (judging CFJ 3767)
+G.               +  5c.  2019-08-10 12:36  Reward (re-judging CFJ 3761)
+G.               +  5c.  2019-08-10 12:36  Reward (Arbitor weekly)
+G.               +  5c.  2019-08-10 12:36  Reward (Herald weekly)
+G.               +  5c.  2019-08-10 12:36  Reward (Herald weekly)
+Jason Cobb       +  5c.  2019-08-09 00:02  Reward (re-judging CFJ 3766)
+Jason Cobb       +  5c.  2019-08-05 01:25  Reward (Astronomor weekly)
+Falsifian        +  5c.  2019-08-05 01:24  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-08-05 01:24  Reward (Treasuror weekly)
 -- last weekly report -- 2019-08-05 05:18  -- last weekly report --
 D. Margaux       +  5c.  2019-08-04 12:28  Reward (judging CFJ 3764)
 twg              +  5c.  2019-08-04 10:44  Reward (judging CFJ 3762)
