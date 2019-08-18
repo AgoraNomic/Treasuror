@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-08-15
+Date of this report: 2019-08-18
 Date of last report: 2019-08-14
 
 Archive of reports on the web:
@@ -40,7 +40,7 @@ Entities not listed have a Coin balance of 0.
      465    Falsifian
     1051    G.
      110    Gaelan
-     209    Jason Cobb
+     219    Jason Cobb
      237    Murphy
       20    o
      151    omd
@@ -71,6 +71,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       +  5c.  2019-08-18 13:57  Reward (assessing a proposal)
+Jason Cobb       +  5c.  2019-08-16 00:54  Reward (Astronomor weekly)
 Falsifian        +  5c.  2019-08-15 16:06  Reward (Registrar weekly)
 Falsifian        +  5c.  2019-08-15 16:06  Reward (Treasuror weekly)
 -- last weekly report -- 2019-08-14 15:12  -- last weekly report --
