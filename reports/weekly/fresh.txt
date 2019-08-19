@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-08-18
+Date of this report: 2019-08-19
 Date of last report: 2019-08-14
 
 Archive of reports on the web:
@@ -159,23 +159,6 @@ Trigon           +  5c.  2019-07-21 22:19  Reward (Rulekeepor weekly)
 Trigon           +  5c.  2019-07-21 22:19  Reward (judging CFJ 3758)
 G.               +  5c.  2019-07-21 18:53  Reward (Herald weekly)
 R. Lee           +  5c.  2019-07-19 01:05  Reward (Referee weekly)
-G.               +  5c.  2019-07-18 06:44  Reward (Arbitor weekly)
-G.               +  5c.  2019-07-18 06:44  Reward (judging CFJ 3755)
-R. Lee           +  5c.  2019-07-16 09:19  Reward (Astronomor weekly)
-Aris             +  5c.  2019-07-16 00:59  Reward (Promotor weekly)
-nch              -  1c.  2019-07-14 22:04  Spaceship repair
-                     or  2019-07-15 02:15
-nch              + 10c.  2019-07-14 21:32  Welcome Package
-Trigon           +  5c.  2019-07-14 07:47  Reward (Rulekeepor monthly)
-Trigon           +  5c.  2019-07-14 07:47  Reward (Rulekeepor weekly)
-R. Lee           + 20c.  2019-07-13 21:53  Transfer from Hālian
-Hālian           - 20c.  2019-07-13 21:53  Transfer to R. Lee
-Agora            +  5c.  2019-07-13 21:53  Transfer from R. Lee
-R. Lee           -  5c.  2019-07-13 21:53  Transfer to Agora
-twg              +128c.  2019-07-13 20:35  Transfer from Jacob Arduino
-Jacob Arduino    -128c.  2019-07-13 20:35  Transfer to twg
-Agora            + 87c.  2019-07-13 20:35  Transfer from twg
-twg              - 87c.  2019-07-13 20:35  Transfer to Agora
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
