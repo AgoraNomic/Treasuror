@@ -1,0 +1,162 @@
+------------------------------------------------------------------------
+                              Forbes 500
+------------------------------------------------------------------------
+
+Date of this report: 2019-08-19
+Date of last report: 2019-08-14
+
+Archive of reports on the web:
+https://agoranomic.org/Treasuror/reports/weekly/
+
+
+ASSET INDEX
+========================================================================
+This section does not self-ratify.
+
+   Asset class    Recordkeepor    Ownership
+   -----------    ------------    -------------------------
+   Coins          Treasuror       Agora, players, contracts
+   Blots          Referee         Persons
+   Spaceships     Astronomor      Players
+   Energy         Astronomor      Spaceships
+
+
+COIN BALANCES
+========================================================================
+This section self-ratifies.
+Entities not listed have a Coin balance of 0.
+
+   Coins    Active player
+   -----    -------------
+     166    ATMunn
+     219    Aris
+      30    Baron von Vaderham
+      50    Bernie
+      94    CuddleBeam
+    1079    D. Margaux
+     465    Falsifian
+    1051    G.
+     110    Gaelan
+     219    Jason Cobb
+     237    Murphy
+      20    o
+     151    omd
+      91    Rance
+     515    Trigon
+     913    twg
+      34    Walker
+
+   Coins    Zombie
+   -----    ------
+      60    Corona
+      20    Hālian
+       0    Jacob Arduino
+      30    L
+      60    Publius Scribonius Scholasticus
+       0    Telnaior
+
+   Coins    Non-player entity
+   -----    -----------------
+    1327    Agora
+      87    Lost and Found Department
+      20    Reformed Church [1]
+
+
+RECENT HISTORY
+========================================================================
+This section is purely informational and does not self-ratify.
+
+Entity             Change  Date (UTC)        Reason
+------------------------------------------------------------------------
+Jason Cobb       +  5c.  2019-08-18 13:57  Reward (assessing a proposal)
+Jason Cobb       +  5c.  2019-08-16 00:54  Reward (Astronomor weekly)
+Falsifian        +  5c.  2019-08-15 16:06  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-08-15 16:06  Reward (Treasuror weekly)
+-- last weekly report -- 2019-08-14 15:12  -- last weekly report --
+twg              + 10c.  2019-08-13 15:58  Transfer from Jacob Arduino
+Jacob Arduino    - 10c.  2019-08-13 15:58  Transfer to twg
+twg              +  5c.  2019-08-13 15:58  Reward (judging CFJ 3769)
+Jason Cobb       +  5c.  2019-08-11 21:01  Reward (assessing a proposal)
+G.               + 20c.  2019-08-10 12:36  Transfer from Telnaior
+Telnaior         - 20c.  2019-08-10 12:36  Transfer to G.
+G.               +  5c.  2019-08-10 12:36  Reward (judging CFJ 3767)
+G.               +  5c.  2019-08-10 12:36  Reward (re-judging CFJ 3761)
+G.               +  5c.  2019-08-10 12:36  Reward (Arbitor weekly)
+G.               +  5c.  2019-08-10 12:36  Reward (Herald weekly)
+G.               +  5c.  2019-08-10 12:36  Reward (Herald weekly)
+Jason Cobb       +  5c.  2019-08-09 00:02  Reward (re-judging CFJ 3766)
+Jason Cobb       +  5c.  2019-08-05 01:25  Reward (Astronomor weekly)
+Falsifian        +  5c.  2019-08-05 01:24  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-08-05 01:24  Reward (Treasuror weekly)
+D. Margaux       +  5c.  2019-08-04 12:28  Reward (judging CFJ 3764)
+twg              +  5c.  2019-08-04 10:44  Reward (judging CFJ 3762)
+Jason Cobb       +  5c.  2019-08-04 05:07  Reward (Astronomor weekly)
+Jason Cobb       +  5c.  2019-08-03 22:43  Reward (judging CFJ 3765)
+Jason Cobb       +  5c.  2019-08-03 17:20  Reward (judging CFJ 3766)
+G.               +  5c.  2019-08-03 00:40  Reward (judging CFJ 3761)
+G.               +  5c.  2019-08-03 00:40  Reward (Arbitor weekly)
+Trigon           +  5c.  2019-08-01 19:44  Reward (Rulekeepor weekly)
+Falsifian        +  5c.  2019-08-01 15:59  Reward (Regsitrar monthly)
+ATMunn           + 10c.  2019-08-01 00:00  Payday
+Aris             + 20c.  2019-08-01 00:00  Payday (Promotor, Speaker)
+Baron v V [0]    + 10c.  2019-08-01 00:00  Payday
+Bernie           + 10c.  2019-08-01 00:00  Payday
+Corona           + 10c.  2019-08-01 00:00  Payday
+Cuddle Beam      + 10c.  2019-08-01 00:00  Payday
+D. Margaux       + 10c.  2019-08-01 00:00  Payday
+Falsifian        + 20c.  2019-08-01 00:00  Payday (Registrar, Treasuror)
+G.               + 30c.  2019-08-01 00:00  Payday (Arbitor, Herald,
+                                           Prime Minister, Tailor)
+Gaelan           + 10c.  2019-08-01 00:00  Payday
+Hālian           + 10c.  2019-08-01 00:00  Payday
+Jacob Arduino    + 10c.  2019-08-01 00:00  Payday
+Jason Cobb       + 15c.  2019-08-01 00:00  Payday (Assessor)
+L                + 10c.  2019-08-01 00:00  Payday
+Murphy           + 15c.  2019-08-01 00:00  Payday (ADoP)
+o                + 10c.  2019-08-01 00:00  Payday
+omd              + 15c.  2019-08-01 00:00  Payday (Distributor)
+PSS              + 10c.  2019-08-01 00:00  Payday
+Rance            + 10c.  2019-08-01 00:00  Payday
+Telnaior         + 10c.  2019-08-01 00:00  Payday
+Trigon           + 15c.  2019-08-01 00:00  Payday (Rulekeepor)
+twg              + 10c.  2019-08-01 00:00  Payday
+Walker           + 10c.  2019-08-01 00:00  Payday
+G.               +  5c.  2019-07-31 20:44  Reward (Tailor monthly)
+G.               +  5c.  2019-07-31 20:44  Reward (Herald monthly)
+Aris             +  5c.  2019-07-30 19:13  Reward (judging CFJ 3759)
+Aris             +  5c.  2019-07-30 19:01  Reward (Promotor weekly)
+Hālian           + 10c.  2019-07-30 02:54  Welcome Package
+Falsifian        +  5c.  2019-07-30 02:50  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-07-30 02:50  Reward (Registrar weekly)
+R. Lee           -116c.  2019-07-29 03:00  Deregistration
+G.               +  5c.  2019-07-28 22:38  Reward (Herald weekly)
+G.               + 39c.  2019-07-27 16:44  Reward (Proposal 8211)
+G.               + 14c.  2019-07-27 16:44  Reward (Proposal 8192)
+G.               + 28c.  2019-07-27 16:44  Reward (Proposal 8190)
+G.               + 39c.  2019-07-27 16:44  Reward (Proposal 8188)
+Falsifian        +  5c.  2019-07-27 12:43  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-07-27 12:43  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-07-27 12:43  Reward (judging CFJ 3757)
+nch              - 35c.  2019-07-25 01:25  Deregistration
+nch              + 14c.  2019-07-25 00:38  Reward (Proposal 8214)
+nch              + 12c.  2019-07-25 00:38  Reward (Proposal 8213)
+Falsifian        + 20c.  2019-07-24 14:30  Reward (degree of J.N.)
+Falsifian        + 24c.  2019-07-24 14:30  Reward (Proposal 8202)
+twg              +  5c.  2019-07-23 12:22  Reward (judging CFJ 3756)
+Jason Cobb       +  5c.  2019-07-23 03:02  Reward (Resolving a decision)
+G.               + 15c.  2019-07-23 02:57  Transfer from Jason Cobb
+Jason Cobb       - 15c.  2019-07-23 02:57  Transfer to G.
+R. Lee           + 11c.  2019-07-23 01:50  Reward (Proposal 8204)
+R. Lee           + 15c.  2019-07-23 01:48  Reward (Proposal 8191)
+Jason Cobb       + 16c.  2019-07-23 01:46  Reward (Propsoal 8203)
+Jason Cobb       +  8c.  2019-07-23 01:46  Reward (Propsoal 8206)
+Jason Cobb       + 27c.  2019-07-23 01:46  Reward (Propsoal 8212)
+Jason Cobb       + 24c.  2019-07-23 01:42  Reward (Proposal 8189)
+Trigon           +  5c.  2019-07-21 22:19  Reward (Rulekeepor weekly)
+Trigon           +  5c.  2019-07-21 22:19  Reward (judging CFJ 3758)
+G.               +  5c.  2019-07-21 18:53  Reward (Herald weekly)
+R. Lee           +  5c.  2019-07-19 01:05  Reward (Referee weekly)
+
+[0] Baron von Vaderham, abbreviated to save space.
+[1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
+    the Ritual - Candle Division ("Reformed Church")'
