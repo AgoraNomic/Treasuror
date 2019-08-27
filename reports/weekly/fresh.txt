@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this report: 2019-08-27
-Date of last report: 2019-08-19
+Date of last report: 2019-08-27
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -71,6 +71,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-08-27 02:38  -- last weekly report --
 Aris             -  5c.  2019-08-26 03:45  Destroyed by Aris
 Murphy           +  5c.  2019-08-25 20:28  Reward (ADoP weekly)
 G.               +  5c.  2019-08-25 19:12  Reward (Herald weekly)
@@ -79,7 +80,6 @@ Falsifian        +  5c.  2019-08-24 20:33  Reward (judging CFJ 3770)
 Falsifian        +  5c.  2019-08-24 20:33  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-08-24 20:33  Reward (Registrar weekly)
 Jason Cobb       +  5c.  2019-08-24 16:32  Reward (Astronomor weekly)
--- last weekly report -- 2019-08-19 00:56  -- last weekly report --
 Jason Cobb       +  5c.  2019-08-18 13:57  Reward (assessing a proposal)
 Jason Cobb       +  5c.  2019-08-16 00:54  Reward (Astronomor weekly)
 Falsifian        +  5c.  2019-08-15 16:06  Reward (Registrar weekly)
