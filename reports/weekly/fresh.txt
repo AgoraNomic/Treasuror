@@ -37,10 +37,10 @@ Entities not listed have a Coin balance of 0.
       50    Bernie
       94    CuddleBeam
     1079    D. Margaux
-     480    Falsifian
+     490    Falsifian
     1061    G.
      110    Gaelan
-     224    Jason Cobb
+     229    Jason Cobb
      242    Murphy
       20    o
      151    omd
@@ -71,6 +71,9 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian        +  5c.  2019-08-27 02:46  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-08-27 02:46  Reward (Registrar weekly)
+Jason Cobb       +  5c.  2019-08-27 02:42  Reward (Astronomor weekly)
 -- last weekly report -- 2019-08-27 02:38  -- last weekly report --
 Aris             -  5c.  2019-08-26 03:45  Destroyed by Aris
 Murphy           +  5c.  2019-08-25 20:28  Reward (ADoP weekly)
