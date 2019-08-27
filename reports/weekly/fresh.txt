@@ -148,25 +148,6 @@ G.               + 39c.  2019-07-27 16:44  Reward (Proposal 8188)
 Falsifian        +  5c.  2019-07-27 12:43  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-07-27 12:43  Reward (Registrar weekly)
 Falsifian        +  5c.  2019-07-27 12:43  Reward (judging CFJ 3757)
-nch              - 35c.  2019-07-25 01:25  Deregistration
-nch              + 14c.  2019-07-25 00:38  Reward (Proposal 8214)
-nch              + 12c.  2019-07-25 00:38  Reward (Proposal 8213)
-Falsifian        + 20c.  2019-07-24 14:30  Reward (degree of J.N.)
-Falsifian        + 24c.  2019-07-24 14:30  Reward (Proposal 8202)
-twg              +  5c.  2019-07-23 12:22  Reward (judging CFJ 3756)
-Jason Cobb       +  5c.  2019-07-23 03:02  Reward (Resolving a decision)
-G.               + 15c.  2019-07-23 02:57  Transfer from Jason Cobb
-Jason Cobb       - 15c.  2019-07-23 02:57  Transfer to G.
-R. Lee           + 11c.  2019-07-23 01:50  Reward (Proposal 8204)
-R. Lee           + 15c.  2019-07-23 01:48  Reward (Proposal 8191)
-Jason Cobb       + 16c.  2019-07-23 01:46  Reward (Propsoal 8203)
-Jason Cobb       +  8c.  2019-07-23 01:46  Reward (Propsoal 8206)
-Jason Cobb       + 27c.  2019-07-23 01:46  Reward (Propsoal 8212)
-Jason Cobb       + 24c.  2019-07-23 01:42  Reward (Proposal 8189)
-Trigon           +  5c.  2019-07-21 22:19  Reward (Rulekeepor weekly)
-Trigon           +  5c.  2019-07-21 22:19  Reward (judging CFJ 3758)
-G.               +  5c.  2019-07-21 18:53  Reward (Herald weekly)
-R. Lee           +  5c.  2019-07-19 01:05  Reward (Referee weekly)
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
