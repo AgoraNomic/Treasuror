@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-08-25
+Date of this report: 2019-08-27
 Date of last report: 2019-08-14
 
 Archive of reports on the web:
@@ -32,16 +32,16 @@ Entities not listed have a Coin balance of 0.
    Coins    Active player
    -----    -------------
      166    ATMunn
-     219    Aris
+     214    Aris
       30    Baron von Vaderham
       50    Bernie
       94    CuddleBeam
     1079    D. Margaux
      480    Falsifian
-    1051    G.
+    1061    G.
      110    Gaelan
      224    Jason Cobb
-     237    Murphy
+     242    Murphy
       20    o
      151    omd
       91    Rance
@@ -71,6 +71,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Aris             -  5c.  2019-08-26 03:45  Destroyed by Aris
+Murphy           +  5c.  2019-08-25 20:28  Reward (ADoP weekly)
+G.               +  5c.  2019-08-25 19:12  Reward (Herald weekly)
+G.               +  5c.  2019-08-25 19:12  Reward (Arbitor weekly)
 Falsifian        +  5c.  2019-08-24 20:33  Reward (judging CFJ 3770)
 Falsifian        +  5c.  2019-08-24 20:33  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-08-24 20:33  Reward (Registrar weekly)
