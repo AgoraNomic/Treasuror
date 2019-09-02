@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-08-27
+Date of this report: 2019-09-02
 Date of last report: 2019-08-27
 
 Archive of reports on the web:
@@ -31,30 +31,30 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Active player
    -----    -------------
-     214    Aris
-      30    Baron von Vaderham
-      94    CuddleBeam
-    1079    D. Margaux
-     490    Falsifian
-    1061    G.
-     229    Jason Cobb
-     242    Murphy
-     151    omd
-     515    Trigon
-     913    twg
-      34    Walker
+     229    Aris
+      40    Baron von Vaderham
+     104    CuddleBeam
+    1089    D. Margaux
+     510    Falsifian
+    1091    G.
+     254    Jason Cobb
+     257    Murphy
+     166    omd
+     530    Trigon
+     923    twg
+      44    Walker
 
    Coins    Zombie
    -----    ------
-     166    ATMunn
-      50    Bernie
-     110    Gaelan
-      20    Hālian
-       0    Jacob Arduino
-      20    o
-      60    Publius Scribonius Scholasticus
-      91    Rance
-       0    Telnaior
+     176    ATMunn
+      60    Bernie
+     120    Gaelan
+      30    Hālian
+      10    Jacob Arduino
+      30    o
+      70    Publius Scribonius Scholasticus
+     101    Rance
+      10    Telnaior
 
    Coins    Non-player entity
    -----    -----------------
@@ -69,6 +69,29 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+ATMunn           + 10c.  2019-09-01 00:00  Payday
+Aris             + 15c.  2019-09-01 00:00  Payday (Promotor)
+Baron v V [0]    + 10c.  2019-09-01 00:00  Payday
+Bernie           + 10c.  2019-09-01 00:00  Payday
+Cuddle Beam      + 10c.  2019-09-01 00:00  Payday
+D. Margaux       + 10c.  2019-09-01 00:00  Payday
+Falsifian        + 20c.  2019-09-01 00:00  Payday (Registrar, Treasuror)
+G.               + 30c.  2019-09-01 00:00  Payday (Arbitor, Herald,
+                                           Prime Minister, Tailor)
+Gaelan           + 10c.  2019-09-01 00:00  Payday
+Hālian           + 10c.  2019-09-01 00:00  Payday
+Jacob Arduino    + 10c.  2019-09-01 00:00  Payday
+Jason Cobb       + 25c.  2019-09-01 00:00  Payday (Assessor, Astronomor,
+                                           Speaker)
+Murphy           + 15c.  2019-09-01 00:00  Payday (ADoP)
+o                + 10c.  2019-09-01 00:00  Payday
+omd              + 15c.  2019-09-01 00:00  Payday (Distributor)
+PSS              + 10c.  2019-09-01 00:00  Payday
+Rance            + 10c.  2019-09-01 00:00  Payday
+Telnaior         + 10c.  2019-09-01 00:00  Payday
+Trigon           + 15c.  2019-09-01 00:00  Payday (Rulekeepor)
+twg              + 10c.  2019-09-01 00:00  Payday
+Walker           + 10c.  2019-09-01 00:00  Payday
 Falsifian        +  5c.  2019-08-27 02:46  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-08-27 02:46  Reward (Registrar weekly)
 Jason Cobb       +  5c.  2019-08-27 02:42  Reward (Astronomor weekly)
