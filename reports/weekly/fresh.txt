@@ -132,48 +132,6 @@ Jason Cobb       +  5c.  2019-08-03 22:43  Reward (judging CFJ 3765)
 Jason Cobb       +  5c.  2019-08-03 17:20  Reward (judging CFJ 3766)
 G.               +  5c.  2019-08-03 00:40  Reward (judging CFJ 3761)
 G.               +  5c.  2019-08-03 00:40  Reward (Arbitor weekly)
-Trigon           +  5c.  2019-08-01 19:44  Reward (Rulekeepor weekly)
-Falsifian        +  5c.  2019-08-01 15:59  Reward (Regsitrar monthly)
-ATMunn           + 10c.  2019-08-01 00:00  Payday
-Aris             + 20c.  2019-08-01 00:00  Payday (Promotor, Speaker)
-Baron v V [0]    + 10c.  2019-08-01 00:00  Payday
-Bernie           + 10c.  2019-08-01 00:00  Payday
-Corona           + 10c.  2019-08-01 00:00  Payday
-Cuddle Beam      + 10c.  2019-08-01 00:00  Payday
-D. Margaux       + 10c.  2019-08-01 00:00  Payday
-Falsifian        + 20c.  2019-08-01 00:00  Payday (Registrar, Treasuror)
-G.               + 30c.  2019-08-01 00:00  Payday (Arbitor, Herald,
-                                           Prime Minister, Tailor)
-Gaelan           + 10c.  2019-08-01 00:00  Payday
-Hālian           + 10c.  2019-08-01 00:00  Payday
-Jacob Arduino    + 10c.  2019-08-01 00:00  Payday
-Jason Cobb       + 15c.  2019-08-01 00:00  Payday (Assessor)
-L                + 10c.  2019-08-01 00:00  Payday
-Murphy           + 15c.  2019-08-01 00:00  Payday (ADoP)
-o                + 10c.  2019-08-01 00:00  Payday
-omd              + 15c.  2019-08-01 00:00  Payday (Distributor)
-PSS              + 10c.  2019-08-01 00:00  Payday
-Rance            + 10c.  2019-08-01 00:00  Payday
-Telnaior         + 10c.  2019-08-01 00:00  Payday
-Trigon           + 15c.  2019-08-01 00:00  Payday (Rulekeepor)
-twg              + 10c.  2019-08-01 00:00  Payday
-Walker           + 10c.  2019-08-01 00:00  Payday
-G.               +  5c.  2019-07-31 20:44  Reward (Tailor monthly)
-G.               +  5c.  2019-07-31 20:44  Reward (Herald monthly)
-Aris             +  5c.  2019-07-30 19:13  Reward (judging CFJ 3759)
-Aris             +  5c.  2019-07-30 19:01  Reward (Promotor weekly)
-Hālian           + 10c.  2019-07-30 02:54  Welcome Package
-Falsifian        +  5c.  2019-07-30 02:50  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-07-30 02:50  Reward (Registrar weekly)
-R. Lee           -116c.  2019-07-29 03:00  Deregistration
-G.               +  5c.  2019-07-28 22:38  Reward (Herald weekly)
-G.               + 39c.  2019-07-27 16:44  Reward (Proposal 8211)
-G.               + 14c.  2019-07-27 16:44  Reward (Proposal 8192)
-G.               + 28c.  2019-07-27 16:44  Reward (Proposal 8190)
-G.               + 39c.  2019-07-27 16:44  Reward (Proposal 8188)
-Falsifian        +  5c.  2019-07-27 12:43  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-07-27 12:43  Reward (Registrar weekly)
-Falsifian        +  5c.  2019-07-27 12:43  Reward (judging CFJ 3757)
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
