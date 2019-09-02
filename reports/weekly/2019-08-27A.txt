@@ -1,12 +1,13 @@
-This is an unofficial version of the Treasuror's weekly report that may
-be fresher than the latest official version.
-
 ------------------------------------------------------------------------
                               Forbes 500
 ------------------------------------------------------------------------
 
+This is a revision of the 2019-08-27 Treasuror weekly report.  It
+describes the state of the game at the time the original report was
+published, which is 2019-08-27 at 02:38 UTC.
+
 Date of this report: 2019-08-27
-Date of last report: 2019-08-27
+Date of last report: 2019-08-19
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -35,9 +36,9 @@ Entities not listed have a Coin balance of 0.
       30    Baron von Vaderham
       94    CuddleBeam
     1079    D. Margaux
-     490    Falsifian
+     480    Falsifian
     1061    G.
-     229    Jason Cobb
+     224    Jason Cobb
      242    Murphy
      151    omd
      515    Trigon
@@ -69,10 +70,6 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
-Falsifian        +  5c.  2019-08-27 02:46  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-08-27 02:46  Reward (Registrar weekly)
-Jason Cobb       +  5c.  2019-08-27 02:42  Reward (Astronomor weekly)
--- last weekly report -- 2019-08-27 02:38  -- last weekly report --
 Aris             -  5c.  2019-08-26 03:45  Destroyed by Aris
 Murphy           +  5c.  2019-08-25 20:28  Reward (ADoP weekly)
 G.               +  5c.  2019-08-25 19:12  Reward (Herald weekly)
@@ -83,6 +80,7 @@ Falsifian        +  5c.  2019-08-24 20:33  Reward (Registrar weekly)
 Jason Cobb       +  5c.  2019-08-24 16:32  Reward (Astronomor weekly)
 Corona           - 60c.  2019-08-24 16:03  Deregistration
 L                - 30c.  2019-08-24 16:02  Deregistration
+-- last weekly report -- 2019-08-19 00:56  -- last weekly report --
 Jason Cobb       +  5c.  2019-08-18 13:57  Reward (assessing a proposal)
 Jason Cobb       +  5c.  2019-08-16 00:54  Reward (Astronomor weekly)
 Falsifian        +  5c.  2019-08-15 16:06  Reward (Registrar weekly)
