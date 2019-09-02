@@ -37,7 +37,7 @@ Entities not listed have a Coin balance of 0.
     1089    D. Margaux
      510    Falsifian
     1091    G.
-     254    Jason Cobb
+     264    Jason Cobb
      257    Murphy
      166    omd
      530    Trigon
@@ -69,6 +69,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       +  5c.  2019-09-02 14:34  Reward (Referee weekly)
+Jason Cobb       +  5c.  2019-09-02 14:08  Reward (Astronomor weekly)
 -- last weekly report -- 2019-09-02 05:00  -- last weekly report --
 ATMunn           + 10c.  2019-09-01 00:00  Payday
 Aris             + 15c.  2019-09-01 00:00  Payday (Promotor)
