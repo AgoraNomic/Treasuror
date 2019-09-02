@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this report: 2019-09-02
-Date of last report: 2019-08-27
+Date of last report: 2019-09-02
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -69,6 +69,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-09-02 05:00  -- last weekly report --
 ATMunn           + 10c.  2019-09-01 00:00  Payday
 Aris             + 15c.  2019-09-01 00:00  Payday (Promotor)
 Baron v V [0]    + 10c.  2019-09-01 00:00  Payday
@@ -95,7 +96,6 @@ Walker           + 10c.  2019-09-01 00:00  Payday
 Falsifian        +  5c.  2019-08-27 02:46  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-08-27 02:46  Reward (Registrar weekly)
 Jason Cobb       +  5c.  2019-08-27 02:42  Reward (Astronomor weekly)
--- last weekly report -- 2019-08-27 02:38  -- last weekly report --
 Aris             -  5c.  2019-08-26 03:45  Destroyed by Aris
 Murphy           +  5c.  2019-08-25 20:28  Reward (ADoP weekly)
 G.               +  5c.  2019-08-25 19:12  Reward (Herald weekly)
