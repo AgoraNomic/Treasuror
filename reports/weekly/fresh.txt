@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-09-02
+Date of this report: 2019-09-05
 Date of last report: 2019-09-02
 
 Archive of reports on the web:
@@ -37,7 +37,7 @@ Entities not listed have a Coin balance of 0.
     1089    D. Margaux
      510    Falsifian
     1091    G.
-     264    Jason Cobb
+     322    Jason Cobb
      257    Murphy
      166    omd
      530    Trigon
@@ -69,6 +69,11 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       + 14c.  2019-09-05 16:49  Reward (Proposal 8246)
+Jason Cobb       + 15c.  2019-09-05 16:49  Reward (Proposal 8244)
+Jason Cobb       + 12c.  2019-09-05 16:47  Reward (Proposal 8222)
+Jason Cobb       + 12c.  2019-09-05 16:47  Reward (Proposal 8221)
+Jason Cobb       +  5c.  2019-09-05 16:47  Reward (assessing a proposal)
 Jason Cobb       +  5c.  2019-09-02 14:34  Reward (Referee weekly)
 Jason Cobb       +  5c.  2019-09-02 14:08  Reward (Astronomor weekly)
 -- last weekly report -- 2019-09-02 05:00  -- last weekly report --
