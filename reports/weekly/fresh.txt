@@ -38,7 +38,7 @@ Entities not listed have a Coin balance of 0.
      322    Jason Cobb
      257    Murphy
      166    omd
-     530    Trigon
+     540    Trigon
      937    twg
       44    Walker
 
@@ -71,6 +71,8 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Trigon           +  5c.  2019-09-07 20:01  Reward (Rulekeepor monthly)
+Trigon           +  5c.  2019-09-07 20:01  Reward (Rulekeepor weekly)
 twg              + 14c.  2019-09-07 10:43  Transfer from Jacob Arduino
 Jacob Arduino    - 14c.  2019-09-07 10:43  Transfer to twg
 Jacob Arduino    +  4c.  2019-09-07 10:43  Reward (Proposal 8247)
