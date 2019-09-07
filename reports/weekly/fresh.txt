@@ -20,8 +20,6 @@ This section does not self-ratify.
    -----------    ------------    -------------------------
    Coins          Treasuror       Agora, players, contracts
    Blots          Referee         Persons
-   Spaceships     Astronomor      Players
-   Energy         Astronomor      Spaceships
 
 
 COIN BALANCES
@@ -66,6 +64,10 @@ Entities not listed have a Coin balance of 0.
 RECENT HISTORY
 ========================================================================
 This section is purely informational and does not self-ratify.
+
+Asset classess:
+* 2019-09-05 16:44 UTC: Proposal 8229 ("freeing up space") repeals the
+  definitions of Spaceships and Energy.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
