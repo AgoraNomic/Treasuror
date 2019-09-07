@@ -39,7 +39,7 @@ Entities not listed have a Coin balance of 0.
      257    Murphy
      166    omd
      530    Trigon
-     923    twg
+     937    twg
       44    Walker
 
    Coins    Zombie
@@ -48,7 +48,7 @@ Entities not listed have a Coin balance of 0.
       60    Bernie
      120    Gaelan
       30    Hālian
-      10    Jacob Arduino
+       0    Jacob Arduino
       30    o
       70    Publius Scribonius Scholasticus
      101    Rance
@@ -71,6 +71,9 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+twg              + 14c.  2019-09-07 10:43  Transfer from Jacob Arduino
+Jacob Arduino    - 14c.  2019-09-07 10:43  Transfer to twg
+Jacob Arduino    +  4c.  2019-09-07 10:43  Reward (Proposal 8247)
 Falsifian        +  5c.  2019-09-07 02:20  Reward (Registrar monthly)
 Falsifian        +  5c.  2019-09-07 02:20  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-09-07 02:20  Reward (Registrar weekly)
