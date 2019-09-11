@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-09-07
+Date of this report: 2019-09-11
 Date of last report: 2019-09-02
 
 Archive of reports on the web:
@@ -36,7 +36,7 @@ Entities not listed have a Coin balance of 0.
      525    Falsifian
     1091    G.
      322    Jason Cobb
-     257    Murphy
+     262    Murphy
      166    omd
      540    Trigon
      937    twg
@@ -71,6 +71,7 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Murphy           +  5c.  2019-09-08 20:08  Reward (ADoP weekly)
 Trigon           +  5c.  2019-09-07 20:01  Reward (Rulekeepor monthly)
 Trigon           +  5c.  2019-09-07 20:01  Reward (Rulekeepor weekly)
 twg              + 14c.  2019-09-07 10:43  Transfer from Jacob Arduino
