@@ -75,6 +75,7 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-09-13 03:18  -- last weekly report --
 G.               + 21c.  2019-09-11 18:56  Reward (Proposal 8245)
 G.               +  7c.  2019-09-11 18:56  Reward (Proposal 8234)
 G.               +  4c.  2019-09-11 18:56  Reward (Proposal 8229)
@@ -100,7 +101,6 @@ Jason Cobb       + 12c.  2019-09-05 16:47  Reward (Proposal 8221)
 Jason Cobb       +  5c.  2019-09-05 16:47  Reward (assessing a proposal)
 Jason Cobb       +  5c.  2019-09-02 14:34  Reward (Referee weekly)
 Jason Cobb       +  5c.  2019-09-02 14:08  Reward (Astronomor weekly)
--- last weekly report -- 2019-09-02 05:00  -- last weekly report --
 ATMunn           + 10c.  2019-09-01 00:00  Payday
 Aris             + 15c.  2019-09-01 00:00  Payday (Promotor)
 Baron v V [0]    + 10c.  2019-09-01 00:00  Payday
