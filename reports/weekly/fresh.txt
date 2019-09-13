@@ -144,25 +144,6 @@ Falsifian        +  5c.  2019-08-15 16:06  Reward (Treasuror weekly)
 twg              + 10c.  2019-08-13 15:58  Transfer from Jacob Arduino
 Jacob Arduino    - 10c.  2019-08-13 15:58  Transfer to twg
 twg              +  5c.  2019-08-13 15:58  Reward (judging CFJ 3769)
-Jason Cobb       +  5c.  2019-08-11 21:01  Reward (assessing a proposal)
-G.               + 20c.  2019-08-10 12:36  Transfer from Telnaior
-Telnaior         - 20c.  2019-08-10 12:36  Transfer to G.
-G.               +  5c.  2019-08-10 12:36  Reward (judging CFJ 3767)
-G.               +  5c.  2019-08-10 12:36  Reward (re-judging CFJ 3761)
-G.               +  5c.  2019-08-10 12:36  Reward (Arbitor weekly)
-G.               +  5c.  2019-08-10 12:36  Reward (Herald weekly)
-G.               +  5c.  2019-08-10 12:36  Reward (Herald weekly)
-Jason Cobb       +  5c.  2019-08-09 00:02  Reward (re-judging CFJ 3766)
-Jason Cobb       +  5c.  2019-08-05 01:25  Reward (Astronomor weekly)
-Falsifian        +  5c.  2019-08-05 01:24  Reward (Registrar weekly)
-Falsifian        +  5c.  2019-08-05 01:24  Reward (Treasuror weekly)
-D. Margaux       +  5c.  2019-08-04 12:28  Reward (judging CFJ 3764)
-twg              +  5c.  2019-08-04 10:44  Reward (judging CFJ 3762)
-Jason Cobb       +  5c.  2019-08-04 05:07  Reward (Astronomor weekly)
-Jason Cobb       +  5c.  2019-08-03 22:43  Reward (judging CFJ 3765)
-Jason Cobb       +  5c.  2019-08-03 17:20  Reward (judging CFJ 3766)
-G.               +  5c.  2019-08-03 00:40  Reward (judging CFJ 3761)
-G.               +  5c.  2019-08-03 00:40  Reward (Arbitor weekly)
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
