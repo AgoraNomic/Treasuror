@@ -5,8 +5,12 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-09-11
+Date of this report: 2019-09-13
 Date of last report: 2019-09-02
+
+Disclaimer: this report assumes twg transferred 25 Coins to Jason Cobb
+on 2019-09-11, marked with "^" in the Recent History Section. The
+Treasuror believes that this depends on CFJ 3773.
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -34,12 +38,12 @@ Entities not listed have a Coin balance of 0.
      104    CuddleBeam
     1089    D. Margaux
      525    Falsifian
-    1091    G.
-     322    Jason Cobb
+    1160    G.
+     347    Jason Cobb
      262    Murphy
      166    omd
      540    Trigon
-     937    twg
+     917    twg
       44    Walker
 
    Coins    Zombie
@@ -71,6 +75,15 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.               + 21c.  2019-09-11 18:56  Reward (Proposal 8245)
+G.               +  7c.  2019-09-11 18:56  Reward (Proposal 8234)
+G.               +  4c.  2019-09-11 18:56  Reward (Proposal 8229)
+G.               + 15c.  2019-09-11 18:56  Reward (Proposal 8228)
+G.               + 10c.  2019-09-11 18:56  Reward (Proposal 8217)
+G.               + 12c.  2019-09-11 18:56  Reward (Proposal 8215)
+^Jason Cobb      + 25c.  2019-09-11 17:08  Transfer from twg
+^twg             - 25c.  2019-09-11 17:08  Transfer to Jason Cobb
+twg              +  5c.  2019-09-11 16:51  Reward (Referee weekly)
 Murphy           +  5c.  2019-09-08 20:08  Reward (ADoP weekly)
 Trigon           +  5c.  2019-09-07 20:01  Reward (Rulekeepor monthly)
 Trigon           +  5c.  2019-09-07 20:01  Reward (Rulekeepor weekly)
