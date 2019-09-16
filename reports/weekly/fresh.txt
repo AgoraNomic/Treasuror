@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this report: 2019-09-16
-Date of last report: 2019-09-13
+Date of last report: 2019-09-16
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -71,6 +71,7 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-09-16 01:49  -- last weekly report --
 Murphy           +  5c.  2019-09-15 18:59  Reward (judging CFJ 3773)
 Murphy           +120c.  2019-09-15 17:48  Transfer from Gaelan
 Gaelan           -120c.  2019-09-15 17:48  Transfer to Murphy
@@ -94,7 +95,6 @@ Agora            + 15c.  2019-09-13 03:41  Payment from Trigon
 Trigon           - 15c.  2019-09-13 03:41  Payment to Agora
 Falsifian        +  5c.  2019-09-13 03:24  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-09-13 03:24  Reward (Registrar weekly)
--- last weekly report -- 2019-09-13 03:18  -- last weekly report --
 G.               + 21c.  2019-09-11 18:56  Reward (Proposal 8245)
 G.               +  7c.  2019-09-11 18:56  Reward (Proposal 8234)
 G.               +  4c.  2019-09-11 18:56  Reward (Proposal 8229)
