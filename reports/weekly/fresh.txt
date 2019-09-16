@@ -33,7 +33,7 @@ Entities not listed have a Coin balance of 0.
       40    Baron von Vaderham
      104    CuddleBeam
     1089    D. Margaux
-     668    Falsifian
+     678    Falsifian
     1220    G.
      391    Jason Cobb
      345    Murphy
@@ -71,6 +71,8 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian        +  5c.  2019-09-16 02:09  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-09-16 02:09  Reward (Registrar weekly)
 -- last weekly report -- 2019-09-16 01:49  -- last weekly report --
 Murphy           +  5c.  2019-09-15 18:59  Reward (judging CFJ 3773)
 Murphy           +120c.  2019-09-15 17:48  Transfer from Gaelan
