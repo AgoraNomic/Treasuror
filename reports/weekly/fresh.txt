@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-09-13
+Date of this report: 2019-09-16
 Date of last report: 2019-09-02
 
 Disclaimer: this report assumes twg transferred 25 Coins to Jason Cobb
@@ -37,30 +37,30 @@ Entities not listed have a Coin balance of 0.
       40    Baron von Vaderham
      104    CuddleBeam
     1089    D. Margaux
-     535    Falsifian
-    1160    G.
-     347    Jason Cobb
-     262    Murphy
+     668    Falsifian
+    1220    G.
+     391    Jason Cobb
+     345    Murphy
      166    omd
-     540    Trigon
+     555    Trigon
      917    twg
       44    Walker
 
    Coins    Zombie
    -----    ------
-     176    ATMunn
-      60    Bernie
-     120    Gaelan
+       0    ATMunn
+       0    Bernie
+       0    Gaelan
       30    Hālian
        0    Jacob Arduino
-      30    o
+       0    o
       70    Publius Scribonius Scholasticus
-     101    Rance
+       0    Rance
       10    Telnaior
 
    Coins    Non-player entity
    -----    -----------------
-    1327    Agora
+    1484    Agora
       87    Lost and Found Department
       20    Reformed Church [1]
 
@@ -75,6 +75,27 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Murphy           +  5c.  2019-09-15 18:59  Reward (judging CFJ 3773)
+Murphy           +120c.  2019-09-15 17:48  Transfer from Gaelan
+Gaelan           -120c.  2019-09-15 17:48  Transfer to Murphy
+Agora            + 42c.  2019-09-15 17:48  Payment from Murphy
+Murphy           - 42c.  2019-09-15 17:48  Payment to Agora
+G.               +101c.  2019-09-13 12:44  Transfer from Rance
+Rance            -101c.  2019-09-13 12:44  Transfer to G.
+Agora            + 41c.  2019-09-13 12:44  Payment from G.
+G.               - 41c.  2019-09-13 12:44  Payment to Agora
+Falsifian        +176c.  2019-09-13 03:44  Transfer from ATMunn
+ATMunn           -176c.  2019-09-13 03:44  Transfer to Falsifian
+Agora            + 43c.  2019-09-13 03:44  Payment from Falsifian
+Falsifian        - 43c.  2019-09-13 03:44  Payment to Agora
+Jason Cobb       + 60c.  2019-09-13 03:43  Transfer from Bernie
+Bernie           - 60c.  2019-09-13 03:43  Transfer to Jason Cobb
+Agora            + 16c.  2019-09-13 03:42  Payment from Jason Cobb
+Jason Cobb       - 16c.  2019-09-13 03:42  Payment to Agora
+Trigon           + 30c.  2019-09-13 03:41  Transfer from o
+o                - 30c.  2019-09-13 03:41  Transfer to Trigon
+Agora            + 15c.  2019-09-13 03:41  Payment from Trigon
+Trigon           - 15c.  2019-09-13 03:41  Payment to Agora
 Falsifian        +  5c.  2019-09-13 03:24  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-09-13 03:24  Reward (Registrar weekly)
 -- last weekly report -- 2019-09-13 03:18  -- last weekly report --
