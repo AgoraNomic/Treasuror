@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-09-23
+Date of this report: 2019-09-28
 Date of last report: 2019-09-16
 
 Archive of reports on the web:
@@ -156,26 +156,6 @@ Telnaior         + 10c.  2019-09-01 00:00  Payday
 Trigon           + 15c.  2019-09-01 00:00  Payday (Rulekeepor)
 twg              + 10c.  2019-09-01 00:00  Payday
 Walker           + 10c.  2019-09-01 00:00  Payday
-Falsifian        +  5c.  2019-08-27 02:46  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-08-27 02:46  Reward (Registrar weekly)
-Jason Cobb       +  5c.  2019-08-27 02:42  Reward (Astronomor weekly)
-Aris             -  5c.  2019-08-26 03:45  Destroyed by Aris
-Murphy           +  5c.  2019-08-25 20:28  Reward (ADoP weekly)
-G.               +  5c.  2019-08-25 19:12  Reward (Herald weekly)
-G.               +  5c.  2019-08-25 19:12  Reward (Arbitor weekly)
-Falsifian        +  5c.  2019-08-24 20:33  Reward (judging CFJ 3770)
-Falsifian        +  5c.  2019-08-24 20:33  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-08-24 20:33  Reward (Registrar weekly)
-Jason Cobb       +  5c.  2019-08-24 16:32  Reward (Astronomor weekly)
-Corona           - 60c.  2019-08-24 16:03  Deregistration
-L                - 30c.  2019-08-24 16:02  Deregistration
-Jason Cobb       +  5c.  2019-08-18 13:57  Reward (assessing a proposal)
-Jason Cobb       +  5c.  2019-08-16 00:54  Reward (Astronomor weekly)
-Falsifian        +  5c.  2019-08-15 16:06  Reward (Registrar weekly)
-Falsifian        +  5c.  2019-08-15 16:06  Reward (Treasuror weekly)
-twg              + 10c.  2019-08-13 15:58  Transfer from Jacob Arduino
-Jacob Arduino    - 10c.  2019-08-13 15:58  Transfer to twg
-twg              +  5c.  2019-08-13 15:58  Reward (judging CFJ 3769)
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
