@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this report: 2019-09-28
-Date of last report: 2019-09-16
+Date of last report: 2019-09-28
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -71,6 +71,7 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-09-28 22:32  -- last weekly report --
 Falsifian        + 21c.  2019-09-23 22:22  Reward (Proposal 8242)
 Jason Cobb       +  5c.  2019-09-23 13:09  Reward (judging CFJ 3774)
 G.               +  5c.  2019-09-22 20:12  Reward (Arbitor weekly)
@@ -84,7 +85,6 @@ Jason Cobb       + 15c.  2019-09-18 00:34  Reward (Proposal 8235)
 Jason Cobb       +  5c.  2019-09-18 00:34  Reward (assessing a proposal)
 Falsifian        +  5c.  2019-09-16 02:09  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-09-16 02:09  Reward (Registrar weekly)
--- last weekly report -- 2019-09-16 01:49  -- last weekly report --
 Murphy           +  5c.  2019-09-15 18:59  Reward (judging CFJ 3773)
 Murphy           +120c.  2019-09-15 17:48  Transfer from Gaelan
 Gaelan           -120c.  2019-09-15 17:48  Transfer to Murphy
