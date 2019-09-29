@@ -29,12 +29,12 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Active player
    -----    -------------
-     229    Aris
+     234    Aris
       40    Baron von Vaderham
      104    CuddleBeam
     1089    D. Margaux
      699    Falsifian
-    1230    G.
+    1240    G.
      543    Jason Cobb
      345    Murphy
      166    omd
@@ -71,6 +71,9 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.               +  5c.  2019-09-29 18:12  Reward (Arbitor weekly)
+G.               +  5c.  2019-09-29 18:12  Reward (Herald weekly)
+Aris             +  5c.  2019-09-29 05:29  Reward (Promotor weekly)
 -- last weekly report -- 2019-09-28 22:32  -- last weekly report --
 Falsifian        + 21c.  2019-09-23 22:22  Reward (Proposal 8242)
 Jason Cobb       +  5c.  2019-09-23 13:09  Reward (judging CFJ 3774)
