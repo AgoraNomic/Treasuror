@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-09-28
+Date of this report: 2019-10-01
 Date of last report: 2019-09-28
 
 Archive of reports on the web:
@@ -29,27 +29,27 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Active player
    -----    -------------
-     234    Aris
-      40    Baron von Vaderham
-     104    CuddleBeam
-    1089    D. Margaux
-     699    Falsifian
-    1240    G.
-     543    Jason Cobb
-     345    Murphy
-     166    omd
-     555    Trigon
-     917    twg
-      44    Walker
+     249    Aris
+      50    Baron von Vaderham
+     114    CuddleBeam
+    1099    D. Margaux
+     719    Falsifian
+    1265    G.
+     563    Jason Cobb
+     365    Murphy
+     181    omd
+     570    Trigon
+     932    twg
+      54    Walker
 
    Coins    Zombie
    -----    ------
-       0    ATMunn
-       0    Bernie
-       0    Gaelan
-       0    Jacob Arduino
-       0    o
-       0    Rance
+      10    ATMunn
+      10    Bernie
+      10    Gaelan
+      10    Jacob Arduino
+      10    o
+      10    Rance
 
    Coins    Non-player entity
    -----    -----------------
@@ -68,6 +68,37 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian        +  5c.  2019-10-01 00:00  Payday (Treasuror)
+G.               +  5c.  2019-10-01 00:00  Payday (Tailor)
+Jason Cobb       +  5c.  2019-10-01 00:00  Payday (Speaker)
+Trigon           +  5c.  2019-10-01 00:00  Payday (Rulekeepor)
+Falsifian        +  5c.  2019-10-01 00:00  Payday (Registrar)
+twg              +  5c.  2019-10-01 00:00  Payday (Referee)
+Aris             +  5c.  2019-10-01 00:00  Payday (Promotor)
+G.               +  5c.  2019-10-01 00:00  Payday (Prime Minister)
+G.               +  5c.  2019-10-01 00:00  Payday (Herald)
+omd              +  5c.  2019-10-01 00:00  Payday (Distributor)
+Murphy           +  5c.  2019-10-01 00:00  Payday (Comptrollor)
+Jason Cobb       +  5c.  2019-10-01 00:00  Payday (Assessor)
+Murphy           +  5c.  2019-10-01 00:00  Payday (ADoP)
+ATMunn           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Aris             + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Baron v V [0]    + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Bernie           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Cuddle Beam      + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+D. Margaux       + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Falsifian        + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+G.               + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Gaelan           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Jacob Arduino    + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Jason Cobb       + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Murphy           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+o                + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+omd              + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Rance            + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Trigon           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+twg              + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Walker           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
 G.               +  5c.  2019-09-29 18:12  Reward (Arbitor weekly)
 G.               +  5c.  2019-09-29 18:12  Reward (Herald weekly)
 Aris             +  5c.  2019-09-29 05:29  Reward (Promotor weekly)
