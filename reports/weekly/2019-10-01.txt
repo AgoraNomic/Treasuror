@@ -1,0 +1,170 @@
+------------------------------------------------------------------------
+                              Forbes 500
+------------------------------------------------------------------------
+
+Date of this report: 2019-10-01
+Date of last report: 2019-09-28
+
+Archive of reports on the web:
+https://agoranomic.org/Treasuror/reports/weekly/
+
+
+ASSET INDEX
+========================================================================
+This section does not self-ratify.
+
+   Asset class    Recordkeepor    Ownership
+   -----------    ------------    -------------------------
+   Coins          Treasuror       Agora, players, contracts
+   Blots          Referee         Persons
+
+
+COIN BALANCES
+========================================================================
+This section self-ratifies.
+Entities not listed have a Coin balance of 0.
+
+   Coins    Active player
+   -----    -------------
+     249    Aris
+      50    Baron von Vaderham
+     114    CuddleBeam
+    1099    D. Margaux
+     719    Falsifian
+    1265    G.
+     563    Jason Cobb
+     365    Murphy
+     181    omd
+     570    Trigon
+     932    twg
+      54    Walker
+
+   Coins    Zombie
+   -----    ------
+      10    ATMunn
+      10    Bernie
+      10    Gaelan
+      10    Jacob Arduino
+      10    o
+      10    Rance
+
+   Coins    Non-player entity
+   -----    -----------------
+    1484    Agora
+      87    Lost and Found Department
+      20    Reformed Church [1]
+
+
+RECENT HISTORY
+========================================================================
+This section is purely informational and does not self-ratify.
+
+Asset classess:
+* 2019-09-05 16:44 UTC: Proposal 8229 ("freeing up space") repeals the
+  definitions of Spaceships and Energy.
+
+Entity             Change  Date (UTC)        Reason
+------------------------------------------------------------------------
+Falsifian        +  5c.  2019-10-01 00:00  Payday (Treasuror)
+G.               +  5c.  2019-10-01 00:00  Payday (Tailor)
+Jason Cobb       +  5c.  2019-10-01 00:00  Payday (Speaker)
+Trigon           +  5c.  2019-10-01 00:00  Payday (Rulekeepor)
+Falsifian        +  5c.  2019-10-01 00:00  Payday (Registrar)
+twg              +  5c.  2019-10-01 00:00  Payday (Referee)
+Aris             +  5c.  2019-10-01 00:00  Payday (Promotor)
+G.               +  5c.  2019-10-01 00:00  Payday (Prime Minister)
+G.               +  5c.  2019-10-01 00:00  Payday (Herald)
+omd              +  5c.  2019-10-01 00:00  Payday (Distributor)
+Murphy           +  5c.  2019-10-01 00:00  Payday (Comptrollor)
+Jason Cobb       +  5c.  2019-10-01 00:00  Payday (Assessor)
+Murphy           +  5c.  2019-10-01 00:00  Payday (ADoP)
+ATMunn           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Aris             + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Baron v V [0]    + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Bernie           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Cuddle Beam      + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+D. Margaux       + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Falsifian        + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+G.               + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Gaelan           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Jacob Arduino    + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Jason Cobb       + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Murphy           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+o                + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+omd              + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Rance            + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Trigon           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+twg              + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Walker           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+G.               +  5c.  2019-09-29 18:12  Reward (Arbitor weekly)
+G.               +  5c.  2019-09-29 18:12  Reward (Herald weekly)
+Aris             +  5c.  2019-09-29 05:29  Reward (Promotor weekly)
+-- last weekly report -- 2019-09-28 22:32  -- last weekly report --
+Falsifian        + 21c.  2019-09-23 22:22  Reward (Proposal 8242)
+Jason Cobb       +  5c.  2019-09-23 13:09  Reward (judging CFJ 3774)
+PSS              - 70c.  2019-09-22 20:34  Deregistration
+Telnaior         - 10c.  2019-09-22 20:34  Deregistration
+G.               +  5c.  2019-09-22 20:12  Reward (Arbitor weekly)
+G.               +  5c.  2019-09-22 20:12  Reward (Herald weekly)
+Jason Cobb       + 39c.  2019-09-18 00:34  Reward (Proposal 8248)
+Jason Cobb       + 33c.  2019-09-18 00:34  Reward (Proposal 8241)
+Jason Cobb       + 39c.  2019-09-18 00:34  Reward (Proposal 8240)
+Jason Cobb       +  1c.  2019-09-18 00:34  Reward (Proposal 8239)
+Jason Cobb       + 15c.  2019-09-18 00:34  Reward (Proposal 8236)
+Jason Cobb       + 15c.  2019-09-18 00:34  Reward (Proposal 8235)
+Jason Cobb       +  5c.  2019-09-18 00:34  Reward (assessing a proposal)
+Hālian           - 30c.  2019-09-18 00:28  Deregistration
+Falsifian        +  5c.  2019-09-16 02:09  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-09-16 02:09  Reward (Registrar weekly)
+Murphy           +  5c.  2019-09-15 18:59  Reward (judging CFJ 3773)
+Murphy           +120c.  2019-09-15 17:48  Transfer from Gaelan
+Gaelan           -120c.  2019-09-15 17:48  Transfer to Murphy
+Agora            + 42c.  2019-09-15 17:48  Payment from Murphy
+Murphy           - 42c.  2019-09-15 17:48  Payment to Agora
+G.               +101c.  2019-09-13 12:44  Transfer from Rance
+Rance            -101c.  2019-09-13 12:44  Transfer to G.
+Agora            + 41c.  2019-09-13 12:44  Payment from G.
+G.               - 41c.  2019-09-13 12:44  Payment to Agora
+Falsifian        +176c.  2019-09-13 03:44  Transfer from ATMunn
+ATMunn           -176c.  2019-09-13 03:44  Transfer to Falsifian
+Agora            + 43c.  2019-09-13 03:44  Payment from Falsifian
+Falsifian        - 43c.  2019-09-13 03:44  Payment to Agora
+Jason Cobb       + 60c.  2019-09-13 03:43  Transfer from Bernie
+Bernie           - 60c.  2019-09-13 03:43  Transfer to Jason Cobb
+Agora            + 16c.  2019-09-13 03:42  Payment from Jason Cobb
+Jason Cobb       - 16c.  2019-09-13 03:42  Payment to Agora
+Trigon           + 30c.  2019-09-13 03:41  Transfer from o
+o                - 30c.  2019-09-13 03:41  Transfer to Trigon
+Agora            + 15c.  2019-09-13 03:41  Payment from Trigon
+Trigon           - 15c.  2019-09-13 03:41  Payment to Agora
+Falsifian        +  5c.  2019-09-13 03:24  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-09-13 03:24  Reward (Registrar weekly)
+G.               + 21c.  2019-09-11 18:56  Reward (Proposal 8245)
+G.               +  7c.  2019-09-11 18:56  Reward (Proposal 8234)
+G.               +  4c.  2019-09-11 18:56  Reward (Proposal 8229)
+G.               + 15c.  2019-09-11 18:56  Reward (Proposal 8228)
+G.               + 10c.  2019-09-11 18:56  Reward (Proposal 8217)
+G.               + 12c.  2019-09-11 18:56  Reward (Proposal 8215)
+Jason Cobb       + 25c.  2019-09-11 17:08  Transfer from twg
+twg              - 25c.  2019-09-11 17:08  Transfer to Jason Cobb
+twg              +  5c.  2019-09-11 16:51  Reward (Referee weekly)
+Murphy           +  5c.  2019-09-08 20:08  Reward (ADoP weekly)
+Trigon           +  5c.  2019-09-07 20:01  Reward (Rulekeepor monthly)
+Trigon           +  5c.  2019-09-07 20:01  Reward (Rulekeepor weekly)
+twg              + 14c.  2019-09-07 10:43  Transfer from Jacob Arduino
+Jacob Arduino    - 14c.  2019-09-07 10:43  Transfer to twg
+Jacob Arduino    +  4c.  2019-09-07 10:43  Reward (Proposal 8247)
+Falsifian        +  5c.  2019-09-07 02:20  Reward (Registrar monthly)
+Falsifian        +  5c.  2019-09-07 02:20  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-09-07 02:20  Reward (Registrar weekly)
+Jason Cobb       + 14c.  2019-09-05 16:49  Reward (Proposal 8246)
+Jason Cobb       + 15c.  2019-09-05 16:49  Reward (Proposal 8244)
+Jason Cobb       + 12c.  2019-09-05 16:47  Reward (Proposal 8222)
+Jason Cobb       + 12c.  2019-09-05 16:47  Reward (Proposal 8221)
+Jason Cobb       +  5c.  2019-09-05 16:47  Reward (assessing a proposal)
+Jason Cobb       +  5c.  2019-09-02 14:34  Reward (Referee weekly)
+Jason Cobb       +  5c.  2019-09-02 14:08  Reward (Astronomor weekly)
+
+[0] Baron von Vaderham, abbreviated to save space.
+[1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
+    the Ritual - Candle Division ("Reformed Church")'
