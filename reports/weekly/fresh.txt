@@ -47,12 +47,9 @@ Entities not listed have a Coin balance of 0.
        0    ATMunn
        0    Bernie
        0    Gaelan
-      30    Hālian
        0    Jacob Arduino
        0    o
-      70    Publius Scribonius Scholasticus
        0    Rance
-      10    Telnaior
 
    Coins    Non-player entity
    -----    -----------------
@@ -77,6 +74,8 @@ Aris             +  5c.  2019-09-29 05:29  Reward (Promotor weekly)
 -- last weekly report -- 2019-09-28 22:32  -- last weekly report --
 Falsifian        + 21c.  2019-09-23 22:22  Reward (Proposal 8242)
 Jason Cobb       +  5c.  2019-09-23 13:09  Reward (judging CFJ 3774)
+PSS              - 70c.  2019-09-22 20:34  Deregistration
+Telnaior         - 10c.  2019-09-22 20:34  Deregistration
 G.               +  5c.  2019-09-22 20:12  Reward (Arbitor weekly)
 G.               +  5c.  2019-09-22 20:12  Reward (Herald weekly)
 Jason Cobb       + 39c.  2019-09-18 00:34  Reward (Proposal 8248)
@@ -86,6 +85,7 @@ Jason Cobb       +  1c.  2019-09-18 00:34  Reward (Proposal 8239)
 Jason Cobb       + 15c.  2019-09-18 00:34  Reward (Proposal 8236)
 Jason Cobb       + 15c.  2019-09-18 00:34  Reward (Proposal 8235)
 Jason Cobb       +  5c.  2019-09-18 00:34  Reward (assessing a proposal)
+Hālian           - 30c.  2019-09-18 00:28  Deregistration
 Falsifian        +  5c.  2019-09-16 02:09  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-09-16 02:09  Reward (Registrar weekly)
 Murphy           +  5c.  2019-09-15 18:59  Reward (judging CFJ 3773)
