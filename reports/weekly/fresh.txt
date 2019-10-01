@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this report: 2019-10-01
-Date of last report: 2019-09-28
+Date of last report: 2019-10-01
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -68,6 +68,7 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-10-01 22:17  -- last weekly report --
 Falsifian        +  5c.  2019-10-01 00:00  Payday (Treasuror)
 G.               +  5c.  2019-10-01 00:00  Payday (Tailor)
 Jason Cobb       +  5c.  2019-10-01 00:00  Payday (Speaker)
@@ -102,7 +103,6 @@ Walker           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
 G.               +  5c.  2019-09-29 18:12  Reward (Arbitor weekly)
 G.               +  5c.  2019-09-29 18:12  Reward (Herald weekly)
 Aris             +  5c.  2019-09-29 05:29  Reward (Promotor weekly)
--- last weekly report -- 2019-09-28 22:32  -- last weekly report --
 Falsifian        + 21c.  2019-09-23 22:22  Reward (Proposal 8242)
 Jason Cobb       +  5c.  2019-09-23 13:09  Reward (judging CFJ 3774)
 PSS              - 70c.  2019-09-22 20:34  Deregistration
