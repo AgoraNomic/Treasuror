@@ -167,29 +167,6 @@ Jason Cobb       + 12c.  2019-09-05 16:47  Reward (Proposal 8221)
 Jason Cobb       +  5c.  2019-09-05 16:47  Reward (assessing a proposal)
 Jason Cobb       +  5c.  2019-09-02 14:34  Reward (Referee weekly)
 Jason Cobb       +  5c.  2019-09-02 14:08  Reward (Astronomor weekly)
-ATMunn           + 10c.  2019-09-01 00:00  Payday
-Aris             + 15c.  2019-09-01 00:00  Payday (Promotor)
-Baron v V [0]    + 10c.  2019-09-01 00:00  Payday
-Bernie           + 10c.  2019-09-01 00:00  Payday
-Cuddle Beam      + 10c.  2019-09-01 00:00  Payday
-D. Margaux       + 10c.  2019-09-01 00:00  Payday
-Falsifian        + 20c.  2019-09-01 00:00  Payday (Registrar, Treasuror)
-G.               + 30c.  2019-09-01 00:00  Payday (Arbitor, Herald,
-                                           Prime Minister, Tailor)
-Gaelan           + 10c.  2019-09-01 00:00  Payday
-Hālian           + 10c.  2019-09-01 00:00  Payday
-Jacob Arduino    + 10c.  2019-09-01 00:00  Payday
-Jason Cobb       + 25c.  2019-09-01 00:00  Payday (Assessor, Astronomor,
-                                           Speaker)
-Murphy           + 15c.  2019-09-01 00:00  Payday (ADoP)
-o                + 10c.  2019-09-01 00:00  Payday
-omd              + 15c.  2019-09-01 00:00  Payday (Distributor)
-PSS              + 10c.  2019-09-01 00:00  Payday
-Rance            + 10c.  2019-09-01 00:00  Payday
-Telnaior         + 10c.  2019-09-01 00:00  Payday
-Trigon           + 15c.  2019-09-01 00:00  Payday (Rulekeepor)
-twg              + 10c.  2019-09-01 00:00  Payday
-Walker           + 10c.  2019-09-01 00:00  Payday
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
