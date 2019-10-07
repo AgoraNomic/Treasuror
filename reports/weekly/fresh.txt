@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-10-01
+Date of this report: 2019-10-07
 Date of last report: 2019-10-01
 
 Archive of reports on the web:
@@ -34,8 +34,8 @@ Entities not listed have a Coin balance of 0.
      114    CuddleBeam
     1099    D. Margaux
      719    Falsifian
-    1265    G.
-     563    Jason Cobb
+    1275    G.
+     588    Jason Cobb
      365    Murphy
      181    omd
      570    Trigon
@@ -55,7 +55,7 @@ Entities not listed have a Coin balance of 0.
    -----    -----------------
     1484    Agora
       87    Lost and Found Department
-      20    Reformed Church [1]
+       0    Reformed Church [1]
 
 
 RECENT HISTORY
@@ -68,6 +68,29 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.               +  5c.  2019-10-06 20:40  Reward (Arbitor weekly)
+G.               +  5c.  2019-10-06 20:40  Reward (Herald weekly)
+Jason Cobb       +  5c.  2019-10-05 02:10  Reward (assessing a proposal)
+Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
+Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
+Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
+Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
+Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
+Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
+Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
+Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
+Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
+Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
+Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
+Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
+Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
+Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
+Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
+Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
+Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
+Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
+Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
+Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
 -- last weekly report -- 2019-10-01 22:17  -- last weekly report --
 Falsifian        +  5c.  2019-10-01 00:00  Payday (Treasuror)
 G.               +  5c.  2019-10-01 00:00  Payday (Tailor)
