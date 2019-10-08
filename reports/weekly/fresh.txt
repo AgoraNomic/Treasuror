@@ -177,21 +177,6 @@ Jason Cobb       + 25c.  2019-09-11 17:08  Transfer from twg
 twg              - 25c.  2019-09-11 17:08  Transfer to Jason Cobb
 twg              +  5c.  2019-09-11 16:51  Reward (Referee weekly)
 Murphy           +  5c.  2019-09-08 20:08  Reward (ADoP weekly)
-Trigon           +  5c.  2019-09-07 20:01  Reward (Rulekeepor monthly)
-Trigon           +  5c.  2019-09-07 20:01  Reward (Rulekeepor weekly)
-twg              + 14c.  2019-09-07 10:43  Transfer from Jacob Arduino
-Jacob Arduino    - 14c.  2019-09-07 10:43  Transfer to twg
-Jacob Arduino    +  4c.  2019-09-07 10:43  Reward (Proposal 8247)
-Falsifian        +  5c.  2019-09-07 02:20  Reward (Registrar monthly)
-Falsifian        +  5c.  2019-09-07 02:20  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-09-07 02:20  Reward (Registrar weekly)
-Jason Cobb       + 14c.  2019-09-05 16:49  Reward (Proposal 8246)
-Jason Cobb       + 15c.  2019-09-05 16:49  Reward (Proposal 8244)
-Jason Cobb       + 12c.  2019-09-05 16:47  Reward (Proposal 8222)
-Jason Cobb       + 12c.  2019-09-05 16:47  Reward (Proposal 8221)
-Jason Cobb       +  5c.  2019-09-05 16:47  Reward (assessing a proposal)
-Jason Cobb       +  5c.  2019-09-02 14:34  Reward (Referee weekly)
-Jason Cobb       +  5c.  2019-09-02 14:08  Reward (Astronomor weekly)
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
