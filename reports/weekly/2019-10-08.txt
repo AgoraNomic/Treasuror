@@ -3,7 +3,7 @@
 ------------------------------------------------------------------------
 
 Date of this report: 2019-10-08
-Date of last report: 2019-10-08
+Date of last report: 2019-10-01
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -65,7 +65,6 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
--- last weekly report -- 2019-10-08 00:25  -- last weekly report --
 Falsifian        +  5c.  2019-10-07 12:08  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-10-07 12:08  Reward (Registrar weekly)
 G.               +  5c.  2019-10-06 20:40  Reward (Arbitor weekly)
@@ -91,6 +90,7 @@ Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
 Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
 Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
 Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
+-- last weekly report -- 2019-10-01 22:17  -- last weekly report --
 Falsifian        +  5c.  2019-10-01 00:00  Payday (Treasuror)
 G.               +  5c.  2019-10-01 00:00  Payday (Tailor)
 Jason Cobb       +  5c.  2019-10-01 00:00  Payday (Speaker)
