@@ -65,10 +65,6 @@ RECENT HISTORY
 ========================================================================
 This section is purely informational and does not self-ratify.
 
-Asset classess:
-* 2019-09-05 16:44 UTC: Proposal 8229 ("freeing up space") repeals the
-  definitions of Spaceships and Energy.
-
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
 Gaelan           + 10c.  2019-10-08 15:16  Welcome Package
