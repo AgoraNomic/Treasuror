@@ -5,7 +5,10 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-10-08
+Disclaimer: This report assumes twg did not successfully cause Jacob
+Arduino to give em all eir coins on 2019-10-08.
+
+Date of this report: 2019-10-09
 Date of last report: 2019-10-08
 
 Archive of reports on the web:
@@ -33,8 +36,9 @@ Entities not listed have a Coin balance of 0.
       50    Baron von Vaderham
      114    CuddleBeam
     1099    D. Margaux
-     729    Falsifian
+     749    Falsifian
     1275    G.
+      20    Gaelan
      588    Jason Cobb
      365    Murphy
      181    omd
@@ -44,9 +48,8 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Zombie
    -----    ------
-      10    ATMunn
+       0    ATMunn
       10    Bernie
-      10    Gaelan
       10    Jacob Arduino
       10    o
       10    Rance
@@ -68,6 +71,11 @@ Asset classess:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Gaelan           + 10c.  2019-10-08 15:16  Welcome Package
+Falsifian        + 10c.  2019-10-08 00:27  Transfer from ATMunn
+ATMunn           - 10c.  2019-10-08 00:27  Transfer to Falsifian
+Falsifian        +  5c.  2019-10-08 00:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-10-08 00:27  Reward (Registrar weekly)
 -- last weekly report -- 2019-10-08 00:25  -- last weekly report --
 Falsifian        +  5c.  2019-10-07 12:08  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-10-07 12:08  Reward (Registrar weekly)
