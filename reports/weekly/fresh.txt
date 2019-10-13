@@ -5,9 +5,6 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Disclaimer: This report assumes twg did not successfully cause Jacob
-Arduino to give em all eir coins on 2019-10-08.
-
 Date of this report: 2019-10-09
 Date of last report: 2019-10-08
 
@@ -43,14 +40,14 @@ Entities not listed have a Coin balance of 0.
      365    Murphy
      181    omd
      570    Trigon
-     932    twg
+     942    twg
       54    Walker
 
    Coins    Zombie
    -----    ------
        0    ATMunn
       10    Bernie
-      10    Jacob Arduino
+       0    Jacob Arduino
       10    o
       10    Rance
 
@@ -68,6 +65,8 @@ This section is purely informational and does not self-ratify.
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
 Gaelan           + 10c.  2019-10-08 15:16  Welcome Package
+twg              + 10c.  2019-10-08 12:08  Transfer from Jacob Arduino
+Jacob Arduino    - 10c.  2019-10-08 12:08  Transfer to twg
 Falsifian        + 10c.  2019-10-08 00:27  Transfer from ATMunn
 ATMunn           - 10c.  2019-10-08 00:27  Transfer to Falsifian
 Falsifian        +  5c.  2019-10-08 00:27  Reward (Treasuror weekly)
