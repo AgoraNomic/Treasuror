@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-10-09
+Date of this report: 2019-10-15
 Date of last report: 2019-10-08
 
 Archive of reports on the web:
@@ -34,9 +34,9 @@ Entities not listed have a Coin balance of 0.
      114    CuddleBeam
     1099    D. Margaux
      749    Falsifian
-    1275    G.
+    1305    G.
       20    Gaelan
-     588    Jason Cobb
+     599    Jason Cobb
      365    Murphy
      181    omd
      570    Trigon
@@ -55,7 +55,6 @@ Entities not listed have a Coin balance of 0.
    -----    -----------------
     1484    Agora
       87    Lost and Found Department
-       0    Reformed Church [1]
 
 
 RECENT HISTORY
@@ -64,6 +63,9 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+G.               + 30c.  2019-10-14 04:40  Reward (Proposal 8251)
+Jason Cobb       +  6c.  2019-10-14 03:20  Reward (Proposal 8252)
+Jason Cobb       +  5c.  2019-10-14 03:20  Reward (assessing a proposal)
 Gaelan           + 10c.  2019-10-08 15:16  Welcome Package
 twg              + 10c.  2019-10-08 12:08  Transfer from Jacob Arduino
 Jacob Arduino    - 10c.  2019-10-08 12:08  Transfer to twg
@@ -183,4 +185,5 @@ Murphy           +  5c.  2019-09-08 20:08  Reward (ADoP weekly)
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
-    the Ritual - Candle Division ("Reformed Church")'
+    the Ritual - Candle Division ("Reformed Church")'. Destroyed on
+    2019-10-14 by Proposal 8252.
