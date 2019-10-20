@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-10-15
+Date of this report: 2019-10-20
 Date of last report: 2019-10-15
 
 Archive of reports on the web:
@@ -39,6 +39,7 @@ Entities not listed have a Coin balance of 0.
      599    Jason Cobb
      365    Murphy
      181    omd
+      10    nch
      570    Trigon
      942    twg
       54    Walker
@@ -63,6 +64,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+nch              + 10c.  2019-10-18 20:11  Welcome Package
 -- last weekly report -- 2019-10-15 03:36  -- last weekly report --
 G.               + 30c.  2019-10-14 04:40  Reward (Proposal 8251)
 Jason Cobb       +  6c.  2019-10-14 03:20  Reward (Proposal 8252)
