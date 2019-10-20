@@ -31,30 +31,30 @@ Entities not listed have a Coin balance of 0.
    -----    -------------
      249    Aris
       50    Baron von Vaderham
-     114    CuddleBeam
-    1099    D. Margaux
-     749    Falsifian
+    1194    D. Margaux
+     759    Falsifian
     1305    G.
       20    Gaelan
      599    Jason Cobb
-     365    Murphy
+     405    Murphy
      181    omd
       10    nch
      570    Trigon
      942    twg
-      54    Walker
 
    Coins    Zombie
    -----    ------
        0    ATMunn
       10    Bernie
+       0    CuddleBeam
        0    Jacob Arduino
       10    o
       10    Rance
+       0    Walker
 
    Coins    Non-player entity
    -----    -----------------
-    1484    Agora
+    1517    Agora
       87    Lost and Found Department
 
 
@@ -64,6 +64,16 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Murphy           + 54c.  2019-10-20 17:59  Transfer from Walker
+Walker           - 54c.  2019-10-20 17:59  Transfer to Murphy
+Agora            + 14c.  2019-10-20 17:59  Payment from Murphy
+Murphy           - 14c.  2019-10-20 17:59  Payment to Agora
+D. Margaux       +114c.  2019-10-20 11:58  Transfer from CuddleBeam
+CuddleBeam       -114c.  2019-10-20 11:58  Transfer to D. Margaux
+Agora            + 19c.  2019-10-20 11:58  Payment from D. Margaux
+D. Margaux       - 19c.  2019-10-20 11:58  Payment to Agora
+Falsifian        +  5c.  2019-10-20 07:23  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-10-20 07:23  Reward (Registrar weekly)
 nch              + 10c.  2019-10-18 20:11  Welcome Package
 -- last weekly report -- 2019-10-15 03:36  -- last weekly report --
 G.               + 30c.  2019-10-14 04:40  Reward (Proposal 8251)
