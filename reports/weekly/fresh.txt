@@ -150,53 +150,6 @@ G.               +  5c.  2019-09-29 18:12  Reward (Herald weekly)
 Aris             +  5c.  2019-09-29 05:29  Reward (Promotor weekly)
 Falsifian        + 21c.  2019-09-23 22:22  Reward (Proposal 8242)
 Jason Cobb       +  5c.  2019-09-23 13:09  Reward (judging CFJ 3774)
-PSS              - 70c.  2019-09-22 20:34  Deregistration
-Telnaior         - 10c.  2019-09-22 20:34  Deregistration
-G.               +  5c.  2019-09-22 20:12  Reward (Arbitor weekly)
-G.               +  5c.  2019-09-22 20:12  Reward (Herald weekly)
-Jason Cobb       + 39c.  2019-09-18 00:34  Reward (Proposal 8248)
-Jason Cobb       + 33c.  2019-09-18 00:34  Reward (Proposal 8241)
-Jason Cobb       + 39c.  2019-09-18 00:34  Reward (Proposal 8240)
-Jason Cobb       +  1c.  2019-09-18 00:34  Reward (Proposal 8239)
-Jason Cobb       + 15c.  2019-09-18 00:34  Reward (Proposal 8236)
-Jason Cobb       + 15c.  2019-09-18 00:34  Reward (Proposal 8235)
-Jason Cobb       +  5c.  2019-09-18 00:34  Reward (assessing a proposal)
-Hālian           - 30c.  2019-09-18 00:28  Deregistration
-Falsifian        +  5c.  2019-09-16 02:09  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-09-16 02:09  Reward (Registrar weekly)
-Murphy           +  5c.  2019-09-15 18:59  Reward (judging CFJ 3773)
-Murphy           +120c.  2019-09-15 17:48  Transfer from Gaelan
-Gaelan           -120c.  2019-09-15 17:48  Transfer to Murphy
-Agora            + 42c.  2019-09-15 17:48  Payment from Murphy
-Murphy           - 42c.  2019-09-15 17:48  Payment to Agora
-G.               +101c.  2019-09-13 12:44  Transfer from Rance
-Rance            -101c.  2019-09-13 12:44  Transfer to G.
-Agora            + 41c.  2019-09-13 12:44  Payment from G.
-G.               - 41c.  2019-09-13 12:44  Payment to Agora
-Falsifian        +176c.  2019-09-13 03:44  Transfer from ATMunn
-ATMunn           -176c.  2019-09-13 03:44  Transfer to Falsifian
-Agora            + 43c.  2019-09-13 03:44  Payment from Falsifian
-Falsifian        - 43c.  2019-09-13 03:44  Payment to Agora
-Jason Cobb       + 60c.  2019-09-13 03:43  Transfer from Bernie
-Bernie           - 60c.  2019-09-13 03:43  Transfer to Jason Cobb
-Agora            + 16c.  2019-09-13 03:42  Payment from Jason Cobb
-Jason Cobb       - 16c.  2019-09-13 03:42  Payment to Agora
-Trigon           + 30c.  2019-09-13 03:41  Transfer from o
-o                - 30c.  2019-09-13 03:41  Transfer to Trigon
-Agora            + 15c.  2019-09-13 03:41  Payment from Trigon
-Trigon           - 15c.  2019-09-13 03:41  Payment to Agora
-Falsifian        +  5c.  2019-09-13 03:24  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-09-13 03:24  Reward (Registrar weekly)
-G.               + 21c.  2019-09-11 18:56  Reward (Proposal 8245)
-G.               +  7c.  2019-09-11 18:56  Reward (Proposal 8234)
-G.               +  4c.  2019-09-11 18:56  Reward (Proposal 8229)
-G.               + 15c.  2019-09-11 18:56  Reward (Proposal 8228)
-G.               + 10c.  2019-09-11 18:56  Reward (Proposal 8217)
-G.               + 12c.  2019-09-11 18:56  Reward (Proposal 8215)
-Jason Cobb       + 25c.  2019-09-11 17:08  Transfer from twg
-twg              - 25c.  2019-09-11 17:08  Transfer to Jason Cobb
-twg              +  5c.  2019-09-11 16:51  Reward (Referee weekly)
-Murphy           +  5c.  2019-09-08 20:08  Reward (ADoP weekly)
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
