@@ -1,0 +1,154 @@
+------------------------------------------------------------------------
+                              Forbes 500
+------------------------------------------------------------------------
+
+Date of this report: 2019-10-22
+Date of last report: 2019-10-15
+
+Archive of reports on the web:
+https://agoranomic.org/Treasuror/reports/weekly/
+
+
+ASSET INDEX
+========================================================================
+This section does not self-ratify.
+
+   Asset class    Recordkeepor    Ownership
+   -----------    ------------    -------------------------
+   Coins          Treasuror       Agora, players, contracts
+   Blots          Referee         Persons
+
+
+COIN BALANCES
+========================================================================
+This section self-ratifies.
+Entities not listed have a Coin balance of 0.
+
+   Coins    Active player
+   -----    -------------
+     249    Aris
+      50    Baron von Vaderham
+       0    CuddleBeam
+    1194    D. Margaux
+     759    Falsifian
+    1305    G.
+      20    Gaelan
+     599    Jason Cobb
+     405    Murphy
+     181    omd
+      10    pikhq
+      10    nch
+     570    Trigon
+     947    twg
+
+   Coins    Zombie
+   -----    ------
+       0    ATMunn
+      10    Bernie
+       0    Jacob Arduino
+      10    o
+      10    Rance
+       0    Walker
+
+   Coins    Non-player entity
+   -----    -----------------
+    1517    Agora
+      87    Lost and Found Department
+
+
+RECENT HISTORY
+========================================================================
+This section is purely informational and does not self-ratify.
+
+Entity             Change  Date (UTC)        Reason
+------------------------------------------------------------------------
+twg              +  5c.  2019-10-22 13:23  Reward (Referee weekly)
+pikhq            + 10c.  2019-10-20 21:22  Welcome Package
+Murphy           + 54c.  2019-10-20 17:59  Transfer from Walker
+Walker           - 54c.  2019-10-20 17:59  Transfer to Murphy
+Agora            + 14c.  2019-10-20 17:59  Payment from Murphy
+Murphy           - 14c.  2019-10-20 17:59  Payment to Agora
+D. Margaux       +114c.  2019-10-20 11:58  Transfer from CuddleBeam
+CuddleBeam       -114c.  2019-10-20 11:58  Transfer to D. Margaux
+Agora            + 19c.  2019-10-20 11:58  Payment from D. Margaux
+D. Margaux       - 19c.  2019-10-20 11:58  Payment to Agora
+Falsifian        +  5c.  2019-10-20 07:23  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-10-20 07:23  Reward (Registrar weekly)
+nch              + 10c.  2019-10-18 20:11  Welcome Package
+-- last weekly report -- 2019-10-15 03:36  -- last weekly report --
+G.               + 30c.  2019-10-14 04:40  Reward (Proposal 8251)
+Jason Cobb       +  6c.  2019-10-14 03:20  Reward (Proposal 8252)
+Jason Cobb       +  5c.  2019-10-14 03:20  Reward (assessing a proposal)
+Gaelan           + 10c.  2019-10-08 15:16  Welcome Package
+twg              + 10c.  2019-10-08 12:08  Transfer from Jacob Arduino
+Jacob Arduino    - 10c.  2019-10-08 12:08  Transfer to twg
+Falsifian        + 10c.  2019-10-08 00:27  Transfer from ATMunn
+ATMunn           - 10c.  2019-10-08 00:27  Transfer to Falsifian
+Falsifian        +  5c.  2019-10-08 00:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-10-08 00:27  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-10-07 12:08  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-10-07 12:08  Reward (Registrar weekly)
+G.               +  5c.  2019-10-06 20:40  Reward (Arbitor weekly)
+G.               +  5c.  2019-10-06 20:40  Reward (Herald weekly)
+Jason Cobb       +  5c.  2019-10-05 02:10  Reward (assessing a proposal)
+Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
+Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
+Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
+Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
+Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
+Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
+Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
+Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
+Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
+Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
+Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
+Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
+Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
+Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
+Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
+Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
+Jason Cobb       +  7c.  2019-10-02 15:40  Transfer from Ref. Church [1]
+Ref. Church [1]  -  7c.  2019-10-02 15:40  Transfer to Jason Cobb
+Ref. Church [1]  +  3c.  2019-10-02 15:40  Transfer from Jason Cobb
+Jason Cobb       -  3c.  2019-10-02 15:40  Transfer to Ref. Church [1]
+Falsifian        +  5c.  2019-10-01 00:00  Payday (Treasuror)
+G.               +  5c.  2019-10-01 00:00  Payday (Tailor)
+Jason Cobb       +  5c.  2019-10-01 00:00  Payday (Speaker)
+Trigon           +  5c.  2019-10-01 00:00  Payday (Rulekeepor)
+Falsifian        +  5c.  2019-10-01 00:00  Payday (Registrar)
+twg              +  5c.  2019-10-01 00:00  Payday (Referee)
+Aris             +  5c.  2019-10-01 00:00  Payday (Promotor)
+G.               +  5c.  2019-10-01 00:00  Payday (Prime Minister)
+G.               +  5c.  2019-10-01 00:00  Payday (Herald)
+omd              +  5c.  2019-10-01 00:00  Payday (Distributor)
+Murphy           +  5c.  2019-10-01 00:00  Payday (Comptrollor)
+Jason Cobb       +  5c.  2019-10-01 00:00  Payday (Assessor)
+Murphy           +  5c.  2019-10-01 00:00  Payday (ADoP)
+ATMunn           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Aris             + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Baron v V [0]    + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Bernie           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Cuddle Beam      + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+D. Margaux       + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Falsifian        + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+G.               + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Gaelan           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Jacob Arduino    + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Jason Cobb       + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Murphy           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+o                + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+omd              + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Rance            + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Trigon           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+twg              + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+Walker           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
+G.               +  5c.  2019-09-29 18:12  Reward (Arbitor weekly)
+G.               +  5c.  2019-09-29 18:12  Reward (Herald weekly)
+Aris             +  5c.  2019-09-29 05:29  Reward (Promotor weekly)
+Falsifian        + 21c.  2019-09-23 22:22  Reward (Proposal 8242)
+Jason Cobb       +  5c.  2019-09-23 13:09  Reward (judging CFJ 3774)
+
+[0] Baron von Vaderham, abbreviated to save space.
+[1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
+    the Ritual - Candle Division ("Reformed Church")'. Destroyed on
+    2019-10-14 by Proposal 8252.
