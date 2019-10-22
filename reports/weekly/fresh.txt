@@ -31,6 +31,7 @@ Entities not listed have a Coin balance of 0.
    -----    -------------
      249    Aris
       50    Baron von Vaderham
+       0    CuddleBeam
     1194    D. Margaux
      759    Falsifian
     1305    G.
@@ -47,7 +48,6 @@ Entities not listed have a Coin balance of 0.
    -----    ------
        0    ATMunn
       10    Bernie
-       0    CuddleBeam
        0    Jacob Arduino
       10    o
       10    Rance
