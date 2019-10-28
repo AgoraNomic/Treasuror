@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-10-27
+Date of this report: 2019-10-28
 Date of last report: 2019-10-22
 
 Archive of reports on the web:
@@ -33,7 +33,7 @@ Entities not listed have a Coin balance of 0.
       50    Baron von Vaderham
       10    CuddleBeam
     1194    D. Margaux
-     759    Falsifian
+     779    Falsifian
     1325    G.
       20    Gaelan
      599    Jason Cobb
@@ -65,6 +65,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian        +  5c.  2019-10-27 00:59  Reward (Registrar monthly)
+Falsifian        +  5c.  2019-10-27 00:59  Reward (judging CFJ 3775)
+Falsifian        +  5c.  2019-10-27 00:59  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-10-27 00:59  Reward (Registrar weekly)
 G.               +  5c.  2019-10-26 14:48  Reward (Arbitor weekly)
 G.               +  5c.  2019-10-26 14:48  Reward (Herald weekly)
 G.               +  5c.  2019-10-26 14:48  Reward (Arbitor weekly)
