@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-10-28
+Date of this report: 2019-10-29
 Date of last report: 2019-10-22
 
 Archive of reports on the web:
@@ -156,9 +156,6 @@ twg              + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
 Walker           + 10c.  2019-10-01 00:00  Payday (initial 10 coins)
 G.               +  5c.  2019-09-29 18:12  Reward (Arbitor weekly)
 G.               +  5c.  2019-09-29 18:12  Reward (Herald weekly)
-Aris             +  5c.  2019-09-29 05:29  Reward (Promotor weekly)
-Falsifian        + 21c.  2019-09-23 22:22  Reward (Proposal 8242)
-Jason Cobb       +  5c.  2019-09-23 13:09  Reward (judging CFJ 3774)
 
 [0] Baron von Vaderham, abbreviated to save space.
 [1] Contract proposed by G. on 2019-06-06, titled 'Reformed Church of
