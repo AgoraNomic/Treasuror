@@ -40,7 +40,7 @@ Entities not listed have a Coin balance of 0.
      405    Murphy
      181    omd
       10    pikhq
-      10    nch
+      10    Nch
      570    Trigon
      947    twg
 
@@ -87,7 +87,7 @@ Agora            + 19c.  2019-10-20 11:58  Payment from D. Margaux
 D. Margaux       - 19c.  2019-10-20 11:58  Payment to Agora
 Falsifian        +  5c.  2019-10-20 07:23  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-10-20 07:23  Reward (Registrar weekly)
-nch              + 10c.  2019-10-18 20:11  Welcome Package
+Nch              + 10c.  2019-10-18 20:11  Welcome Package
 G.               + 30c.  2019-10-14 04:40  Reward (Proposal 8251)
 Jason Cobb       +  6c.  2019-10-14 03:20  Reward (Proposal 8252)
 Jason Cobb       +  5c.  2019-10-14 03:20  Reward (assessing a proposal)
