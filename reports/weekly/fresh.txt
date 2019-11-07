@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this report: 2019-11-07
-Date of last report: 2019-10-29
+Date of last report: 2019-10-07
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -65,6 +65,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-11-07 00:48  -- last weekly report --
 twg              +  5c.  2019-11-05 11:09  Reward (Referee weekly)
 Aris             +  5c.  2019-11-04 06:47  Reward (Promotor weekly)
 Aris             +  5c.  2019-11-04 06:45  Reward (Promotor weekly)
@@ -114,7 +115,6 @@ Baron v V [0]    + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
 Aris             + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
 ATMunn           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
 Nch              +  5c.  2019-10-31 23:16  Reward (Tailor monthly)
--- last weekly report -- 2019-10-29 07:03  -- last weekly report --
 Falsifian        +  5c.  2019-10-27 00:59  Reward (Registrar monthly)
 Falsifian        +  5c.  2019-10-27 00:59  Reward (judging CFJ 3775)
 Falsifian        +  5c.  2019-10-27 00:59  Reward (Treasuror weekly)
