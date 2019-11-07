@@ -31,7 +31,7 @@ Entities not listed have a Coin balance of 0.
    -----    -------------
      274    Aris
       60    Baron von Vaderham
-      20    CuddleBeam
+      20    Cuddle Beam
     1204    D. Margaux
      809    Falsifian
     1395    G.
@@ -130,8 +130,8 @@ Murphy           + 54c.  2019-10-20 17:59  Transfer from Walker
 Walker           - 54c.  2019-10-20 17:59  Transfer to Murphy
 Agora            + 14c.  2019-10-20 17:59  Payment from Murphy
 Murphy           - 14c.  2019-10-20 17:59  Payment to Agora
-D. Margaux       +114c.  2019-10-20 11:58  Transfer from CuddleBeam
-CuddleBeam       -114c.  2019-10-20 11:58  Transfer to D. Margaux
+D. Margaux       +114c.  2019-10-20 11:58  Transfer from Cuddle Beam
+Cuddle Beam      -114c.  2019-10-20 11:58  Transfer to D. Margaux
 Agora            + 19c.  2019-10-20 11:58  Payment from D. Margaux
 D. Margaux       - 19c.  2019-10-20 11:58  Payment to Agora
 Falsifian        +  5c.  2019-10-20 07:23  Reward (Treasuror weekly)
