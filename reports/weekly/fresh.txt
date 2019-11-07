@@ -5,8 +5,6 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Note: This report is missing the 2019-11-01 payday.
-
 Date of this report: 2019-11-07
 Date of last report: 2019-10-29
 
@@ -31,29 +29,29 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Active player
    -----    -------------
-     259    Aris
-      50    Baron von Vaderham
-      10    CuddleBeam
-    1194    D. Margaux
-     789    Falsifian
-    1365    G.
-      20    Gaelan
-     694    Jason Cobb
-     405    Murphy
-     181    omd
-      10    pikhq
-      15    Nch
-     570    Trigon
-     952    twg
+     274    Aris
+      60    Baron von Vaderham
+      20    CuddleBeam
+    1204    D. Margaux
+     809    Falsifian
+    1395    G.
+      30    Gaelan
+     719    Jason Cobb
+     420    Murphy
+     196    omd
+      20    pikhq
+      25    Nch
+     585    Trigon
+     967    twg
 
    Coins    Zombie
    -----    ------
-       0    ATMunn
-      10    Bernie
-       0    Jacob Arduino
-      10    o
-      10    Rance
-       0    Walker
+      10    ATMunn
+      20    Bernie
+      10    Jacob Arduino
+      20    o
+      20    Rance
+      10    Walker
 
    Coins    Non-player entity
    -----    -----------------
@@ -81,6 +79,40 @@ Jason Cobb       + 24c.  2019-11-03 17:05  Reward (Proposal 8258)
 Jason Cobb       + 30c.  2019-11-03 17:05  Reward (Proposal 8255)
 Jason Cobb       + 36c.  2019-11-03 17:05  Reward (Proposal 8254)
 Jason Cobb       +  5c.  2019-11-03 17:05  Reward (assessing a proposal)
+Falsifian        +  5c.  2019-11-01 00:00  Payday (Treasuror)
+G.               +  5c.  2019-11-01 00:00  Payday (Tailor)
+Jason Cobb       +  5c.  2019-11-01 00:00  Payday (Speaker)
+Trigon           +  5c.  2019-11-01 00:00  Payday (Rulekeepor)
+Falsifian        +  5c.  2019-11-01 00:00  Payday (Registrar)
+twg              +  5c.  2019-11-01 00:00  Payday (Referee)
+Aris             +  5c.  2019-11-01 00:00  Payday (Promotor)
+G.               +  5c.  2019-11-01 00:00  Payday (Prime Minister)
+G.               +  5c.  2019-11-01 00:00  Payday (Herald)
+omd              +  5c.  2019-11-01 00:00  Payday (Distributor)
+Jason Cobb       +  5c.  2019-11-01 00:00  Payday (Comptrollor)
+Jason Cobb       +  5c.  2019-11-01 00:00  Payday (Assessor)
+G.               +  5c.  2019-11-01 00:00  Payday (Arbitor)
+Murphy           +  5c.  2019-11-01 00:00  Payday (ADoP)
+Walker           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+twg              + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Trigon           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Rance            + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+pikhq            + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+omd              + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+o                + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Nch              + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Murphy           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Jason Cobb       + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Jacob Arduino    + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Gaelan           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+G.               + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Falsifian        + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+D. Margaux       + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Cuddle Beam      + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Bernie           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Baron v V [0]    + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Aris             + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+ATMunn           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
 Nch              +  5c.  2019-10-31 23:16  Reward (Tailor monthly)
 -- last weekly report -- 2019-10-29 07:03  -- last weekly report --
 Falsifian        +  5c.  2019-10-27 00:59  Reward (Registrar monthly)
