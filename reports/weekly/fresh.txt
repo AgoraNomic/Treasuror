@@ -9,7 +9,7 @@ Disclaimer: This report assumes that Jason Cobb's attempt on 2019-11-07
 to transfer 500 of D. Margaux's coins to emself failed. This is CFJ
 3781.
 
-Date of this report: 2019-11-10
+Date of this report: 2019-11-14
 Date of last report: 2019-10-07
 
 Archive of reports on the web:
@@ -40,7 +40,7 @@ Entities not listed have a Coin balance of 0.
      824    Falsifian
     1395    G.
       30    Gaelan
-     739    Jason Cobb
+     792    Jason Cobb
      420    Murphy
      196    omd
       20    pikhq
@@ -69,6 +69,9 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       + 24c.  2019-11-11 20:06  Reward (proposal 8268)
+Jason Cobb       + 24c.  2019-11-11 20:06  Reward (proposal 8267)
+Jason Cobb       +  5c.  2019-11-11 20:06  Reward (Assessing a proposal)
 Jason Cobb       + 20c.  2019-11-07 02:15  Reward (degree of M.N.)
 Falsifian        + 10c.  2019-11-07 00:53  Transfer from ATMunn
 ATMunn           - 10c.  2019-11-07 00:53  Transfer to Falsifian
