@@ -10,7 +10,7 @@ to transfer 500 of D. Margaux's coins to emself failed. This is CFJ
 3781.
 
 Date of this report: 2019-11-16
-Date of last report: 2019-11-07
+Date of last report: 2019-11-16
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -69,6 +69,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-11-16 02:54  -- last weekly report --
 Jason Cobb       + 24c.  2019-11-11 20:06  Reward (proposal 8268)
 Jason Cobb       + 24c.  2019-11-11 20:06  Reward (proposal 8267)
 Jason Cobb       +  5c.  2019-11-11 20:06  Reward (Assessing a proposal)
@@ -76,7 +77,6 @@ Jason Cobb       + 20c.  2019-11-07 02:15  Reward (degree of M.N.)
 Falsifian        + 10c.  2019-11-07 00:53  Transfer from ATMunn
 ATMunn           - 10c.  2019-11-07 00:53  Transfer to Falsifian
 Falsifian        +  5c.  2019-11-07 00:53  Reward (Registrar weekly)
--- last weekly report -- 2019-11-07 00:48  -- last weekly report --
 twg              +  5c.  2019-11-05 11:09  Reward (Referee weekly)
 Aris             +  5c.  2019-11-04 06:47  Reward (Promotor weekly)
 Aris             +  5c.  2019-11-04 06:45  Reward (Promotor weekly)
