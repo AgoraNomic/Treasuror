@@ -9,7 +9,7 @@ Disclaimer: This report assumes that Jason Cobb's attempt on 2019-11-07
 to transfer 500 of D. Margaux's coins to emself failed. This is CFJ
 3781.
 
-Date of this report: 2019-11-14
+Date of this report: 2019-11-16
 Date of last report: 2019-11-07
 
 Archive of reports on the web:
@@ -148,17 +148,5 @@ D. Margaux       - 19c.  2019-10-20 11:58  Payment to Agora
 Falsifian        +  5c.  2019-10-20 07:23  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-10-20 07:23  Reward (Registrar weekly)
 Nch              + 10c.  2019-10-18 20:11  Welcome Package
-G.               + 30c.  2019-10-14 04:40  Reward (Proposal 8251)
-Jason Cobb       +  6c.  2019-10-14 03:20  Reward (Proposal 8252)
-Jason Cobb       +  5c.  2019-10-14 03:20  Reward (assessing a proposal)
-Gaelan           + 10c.  2019-10-08 15:16  Welcome Package
-twg              + 10c.  2019-10-08 12:08  Transfer from Jacob Arduino
-Jacob Arduino    - 10c.  2019-10-08 12:08  Transfer to twg
-Falsifian        + 10c.  2019-10-08 00:27  Transfer from ATMunn
-ATMunn           - 10c.  2019-10-08 00:27  Transfer to Falsifian
-Falsifian        +  5c.  2019-10-08 00:27  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-10-08 00:27  Reward (Registrar weekly)
-Falsifian        +  5c.  2019-10-07 12:08  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-10-07 12:08  Reward (Registrar weekly)
 
 [0] Baron von Vaderham, abbreviated to save space.
