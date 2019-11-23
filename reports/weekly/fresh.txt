@@ -9,7 +9,7 @@ Disclaimer: This report assumes that Jason Cobb's attempt on 2019-11-07
 to transfer 500 of D. Margaux's coins to emself failed. This is CFJ
 3781.
 
-Date of this report: 2019-11-17
+Date of this report: 2019-11-23
 Date of last report: 2019-11-16
 
 Archive of reports on the web:
@@ -46,7 +46,7 @@ Entities not listed have a Coin balance of 0.
       20    pikhq
       25    Nch
      585    Trigon
-     967    twg
+     972    twg
 
    Coins    Zombie
    -----    ------
@@ -69,6 +69,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+twg              +  5c.  2019-11-20 20:24  Reward (Referee weekly)
 Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar monthly)
 Falsifian        +  5c.  2019-11-16 03:03  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar weekly)
