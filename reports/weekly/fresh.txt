@@ -5,11 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Disclaimer: This report assumes that Jason Cobb's attempt on 2019-11-07
-to transfer 500 of D. Margaux's coins to emself failed. This is CFJ
-3781.
-
-Date of this report: 2019-11-23
+Date of this report: 2019-11-26
 Date of last report: 2019-11-23
 
 Archive of reports on the web:
