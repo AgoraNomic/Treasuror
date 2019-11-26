@@ -6,7 +6,8 @@ Treasuror's Report Archive:
 
 List of weekly reports:
 
-* [2019-11-16.txt](weekly/2019-11-23.txt)
+* [2019-11-26.txt](weekly/2019-11-26.txt)
+* [2019-11-23.txt](weekly/2019-11-23.txt)
 * [2019-11-16.txt](weekly/2019-11-16.txt)
 * [2019-11-07.txt](weekly/2019-11-07.txt)
 * [2019-10-29.txt](weekly/2019-10-29.txt)
