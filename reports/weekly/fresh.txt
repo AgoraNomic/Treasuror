@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this report: 2019-11-26
-Date of last report: 2019-11-23
+Date of last report: 2019-11-26
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -65,7 +65,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
--- last weekly report -- 2019-11-23 17:53  -- last weekly report --
+-- last weekly report -- 2019-11-26 20:26  -- last weekly report --
 twg              +  5c.  2019-11-20 20:24  Reward (Referee weekly)
 Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar monthly)
 Falsifian        +  5c.  2019-11-16 03:03  Reward (Treasuror weekly)
