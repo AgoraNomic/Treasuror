@@ -6,7 +6,7 @@ be fresher than the latest official version.
 ------------------------------------------------------------------------
 
 Date of this report: 2019-12-03
-Date of last report: 2019-11-26
+Date of last report: 2019-12-03
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -64,6 +64,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-12-03 17:12  -- last weekly report --
 Jason Cobb       + 12c.  2019-12-01 20:23  Reward (Proposal 8276)
 Jason Cobb       + 18c.  2019-12-01 20:23  Reward (Proposal 8275)
 Jason Cobb       +  5c.  2019-12-01 16:31  Reward (Assessing a proposal)
@@ -103,7 +104,6 @@ Falsifian        +  5c.  2019-11-28 20:12  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-11-28 20:12  Reward (Registrar weekly)
 Falsifian        +  5c.  2019-11-28 20:12  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-11-28 20:12  Reward (Registrar weekly)
--- last weekly report -- 2019-11-26 20:26  -- last weekly report --
 twg              +  5c.  2019-11-20 20:24  Reward (Referee weekly)
 Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar monthly)
 Falsifian        +  5c.  2019-11-16 03:03  Reward (Treasuror weekly)
