@@ -1,0 +1,187 @@
+------------------------------------------------------------------------
+                              Forbes 500
+------------------------------------------------------------------------
+
+Date of this report: 2019-12-03
+Date of last report: 2019-11-26
+
+Archive of reports on the web:
+https://agoranomic.org/Treasuror/reports/weekly/
+
+
+ASSET INDEX
+========================================================================
+This section does not self-ratify.
+
+   Asset class    Recordkeepor    Ownership
+   -----------    ------------    -------------------------
+   Coins          Treasuror       Agora, players, contracts
+   Blots          Referee         Persons
+
+
+COIN BALANCES
+========================================================================
+This section self-ratifies.
+Entities not listed have a Coin balance of 0.
+
+   Coins    Active player
+   -----    -------------
+     289    Aris
+      70    Baron von Vaderham
+      30    Cuddle Beam
+    1214    D. Margaux
+     879    Falsifian
+    1420    G.
+      40    Gaelan
+     852    Jason Cobb
+     435    Murphy
+     211    omd
+      30    pikhq
+      40    Nch
+     595    Trigon
+     987    twg
+
+   Coins    Zombie
+   -----    ------
+      10    ATMunn
+      30    Bernie
+      30    o
+      30    Rance
+      20    Walker
+
+   Coins    Non-player entity
+   -----    -----------------
+    1517    Agora
+      87    Lost and Found Department
+
+
+RECENT HISTORY
+========================================================================
+This section is purely informational and does not self-ratify.
+
+Entity             Change  Date (UTC)        Reason
+------------------------------------------------------------------------
+Jason Cobb       + 12c.  2019-12-01 20:23  Reward (Proposal 8276)
+Jason Cobb       + 18c.  2019-12-01 20:23  Reward (Proposal 8275)
+Jason Cobb       +  5c.  2019-12-01 16:31  Reward (Assessing a proposal)
+Falsifian        +  5c.  2019-12-01 00:00  Payday (Treasuror)
+Nch              +  5c.  2019-12-01 00:00  Payday (Tailor)
+Jason Cobb       +  5c.  2019-12-01 00:00  Payday (Speaker)
+Falsifian        +  5c.  2019-12-01 00:00  Payday (Registrar)
+twg              +  5c.  2019-12-01 00:00  Payday (Referee)
+Aris             +  5c.  2019-12-01 00:00  Payday (Promotor)
+G.               +  5c.  2019-12-01 00:00  Payday (Prime Minister)
+G.               +  5c.  2019-12-01 00:00  Payday (Herald)
+omd              +  5c.  2019-12-01 00:00  Payday (Distributor)
+Jason Cobb       +  5c.  2019-12-01 00:00  Payday (Comptrollor)
+Jason Cobb       +  5c.  2019-12-01 00:00  Payday (Assessor)
+G.               +  5c.  2019-12-01 00:00  Payday (Arbitor)
+Murphy           +  5c.  2019-12-01 00:00  Payday (ADoP)
+Walker           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+twg              + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Trigon           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Rance            + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+pikhq            + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+omd              + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+o                + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Nch              + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Murphy           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Jason Cobb       + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Gaelan           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+G.               + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Falsifian        + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+D. Margaux       + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Cuddle Beam      + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Bernie           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Baron v V [0]    + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Aris             + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+ATMunn           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Falsifian        +  5c.  2019-11-28 20:12  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-11-28 20:12  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-11-28 20:12  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-11-28 20:12  Reward (Registrar weekly)
+-- last weekly report -- 2019-11-26 20:26  -- last weekly report --
+twg              +  5c.  2019-11-20 20:24  Reward (Referee weekly)
+Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar monthly)
+Falsifian        +  5c.  2019-11-16 03:03  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar weekly)
+Jason Cobb       + 24c.  2019-11-11 20:06  Reward (proposal 8268)
+Jason Cobb       + 24c.  2019-11-11 20:06  Reward (proposal 8267)
+Jason Cobb       +  5c.  2019-11-11 20:06  Reward (Assessing a proposal)
+Jacob Arduino    - 10c.  2019-11-11 04:32  Deregistration
+Jason Cobb       + 20c.  2019-11-07 02:15  Reward (degree of M.N.)
+Falsifian        + 10c.  2019-11-07 00:53  Transfer from ATMunn
+ATMunn           - 10c.  2019-11-07 00:53  Transfer to Falsifian
+Falsifian        +  5c.  2019-11-07 00:53  Reward (Registrar weekly)
+twg              +  5c.  2019-11-05 11:09  Reward (Referee weekly)
+Aris             +  5c.  2019-11-04 06:47  Reward (Promotor weekly)
+Aris             +  5c.  2019-11-04 06:45  Reward (Promotor weekly)
+Falsifian        +  5c.  2019-11-03 22:44  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-11-03 22:44  Reward (Registrar weekly)
+G.               +  4c.  2019-11-03 18:37  Reward (Proposal 8262)
+G.               + 21c.  2019-11-03 18:37  Reward (Proposal 8261)
+G.               +  5c.  2019-11-03 18:37  Reward (Herald monthly)
+G.               +  5c.  2019-11-03 18:37  Reward (Herald weekly)
+G.               +  5c.  2019-11-03 18:37  Reward (Arbitor weekly)
+Jason Cobb       + 24c.  2019-11-03 17:05  Reward (Proposal 8258)
+Jason Cobb       + 30c.  2019-11-03 17:05  Reward (Proposal 8255)
+Jason Cobb       + 36c.  2019-11-03 17:05  Reward (Proposal 8254)
+Jason Cobb       +  5c.  2019-11-03 17:05  Reward (assessing a proposal)
+Falsifian        +  5c.  2019-11-01 00:00  Payday (Treasuror)
+G.               +  5c.  2019-11-01 00:00  Payday (Tailor)
+Jason Cobb       +  5c.  2019-11-01 00:00  Payday (Speaker)
+Trigon           +  5c.  2019-11-01 00:00  Payday (Rulekeepor)
+Falsifian        +  5c.  2019-11-01 00:00  Payday (Registrar)
+twg              +  5c.  2019-11-01 00:00  Payday (Referee)
+Aris             +  5c.  2019-11-01 00:00  Payday (Promotor)
+G.               +  5c.  2019-11-01 00:00  Payday (Prime Minister)
+G.               +  5c.  2019-11-01 00:00  Payday (Herald)
+omd              +  5c.  2019-11-01 00:00  Payday (Distributor)
+Jason Cobb       +  5c.  2019-11-01 00:00  Payday (Comptrollor)
+Jason Cobb       +  5c.  2019-11-01 00:00  Payday (Assessor)
+G.               +  5c.  2019-11-01 00:00  Payday (Arbitor)
+Murphy           +  5c.  2019-11-01 00:00  Payday (ADoP)
+Walker           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+twg              + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Trigon           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Rance            + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+pikhq            + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+omd              + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+o                + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Nch              + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Murphy           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Jason Cobb       + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Jacob Arduino    + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Gaelan           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+G.               + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Falsifian        + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+D. Margaux       + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Cuddle Beam      + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Bernie           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Baron v V [0]    + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Aris             + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+ATMunn           + 10c.  2019-11-01 00:00  Payday (initial 10 coins)
+Nch              +  5c.  2019-10-31 23:16  Reward (Tailor monthly)
+Falsifian        +  5c.  2019-10-27 00:59  Reward (Registrar monthly)
+Falsifian        +  5c.  2019-10-27 00:59  Reward (judging CFJ 3775)
+Falsifian        +  5c.  2019-10-27 00:59  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-10-27 00:59  Reward (Registrar weekly)
+G.               +  5c.  2019-10-26 14:48  Reward (Arbitor weekly)
+G.               +  5c.  2019-10-26 14:48  Reward (Herald weekly)
+G.               +  5c.  2019-10-26 14:48  Reward (Arbitor weekly)
+G.               +  5c.  2019-10-26 14:48  Reward (Herald weekly)
+Cuddle Beam      + 10c.  2019-10-26 14:44  Welcome Package
+twg              +  5c.  2019-10-22 13:23  Reward (Referee weekly)
+pikhq            + 10c.  2019-10-20 21:22  Welcome Package
+Murphy           + 54c.  2019-10-20 17:59  Transfer from Walker
+Walker           - 54c.  2019-10-20 17:59  Transfer to Murphy
+Agora            + 14c.  2019-10-20 17:59  Payment from Murphy
+Murphy           - 14c.  2019-10-20 17:59  Payment to Agora
+D. Margaux       +114c.  2019-10-20 11:58  Transfer from Cuddle Beam
+Cuddle Beam      -114c.  2019-10-20 11:58  Transfer to D. Margaux
+Agora            + 19c.  2019-10-20 11:58  Payment from D. Margaux
+D. Margaux       - 19c.  2019-10-20 11:58  Payment to Agora
+Falsifian        +  5c.  2019-10-20 07:23  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-10-20 07:23  Reward (Registrar weekly)
+
+[0] Baron von Vaderham, abbreviated to save space.
