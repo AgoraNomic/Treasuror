@@ -1,12 +1,12 @@
-This is an unofficial version of the Treasuror's weekly report that may
-be fresher than the latest official version.
-
 ------------------------------------------------------------------------
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-11-29
-Date of last report: 2019-11-26
+This is a revision of the 2019-11-26 Treasuror weekly report. It describes the
+state of the game on 2019-11-26 at 20:26 UTC.
+
+Date of this report: 2019-11-26
+Date of last report: 2019-11-23
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -33,7 +33,7 @@ Entities not listed have a Coin balance of 0.
       60    Baron von Vaderham
       20    Cuddle Beam
     1204    D. Margaux
-     859    Falsifian
+     839    Falsifian
     1395    G.
       30    Gaelan
      792    Jason Cobb
@@ -64,11 +64,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
-Falsifian        +  5c.  2019-11-28 20:12  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-11-28 20:12  Reward (Registrar weekly)
-Falsifian        +  5c.  2019-11-28 20:12  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-11-28 20:12  Reward (Registrar weekly)
--- last weekly report -- 2019-11-26 20:26  -- last weekly report --
+-- last weekly report -- 2019-11-23 17:53  -- last weekly report --
 twg              +  5c.  2019-11-20 20:24  Reward (Referee weekly)
 Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar monthly)
 Falsifian        +  5c.  2019-11-16 03:03  Reward (Treasuror weekly)
