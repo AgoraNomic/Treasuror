@@ -5,7 +5,7 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Date of this report: 2019-12-03
+Date of this report: 2019-12-04
 Date of last report: 2019-12-03
 
 Archive of reports on the web:
@@ -33,7 +33,7 @@ Entities not listed have a Coin balance of 0.
       70    Baron von Vaderham
       30    Cuddle Beam
     1214    D. Margaux
-     879    Falsifian
+     894    Falsifian
     1420    G.
       40    Gaelan
      852    Jason Cobb
@@ -42,7 +42,7 @@ Entities not listed have a Coin balance of 0.
       30    pikhq
       40    Nch
      595    Trigon
-     987    twg
+     992    twg
 
    Coins    Zombie
    -----    ------
@@ -64,6 +64,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+twg              +  5c.  2019-12-04 14:17  Reward (Referee weekly)
+Falsifian        +  5c.  2019-12-03 17:36  Reward (Registrar monthly)
+Falsifian        +  5c.  2019-12-03 17:36  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-12-03 17:36  Reward (Registrar weekly)
 -- last weekly report -- 2019-12-03 17:12  -- last weekly report --
 Jason Cobb       + 12c.  2019-12-01 20:23  Reward (Proposal 8276)
 Jason Cobb       + 18c.  2019-12-01 20:23  Reward (Proposal 8275)
