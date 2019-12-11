@@ -1,0 +1,131 @@
+------------------------------------------------------------------------
+                              Forbes 500
+------------------------------------------------------------------------
+
+Disclaimers:
+* This report assumes CFJ 3997 was not actually a CFJ, so Jason Cobb
+  did not earn 5 Coins for judging it on 2019-12-06 at 04:23 UTC. This
+  is CFJ 3780.
+* This report assumes Jason Cobb successfully earned 18000 Coins using
+  the Glitter rule on 2019-12-07. This is CFJ 3783.
+
+Date of this report: 2019-12-11
+Date of last report: 2019-12-03
+
+Archive of reports on the web:
+https://agoranomic.org/Treasuror/reports/weekly/
+
+
+ASSET INDEX
+========================================================================
+This section does not self-ratify.
+
+   Asset class    Recordkeepor    Ownership
+   -----------    ------------    -------------------------
+   Coins          Treasuror       Agora, players, contracts
+   Blots          Referee         Persons
+
+
+COIN BALANCES
+========================================================================
+This section self-ratifies.
+Entities not listed have a Coin balance of 0.
+
+   Coins    Active player
+   -----    -------------
+     289    Aris
+      20    ATMunn
+      70    Baron von Vaderham
+      30    Cuddle Beam
+    1214    D. Margaux
+     894    Falsifian
+    1420    G.
+      40    Gaelan
+   18857    Jason Cobb
+     435    Murphy
+     211    omd
+      30    pikhq
+      40    Nch
+     595    Trigon
+     992    twg
+
+   Coins    Zombie
+   -----    ------
+      30    Bernie
+      30    o
+      30    Rance
+      20    Walker
+
+   Coins    Non-player entity
+   -----    -----------------
+    1517    Agora
+      87    Lost and Found Department
+
+
+RECENT HISTORY
+========================================================================
+This section is purely informational and does not self-ratify.
+
+Entity             Change  Date (UTC)        Reason
+------------------------------------------------------------------------
+ATMunn           + 10c.  2019-12-11 19:21  Welcome Package
+Jason Cobb     +18000c.  2019-12-07 02:44  Emerald ribbon glitter x1000
+Jason Cobb       +  5c.  2019-12-06 03:05  Reward (Rulekeepor weekly)
+twg              +  5c.  2019-12-04 14:17  Reward (Referee weekly)
+Falsifian        +  5c.  2019-12-03 17:36  Reward (Registrar monthly)
+Falsifian        +  5c.  2019-12-03 17:36  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-12-03 17:36  Reward (Registrar weekly)
+-- last weekly report -- 2019-12-03 17:12  -- last weekly report --
+Jason Cobb       + 12c.  2019-12-01 20:23  Reward (Proposal 8276)
+Jason Cobb       + 18c.  2019-12-01 20:23  Reward (Proposal 8275)
+Jason Cobb       +  5c.  2019-12-01 16:31  Reward (Assessing a proposal)
+Falsifian        +  5c.  2019-12-01 00:00  Payday (Treasuror)
+Nch              +  5c.  2019-12-01 00:00  Payday (Tailor)
+Jason Cobb       +  5c.  2019-12-01 00:00  Payday (Speaker)
+Falsifian        +  5c.  2019-12-01 00:00  Payday (Registrar)
+twg              +  5c.  2019-12-01 00:00  Payday (Referee)
+Aris             +  5c.  2019-12-01 00:00  Payday (Promotor)
+G.               +  5c.  2019-12-01 00:00  Payday (Prime Minister)
+G.               +  5c.  2019-12-01 00:00  Payday (Herald)
+omd              +  5c.  2019-12-01 00:00  Payday (Distributor)
+Jason Cobb       +  5c.  2019-12-01 00:00  Payday (Comptrollor)
+Jason Cobb       +  5c.  2019-12-01 00:00  Payday (Assessor)
+G.               +  5c.  2019-12-01 00:00  Payday (Arbitor)
+Murphy           +  5c.  2019-12-01 00:00  Payday (ADoP)
+Walker           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+twg              + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Trigon           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Rance            + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+pikhq            + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+omd              + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+o                + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Nch              + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Murphy           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Jason Cobb       + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Gaelan           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+G.               + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Falsifian        + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+D. Margaux       + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Cuddle Beam      + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Bernie           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Baron v V [0]    + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Aris             + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+ATMunn           + 10c.  2019-12-01 00:00  Payday (initial 10 coins)
+Falsifian        +  5c.  2019-11-28 20:12  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-11-28 20:12  Reward (Registrar weekly)
+Falsifian        +  5c.  2019-11-28 20:12  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-11-28 20:12  Reward (Registrar weekly)
+twg              +  5c.  2019-11-20 20:24  Reward (Referee weekly)
+Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar monthly)
+Falsifian        +  5c.  2019-11-16 03:03  Reward (Treasuror weekly)
+Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar weekly)
+Jason Cobb       + 24c.  2019-11-11 20:06  Reward (proposal 8268)
+Jason Cobb       + 24c.  2019-11-11 20:06  Reward (proposal 8267)
+Jason Cobb       +  5c.  2019-11-11 20:06  Reward (Assessing a proposal)
+Jacob Arduino    - 10c.  2019-11-11 04:32  Deregistration
+Jason Cobb       + 20c.  2019-11-07 02:15  Reward (degree of M.N.)
+Falsifian        + 10c.  2019-11-07 00:53  Transfer from ATMunn
+ATMunn           - 10c.  2019-11-07 00:53  Transfer to Falsifian
+Falsifian        +  5c.  2019-11-07 00:53  Reward (Registrar weekly)
+
+[0] Baron von Vaderham, abbreviated to save space.
