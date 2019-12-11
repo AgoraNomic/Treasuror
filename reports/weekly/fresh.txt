@@ -37,6 +37,7 @@ Entities not listed have a Coin balance of 0.
    Coins    Active player
    -----    -------------
      289    Aris
+      20    ATMunn
       70    Baron von Vaderham
       30    Cuddle Beam
     1214    D. Margaux
@@ -53,7 +54,6 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Zombie
    -----    ------
-      10    ATMunn
       30    Bernie
       30    o
       30    Rance
@@ -71,6 +71,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+ATMunn           + 10c.  2019-12-11 19:21  Welcome Package
 Jason Cobb     +18000c.  2019-12-07 02:44  Emerald ribbon glitter x1000
 Jason Cobb       +  5c.  2019-12-06 03:05  Reward (Rulekeepor weekly)
 twg              +  5c.  2019-12-04 14:17  Reward (Referee weekly)
