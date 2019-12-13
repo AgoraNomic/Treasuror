@@ -5,12 +5,8 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Disclaimers:
-* This report assumes CFJ 3997 was not actually a CFJ, so Jason Cobb
-  did not earn 5 Coins for judging it on 2019-12-06 at 04:23 UTC. This
-  is CFJ 3780.
-* This report assumes Jason Cobb successfully earned 18000 Coins using
-  the Glitter rule on 2019-12-07. This is CFJ 3783.
+Disclaimer: this report assumes Jason Cobb successfully earned 18000
+Coins using the Glitter rule on 2019-12-07. This is CFJ 3783.
 
 Date of this report: 2019-12-11
 Date of last report: 2019-12-11
@@ -44,7 +40,7 @@ Entities not listed have a Coin balance of 0.
      894    Falsifian
     1450    G.
       40    Gaelan
-   18887    Jason Cobb
+   18892    Jason Cobb
      435    Murphy
      211    omd
       30    pikhq
@@ -78,6 +74,7 @@ Jason Cobb       + 30c.  2019-12-11 20:48  Transfer from Bernie
 Bernie           - 30c.  2019-12-11 20:48  Transfer to Jason Cobb
 ATMunn           + 10c.  2019-12-11 19:21  Welcome Package
 Jason Cobb     +18000c.  2019-12-07 02:44  Emerald ribbon glitter x1000
+Jason Cobb       +  5c.  2019-12-06 04:23  Reward (judging CFJ 3779)
 Jason Cobb       +  5c.  2019-12-06 03:05  Reward (Rulekeepor weekly)
 twg              +  5c.  2019-12-04 14:17  Reward (Referee weekly)
 Falsifian        +  5c.  2019-12-03 17:36  Reward (Registrar monthly)
