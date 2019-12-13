@@ -5,8 +5,12 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Disclaimer: this report assumes Jason Cobb successfully earned 18000
-Coins using the Glitter rule on 2019-12-07. This is CFJ 3783.
+Disclaimers:
+* This report assumes CFJ 3997 was actually a CFJ, so Jason Cobb earned
+  5 Coins for judging it on 2019-12-06 at 04:23 UTC. I called a CFJ
+  about this on 2019-12-13.
+* This report assumes Jason Cobb successfully earned 18000 Coins using
+  the Glitter rule on 2019-12-07. This is CFJ 3783.
 
 Date of this report: 2019-12-11
 Date of last report: 2019-12-11
