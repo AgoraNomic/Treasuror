@@ -1,9 +1,9 @@
-This is an unofficial version of the Treasuror's weekly report that may
-be fresher than the latest official version.
-
 ------------------------------------------------------------------------
                               Forbes 500
 ------------------------------------------------------------------------
+
+This is a revision of the 2019-12-11 Treasuror weekly report. It describes the
+state of the game on 2019-12-11 at 20:55 UTC.
 
 Disclaimers:
 * This report assumes CFJ 3997 was not actually a CFJ, so Jason Cobb
@@ -13,7 +13,7 @@ Disclaimers:
   the Glitter rule on 2019-12-07. This is CFJ 3783.
 
 Date of this report: 2019-12-11
-Date of last report: 2019-12-11
+Date of last report: 2019-12-03
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -71,7 +71,6 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
--- last weekly report -- 2019-12-11 20:55  -- last weekly report --
 G.               + 30c.  2019-12-11 21:52  Transfer from Rance
 Rance            - 30c.  2019-12-11 21:52  Transfer to G.
 Jason Cobb       + 30c.  2019-12-11 20:48  Transfer from Bernie
@@ -83,6 +82,7 @@ twg              +  5c.  2019-12-04 14:17  Reward (Referee weekly)
 Falsifian        +  5c.  2019-12-03 17:36  Reward (Registrar monthly)
 Falsifian        +  5c.  2019-12-03 17:36  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-12-03 17:36  Reward (Registrar weekly)
+-- last weekly report -- 2019-12-03 17:12  -- last weekly report --
 Jason Cobb       + 12c.  2019-12-01 20:23  Reward (Proposal 8276)
 Jason Cobb       + 18c.  2019-12-01 20:23  Reward (Proposal 8275)
 Jason Cobb       +  5c.  2019-12-01 16:31  Reward (Assessing a proposal)
