@@ -8,7 +8,7 @@ be fresher than the latest official version.
 Disclaimer: this report assumes Jason Cobb successfully earned 18000
 Coins using the Glitter rule on 2019-12-07. This is CFJ 3783.
 
-Date of this report: 2019-12-11
+Date of this report: 2019-12-21
 Date of last report: 2019-12-11
 
 Archive of reports on the web:
@@ -40,7 +40,7 @@ Entities not listed have a Coin balance of 0.
      894    Falsifian
     1450    G.
       40    Gaelan
-   18892    Jason Cobb
+   18897    Jason Cobb
      435    Murphy
      211    omd
       30    pikhq
@@ -67,6 +67,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       +  5c.  2019-12-13 04:35  Reward (Rulekeepor weekly)
 -- last weekly report -- 2019-12-11 20:55  -- last weekly report --
 G.               + 30c.  2019-12-11 21:52  Transfer from Rance
 Rance            - 30c.  2019-12-11 21:52  Transfer to G.
