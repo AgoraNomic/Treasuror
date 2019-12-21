@@ -9,7 +9,7 @@ Disclaimer: this report assumes Jason Cobb successfully earned 18000
 Coins using the Glitter rule on 2019-12-07. This is CFJ 3783.
 
 Date of this report: 2019-12-21
-Date of last report: 2019-12-11
+Date of last report: 2019-12-21
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -67,8 +67,8 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2019-12-21 01:10  -- last weekly report --
 Jason Cobb       +  5c.  2019-12-13 04:35  Reward (Rulekeepor weekly)
--- last weekly report -- 2019-12-11 20:55  -- last weekly report --
 G.               + 30c.  2019-12-11 21:52  Transfer from Rance
 Rance            - 30c.  2019-12-11 21:52  Transfer to G.
 Jason Cobb       + 30c.  2019-12-11 20:48  Transfer from Bernie
