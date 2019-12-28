@@ -127,17 +127,5 @@ Falsifian        +  5c.  2019-11-28 20:12  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-11-28 20:12  Reward (Registrar weekly)
 Falsifian        +  5c.  2019-11-28 20:12  Reward (Treasuror weekly)
 Falsifian        +  5c.  2019-11-28 20:12  Reward (Registrar weekly)
-twg              +  5c.  2019-11-20 20:24  Reward (Referee weekly)
-Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar monthly)
-Falsifian        +  5c.  2019-11-16 03:03  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-11-16 03:03  Reward (Registrar weekly)
-Jason Cobb       + 24c.  2019-11-11 20:06  Reward (proposal 8268)
-Jason Cobb       + 24c.  2019-11-11 20:06  Reward (proposal 8267)
-Jason Cobb       +  5c.  2019-11-11 20:06  Reward (Assessing a proposal)
-Jacob Arduino    - 10c.  2019-11-11 04:32  Deregistration
-Jason Cobb       + 20c.  2019-11-07 02:15  Reward (degree of M.N.)
-Falsifian        + 10c.  2019-11-07 00:53  Transfer from ATMunn
-ATMunn           - 10c.  2019-11-07 00:53  Transfer to Falsifian
-Falsifian        +  5c.  2019-11-07 00:53  Reward (Registrar weekly)
 
 [0] Baron von Vaderham, abbreviated to save space.
