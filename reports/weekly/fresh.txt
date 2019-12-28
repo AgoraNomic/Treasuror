@@ -5,16 +5,17 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Disclaimer: this report assumes Jason Cobb successfully earned 18000
-Coins using the Glitter rule on 2019-12-07. This is CFJ 3783.
+Disclaimers: this report assumes that:
 
-Note: this report assumes that Falsifian's attempt to earn 10 Coins for
-Officer duties on 2019-12-21 was unsuccessful (it may not have been
-delivered to enough players to count as a public message) but that e
-earned the coins instead on 2019-12-27. The relevent events are marked
-with "^" is the recent history section below..
+* Jason Cobb successfully earned 18000 Coins using the Glitter rule on
+  2019-12-07. This is CFJ 3783. The relevant event is marked with "^"
+  in the Recent History section.
 
-Date of this report: 2019-12-27
+* Falsifian did not earn 10 Coins on 2019-12-21, or on the second
+  attempt on 2019-12-27 for publishing two weekly reports on 2019-12-21
+  Officer duties. E called a CFJ about this on 2019-12-28.
+
+Date of this report: 2019-12-28
 Date of last report: 2019-12-21
 
 Archive of reports on the web:
@@ -43,7 +44,7 @@ Entities not listed have a Coin balance of 0.
       70    Baron von Vaderham
       30    Cuddle Beam
     1214    D. Margaux
-     904    Falsifian
+     894    Falsifian
     1450    G.
       40    Gaelan
    18897    Jason Cobb
@@ -73,8 +74,6 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
-^ Falsifian      + 5c.   2019-12-27 18:54  Reward (Treasuror weekly)
-^ Falsifian      + 5c.   2019-12-27 18:54  Reward (Registrar weekly)
 -- last weekly report -- 2019-12-21 01:10  -- last weekly report --
 Jason Cobb       +  5c.  2019-12-13 04:35  Reward (Rulekeepor weekly)
 G.               + 30c.  2019-12-11 21:52  Transfer from Rance
@@ -82,7 +81,7 @@ Rance            - 30c.  2019-12-11 21:52  Transfer to G.
 Jason Cobb       + 30c.  2019-12-11 20:48  Transfer from Bernie
 Bernie           - 30c.  2019-12-11 20:48  Transfer to Jason Cobb
 ATMunn           + 10c.  2019-12-11 19:21  Welcome Package
-Jason Cobb     +18000c.  2019-12-07 02:44  Emerald ribbon glitter x1000
+^ Jason Cobb   +18000c.  2019-12-07 02:44  Emerald ribbon glitter x1000
 Jason Cobb       +  5c.  2019-12-06 04:23  Reward (judging CFJ 3779)
 Jason Cobb       +  5c.  2019-12-06 03:05  Reward (Rulekeepor weekly)
 twg              +  5c.  2019-12-04 14:17  Reward (Referee weekly)
