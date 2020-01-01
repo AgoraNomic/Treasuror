@@ -43,6 +43,7 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Active player
    -----    -------------
+      10    Alexis
      304    Aris
       30    ATMunn
       80    Baron von Vaderham
@@ -79,6 +80,7 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Alexis           + 10c.  2020-01-01 16:37  Welcome Package
 Falsifian        +  5c.  2020-01-01 00:00  Payday (Treasuror)
 Nch              +  5c.  2020-01-01 00:00  Payday (Tailor)
 Falsifian        +  5c.  2020-01-01 00:00  Payday (Speaker)
