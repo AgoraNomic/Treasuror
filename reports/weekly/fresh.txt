@@ -15,7 +15,11 @@ Disclaimers: this report assumes that:
   attempt on 2019-12-27 for publishing two weekly reports on 2019-12-21
   Officer duties. E called a CFJ about this on 2019-12-28.
 
-Date of this report: 2019-12-28
+* Murphy did not earn 5 Coins on 2019-12-28 in the message with subject
+  "BUS: I like money too", since the report e purports to earn money
+  for was likely not a public message.
+
+Date of this report: 2019-12-30
 Date of last report: 2019-12-28
 
 Archive of reports on the web:
@@ -47,10 +51,11 @@ Entities not listed have a Coin balance of 0.
      894    Falsifian
     1450    G.
       40    Gaelan
-   18897    Jason Cobb
-     435    Murphy
+   18907    Jason Cobb
+     440    Murphy
      211    omd
       30    pikhq
+      10    R. Lee
       40    Nch
      595    Trigon
      992    twg
@@ -74,6 +79,10 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       +  5c.  2019-12-30 03:26  Reward (Rulekeepor monthly)
+Jason Cobb       +  5c.  2019-12-30 03:26  Reward (Rulekeepor weekly)
+R. Lee           + 10c.  2019-12-29 10:04  Welcome Package
+Murphy           +  5c.  2019-12-28 20:19  Reward (ADoP weekly)
 -- last weekly report -- 2019-12-28 00:22  -- last weekly report --
 Jason Cobb       +  5c.  2019-12-13 04:35  Reward (Rulekeepor weekly)
 G.               + 30c.  2019-12-11 21:52  Transfer from Rance
