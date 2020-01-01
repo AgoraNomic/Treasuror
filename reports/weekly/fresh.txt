@@ -19,7 +19,7 @@ Disclaimers: this report assumes that:
   "BUS: I like money too", since the report e purports to earn money
   for was likely not a public message.
 
-Date of this report: 2019-12-30
+Date of this report: 2020-01-01
 Date of last report: 2019-12-28
 
 Archive of reports on the web:
@@ -43,29 +43,29 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Active player
    -----    -------------
-     289    Aris
-      20    ATMunn
-      70    Baron von Vaderham
-      30    Cuddle Beam
-    1214    D. Margaux
-     894    Falsifian
-    1450    G.
-      40    Gaelan
-   18907    Jason Cobb
-     440    Murphy
-     211    omd
-      30    pikhq
-      10    R. Lee
-      40    Nch
-     595    Trigon
-     992    twg
+     304    Aris
+      30    ATMunn
+      80    Baron von Vaderham
+      40    Cuddle Beam
+    1224    D. Margaux
+     919    Falsifian
+    1475    G.
+      50    Gaelan
+   18927    Jason Cobb
+     455    Murphy
+     226    omd
+      40    pikhq
+      20    R. Lee
+      55    Nch
+     605    Trigon
+    1007    twg
 
    Coins    Zombie
    -----    ------
-       0    Bernie
-      30    o
-       0    Rance
-      20    Walker
+      10    Bernie
+      40    o
+      10    Rance
+      30    Walker
 
    Coins    Non-player entity
    -----    -----------------
@@ -79,6 +79,39 @@ This section is purely informational and does not self-ratify.
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian        +  5c.  2020-01-01 00:00  Payday (Treasuror)
+Nch              +  5c.  2020-01-01 00:00  Payday (Tailor)
+Falsifian        +  5c.  2020-01-01 00:00  Payday (Speaker)
+Jason Cobb       +  5c.  2020-01-01 00:00  Payday (Rulekeepor)
+Falsifian        +  5c.  2020-01-01 00:00  Payday (Registrar)
+twg              +  5c.  2020-01-01 00:00  Payday (Referee)
+Aris             +  5c.  2020-01-01 00:00  Payday (Promotor)
+G.               +  5c.  2020-01-01 00:00  Payday (Prime Minister)
+G.               +  5c.  2020-01-01 00:00  Payday (Herald)
+omd              +  5c.  2020-01-01 00:00  Payday (Distributor)
+Jason Cobb       +  5c.  2020-01-01 00:00  Payday (Assessor)
+G.               +  5c.  2020-01-01 00:00  Payday (Arbitor)
+Murphy           +  5c.  2020-01-01 00:00  Payday (ADoP)
+Walker           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+twg              + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Trigon           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Rance            + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+R. Lee           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+pikhq            + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+omd              + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+o                + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Nch              + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Murphy           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Jason Cobb       + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Gaelan           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+G.               + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Falsifian        + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+D. Margaux       + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Cuddle Beam      + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Bernie           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Baron v V [0]    + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Aris             + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+ATMunn           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
 Jason Cobb       +  5c.  2019-12-30 03:26  Reward (Rulekeepor monthly)
 Jason Cobb       +  5c.  2019-12-30 03:26  Reward (Rulekeepor weekly)
 R. Lee           + 10c.  2019-12-29 10:04  Welcome Package
