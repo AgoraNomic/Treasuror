@@ -13,13 +13,16 @@ Disclaimers: this report assumes that:
 
 * Falsifian did not earn 10 Coins on 2019-12-21, or on the second
   attempt on 2019-12-27 for publishing two weekly reports on 2019-12-21
-  Officer duties. E called a CFJ about this on 2019-12-28.
+  Officer duties, and also did not earn 10 Coins on 2020-01-01 for two reports
+  published on 2019-12-28.
 
 * Murphy did not earn 5 Coins on 2019-12-28 in the message with subject
   "BUS: I like money too", since the report e purports to earn money
   for was likely not a public message.
 
-Date of this report: 2020-01-01
+* The adoption of Proposal 8277 on 2020-01-06 had no effect.
+
+Date of this report: 2020-01-09
 Date of last report: 2020-01-01
 
 Archive of reports on the web:
@@ -49,11 +52,11 @@ Entities not listed have a Coin balance of 0.
       80    Baron von Vaderham
       40    Cuddle Beam
     1224    D. Margaux
-     919    Falsifian
+     929    Falsifian
     1475    G.
       50    Gaelan
-   18927    Jason Cobb
-     455    Murphy
+   18932    Jason Cobb
+     460    Murphy
      226    omd
       40    pikhq
       20    R. Lee
@@ -78,10 +81,20 @@ RECENT HISTORY
 ========================================================================
 This section is purely informational and does not self-ratify.
 
+Notes: this section makes the following assumptions, which do not affect any
+current Coin balances:
+
+* Alexis did not receive a Welcome Package on 2020-01-01, but received one
+  2020-01-06 instead.
+
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Alexis           + 10c.  2020-01-06 19:13  Welcome Package
+Jason Cobb       +  5c.  2020-01-06 17:37  Reward (assessing a proposal)
+Murphy           +  5c.  2020-01-05 18:06  Reward (ADoP weekly)
+Falsifian        +  5c.  2020-01-01 17:17  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-01 17:17  Reward (Registrar weekly)
 -- last weekly report -- 2020-01-01 17:10  -- last weekly report --
-Alexis           + 10c.  2020-01-01 16:37  Welcome Package
 Falsifian        +  5c.  2020-01-01 00:00  Payday (Treasuror)
 Nch              +  5c.  2020-01-01 00:00  Payday (Tailor)
 Falsifian        +  5c.  2020-01-01 00:00  Payday (Speaker)
