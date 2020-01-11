@@ -22,7 +22,7 @@ Disclaimers: this report assumes that:
 
 * The adoption of Proposal 8277 on 2020-01-06 had no effect.
 
-Date of this report: 2020-01-09
+Date of this report: 2020-01-11
 Date of last report: 2020-01-01
 
 Archive of reports on the web:
@@ -139,13 +139,5 @@ Jason Cobb       + 30c.  2019-12-11 20:48  Transfer from Bernie
 Bernie           - 30c.  2019-12-11 20:48  Transfer to Jason Cobb
 ATMunn           + 10c.  2019-12-11 19:21  Welcome Package
 ^ Jason Cobb   +18000c.  2019-12-07 02:44  Emerald ribbon glitter x1000
-Jason Cobb       +  5c.  2019-12-06 04:23  Reward (judging CFJ 3779)
-Jason Cobb       +  5c.  2019-12-06 03:05  Reward (Rulekeepor weekly)
-twg              +  5c.  2019-12-04 14:17  Reward (Referee weekly)
-Falsifian        +  5c.  2019-12-03 17:36  Reward (Registrar monthly)
-Falsifian        +  5c.  2019-12-03 17:36  Reward (Treasuror weekly)
-Falsifian        +  5c.  2019-12-03 17:36  Reward (Registrar weekly)
-Jason Cobb       + 12c.  2019-12-01 20:23  Reward (Proposal 8276)
-Jason Cobb       + 18c.  2019-12-01 20:23  Reward (Proposal 8275)
 
 [0] Baron von Vaderham, abbreviated to save space.
