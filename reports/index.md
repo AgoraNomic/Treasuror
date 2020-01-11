@@ -6,6 +6,7 @@ Treasuror's Report Archive:
 
 List of weekly reports:
 
+* [2020-01-11.txt](weekly/2020-01-11.txt)
 * [2020-01-01.txt](weekly/2020-01-01.txt)
 * [2019-12-28.txt](weekly/2019-12-28.txt)
 * [2019-12-21.txt](weekly/2019-12-21.txt)
