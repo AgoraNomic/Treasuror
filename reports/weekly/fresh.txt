@@ -8,8 +8,8 @@ be fresher than the latest official version.
 Disclaimers: this report assumes that:
 
 * Jason Cobb successfully earned 18000 Coins using the Glitter rule on
-  2019-12-07. This is CFJ 3783. The relevant event is marked with "^"
-  in the Recent History section.
+  2019-12-07, then later spent them on 18 wins on 2020-01-11. This is CFJ 3783.
+  The relevant events are marked with "^" in the Recent History section.
 
 * Falsifian did not earn 10 Coins on 2019-12-21, or on the second
   attempt on 2019-12-27 for publishing two weekly reports on 2019-12-21
@@ -22,7 +22,7 @@ Disclaimers: this report assumes that:
 
 * The adoption of Proposal 8277 on 2020-01-06 had no effect.
 
-Date of this report: 2020-01-11
+Date of this report: 2020-01-12
 Date of last report: 2020-01-11
 
 Archive of reports on the web:
@@ -52,17 +52,17 @@ Entities not listed have a Coin balance of 0.
       80    Baron von Vaderham
       40    Cuddle Beam
     1224    D. Margaux
-     929    Falsifian
+     944    Falsifian
     1475    G.
       50    Gaelan
-   18932    Jason Cobb
+     932    Jason Cobb
      460    Murphy
      226    omd
       40    pikhq
       20    R. Lee
       55    Nch
      605    Trigon
-    1007    twg
+    1012    twg
 
    Coins    Zombie
    -----    ------
@@ -89,6 +89,11 @@ current Coin balances:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+twg              +  5c.  2020-01-11 21:28  Reward (Referee weekly)
+^ Jason Cobb   -18000c.  2020-01-11 18:25  Winning 18 times
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar monthly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar weekly)
 -- last weekly report -- 2020-01-11 05:25  -- last weekly report --
 Alexis           + 10c.  2020-01-06 19:13  Welcome Package
 Jason Cobb       +  5c.  2020-01-06 17:37  Reward (assessing a proposal)
