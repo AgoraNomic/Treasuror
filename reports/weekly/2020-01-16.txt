@@ -1,0 +1,147 @@
+------------------------------------------------------------------------
+                              Forbes 500
+------------------------------------------------------------------------
+
+Disclaimer: this report makes the following assumptions. The first two
+relate to a mailing list outage that created uncertainty about whether
+certain messages were public messages.
+
+* Falsifian did not earn 10 Coins on 2019-12-21, or on the second
+  attempt on 2019-12-27 for publishing two weekly reports on 2019-12-21
+  Officer duties, and also did not earn 10 Coins on 2020-01-01 for two reports
+  published on 2019-12-28.
+
+* Murphy did not earn 5 Coins on 2019-12-28 in the message with subject
+  "BUS: I like money too", since the report e purports to earn money
+  for was likely not a public message.
+
+* The adoption of Proposal 8277 on 2020-01-06 had no effect.
+
+Date of this report: 2020-01-16
+Date of last report: 2020-01-11
+
+Archive of reports on the web:
+https://agoranomic.org/Treasuror/reports/weekly/
+
+
+ASSET INDEX
+========================================================================
+This section does not self-ratify.
+
+   Asset class    Recordkeepor    Ownership
+   -----------    ------------    -------------------------
+   Coins          Treasuror       Agora, players, contracts
+   Blots          Referee         Persons
+
+
+COIN BALANCES
+========================================================================
+This section self-ratifies.
+Entities not listed have a Coin balance of 0.
+
+   Coins    Active player
+   -----    -------------
+      27    Alexis
+     304    Aris
+      30    ATMunn
+      80    Baron von Vaderham
+      40    Cuddle Beam
+    1224    D. Margaux
+     944    Falsifian
+    1475    G.
+      50    Gaelan
+     955    Jason Cobb
+     460    Murphy
+     226    omd
+      40    pikhq
+      20    R. Lee
+      55    Nch
+     605    Trigon
+    1022    twg
+
+   Coins    Zombie
+   -----    ------
+      10    Bernie
+      40    o
+      10    Rance
+      30    Walker
+
+   Coins    Non-player entity
+   -----    -----------------
+    1517    Agora
+      87    Lost and Found Department
+
+
+RECENT HISTORY
+========================================================================
+This section is purely informational and does not self-ratify.
+
+Notes: this section makes the following assumptions, which do not affect any
+current Coin balances:
+
+* Alexis did not receive a Welcome Package on 2020-01-01, but received one
+  2020-01-06 instead.
+
+Entity             Change  Date (UTC)        Reason
+------------------------------------------------------------------------
+Jason Cobb       +  5c.  2020-01-14 01:43  Reward (judging CFJ 3791)
+twg              +  5c.  2020-01-14 01:28  Reward (Referee weekly)
+twg              +  5c.  2020-01-14 01:04  Reward (Tailor monthly)
+Alexis           + 12c.  2020-01-12 22:34  Blue ribbon glitter
+Alexis           +  5c.  2020-01-12 22:34  Reward (judging CFJ 3783)
+twg              +  5c.  2020-01-11 21:28  Reward (Referee weekly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar monthly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar weekly)
+-- last weekly report -- 2020-01-11 05:25  -- last weekly report --
+Alexis           + 10c.  2020-01-06 19:13  Welcome Package
+Jason Cobb       +  5c.  2020-01-06 17:37  Reward (assessing a proposal)
+Murphy           +  5c.  2020-01-05 18:06  Reward (ADoP weekly)
+Falsifian        +  5c.  2020-01-01 17:17  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-01 17:17  Reward (Registrar weekly)
+Falsifian        +  5c.  2020-01-01 00:00  Payday (Treasuror)
+Nch              +  5c.  2020-01-01 00:00  Payday (Tailor)
+Falsifian        +  5c.  2020-01-01 00:00  Payday (Speaker)
+Jason Cobb       +  5c.  2020-01-01 00:00  Payday (Rulekeepor)
+Falsifian        +  5c.  2020-01-01 00:00  Payday (Registrar)
+twg              +  5c.  2020-01-01 00:00  Payday (Referee)
+Aris             +  5c.  2020-01-01 00:00  Payday (Promotor)
+G.               +  5c.  2020-01-01 00:00  Payday (Prime Minister)
+G.               +  5c.  2020-01-01 00:00  Payday (Herald)
+omd              +  5c.  2020-01-01 00:00  Payday (Distributor)
+Jason Cobb       +  5c.  2020-01-01 00:00  Payday (Assessor)
+G.               +  5c.  2020-01-01 00:00  Payday (Arbitor)
+Murphy           +  5c.  2020-01-01 00:00  Payday (ADoP)
+Walker           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+twg              + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Trigon           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Rance            + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+R. Lee           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+pikhq            + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+omd              + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+o                + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Nch              + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Murphy           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Jason Cobb       + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Gaelan           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+G.               + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Falsifian        + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+D. Margaux       + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Cuddle Beam      + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Bernie           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Baron v V [0]    + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Aris             + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+ATMunn           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Jason Cobb       +  5c.  2019-12-30 03:26  Reward (Rulekeepor monthly)
+Jason Cobb       +  5c.  2019-12-30 03:26  Reward (Rulekeepor weekly)
+R. Lee           + 10c.  2019-12-29 10:04  Welcome Package
+Murphy           +  5c.  2019-12-28 20:19  Reward (ADoP weekly)
+Jason Cobb       +  5c.  2019-12-13 04:35  Reward (Rulekeepor weekly)
+G.               + 30c.  2019-12-11 21:52  Transfer from Rance
+Rance            - 30c.  2019-12-11 21:52  Transfer to G.
+Jason Cobb       + 30c.  2019-12-11 20:48  Transfer from Bernie
+Bernie           - 30c.  2019-12-11 20:48  Transfer to Jason Cobb
+ATMunn           + 10c.  2019-12-11 19:21  Welcome Package
+Jason Cobb       + 18c.  2019-12-07 02:44  Emerald ribbon glitter
+
+[0] Baron von Vaderham, abbreviated to save space.
