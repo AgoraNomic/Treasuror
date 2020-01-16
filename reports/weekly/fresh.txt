@@ -18,7 +18,7 @@ Disclaimers: this report assumes that:
 
 * The adoption of Proposal 8277 on 2020-01-06 had no effect.
 
-Date of this report: 2020-01-12
+Date of this report: 2020-01-16
 Date of last report: 2020-01-11
 
 Archive of reports on the web:
@@ -51,14 +51,14 @@ Entities not listed have a Coin balance of 0.
      944    Falsifian
     1475    G.
       50    Gaelan
-     950    Jason Cobb
+     955    Jason Cobb
      460    Murphy
      226    omd
       40    pikhq
       20    R. Lee
       55    Nch
      605    Trigon
-    1012    twg
+    1022    twg
 
    Coins    Zombie
    -----    ------
@@ -85,6 +85,9 @@ current Coin balances:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       +  5c.  2020-01-14 01:43  Reward (judging CFJ 3791)
+twg              +  5c.  2020-01-14 01:28  Reward (Referee weekly)
+twg              +  5c.  2020-01-14 01:04  Reward (Tailor monthly)
 Alexis           + 12c.  2020-01-12 22:34  Blue ribbon glitter
 Alexis           +  5c.  2020-01-12 22:34  Reward (judging CFJ 3783)
 twg              +  5c.  2020-01-11 21:28  Reward (Referee weekly)
@@ -140,6 +143,6 @@ Rance            - 30c.  2019-12-11 21:52  Transfer to G.
 Jason Cobb       + 30c.  2019-12-11 20:48  Transfer from Bernie
 Bernie           - 30c.  2019-12-11 20:48  Transfer to Jason Cobb
 ATMunn           + 10c.  2019-12-11 19:21  Welcome Package
-Jason Cobb        +18c.  2019-12-07 02:44  Emerald ribbon glitter
+Jason Cobb       + 18c.  2019-12-07 02:44  Emerald ribbon glitter
 
 [0] Baron von Vaderham, abbreviated to save space.
