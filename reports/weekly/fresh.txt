@@ -21,7 +21,7 @@ certain messages were public messages.
 * The adoption of Proposal 8277 on 2020-01-06 had no effect.
 
 Date of this report: 2020-01-16
-Date of last report: 2020-01-11
+Date of last report: 2020-01-16
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -87,6 +87,7 @@ current Coin balances:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2020-01-16 05:44  -- last weekly report --
 Jason Cobb       +  5c.  2020-01-14 01:43  Reward (judging CFJ 3791)
 twg              +  5c.  2020-01-14 01:28  Reward (Referee weekly)
 twg              +  5c.  2020-01-14 01:04  Reward (Tailor monthly)
@@ -96,7 +97,6 @@ twg              +  5c.  2020-01-11 21:28  Reward (Referee weekly)
 Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar monthly)
 Falsifian        +  5c.  2020-01-11 17:04  Reward (Treasuror weekly)
 Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar weekly)
--- last weekly report -- 2020-01-11 05:25  -- last weekly report --
 Alexis           + 10c.  2020-01-06 19:13  Welcome Package
 Jason Cobb       +  5c.  2020-01-06 17:37  Reward (assessing a proposal)
 Murphy           +  5c.  2020-01-05 18:06  Reward (ADoP weekly)
