@@ -7,10 +7,6 @@ be fresher than the latest official version.
 
 Disclaimers: this report assumes that:
 
-* Jason Cobb successfully earned 18000 Coins using the Glitter rule on
-  2019-12-07, then later spent them on 18 wins on 2020-01-11. This is CFJ 3783.
-  The relevant events are marked with "^" in the Recent History section.
-
 * Falsifian did not earn 10 Coins on 2019-12-21, or on the second
   attempt on 2019-12-27 for publishing two weekly reports on 2019-12-21
   Officer duties, and also did not earn 10 Coins on 2020-01-01 for two reports
@@ -46,7 +42,7 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Active player
    -----    -------------
-      10    Alexis
+      27    Alexis
      304    Aris
       30    ATMunn
       80    Baron von Vaderham
@@ -55,7 +51,7 @@ Entities not listed have a Coin balance of 0.
      944    Falsifian
     1475    G.
       50    Gaelan
-     932    Jason Cobb
+     950    Jason Cobb
      460    Murphy
      226    omd
       40    pikhq
@@ -89,8 +85,9 @@ current Coin balances:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Alexis           + 12c.  2020-01-12 22:34  Blue ribbon glitter
+Alexis           +  5c.  2020-01-12 22:34  Reward (judging CFJ 3783)
 twg              +  5c.  2020-01-11 21:28  Reward (Referee weekly)
-^ Jason Cobb   -18000c.  2020-01-11 18:25  Winning 18 times
 Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar monthly)
 Falsifian        +  5c.  2020-01-11 17:04  Reward (Treasuror weekly)
 Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar weekly)
@@ -143,6 +140,6 @@ Rance            - 30c.  2019-12-11 21:52  Transfer to G.
 Jason Cobb       + 30c.  2019-12-11 20:48  Transfer from Bernie
 Bernie           - 30c.  2019-12-11 20:48  Transfer to Jason Cobb
 ATMunn           + 10c.  2019-12-11 19:21  Welcome Package
-^ Jason Cobb   +18000c.  2019-12-07 02:44  Emerald ribbon glitter x1000
+Jason Cobb        +18c.  2019-12-07 02:44  Emerald ribbon glitter
 
 [0] Baron von Vaderham, abbreviated to save space.
