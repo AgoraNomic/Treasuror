@@ -5,7 +5,9 @@ be fresher than the latest official version.
                               Forbes 500
 ------------------------------------------------------------------------
 
-Disclaimers: this report assumes that:
+Disclaimer: this report makes the following assumptions. The first two
+relate to a mailing list outage that created uncertainty about whether
+certain messages were public messages.
 
 * Falsifian did not earn 10 Coins on 2019-12-21, or on the second
   attempt on 2019-12-27 for publishing two weekly reports on 2019-12-21
