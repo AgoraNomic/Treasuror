@@ -50,7 +50,7 @@ Entities not listed have a Coin balance of 0.
       80    Baron von Vaderham
       40    Cuddle Beam
     1224    D. Margaux
-     944    Falsifian
+     961    Falsifian
     1475    G.
       28    Gaelan
      956    Jason Cobb
@@ -87,6 +87,8 @@ current Coin balances:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian        + 12c.  2020-01-17 19:22  Blue ribbon glitter
+Falsifian        +  5c.  2020-01-17 19:22  Reward (judging CFJ 3789)
 Jason Cobb       + 10c.  2020-01-16 17:21  Transfer from Rance
 Rance            - 10c.  2020-01-16 17:21  Transfer to Jason Cobb
 Agora            + 21c.  2020-01-16 17:21  Transfer from Jason Cobb
