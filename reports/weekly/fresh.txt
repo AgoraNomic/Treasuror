@@ -20,7 +20,7 @@ certain messages were public messages.
 
 * The adoption of Proposal 8277 on 2020-01-06 had no effect.
 
-Date of this report: 2020-01-16
+Date of this report: 2020-01-17
 Date of last report: 2020-01-16
 
 Archive of reports on the web:
@@ -52,26 +52,26 @@ Entities not listed have a Coin balance of 0.
     1224    D. Margaux
      944    Falsifian
     1475    G.
-      50    Gaelan
-     955    Jason Cobb
+      28    Gaelan
+     956    Jason Cobb
      460    Murphy
      226    omd
       40    pikhq
       20    R. Lee
       55    Nch
      605    Trigon
-    1022    twg
+     972    twg
 
    Coins    Zombie
    -----    ------
       10    Bernie
       40    o
-      10    Rance
+       0    Rance
       30    Walker
 
    Coins    Non-player entity
    -----    -----------------
-    1517    Agora
+    1610    Agora
       87    Lost and Found Department
 
 
@@ -87,6 +87,15 @@ current Coin balances:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       + 10c.  2020-01-16 17:21  Transfer from Rance
+Rance            - 10c.  2020-01-16 17:21  Transfer to Jason Cobb
+Agora            + 21c.  2020-01-16 17:21  Transfer from Jason Cobb
+Jason Cobb       - 21c.  2020-01-16 17:21  Transfer to Agora
+Jason Cobb       + 12c.  2020-01-16 17:17  Blue ribbon glitter
+Agora            + 50c.  2020-01-16 13:16  Transfer from twg
+twg              - 50c.  2020-01-16 13:16  Transfer to Agora
+Agora            + 22c.  2020-01-16 06:16  Transfer from Gaelan
+Gaelan           - 22c.  2020-01-16 06:16  Transfer to Agora
 -- last weekly report -- 2020-01-16 05:44  -- last weekly report --
 Jason Cobb       +  5c.  2020-01-14 01:43  Reward (judging CFJ 3791)
 twg              +  5c.  2020-01-14 01:28  Reward (Referee weekly)
