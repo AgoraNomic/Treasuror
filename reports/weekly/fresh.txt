@@ -20,7 +20,10 @@ certain messages were public messages.
 
 * The adoption of Proposal 8277 on 2020-01-06 had no effect.
 
-Date of this report: 2020-01-17
+* G. did not earn 12 Coins for earning a blue ribbon for CFJ 3792 in eir
+  2020-01-19 message. E called a CFJ about this in the same message.
+
+Date of this report: 2020-01-23
 Date of last report: 2020-01-16
 
 Archive of reports on the web:
@@ -45,15 +48,15 @@ Entities not listed have a Coin balance of 0.
    Coins    Active player
    -----    -------------
       27    Alexis
-     304    Aris
+     314    Aris
       30    ATMunn
       80    Baron von Vaderham
       40    Cuddle Beam
     1224    D. Margaux
      961    Falsifian
-    1475    G.
+    1396    G.
       28    Gaelan
-     956    Jason Cobb
+     966    Jason Cobb
      460    Murphy
      226    omd
       40    pikhq
@@ -71,7 +74,7 @@ Entities not listed have a Coin balance of 0.
 
    Coins    Non-player entity
    -----    -----------------
-    1610    Agora
+    1721    Agora
       87    Lost and Found Department
 
 
@@ -87,6 +90,17 @@ current Coin balances:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Jason Cobb       +  5c.  2020-01-20 03:29  Reward (Rulekeepor weekly)
+Jason Cobb       +  5c.  2020-01-20 03:29  Reward (assessing a proposal)
+G.               + 12c.  2020-01-19 21:04  Blue ribbon glitter
+G.               +  5c.  2020-01-19 21:04  reward (judging CFJ 3792)
+G.               +  5c.  2020-01-19 21:04  reward (judging CFJ 3790)
+G.               +  5c.  2020-01-19 21:04  reward (Herald weekly)
+G.               +  5c.  2020-01-19 21:04  reward (Assessor weekly)
+Aris             +  5c.  2020-01-18 05:39  reward (judging CFJ 3785)
+Aris             +  5c.  2020-01-18 05:39  reward (judging CFJ 3784)
+Agora            +111c.  2020-01-17 18:04  Transfer from G.
+G.               -111c.  2020-01-17 18:04  Transfer to Agora
 Falsifian        + 12c.  2020-01-17 19:22  Blue ribbon glitter
 Falsifian        +  5c.  2020-01-17 19:22  Reward (judging CFJ 3789)
 Jason Cobb       + 10c.  2020-01-16 17:21  Transfer from Rance
