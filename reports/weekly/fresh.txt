@@ -24,7 +24,7 @@ certain messages were public messages.
   2020-01-19 message. E called a CFJ about this in the same message.
 
 Date of this report: 2020-01-23
-Date of last report: 2020-01-16
+Date of last report: 2020-01-23
 
 Archive of reports on the web:
 https://agoranomic.org/Treasuror/reports/weekly/
@@ -90,6 +90,7 @@ current Coin balances:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+-- last weekly report -- 2020-01-23 04:22  -- last weekly report --
 Jason Cobb       +  5c.  2020-01-20 03:29  Reward (Rulekeepor weekly)
 Jason Cobb       +  5c.  2020-01-20 03:29  Reward (assessing a proposal)
 G.               + 12c.  2020-01-19 21:04  Blue ribbon glitter
@@ -112,7 +113,6 @@ Agora            + 50c.  2020-01-16 13:16  Transfer from twg
 twg              - 50c.  2020-01-16 13:16  Transfer to Agora
 Agora            + 22c.  2020-01-16 06:16  Transfer from Gaelan
 Gaelan           - 22c.  2020-01-16 06:16  Transfer to Agora
--- last weekly report -- 2020-01-16 05:44  -- last weekly report --
 Jason Cobb       +  5c.  2020-01-14 01:43  Reward (judging CFJ 3791)
 twg              +  5c.  2020-01-14 01:28  Reward (Referee weekly)
 twg              +  5c.  2020-01-14 01:04  Reward (Tailor monthly)
