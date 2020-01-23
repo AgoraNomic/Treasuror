@@ -53,7 +53,7 @@ Entities not listed have a Coin balance of 0.
       80    Baron von Vaderham
       40    Cuddle Beam
     1224    D. Margaux
-     961    Falsifian
+     981    Falsifian
     1396    G.
       28    Gaelan
      966    Jason Cobb
@@ -90,6 +90,10 @@ current Coin balances:
 
 Entity             Change  Date (UTC)        Reason
 ------------------------------------------------------------------------
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Registrar weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Registrar weekly)
 -- last weekly report -- 2020-01-23 04:22  -- last weekly report --
 Jason Cobb       +  5c.  2020-01-20 03:29  Reward (Rulekeepor weekly)
 Jason Cobb       +  5c.  2020-01-20 03:29  Reward (assessing a proposal)
