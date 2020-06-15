@@ -1,34 +1,40 @@
-# FORBES FOUR HUNDRED NINETY-THREE
-*or* TREASUROR'S WEEKLY REPORT
+========================================================================
+                    FORBES FOUR HUNDRED NINETY-THREE
+--------------------------------   or   --------------------------------
+                       TREASUROR'S WEEKLY REPORT
+========================================================================
 
-* **Date of last official report:** 11 Jun 2020
-* **Date of this report:** whenever
+Date of last official report:  11 Jun 2020
+Date of this report:           whenever
 
 (all times and dates in UTC)
 
 
-## NOTES ON REPORT
-*(contains no data)*
+NOTES ON REPORT                                       (contains no data)
+========================================================================
 
 * As always, please check the accuracy of this report.
 
 
-## ASSET INDEX
-*(does not self-ratify)*
+ASSET INDEX                                       (does not self-ratify)
+========================================================================
 
++-------------+--------------+---------------------------+
 | Asset class | Recordkeepor | Ownership                 |
-|:---|:---|:---|
++=============+==============+===========================+
 | Coins       | Treasuror    | Agora, players, contracts |
 | Cards       | Treasuror    | Agora, players, contracts |
 | Products    | Treasuror    | Agora, players, contracts |
 | Blots       | Referee      | Persons                   |
++-------------+--------------+---------------------------+
 
 
-## ASSET BALANCES
-*(self-ratifies)*
+ASSET BALANCES                                           (self-ratifies)
+========================================================================
 
++----------+----+----+----+----+----+----+----+----+----+
 |  Player  |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
++==========+====+====+====+====+====+====+====+====+====+
 |Aris      | 514|   1|   1|   1|   1|   0|   0|   0|   0|
 |ATMunn    |  70|   1|   1|   1|   1|   0|   0|   0|   0|
 |Baron     | 115|   1|   1|   1|   1|   0|   0|   0|   0|
@@ -46,28 +52,34 @@
 |R. Lee    | 131|   1|   1|   1|   1|   0|   0|   0|   0|
 |sukil     |  35|   1|   1|   1|   1|   0|   0|   0|   0|
 |Trigon    |  85|   1|   1|   1|   1|   0|   0|   0|   0|
++----------+----+----+----+----+----+----+----+----+----+
 
++----------+----+----+----+----+----+----+----+----+----+
 |  Zombie  |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
++==========+====+====+====+====+====+====+====+====+====+
 |pikhq     |  75|   0|   0|   0|   0|   0|   0|   0|   0|
 |Tcbapo    |  47|   0|   0|   0|   0|   0|   0|   0|   0|
++----------+----+----+----+----+----+----+----+----+----+
 
++----------+----+----+----+----+----+----+----+----+----+
 |  Entity  |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
++==========+====+====+====+====+====+====+====+====+====+
 |Agora     |2300|   0|   0|   0|   0|   0|   0|   0|   0|
 |D. Corp.  | 495|   0|   0|   0|   0|   0|   0|   0|   0|
 |L&F Dept. | 575|   0|   0|   0|   0|   0|   0|   0|   0|
++----------+----+----+----+----+----+----+----+----+----+
 
 All other Entities have 0 of all enumerated assets.
 
 
-## RECENT HISTORY
-*(does not self-ratify)*
+RECENT HISTORY                                    (does not self-ratify)
+========================================================================
 
 Abbreviations used:
 
++------+---------------------------------+
 | Abbr | Office                          |
-|:---|:---|
++======+=================================+
 | ADoP | Associate Director of Personnel |
 | Abtr | Arbitor                         |
 | Assr | Assessor                        |
@@ -83,9 +95,11 @@ Abbreviations used:
 | Spkr | Speaker                         |
 | Tlor | Tailor                          |
 | Tsor | Treasuror                       |
++------+---------------------------------+
 
++------+------------------+
 | Abbr | Asset            |
-|:---|:---|
++======+==================+
 | c.   | Coin             |
 | VcC. | Victory Card     |
 | JsC. | Justice Card     |
@@ -95,9 +109,11 @@ Abbreviations used:
 | BBG. | Blot-B-Gone      |
 | Pdt. | Pendant          |
 | XVt. | Extra Vote       |
++------+------------------+
 
++----------+-------+-----------------+--------------------------------+
 |  Entity  |Change |    Timestamp    |             Notes              |
-|:---|:---|:---|:---|
++==========+=======+=================+================================+
 |G.        |+ 212c.|11 Jun 2020 20:14|Transfer twg (Zombie auction)   |
 |twg       |- 212c.|11 Jun 2020 20:14|Transfer G. (Zombie auction)    |
 |Agora     |+ 323c.|11 Jun 2020 20:14|Transfer G. (Zombie auction)    |
@@ -189,9 +205,11 @@ Abbreviations used:
 |Gaelan    |+  10c.|01 Jun 2020 00:00|Payday                          |
 |Aris      |+  20c.|01 Jun 2020 00:00|Payday (PM, Promotor)           |
 |omd       |+  15c.|01 Jun 2020 00:00|Payday (Distributor)            |
++----------+-------+-----------------+--------------------------------+
 
++----------+-------+-----------------+--------------------------------+
 |Entity    |Change |Timestamp        |Reason                          |
-|:---|:---|:---|:---|
++==========+=======+=================+================================+
 |          |       |31 May 2020 22:13|   WEEKLY REPORT                |
 |Murphy    |+   5c.|31 May 2020 07:29|Reward (CFJ 3836)               |
 |G.        |+   5c.|31 May 2020 07:29|Reward (CFJ 3835)               |
@@ -279,9 +297,11 @@ Abbreviations used:
 |ATMunn    |+  10c.|01 May 2020 00:00|Payday                          |
 |nch       |+  10c.|01 May 2020 00:00|Payday                          |
 |pikhq     |+  10c.|01 May 2020 00:00|Payday                          |
++----------+-------+-----------------+--------------------------------+
 
++----------+-------+-----------------+--------------------------------+
 |Entity    |Change |Timestamp        |Reason                          |
-|:---|:---|:---|:---|
++==========+=======+=================+================================+
 |Publius   |+   5c.|28 Apr 2020 01:41|Reward (Tailor monthly)         |
 |Jason     |+   5c.|28 Apr 2020 01:41|Reward (Rulekeepor monthly)     |
 |Falsifian |+   5c.|28 Apr 2020 01:41|Reward (Registrar monthly)      |
@@ -387,9 +407,11 @@ Abbreviations used:
 |R. Lee    |+  10c.|01 Apr 2020 00:00|Payday                          |
 |Publius   |+  10c.|01 Apr 2020 00:00|Payday                          |
 |Telanior  |+  10c.|01 Apr 2020 00:00|Payday                          |
++----------+-------+-----------------+--------------------------------+
 
++----------+-------+-----------------+--------------------------------+
 |Entity    |Change |Timestamp        |Reason                          |
-|:---|:---|:---|:---|
++==========+=======+=================+================================+
 |Jason     |+   5c.|28 Mar 2020 17:44|Reward (Rulekeepor monthly)     |
 |Jason     |+   5c.|28 Mar 2020 17:44|Reward (Assessed proposal)      |
 |Aris      |+   5c.|28 Mar 2020 17:44|Reward (Promotor weekly)        |
@@ -478,10 +500,12 @@ Abbreviations used:
 |o         |+  10c.|01 Mar 2020 00:00|Payday                          |
 |Walker    |+  10c.|01 Mar 2020 00:00|Payday                          |
 |nch       |+  10c.|01 Mar 2020 00:00|Payday                          |
++----------+-------+-----------------+--------------------------------+
 
 
++----------+-------+-----------------+--------------------------------+
 |Entity    |Change |Timestamp        |Reason                          |
-|:---|:---|:---|:---|
++==========+=======+=================+================================+
 |          |       |29 Feb 2020 19:46|   WEEKLY REPORT                |
 |Jason     |+  17c.|29 Feb 2020 20:42|Platinum Glitter                |
 |Alexis    |+  14c.|29 Feb 2020 20:42|B Glitter (CFJ 3814)            |
@@ -573,4 +597,6 @@ Abbreviations used:
 |Gaelan    |+  15c.|01 Feb 2020 00:00|Payday                          |
 |Aris      |+  15c.|01 Feb 2020 00:00|Payday (Promotor)               |
 |omd       |+  20c.|01 Feb 2020 00:00|Payday (Comptrollor, Dstr)      |
++----------+-------+-----------------+--------------------------------+
 
+             === END OF THE TREASUROR'S WEEKLY REPORT ==
