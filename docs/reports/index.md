@@ -1,4 +1,17 @@
-Treasuror's Report Archive:
+---
+title: Report Archive
+layout: default
+---
+
+This is the Treasuror's Report Archive. The Treasuror's weekly reports
+generally give weekly balances of all tracked assets and a history of
+any creations and destructions of those assets. The Treasuror does not
+have a monthly report.
+
+Before 12 June 2020, the only asset tracked was coins. After that date,
+however, a new economic system involving "cards" and "products" was
+introduced. As of that date, textual reports became a bit ugly to look
+at, so there are also HTML reports listed.
 
 [Latest weekly report](weekly/2020-01-23.txt)
 
@@ -6,6 +19,22 @@ Treasuror's Report Archive:
 
 List of weekly reports:
 
+* [2020-06-11A.txt](weekly/2020-06-11A.txt)
+* [2020-06-11.txt](weekly/2020-06-11.txt)
+* [2020-06-05.txt](weekly/2020-06-05.txt)
+* [2020-05-31.txt](weekly/2020-05-31.txt)
+* [2020-05-23.txt](weekly/2020-05-23.txt)
+* [2020-05-17A.txt](weekly/2020-05-17A.txt)
+* [2020-05-17.txt](weekly/2020-05-17.txt)
+* [2020-05-10.txt](weekly/2020-05-10.txt)
+* [2020-04-25A.txt](weekly/2020-04-25A.txt)
+* [2020-04-25.txt](weekly/2020-04-25.txt)
+* [2020-02-29.txt](weekly/2020-02-29.txt)
+* [2020-02-15.txt](weekly/2020-02-15.txt)
+* [2020-02-14.txt](weekly/2020-02-14.txt)
+* [2020-02-05A.txt](weekly/2020-02-05A.txt)
+* [2020-02-05.txt](weekly/2020-02-05.txt)
+* [2020-01-28.txt](weekly/2020-01-28.txt)
 * [2020-01-23.txt](weekly/2020-01-16.txt)
 * [2020-01-16.txt](weekly/2020-01-16.txt)
 * [2020-01-11.txt](weekly/2020-01-11.txt)
