@@ -3,6 +3,8 @@ title: Report Archive
 layout: default
 ---
 
+# Report Archive
+
 This is the Treasuror's Report Archive. The Treasuror's weekly reports
 generally give weekly balances of all tracked assets and a history of
 any creations and destructions of those assets. The Treasuror does not
@@ -13,11 +15,17 @@ however, a new economic system involving "cards" and "products" was
 introduced. As of that date, textual reports became a bit ugly to look
 at, so there are also HTML reports listed.
 
-[Latest weekly report](weekly/2020-01-23.txt)
+## Weekly Reports
 
-[Unofficial fresher version of weekly report](weekly/fresh.txt)
+**[Latest official weekly report](weekly/2020-06-11A.txt)**: My goal for
+the timing of the official report is Wednesday/Thursday each week.
 
-List of weekly reports:
+**[Unofficial fresher version of weekly report](weekly/fresh.txt)**:
+This is not guaranteed to be updated consistently, but I will try to
+have a fresh report out by midweek (Sunday/Monday) when there is lots of
+economic activity.
+
+Full List of Weekly Reports:
 
 * [2020-06-11A.txt](weekly/2020-06-11A.txt)
 * [2020-06-11.txt](weekly/2020-06-11.txt)

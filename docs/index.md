@@ -21,7 +21,7 @@ new players, and maybe some more useful stuff later. We'll just see.
 
 Here is what is currently hosted here:
 
-* **[The Report Archives](/reports)** Starting from early in 2019, these
+* **[The Report Archives](reports)** Starting from early in 2019, these
   archives contain the reports of Treasurors past and present. 
 
 
