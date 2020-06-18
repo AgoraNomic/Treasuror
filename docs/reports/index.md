@@ -20,7 +20,7 @@ at, so there are also HTML reports listed.
 **[Latest official weekly report](weekly/2020-06-11A.txt)**: My goal for
 the timing of the official report is Wednesday/Thursday each week.
 
-**[Unofficial fresher version of weekly report](weekly/fresh.txt)**:
+**[Unofficial fresher version of weekly report](weekly/fresh.txt)** ([HTML](weeklymd/2020-06-18):
 This is not guaranteed to be updated consistently, but I will try to
 have a fresh report out by midweek (Sunday/Monday) when there is lots of
 economic activity.

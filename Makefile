@@ -1,7 +1,10 @@
+# DISCLAIMER: I DO NOT KNOW HOW TO WRITE GOOD MAKEFILES
+# DISCLAIMER: THIS MAKEFILE IS ONLY TESTED ON OPENBSD
+
 AWK = awk # the awk implementation to use
 
-ISODATE != date -u "%F"
-LONGDATE != date -u "%d %B %Y"
+ISODATE != date -u +"%F" # unicode date in ISO format
+LONGDATE != date -u +"%d %B %Y" # unicode date in better format
 
 REPORTDIR = docs/reports
 WEEKLYDIR = ${REPORTDIR}/weekly
@@ -10,15 +13,15 @@ WEEKMDDIR = ${REPORTDIR}/weeklymd
 REPORTTXT = ${WEEKLYDIR}/fresh.txt
 REPORTMD = ${WEEKMDDIR}/${ISODATE}.md
 
-.PHONY: markdown move date
+.PHONY: markdown date copy
 
 markdown: fresh.txt
 	${AWK} -f markdown.awk fresh.txt > out.md
 
 date:
-	sed -i "s/\(whenever\)/${LONGDATE}/" ${REPORTTXT} ${REPORTMD}
+	sed -i "s/(whenever)/${LONGDATE}/" ${REPORTTXT} ${REPORTMD}
 
-move: out.md fresh.txt
-	mv fresh.txt ${REPORTTXT}
-	mv out.md ${REPORTMD}.md
+copy: out.md fresh.txt
+	cp fresh.txt ${REPORTTXT}
+	cp out.md ${REPORTMD}
 
