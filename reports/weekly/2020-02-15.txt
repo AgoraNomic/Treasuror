@@ -1,0 +1,189 @@
+------------------------------------------------------------------------
+                 Forbes 500 (Treasuror's Weekly Report)
+------------------------------------------------------------------------
+
+Date of this report: 2020-02-15
+Date of last report: 2020-02-14
+(all times UTC)
+
+
+ASSET INDEX                                       (does not self-ratify)
+========================================================================
+
+   Asset class    Recordkeepor    Ownership
+   -----------    ------------    -------------------------
+   Coins          Treasuror       Agora, players, contracts
+   Blots          Referee         Persons
+
+
+COIN BALANCES                                            (self-ratifies)
+========================================================================
+
+   Coins    Active player
+   -----    -------------
+     132    Alexis
+     393    Aris
+      95    Baron von Vaderham
+      55    CuddleBeam
+    1239    D. Margaux
+      54    Falsifian
+      58    Gaelaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaan
+     573    G.
+    1058    Jason
+      85    Murphy
+     251    omd
+      55    pikhq
+      15    sukil
+      23    Tcbapo
+     125    twg
+      33    Warrigal
+
+   Coins    Zombie
+   -----    ------
+      40    ATMunn
+      97    Bernie
+      65    nch
+       0    o
+       0    Rance
+    1015    Trigon
+      40    Walker
+
+   Coins    Non-player entity
+   -----    -----------------
+    1721    Agora
+      87    Lost and Found Department
+
+
+RECENT HISTORY                                    (does not self-ratify)
+========================================================================
+
+Entity           Change  Timestamp         Reason
+------------------------------------------------------------------------
+                         2020-02-14 18:31  [time of last report]
+Aris             + 65c.  2020-02-14 12:45  Proposal rewards
+Falsifian        +  3c.  2020-02-13 17:37  Birthday Gift from sukil
+Falsifian        +  3c.  2020-02-13 16:37  Birthday Gift from twg
+Falsifian        +  3c.  2020-02-13 15:35  Birthday Gift from Aris
+Falsifian        +  3c.  2020-02-13 13:09  Birthday Gift from Jason
+Warrigal         +  5c.  2020-02-13 05:00  Transfer from Aris
+twg              + 10c.  2020-02-13 05:00  Transfer from Aris
+Tcbapo           +  5c.  2020-02-13 05:00  Transfer from Aris
+sukil            +  5c.  2020-02-13 05:00  Transfer from Aris
+pikhq            +  5c.  2020-02-13 05:00  Transfer from Aris
+omd              +  5c.  2020-02-13 05:00  Transfer from Aris
+Murphy           +  5c.  2020-02-13 05:00  Transfer from Aris
+Jason            + 10c.  2020-02-13 05:00  Transfer from Aris
+G.               +  5c.  2020-02-13 05:00  Transfer from Aris
+Gaelaaaaaaaaaaaan+  5c.  2020-02-13 05:00  Transfer from Aris
+Falsifian        +  5c.  2020-02-13 05:00  Transfer from Aris
+D. Margaux       +  5c.  2020-02-13 05:00  Transfer from Aris
+CuddleBeam       +  5c.  2020-02-13 05:00  Transfer from Aris
+Baron von V.     +  5c.  2020-02-13 05:00  Transfer from Aris
+Alexis           +  5c.  2020-02-13 05:00  Transfer from Aris
+Aris             - 85c.  2020-02-13 05:00  Transfer to multiple players
+twg              + 82c.  2020-02-13 02:17  Proposal 8311 "Equitable Remedy"
+Murphy           +  5c.  2020-02-13 02:17  Proposal 8311 "Equitable Remedy"
+Jason            + 54c.  2020-02-13 02:17  Proposal 8311 "Equitable Remedy"
+G.               + 99c.  2020-02-13 02:17  Proposal 8311 "Equitable Remedy"
+Gaelaaaaaaaaaaaan+ 15c.  2020-02-13 02:17  Proposal 8311 "Equitable Remedy"
+Falsifian        + 26c.  2020-02-13 02:17  Proposal 8311 "Equitable Remedy"
+Bernie           + 77c.  2020-02-13 02:17  Proposal 8311 "Equitable Remedy"
+Aris             + 84c.  2020-02-13 02:17  Proposal 8311 "Equitable Remedy"
+Alexis           + 53c.  2020-02-13 02:17  Proposal 8311 "Equitable Remedy"
+sukil            + 10c.  2020-02-12 18:48  Welcome Package
+Jason            + 10c.  2020-02-11 00:33  Transfer from Rance                 ^
+Rance            - 10c.  2020-02-11 00:33  Transfer to Jason                   ^
+twg              - 1Kc.  2020-02-10 17:56  WIN BY HIGH SCORE
+G.               + 50c.  2020-02-10 01:38  Transfer from o                     ^
+o                - 50c.  2020-02-10 01:38  Transfer to G.                      ^
+Trigon           -400c.  2020-02-09 19:18  Transfer from Murphy "Kingmaking"
+Murphy           +400c.  2020-02-09 19:18  Transfer to Trigon "Kingmaking"
+Falsifian        - 1Kc.  2020-02-06 18:09  WIN BY HIGH SCORE
+nch              + 10c.  2020-02-01 00:00  Payday
+Walker           + 10c.  2020-02-01 00:00  Payday
+o                + 10c.  2020-02-01 00:00  Payday
+Rance            + 10c.  2020-02-01 00:00  Payday
+Bernie           + 10c.  2020-02-01 00:00  Payday
+Trigon           + 10c.  2020-02-01 00:00  Payday
+CuddleBeam       + 10c.  2020-02-01 00:00  Payday
+Tcbapo           + 10c.  2020-02-01 00:00  Payday
+Warrigal         + 10c.  2020-02-01 00:00  Payday
+Alexis           + 10c.  2020-02-01 00:00  Payday
+Jason            + 20c.  2020-02-01 00:00  Payday (Assessor, Rulekeepor)
+Falsifian        + 25c.  2020-02-01 00:00  Payday (Regstr., Spkr., Treasr.)
+Baron von V.     + 10c.  2020-02-01 00:00  Payday
+D. Margaux       + 10c.  2020-02-01 00:00  Payday
+twg              + 15c.  2020-02-01 00:00  Payday (Referee)
+ATMunn           + 10c.  2020-02-01 00:00  Payday
+Murphy           + 15c.  2020-02-01 00:00  Payday (ADoP)
+G.               + 20c.  2020-02-01 00:00  Payday (Arbitor, Herald)
+Gaelaaaaaaaaaaaan+ 15c.  2020-02-01 00:00  Payday
+Aris             + 15c.  2020-02-01 00:00  Payday (Promotor)
+omd              + 20c.  2020-02-01 00:00  Payday (Comptrollor, Distributor)
+Falsifian        +  5c.  2020-01-29 00:26  Reward (Registrar weekly)
+Warrigal         +  2c.  2020-01-26 20:50  Transfer from Tcbapo
+Tcbapo           -  2c.  2020-01-26 20:50  Transfer to Warrigal
+twg              +  5c.  2020-01-28 16:02  Reward (Referee weekly)
+twg              +  5c.  2020-01-28 16:02  Reward (Treasuror weekly)
+Tcbapo           + 10c.  2020-01-28 05:36  Welcome Package
+Warrigal         +  2c.  2020-01-26 20:50  Transfer from Jason
+Jason            -  2c.  2020-01-26 20:50  Transfer to Warrigal
+Warrigal         +  2c.  2020-01-26 20:50  Transfer from twg
+twg              -  2c.  2020-01-26 20:50  Transfer to Warrigal
+Warrigal         +  2c.  2020-01-26 20:15  Transfer from G.
+G.               -  2c.  2020-01-26 20:15  Transfer to Warrigal
+twg              + 12c.  2020-01-26 12:16  Blue Glitter
+twg              +  5c.  2020-01-26 12:16  Reward (CFJ 3793)
+twg              +  7c.  2020-01-25 20:17  Cyan Glitter
+Alexis           + 18c.  2020-01-25 20:06  Reward (Proposal 8283)
+Alexis           + 12c.  2020-01-25 20:05  Blue Glitter
+Alexis           +  7c.  2020-01-25 20:05  Cyan Glitter
+G.               - 1Kc.  2020-01-25 19:51  WIN BY HIGH SCORE
+R. Lee *         - 20c.  2020-01-25 13:31  Deregistration
+twg              +  5c.  2020-01-24 17:42  Reward (Referee weekly)
+twg              +  9c.  2020-01-24 16:54  Violet Glitter
+G.               +  5c.  2020-01-24 14:48  Reward (Herald weekly)
+Warrigal         + 10c.  2020-01-24 00:34  Welcome Package
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Registrar weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Registrar weekly)
+Jason            +  5c.  2020-01-20 03:29  Reward (Rulekeepor weekly)
+Jason            +  5c.  2020-01-20 03:29  Reward (assessing a proposal)
+G.               + 12c.  2020-01-19 21:04  Blue Glitter
+G.               +  5c.  2020-01-19 21:04  Reward (CFJ 3792)
+G.               +  5c.  2020-01-19 21:04  Reward (CFJ 3790)
+G.               +  5c.  2020-01-19 21:04  Reward (Herald weekly)
+G.               +  5c.  2020-01-19 21:04  Reward (Arbitor weekly)
+Aris             +  5c.  2020-01-18 05:39  Reward (CFJ 3785)
+Aris             +  5c.  2020-01-18 05:39  Reward (CFJ 3784)
+Falsifian        + 12c.  2020-01-17 19:22  Blue Glitter
+Falsifian        +  5c.  2020-01-17 19:22  Reward (CFJ 3789)
+Agora            +111c.  2020-01-17 18:04  Transfer from G.
+G.               -111c.  2020-01-17 18:04  Transfer to Agora
+Jason            + 10c.  2020-01-16 17:21  Transfer from Rance
+Rance            - 10c.  2020-01-16 17:21  Transfer to Jason
+Agora            + 21c.  2020-01-16 17:21  Transfer from Jason
+Jason            - 21c.  2020-01-16 17:21  Transfer to Agora
+Jason            + 12c.  2020-01-16 17:17  Blue Glitter
+Agora            + 50c.  2020-01-16 13:16  Transfer from twg
+twg              - 50c.  2020-01-16 13:16  Transfer to Agora
+Agora            + 22c.  2020-01-16 06:16  Transfer from Gaelaaaaaaaaaaan
+Gaelaaaaaaaaaaaan- 22c.  2020-01-16 06:16  Transfer to Agora
+Jason            +  5c.  2020-01-14 01:43  Reward (CFJ 3791)
+twg              +  5c.  2020-01-14 01:28  Reward (Referee weekly)
+twg              +  5c.  2020-01-14 01:04  Reward (Tailor monthly)
+Alexis           + 12c.  2020-01-12 22:35  Blue Glitter
+Alexis           +  5c.  2020-01-12 22:35  Reward (CFJ 3783)
+twg              +  5c.  2020-01-11 21:28  Reward (Referee weekly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar monthly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar weekly)
+Alexis           + 10c.  2020-01-06 19:13  Welcome Package
+Jason            +  5c.  2020-01-06 17:37  Reward (assessing a proposal)
+Murphy           +  5c.  2020-01-05 18:06  Reward (ADoP weekly)
+Falsifian        +  5c.  2020-01-01 17:17  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-01 17:17  Reward (Registrar weekly)
+
+* short for R. "rythwjkejhwyetrhrjkaigiuhrdafkt4wiq5yrw9jgnfnvmmKAKAJJ" Lee
+^ erroneously omitted from previous Treasuror report

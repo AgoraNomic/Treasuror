@@ -1,0 +1,359 @@
+I deputise for the Treasuror to publish the below weekly report. I don't
+believe I have missed anything, but please let me know quickly if I have
+since this self-ratifies.
+------------------------------------------------------------------------
+                 Forbes 500 (Treasuror's Weekly Report)
+------------------------------------------------------------------------
+
+Date of this report: 2020-04-25
+Date of last report: 2020-02-29
+(all times UTC)
+
+
+ASSET INDEX                                       (does not self-ratify)
+========================================================================
+
+   Asset class    Recordkeepor    Ownership
+   -----------    ------------    -------------------------
+   Coins          Treasuror       Agora, players, contracts
+   Blots          Referee         Persons
+
+
+COIN BALANCES                                            (self-ratifies)
+========================================================================
+
+   Coins    Active player
+   -----    -------------
+     373    Alexis
+     637    Aris
+      95    Baron von Vaderham
+      60    CuddleBeam
+    1239    D. Margaux
+     184    Falsifian
+      38    Gaelan
+     711    G.
+     412    Jason
+     174    Murphy
+     251    omd
+      40    P.S.S.
+      15    R. Lee
+      15    sukil
+      27    Tcbapo
+    1015    Trigon
+     202    twg
+
+   Coins    Zombie
+   -----    ------
+      40    ATMunn
+      65    nch
+      55    pikhq
+
+   Coins    Non-player entity
+   -----    -----------------
+    1721    Agora
+      65    Dragon Corporation
+      88    Lost and Found Department
+
+
+RECENT HISTORY                                    (does not self-ratify)
+========================================================================
+
+Entity           Change  Timestamp         Reason
+------------------------------------------------------------------------
+Aris             + 17c.  2020-04-25 17:36  Glitter rewards
+Aris             + 15c.  2020-04-25 17:36  Glitter rewards
+Jason            + 16c.  2020-04-25 17:36  Glitter rewards
+Alexis           + 17c.  2020-04-25 17:36  Glitter rewards
+Alexis           + 15c.  2020-04-25 17:36  Glitter rewards
+Jason            + 17c.  2020-04-25 17:36  Glitter rewards
+Jason            + 15c.  2020-04-25 17:36  Glitter rewards
+G.               + 15c.  2020-04-25 17:36  Glitter rewards
+Alexis           + 14c.  2020-04-25 17:36  Glitter rewards
+Jason            + 14c.  2020-04-25 17:36  Glitter rewards
+P.S.S.           + 10c.  2020-04-25 17:36  Glitter rewards
+twg              + 10c.  2020-04-25 17:36  Glitter rewards
+Jason            + 14c.  2020-04-25 17:36  Glitter rewards
+Jason            + 16c.  2020-04-25 17:36  Glitter rewards
+twg              + 20c.  2020-04-25 17:36  Glitter rewards
+Aris             +  8c.  2020-04-20 24:31  P 8370
+Aris             + 18c.  2020-04-20 24:31  P 8369
+G.               + 16c.  2020-04-20 24:31  P 8368
+Jason            +  5c.  2020-04-19 20:12  Report rewards
+Jason            +  5c.  2020-04-19 20:12  Report rewards
+P.S.S.           +  5c.  2020-04-19 20:12  Report rewards
+Alexis           +  5c.  2020-04-19 20:12  Report rewards
+G.               +  5c.  2020-04-19 20:12  Report rewards
+Jason            +  5c.  2020-04-19 20:12  Report rewards
+Falsifian        +  5c.  2020-04-19 20:12  Report rewards
+Aris             +  5c.  2020-04-19 20:12  Report rewards
+Falsifian        +  5c.  2020-04-19 20:12  Report rewards
+P.S.S.           +  5c.  2020-04-19 20:12  Report rewards
+Alexis           +  5c.  2020-04-19 20:12  Report rewards
+Jason            +  5c.  2020-04-19 20:12  Report rewards
+Aris             +  5c.  2020-04-19 20:12  Report rewards
+G.               +  5c.  2020-04-19 20:12  Report rewards
+Alexis           +  5c.  2020-04-19 20:12  Report rewards
+Falsifian        +  5c.  2020-04-19 20:12  Report rewards
+P.S.S.           +  5c.  2020-04-19 20:12  Report rewards
+P.S.S.           +  5c.  2020-04-19 20:12  Report rewards
+Falsifian        +  5c.  2020-04-19 20:12  Report rewards
+Murphy           +  5c.  2020-04-19 20:12  Report rewards
+G.               +  5c.  2020-04-18 17:12  CFJ 3827
+R. Lee           +  5c.  2020-04-18 17:12  CFJ 3826
+Murphy           + 24c.  2020-04-17 19:16  P 8367
+Aris             + 21c.  2020-04-17 19:16  P 8366
+Jason            +  5c.  2020-04-05 21:05  Transfer from Aris
+Aris             -  5c.  2020-04-05 21:05  Transfer to Jason
+G.               +  5c.  2020-04-05 21:04  CFJ 3824
+G.               +  5c.  2020-04-05 21:04  CFJ 3823
+Aris             +  5c.  2020-04-05 21:04  CFJ 3822
+Aris             +  5c.  2020-04-05 21:04  CFJ 3822
+Jason            +  5c.  2020-04-05 21:04  CFJ 7
+Aris             + 33c.  2020-04-04 16:40  P 8365
+Aris             + 33c.  2020-04-04 16:40  P 8364
+Warrigal         +  3c.  2020-04-04 16:40  P 8363
+Aris             + 27c.  2020-04-04 16:40  P 8362
+Aris             + 33c.  2020-04-04 16:40  P 8361
+Alexis           + 33c.  2020-04-04 16:40  P 8360
+Jason            + 20c.  2020-04-04 16:40  P 8358
+G.               + 11c.  2020-04-04 16:40  P 8357
+Jason            +  5c.  2020-03-28 17:44  Report rewards
+Jason            +  5c.  2020-03-28 17:44  Report rewards
+Aris             +  5c.  2020-03-28 17:44  Report rewards
+Jason            +  5c.  2020-03-28 17:44  Report rewards
+Aris             +  5c.  2020-03-28 17:44  Report rewards
+Falsifian        +  5c.  2020-03-28 17:44  Report rewards
+G.               +  5c.  2020-03-28 17:44  Report rewards
+Murphy           +  5c.  2020-03-28 17:44  Report rewards
+Aris             + 14c.  2020-03-22  1:33  P 8356
+Alexis           + 18c.  2020-03-22  1:33  P 8355
+Alexis           + 12c.  2020-03-22  1:33  P 8354
+Murphy           + 24c.  2020-03-22  1:33  P 8353
+G.               + 20c.  2020-03-22  1:33  P 8352
+Jason            + 33c.  2020-03-22  1:33  P 8351
+Alexis           + 22c.  2020-03-22  1:33  P 8350
+twg              +  7c.  2020-03-22  1:33  P 8349
+R. Lee           + 10c.  2020-03-21  6:07  Welcome Package
+Warrigal         +  5c.  2020-03-20 14:53  Transfer from Dragon Corp.
+Dragon Corp.     -  5c.  2020-03-20 14:53  Transfer to Warrigal
+Alexis           +  5c.  2020-03-15 17:42  Report rewards
+Jason            +  5c.  2020-03-15 17:42  Report rewards
+Falsifian        +  5c.  2020-03-15 17:42  Report rewards
+Alexis           +  5c.  2020-03-15 17:42  Report rewards
+Jason            +  5c.  2020-03-15 17:42  Report rewards
+Aris             +  5c.  2020-03-15 17:42  Report rewards
+G.               +  5c.  2020-03-15 17:42  Report rewards
+Murphy           +  5c.  2020-03-15 17:42  Report rewards
+Dragon Corp.     - 10c.  2020-03-10  2:34  Transfer from Jason
+Jason            - 10c.  2020-03-10  2:34  Transfer to Dragon Corp.
+Dragon Corp.     - 10c.  2020-03-10  2:34  Transfer from Jason
+Jason            - 10c.  2020-03-10  2:34  Transfer to Dragon Corp.
+Dragon Corp.     - 10c.  2020-03-10  2:34  Transfer from Jason
+Jason            - 10c.  2020-03-10  2:34  Transfer to Dragon Corp.
+Jason            + 33c.  2020-03-09 14:29  P 8347
+Jason            + 30c.  2020-03-09 14:29  P 8346
+Jason            + 20c.  2020-03-09 14:29  P 8345
+Alexis           +  5c.  2020-03-09  9:56  CFJ 3821
+R. Lee           +  5c.  2020-03-09  7:00  CFJ 3819
+R. Lee           +  5c.  2020-03-09  7:00  CFJ 3819
+Jason            +  5c.  2020-03-09  7:00  CFJ 3818
+Murphy           +  5c.  2020-03-09  7:00  CFJ 3820
+Falsifian        +  5c.  2020-03-07 21:27  Report rewards
+Jason            +  5c.  2020-03-07 21:27  Report rewards
+Jason            +  5c.  2020-03-07 21:27  Report rewards
+Falsifian        +  5c.  2020-03-07 21:27  Report rewards
+Gaelan           +  5c.  2020-03-07 21:27  Report rewards
+G.               +  5c.  2020-03-07 21:27  Report rewards
+Falsifian        +  5c.  2020-03-07 21:27  Report rewards
+twg              +  5c.  2020-03-07 21:27  Report rewards
+twg              +  5c.  2020-03-07 21:27  Report rewards
+Alexis           +  5c.  2020-03-07 21:27  Report rewards
+Gaelan           +  5c.  2020-03-07 21:27  Report rewards
+Jason            +  5c.  2020-03-07 21:27  Report rewards
+Aris             +  5c.  2020-03-07 21:27  Report rewards
+Alexis           +  5c.  2020-03-07 21:27  Report rewards
+Murphy           +  5c.  2020-03-07 21:27  Report rewards
+P.S.S.           + 10c.  2020-03-07 16:03  Welcome Package
+Dragon Corp.     - 10c.  2020-03-03  1:49  Transfer from Gaelan
+Gaelan           - 10c.  2020-03-03  1:49  Transfer to Dragon Corp.
+Dragon Corp.     - 10c.  2020-03-03  1:49  Transfer from Gaelan
+Gaelan           - 10c.  2020-03-03  1:49  Transfer to Dragon Corp.
+Dragon Corp.     - 10c.  2020-03-03  1:49  Transfer from Gaelan
+Gaelan           - 10c.  2020-03-03  1:49  Transfer to Dragon Corp.
+Dragon Corp.     - 10c.  2020-03-03  1:49  Transfer from Gaelan
+Gaelan           - 10c.  2020-03-03  1:49  Transfer to Dragon Corp.
+twg              +  5c.  2020-03-02 23:16  CFJ 3816
+Warrigal         +  5c.  2020-03-02 23:16  CFJ 3807
+Alexis           +  5c.  2020-03-02 23:16  CFJ 3814
+Cuddle Beam      +  5c.  2020-03-02 23:16  CFJ 3815
+Aris             +  5c.  2020-03-02 23:16  CFJ 3811
+Aris             +  5c.  2020-03-02 23:16  CFJ 3812
+twg              - 1000c.2020-03-01 14:05  WIN BY HIGH SCORE
+CuddleBeam       - 1000c.2020-03-01 14:05  WIN BY HIGH SCORE
+CuddleBeam       + 1000c.2020-03-01 14:05  Transfer from twg
+twg              - 1000c.2020-03-01 14:05  Transfer to CuddleBeam
+twg              + 2000c.2020-03-01 14:05  Glitter rewards
+Alexis                   2020-03-01 14:05  Glitter rewards
+                         2020-02-29 19:46  [time of last report]
+Jason            + 17c.  2020-02-29 20:42  Glitter rewards
+Alexis           + 14c.  2020-02-29 20:42  Glitter rewards
+twg              + 10c.  2020-02-29 20:42  Glitter rewards
+R. Lee *         + 10c.  2020-02-28 03:05  Welcome Package
+Murphy           + 16c.  2020-02-27 15:47  Proposal rewards
+Warrigal         + 12c.  2020-02-27 15:47  Proposal rewards
+G.               + 21c.  2020-02-27 15:47  Proposal rewards
+Alexis           +  9c.  2020-02-27 15:47  Proposal rewards
+Jason            + 57c.  2020-02-27 15:47  Proposal rewards
+Falsifian        + 75c.  2020-02-27 15:47  Proposal rewards
+twg              + 15c.  2020-02-23 17:49  Report rewards
+Jason            +  5c.  2020-02-23 17:49  Report rewards
+G.               +  5c.  2020-02-23 17:49  Report rewards
+Gaelaaaaaaaaaaaan+ 10c.  2020-02-23 17:49  Report rewards
+Falsifian        + 10c.  2020-02-23 17:49  Report rewards
+Alexis           +  5c.  2020-02-23 17:49  Report rewards
+G.               + 10c.  2020-02-17 15:43  CFJ rewards
+Alexis           +  5c.  2020-02-17 15:43  CFJ rewards
+Alexis           + 13c.  2020-02-17 00:16  Glitter rewards
+Jason            - 1Kc.  2020-02-16 14:33  WIN BY HIGH SCORE
+Tcbapo           +  4c.  2020-02-15 19:18  Transfer from Warrigal
+(Blackjack)
+Warrigal         -  4c.  2020-02-15 19:18  Transfer to Tcbapo (Blackjack)
+Jason            +  2c.  2020-02-15 19:18  Transfer from Warrigal
+(Blackjack)
+Warrigal         -  2c.  2020-02-15 19:18  Transfer to Jason (Blackjack)
+Aris             + 65c.  2020-02-14 12:45  Proposal rewards
+Falsifian        +  3c.  2020-02-13 17:37  Birthday Gift from sukil
+Falsifian        +  3c.  2020-02-13 16:37  Birthday Gift from twg
+Falsifian        +  3c.  2020-02-13 15:35  Birthday Gift from Aris
+Falsifian        +  3c.  2020-02-13 13:09  Birthday Gift from Jason
+Warrigal         +  5c.  2020-02-13 05:00  Transfer from Aris
+twg              + 10c.  2020-02-13 05:00  Transfer from Aris
+Tcbapo           +  5c.  2020-02-13 05:00  Transfer from Aris
+sukil            +  5c.  2020-02-13 05:00  Transfer from Aris
+pikhq            +  5c.  2020-02-13 05:00  Transfer from Aris
+omd              +  5c.  2020-02-13 05:00  Transfer from Aris
+Murphy           +  5c.  2020-02-13 05:00  Transfer from Aris
+Jason            + 10c.  2020-02-13 05:00  Transfer from Aris
+G.               +  5c.  2020-02-13 05:00  Transfer from Aris
+Gaelaaaaaaaaaaaan+  5c.  2020-02-13 05:00  Transfer from Aris
+Falsifian        +  5c.  2020-02-13 05:00  Transfer from Aris
+D. Margaux       +  5c.  2020-02-13 05:00  Transfer from Aris
+CuddleBeam       +  5c.  2020-02-13 05:00  Transfer from Aris
+Baron von V.     +  5c.  2020-02-13 05:00  Transfer from Aris
+Alexis           +  5c.  2020-02-13 05:00  Transfer from Aris
+Aris             - 85c.  2020-02-13 05:00  Transfer to multiple players
+twg              + 82c.  2020-02-13 02:17  Proposal 8311 ("Equitable
+Remedy")
+Murphy           +  5c.  2020-02-13 02:17  Proposal 8311 ("Equitable
+Remedy")
+Jason            + 54c.  2020-02-13 02:17  Proposal 8311 ("Equitable
+Remedy")
+G.               + 99c.  2020-02-13 02:17  Proposal 8311 ("Equitable
+Remedy")
+Gaelaaaaaaaaaaaan+ 15c.  2020-02-13 02:17  Proposal 8311 ("Equitable
+Remedy")
+Falsifian        + 26c.  2020-02-13 02:17  Proposal 8311 ("Equitable
+Remedy")
+Bernie           + 77c.  2020-02-13 02:17  Proposal 8311 ("Equitable
+Remedy")
+Aris             + 84c.  2020-02-13 02:17  Proposal 8311 ("Equitable
+Remedy")
+Alexis           + 53c.  2020-02-13 02:17  Proposal 8311 ("Equitable
+Remedy")
+sukil            + 10c.  2020-02-12 18:48  Welcome Package
+Jason            + 10c.  2020-02-11 00:33  Transfer from Rance
+Rance            - 10c.  2020-02-11 00:33  Transfer to Jason
+twg              - 1Kc.  2020-02-10 17:56  WIN BY HIGH SCORE
+G.               + 50c.  2020-02-10 01:38  Transfer from o
+o                - 50c.  2020-02-10 01:38  Transfer to G.
+Trigon           -400c.  2020-02-09 19:18  Transfer from Murphy
+("Kingmaking")
+Murphy           +400c.  2020-02-09 19:18  Transfer to Trigon ("Kingmaking")
+Falsifian        - 1Kc.  2020-02-06 18:09  WIN BY HIGH SCORE
+nch              + 10c.  2020-02-01 00:00  Payday
+Walker           + 10c.  2020-02-01 00:00  Payday
+o                + 10c.  2020-02-01 00:00  Payday
+Rance            + 10c.  2020-02-01 00:00  Payday
+Bernie           + 10c.  2020-02-01 00:00  Payday
+Trigon           + 10c.  2020-02-01 00:00  Payday
+CuddleBeam       + 10c.  2020-02-01 00:00  Payday
+Tcbapo           + 10c.  2020-02-01 00:00  Payday
+Warrigal         + 10c.  2020-02-01 00:00  Payday
+Alexis           + 10c.  2020-02-01 00:00  Payday
+Jason            + 20c.  2020-02-01 00:00  Payday (Assessor, Rulekeepor)
+Falsifian        + 25c.  2020-02-01 00:00  Payday (Regstr., Spkr., Treasr.)
+Baron von V.     + 10c.  2020-02-01 00:00  Payday
+D. Margaux       + 10c.  2020-02-01 00:00  Payday
+twg              + 15c.  2020-02-01 00:00  Payday (Referee)
+ATMunn           + 10c.  2020-02-01 00:00  Payday
+Murphy           + 15c.  2020-02-01 00:00  Payday (ADoP)
+G.               + 20c.  2020-02-01 00:00  Payday (Arbitor, Herald)
+Gaelaaaaaaaaaaaan+ 15c.  2020-02-01 00:00  Payday
+Aris             + 15c.  2020-02-01 00:00  Payday (Promotor)
+omd              + 20c.  2020-02-01 00:00  Payday (Comptrollor, Distributor)
+Falsifian        +  5c.  2020-01-29 00:26  Reward (Registrar weekly)
+Warrigal         +  2c.  2020-01-26 20:50  Transfer from Tcbapo
+Tcbapo           -  2c.  2020-01-26 20:50  Transfer to Warrigal
+twg              +  5c.  2020-01-28 16:02  Reward (Referee weekly)
+twg              +  5c.  2020-01-28 16:02  Reward (Treasuror weekly)
+Tcbapo           + 10c.  2020-01-28 05:36  Welcome Package
+Warrigal         +  2c.  2020-01-26 20:50  Transfer from Jason
+Jason            -  2c.  2020-01-26 20:50  Transfer to Warrigal
+Warrigal         +  2c.  2020-01-26 20:50  Transfer from twg
+twg              -  2c.  2020-01-26 20:50  Transfer to Warrigal
+Warrigal         +  2c.  2020-01-26 20:15  Transfer from G.
+G.               -  2c.  2020-01-26 20:15  Transfer to Warrigal
+twg              + 12c.  2020-01-26 12:16  Blue Glitter
+twg              +  5c.  2020-01-26 12:16  Reward (CFJ 3793)
+twg              +  7c.  2020-01-25 20:17  Cyan Glitter
+Alexis           + 18c.  2020-01-25 20:06  Reward (Proposal 8283)
+Alexis           + 12c.  2020-01-25 20:05  Blue Glitter
+Alexis           +  7c.  2020-01-25 20:05  Cyan Glitter
+G.               - 1Kc.  2020-01-25 19:51  WIN BY HIGH SCORE
+R. Lee *         - 20c.  2020-01-25 13:31  Deregistration
+twg              +  5c.  2020-01-24 17:42  Reward (Referee weekly)
+twg              +  9c.  2020-01-24 16:54  Violet Glitter
+G.               +  5c.  2020-01-24 14:48  Reward (Herald weekly)
+Warrigal         + 10c.  2020-01-24 00:34  Welcome Package
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Registrar weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Registrar weekly)
+Jason            +  5c.  2020-01-20 03:29  Reward (Rulekeepor weekly)
+Jason            +  5c.  2020-01-20 03:29  Reward (assessing a proposal)
+G.               + 12c.  2020-01-19 21:04  Blue Glitter
+G.               +  5c.  2020-01-19 21:04  Reward (CFJ 3792)
+G.               +  5c.  2020-01-19 21:04  Reward (CFJ 3790)
+G.               +  5c.  2020-01-19 21:04  Reward (Herald weekly)
+G.               +  5c.  2020-01-19 21:04  Reward (Arbitor weekly)
+Aris             +  5c.  2020-01-18 05:39  Reward (CFJ 3785)
+Aris             +  5c.  2020-01-18 05:39  Reward (CFJ 3784)
+Falsifian        + 12c.  2020-01-17 19:22  Blue Glitter
+Falsifian        +  5c.  2020-01-17 19:22  Reward (CFJ 3789)
+Agora            +111c.  2020-01-17 18:04  Transfer from G.
+G.               -111c.  2020-01-17 18:04  Transfer to Agora
+Jason            + 10c.  2020-01-16 17:21  Transfer from Rance
+Rance            - 10c.  2020-01-16 17:21  Transfer to Jason
+Agora            + 21c.  2020-01-16 17:21  Transfer from Jason
+Jason            - 21c.  2020-01-16 17:21  Transfer to Agora
+Jason            + 12c.  2020-01-16 17:17  Blue Glitter
+Agora            + 50c.  2020-01-16 13:16  Transfer from twg
+twg              - 50c.  2020-01-16 13:16  Transfer to Agora
+Agora            + 22c.  2020-01-16 06:16  Transfer from Gaelaaaaaaaaaaan
+Gaelaaaaaaaaaaaan- 22c.  2020-01-16 06:16  Transfer to Agora
+Jason            +  5c.  2020-01-14 01:43  Reward (CFJ 3791)
+twg              +  5c.  2020-01-14 01:28  Reward (Referee weekly)
+twg              +  5c.  2020-01-14 01:04  Reward (Tailor monthly)
+Alexis           + 12c.  2020-01-12 22:35  Blue Glitter
+Alexis           +  5c.  2020-01-12 22:35  Reward (CFJ 3783)
+twg              +  5c.  2020-01-11 21:28  Reward (Referee weekly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar monthly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar weekly)
+Alexis           + 10c.  2020-01-06 19:13  Welcome Package
+Jason            +  5c.  2020-01-06 17:37  Reward (assessing a proposal)
+Murphy           +  5c.  2020-01-05 18:06  Reward (ADoP weekly)
+Falsifian        +  5c.  2020-01-01 17:17  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-01 17:17  Reward (Registrar weekly)
+----
+Publius Scribonius Scholasticus

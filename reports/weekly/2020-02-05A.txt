@@ -1,0 +1,274 @@
+------------------------------------------------------------------------
+                 Forbes 500 (Treasuror's Weekly Report)
+------------------------------------------------------------------------
+
+Date of this report: 2020-02-05
+Date of last report: 2020-02-05
+(all times UTC)
+
+
+NOTES:
+  * Due to bugs in Rules 2492 and 2602, Rewards and Glitter are
+    currently not being issued. The missed coins are being tracked in
+    the new section "Recession Tracker" below (on which claims of error
+    are welcomed, just as in the report proper). Yeah, I screwed up.
+    Sorry.
+
+
+ASSET INDEX                                       (does not self-ratify)
+========================================================================
+
+   Asset class    Recordkeepor    Ownership
+   -----------    ------------    -------------------------
+   Coins          Treasuror       Agora, players, contracts
+   Blots          Referee         Persons
+
+
+COIN BALANCES                                            (self-ratifies)
+========================================================================
+
+   Coins    Active player
+   -----    -------------
+      74    Alexis
+     329    Aris
+      40    ATMunn
+      90    Baron von Vaderham
+    1234    D. Margaux
+    1011    Falsifian
+      38    Gaelaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaan
+     419    G.
+     984    Jason
+     475    Murphy
+     246    omd
+      50    pikhq
+      18    Tcbapo
+    1033    twg
+      28    Warrigal
+
+   Coins    Zombie
+   -----    ------
+      20    Bernie
+      50    CuddleBeam
+      65    nch
+      50    o
+      10    Rance
+     615    Trigon
+      40    Walker
+
+   Coins    Non-player entity
+   -----    -----------------
+    1721    Agora
+      87    Lost and Found Department
+
+
+RECENT HISTORY                                    (does not self-ratify)
+========================================================================
+
+Entity           Change  Timestamp         Reason
+------------------------------------------------------------------------
+                         2020-02-05 16:31  [time of last report]
+nch              + 10c.  2020-02-01 00:00  Payday                      ^
+Walker           + 10c.  2020-02-01 00:00  Payday                      ^
+o                + 10c.  2020-02-01 00:00  Payday                      ^
+Rance            + 10c.  2020-02-01 00:00  Payday                      ^
+Bernie           + 10c.  2020-02-01 00:00  Payday                      ^
+Trigon           + 10c.  2020-02-01 00:00  Payday                      ^
+CuddleBeam       + 10c.  2020-02-01 00:00  Payday                      ^
+Tcbapo           + 10c.  2020-02-01 00:00  Payday                      ^
+Warrigal         + 10c.  2020-02-01 00:00  Payday                      ^
+Alexis           + 10c.  2020-02-01 00:00  Payday                      ^
+Jason            + 20c.  2020-02-01 00:00  Payday (Assesr., Rulekp.)   ^
+Falsifian        + 25c.  2020-02-01 00:00  Payday (Reg., Spk., Treas.) ^
+Baron von V.     + 10c.  2020-02-01 00:00  Payday                      ^
+D. Margaux       + 10c.  2020-02-01 00:00  Payday                      ^
+twg              + 15c.  2020-02-01 00:00  Payday (Referee)            ^
+ATMunn           + 10c.  2020-02-01 00:00  Payday                      ^
+Murphy           + 15c.  2020-02-01 00:00  Payday (ADoP)               ^
+G.               + 20c.  2020-02-01 00:00  Payday (Arbitor, Herald)    ^
+Gaelaaaaaaaaaaaan+ 15c.  2020-02-01 00:00  Payday                      ^
+Aris             + 15c.  2020-02-01 00:00  Payday (Promotor)           ^
+omd              + 20c.  2020-02-01 00:00  Payday (Comptrl., Distrib.) ^
+Falsifian        +  5c.  2020-01-29 00:26  Reward (Registrar weekly)
+Warrigal         +  2c.  2020-01-26 20:50  Transfer from Tcbapo
+Tcbapo           -  2c.  2020-01-26 20:50  Transfer to Warrigal
+twg              +  5c.  2020-01-28 16:02  Reward (Referee weekly)
+twg              +  5c.  2020-01-28 16:02  Reward (Treasuror weekly)
+Tcbapo           + 10c.  2020-01-28 05:36  Welcome Package
+Warrigal         +  2c.  2020-01-26 20:50  Transfer from Jason
+Jason            -  2c.  2020-01-26 20:50  Transfer to Warrigal
+Warrigal         +  2c.  2020-01-26 20:50  Transfer from twg
+twg              -  2c.  2020-01-26 20:50  Transfer to Warrigal
+Warrigal         +  2c.  2020-01-26 20:15  Transfer from G.
+G.               -  2c.  2020-01-26 20:15  Transfer to Warrigal
+twg              + 12c.  2020-01-26 12:16  Blue Glitter
+twg              +  5c.  2020-01-26 12:16  Reward (CFJ 3793)
+twg              +  7c.  2020-01-25 20:17  Cyan Glitter
+Alexis           + 18c.  2020-01-25 20:06  Reward (Proposal 8283)
+Alexis           + 12c.  2020-01-25 20:05  Blue Glitter
+Alexis           +  7c.  2020-01-25 20:05  Cyan Glitter
+G.               - 1Kc.  2020-01-25 19:51  WIN BY ECONOMICS
+R. Lee *         - 20c.  2020-01-25 13:31  Deregistration
+twg              +  5c.  2020-01-24 17:42  Reward (Referee weekly)
+twg              +  9c.  2020-01-24 16:54  Violet Glitter
+G.               +  5c.  2020-01-24 14:48  Reward (Herald weekly)
+Warrigal         + 10c.  2020-01-24 00:34  Welcome Package
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Registrar weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-23 04:27  Reward (Registrar weekly)
+Jason            +  5c.  2020-01-20 03:29  Reward (Rulekeepor weekly)
+Jason            +  5c.  2020-01-20 03:29  Reward (assessing a proposal)
+G.               + 12c.  2020-01-19 21:04  Blue Glitter
+G.               +  5c.  2020-01-19 21:04  Reward (CFJ 3792)
+G.               +  5c.  2020-01-19 21:04  Reward (CFJ 3790)
+G.               +  5c.  2020-01-19 21:04  Reward (Herald weekly)
+G.               +  5c.  2020-01-19 21:04  Reward (Arbitor weekly)
+Aris             +  5c.  2020-01-18 05:39  Reward (CFJ 3785)
+Aris             +  5c.  2020-01-18 05:39  Reward (CFJ 3784)
+Falsifian        + 12c.  2020-01-17 19:22  Blue Glitter
+Falsifian        +  5c.  2020-01-17 19:22  Reward (CFJ 3789)
+Agora            +111c.  2020-01-17 18:04  Transfer from G.
+G.               -111c.  2020-01-17 18:04  Transfer to Agora
+Jason            + 10c.  2020-01-16 17:21  Transfer from Rance
+Rance            - 10c.  2020-01-16 17:21  Transfer to Jason
+Agora            + 21c.  2020-01-16 17:21  Transfer from Jason
+Jason            - 21c.  2020-01-16 17:21  Transfer to Agora
+Jason            + 12c.  2020-01-16 17:17  Blue Glitter
+Agora            + 50c.  2020-01-16 13:16  Transfer from twg
+twg              - 50c.  2020-01-16 13:16  Transfer to Agora
+Agora            + 22c.  2020-01-16 06:16  Transfer from Gaelaaaaaaaaaaan
+Gaelaaaaaaaaaaaan- 22c.  2020-01-16 06:16  Transfer to Agora
+Jason            +  5c.  2020-01-14 01:43  Reward (CFJ 3791)
+twg              +  5c.  2020-01-14 01:28  Reward (Referee weekly)
+twg              +  5c.  2020-01-14 01:04  Reward (Tailor monthly)
+Alexis           + 12c.  2020-01-12 22:35  Blue Glitter
+Alexis           +  5c.  2020-01-12 22:35  Reward (CFJ 3783)
+twg              +  5c.  2020-01-11 21:28  Reward (Referee weekly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar monthly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-11 17:04  Reward (Registrar weekly)
+Alexis           + 10c.  2020-01-06 19:13  Welcome Package
+Jason            +  5c.  2020-01-06 17:37  Reward (assessing a proposal)
+Murphy           +  5c.  2020-01-05 18:06  Reward (ADoP weekly)
+Falsifian        +  5c.  2020-01-01 17:17  Reward (Treasuror weekly)
+Falsifian        +  5c.  2020-01-01 17:17  Reward (Registrar weekly)
+Falsifian        +  5c.  2020-01-01 00:00  Payday (Treasuror)
+nch              +  5c.  2020-01-01 00:00  Payday (Tailor)
+Falsifian        +  5c.  2020-01-01 00:00  Payday (Speaker)
+Jason            +  5c.  2020-01-01 00:00  Payday (Rulekeepor)
+Falsifian        +  5c.  2020-01-01 00:00  Payday (Registrar)
+twg              +  5c.  2020-01-01 00:00  Payday (Referee)
+Aris             +  5c.  2020-01-01 00:00  Payday (Promotor)
+G.               +  5c.  2020-01-01 00:00  Payday (Prime Minister)
+G.               +  5c.  2020-01-01 00:00  Payday (Herald)
+omd              +  5c.  2020-01-01 00:00  Payday (Distributor)
+Jason            +  5c.  2020-01-01 00:00  Payday (Assessor)
+G.               +  5c.  2020-01-01 00:00  Payday (Arbitor)
+Murphy           +  5c.  2020-01-01 00:00  Payday (ADoP)
+Walker           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+twg              + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Trigon           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Rance            + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+R. Lee *         + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+pikhq            + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+omd              + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+o                + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+nch              + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Murphy           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Jason            + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Gaelaaaaaaaaaaaan+ 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+G.               + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Falsifian        + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+D. Margaux       + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+CuddleBeam       + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Bernie           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Baron von V.     + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Aris             + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+ATMunn           + 10c.  2020-01-01 00:00  Payday (initial 10 coins)
+Jason            +  5c.  2019-12-30 03:26  Reward (Rulekeepor monthly)
+Jason            +  5c.  2019-12-30 03:26  Reward (Rulekeepor weekly)
+R. Lee *         + 10c.  2019-12-29 10:04  Welcome Package
+Murphy           +  5c.  2019-12-28 20:19  Reward (ADoP weekly)
+Jason            +  5c.  2019-12-13 04:35  Reward (Rulekeepor weekly)
+G.               + 30c.  2019-12-11 21:52  Transfer from Rance
+Rance            - 30c.  2019-12-11 21:52  Transfer to G.
+Jason            + 30c.  2019-12-11 20:48  Transfer from Bernie
+Bernie           - 30c.  2019-12-11 20:48  Transfer to Jason
+ATMunn           + 10c.  2019-12-11 19:21  Welcome Package
+
+* short for R. "rythwjkejhwyetrhrjkaigiuhrdafkt4wiq5yrw9jgnfnvmmKAKAJJ" Lee
+^ erroneously omitted from previous Treasuror report
+
+
+
+------------------------------------------------------------------------
+                 Recession Tracker (Unofficial Report)
+------------------------------------------------------------------------
+These coins will be granted to the listed recipients upon the adoption
+of Proposal 8311.
+
+
+Alexis:
+      11    Reward (Proposal 8288)
+      18    Reward (Proposal 8305)
+      14    Red Glitter (Proposal 8305)
+       5    Reward (Herald weekly, w/c 27 Jan)
+   -----
+      48
+
+Aris:
+       5    Reward (Proposal 8296)
+      24    Reward (Proposal 8297)
+      21    Reward (Proposal 8301)
+      12    Reward (Proposal 8302)
+      12    Reward (Proposal 8303)
+       5    Reward (Promotor weekly, w/c 27 Jan)
+   -----
+      79
+
+Bernie:
+      24    Reward (Proposal 8291)
+      18    Reward (Proposal 8292)
+      21    Reward (Proposal 8295)
+      14    Reward (Proposal 8304)
+   -----
+      77
+
+Falsifian:
+       5    Reward (Registrar monthly, Feb)
+   -----
+       5
+
+Gaelaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaan:
+       5    Reward (Notary weekly, w/c 27 Jan)
+   -----
+       5
+
+G.:
+      33    Reward (Proposal 8290)
+      14    Red Glitter (Proposal 8290)
+      13    Orange Glitter (Proposal 8290)
+   -----
+      60
+
+Jason:
+       5    Reward (assessing proposals, w/c 27 Jan)
+      20    Indigo Glitter (Baccalaureate of Nomic) [disputed by CFJ]
+       5    Reward (CFJ 3788)
+      14    Blue Glitter (CFJ 3788)
+   -----
+      44
+
+twg:
+       5    Reward (CFJ 3800)
+      13    Blue Glitter (CFJ 3800)
+       5    Reward (CFJ 3801)
+      13    Blue Glitter (CFJ 3801)
+       5    Reward (CFJ 3802)
+      13    Blue Glitter (CFJ 3802)
+       5    Reward (CFJ 3803)
+      13    Blue Glitter (CFJ 3803)
+       5    Reward (Treasuror weekly, w/c 3 Feb)
+       5    Reward (Referee weekly, w/c 3 Feb)
+   -----
+      82
