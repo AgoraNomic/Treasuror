@@ -9,6 +9,9 @@ Date of this report:           (whenever)
 
 (all times and dates in UTC)
 
+Reports available online in text and HTML formats at:
+https://agoranomic.org/Treasuror/reports
+
 
 NOTES ON REPORT                                       (contains no data)
 ========================================================================
@@ -19,14 +22,16 @@ NOTES ON REPORT                                       (contains no data)
 ASSET INDEX                                       (does not self-ratify)
 ========================================================================
 
-+-------------+--------------+---------------------------+
-| Asset class | Recordkeepor | Ownership                 |
-+=============+==============+===========================+
-| Coins       | Treasuror    | Agora, players, contracts |
-| Cards       | Treasuror    | Agora, players, contracts |
-| Products    | Treasuror    | Agora, players, contracts |
-| Blots       | Referee      | Persons                   |
-+-------------+--------------+---------------------------+
++-------------+--------------+-----------+
+| Asset class | Recordkeepor | Ownership |
++=============+==============+===========+
+| Coins       | Treasuror    | (Default) |
+| Cards       | Treasuror    | (Default) |
+| Products    | Treasuror    | (Default) |
+| Blots       | Referee      | Persons   |
++-------------+--------------+-----------+
+
+The default ownership is {Agora, Players, Contracts}
 
 
 ASSET BALANCES                                           (self-ratifies)
@@ -41,13 +46,13 @@ ASSET BALANCES                                           (self-ratifies)
 |Cuddlebeam|   0|   0|   0|   0|   0|   0|   0|   0|   0|
 |D. Margaux|1259|   1|   1|   1|   1|   0|   0|   0|   0|
 |Falsifian | 136|   0|   0|   1|   0|   0|   0|   0|   0|
-|G.        | 928|   1|   1|   2|   1|   0|   0|   0|   0|
+|G.        | 929|   1|   1|   2|   1|   0|   0|   0|   0|
 |Gaelan    |  58|   1|   1|   1|   1|   0|   0|   0|   0|
-|grok      |  35|   1|   1|   1|   1|   0|   0|   0|   0|
-|Jason     | 682|   1|   0|   0|   0|   0|   0|   6|   0|
+|grok      |  33|   1|   1|   1|   1|   0|   0|   0|   0|
+|Jason     | 682|   0|   0|   0|   0|   0|   0|   5|   0|
 |Murphy    | 235|   1|   1|   1|   1|   0|   0|   0|   0|
 |omd       | 286|   1|   1|   1|   1|   0|   0|   0|   0|
-|nch       |  89|   1|   1|   1|   2|   0|   0|   0|   0|
+|nch       |  90|   1|   1|   1|   2|   0|   0|   0|   0|
 |Publius   | 168|   1|   2|   1|   1|   0|   0|   0|   0|
 |R. Lee    |  43|   0|   0|   1|   0|   0|   0|   0|   0|
 |sukil     |  35|   1|   1|   1|   1|   0|   0|   0|   0|
@@ -132,6 +137,7 @@ RECENT HISTORY                                    (does not self-ratify)
 |Aris      |+   9c.|18 Jun 2020 00:31|Reward (Proposal 8435)           |
 |Aris      |+   9c.|18 Jun 2020 00:31|Reward (Proposal 8434)           |
 |Aris      |+   9c.|18 Jun 2020 00:31|Reward (Proposal 8431)           |
+|Jason     |- 1Pdt.|17 Jun 2020 23:55|Pending Proposal (Talismans)     |
 |DracoLotto|+ 1VtC.|17 Jun 2020 18:19|Transfer nch                     |
 |nch       |- 1VtC.|17 Jun 2020 18:19|Transfer DracoLotto              |
 |DracoLotto|+ 1LgC.|17 Jun 2020 16:16|Transfer ATMunn                  |
@@ -450,6 +456,10 @@ RECENT HISTORY                                    (does not self-ratify)
 |Entity    |Change |Timestamp        |Reason                           |
 +==========+=======+=================+=================================+
 |          |       |31 May 2020 22:13|   WEEKLY REPORT                 |
+|G.  	   |+   1c.|31 May 2020 19:37|Transfer nch                     |
+|grok	   |-   1c.|31 May 2020 19:37|Transfer G.                      |
+|nch 	   |+   1c.|31 May 2020 19:30|Transfer grok                    |
+|grok	   |-   1c.|31 May 2020 19:30|Transfer nch                     |
 |Murphy    |+   5c.|31 May 2020 07:29|Reward (CFJ 3836)                |
 |G.        |+   5c.|31 May 2020 07:29|Reward (CFJ 3835)                |
 |R. Lee    |+   5c.|31 May 2020 07:29|Reward (CFJ 3834)                |

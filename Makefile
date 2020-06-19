@@ -11,7 +11,7 @@ WEEKLYDIR = ${REPORTDIR}/weekly
 WEEKMDDIR = ${REPORTDIR}/weeklymd
 
 REPORTTXT = ${WEEKLYDIR}/fresh.txt
-REPORTMD = ${WEEKMDDIR}/${ISODATE}.md
+REPORTMD = ${WEEKMDDIR}/fresh.md
 
 .PHONY: markdown date copy
 
@@ -20,6 +20,8 @@ markdown: fresh.txt
 
 date:
 	sed -i "s/(whenever)/${LONGDATE}/" ${REPORTTXT} ${REPORTMD}
+	cp ${REPORTTXT} ${WEEKLYDIR}/${ISODATE}.txt
+	cp ${REPORTMD} ${WEEKMDDIR}/${ISODATE}.md
 
 copy: out.md fresh.txt
 	cp fresh.txt ${REPORTTXT}

@@ -1,11 +1,8 @@
-========================================================================
-                    FORBES FOUR HUNDRED NINETY-THREE
---------------------------------   or   --------------------------------
-                       TREASUROR'S WEEKLY REPORT
-========================================================================
+# FORBES FOUR HUNDRED NINETY-THREE
+*or* TREASUROR'S WEEKLY REPORT
 
-Date of last official report:  11 Jun 2020
-Date of this report:           19 June 2020
+* **Date of last official report:** 11 Jun 2020
+* **Date of this report:** 19 June 2020
 
 (all times and dates in UTC)
 
@@ -13,33 +10,30 @@ Reports available online in text and HTML formats at:
 https://agoranomic.org/Treasuror/reports
 
 
-NOTES ON REPORT                                       (contains no data)
-========================================================================
+## NOTES ON REPORT
+*(contains no data)*
 
 * As always, please check the accuracy of this report.
 
 
-ASSET INDEX                                       (does not self-ratify)
-========================================================================
+## ASSET INDEX
+*(does not self-ratify)*
 
-+-------------+--------------+-----------+
 | Asset class | Recordkeepor | Ownership |
-+=============+==============+===========+
+|:---|:---|:---|
 | Coins       | Treasuror    | (Default) |
 | Cards       | Treasuror    | (Default) |
 | Products    | Treasuror    | (Default) |
 | Blots       | Referee      | Persons   |
-+-------------+--------------+-----------+
 
 The default ownership is {Agora, Players, Contracts}
 
 
-ASSET BALANCES                                           (self-ratifies)
-========================================================================
+## ASSET BALANCES
+*(self-ratifies)*
 
-+----------+----+----+----+----+----+----+----+----+----+
 |  Player  |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
-+==========+====+====+====+====+====+====+====+====+====+
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 |Aris      | 700|   0|   0|   1|   0|   0|   0|   0|   0|
 |ATMunn    |  89|   1|   0|   0|   1|   0|   0|   0|   0|
 |Baron     | 115|   1|   1|   1|   1|   0|   0|   0|   0|
@@ -58,35 +52,29 @@ ASSET BALANCES                                           (self-ratifies)
 |sukil     |  35|   1|   1|   1|   1|   0|   0|   0|   0|
 |Trigon    |  90|   1|   1|   1|   1|   0|   0|   0|   0|
 |Tyler     |  10|   1|   1|   1|   1|   0|   0|   0|   0|
-+----------+----+----+----+----+----+----+----+----+----+
 
-+----------+----+----+----+----+----+----+----+----+----+
 |  Player  |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
-+==========+====+====+====+====+====+====+====+====+====+
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 |Tcbapo    |   0|   0|   0|   0|   0|   0|   0|   0|   0|
 |twg       |   0|   0|   0|   0|   0|   0|   0|   0|   0|
-+----------+----+----+----+----+----+----+----+----+----+
 
-+----------+----+----+----+----+----+----+----+----+----+
 |  Entity  |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
-+==========+====+====+====+====+====+====+====+====+====+
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 |Agora     |2300|   0|   0|   0|   0|   0|   0|   0|   0|
 |CB Locker | 166|   1|   1|   1|   1|   0|   0|   0|   0|
 |D. Corp.  | 495|   0|   0|   0|   0|   0|   0|   0|   0|
 |DracoLotto|   0|   3|   4|   4|   5|   0|   0|   0|   0|
 |L&F Dept. | 625|   1|   0|   1|   0|   0|   0|   0|   0|
 |NAX       |  15|   0|   0|   0|   0|   0|   0|   0|   0|
-+----------+----+----+----+----+----+----+----+----+----+
 
 All other Entities have 0 of all enumerated assets.
 
 
-ABBREVIATIONS                                         (contains no data)
-========================================================================
+## ABBREVIATIONS
+*(contains no data)*
 
-+-----------+---------------------------------+
 |   Abbrv   | Entity                          |
-+===========+=================================+
+|:---|:---|
 | Baron     | Baron Von Vaderham              |
 | Publius   | Publius Scribonius Scholasticus |
 | CB Locker | Cuddlebeam's Locker	      |
@@ -94,11 +82,9 @@ ABBREVIATIONS                                         (contains no data)
 | D. Corp.  | Dragon Corporation	      |
 | L&F Dept  | Lost and Found Department	      |
 | NAX       | Needlessly Abstract Exchange    |
-+-----------+---------------------------------+
 
-+------+---------------------------------+
 | Abbr | Office                          |
-+======+=================================+
+|:---|:---|
 | ADoP | Associate Director of Personnel |
 | Cptr | Comptrollor                     |
 | Dstr | Distributor                     |
@@ -107,11 +93,9 @@ ABBREVIATIONS                                         (contains no data)
 | Spkr | Speaker                         |
 | Tlor | Tailor                          |
 | Tsor | Treasuror                       |
-+------+---------------------------------+
 
-+------+------------------+
 | Abbr | Asset            |
-+======+==================+
+|:---|:---|
 | c.   | Coin             |
 | VcC. | Victory Card     |
 | JsC. | Justice Card     |
@@ -121,15 +105,13 @@ ABBREVIATIONS                                         (contains no data)
 | BBG. | Blot-B-Gone      |
 | Pdt. | Pendant          |
 | XVt. | Extra Vote       |
-+------+------------------+
 
 
-RECENT HISTORY                                    (does not self-ratify)
-========================================================================
+## RECENT HISTORY
+*(does not self-ratify)*
 
-+----------+-------+-----------------+---------------------------------+
 |  Entity  |Change |    Timestamp    |              Notes              |
-+==========+=======+=================+=================================+
+|:---|:---|:---|:---|
 |R. Lee    |+ 1LgC.|18 Jun 2020 01:05|Popular Proposal (Proposal 8438) |
 |Publius   |+  12c.|18 Jun 2020 00:31|Reward (Proposal 8439)           |
 |R. Lee    |+  12c.|18 Jun 2020 00:31|Reward (Proposal 8438)           |
@@ -450,11 +432,9 @@ RECENT HISTORY                                    (does not self-ratify)
 |Gaelan    |+  10c.|01 Jun 2020 00:00|Payday                           |
 |Aris      |+  20c.|01 Jun 2020 00:00|Payday (PM, Promotor)            |
 |omd       |+  15c.|01 Jun 2020 00:00|Payday (Distributor)             |
-+----------+-------+-----------------+---------------------------------+
 
-+----------+-------+-----------------+---------------------------------+
 |Entity    |Change |Timestamp        |Reason                           |
-+==========+=======+=================+=================================+
+|:---|:---|:---|:---|
 |          |       |31 May 2020 22:13|   WEEKLY REPORT                 |
 |G.  	   |+   1c.|31 May 2020 19:37|Transfer nch                     |
 |grok	   |-   1c.|31 May 2020 19:37|Transfer G.                      |
@@ -546,11 +526,9 @@ RECENT HISTORY                                    (does not self-ratify)
 |ATMunn    |+  10c.|01 May 2020 00:00|Payday                           |
 |nch       |+  10c.|01 May 2020 00:00|Payday                           |
 |pikhq     |+  10c.|01 May 2020 00:00|Payday                           |
-+----------+-------+-----------------+---------------------------------+
 
-+----------+-------+-----------------+---------------------------------+
 |Entity    |Change |Timestamp        |Reason                           |
-+==========+=======+=================+=================================+
+|:---|:---|:---|:---|
 |Publius   |+   5c.|28 Apr 2020 01:41|Reward (Tailor monthly)          |
 |Jason     |+   5c.|28 Apr 2020 01:41|Reward (Rulekeepor monthly)      |
 |Falsifian |+   5c.|28 Apr 2020 01:41|Reward (Registrar monthly)       |
@@ -656,11 +634,9 @@ RECENT HISTORY                                    (does not self-ratify)
 |R. Lee    |+  10c.|01 Apr 2020 00:00|Payday                           |
 |Publius   |+  10c.|01 Apr 2020 00:00|Payday                           |
 |Telanior  |+  10c.|01 Apr 2020 00:00|Payday                           |
-+----------+-------+-----------------+---------------------------------+
 
-+----------+-------+-----------------+---------------------------------+
 |Entity    |Change |Timestamp        |Reason                           |
-+==========+=======+=================+=================================+
+|:---|:---|:---|:---|
 |Jason     |+   5c.|28 Mar 2020 17:44|Reward (Rulekeepor monthly)      |
 |Jason     |+   5c.|28 Mar 2020 17:44|Reward (Assessed proposal)       |
 |Aris      |+   5c.|28 Mar 2020 17:44|Reward (Promotor weekly)         |
@@ -749,12 +725,10 @@ RECENT HISTORY                                    (does not self-ratify)
 |o         |+  10c.|01 Mar 2020 00:00|Payday                           |
 |Walker    |+  10c.|01 Mar 2020 00:00|Payday                           |
 |nch       |+  10c.|01 Mar 2020 00:00|Payday                           |
-+----------+-------+-----------------+---------------------------------+
 
 
-+----------+-------+-----------------+---------------------------------+
 |Entity    |Change |Timestamp        |Reason                           |
-+==========+=======+=================+=================================+
+|:---|:---|:---|:---|
 |          |       |29 Feb 2020 19:46|   WEEKLY REPORT                 |
 |Jason     |+  17c.|29 Feb 2020 20:42|Platinum Glitter                 |
 |Alexis    |+  14c.|29 Feb 2020 20:42|B Glitter (CFJ 3814)             |
@@ -846,6 +820,4 @@ RECENT HISTORY                                    (does not self-ratify)
 |Gaelan    |+  15c.|01 Feb 2020 00:00|Payday                           |
 |Aris      |+  15c.|01 Feb 2020 00:00|Payday (Promotor)                |
 |omd       |+  20c.|01 Feb 2020 00:00|Payday (Comptrollor, Distributor)|
-+----------+-------+-----------------+---------------------------------+
 
-	     === END OF THE TREASUROR'S WEEKLY REPORT ===
