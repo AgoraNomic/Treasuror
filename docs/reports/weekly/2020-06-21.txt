@@ -6,7 +6,7 @@
 
 Date of last official report:  11 June 2020
 Date of revision 0:            19 June 2020
-Date of revision 1:            (whenever)
+Date of revision 1:            21 June 2020
 
 (all times and dates in UTC)
 

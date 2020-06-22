@@ -1,8 +1,9 @@
 # FORBES FOUR HUNDRED NINETY-THREE
 *or* TREASUROR'S WEEKLY REPORT
 
-* **Date of last official report:** 11 Jun 2020
-* **Date of this report:** 19 June 2020
+* **Date of last official report:** 11 June 2020
+* **Date of revision 0:** 19 June 2020
+* **Date of revision 1:** 22 June 2020
 
 (all times and dates in UTC)
 
@@ -14,101 +15,88 @@ https://agoranomic.org/Treasuror/reports
 *(contains no data)*
 
 * As always, please check the accuracy of this report.
-
-
-## ASSET INDEX
-*(does not self-ratify)*
-
-| Asset class | Recordkeepor | Ownership |
-|:---|:---|:---|
-| Coins       | Treasuror    | (Default) |
-| Cards       | Treasuror    | (Default) |
-| Products    | Treasuror    | (Default) |
-| Blots       | Referee      | Persons   |
-
-The default ownership is {Agora, Players, Contracts}
+* Revision 1 fixes several minor issues with slightly inaccurate card
+  balances.
+* This report is only accurate as of the time of revision 0.
 
 
 ## ASSET BALANCES
 *(self-ratifies)*
 
-|  Player  |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
+|  Player    |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-|Aris      | 700|   0|   0|   1|   0|   0|   0|   0|   0|
-|ATMunn    |  89|   1|   0|   0|   1|   0|   0|   0|   0|
-|Baron     | 115|   1|   1|   1|   1|   0|   0|   0|   0|
-|Cuddlebeam|   0|   0|   0|   0|   0|   0|   0|   0|   0|
-|D. Margaux|1259|   1|   1|   1|   1|   0|   0|   0|   0|
-|Falsifian | 136|   0|   0|   1|   0|   0|   0|   0|   0|
-|G.        | 929|   1|   1|   2|   1|   0|   0|   0|   0|
-|Gaelan    |  58|   1|   1|   1|   1|   0|   0|   0|   0|
-|grok      |  33|   1|   1|   1|   1|   0|   0|   0|   0|
-|Jason     | 682|   0|   0|   0|   0|   0|   0|   5|   0|
-|Murphy    | 235|   1|   1|   1|   1|   0|   0|   0|   0|
-|omd       | 286|   1|   1|   1|   1|   0|   0|   0|   0|
-|nch       |  90|   1|   1|   1|   2|   0|   0|   0|   0|
-|Publius   | 168|   1|   2|   1|   1|   0|   0|   0|   0|
-|R. Lee    |  43|   0|   0|   1|   0|   0|   0|   0|   0|
-|sukil     |  35|   1|   1|   1|   1|   0|   0|   0|   0|
-|Trigon    |  90|   1|   1|   1|   1|   0|   0|   0|   0|
-|Tyler     |  10|   1|   1|   1|   1|   0|   0|   0|   0|
+|Aris        | 700|   0|   0|   1|   0|   0|   0|   0|   0|
+|ATMunn      |  89|   1|   0|   0|   1|   0|   0|   0|   0|
+|Baron[1]    | 115|   1|   1|   1|   1|   0|   0|   0|   0|
+|Cuddlebeam  |   0|   0|   0|   0|   0|   0|   0|   0|   0|
+|D. Margaux  |1259|   1|   1|   1|   1|   0|   0|   0|   0|
+|Falsifian   | 136|   0|   0|   1|   0|   0|   0|   0|   0|
+|G.          | 929|   1|   1|   3|   1|   0|   0|   0|   0|
+|Gaelan      |  58|   1|   1|   1|   1|   0|   0|   0|   0|
+|grok        |  33|   1|   1|   1|   1|   0|   0|   0|   0|
+|Jason       | 682|   0|   0|   0|   0|   0|   0|   5|   0|
+|Murphy      | 235|   1|   1|   1|   1|   0|   0|   0|   0|
+|omd         | 286|   1|   1|   1|   1|   0|   0|   0|   0|
+|nch         |  90|   1|   1|   1|   2|   0|   0|   0|   0|
+|Publius[2]  | 168|   1|   2|   2|   1|   0|   0|   0|   0|
+|R. Lee      |  43|   0|   0|   1|   0|   0|   0|   0|   0|
+|sukil       |  35|   1|   1|   1|   1|   0|   0|   0|   0|
+|Trigon      |  90|   1|   1|   1|   1|   0|   0|   0|   0|
+|Tyler       |  10|   1|   1|   1|   1|   0|   0|   0|   0|
 
-|  Player  |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-|Tcbapo    |   0|   0|   0|   0|   0|   0|   0|   0|   0|
-|twg       |   0|   0|   0|   0|   0|   0|   0|   0|   0|
+1. Baron von Vaderham
+2. Publius Scribonius Scholasticus
 
-|  Entity  |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
+|   Zombie   |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-|Agora     |2300|   0|   0|   0|   0|   0|   0|   0|   0|
-|CB Locker | 166|   1|   1|   1|   1|   0|   0|   0|   0|
-|D. Corp.  | 495|   0|   0|   0|   0|   0|   0|   0|   0|
-|DracoLotto|   0|   3|   4|   4|   5|   0|   0|   0|   0|
-|L&F Dept. | 625|   1|   0|   1|   0|   0|   0|   0|   0|
-|NAX       |  15|   0|   0|   0|   0|   0|   0|   0|   0|
+|Tcbapo      |   0|   0|   0|   0|   0|   0|   0|   0|   0|
+|twg         |   0|   0|   0|   0|   0|   0|   0|   0|   0|
+
+|   Entity   |Coin|VcC.|JsC.|LgC.|VtC.|VPt.|BBG.|Pdt.|XVt.|
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|Agora       |2300|   0|   0|   0|   0|   0|   0|   0|   0|
+|CB Locker[1]| 166|   1|   1|   1|   1|   0|   0|   0|   0|
+|D. Corp.[2] | 495|   0|   0|   0|   0|   0|   0|   0|   0|
+|DracoLotto  |   0|   3|   4|   4|   5|   0|   0|   0|   0|
+|L&F Dept.[3]| 625|   1|   0|   1|   0|   0|   0|   0|   0|
+|NAX         |  15|   0|   0|   0|   0|   0|   0|   0|   0|
+
+1. Cuddlebeam's Locker
+2. Dragon Corporation
+3. Lost and Found Department
 
 All other Entities have 0 of all enumerated assets.
 
 
-## ABBREVIATIONS
-*(contains no data)*
+## ASSET INDEX
+*(does not self-ratify)*
 
-|   Abbrv   | Entity                          |
-|:---|:---|
-| Baron     | Baron Von Vaderham              |
-| Publius   | Publius Scribonius Scholasticus |
-| CB Locker | Cuddlebeam's Locker	      |
-| Combotron | Combinotron                     |
-| D. Corp.  | Dragon Corporation	      |
-| L&F Dept  | Lost and Found Department	      |
-| NAX       | Needlessly Abstract Exchange    |
+* Tracked by the Treasuror (this report)
+  * Coins (c.)
+  * Cards
+    * Victory (VcC.), Justice (JsC.), Legislative (LgC.), Voting (VtC.)
+  * Products
+    * Victory Points (VPt.), Blot-B-Gone (BBG.), Pendant (Pdt.), Extra
+      Vote (XVt.)
+
+* Tracked by the Referee
+  * Blots
+
+
+## RECENT HISTORY
+*(does not self-ratify)*
+
+Abbreviations used:
 
 | Abbr | Office                          |
 |:---|:---|
 | ADoP | Associate Director of Personnel |
 | Cptr | Comptrollor                     |
-| Dstr | Distributor                     |
 | PM   | Prime Minister                  |
 | Rstr | Registrar                       |
 | Spkr | Speaker                         |
 | Tlor | Tailor                          |
 | Tsor | Treasuror                       |
-
-| Abbr | Asset            |
-|:---|:---|
-| c.   | Coin             |
-| VcC. | Victory Card     |
-| JsC. | Justice Card     |
-| LgC. | Legislative Card |
-| VtC. | Voting Card      |
-| VPt. | Victory Point    |
-| BBG. | Blot-B-Gone      |
-| Pdt. | Pendant          |
-| XVt. | Extra Vote       |
-
-
-## RECENT HISTORY
-*(does not self-ratify)*
 
 |  Entity  |Change |    Timestamp    |              Notes              |
 |:---|:---|:---|:---|
@@ -132,6 +120,7 @@ All other Entities have 0 of all enumerated assets.
 |Jason     |- 3LgC.|16 Jun 2020 21:23|Set of Cards                     |
 |Publius   |+ 1JsC.|16 Jun 2020 21:16|Transfer Jason                   |
 |Jason     |- 1JsC.|16 Jun 2020 21:16|Transfer Publius                 |
+|Publius   |+ 1LgC.|16 Jun 2020 21:10|Official Grant (Rulekeepor Jason)|
 |Jason     |+ 1LgC.|16 Jun 2020 21:10|Transfer Publius                 |
 |Publius   |- 1LgC.|16 Jun 2020 21:10|Transfer Jason                   |
 |Jason     |+ 1JsC.|16 Jun 2020 21:10|Official Grant (Referee Publius) |
@@ -436,10 +425,10 @@ All other Entities have 0 of all enumerated assets.
 |Entity    |Change |Timestamp        |Reason                           |
 |:---|:---|:---|:---|
 |          |       |31 May 2020 22:13|   WEEKLY REPORT                 |
-|G.  	   |+   1c.|31 May 2020 19:37|Transfer nch                     |
-|grok	   |-   1c.|31 May 2020 19:37|Transfer G.                      |
-|nch 	   |+   1c.|31 May 2020 19:30|Transfer grok                    |
-|grok	   |-   1c.|31 May 2020 19:30|Transfer nch                     |
+|G.        |+   1c.|31 May 2020 19:37|Transfer nch                     |
+|grok      |-   1c.|31 May 2020 19:37|Transfer G.                      |
+|nch       |+   1c.|31 May 2020 19:30|Transfer grok                    |
+|grok      |-   1c.|31 May 2020 19:30|Transfer nch                     |
 |Murphy    |+   5c.|31 May 2020 07:29|Reward (CFJ 3836)                |
 |G.        |+   5c.|31 May 2020 07:29|Reward (CFJ 3835)                |
 |R. Lee    |+   5c.|31 May 2020 07:29|Reward (CFJ 3834)                |
