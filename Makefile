@@ -13,7 +13,10 @@ WEEKMDDIR = ${REPORTDIR}/weeklymd
 REPORTTXT = ${WEEKLYDIR}/fresh.txt
 REPORTMD = ${WEEKMDDIR}/fresh.md
 
-.PHONY: markdown date copy
+.PHONY: split markdown date copy
+
+split: fresh.txt
+	${AWK} -f splithist.awk fresh.txt > split.txt
 
 markdown: fresh.txt
 	${AWK} -f markdown.awk fresh.txt > out.md
