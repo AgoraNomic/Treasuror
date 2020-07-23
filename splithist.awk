@@ -18,7 +18,7 @@ BEGIN {
     position++;
 }
 
-/LAST WEEKLY REPORT/ {
+/WEEKLY/ {
     position = -1;
 }
 
