@@ -4,28 +4,18 @@
                        TREASUROR'S WEEKLY REPORT
 ========================================================================
 
-<<<<<<< HEAD
-Date of last official report:  17 July 2020
-Date of this report:           23 July 2020
-=======
 Date of last official report:  6 July 2020
 Date of this report:           18 July 2020
->>>>>>> df8eecbfc29c303d92ed5206fcb57e8c479ebc39
 
 (all times and dates in UTC)
 
 Reports available online in text and HTML formats at:
-<https://agoranomic.org/Treasuror/reports>
+https://agoranomic.org/Treasuror/reports
 
 
 NOTES ON REPORT                                       (contains no data)
 ========================================================================
 
-<<<<<<< HEAD
-* This week was much quieter than past weeks. Around 50 lines of
-  transactions as compared to the hundreds from previous weeks.
-* As always, please check the general accuracy of this report.
-=======
 * FIXES:
   * Falsifian transferred two Blot-B-Gones to Dragon QuickExchange on
     29 Jun 2020.
@@ -40,7 +30,6 @@ NOTES ON REPORT                                       (contains no data)
   * Thanks for the CoEs. I include the next bullet point in all of my
     reports for a reason.
   * As always, please check the general accuracy of this report.
->>>>>>> df8eecbfc29c303d92ed5206fcb57e8c479ebc39
 
 
 ASSET BALANCES                                           (self-ratifies)
@@ -49,23 +38,6 @@ ASSET BALANCES                                           (self-ratifies)
 +------------+----+----+----+----+----+----+----+----+----+
 |   Player   | cn | wc | jc | lc | vc | wp | bg | pd | xv |
 +============+====+====+====+====+====+====+====+====+====+
-<<<<<<< HEAD
-|Aris        | 805|   0|   0|   0|   0|   3|   2|   4|   2|
-|ATMunn      |  39|   0|   0|   0|   2|   0|   0|   1|   0|
-|Cuddlebeam  |  12|   1|   1|   1|   1|   0|   0|   0|   0|
-|Falsifian   | 334|   0|   2|   1|   0|   0|   0|   0|   0|
-|Fred        |  10|   1|   1|   1|   1|   0|   0|   0|   0|
-|G.          |1114|   1|   0|   0|   1|   0|   6|   9|   0|
-|Gaelan      |  63|   1|   1|   1|   1|   0|   0|   0|   0|
-|grok        |  43|   1|   1|   1|   1|   0|   0|   0|   0|
-|Jason       | 923|   0|   0|   0|   1|   1|   7|   4|   0|
-|Murphy      | 283|   1|   1|   1|   1|   0|   0|   0|   0|
-|omd         | 281|   1|   1|   1|   1|   0|   0|   0|   0|
-|nch         | 171|   1|   1|   0|   3|   0|   0|   2|   4|
-|Publius[1]  | 321|   2|   0|   3|   1|   0|   1|   0|   3|
-|R. Lee      | 156|   1|   0|   0|   0|   0|   0|   0|   0|
-|Trigon      | 157|   0|   1|   2|   0|   0|   0|   0|   0|
-=======
 |Aris        | 800|   0|   0|   0|   0|   3|   2|   4|   2|
 |ATMunn      | 112|   0|   0|   0|   2|   0|   0|   1|   0|
 |Baron[1]    | 120|   1|   1|   1|   1|   0|   0|   0|   0|
@@ -85,46 +57,23 @@ ASSET BALANCES                                           (self-ratifies)
 |sukil       |  40|   1|   1|   1|   1|   0|   0|   0|   0|
 |Telnaior    |   5|   0|   0|   0|   0|   0|   0|   0|   0|
 |Trigon      | 162|   0|   1|   2|   0|   0|   0|   0|   0|
->>>>>>> df8eecbfc29c303d92ed5206fcb57e8c479ebc39
 |Tyler       |  15|   1|   1|   1|   1|   0|   0|   0|   0|
 |Zyborg      |  15|   1|   1|   1|   1|   0|   0|   0|   0|
 +------------+----+----+----+----+----+----+----+----+----+
 
-1. Publius Scribonius Scholasticus
+1. Baron von Vaderham
+2. Publius Scribonius Scholasticus
 
 +------------+----+----+----+----+----+----+----+----+----+
 |   Zombie   | cn | wc | jc | lc | vc | wp | bg | pd | xv |
 +============+====+====+====+====+====+====+====+====+====+
-|Baron[1]    | 120|   1|   1|   1|   1|   0|   0|   0|   0|
-|D. Margaux  |1264|   1|   1|   1|   1|   0|   0|   0|   0|
-|sukil       |  40|   1|   1|   1|   1|   0|   0|   0|   0|
-|Telnaior    |   5|   0|   0|   0|   0|   0|   0|   0|   0|
+|Tcbapo      |   0|   0|   0|   0|   0|   0|   0|   0|   0|
 |twg         |   0|   0|   0|   0|   0|   0|   0|   0|   0|
 +------------+----+----+----+----+----+----+----+----+----+
-
-1. Baron von Vaderham
 
 +------------+----+----+----+----+----+----+----+----+----+
 |   Entity   | cn | wc | jc | lc | vc | wp | bg | pd | xv |
 +============+====+====+====+====+====+====+====+====+====+
-<<<<<<< HEAD
-|Agora       |2340|   0|   0|   0|   0|   0|   0|   0|   0|
-|CB Locker[1]| 222|   0|   0|   0|   0|   0|   0|   0|   0|
-|D. Corp.[2] | 495|   0|   0|   1|   0|   0|   1|   1|   1|
-|DragonQE    |   0|   0|   0|   0|   0|   2|   2|   6|   1|
-|IBTWWBG     |  50|   0|   0|   0|   0|   0|   0|   0|   0|
-|L&F Dept.[3]| 183|   0|   0|   0|   0|   0|   0|   0|   0|
-|PlunderPS[4]| 179|   0|   0|   0|   0|   0|   0|   0|   0|
-|Ponzi[5]    |   1|   0|   0|   0|   0|   0|   0|   0|   0|
-|The Bank    |   0|   0|   0|   0|   0|   0|   0|   0|   0|
-+------------+----+----+----+----+----+----+----+----+----+
-
-1. Cuddlebeam's Locker
-2. Dragon Corporation
-3. Lost and Found Department
-4. The Plunder Partnership
-5. The Ponzi Scheme
-=======
 |*8fingine[1]|   0|   0|   0|   0|   0|   0|   0|   0|   0|
 |Agora       |2340|   0|   0|   0|   0|   0|   0|   0|   0|
 |*Cardmach[2]|   0|   0|   0|   0|   0|   0|   0|   0|   0|
@@ -145,7 +94,6 @@ ASSET BALANCES                                           (self-ratifies)
 5. Lost and Found Department
 6. The Plunder Partnership
 7. (now defunct) Anti-Trigon Lockbox
->>>>>>> df8eecbfc29c303d92ed5206fcb57e8c479ebc39
 
 All other Entities have 0 of all enumerated assets. Starred entities
 owned assets this week but are now defunct.
@@ -186,56 +134,6 @@ Abbreviations used:
 +----------+-------+-----------------+---------------------------------+
 |  Entity  |Change |    Timestamp    |              Notes              |
 +==========+=======+=================+=================================+
-<<<<<<< HEAD
-|G.        |-   1bg|22 Jul 2020 15:53|Blot expungement (Gaelan)        |
-|G.        |-   1bg|22 Jul 2020 15:53|Blot expungement (Gaelan)        |
-|R. Lee    |+ 100cn|20 Jul 2020 00:32|Transfer ATMunn                  |
-|ATMunn    |- 100cn|20 Jul 2020 00:32|Transfer R. Lee                  |
-|Jason     |+   8cn|19 Jul 2020 23:47|Reward (Proposal 8476)           |
-|G.        |+   6cn|19 Jul 2020 23:47|Reward (Proposal 8474)           |
-|ATMunn    |+  10cn|19 Jul 2020 23:47|Reward (Proposal 8473)           |
-|Publius   |+   5cn|19 Jul 2020 19:36|Reward (Tailor weekly)           |
-|Publius   |+   5cn|19 Jul 2020 19:36|Reward (Herald weekly)           |
-|Publius   |+   5cn|19 Jul 2020 19:36|Reward (Referee weekly)          |
-|Trigon    |+   5cn|19 Jul 2020 19:36|Reward (Treasuror weekly)        |
-|G.        |+   5cn|19 Jul 2020 19:36|Reward (Arbitor weekly)          |
-|Falsifian |+   5cn|19 Jul 2020 19:36|Reward (Registrar weekly)        |
-|ATMunn    |+   5cn|19 Jul 2020 19:36|Reward (Notary weekly)           |
-|Aris      |+   5cn|19 Jul 2020 19:36|Reward (Promotor weekly)         |
-|Murphy    |+   5cn|19 Jul 2020 19:36|Reward (ADoP weekly)             |
-|Jason     |+  20cn|19 Jul 2020 18:59|Transfer Murphy                  |
-|Murphy    |-  20cn|19 Jul 2020 18:59|Transfer Jason                   |
-|ATMunn    |+  10cn|19 Jul 2020 14:31|B Glitter (CFJ 3868)             |
-|Murphy    |+  10cn|19 Jul 2020 14:31|B Glitter (CFJ 3863)             |
-|R. Lee    |+   8cn|18 Jul 2020 02:17|Transfer Ponzi                   |
-|Ponzi     |-   8cn|18 Jul 2020 02:17|Transfer R. Lee                  |
-|Jason     |+   1cn|18 Jul 2020 02:17|Transfer Ponzi                   |
-|Ponzi     |-   1cn|18 Jul 2020 02:17|Transfer Jason                   |
-|Ponzi     |+  10cn|18 Jul 2020 02:13|Transfer Trigon                  |
-|Trigon    |-  10cn|18 Jul 2020 02:13|Transfer Ponzi                   |
-|R. Lee    |+   2cn|18 Jul 2020 02:05|Transfer Ponzi                   |
-|Ponzi     |-   2cn|18 Jul 2020 02:05|Transfer R. Lee                  |
-|ATMunn    |+   4cn|18 Jul 2020 02:05|Transfer Ponzi                   |
-|Ponzi     |-   4cn|18 Jul 2020 02:05|Transfer ATMunn                  |
-|Publius   |+   8cn|18 Jul 2020 02:05|Transfer Ponzi                   |
-|Ponzi     |-   8cn|18 Jul 2020 02:05|Transfer Publius                 |
-|Ponzi     |+   6cn|18 Jul 2020 01:50|Transfer G.                      |
-|G.        |-   6cn|18 Jul 2020 01:50|Transfer Ponzi                   |
-|Ponzi     |+   7cn|18 Jul 2020 01:44|Transfer R. Lee                  |
-|R. Lee    |-   7cn|18 Jul 2020 01:44|Transfer Ponzi                   |
-|Publius   |+   2cn|18 Jul 2020 00:55|Transfer Ponzi                   |
-|Ponzi     |-   2cn|18 Jul 2020 00:55|Transfer Publius                 |
-|Publius   |+   8cn|18 Jul 2020 00:53|Transfer Ponzi                   |
-|Ponzi     |-   8cn|18 Jul 2020 00:53|Transfer Publius                 |
-|Jason     |+   1cn|18 Jul 2020 00:50|Transfer Ponzi                   |
-|Ponzi     |-   1cn|18 Jul 2020 00:50|Transfer Jason                   |
-|Ponzi     |+   2cn|18 Jul 2020 00:51|Transfer ATMunn                  |
-|ATMunn    |-   2cn|18 Jul 2020 00:51|Transfer Ponzi                   |
-|Ponzi     |+  10cn|18 Jul 2020 00:50|Transfer Publius                 |
-|Publius   |-  10cn|18 Jul 2020 00:50|Transfer Ponzi                   |
-|          |       |17 Jul 2020 23:19|   LAST WEEKLY REPORT            |
-=======
->>>>>>> df8eecbfc29c303d92ed5206fcb57e8c479ebc39
 |ATMunn    |+   5cn|16 Jul 2020 21:11|Reward (CFJ 3863)                |
 |Jason     |+   5cn|16 Jul 2020 21:11|Reward (CFJ 3865)                |
 |G.        |+   5cn|16 Jul 2020 21:11|Reward (CFJ 3864)                |
@@ -281,10 +179,7 @@ Abbreviations used:
 |PlunderPS |-  12cn|13 Jul 2020 07:32|Transfer Cuddlebeam (Doubloons)  |
 |Aris      |+  12cn|13 Jul 2020 07:28|Transfer PlunderPS (Doubloons)   |
 |PlunderPS |-  12cn|13 Jul 2020 07:28|Transfer Aris (Doubloons)        |
-<<<<<<< HEAD
-=======
 |          |       |                 |   MIDWEEKLY DRAFT               |
->>>>>>> df8eecbfc29c303d92ed5206fcb57e8c479ebc39
 |nch       |+   5cn|12 Jul 2020 16:15|Reward (Webmastor monthly)       |
 |G.        |+   5cn|12 Jul 2020 16:15|Reward (Coopor monthly)          |
 |Publius   |+   5cn|12 Jul 2020 16:15|Reward (Herald monthly)          |
@@ -416,11 +311,7 @@ Abbreviations used:
 |CB Locker |-   1wc|06 Jul 2020 16:48|Transfer Cuddlebeam              |
 |CB Locker |+  14cn|06 Jul 2020 16:20|Transfer Cuddlebeam              |
 |Cuddlebeam|-  14cn|06 Jul 2020 16:20|Transfer CB Locker               |
-<<<<<<< HEAD
-|          |       |06 Jul 2020 15:44|   WEEKLY REPORT                 |
-=======
 |          |       |06 Jul 2020 15:44|   LAST WEEKLY REPORT            |
->>>>>>> df8eecbfc29c303d92ed5206fcb57e8c479ebc39
 |Jason     |-   1pd|06 Jul 2020 01:59|Pending proposal (Bribery)       |
 |G.        |-   1pd|05 Jul 2020 22:22|Pending proposal (Karma bank)    |
 |Publius   |+   9cn|05 Jul 2020 12:16|B Glitter (CFJ 3851)             |
