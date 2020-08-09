@@ -1,8 +1,11 @@
-# FORBES FOUR HUNDRED EIGHTY-SIX
-*or* TREASUROR'S WEEKLY REPORT
+========================================================================
+                    FORBES FOUR HUNDRED EIGHTY-SEVEN
+--------------------------------   or   --------------------------------
+                       TREASUROR'S WEEKLY REPORT
+========================================================================
 
-* **Date of last week's first report:** 02 August 2020
-* **Date of this week's first report:** 09 August 2020
+Date of last week's first report:  23 July 2020
+Date of this week's first report:  02 August 2020
 
 (all times and dates in UTC)
 
@@ -10,79 +13,88 @@ Reports available online in text and HTML formats at:
 <https://agoranomic.org/Treasuror/reports>
 
 
-## NOTES ON REPORT
-*(contains no data)*
+NOTES ON REPORT                                       (contains no data)
+========================================================================
 
 * ASSUMPTIONS
-  * This report assumes that shelvacu has not had any Agoran birthdays.
+  * This report assumes that neither of Trigon's attempts to accept
+    G.'s signature suggestion were effective.
 
 * GENERAL
-  * History from March has been deleted from this report in order to cut
-    on report size.
-  * Very weak showing this week. Only a few lines of transactions.
+  * A payday has occured since the previous report/draft. Please check
+    that you got the right amount.
+  * Publishing a report is not a game action and therefore it should be
+    possible for me to publish it.
   * As always, please check the general accuracy of this report.
 
 
-## ASSET BALANCES
-*(self-ratifies)*
+ASSET BALANCES                                           (self-ratifies)
+========================================================================
 
++-------------+----+----+----+----+----+----+----+----+----+
 |   Player    | cn | wc | jc | lc | vc | wp | bg | pd | xv |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-|Aris         | 830|   0|   0|   0|   0|   3|   2|   2|   2|
++=============+====+====+====+====+====+====+====+====+====+
+|Aris         | 825|   0|   0|   0|   0|   3|   2|   2|   2|
 |ATMunn       |  74|   2|   0|   0|   1|   0|   0|   1|   0|
 |Cuddlebeam   |   5|   1|   0|   0|   0|   0|   0|   0|   0|
-|Falsifian    | 364|   0|   2|   0|   0|   0|   0|   0|   0|
+|Falsifian    | 359|   0|   2|   0|   0|   0|   0|   0|   0|
 |Fred         |  10|   1|   1|   1|   1|   0|   0|   0|   0|
 |G.           |1131|   0|   0|   0|   3|   0|   6|   7|   0|
 |Gaelan       |  68|   1|   1|   2|   1|   0|   0|   0|   0|
 |grok         |  48|   1|   1|   1|   1|   0|   0|   0|   0|
 |Jason        | 974|   0|   0|   1|   1|   1|   7|   3|   0|
-|Murphy       | 329|   1|   1|   0|   1|   0|   0|   0|   0|
-|nix          | 171|   2|   0|   0|   3|   0|   0|   1|   4|
+|Murphy       | 324|   1|   1|   0|   1|   0|   0|   0|   0|
+|nix          | 171|   1|   1|   0|   3|   0|   0|   1|   4|
 |omd          | 294|   1|   1|   1|   1|   0|   0|   0|   0|
-|Publius[1]   | 404|   2|   0|   1|   1|   0|   1|   5|   3|
-|R. Lee       |  94|   1|   1|   0|   0|   0|   0|   0|   0|
-|shelvacu     |  10|   1|   1|   1|   1|   0|   0|   0|   0|
-|Trigon       | 186|   0|   1|   0|   0|   0|   0|   3|   0|
+|Publius[1]   | 389|   2|   0|   1|   1|   0|   1|   5|   3|
+|R. Lee       | 166|   1|   0|   0|   0|   0|   0|   0|   0|
+|Trigon       | 178|   0|   1|   0|   0|   0|   0|   3|   0|
 |Tyler        |  20|   1|   1|   1|   1|   0|   0|   0|   0|
 |Zyborg       |  20|   1|   1|   1|   1|   0|   0|   0|   0|
++-------------+----+----+----+----+----+----+----+----+----+
 
 1. Publius Scribonius Scholasticus
 
++-------------+----+----+----+----+----+----+----+----+----+
 |   Zombie    | cn | wc | jc | lc | vc | wp | bg | pd | xv |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
++=============+====+====+====+====+====+====+====+====+====+
 |Baron[1]     | 120|   1|   1|   1|   1|   0|   0|   0|   0|
 |D. Margaux   |1264|   1|   1|   1|   1|   0|   0|   0|   0|
 |sukil        |  40|   1|   1|   1|   1|   0|   0|   0|   0|
 |Telnaior     |   5|   0|   0|   0|   0|   0|   0|   0|   0|
 |twg          |   0|   0|   0|   0|   0|   0|   0|   0|   0|
++-------------+----+----+----+----+----+----+----+----+----+
 
 1. Baron von Vaderham
 
++-------------+----+----+----+----+----+----+----+----+----+
 |   Entity    | cn | wc | jc | lc | vc | wp | bg | pd | xv |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
++=============+====+====+====+====+====+====+====+====+====+
 |Agora        |2340|   0|   0|   0|   0|   0|   0|   0|   0|
 |CB Locker[1] | 234|   1|   1|   1|   1|   0|   0|   0|   0|
 |D. Corp.[2]  | 495|   0|   0|   8|   0|   0|   1|   1|   1|
-|DragonQE     |   0|   0|   0|   0|   0|   2|   2|   5|   1|
+|DragonQE     |   0|   0|   0|   0|   0|   2|   2|   6|   1|
 |IBTWWBG      |  50|   0|   0|   0|   0|   0|   0|   0|   0|
 |L&F Dept.[3] | 183|   0|   0|   0|   0|   0|   0|   0|   0|
 |PlunderPS[4] | 179|   0|   0|   0|   0|   0|   0|   0|   0|
-|SEAMSTRESS[5]|   0|   0|   0|   0|   0|   0|   0|   0|   0|
+|*Ponzi[5]    |   0|   0|   0|   0|   0|   0|   0|   0|   0|
+|SEAMSTRESS[6]|   3|   0|   0|   0|   0|   0|   0|   0|   0|
++-------------+----+----+----+----+----+----+----+----+----+
 
 1. Cuddlebeam's Locker
 2. Dragon Corporation
 3. Lost and Found Department
 4. The Plunder Partnership
-5. Signature Enthusiast Allows Modification of Signature Through
+5. (now defunct) The Ponzi Scheme
+6. Signature Enthusiast Allows Modification of Signature Through
    Rigorous Exchanging of Signature Suggestions
 
 All other Entities have 0 of all enumerated assets. Starred entities
 owned assets this week but are now defunct.
 
 
-## ASSET INDEX
-*(does not self-ratify)*
+ASSET INDEX                                       (does not self-ratify)
+========================================================================
 
 * Tracked by the Treasuror (this report)
   * Coins (cn)
@@ -90,15 +102,20 @@ owned assets this week but are now defunct.
     * Victory (wc), Justice (jc), Legislative (lc), Voting (vc)
   * Products
     * Victory Points (wp), Blot-B-Gone (bg), Pendant (pd), Extra Vote
-## 
-*(xv)*
-## RECENT HISTORY
-*(does not self-ratify)*
+      (xv)
+
+* Tracked by the Referee
+  * Blots
+
+
+RECENT HISTORY                                    (does not self-ratify)
+========================================================================
 
 Abbreviations used:
 
++------+---------------------------------+
 | Abbr | Office                          |
-|:---|:---|
++======+=================================+
 | ADoP | Associate Director of Personnel |
 | Cptr | Comptrollor                     |
 | PM   | Prime Minister                  |
@@ -107,32 +124,11 @@ Abbreviations used:
 | Spkr | Speaker                         |
 | Tlor | Tailor                          |
 | Tsor | Treasuror                       |
++------+---------------------------------+
 
++----------+-------+-----------------+---------------------------------+
 |  Entity  |Change |    Timestamp    |              Notes              |
-|:---|:---|:---|:---|
-|R. Lee    |+   5cn|09 Aug 2020 19:39|Reward (Coopor weekly)           |
-|Falsifian |+   5cn|09 Aug 2020 19:39|Reward (Registrar weekly)        |
-|Aris      |+   5cn|09 Aug 2020 19:39|Reward (Promotor weekly)         |
-|Trigon    |+   5cn|09 Aug 2020 19:39|Reward (Treasuror weekly)        |
-|Publius   |+   5cn|09 Aug 2020 19:39|Reward (Tailor weekly)           |
-|Publius   |+   5cn|09 Aug 2020 19:39|Reward (Referee weekly)          |
-|Publius   |+   5cn|09 Aug 2020 19:39|Reward (Herald weekly)           |
-|Murphy    |+   5cn|09 Aug 2020 19:39|Reward (ADoP weekly)             |
-|R. Lee    |+   1wc|08 Aug 2020 07:46|Victory auction                  |
-|R. Lee    |-  77cn|08 Aug 2020 07:46|Victory auction                  |
-|shelvacu  |+   1vc|08 Aug 2020 06:46|Welcome package (shelvacu)       |
-|shelvacu  |+   1lc|08 Aug 2020 06:46|Welcome package (shelvacu)       |
-|shelvacu  |+   1jc|08 Aug 2020 06:46|Welcome package (shelvacu)       |
-|shelvacu  |+   1wc|08 Aug 2020 06:46|Welcome package (shelvacu)       |
-|shelvacu  |+  10cn|08 Aug 2020 06:46|Welcome package (shelvacu)       |
-|Falsifian |-   1pd|04 Aug 2020 16:46|Pending proposal (Escalator)     |
-|Falsifian |+   1pd|04 Aug 2020 16:44|Transfer DragonQE (Credits)      |
-|DragonQE  |-   1pd|04 Aug 2020 16:44|Transfer Falsifian (Credits)     |
-|R. Lee    |+   1jc|02 Aug 2020 23:26|Transfer nix (Promise)           |
-|nix       |-   1jc|02 Aug 2020 23:26|Transfer R. Lee (Promise)        |
-|nix       |+   1wc|02 Aug 2020 23:26|Transfer R. Lee (Promise)        |
-|R. Lee    |-   1wc|02 Aug 2020 23:26|Transfer nix (Promise)           |
-|          |       |02 Aug 2020 19:41|   WEEKLY REPORT                 |
++==========+=======+=================+=================================+
 |Murphy    |+  11cn|02 Aug 2020 19:06|K Glitter                        |
 |Murphy    |+  10cn|02 Aug 2020 19:06|B Glitter (CFJ 3871)             |
 |Publius   |+   5cn|02 Aug 2020 15:06|Reward (Herald monthly)          |
@@ -176,9 +172,11 @@ Abbreviations used:
 |Gaelan    |+   5cn|01 Aug 2020 00:00|Payday                           |
 |Aris      |+  10cn|01 Aug 2020 00:00|Payday (Promotor)                |
 |omd       |+  10cn|01 Aug 2020 00:00|Payday (Distributor)             |
++----------+-------+-----------------+---------------------------------+
 
++----------+-------+-----------------+---------------------------------+
 |  Entity  |Change |    Timestamp    |              Notes              |
-|:---|:---|:---|:---|
++==========+=======+=================+=================================+
 |G.        |-   1pd|31 Jul 2020 16:16|Pending proposal (m. adjustment) |
 |Jason     |+   1lc|30 Jul 2020 19:38|Popular proposal (Proposal 8477) |
 |G.        |+   1vc|30 Jul 2020 18:49|Official grant (Notary ATMunn)   |
@@ -194,8 +192,6 @@ Abbreviations used:
 |nix       |-   3cn|29 Jul 2020 18:17|Transfer Publius                 |
 |Trigon    |+   3cn|29 Jul 2020 18:17|Transfer nix                     |
 |nix       |-   3cn|29 Jul 2020 18:17|Transfer Trigon                  |
-|Trigon    |+   3cn|28 Jul 2020 20:37|Transfer SEAMSTRESS (Sig. good)  |
-|SEAMSTRESS|-   3cn|28 Jul 2020 20:37|Transfer Trigon (Signature good) |
 |SEAMSTRESS|+   3cn|28 Jul 2020 20:12|Transfer G. (Signature)          |
 |G.        |-   3cn|28 Jul 2020 20:12|Transfer SEAMSTRESS (Signature)  |
 |Trigon    |+   3cn|28 Jul 2020 19:24|Transfer SEAMSTRESS (Sig. good)  |
@@ -538,9 +534,11 @@ Abbreviations used:
 |Gaelan    |+   5cn|01 Jul 2020 00:00|Payday                           |
 |Aris      |+  10cn|01 Jul 2020 00:00|Payday (Promotor)                |
 |omd       |+  10cn|01 Jul 2020 00:00|Payday (Distributor)             |
++----------+-------+-----------------+---------------------------------+
 
++----------+-------+-----------------+---------------------------------+
 |  Entity  |Change |    Timestamp    |              Notes              |
-|:---|:---|:---|:---|
++==========+=======+=================+=================================+
 |Jason     |+   1lc|30 Jun 2020 21:50|Popular proposal (Proposal 8452) |
 |G.        |+   9cn|30 Jun 2020 21:47|Reward (Proposal 8455)           |
 |G.        |+   8cn|30 Jun 2020 21:47|Reward (Proposal 8454)           |
@@ -1165,9 +1163,11 @@ Abbreviations used:
 |Gaelan    |+  10cn|01 Jun 2020 00:00|Payday                           |
 |Aris      |+  20cn|01 Jun 2020 00:00|Payday (PM, Promotor)            |
 |omd       |+  15cn|01 Jun 2020 00:00|Payday (Distributor)             |
++----------+-------+-----------------+---------------------------------+
 
++----------+-------+-----------------+---------------------------------+
 |Entity    |Change |Timestamp        |Reason                           |
-|:---|:---|:---|:---|
++==========+=======+=================+=================================+
 |          |       |31 May 2020 22:13|   WEEKLY REPORT                 |
 |G.        |+   1cn|31 May 2020 19:37|Transfer nix                     |
 |grok      |-   1cn|31 May 2020 19:37|Transfer G.                      |
@@ -1259,9 +1259,11 @@ Abbreviations used:
 |ATMunn    |+  10cn|01 May 2020 00:00|Payday                           |
 |nix       |+  10cn|01 May 2020 00:00|Payday                           |
 |pikhq     |+  10cn|01 May 2020 00:00|Payday                           |
++----------+-------+-----------------+---------------------------------+
 
++----------+-------+-----------------+---------------------------------+
 |Entity    |Change |Timestamp        |Reason                           |
-|:---|:---|:---|:---|
++==========+=======+=================+=================================+
 |Publius   |+   5cn|28 Apr 2020 01:41|Reward (Tailor monthly)          |
 |Jason     |+   5cn|28 Apr 2020 01:41|Reward (Rulekeepor monthly)      |
 |Falsifian |+   5cn|28 Apr 2020 01:41|Reward (Registrar monthly)       |
@@ -1367,4 +1369,99 @@ Abbreviations used:
 |R. Lee    |+  10cn|01 Apr 2020 00:00|Payday                           |
 |Publius   |+  10cn|01 Apr 2020 00:00|Payday                           |
 |Telanior  |+  10cn|01 Apr 2020 00:00|Payday                           |
++----------+-------+-----------------+---------------------------------+
 
++----------+-------+-----------------+---------------------------------+
+|Entity    |Change |Timestamp        |Reason                           |
++==========+=======+=================+=================================+
+|Jason     |+   5cn|28 Mar 2020 17:44|Reward (Rulekeepor monthly)      |
+|Jason     |+   5cn|28 Mar 2020 17:44|Reward (Assessed proposal)       |
+|Aris      |+   5cn|28 Mar 2020 17:44|Reward (Promotor weekly)         |
+|Jason     |+   5cn|28 Mar 2020 17:44|Reward (Rulekeepor weekly)       |
+|Aris      |+   5cn|28 Mar 2020 17:44|Reward (Promotor weekly)         |
+|Falsifian |+   5cn|28 Mar 2020 17:44|Reward (Registrar weekly)        |
+|G.        |+   5cn|28 Mar 2020 17:44|Reward (Arbitor weekly)          |
+|Murphy    |+   5cn|28 Mar 2020 17:44|Reward (ADoP weekly)             |
+|Aris      |+  14cn|22 Mar 2020 01:33|Reward (Proposal 8356)           |
+|Alexis    |+  18cn|22 Mar 2020 01:33|Reward (Proposal 8355)           |
+|Alexis    |+  12cn|22 Mar 2020 01:33|Reward (Proposal 8354)           |
+|Murphy    |+  24cn|22 Mar 2020 01:33|Reward (Proposal 8353)           |
+|G.        |+  20cn|22 Mar 2020 01:33|Reward (Proposal 8352)           |
+|Jason     |+  33cn|22 Mar 2020 01:33|Reward (Proposal 8351)           |
+|Alexis    |+  22cn|22 Mar 2020 01:33|Reward (Proposal 8350)           |
+|twg       |+   7cn|22 Mar 2020 01:33|Reward (Proposal 8349)           |
+|R. Lee    |+  10cn|21 Mar 2020  6:07|Welcome Package                  |
+|Warrigal  |+   5cn|20 Mar 2020 14:53|Transfer D. Corp.                |
+|D. Corp.  |-   5cn|20 Mar 2020 14:53|Transfer Warrigal                |
+|Alexis    |+   5cn|15 Mar 2020 17:42|Reward (Herald monthly)          |
+|Jason     |+   5cn|15 Mar 2020 17:42|Reward (Assessed proposal)       |
+|Falsifian |+   5cn|15 Mar 2020 17:42|Reward (Registrar weekly)        |
+|Alexis    |+   5cn|15 Mar 2020 17:42|Reward (Herald weekly)           |
+|Jason     |+   5cn|15 Mar 2020 17:42|Reward (Rulekeepor weekly)       |
+|Aris      |+   5cn|15 Mar 2020 17:42|Reward (Promotor weekly)         |
+|G.        |+   5cn|15 Mar 2020 17:42|Reward (Arbitor weekly)          |
+|Murphy    |+   5cn|15 Mar 2020 17:42|Reward (ADoP weekly)             |
+|Jason     |+  33cn|09 Mar 2020 14:29|Reward (Proposal 8347)           |
+|Jason     |+  30cn|09 Mar 2020 14:29|Reward (Proposal 8346)           |
+|Jason     |+  20cn|09 Mar 2020 14:29|Reward (Proposal 8345)           |
+|Alexis    |+   5cn|09 Mar 2020 09:56|Reward (CFJ 3821)                |
+|R. Lee    |+   5cn|09 Mar 2020 07:00|Reward (CFJ 3819)                |
+|R. Lee    |+   5cn|09 Mar 2020 07:00|Reward (CFJ 3819)                |
+|Jason     |+   5cn|09 Mar 2020 07:00|Reward (CFJ 3818)                |
+|Murphy    |+   5cn|09 Mar 2020 07:00|Reward (CFJ 3820)                |
+|Falsifian |+   5cn|07 Mar 2020 21:27|Reward (Registrar weekly)        |
+|Jason     |+   5cn|07 Mar 2020 21:27|Reward (Rulekeepor weekly)       |
+|Jason     |+   5cn|07 Mar 2020 21:27|Reward (Assessed proposal)       |
+|Falsifian |+   5cn|07 Mar 2020 21:27|Reward (Registrar weekly)        |
+|Gaelan    |+   5cn|07 Mar 2020 21:27|Reward (Notary weekly)           |
+|G.        |+   5cn|07 Mar 2020 21:27|Reward (Arbitor weekly)          |
+|Falsifian |+   5cn|07 Mar 2020 21:27|Reward (Registrar weekly)        |
+|twg       |+   5cn|07 Mar 2020 21:27|Reward (Referee weekly)          |
+|twg       |+   5cn|07 Mar 2020 21:27|Reward (Treasuror weekly)        |
+|Alexis    |+   5cn|07 Mar 2020 21:27|Reward (Herald weekly)           |
+|Gaelan    |+   5cn|07 Mar 2020 21:27|Reward (Notary weekly)           |
+|Jason     |+   5cn|07 Mar 2020 21:27|Reward (Rulekeepor weekly)       |
+|Aris      |+   5cn|07 Mar 2020 21:27|Reward (Promotor weekly)         |
+|Alexis    |+   5cn|07 Mar 2020 21:27|Reward (Herald weekly)           |
+|Murphy    |+   5cn|07 Mar 2020 21:27|Reward (ADoP weekly)             |
+|Publius   |+  10cn|07 Mar 2020 16:03|Welcome Package                  |
+|twg       |+   5cn|02 Mar 2020 23:16|Reward (CFJ 3816)                |
+|Warrigal  |+   5cn|02 Mar 2020 23:16|Reward (CFJ 3807)                |
+|Alexis    |+   5cn|02 Mar 2020 23:16|Reward (CFJ 3814)                |
+|Cuddlebeam|+   5cn|02 Mar 2020 23:16|Reward (CFJ 3815)                |
+|Aris      |+   5cn|02 Mar 2020 23:16|Reward (CFJ 3811)                |
+|Aris      |+   5cn|02 Mar 2020 23:16|Reward (CFJ 3812)                |
+|D. Corp.  |+  30cn|01 Mar 2020 23:13|Transfer Warrigal                |
+|Warrigal  |-  30cn|01 Mar 2020 23:13|Transfer D. Corp.                |
+|twg       |-1000cn|01 Mar 2020 14:05|WIN BY HIGH SCORE                |
+|CuddleBeam|-1000cn|01 Mar 2020 14:05|WIN BY HIGH SCORE                |
+|CuddleBeam|+1000cn|01 Mar 2020 14:05|Transfer twg                     |
+|twg       |-1000cn|01 Mar 2020 14:05|Transfer CuddleBeam              |
+|twg       |+2000cn|01 Mar 2020 14:05|C Glitter (Tailor) x200          |
+|Alexis    |+  19cn|01 Mar 2020 14:05|E Glitter (Notary)               |
+|omd       |+  15cn|01 Mar 2020 00:00|Payday (Distributor)             |
+|Aris      |+  20cn|01 Mar 2020 00:00|Payday (PM, Promotor)            |
+|Gaelan    |+  15cn|01 Mar 2020 00:00|Payday (Notary)                  |
+|G.        |+  15cn|01 Mar 2020 00:00|Payday (Arbitor)                 |
+|Cuddlebeam|+  10cn|01 Mar 2020 00:00|Payday                           |
+|Murphy    |+  20cn|01 Mar 2020 00:00|Payday (ADoP, Comptrollor)       |
+|twg       |+  25cn|01 Mar 2020 00:00|Payday (Referee, Tailor, Tsor)   |
+|D. Margaux|+  10cn|01 Mar 2020 00:00|Payday                           |
+|Baron     |+  10cn|01 Mar 2020 00:00|Payday                           |
+|Falsifian |+  15cn|01 Mar 2020 00:00|Payday (Registrar)               |
+|Jason     |+  20cn|01 Mar 2020 00:00|Payday (Assessor, Rulekeepor)    |
+|pikhq     |+  10cn|01 Mar 2020 00:00|Payday                           |
+|Alexis    |+  15cn|01 Mar 2020 00:00|Payday (Herald)                  |
+|Warrigal  |+  10cn|01 Mar 2020 00:00|Payday                           |
+|Tcbapo    |+  10cn|01 Mar 2020 00:00|Payday                           |
+|sukil     |+  10cn|01 Mar 2020 00:00|Payday                           |
+|ATMunn    |+  10cn|01 Mar 2020 00:00|Payday                           |
+|Trigon    |+  10cn|01 Mar 2020 00:00|Payday                           |
+|Bernie    |+  10cn|01 Mar 2020 00:00|Payday                           |
+|Rance     |+  10cn|01 Mar 2020 00:00|Payday                           |
+|o         |+  10cn|01 Mar 2020 00:00|Payday                           |
+|Walker    |+  10cn|01 Mar 2020 00:00|Payday                           |
+|nix       |+  10cn|01 Mar 2020 00:00|Payday                           |
++----------+-------+-----------------+---------------------------------+
+
+             === END OF THE TREASUROR'S WEEKLY REPORT ===
