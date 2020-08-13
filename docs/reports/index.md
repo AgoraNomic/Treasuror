@@ -17,9 +17,9 @@ at, so there are also HTML reports listed.
 
 ## Weekly Reports
 
-**[Latest official weekly report](weekly/2020-07-23.txt)**
-([HTML](weeklymd/2020-07-23)): My goal for the timing of the official
-report is Wednesday/Thursday each week.
+**[Latest official weekly report or midweekly draft](weekly/fresh.txt)**
+([HTML](weeklymd/fresh)): My goal for the timing of the official report
+is Wednesday/Thursday each week.
 
 **[Unofficial fresher version of weekly report](weekly/fresh.txt)**
 ([HTML](weeklymd/2020-07-23)): This is not guaranteed to be updated
@@ -28,7 +28,10 @@ consistently, but I will try to have a fresh report out by midweek
 
 Full List of Weekly Reports:
 
-* [2020-07-23](weekly/2020-07-23.txt) ([HTML](weeklymd/2020-07-23))
+* [2020-08-13](weekly/2020-08-13.txt) ([HTML](weeklymd/2020-08-13))
+* [2020-08-09](weekly/2020-08-09.txt) ([HTML](weeklymd/2020-08-09))
+* [2020-08-02](weekly/2020-08-02.txt) ([HTML](weeklymd/2020-08-02))
+* [2020-07-26](weekly/2020-07-26.txt) ([HTML](weeklymd/2020-07-26))
 * [2020-07-17](weekly/2020-07-17.txt) ([HTML](weeklymd/2020-07-17))
 * [2020-07-06](weekly/2020-07-06.txt) ([HTML](weeklymd/2020-07-06))
 * [2020-06-28](weekly/2020-06-28.txt) ([HTML](weeklymd/2020-06-28))
