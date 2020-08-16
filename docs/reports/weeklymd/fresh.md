@@ -30,9 +30,11 @@ Reports available online in text and HTML formats at:
 *(self-ratifies)*
 
 |   Player    | cn | wc | jc | lc | vc | wp | bg | pd | xv |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 |Aris         | 859|   0|   0|   0|   0|   3|   2|   3|   2|
 |ATMunn       |  92|   2|   0|   0|   2|   0|   0|   1|   0|
+|Aris         | 835|   0|   0|   0|   0|   3|   2|   3|   2|
+|ATMunn       |  74|   2|   0|   0|   2|   0|   0|   1|   0|
 |Cuddlebeam   |   5|   1|   0|   0|   0|   0|   0|   0|   0|
 |Falsifian    | 385|   0|   2|   0|   0|   0|   0|   1|   0|
 |Fred         |  10|   1|   1|   1|   1|   0|   0|   0|   0|
@@ -53,7 +55,7 @@ Reports available online in text and HTML formats at:
 1. Publius Scribonius Scholasticus
 
 |   Zombie    | cn | wc | jc | lc | vc | wp | bg | pd | xv |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 |Baron[1]     | 120|   1|   1|   1|   1|   0|   0|   0|   0|
 |D. Margaux   |1264|   1|   1|   1|   1|   0|   0|   0|   0|
 |sukil        |  40|   1|   1|   1|   1|   0|   0|   0|   0|
@@ -63,7 +65,7 @@ Reports available online in text and HTML formats at:
 1. Baron von Vaderham
 
 |   Entity    | cn | wc | jc | lc | vc | wp | bg | pd | xv |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 |Agora        |2340|   0|   0|   0|   0|   0|   0|   0|   0|
 |CB Locker[1] | 234|   1|   1|   1|   1|   0|   0|   0|   0|
 |D. Corp.[2]  | 495|   0|   0|   0|   0|   0|   1|  11|   1|
@@ -99,10 +101,13 @@ owned assets this week but are now defunct.
     * Victory Points (wp), Blot-B-Gone (bg), Pendant (pd), Extra Vote
       (xv)
 
+<<<<<<< HEAD
 * Tracked by the Referee
   * Blots
 
 
+=======
+>>>>>>> 1e053b65fcbdc5f2841f0defc7b14aa3193d765e
 ## RECENT HISTORY
 *(does not self-ratify)*
 
