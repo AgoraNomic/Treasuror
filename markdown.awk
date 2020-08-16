@@ -31,7 +31,14 @@ BEGIN {
 # same thing.
 NR == 2 {
     split($0, a, /  +/);
-    print "# " a[2] "\n*or* TREASUROR'S WEEKLY REPORT";
+    print "# " a[2];
+
+    delete a;
+}
+
+NR == 4 {
+    split($0, a, /  +/);
+    print "*or* " a[2];
 
     delete a;
 }
@@ -56,7 +63,7 @@ NR <= 5 {
 
 # turn section headers into a markdown-style ones and print them.
 # I would like to mention that I got this regex in one try.
-/^[[:upper:][:punct:][:blank:]]+\([[:lower:][:punct:][:blank:]]+\)$/ {
+/^[[:upper:]][[:upper:][:punct:][:blank:]]+\([[:lower:][:punct:][:blank:]]+\)$/ {
     split($0, a, /  +/);
     print "## " a[1] "\n*" a[2] "*";
 
