@@ -7,7 +7,7 @@ BEGIN {
     
     # this tells us if we're in a section header
     sheader = 0;
-        
+     
     # this tells us if we're currently formatting a table.
     table = 0;
     
@@ -94,7 +94,7 @@ NR <= 5 {
 # header and body seperator thing.
 /^(\+=+)+\+$/ {
     shouldprint = 0;
-    gsub(/\=+/, ":---");
+    gsub(/=+/, ":---");
     gsub(/\+/, "|");
     print;
     theader = 0;
@@ -119,6 +119,6 @@ shouldprint {
 
 # matches a lot of equal signs.
 # usually i would put /={72}/ but there's a bug in my awk.
-/\=\=+/ {
+/==+/ {
     sheader = 0;
 }
