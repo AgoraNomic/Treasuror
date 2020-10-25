@@ -1,0 +1,16 @@
+day: date, nl, line, { line }, nl;
+date = number, "-", number, "-", number;
+line = time, ws, ( change | command ), nl;
+time = "[", number, ":", numder "]";
+ws = onews { onews };
+onews = " " | "\t";
+nl = "\n";
+change = identifier, ws, transaction, [ ws, string ];
+identifier = alpha, { alpha | digit };
+transaction = ( ( "*", [ asset ] ) | number, full unit ), operator;
+full unit = [ prefix, ":" ], asset;
+prefix = "bl";
+asset = "cn" | "wc" | "jc" | "lc" | "vc" | "wp" | "bg" | "pd" | "xv";
+command = "#", identifier, { ws, argument };
+argument = number | string
+string = '"', { character }, '"';
