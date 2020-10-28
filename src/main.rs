@@ -13,23 +13,22 @@ fn main() {
 
     for ln in read_lines("data.txt").expect("data.txt not found") {
         if let Ok(text) = ln {
-            if let Some(current_date) = block_date {
+            if let Some(_) = block_date {
                 if text.is_empty() {
                     block_date = None;
                     continue;
                 }
 
                 let mut words = text.split_whitespace().peekable();
-                let mut time_str = words.peek().unwrap();
                 
-                let time = match NaiveTime::parse_from_str(time_str, "[%R]") {
+                let time = match NaiveTime::parse_from_str(words.peek().unwrap(), "[%R]") {
                     Ok(t) => {
                         words.next();
                         t
                     },
                     Err(_) => NaiveTime::from_hms(0, 0, 0),
                 };
-                
+
                 println!("{} {}", time.format("[%R]"), words.collect::<Vec<&str>>().join("  "));
             } else {
                 if text.is_empty() {
