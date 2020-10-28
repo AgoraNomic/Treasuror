@@ -15,17 +15,19 @@ fn main() {
                     block_date = None;
                     continue;
                 }
+
+                let words: Vec<&str> = text.split_whitespace().collect();
                 
-                if let Ok(time) = NaiveTime::parse_from_str(&text[..7], "[%H:%M]") {   
-                    println!("datetime: {}", current_date.and_time(time).format("%F %H:%M"));
+                if let Ok(time) = NaiveTime::parse_from_str(words[0], "[%R]") {   
+                    println!("{} {}", time.format("[%R]"), &text[8..]);
                 }
             } else {
-                println!("no block here");
                 if text.is_empty() {
                     continue;
                 }
                 if let Ok(date) = NaiveDate::parse_from_str(&text, "%F") {
                     block_date = Some(date);
+                    println!("\n *** {}", date.format("%a %-d %B %Y"));
                 }
             }
         }
