@@ -21,13 +21,15 @@ at, so there are also HTML reports listed.
 ([HTML](weeklymd/fresh)): My goal for the timing of the official report
 is Wednesday/Thursday each week.
 
-**[Unofficial fresher version of weekly report](weekly/fresh.txt)**
-([HTML](weeklymd/2020-07-23)): This is not guaranteed to be updated
-consistently, but I will try to have a fresh report out by midweek
-(Sunday/Monday) when there is lots of economic activity.
-
 Full List of Weekly Reports:
 
+* [2020-10-28](weekly/2020-10-28.txt) ([HTML](weeklymd/2020-10-28))
+* [2020-10-25](weekly/2020-10-25.txt) ([HTML](weeklymd/2020-10-25))
+* [2020-10-18](weekly/2020-10-18.txt) ([HTML](weeklymd/2020-10-18))
+* [2020-10-11](weekly/2020-10-11.txt) ([HTML](weeklymd/2020-10-11))
+* [2020-09-20](weekly/2020-09-20.txt) ([HTML](weeklymd/2020-09-20))
+* [2020-08-22](weekly/2020-08-22.txt) ([HTML](weeklymd/2020-08-22))
+* [2020-08-16](weekly/2020-08-16.txt) ([HTML](weeklymd/2020-08-16))
 * [2020-08-13](weekly/2020-08-13.txt) ([HTML](weeklymd/2020-08-13))
 * [2020-08-09](weekly/2020-08-09.txt) ([HTML](weeklymd/2020-08-09))
 * [2020-08-02](weekly/2020-08-02.txt) ([HTML](weeklymd/2020-08-02))
