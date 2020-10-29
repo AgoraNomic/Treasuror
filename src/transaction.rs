@@ -4,9 +4,9 @@ use crate::token::{Token, TokenIterator};
 
 pub struct Transaction/*<'a>*/ {
     datetime: NaiveDateTime,
-    agent: String
-/*    amount: u32,
-    agent: &'a AgoranEntity,
+    agent: String,
+    amount: u32,
+/*    agent: &'a AgoranEntity,
     action: Operator,
     comment: &'a str, */
 }
@@ -24,7 +24,7 @@ impl Transaction {
             _ => date.and_hms(0,0,0),
         };
 
-        let amt = match current_token {
+        let agt = match current_token {
             Token::Identifier(i) => {
                 current_token = tokens.next()?;
                 i
@@ -32,9 +32,18 @@ impl Transaction {
             _ => String::from("no one"),
         };
 
+        let amt = match current_token {
+            Token::Integer(i) => {
+                current_token = tokens.next()?;
+                i
+            },
+            _ => 0,
+        };
+
         Some(Transaction {
             datetime: dt,
-            agent: amt,
+            agent: agt,
+            amount: amt,
         })
     }
     
@@ -44,6 +53,10 @@ impl Transaction {
 
     pub fn get_agent(&self) -> &str {
         &self.agent
+    }
+
+    pub fn get_amount(&self) -> u32 {
+        self.amount
     }
 }
 

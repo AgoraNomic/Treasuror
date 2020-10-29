@@ -25,7 +25,7 @@ fn main() {
                     }
                 };
 
-                println!("{}  {}", t.get_datetime().format("[%R]"), t.get_agent());
+                println!("{} {} {}", t.get_datetime().format("[%R]"), t.get_agent(), t.get_amount());
             } else {
                 if text.is_empty() {
                     continue;

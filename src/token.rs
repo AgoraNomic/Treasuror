@@ -49,24 +49,24 @@ impl<'a> Iterator for TokenIterator<'a> {
                     }
                 }
             } else if fc.is_ascii_alphabetic() {
-               while let Some((i, c)) = self.chars.next() {
-                   if !(c.is_ascii_alphabetic() || c.is_digit(10)) {
-                       result = Some(Token::Identifier(String::from(&self.source[fi..i+1])));
-                       break;
-                   }
-               }
+                while let Some((i, c)) = self.chars.next() {
+                    if !(c.is_ascii_alphabetic() || c.is_digit(10)) {
+                        result = Some(Token::Identifier(String::from(&self.source[fi..i])));
+                        break;
+                    }
+                }
             } else if fc.is_digit(10) {
                 while let Some((i, c)) = self.chars.next() {
                     if !c.is_digit(10) {
                         result = Some(
-                            Token::Integer(self.source[fi..i+1].parse::<u32>().unwrap())
+                            Token::Integer(self.source[fi..i].parse::<u32>().unwrap())
                             );
                         break;
                     }
                 }
             } 
         }
-    return result;
+        return result;
     }
 }
 
