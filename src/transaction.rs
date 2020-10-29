@@ -2,6 +2,17 @@ use chrono::naive::{NaiveDate, NaiveDateTime};
 
 use crate::token::{Token, TokenIterator};
 
+macro_rules! match_increment {
+    ($v:ident in $i:ident { $( $t:pat => $b:block ),+, } else $e:block) => { match $v {
+        $(
+            $t => {
+                $v = $i.next()?;
+                $b
+            },)*
+        _ => $e,
+    }}
+}
+
 pub struct Transaction/*<'a>*/ {
     datetime: NaiveDateTime,
     agent: String,
@@ -16,34 +27,17 @@ impl Transaction {
         let mut tokens = TokenIterator::from_str(&ln);
         let mut current_token = tokens.next()?;
 
-        let dt = match current_token {
-            Token::Time(t) => {
-                current_token = tokens.next()?;
-                date.and_time(t)
-            },
-            _ => date.and_hms(0,0,0),
-        };
-
-        let agt = match current_token {
-            Token::Identifier(i) => {
-                current_token = tokens.next()?;
-                i
-            },
-            _ => String::from("no one"),
-        };
-
-        let amt = match current_token {
-            Token::Integer(i) => {
-                current_token = tokens.next()?;
-                i
-            },
-            _ => 0,
-        };
-
         Some(Transaction {
-            datetime: dt,
-            agent: agt,
-            amount: amt,
+            datetime: match_increment!(current_token in tokens {
+                Token::Time(t) => { date.and_time(t) },
+            } else { date.and_hms(0,0,0) }),
+            agent: match_increment!(current_token in tokens {
+                Token::Identifier(i) => { i },
+            } else { String::from("no one") }),
+            amount: match_increment!(current_token in tokens {
+                Token::Integer(i) => { i },
+                Token::Blob => { 10000 },
+            } else { 0 }),
         })
     }
     
@@ -61,9 +55,9 @@ impl Transaction {
 }
 
 /* struct AgoranEntity<'a> {
-    name: &'a str,
-    balances: HashMap<&'a Currency, u32>,
-}
+   name: &'a str,
+   balances: HashMap<&'a Currency, u32>,
+   }
 
 enum Currency {
     Coin,
