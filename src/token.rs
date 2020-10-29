@@ -2,18 +2,20 @@ use chrono::naive::NaiveTime;
 
 use std::str::CharIndices;
 
-/* macro_rules! produce_while {
-    ( $p:expr; $v:pat in $s:stmt; $b:expr ) => {
-        let tmp_result = None;
-        while let Some($v) = $s {
-            if $b {
-                tmp_result = Some($p);
-                break;
+macro_rules! produce_until {
+    ( $p:expr; $v:pat in $s:expr; $b:expr ) => {{
+        let mut tmp_result = None;
+        {
+            while let Some($v) = $s.next() {
+                if $b {
+                    tmp_result = Some($p);
+                    break;
+                }
             }
         }
         tmp_result
-    }
-} */
+    }}
+}
 
 pub struct TokenIterator<'a> {
     source: &'a str,
@@ -51,52 +53,37 @@ impl<'a> Iterator for TokenIterator<'a> {
 
         if let (Some(fi), Some(fc)) = (fidx, fchar) {
             if fc == '[' {
-                println!("found time!");
-                while let Some((i, c)) = self.chars.next() {
-                    if c == ']' {
-                        result = Some(
-                            Token::Time(
-                                NaiveTime::parse_from_str(&self.source[fi..i+1], "[%R]").unwrap()
-                                )
-                            );
-                        break;
-                    }
-                }
+//                println!("found time!");
+                result = produce_until!(
+                    Token::Time(
+                        NaiveTime::parse_from_str(&self.source[fi..i+1], "[%R]").unwrap()
+                        ); (i, c) in self.chars; c == ']'
+                    );
             } else if fc.is_ascii_alphabetic() {
-                println!("found id!");
-                while let Some((i, c)) = self.chars.next() {
-                    if !(c.is_ascii_alphabetic() || c.is_digit(10)) {
-                        result = Some(Token::Identifier(String::from(&self.source[fi..i])));
-                        break;
-                    }
-                }
+//                println!("found id!");
+                result = produce_until!(
+                    Token::Identifier(String::from(&self.source[fi..i]));
+                    (i, c) in self.chars; !(c.is_ascii_alphabetic() || c.is_digit(10))
+                    );
             } else if fc.is_digit(10) {
-                println!("found number!");
-                while let Some((i, c)) = self.chars.next() {
-                    if !c.is_digit(10) {
-                        result = Some(
-                            Token::Integer(self.source[fi..i].parse::<u32>().unwrap())
-                            );
-                        break;
-                    }
-                }
+//                println!("found number!");
+                result = produce_until!(
+                    Token::Integer(self.source[fi..i].parse::<u32>().unwrap());
+                    (i, c) in self.chars; !c.is_digit(10)
+                    );
             } else if fc == '*' {
-                println!("found blob!");
                 result = Some(Token::Blob);
             } else if fc == '+' {
-                println!("found plus!");
                 result = Some(Token::Op(Operator::Plus));
             } else if fc == '-' {
-                println!("found minus!");
                 result = Some(Token::Op(Operator::Minus));
             } else if fc == '>' {
-                println!("found transfer!");
-                while let Some((i, c)) = self.chars.next() {
-                    if !(c.is_ascii_alphabetic() || c.is_digit(10)) {
-                        result = Some(Token::Op(Operator::Transfer(String::from(&self.source[fi+1..i]))));
-                        break;
-                    }
-                }
+                result = produce_until!(
+                    Token::Op(Operator::Transfer(String::from(&self.source[fi+1..i])));
+                    (i, c) in self.chars; !(c.is_ascii_alphabetic() || c.is_digit(10))
+                    );
+            } else {
+                println!("unknown char: {}", fc);
             }
         }
         return result;
