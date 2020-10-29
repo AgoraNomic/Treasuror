@@ -1,11 +1,11 @@
 use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
-use std::iter::Peekable;
 //use std::collections::HashMap;
 
-// use chrono::{Date, TimeZone, Utc};
-use chrono::naive::{NaiveDate, NaiveTime};
+use chrono::naive::NaiveDate;
+
+mod transaction;
 
 fn main() {
     let mut block_date: Option<NaiveDate> = None;
@@ -13,23 +13,15 @@ fn main() {
 
     for ln in read_lines("data.txt").expect("data.txt not found") {
         if let Ok(text) = ln {
-            if let Some(_) = block_date {
+            if let Some(current_date) = block_date {
                 if text.is_empty() {
                     block_date = None;
                     continue;
                 }
 
-                let mut words = text.split_whitespace().peekable();
-                
-                let time = match NaiveTime::parse_from_str(words.peek().unwrap(), "[%R]") {
-                    Ok(t) => {
-                        words.next();
-                        t
-                    },
-                    Err(_) => NaiveTime::from_hms(0, 0, 0),
-                };
+                let t = transaction::Transaction::with_date_from_str(&current_date, &text);
 
-                println!("{} {}", time.format("[%R]"), words.collect::<Vec<&str>>().join("  "));
+                println!("{}", t.get_datetime().format("[%R]"));
             } else {
                 if text.is_empty() {
                     continue;
