@@ -6,6 +6,9 @@ use std::path::Path;
 use chrono::naive::NaiveDate;
 
 mod transaction;
+use transaction::Transaction;
+
+pub mod token;
 
 fn main() {
     let mut block_date: Option<NaiveDate> = None;
@@ -14,12 +17,13 @@ fn main() {
     for ln in read_lines("data.txt").expect("data.txt not found") {
         if let Ok(text) = ln {
             if let Some(current_date) = block_date {
-                if text.is_empty() {
-                    block_date = None;
-                    continue;
-                }
-
-                let t = transaction::Transaction::with_date_from_str(&current_date, &text);
+                let t = match Transaction::with_date_from_str(&current_date, text) {
+                    Some(tr) => tr,
+                    None => {
+                        block_date = None;
+                        continue;
+                    }
+                };
 
                 println!("{}", t.get_datetime().format("[%R]"));
             } else {

@@ -1,4 +1,6 @@
-use chrono::naive::{NaiveDate, NaiveTime, NaiveDateTime};
+use chrono::naive::{NaiveDate, NaiveDateTime};
+
+use crate::token::{Token, TokenIterator};
 
 pub struct Transaction {
     datetime: NaiveDateTime,
@@ -9,19 +11,21 @@ pub struct Transaction {
 }
 
 impl Transaction {
-    pub fn with_date_from_str(date: &NaiveDate, ln: &str) -> Transaction {
-        let mut words = ln.split_whitespace().peekable();
+    pub fn with_date_from_str(date: &NaiveDate, ln: String) -> Option<Transaction> {
+        let mut tokens = TokenIterator::from_str(&ln);
+        let current_token = match tokens.next() {
+            Some(t) => t,
+            None => { return None }
+        };
 
-        Transaction {
-            datetime: date.and_time(
-                match NaiveTime::parse_from_str(words.peek().unwrap(), "[%R]") {
-                    Ok(t) => {
-                        words.next();
-                        t
-                    },
-                    Err(_) => NaiveTime::from_hms(0, 0, 0),
-                }),
-        }
+        let dt = match current_token {
+            Token::Time(t) => date.and_time(t),
+            _ => date.and_hms(0,0,0),
+        };
+
+        Some(Transaction {
+            datetime: dt,
+        })
     }
     
     pub fn get_datetime(&self) -> &NaiveDateTime {
