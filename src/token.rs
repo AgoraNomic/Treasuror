@@ -22,46 +22,58 @@ impl<'a> Iterator for TokenIterator<'a> {
     fn next(&mut self) -> Option<Token<'a>> {
         let mut fidx: Option<usize> = None;
         let mut fchar: Option<char> = None;
-
-        for (i, c) in self.chars.next() {
+        
+        while let Some((i, c)) = self.chars.next() {
             if c.is_whitespace() {
                 continue;
             }
             fidx = Some(i);
             fchar = Some(c);
+            break;
         }
+
+//        println!("i: {}, c: '{}'", fidx.expect("no i"), fchar.expect("no c"));
 
         let mut result: Option<Self::Item> = None;
 
-        if let (Some(i), Some(c)) = (fidx, fchar) {
-/*            if first.is_digit(10) {
-                while let Some((i, c)) = self.chars.peek() {
-                    if !c.is_digit(10) {
-                        result = Some(Token::Integer(&s[fidx..idx+1].parse::<i32>().
-                    }
-                }
-            } */
-
-            if c == '[' {
-                while let Some((i2, c2)) = self.chars.next() {
-                    if c2 == ']' {
+        if let (Some(fi), Some(fc)) = (fidx, fchar) {
+            if fc == '[' {
+                while let Some((i, c)) = self.chars.next() {
+                    if c == ']' {
                         result = Some(
                             Token::Time(
-                                NaiveTime::parse_from_str(&self.source[i..i2+1], "[%R]").unwrap()
+                                NaiveTime::parse_from_str(&self.source[fi..i+1], "[%R]").unwrap()
                                 )
                             );
+                        break;
                     }
                 }
-            }
+            } else if fc.is_ascii_alphabetic() {
+               while let Some((i, c)) = self.chars.next() {
+                   if !(c.is_ascii_alphabetic() || c.is_digit(10)) {
+                       result = Some(Token::Identifier(String::from(&self.source[fi..i+1])));
+                       break;
+                   }
+               }
+            } else if fc.is_digit(10) {
+                while let Some((i, c)) = self.chars.next() {
+                    if !c.is_digit(10) {
+                        result = Some(
+                            Token::Integer(self.source[fi..i+1].parse::<u32>().unwrap())
+                            );
+                        break;
+                    }
+                }
+            } 
         }
-        return result;
+    return result;
     }
 }
 
 pub enum Token<'a> {
     Time(NaiveTime),
-    Identifier(&'a str),
-    Integer(i32),
+    Identifier(String),
+    Integer(u32),
     Float(f32),
     String(&'a str),
     Command(&'a str),

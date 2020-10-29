@@ -2,8 +2,9 @@ use chrono::naive::{NaiveDate, NaiveDateTime};
 
 use crate::token::{Token, TokenIterator};
 
-pub struct Transaction {
+pub struct Transaction/*<'a>*/ {
     datetime: NaiveDateTime,
+    agent: String
 /*    amount: u32,
     agent: &'a AgoranEntity,
     action: Operator,
@@ -13,23 +14,36 @@ pub struct Transaction {
 impl Transaction {
     pub fn with_date_from_str(date: &NaiveDate, ln: String) -> Option<Transaction> {
         let mut tokens = TokenIterator::from_str(&ln);
-        let current_token = match tokens.next() {
-            Some(t) => t,
-            None => { return None }
-        };
+        let mut current_token = tokens.next()?;
 
         let dt = match current_token {
-            Token::Time(t) => date.and_time(t),
+            Token::Time(t) => {
+                current_token = tokens.next()?;
+                date.and_time(t)
+            },
             _ => date.and_hms(0,0,0),
+        };
+
+        let amt = match current_token {
+            Token::Identifier(i) => {
+                current_token = tokens.next()?;
+                i
+            },
+            _ => String::from("no one"),
         };
 
         Some(Transaction {
             datetime: dt,
+            agent: amt,
         })
     }
     
     pub fn get_datetime(&self) -> &NaiveDateTime {
         &self.datetime
+    }
+
+    pub fn get_agent(&self) -> &str {
+        &self.agent
     }
 }
 
