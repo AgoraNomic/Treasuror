@@ -9,6 +9,7 @@ mod transaction;
 use transaction::Transaction;
 
 pub mod token;
+use token::Operator;
 
 fn main() {
     let mut block_date: Option<NaiveDate> = None;
@@ -20,12 +21,17 @@ fn main() {
                 let t = match Transaction::with_date_from_str(&current_date, text) {
                     Some(tr) => tr,
                     None => {
-                        block_date = None;
                         continue;
                     }
                 };
 
-                println!("{} {} {}", t.get_datetime().format("[%R]"), t.get_agent(), t.get_amount());
+                let actstr = match t.get_action() {
+                    Operator::Plus => "+",
+                    Operator::Minus => "-",
+                    Operator::Transfer(_) => ">",
+                };
+
+                println!("{} {} {} {} {}", t.get_datetime().format("[%R]"), t.get_agent(), t.get_amount(), actstr, t.get_comment());
             } else {
                 if text.is_empty() {
                     continue;

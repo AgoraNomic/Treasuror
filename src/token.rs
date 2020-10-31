@@ -1,6 +1,6 @@
-use chrono::naive::NaiveTime;
-
 use std::str::CharIndices;
+
+use chrono::naive::NaiveTime;
 
 macro_rules! produce_until {
     ( $cond:expr; $pt:pat in $iter:expr; $prod:expr; ) => {{
@@ -32,9 +32,9 @@ impl<'a> TokenIterator<'a> {
 }
 
 impl<'a> Iterator for TokenIterator<'a> {
-    type Item = Token<'a>;
+    type Item = Token;
 
-    fn next(&mut self) -> Option<Token<'a>> {
+    fn next(&mut self) -> Option<Token> {
         let mut fidx: Option<usize> = None;
         let mut fchar: Option<char> = None;
         
@@ -81,7 +81,7 @@ impl<'a> Iterator for TokenIterator<'a> {
                 result = produce_until!(
                     c == '"';
                     (i, c) in self.chars;
-                    Token::String(&self.source[fi..i]);
+                    Token::String(String::from(&self.source[fi+1..i]));
                     );
             } else if fc == '+' {
                 result = Some(Token::Op(Operator::Plus));
@@ -101,15 +101,15 @@ impl<'a> Iterator for TokenIterator<'a> {
     }
 }
 
-pub enum Token<'a> {
+pub enum Token {
     Time(NaiveTime),
     Identifier(String),
     Integer(u32),
     Blob,
     Float(f32),
-    String(&'a str),
+    String(String),
     Op(Operator),
-    Command(&'a str),
+    Command(String),
 }
 
 pub enum Operator {

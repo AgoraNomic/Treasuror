@@ -1,6 +1,6 @@
 use chrono::naive::{NaiveDate, NaiveDateTime};
 
-use crate::token::{Token, TokenIterator};
+use crate::token::{Token, TokenIterator, Operator};
 
 macro_rules! match_increment {
     ($v:ident in $i:ident { $( $t:pat => $b:block ),+, } else $e:block) => { match $v {
@@ -18,9 +18,9 @@ pub struct Transaction/*<'a>*/ {
     datetime: NaiveDateTime,
     agent: String,
     amount: u32,
-/*    agent: &'a AgoranEntity,
     action: Operator,
-    comment: &'a str, */
+    comment: String,
+//    agent: &'a AgoranEntity,
 }
 
 impl Transaction {
@@ -41,7 +41,13 @@ impl Transaction {
             amount: match_increment!(current_token in tokens {
                 Token::Integer(i) => { i },
                 Token::Blob => { 10000 },
-            } else { 0 }),
+            } else { return None }),
+            action: match_increment!(current_token in tokens {
+                Token::Op(o) => { o },
+            } else { return None }),
+            comment: match_increment!(current_token in tokens {
+                Token::String(s) => { s },
+            } else { String::from("") }),
         })
     }
     
@@ -55,6 +61,14 @@ impl Transaction {
 
     pub fn get_amount(&self) -> u32 {
         self.amount
+    }
+
+    pub fn get_action(&self) -> &Operator {
+        &self.action
+    }
+
+    pub fn get_comment(&self) -> &str {
+        &self.comment
     }
 }
 
