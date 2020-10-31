@@ -3,7 +3,7 @@
 
 2020-10-21
 [01:31] Aris        10cn>Cuddlebeam  "Agora Quest"
-[01:42] Cuddlebeam  *>CBLocker
+[01:42] Cuddlebeam  *>CBLocker       "e"
 [05:13] Trigon      4lc-
 [05:13] Trigon      10pd+
 [05:13] Trigon      2pd>Aris

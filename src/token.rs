@@ -3,12 +3,12 @@ use chrono::naive::NaiveTime;
 use std::str::CharIndices;
 
 macro_rules! produce_until {
-    ( $p:expr; $v:pat in $s:expr; $b:expr ) => {{
+    ( $cond:expr; $pt:pat in $iter:expr; $prod:expr; ) => {{
         let mut tmp_result = None;
         {
-            while let Some($v) = $s.next() {
-                if $b {
-                    tmp_result = Some($p);
+            while let Some($pt) = $iter.next() {
+                if $cond {
+                    tmp_result = Some($prod);
                     break;
                 }
             }
@@ -55,32 +55,43 @@ impl<'a> Iterator for TokenIterator<'a> {
             if fc == '[' {
 //                println!("found time!");
                 result = produce_until!(
+                    c == ']';
+                    (i, c) in self.chars;
                     Token::Time(
                         NaiveTime::parse_from_str(&self.source[fi..i+1], "[%R]").unwrap()
-                        ); (i, c) in self.chars; c == ']'
+                        );
                     );
             } else if fc.is_ascii_alphabetic() {
 //                println!("found id!");
                 result = produce_until!(
+                    !(c.is_ascii_alphabetic() || c.is_digit(10));
+                    (i, c) in self.chars; 
                     Token::Identifier(String::from(&self.source[fi..i]));
-                    (i, c) in self.chars; !(c.is_ascii_alphabetic() || c.is_digit(10))
                     );
             } else if fc.is_digit(10) {
 //                println!("found number!");
                 result = produce_until!(
+                    !c.is_digit(10);
+                    (i, c) in self.chars; 
                     Token::Integer(self.source[fi..i].parse::<u32>().unwrap());
-                    (i, c) in self.chars; !c.is_digit(10)
                     );
             } else if fc == '*' {
                 result = Some(Token::Blob);
+            } else if fc == '"' {
+                result = produce_until!(
+                    c == '"';
+                    (i, c) in self.chars;
+                    Token::String(&self.source[fi..i]);
+                    );
             } else if fc == '+' {
                 result = Some(Token::Op(Operator::Plus));
             } else if fc == '-' {
                 result = Some(Token::Op(Operator::Minus));
             } else if fc == '>' {
                 result = produce_until!(
+                    !(c.is_ascii_alphabetic() || c.is_digit(10));
+                    (i, c) in self.chars; 
                     Token::Op(Operator::Transfer(String::from(&self.source[fi+1..i])));
-                    (i, c) in self.chars; !(c.is_ascii_alphabetic() || c.is_digit(10))
                     );
             } else {
                 println!("unknown char: {}", fc);

@@ -5,11 +5,12 @@ use crate::token::{Token, TokenIterator};
 macro_rules! match_increment {
     ($v:ident in $i:ident { $( $t:pat => $b:block ),+, } else $e:block) => { match $v {
         $(
-            $t => {
-                $v = $i.next()?;
+            Some($t) => {
+                $v = $i.next();
                 $b
             },)*
-        _ => $e,
+        Some(_) => $e,
+        None => $e,
     }}
 }
 
@@ -24,8 +25,11 @@ pub struct Transaction/*<'a>*/ {
 
 impl Transaction {
     pub fn with_date_from_str(date: &NaiveDate, ln: String) -> Option<Transaction> {
+        if ln.is_empty() {
+            return None;
+        }
         let mut tokens = TokenIterator::from_str(&ln);
-        let mut current_token = tokens.next()?;
+        let mut current_token = tokens.next();
 
         Some(Transaction {
             datetime: match_increment!(current_token in tokens {
@@ -33,7 +37,7 @@ impl Transaction {
             } else { date.and_hms(0,0,0) }),
             agent: match_increment!(current_token in tokens {
                 Token::Identifier(i) => { i },
-            } else { String::from("no one") }),
+            } else { String::from("?????") }),
             amount: match_increment!(current_token in tokens {
                 Token::Integer(i) => { i },
                 Token::Blob => { 10000 },
