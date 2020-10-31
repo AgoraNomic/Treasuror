@@ -21,6 +21,7 @@ fn main() {
                 let t = match Transaction::with_date_from_str(&current_date, text) {
                     Some(tr) => tr,
                     None => {
+                        block_date = None;
                         continue;
                     }
                 };
