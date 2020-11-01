@@ -6,14 +6,14 @@ use crate::token::{Token, TokenIterator, Operator};
 
 macro_rules! match_first_pop {
     ($v:ident { $( $t:pat => $b:block ),+, } else $e:block) => {{
-        let tmp_first = $v[0];
+        let tmp_first = $v.get(0).cloned();
         match tmp_first {
-            $(
-                $t => {
-                    $v.remove(0);
-                    $b
-                },)*
-            _ => $e,
+            $(Some($t) => {
+                $v.remove(0);
+                $b
+            },)*
+            Some(_) => $e
+            None => $e,
         }
     }}
 }
@@ -27,12 +27,11 @@ pub struct Transaction<'a> {
 }
 
 impl<'a> Transaction<'a> {
-    pub fn with_date_from_str(date: &NaiveDate, mut ln: String) -> Option<Transaction<'a>> {
+    pub fn with_date_from_str(date: &'a NaiveDate, ln: &'a mut str) -> Option<Transaction<'a>> {
         if ln.is_empty() {
             return None;
         }
-        ln.push('\n');
-        let mut tokens: Vec<Token> = TokenIterator::from_str(&ln).collect();
+        let mut tokens: Vec<Token> = TokenIterator::from_str(ln).collect();
 
         Some(Transaction {
             datetime: match_first_pop!(tokens {
@@ -44,7 +43,7 @@ impl<'a> Transaction<'a> {
             amount: Amount::from_vec(&mut tokens),
             action: match_first_pop!(tokens {
                 Token::Op(o) => { o },
-            } else { return None }),
+            } else { return None }), 
             comment: match_first_pop!(tokens {
                 Token::String(s) => { String::from(s) },
             } else { String::from("") }),
@@ -86,12 +85,19 @@ impl Amount {
             Token::Integer(i) => {
                 s.remove(0);
                 Amount::PartOf(
-                    Currency::from_str(s.remove(1).extract_string()).expect("invalid currency type"),
+                    Currency::from_str(s.remove(0).extract_string()).unwrap(),
                     i)
             },
             Token::Blob => match s[1] {
-                Token::Identifier(s) => Amount::AllOf(Currency::from_str(&s).expect("invalid currency type")),
-                _ => Amount::Everything,
+                Token::Identifier(i) => {
+                    s.remove(1);
+                    s.remove(0);
+                    Amount::AllOf(Currency::from_str(&i).unwrap())
+                },
+                _ => {
+                    s.remove(0);
+                    Amount::Everything
+                },
             },
             _ => panic!("invalid token"),
         }
