@@ -29,6 +29,7 @@ macro_rules! produce_while {
         tmp_result
     }}
 }
+
 pub struct TokenIterator<'a> {
     source: &'a str,
     chars: Peekable<CharIndices<'a>>,
@@ -44,9 +45,9 @@ impl<'a> TokenIterator<'a> {
 }
 
 impl<'a> Iterator for TokenIterator<'a> {
-    type Item = Token;
+    type Item = Token<'a>;
 
-    fn next(&mut self) -> Option<Token> {
+    fn next(&mut self) -> Option<Token<'a>> {
         let mut fidx: Option<usize> = None;
         let mut fchar: Option<char> = None;
 
@@ -71,26 +72,11 @@ impl<'a> Iterator for TokenIterator<'a> {
                         );
                     );
             } else if fc.is_ascii_alphabetic() {
-                let result = produce_while!(
+                return produce_while!(
                     c.is_ascii_alphabetic();
                     (i, c) in self.chars; 
-                    &self.source[fi..*i];
+                    Token::Identifier(&self.source[fi..*i]);
                     );
-
-//                println!("{}", result.unwrap());
-
-                return Some(match result.expect("what did i do") {
-                    "cn" => Token::Curr(Currency::Coin),
-                    "wc" => Token::Curr(Currency::WinCard),
-                    "jc" => Token::Curr(Currency::JusticeCard),
-                    "lc" => Token::Curr(Currency::LegiCard),
-                    "vc" => Token::Curr(Currency::VoteCard),
-                    "wp" => Token::Curr(Currency::WinPoint),
-                    "bg" => Token::Curr(Currency::BlotBGone),
-                    "pd" => Token::Curr(Currency::Pendant),
-                    "xv" => Token::Curr(Currency::ExtraVote),
-                    nope => Token::Identifier(String::from(nope)),
-                });
             } else if fc.is_digit(10) {
                 return produce_while!(
                     c.is_digit(10);
@@ -103,7 +89,7 @@ impl<'a> Iterator for TokenIterator<'a> {
                 return produce_until!(
                     c == '"';
                     (i, c) in self.chars;
-                    Token::String(String::from(&self.source[fi+1..i]));
+                    Token::String(&self.source[fi+1..i]);
                     );
             } else if fc == '+' {
                 return Some(Token::Op(Operator::Plus));
@@ -113,7 +99,7 @@ impl<'a> Iterator for TokenIterator<'a> {
                 return produce_while!(
                     c.is_ascii_alphabetic();
                     (i, c) in self.chars; 
-                    Token::Op(Operator::Transfer(String::from(&self.source[fi+1..*i])));
+                    Token::Op(Operator::Transfer(&self.source[fi+1..*i]));
                     );
             } else {
                 println!("unknown char: {}", fc);
@@ -123,33 +109,47 @@ impl<'a> Iterator for TokenIterator<'a> {
     }
 }
 
-pub enum Token {
+#[derive(Copy, Clone)]
+pub enum Token<'a> {
     Time(NaiveTime),
-    Identifier(String),
-    Curr(Currency),
+    Identifier(&'a str),
     Integer(u32),
     Blob,
     Float(f32),
-    String(String),
-    Op(Operator),
-    Command(String),
+    String(&'a str),
+    Op(Operator<'a>),
+    Command(&'a str),
 }
 
-pub enum Operator {
+impl<'a> Token<'a> {
+    pub fn extract_int(&self) -> u32 {
+        if let Token::Integer(i) = self {
+            *i
+        } else {
+            panic!("cannot extract int");
+        }
+    }
+
+    pub fn extract_string(&self) -> &str {
+        match self {
+            Token::Identifier(s) | Token::String(s) | Token::Command(s) => s,
+            _ => panic!("cannot extract string"),
+        }
+    }
+
+    pub fn extract_operator(&self) -> Operator {
+        if let Token::Op(o) = self {
+            *o
+        } else {
+            panic!("cannot extract operator");
+        }
+    }
+
+}
+
+#[derive(Copy, Clone)]
+pub enum Operator<'a> {
     Plus,
     Minus,
-    Transfer(String),
-}
-
-
-pub enum Currency {
-    Coin,
-    WinCard,
-    JusticeCard,
-    LegiCard,
-    VoteCard,
-    WinPoint,
-    BlotBGone,
-    Pendant,
-    ExtraVote,
+    Transfer(&'a str),
 }

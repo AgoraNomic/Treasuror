@@ -32,7 +32,7 @@ fn main() {
                     Operator::Transfer(_) => ">",
                 };
 
-                println!("{} {} {} {} {}", t.get_datetime().format("[%R]"), t.get_agent(), t.get_amount(), actstr, t.get_comment());
+                println!("{} {} {} {} {}", t.get_datetime().format("[%R]"), t.get_agent(), t.get_amount().pretty(), actstr, t.get_comment());
             } else {
                 if text.is_empty() {
                     continue;
