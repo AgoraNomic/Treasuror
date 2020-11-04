@@ -24,25 +24,25 @@ Reports available online in text and HTML formats at:
 
 |   Player    | cn | wc | jc | lc | vc | wp | bg | pd | xv |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-|Aris         | 896|   0|   0|   3|   0|   3|   2|   1|   2|
-|ATMunn       | 243|   0|   0|   1|   0|   8|   0|   2|   0|
-|Cuddlebeam   | 391|   0|   0|   0|   0|   0|   0|   0|   0|
-|Falsifian    | 523|   0|   1|   2|   0|   0|   0|   1|   0|
-|Fred         |  30|   1|   1|   1|   1|   0|   0|   0|   0|
-|G.           |1703|   2|   1|   1|   0|   0|  11|   8|  10|
-|Gaelan       | 327|   0|   0|   0|   1|   0|   1|   1|   0|
-|grok         |  68|   1|   1|   1|   1|   0|   0|   0|   0|
-|Jason        |1430|   1|   0|   1|   2|   1|   8|  13|   0|
-|Murphy       | 458|   0|   1|   1|   1|   0|   0|   0|   0|
-|Nathan       |  20|   1|   1|   1|   1|   0|   0|   3|   0|
-|nix          |  30|   1|   0|   0|   6|   5|   0|   0|   4|
-|omd          | 321|   1|   0|   1|   1|   0|   2|   0|   0|
-|Publius[1]   | 816|   0|   0|   2|   1|   5|   4|   5|   3|
-|R. Lee       |  30|   1|   1|   0|   0|   0|   0|   0|   0|
-|shelvacu     |  20|   1|   1|   1|   1|   0|   0|   0|   0|
-|Trigon       | 441|   0|   1|   0|   1|   2|   0|   8|   0|
-|Tyler        |  40|   1|   1|   1|   1|   0|   0|   0|   0|
-|Zyborg       |  40|   1|   1|   1|   1|   0|   0|   0|   0|
+|Aris         | 906|   0|   0|   3|   0|   3|   2|   1|   2|
+|ATMunn       | 253|   0|   0|   1|   0|   8|   0|   2|   0|
+|Cuddlebeam   | 401|   0|   0|   0|   0|   0|   0|   0|   0|
+|Falsifian    | 533|   0|   1|   2|   0|   0|   0|   1|   0|
+|Fred         |  40|   1|   1|   1|   1|   0|   0|   0|   0|
+|G.           |1713|   2|   1|   1|   0|   0|  11|   8|  10|
+|Gaelan       | 337|   0|   0|   0|   1|   0|   1|   1|   0|
+|grok         |  78|   1|   1|   1|   1|   0|   0|   0|   0|
+|Jason        |1440|   1|   0|   1|   2|   1|   8|  13|   0|
+|Murphy       | 468|   0|   1|   1|   1|   0|   0|   0|   0|
+|Nathan       |  30|   1|   1|   1|   1|   0|   0|   3|   0|
+|nix          |  40|   1|   0|   0|   6|   5|   0|   0|   4|
+|omd          | 331|   1|   0|   1|   1|   0|   2|   0|   0|
+|Publius[1]   | 826|   0|   0|   2|   1|   5|   4|   5|   3|
+|R. Lee       |  40|   1|   1|   0|   0|   0|   0|   0|   0|
+|shelvacu     |  30|   1|   1|   1|   1|   0|   0|   0|   0|
+|Trigon       | 451|   0|   1|   0|   1|   2|   0|   8|   0|
+|Tyler        |  50|   1|   1|   1|   1|   0|   0|   0|   0|
+|Zyborg       |  50|   1|   1|   1|   1|   0|   0|   0|   0|
 
 1. Publius Scribonius Scholasticus
 
@@ -65,7 +65,7 @@ Reports available online in text and HTML formats at:
 |IBTWWBG[4]   |  50|   0|   0|   0|   0|   0|   0|   0|   0|
 |L&F Dept.[5] | 183|   0|   0|   0|   0|   0|   0|   0|   0|
 |PlunderPS[6] | 179|   0|   0|   0|   0|   0|   0|   0|   0|
-|Press[7]     |  17|   0|   0|   0|   0|   0|   0|   0|   0|
+|Press[7]     |  34|   0|   0|   0|   0|   0|   0|   0|   0|
 |SEAMSTRESS[8]|   0|   0|   0|   0|   0|   0|   0|   0|   0|
 |TeamMarg[9]  | 137|   0|   0|   0|   0|   0|   0|   0|   0|
 
@@ -156,6 +156,30 @@ Abbreviations used:
 |Publius   |+   1lc|01 Nov 2020 14:50|Personal grant (Legislation)     |
 |Jason     |+   1lc|01 Nov 2020 14:38|Personal grant (Legislation)     |
 |Gaelan    |+   1jc|01 Nov 2020 14:18|Personal grant (Compliance)      |
+|Press     |+  25cn|01 Nov 2020 00:00|Payday                           |
+|Press     |-   8cn|01 Nov 2020 00:00|Payday (charity round-down)      |
+|omd       |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Aris      |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Gaelan    |+  10cn|01 Nov 2020 00:00|Payday                           |
+|G.        |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Cuddlebeam|+  10cn|01 Nov 2020 00:00|Payday                           |
+|Trigon    |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Murphy    |+  10cn|01 Nov 2020 00:00|Payday                           |
+|ATMunn    |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Falsifian |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Jason     |+  10cn|01 Nov 2020 00:00|Payday                           |
+|nix       |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Publius   |+  10cn|01 Nov 2020 00:00|Payday                           |
+|grok      |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Tyler     |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Zyborg    |+  10cn|01 Nov 2020 00:00|Payday                           |
+|R. Lee    |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Fred      |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Shelvacu  |+  10cn|01 Nov 2020 00:00|Payday                           |
+|Nathan    |+  10cn|01 Nov 2020 00:00|Payday                           |
+
+|  Entity  |Change |    Timestamp    |              Notes              |
+|:---|:---|:---|:---|
 |Falsifian |+  10cn|31 Oct 2020 20:50|Transfer twg                     |
 |twg       |-  10cn|31 Oct 2020 20:50|Transfer Falsifian               |
 |Falsifian |+   1lc|31 Oct 2020 20:48|Popular proposal (Proposal 8508) |
