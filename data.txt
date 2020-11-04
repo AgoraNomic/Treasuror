@@ -1,10 +1,14 @@
+2020-10-20
+[23:45] Trigon 15bl:cn+  "Reward (Treasuror weekly)"
+
 2020-10-21
 [01:31] Aris        10cn>Cuddlebeam  "Agora Quest"
-[01:42] Cuddlebeam  *>CBLocker       "eggs and bacon"
+[01:42] Cuddlebeam  *>CBLocker
 [05:13] Trigon      4lc-
 [05:13] Trigon      10pd+
 [05:13] Trigon      2pd>Aris
 [05:13] Trigon      5pd>Jason
+[05:25] Falsifian   20bl:cn=         "dunno"
 [07:01] Jason       2cn*
 
 2020-10-18
@@ -17,5 +21,5 @@
 [18:23] Aris        10cn>Cuddlebeam  "Agora Quest"
 [18:21] Falsifian   10cn>Cuddlebeam  "Agora Quest"
 
-2020-18-04
+2020-08-04
 [00:00] #relevel 2500

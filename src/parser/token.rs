@@ -87,6 +87,8 @@ impl<'a> Iterator for TokenIterator<'a> {
                     );
             } else if fc == '*' {
                 return Some(Token::Blob);
+            } else if fc == ':' {
+                return Some(Token::Separator);
             } else if fc == '"' {
                 return produce_until!(
                     c == '"';
@@ -117,6 +119,7 @@ pub enum Token<'a> {
     Identifier(&'a str),
     Integer(u32),
     Blob,
+    Separator,
     Float(f32),
     String(&'a str),
     Op(Operator<'a>),

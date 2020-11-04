@@ -4,7 +4,7 @@ use super::token::Token;
 pub enum Amount {
     Everything,
     AllOf(Currency),
-    PartOf(Currency, u32),
+    PartOf(FullUnit, u32),
 }
 
 impl Amount {
@@ -13,7 +13,7 @@ impl Amount {
             Token::Integer(i) => {
                 s.remove(0);
                 Amount::PartOf(
-                    Currency::from_str(s.remove(0).extract_string()).unwrap(),
+                    FullUnit::from_vec(s), // s.remove(0).extract_string()).unwrap(),
                     i)
             },
             Token::Blob => match s[1] {
@@ -35,7 +35,10 @@ impl Amount {
         match self {
             Amount::Everything => String::from("everything"),
             Amount::AllOf(c) => String::from("all of ") + c.abbr(),
-            Amount::PartOf(c, a) => a.to_string() + c.abbr(),
+            Amount::PartOf(c, a) => a.to_string() + match c {
+                FullUnit::Bare(_) => "",
+                FullUnit::Boatload(_) => "bl:"
+            } + c.get_currency().abbr(),
         }
     }
 }
@@ -89,4 +92,47 @@ pub enum Operator<'a> {
     Plus,
     Minus,
     Transfer(&'a str),
+}
+
+#[derive(Copy, Clone)]
+pub enum FullUnit {
+    Bare(Currency),
+    Boatload(Currency),
+}
+
+impl FullUnit {
+    pub fn from_vec(s: &mut Vec<Token>) -> FullUnit {
+        if s.len() < 1 {
+            panic!("no valid unit");
+        }
+
+        if let Token::Identifier(i1) = s[0] {
+            s.remove(0);
+
+            if s.len() >= 2 {
+                if let (Token::Separator, Token::Identifier(i2)) = (s[0], s[1]) {
+                    s.remove(0);
+                    s.remove(0);
+                    if i1 == "bl" {
+                        FullUnit::Boatload(Currency::from_str(i2).unwrap())
+                    } else {
+                        panic!("invalid unit prefix!");
+                    }
+                } else {
+                    FullUnit::Bare(Currency::from_str(i1).unwrap())
+                }
+            } else {
+                FullUnit::Bare(Currency::from_str(i1).unwrap())
+            }
+        } else {
+            panic!("no valid unit given");
+        }
+    }
+
+    pub fn get_currency(&self) -> Currency {
+        match self {
+            FullUnit::Bare(c) => *c,
+            FullUnit::Boatload(c) => *c,
+        }
+    }
 }
