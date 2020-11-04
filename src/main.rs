@@ -7,7 +7,7 @@ use chrono::naive::NaiveDate;
 
 pub mod parser;
 use parser::transaction::Transaction;
-use parser::operator::Operator;
+use parser::ast::operator::Operator;
 
 fn main() {
     let mut block_date: Option<NaiveDate> = None;
