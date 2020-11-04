@@ -14,6 +14,9 @@ Reports available online in text and HTML formats at:
 ## NOTES ON REPORT
 *(contains no data)*
 
+* CORRECTIONS (REVISION 1):
+  * The payday of November 2020 was applied
+
 * GENERAL
   * There was no report last week, only a revision. Apologies.
   * As always, please check the general accuracy of this report.
@@ -156,8 +159,8 @@ Abbreviations used:
 |Publius   |+   1lc|01 Nov 2020 14:50|Personal grant (Legislation)     |
 |Jason     |+   1lc|01 Nov 2020 14:38|Personal grant (Legislation)     |
 |Gaelan    |+   1jc|01 Nov 2020 14:18|Personal grant (Compliance)      |
-|Press     |+  25cn|01 Nov 2020 00:00|Payday                           |
-|Press     |-   8cn|01 Nov 2020 00:00|Payday (charity round-down)      |
+|Press     |+  25cn|01 Nov 2020 00:00|Payday (Donation Level=25)       |
+|Press     |-   8cn|01 Nov 2020 00:00|Charity coin destruction         |
 |omd       |+  10cn|01 Nov 2020 00:00|Payday                           |
 |Aris      |+  10cn|01 Nov 2020 00:00|Payday                           |
 |Gaelan    |+  10cn|01 Nov 2020 00:00|Payday                           |
