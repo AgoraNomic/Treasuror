@@ -5,11 +5,9 @@ use std::path::Path;
 
 use chrono::naive::NaiveDate;
 
-mod transaction;
-use transaction::Transaction;
-
-pub mod token;
-use token::Operator;
+pub mod parser;
+use parser::transaction::Transaction;
+use parser::ast::Operator;
 
 fn main() {
     let mut block_date: Option<NaiveDate> = None;
@@ -28,12 +26,19 @@ fn main() {
                 };
 
                 let actstr = match t.get_action() {
-                    Operator::Plus => "+",
-                    Operator::Minus => "-",
-                    Operator::Transfer(_) => ">",
+                    Operator::Plus => String::from("+"),
+                    Operator::Minus => String::from("-"),
+                    Operator::Transfer(t) => String::from(">") + t,
                 };
 
-                println!("{} {} {} {} {}", t.get_datetime().format("[%R]"), t.get_agent(), t.get_amount().pretty(), actstr, t.get_comment());
+                println!(
+                    "{} {}: {} {} ({})",
+                    t.get_datetime().format("[%R]"),
+                    t.get_agent(),
+                    actstr,
+                    t.get_amount().pretty(),
+                    t.get_comment()
+                    );
             } else {
                 if text.is_empty() {
                     continue;

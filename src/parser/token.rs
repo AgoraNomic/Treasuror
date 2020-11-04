@@ -3,6 +3,8 @@ use std::str::CharIndices;
 
 use chrono::naive::NaiveTime;
 
+use super::ast::Operator;
+
 macro_rules! produce_until {
     ( $cond:expr; $pt:pat in $iter:expr; $prod:expr; ) => {{
         let mut tmp_result = None;
@@ -147,9 +149,3 @@ impl<'a> Token<'a> {
 
 }
 
-#[derive(Copy, Clone)]
-pub enum Operator<'a> {
-    Plus,
-    Minus,
-    Transfer(&'a str),
-}
