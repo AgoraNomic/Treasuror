@@ -3,7 +3,7 @@ use std::str::CharIndices;
 
 use chrono::naive::NaiveTime;
 
-use super::ast::Operator;
+use super::operator::Operator;
 
 macro_rules! produce_until {
     ( $cond:expr; $pt:pat in $iter:expr; $prod:expr; ) => {{

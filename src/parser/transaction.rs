@@ -3,7 +3,8 @@
 use chrono::naive::{NaiveDate, NaiveDateTime};
 
 use super::token::{Token, TokenIterator};
-use super::ast::{Amount, Operator};
+use super::amount::Amount;
+use super::operator::Operator;
 
 macro_rules! match_first_pop {
     ($v:ident { $( $t:pat => $b:block ),+, } else $e:block) => {{
