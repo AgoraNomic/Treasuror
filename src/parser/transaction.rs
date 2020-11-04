@@ -74,6 +74,39 @@ impl<'a> Transaction<'a> {
     pub fn get_comment(&self) -> &str {
         &self.comment
     }
+
+    pub fn expand_transfer(self) -> Vec<Transaction<'a>> {
+        let result: Vec<Transaction> = Vec::new();
+        match self.action {
+            Operator::Plus | Operator::Minus => vec![self],
+            Operator::Transfer(s) => vec![
+                Transaction {
+                   datetime: self.datetime.clone(),
+                   agent: self.agent.clone(),
+                   amount: self.amount,
+                   action: Operator::Minus,
+                   comment: format!("Transfer {}{}",
+                                    s,
+                                    if self.comment == "" {
+                                        String::from("")
+                                    } else {
+                                        String::from(": ") + &self.comment
+                                    }),
+                },
+                Transaction {
+                   datetime: self.datetime,
+                   agent: String::from(s),
+                   amount: self.amount,
+                   action: Operator::Plus,
+                   comment: format!("Transfer {}{}",
+                                    self.agent,
+                                    if self.comment == "" { String::from("") } else {
+                                        String::from(": ") + &self.comment
+                                    }),
+                }
+            ],
+        }
+    }
 }
 
 /* struct AgoranEntity<'a> {

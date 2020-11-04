@@ -25,20 +25,22 @@ fn main() {
                     }
                 };
 
-                let actstr = match t.get_action() {
-                    Operator::Plus => String::from("+"),
-                    Operator::Minus => String::from("-"),
-                    Operator::Transfer(t) => String::from(">") + t,
-                };
+                for w in t.expand_transfer() {
+                    let actstr = match w.get_action() {
+                        Operator::Plus => String::from("+"),
+                        Operator::Minus => String::from("-"),
+                        Operator::Transfer(w) => String::from(">") + w,
+                    };
 
-                println!(
-                    "{} {}: {} {} ({})",
-                    t.get_datetime().format("[%R]"),
-                    t.get_agent(),
-                    actstr,
-                    t.get_amount().pretty(),
-                    t.get_comment()
-                    );
+                    println!(
+                        "{} {}: {} {} ({})",
+                        w.get_datetime().format("[%R]"),
+                        w.get_agent(),
+                        actstr,
+                        w.get_amount().pretty(),
+                        w.get_comment()
+                        );
+                }
             } else {
                 if text.is_empty() {
                     continue;
