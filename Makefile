@@ -23,8 +23,8 @@ markdown: fresh.txt
 
 date:
 	sed -i "s/(whenever)/${LONGDATE}/" ${REPORTTXT} ${REPORTMD}
-	cp ${REPORTTXT} ${WEEKLYDIR}/${ISODATE}.txt
-	cp ${REPORTMD} ${WEEKMDDIR}/${ISODATE}.md
+	cp ${REPORTTXT} ${WEEKLYDIR}/${ISODATE}${LETTER}.txt
+	cp ${REPORTMD} ${WEEKMDDIR}/${ISODATE}${LETTER}.md
 
 copy: out.md fresh.txt
 	cp fresh.txt ${REPORTTXT}
