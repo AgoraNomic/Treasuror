@@ -1,4 +1,4 @@
-# FORBES FOUR HUNDRED SEVENTY-FOUR
+# FORBES FOUR HUNDRED SEVENTY-TWO
 *or* TREASUROR'S WEEKLY REPORT
 
 * **Date of last week's first report:** 16 November 2020
