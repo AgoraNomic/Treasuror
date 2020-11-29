@@ -23,6 +23,7 @@ Reports available online in text and HTML formats at:
 * FIXES (REVISION 1)
   * Some entities' asset histories were applied in full.
   * Some entries for zombies were deleted.
+  * Aris claimed a legislative card by popular proposal on 22 November.
 
 * GENERAL
   * As always, please check the general accuracy of this report.
@@ -33,7 +34,7 @@ Reports available online in text and HTML formats at:
 
 |   Player    | cn | wc | jc | lc | vc | wp | bg | pd | xv |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-|Aris         |1207|   0|   0|   3|   0|   3|   2|   1|   2|
+|Aris         |1207|   0|   0|   4|   0|   3|   2|   1|   2|
 |ATMunn       | 364|   0|   0|   1|   0|   9|   0|   2|   0|
 |Cuddlebeam   | 401|   1|   0|   0|   0|   0|   0|   0|   0|
 |Falsifian    | 450|   0|   1|   3|   0|   0|   0|   1|   0|
@@ -56,8 +57,6 @@ Reports available online in text and HTML formats at:
 |   Zombie    | cn | wc | jc | lc | vc | wp | bg | pd | xv |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 |twg          |   0|   0|   0|   0|   0|   0|   0|   0|   0|
-
-1. Baron von Vanderham
 
 |   Entity    | cn | wc | jc | lc | vc | wp | bg | pd | xv |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
@@ -134,6 +133,7 @@ Abbreviations used:
 |Murphy    |- 123cn|27 Nov 2020 18:16|Stone auction (Power)            |
 |Falsifian |+   1lc|26 Nov 2020 04:06|Wielding Concentration Stone     |
 |Falsifian |- 200cn|26 Nov 2020 03:33|Stone auction (Concentration)    |
+|Aris      |+   1lc|22 Nov 2020 23:38|Popular proposal (Proposal 8523) |
 |Aris      |+  30cn|22 Nov 2020 21:58|Reward (Proposal 8523)           |
 |Murphy    |+  19cn|22 Nov 2020 21:02|Reward (ADoP weekly)             |
 |G.        |+  37cn|22 Nov 2020 21:02|Reward (Arbitor weekly)          |
