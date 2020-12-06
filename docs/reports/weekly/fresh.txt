@@ -1,12 +1,11 @@
 ========================================================================
-                    FORBES FOUR HUNDRED SEVENTY-ONE
+                      FORBES FOUR HUNDRED SEVENTY
 --------------------------------   or   --------------------------------
                        TREASUROR'S WEEKLY REPORT
 ========================================================================
 
-Date of last week's first report:   16 November 2020
-Date of this week's first report:   29 November 2020
-Date of this week's second report:  06 December 2020
+Date of last week's first report:  29 November 2020
+Date of this week's first report:  06 December 2020
 
 (all times and dates in UTC)
 
@@ -17,18 +16,9 @@ Reports available online in text and HTML formats at:
 NOTES ON REPORT                                       (contains no data)
 ========================================================================
 
-* FIXES (REVISION 0)
-  * Coins were taken from the Agoran Press after previosly being awarded 
-    extra coins due to calculation errors.
-  * 3 pendants were created for nix after being ratified away in
-    September.
-
-* FIXES (REVISION 1)
-  * Some entities' asset histories were applied in full.
-  * Some entries for zombies were deleted.
-  * Aris claimed a legislative card by popular proposal on 22 November.
-
 * GENERAL
+  * A payday has occured since the last report. Please make sure you got
+    the right amount.
   * As always, please check the general accuracy of this report.
 
 
