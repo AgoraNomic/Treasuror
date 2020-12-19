@@ -105,6 +105,12 @@ impl<'a> Iterator for TokenIterator<'a> {
                     (i, c) in self.chars; 
                     Token::Op(Operator::Transfer(&self.source[fi+1..*i]));
                     );
+            } else if fc == '#' {
+                return produce_until!(
+                    c.is_whitespace();
+                    (i, c) in self.chars;
+                    Token::Command(&self.source[fi+1..i]);
+                    );
             } else {
                 println!("unknown char: {}", fc);
             }

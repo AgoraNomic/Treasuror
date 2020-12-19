@@ -8,8 +8,6 @@
 [05:13] Trigon      10pd+
 [05:13] Trigon      2pd>Aris
 [05:13] Trigon      5pd>Jason
-[05:25] Falsifian   20bl:cn=         "dunno"
-[07:01] Jason       2cn*
 
 2020-10-18
 [20:28] Falsifian   2bg-             "Expungement"

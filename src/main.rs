@@ -6,7 +6,8 @@ use std::path::Path;
 use chrono::naive::NaiveDate;
 
 pub mod parser;
-use parser::transaction::Transaction;
+use parser::transaction::Line;
+use parser::transaction::Statement;
 use parser::ast::operator::Operator;
 
 fn main() {
@@ -16,8 +17,11 @@ fn main() {
     for ln in read_lines("data.txt").expect("data.txt not found") {
         if let Ok(mut text) = ln {
             if let Some(current_date) = block_date {
+                // i'm not sure why but token production only works if there is
+                // a whitespace at the end. i tried to find a workaround but
+                // i'm too tired for this so here you go.
                 text.push('\n');
-                let t = match Transaction::with_date_from_str(&current_date, &mut text) {
+                let t = match Line::with_date_from_str(&current_date, &mut text) {
                     Some(tr) => tr,
                     None => {
                         block_date = None;
@@ -25,21 +29,28 @@ fn main() {
                     }
                 };
 
-                for w in t.expand_transfer() {
-                    let actstr = match w.get_action() {
-                        Operator::Plus => String::from("+"),
-                        Operator::Minus => String::from("-"),
-                        Operator::Transfer(w) => String::from(">") + w,
-                    };
+                match t.get_action() {
+                    Statement::Transaction {..} => {
+                        for w in t.expand() {
+                            let act = w.get_action();
+                            let actstr = match act.get_operator() {
+                                Some(Operator::Plus) => String::from("+"),
+                                Some(Operator::Minus) => String::from("-"),
+                                Some(Operator::Transfer(m)) => String::from(">") + m,
+                                None => String::from("command"),
+                            };
 
-                    println!(
-                        "{} {}: {} {} ({})",
-                        w.get_datetime().format("[%R]"),
-                        w.get_agent(),
-                        actstr,
-                        w.get_amount().pretty(),
-                        w.get_comment()
-                        );
+                            println!(
+                                "{} {}: {} {} ({})",
+                                w.get_datetime().format("[%R]"),
+                                act.get_agent().unwrap(),
+                                actstr,
+                                act.get_amount().unwrap().pretty(),
+                                act.get_comment().unwrap()
+                                )
+                        }
+                    },
+                    Statement::Command {..} => println!("a command occured here"),
                 }
             } else {
                 if text.is_empty() {
