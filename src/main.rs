@@ -6,9 +6,9 @@ use std::path::Path;
 use chrono::naive::NaiveDate;
 
 pub mod parser;
-use parser::transaction::Line;
-use parser::transaction::Statement;
-use parser::ast::operator::Operator;
+use parser::Line;
+use parser::Statement;
+use parser::Operator;
 
 fn main() {
     let mut block_date: Option<NaiveDate> = None;
