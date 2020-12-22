@@ -1,7 +1,6 @@
 use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
-//use std::collections::HashMap;
 
 use chrono::naive::NaiveDate;
 
@@ -12,7 +11,6 @@ use parser::Operator;
 
 fn main() {
     let mut block_date: Option<NaiveDate> = None;
-//    let mut entities: HashMap<&str, HashMap<&str, u32>> = 
 
     for ln in read_lines("data.txt").expect("data.txt not found") {
         if let Ok(mut text) = ln {
@@ -21,7 +19,7 @@ fn main() {
                 // a whitespace at the end. i tried to find a workaround but
                 // i'm too tired for this so here you go.
                 text.push('\n');
-                let t = match Line::with_date_from_str(&current_date, &mut text) {
+                let lo = match Line::with_date_from_str(&current_date, &mut text) {
                     Some(tr) => tr,
                     None => {
                         block_date = None;
@@ -29,24 +27,22 @@ fn main() {
                     }
                 };
 
-                match t.get_action() {
-                    Statement::Transaction {..} => {
+                match lo.get_action() {
+                    Statement::Transaction(t) => {
                         for w in t.expand() {
-                            let act = w.get_action();
-                            let actstr = match act.get_operator() {
-                                Some(Operator::Plus) => String::from("+"),
-                                Some(Operator::Minus) => String::from("-"),
-                                Some(Operator::Transfer(m)) => String::from(">") + m,
-                                None => String::from("command"),
+                            let actstr = match w.get_operator() {
+                                Operator::Plus => String::from("+"),
+                                Operator::Minus => String::from("-"),
+                                Operator::Transfer(m) => String::from(">") + m,
                             };
 
                             println!(
                                 "{} {}: {} {} ({})",
-                                w.get_datetime().format("[%R]"),
-                                act.get_agent().unwrap(),
+                                lo.get_datetime().format("[%R]"),
+                                w.get_agent(),
                                 actstr,
-                                act.get_amount().unwrap().pretty(),
-                                act.get_comment().unwrap()
+                                w.get_amount().pretty(),
+                                w.get_comment()
                                 )
                         }
                     },
