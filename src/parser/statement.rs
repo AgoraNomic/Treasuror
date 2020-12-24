@@ -30,7 +30,7 @@ impl<'a> Statement<'a> {
         }
     }
 
-    pub fn get_transaction(&self) -> Option<Transaction<'a>> {
+    pub fn transaction(&self) -> Option<Transaction<'a>> {
         if let Statement::Transaction(t) = self {
             Some(t.clone())
         } else {
@@ -38,7 +38,7 @@ impl<'a> Statement<'a> {
         }
     }
 
-    pub fn get_command(&self) -> Option<Command<'a>> {
+    pub fn command(&self) -> Option<Command<'a>> {
         if let Statement::Command(c) = self {
             Some(c.clone())
         } else {
@@ -90,19 +90,19 @@ impl<'o> Transaction<'o> {
         }
     }
 
-    pub fn get_agent(&self) -> &str {
+    pub fn agent(&self) -> &str {
         &self.agent
     }
 
-    pub fn get_amount(&self) -> Amount {
+    pub fn amount(&self) -> Amount {
         self.amount
     }
 
-    pub fn get_operator(&self) -> Operator<'o> {
+    pub fn operator(&self) -> Operator<'o> {
         self.operator
     }
 
-    pub fn get_comment(&self) -> &str {
+    pub fn comment(&self) -> &str {
         &self.comment
     }
 }
@@ -114,11 +114,11 @@ pub struct Command<'t> {
 }
 
 impl<'t> Command<'t> {
-    pub fn get_command(&self) -> &str {
+    pub fn command(&self) -> &str {
         &self.cmd
     }
 
-    pub fn get_args(&self) -> &Vec<Token<'t>> {
+    pub fn args(&self) -> &Vec<Token<'t>> {
         &self.args
     }
 }

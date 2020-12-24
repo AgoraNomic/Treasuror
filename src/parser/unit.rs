@@ -79,7 +79,7 @@ impl FullUnit {
         }
     }
 
-    pub fn get_currency(&self) -> Currency {
+    pub fn currency(&self) -> Currency {
         match self {
             FullUnit::Bare(c) => *c,
             FullUnit::Boatload(c) => *c,

@@ -39,7 +39,7 @@ impl Amount {
             Amount::PartOf(c, a) => a.to_string() + match c {
                 FullUnit::Bare(_) => "",
                 FullUnit::Boatload(_) => "bl:"
-            } + c.get_currency().abbr(),
+            } + c.currency().abbr(),
         }
     }
 }

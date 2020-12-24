@@ -42,51 +42,12 @@ impl<'a> Line<'a> {
             action: Statement::from_vec(tokens).expect("bad statement"),
         })
     }
-
-/*    pub fn expand(self) -> Vec<Line<'a>> {
-        match self.action {
-            Statement::Transaction(t) => {
-//                let mut actions = self.get_action().get_transaction().unwrap().expand();
-                
-                t.clone().expand().iter().cloned().map(|w| Line {
-                    datetime: self.datetime,
-                    action: Statement::Transaction(w),
-                }).collect()
-
-//                if actions.len() == 1 {
-//                    vec![
-//                        Line {
-//                            datetime: self.datetime,
-//                            action: Statement::Transaction(actions.remove(0))
-//                        }
-//                    ]
-//                } else {
-//                    vec![
-//                        Line {
-//                            datetime: self.datetime,
-//                            action: Statement::Transaction(actions.remove(0)),
-//                        },
-//                        Line {
-//                            datetime: self.datetime,
-//                            action: Statement::Transaction(actions.remove(0)),
-//                        },
-//                    ]
-//                }
-            },
-            _ => vec![
-                Line {
-                    datetime: self.datetime,
-                    action: self.action.clone(),
-                }
-            ],
-        }
-    } */
     
-    pub fn get_datetime(&self) -> NaiveDateTime {
+    pub fn datetime(&self) -> NaiveDateTime {
         self.datetime
     }
 
-    pub fn get_action(&self) -> &Statement {
+    pub fn action(&self) -> &Statement {
         &self.action
     }
 }

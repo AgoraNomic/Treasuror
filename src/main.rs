@@ -27,10 +27,10 @@ fn main() {
                     }
                 };
 
-                match lo.get_action() {
+                match lo.action() {
                     Statement::Transaction(t) => {
                         for w in t.expand() {
-                            let actstr = match w.get_operator() {
+                            let actstr = match w.operator() {
                                 Operator::Plus => String::from("+"),
                                 Operator::Minus => String::from("-"),
                                 Operator::Transfer(m) => String::from(">") + m,
@@ -38,11 +38,11 @@ fn main() {
 
                             println!(
                                 "{} {}: {} {} ({})",
-                                lo.get_datetime().format("[%R]"),
-                                w.get_agent(),
+                                lo.datetime().format("[%R]"),
+                                w.agent(),
                                 actstr,
-                                w.get_amount().pretty(),
-                                w.get_comment()
+                                w.amount().pretty(),
+                                w.comment()
                                 )
                         }
                     },
