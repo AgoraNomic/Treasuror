@@ -20,13 +20,13 @@ macro_rules! match_first_pop {
 }
 
 #[derive(Clone)]
-pub struct Line<'a> {
+pub struct Line {
     datetime: NaiveDateTime,
-    action: Statement<'a>,
+    action: Statement,
 }
 
-impl<'a> Line<'a> {
-    pub fn with_date_from_str(date: &'a NaiveDate, ln: &'a mut str) -> Option<Line<'a>> {
+impl Line {
+    pub fn with_date_from_str(date: NaiveDate, ln: &mut str) -> Option<Line> {
         // if you'll remember we had to add whitespace to the end of every line
         // or else tokens would not work. now is when it would've been nice to
         // have a workaround for that detail.

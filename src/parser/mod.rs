@@ -3,6 +3,7 @@ mod operator;
 mod token;
 mod line;
 mod statement;
+mod parser;
 mod unit;
 
 pub use crate::parser::{
@@ -11,5 +12,6 @@ pub use crate::parser::{
     token::{Token, TokenIterator},
     line::Line,
     statement::{Statement, Transaction, Command},
+    parser::Parser,
     unit::{Currency, FullUnit},
 };

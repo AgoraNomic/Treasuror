@@ -56,23 +56,23 @@ impl FullUnit {
             panic!("no valid unit");
         }
 
-        if let Token::Identifier(i1) = s[0] {
+        if let Token::Identifier(i1) = s[0].clone() {
             s.remove(0);
 
             if s.len() >= 2 {
-                if let (Token::Separator, Token::Identifier(i2)) = (s[0], s[1]) {
+                if let (Token::Separator, Token::Identifier(i2)) = (s[0].clone(), s[1].clone()) {
                     s.remove(0);
                     s.remove(0);
                     if i1 == "bl" {
-                        FullUnit::Boatload(Currency::from_str(i2).unwrap())
+                        FullUnit::Boatload(Currency::from_str(&i2).unwrap())
                     } else {
                         panic!("invalid unit prefix!");
                     }
                 } else {
-                    FullUnit::Bare(Currency::from_str(i1).unwrap())
+                    FullUnit::Bare(Currency::from_str(&i1).unwrap())
                 }
             } else {
-                FullUnit::Bare(Currency::from_str(i1).unwrap())
+                FullUnit::Bare(Currency::from_str(&i1).unwrap())
             }
         } else {
             panic!("no valid unit given");

@@ -47,9 +47,9 @@ impl<'a> TokenIterator<'a> {
 }
 
 impl<'a> Iterator for TokenIterator<'a> {
-    type Item = Token<'a>;
+    type Item = Token;
 
-    fn next(&mut self) -> Option<Token<'a>> {
+    fn next(&mut self) -> Option<Token> {
         let mut fidx: Option<usize> = None;
         let mut fchar: Option<char> = None;
 
@@ -65,52 +65,59 @@ impl<'a> Iterator for TokenIterator<'a> {
         }
 
         if let (Some(fi), Some(fc)) = (fidx, fchar) {
-            if fc == '[' {
+            // is a time; does not end until ']'
+            if fc == '[' { 
                 return produce_until!(
                     c == ']';
                     (i, c) in self.chars;
                     Token::Time(
                         NaiveTime::parse_from_str(&self.source[fi..i+1], "[%R]").unwrap()
-                        );
                     );
+                );
+            // is an identifier; does not end until there are no more letters
             } else if fc.is_ascii_alphabetic() {
                 return produce_while!(
                     c.is_ascii_alphabetic();
                     (i, c) in self.chars; 
-                    Token::Identifier(&self.source[fi..*i]);
-                    );
+                    Token::Identifier(String::from(&self.source[fi..*i]));
+                );
+            // is an integer; does not end until there are no more numbers
             } else if fc.is_digit(10) {
                 return produce_while!(
                     c.is_digit(10);
                     (i, c) in self.chars; 
                     Token::Integer(self.source[fi..*i].parse::<u32>().unwrap());
-                    );
+                );
+            // these are just single characters
             } else if fc == '*' {
                 return Some(Token::Blob);
             } else if fc == ':' {
                 return Some(Token::Separator);
-            } else if fc == '"' {
-                return produce_until!(
-                    c == '"';
-                    (i, c) in self.chars;
-                    Token::String(&self.source[fi+1..i]);
-                    );
             } else if fc == '+' {
                 return Some(Token::Op(Operator::Plus));
             } else if fc == '-' {
                 return Some(Token::Op(Operator::Minus));
+            // transaction operator; takes an identifier
             } else if fc == '>' {
                 return produce_while!(
                     c.is_ascii_alphabetic();
                     (i, c) in self.chars; 
-                    Token::Op(Operator::Transfer(&self.source[fi+1..*i]));
-                    );
+                    Token::Op(Operator::Transfer(String::from(&self.source[fi+1..*i])));
+                );
+            // strings end when there is a terminating '"'
+            } else if fc == '"' {
+                return produce_until!(
+                    c == '"';
+                    (i, c) in self.chars;
+                    Token::String(String::from(&self.source[fi+1..i]));
+                );
+            // command; takes an identifier
             } else if fc == '#' {
                 return produce_until!(
                     c.is_whitespace();
                     (i, c) in self.chars;
-                    Token::Command(&self.source[fi+1..i]);
-                    );
+                    Token::Command(String::from(&self.source[fi+1..i]));
+                );
             } else {
                 println!("unknown char: {}", fc);
             }
@@ -119,20 +126,20 @@ impl<'a> Iterator for TokenIterator<'a> {
     }
 }
 
-#[derive(Copy, Clone)]
-pub enum Token<'a> {
+#[derive(Clone)]
+pub enum Token {
     Time(NaiveTime),
-    Identifier(&'a str),
+    Identifier(String),
     Integer(u32),
     Blob,
     Separator,
     Float(f32),
-    String(&'a str),
-    Op(Operator<'a>),
-    Command(&'a str),
+    String(String),
+    Op(Operator),
+    Command(String),
 }
 
-impl<'a> Token<'a> {
+impl Token {
     pub fn extract_int(&self) -> u32 {
         if let Token::Integer(i) = self {
             *i
@@ -149,8 +156,8 @@ impl<'a> Token<'a> {
     }
 
     pub fn extract_operator(&self) -> Operator {
-        if let Token::Op(o) = self {
-            *o
+        if let Token::Op(o) = &self {
+            o.clone()
         } else {
             panic!("cannot extract operator");
         }

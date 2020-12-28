@@ -1,6 +1,6 @@
-#[derive(Copy, Clone)]
-pub enum Operator<'a> {
+#[derive(Clone)]
+pub enum Operator {
     Plus,
     Minus,
-    Transfer(&'a str),
+    Transfer(String),
 }

@@ -2,14 +2,14 @@ use crate::match_first_pop;
 use super::{Amount, Operator, Token};
 
 #[derive(Clone)]
-pub enum Statement<'a> {
-    Transaction(Transaction<'a>),
-    Command(Command<'a>),
+pub enum Statement {
+    Transaction(Transaction),
+    Command(Command),
 }
 
-impl<'a> Statement<'a> {
-    pub fn from_vec(mut tokens: Vec<Token<'a>>) -> Option<Statement<'a>> {
-        match tokens[0] {
+impl Statement {
+    pub fn from_vec(mut tokens: Vec<Token>) -> Option<Statement> {
+        match tokens[0].clone() {
             Token::Identifier(i) => Some(Statement::Transaction(Transaction {
                 agent: match_first_pop!(tokens {
                     Token::Identifier(_) => { String::from(i) },
@@ -30,7 +30,7 @@ impl<'a> Statement<'a> {
         }
     }
 
-    pub fn transaction(&self) -> Option<Transaction<'a>> {
+    pub fn transaction(&self) -> Option<Transaction> {
         if let Statement::Transaction(t) = self {
             Some(t.clone())
         } else {
@@ -38,7 +38,7 @@ impl<'a> Statement<'a> {
         }
     }
 
-    pub fn command(&self) -> Option<Command<'a>> {
+    pub fn command(&self) -> Option<Command> {
         if let Statement::Command(c) = self {
             Some(c.clone())
         } else {
@@ -48,16 +48,16 @@ impl<'a> Statement<'a> {
 }
    
 #[derive(Clone)]
-pub struct Transaction<'o> {
+pub struct Transaction {
     agent: String,
     amount: Amount,
-    operator: Operator<'o>,
+    operator: Operator,
     comment: String,
 }
 
-impl<'o> Transaction<'o> {
-    pub fn expand(&self) -> Vec<Transaction<'o>> {
-        match self.operator {
+impl Transaction {
+    pub fn expand(&self) -> Vec<Transaction> {
+        match &self.operator {
             Operator::Transfer(s) => vec![
                 Transaction {
                     agent: self.agent.clone(),
@@ -98,8 +98,8 @@ impl<'o> Transaction<'o> {
         self.amount
     }
 
-    pub fn operator(&self) -> Operator<'o> {
-        self.operator
+    pub fn operator(&self) -> Operator {
+        self.operator.clone()
     }
 
     pub fn comment(&self) -> &str {
@@ -108,17 +108,17 @@ impl<'o> Transaction<'o> {
 }
 
 #[derive(Clone)]
-pub struct Command<'t> {
+pub struct Command {
     cmd: String,
-    args: Vec<Token<'t>>
+    args: Vec<Token>
 }
 
-impl<'t> Command<'t> {
+impl Command {
     pub fn command(&self) -> &str {
         &self.cmd
     }
 
-    pub fn args(&self) -> &Vec<Token<'t>> {
+    pub fn args(&self) -> &Vec<Token> {
         &self.args
     }
 }

@@ -17,16 +17,19 @@ impl Amount {
                     FullUnit::from_vec(s), // s.remove(0).extract_string()).unwrap(),
                     i)
             },
-            Token::Blob => match s[1] {
+            Token::Blob => match s[1].clone() {
                 Token::Identifier(i) => {
                     s.remove(1);
                     s.remove(0);
-                    Amount::AllOf(Currency::from_str(&i).unwrap())
+                    Amount::AllOf(Currency::from_str(&i)
+                        .expect("invalid currency specified after blob")
+                    )
                 },
-                _ => {
+                Token::Op(_) => {
                     s.remove(0);
                     Amount::Everything
                 },
+                _ => panic!("operator or identifier expected after blob"),
             },
             _ => panic!("invalid token"),
         }

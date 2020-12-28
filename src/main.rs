@@ -1,68 +1,39 @@
-use std::fs::File;
-use std::io::{self, BufRead};
-use std::path::Path;
-
-use chrono::naive::NaiveDate;
+use chrono::naive::MIN_DATE;
 
 pub mod parser;
-use parser::Line;
-use parser::Statement;
-use parser::Operator;
+use parser::{Statement, Operator, Parser};
 
 fn main() {
-    let mut block_date: Option<NaiveDate> = None;
+    let mut date = MIN_DATE;
 
-    for ln in read_lines("data.txt").expect("data.txt not found") {
-        if let Ok(mut text) = ln {
-            if let Some(current_date) = block_date {
-                // i'm not sure why but token production only works if there is
-                // a whitespace at the end. i tried to find a workaround but
-                // i'm too tired for this so here you go.
-                text.push('\n');
-                let lo = match Line::with_date_from_str(&current_date, &mut text) {
-                    Some(tr) => tr,
-                    None => {
-                        block_date = None;
-                        continue;
-                    }
-                };
+    let mut parser = Parser::from_filename("data.txt").expect("data.txt not found");
 
-                match lo.action() {
-                    Statement::Transaction(t) => {
-                        for w in t.expand() {
-                            let actstr = match w.operator() {
-                                Operator::Plus => String::from("+"),
-                                Operator::Minus => String::from("-"),
-                                Operator::Transfer(m) => String::from(">") + m,
-                            };
+    while let Some(lo) = parser.next_raw() {
+        if lo.datetime().date() != date {
+            date = lo.datetime().date();
+            println!("\n *** {}", date.format("%a %-d %B %Y"));
+        }
 
-                            println!(
-                                "{} {}: {} {} ({})",
-                                lo.datetime().format("[%R]"),
-                                w.agent(),
-                                actstr,
-                                w.amount().pretty(),
-                                w.comment()
-                                )
-                        }
-                    },
-                    Statement::Command {..} => println!("a command occured here"),
+        match lo.action() {
+            Statement::Transaction(t) => {
+                for w in t.expand() {
+                    let actstr = match w.operator() {
+                        Operator::Plus => String::from("+"),
+                        Operator::Minus => String::from("-"),
+                        _ => String::from("what?"),
+                    };
+
+                    println!(
+                        "{} {}: {} {} ({})",
+                        lo.datetime().format("[%R]"),
+                        w.agent(),
+                        actstr,
+                        w.amount().pretty(),
+                        w.comment()
+                        )
                 }
-            } else {
-                if text.is_empty() {
-                    continue;
-                }
-                if let Ok(date) = NaiveDate::parse_from_str(&text, "%F") {
-                    block_date = Some(date);
-                    println!("\n *** {}", date.format("%a %-d %B %Y"));
-                }
-            }
+            },
+            Statement::Command {..} => println!("a command occured here"),
         }
     }
-}
-
-fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>
-where P: AsRef<Path>, {
-    let file = File::open(filename)?;
-    Ok(io::BufReader::new(file).lines())
 }
