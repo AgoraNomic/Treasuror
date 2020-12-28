@@ -1,9 +1,12 @@
 legacy/*
 *~
+*.swp
 
 out.md
 fresh.txt
 split.txt
+
+src/model
 
 #Added by cargo
 
