@@ -1,10 +1,10 @@
-use std::io::{Result as IoResult, BufRead, BufReader, Lines};
 use std::fs::File;
+use std::io::{BufRead, BufReader, Lines, Result as IoResult};
 use std::path::Path;
 
 use chrono::naive::NaiveDate;
 
-use crate::parser::{Line as ParserLine};
+use crate::parser::Line as ParserLine;
 
 pub struct Parser {
     iterator: Lines<BufReader<File>>,
@@ -13,9 +13,11 @@ pub struct Parser {
 
 impl Parser {
     pub fn from_filename<P>(filename: P) -> IoResult<Parser>
-    where P: AsRef<Path> {
+    where
+        P: AsRef<Path>,
+    {
         let file = File::open(filename)?;
-        Ok(Parser { 
+        Ok(Parser {
             iterator: BufReader::new(file).lines(),
             date: None,
         })
@@ -47,7 +49,7 @@ impl Parser {
                 }
             }
             Some(Err(e)) => panic!(format!("problem reading file: {}", e)),
-            None => None
+            None => None,
         }
     }
 }

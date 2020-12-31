@@ -1,10 +1,10 @@
 use chrono::naive::MIN_DATE;
 
-pub mod parser;
 pub mod model;
+pub mod parser;
 
-use parser::{Statement, Operator, Parser};
 use model::Context;
+use parser::{Operator, Parser, Statement};
 
 fn main() {
     let mut context = Context::new();
@@ -36,9 +36,9 @@ fn main() {
                         actstr,
                         w.amount().pretty(),
                         w.comment()
-                        )
+                    )
                 }
-            },
+            }
             Statement::Command(_) => println!("a command occured here"),
         }
     }

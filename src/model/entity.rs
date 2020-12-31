@@ -1,7 +1,4 @@
-use crate::{
-    parser::Currency,
-    model::Inventory,
-};
+use crate::{model::Inventory, parser::Currency};
 
 pub struct Entity {
     name: String,

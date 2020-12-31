@@ -1,8 +1,8 @@
 use std::collections::HashMap;
 
 use crate::{
-    parser::{Amount, Operator, Currency, Transaction, FullUnit},
     model::{Entity, EntityKind, Inventory},
+    parser::{Amount, Currency, FullUnit, Operator, Transaction},
 };
 
 pub struct Context {
@@ -26,17 +26,15 @@ impl Context {
         for t in trans.expand() {
             let np = self.new_player(t.agent().to_string());
             let (currency, amount) = match t.amount() {
-                Amount::PartOf(unit, amt) => {
-                    match unit {
-                        FullUnit::Bare(c) => (c, amt),
-                        FullUnit::Boatload(c) => (c, self.boatloads(amt as f32)),
-                    }
+                Amount::PartOf(unit, amt) => match unit {
+                    FullUnit::Bare(c) => (c, amt),
+                    FullUnit::Boatload(c) => (c, self.boatloads(amt as f32)),
                 },
                 Amount::AllOf(c) => (c, u32::MAX),
                 Amount::Everything => {
                     eprintln!("everything not implemented!");
                     (Currency::Coin, 0)
-                },
+                }
             };
 
             let player = self.entities.entry(t.agent().to_string()).or_insert(np);
@@ -50,8 +48,12 @@ impl Context {
     }
 
     pub fn new_player(&self, name: String) -> Entity {
-        Entity::new(name, EntityKind::Player, self.default_map(EntityKind::Player))
-    }    
+        Entity::new(
+            name,
+            EntityKind::Player,
+            self.default_map(EntityKind::Player),
+        )
+    }
 
     /// Meant to be a better way of allocating maps for different kinds of
     /// entities. Players start with coins and cards so they for sure need
@@ -72,7 +74,7 @@ impl Context {
                 m.insert(Currency::LegiCard, 1);
                 m.insert(Currency::VoteCard, 1);
                 m
-            },
+            }
             _ => HashMap::with_capacity(1),
         }
     }
@@ -92,4 +94,3 @@ impl Context {
         result
     }
 }
-
