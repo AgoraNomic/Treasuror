@@ -1,9 +1,14 @@
 use chrono::naive::MIN_DATE;
 
 pub mod parser;
+pub mod model;
+
 use parser::{Statement, Operator, Parser};
+use model::Context;
 
 fn main() {
+    let mut context = Context::new();
+
     let mut date = MIN_DATE;
 
     let mut parser = Parser::from_filename("data.txt").expect("data.txt not found");
@@ -16,6 +21,7 @@ fn main() {
 
         match lo.action() {
             Statement::Transaction(t) => {
+                context.apply(t);
                 for w in t.expand() {
                     let actstr = match w.operator() {
                         Operator::Plus => String::from("+"),
@@ -33,7 +39,9 @@ fn main() {
                         )
                 }
             },
-            Statement::Command {..} => println!("a command occured here"),
+            Statement::Command(_) => println!("a command occured here"),
         }
     }
+
+    println!("{}", context.display());
 }

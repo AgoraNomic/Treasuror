@@ -1,6 +1,6 @@
 use super::token::Token;
 
-#[derive(Copy, Clone)]
+#[derive(Copy, Clone, Hash, Eq, PartialEq)]
 pub enum Currency {
     Coin,
     WinCard,
