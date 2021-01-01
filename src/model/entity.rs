@@ -1,5 +1,6 @@
 use crate::{model::Inventory, parser::Currency};
 
+#[allow(dead_code)]
 pub struct Entity {
     name: String,
     kind: EntityKind,

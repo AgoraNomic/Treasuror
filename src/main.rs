@@ -21,7 +21,7 @@ fn main() {
 
         match lo.action() {
             Statement::Transaction(t) => {
-                context.apply(t);
+                context.apply(&lo);
                 for w in t.expand() {
                     let actstr = match w.operator() {
                         Operator::Plus => String::from("+"),
@@ -39,7 +39,7 @@ fn main() {
                     )
                 }
             }
-            Statement::Command(_) => println!("a command occured here"),
+            Statement::Command(c) => context.exec(c),
         }
     }
 

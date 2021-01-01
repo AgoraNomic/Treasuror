@@ -1,30 +1,53 @@
 use std::collections::HashMap;
 
+use chrono::naive::{NaiveDateTime, MIN_DATE};
+
 use crate::{
     model::{Entity, EntityKind, Inventory},
-    parser::{Amount, Currency, FullUnit, Operator, Transaction},
+    parser::{Amount, Command, Currency, FullUnit, Line, Operator},
 };
 
 pub struct Context {
     entities: HashMap<String, Entity>,
     flotation: f32,
+    datetime: NaiveDateTime,
 }
 
 impl Context {
     pub fn new() -> Context {
         Context {
             entities: HashMap::new(),
-            flotation: 5.0,
+            flotation: 1.0,
+            datetime: MIN_DATE.and_hms(0, 0, 0),
         }
     }
 
-    pub fn boatloads(&self, amt: f32) -> u32 {
-        (self.flotation * amt).ceil() as u32
+    pub fn relevel(&mut self) {
+        self.flotation = self
+            .entities
+            .values()
+            .map(|ent| ent.balance(Currency::Coin))
+            .sum::<u32>() as f32
+            / 2500.0;
     }
 
-    pub fn apply(&mut self, trans: &Transaction) {
+    pub fn apply(&mut self, line: &Line) {
+        if self.verify_datetime(line.datetime()) {
+            self.datetime = line.datetime();
+        } else {
+            panic!(
+                "traveling back in time! {} is before {}.",
+                line.datetime().format("%F %R"),
+                self.datetime.format("%F %R")
+            );
+        }
+
+        let trans = line
+            .action()
+            .transaction()
+            .expect("cannot apply transaction");
+
         for t in trans.expand() {
-            let np = self.new_player(t.agent().to_string());
             let (currency, amount) = match t.amount() {
                 Amount::PartOf(unit, amt) => match unit {
                     FullUnit::Bare(c) => (c, amt),
@@ -37,7 +60,10 @@ impl Context {
                 }
             };
 
-            let player = self.entities.entry(t.agent().to_string()).or_insert(np);
+            let player = self
+                .entities
+                .get_mut(t.agent())
+                .expect(&format!("no such entity: {}", t.agent()));
 
             match t.operator() {
                 Operator::Plus => player.grant(currency, amount),
@@ -47,12 +73,27 @@ impl Context {
         }
     }
 
-    pub fn new_player(&self, name: String) -> Entity {
-        Entity::new(
-            name,
-            EntityKind::Player,
-            self.default_map(EntityKind::Player),
-        )
+    pub fn exec(&mut self, com: &Command) {
+        match com.command() {
+            "relevel" => self.relevel(),
+            "newplayer" => self.new_player(String::from(com.args()[1].extract_string())),
+            _ => eprintln!("no such command: {}", com.command()),
+        }
+    }
+
+    pub fn new_player(&mut self, name: String) {
+        if self.entities.get(&name).is_some() {
+            panic!("entity already exists: {}", name);
+        }
+
+        self.entities.insert(
+            name.clone(),
+            Entity::new(
+                name,
+                EntityKind::Player,
+                self.default_map(EntityKind::Player),
+            ),
+        );
     }
 
     /// Meant to be a better way of allocating maps for different kinds of
@@ -92,5 +133,13 @@ impl Context {
             result.push('\n');
         }
         result
+    }
+
+    pub fn boatloads(&self, amt: f32) -> u32 {
+        (self.flotation * amt).ceil() as u32
+    }
+
+    pub fn verify_datetime(&self, other: NaiveDateTime) -> bool {
+        other >= self.datetime
     }
 }
