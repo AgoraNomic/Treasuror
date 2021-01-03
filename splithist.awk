@@ -22,7 +22,7 @@ BEGIN {
     position = -1;
 }
 
-/^(\|.+)+\|$/ && position >= 4 {
+/^(\|.+)+\|$/ && position >= 2 {
     entities[$2] = entities[$2] $0 "\n";
 }
 
