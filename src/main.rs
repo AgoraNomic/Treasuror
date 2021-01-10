@@ -1,3 +1,6 @@
+use std::fs::File;
+use std::io::{BufReader, Result as IoResult};
+
 use chrono::naive::MIN_DATE;
 
 pub mod model;
@@ -11,7 +14,9 @@ fn main() {
 
     let mut date = MIN_DATE;
 
-    let mut parser = Parser::from_filename("data.txt").expect("data.txt not found");
+    let mut parser = Parser::from_reader(BufReader::new(
+        File::open("data.txt").expect("data.txt not found"),
+    ));
 
     while let Some(lo) = parser.next_raw() {
         if lo.datetime().date() != date {
@@ -40,6 +45,7 @@ fn main() {
                 }
             }
             Statement::Command(c) => context.exec(c),
+            Statement::Command { .. } => println!("a command occured here"),
         }
     }
 
