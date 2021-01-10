@@ -1,5 +1,5 @@
-use crate::match_first_pop;
 use super::{Amount, Operator, Token};
+use crate::match_first_pop;
 
 #[derive(Clone)]
 pub enum Statement {
@@ -17,7 +17,7 @@ impl Statement {
                 amount: Amount::from_vec(&mut tokens),
                 operator: match_first_pop!(tokens {
                     Token::Op(o) => { o },
-                } else { return None }), 
+                } else { return None }),
                 comment: match_first_pop!(tokens {
                     Token::String(s) => { String::from(s) },
                 } else { String::from("") }),
@@ -26,7 +26,7 @@ impl Statement {
                 cmd: String::from(c),
                 args: tokens,
             })),
-            _ => None
+            _ => None,
         }
     }
 
@@ -46,7 +46,7 @@ impl Statement {
         }
     }
 }
-   
+
 #[derive(Clone)]
 pub struct Transaction {
     agent: String,
@@ -70,7 +70,8 @@ impl Transaction {
                             String::from("")
                         } else {
                             String::from(": ") + &self.comment
-                        }),
+                        }
+                    ),
                 },
                 Transaction {
                     agent: String::from(s),
@@ -80,11 +81,12 @@ impl Transaction {
                         "Transfer {}{}",
                         self.agent.clone(),
                         if self.comment == "" {
-                            String::from("") 
+                            String::from("")
                         } else {
                             String::from(": ") + &self.comment
-                        }),
-                }
+                        }
+                    ),
+                },
             ],
             _ => vec![self.clone()],
         }
@@ -110,7 +112,7 @@ impl Transaction {
 #[derive(Clone)]
 pub struct Command {
     cmd: String,
-    args: Vec<Token>
+    args: Vec<Token>,
 }
 
 impl Command {
@@ -122,4 +124,3 @@ impl Command {
         &self.args
     }
 }
-

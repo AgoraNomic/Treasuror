@@ -15,7 +15,7 @@ macro_rules! produce_until {
             }
         }
         tmp_result
-    }}
+    }};
 }
 
 macro_rules! produce_while {
@@ -29,7 +29,7 @@ macro_rules! produce_while {
             $iter.next();
         }
         tmp_result
-    }}
+    }};
 }
 
 pub struct TokenIterator<'a> {
@@ -54,11 +54,11 @@ impl<'a> Iterator for TokenIterator<'a> {
         let mut fchar: Option<char> = None;
 
         for (i, c) in self.chars.by_ref() {
-//            println!("searching: {}", c);
+            //            println!("searching: {}", c);
             if c.is_whitespace() {
                 continue;
             }
-//            println!("found    : {}", c);
+            //            println!("found    : {}", c);
             fidx = Some(i);
             fchar = Some(c);
             break;
@@ -66,7 +66,7 @@ impl<'a> Iterator for TokenIterator<'a> {
 
         if let (Some(fi), Some(fc)) = (fidx, fchar) {
             // is a time; does not end until ']'
-            if fc == '[' { 
+            if fc == '[' {
                 return produce_until!(
                     c == ']';
                     (i, c) in self.chars;
@@ -78,14 +78,14 @@ impl<'a> Iterator for TokenIterator<'a> {
             } else if fc.is_ascii_alphabetic() {
                 return produce_while!(
                     c.is_ascii_alphabetic();
-                    (i, c) in self.chars; 
+                    (i, c) in self.chars;
                     Token::Identifier(String::from(&self.source[fi..*i]));
                 );
             // is an integer; does not end until there are no more numbers
             } else if fc.is_digit(10) {
                 return produce_while!(
                     c.is_digit(10);
-                    (i, c) in self.chars; 
+                    (i, c) in self.chars;
                     Token::Integer(self.source[fi..*i].parse::<u32>().unwrap());
                 );
             // these are just single characters
@@ -101,7 +101,7 @@ impl<'a> Iterator for TokenIterator<'a> {
             } else if fc == '>' {
                 return produce_while!(
                     c.is_ascii_alphabetic();
-                    (i, c) in self.chars; 
+                    (i, c) in self.chars;
                     Token::Op(Operator::Transfer(String::from(&self.source[fi+1..*i])));
                 );
             // strings end when there is a terminating '"'
@@ -162,6 +162,4 @@ impl Token {
             panic!("cannot extract operator");
         }
     }
-
 }
-

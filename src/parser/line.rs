@@ -2,7 +2,7 @@
 
 use chrono::naive::{NaiveDate, NaiveDateTime};
 
-use super::{Token, TokenIterator, Statement};
+use super::{Statement, Token, TokenIterator};
 
 #[macro_export]
 macro_rules! match_first_pop {
@@ -42,7 +42,7 @@ impl Line {
             action: Statement::from_vec(tokens).expect("bad statement"),
         })
     }
-    
+
     pub fn datetime(&self) -> NaiveDateTime {
         self.datetime
     }
@@ -51,4 +51,3 @@ impl Line {
         &self.action
     }
 }
-

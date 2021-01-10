@@ -1,11 +1,6 @@
 use std::fs::File;
+use std::io::{prelude::*, BufReader, Chain, Result as IoResult};
 use std::path::Path;
-use std::io::{
-    prelude::*,
-    Result as IoResult,
-    BufReader,
-    Chain,
-};
 
 use chrono::naive::NaiveDate;
 
@@ -17,16 +12,15 @@ pub struct Parser<R: BufRead> {
 }
 
 impl<R: BufRead> Parser<R> {
-    pub fn from_filename<P>(filename: P) -> IoResult<Parser<BufReader<File>>>
-    where P: AsRef<Path> {
-        let file = File::open(filename)?;
-        Ok(Parser { 
-            reader: BufReader::new(file),
+    pub fn from_reader(reader: R) -> Parser<R> {
+        Parser {
+            // reader: BufReader::new(reader),
+            reader,
             date: None,
-        })
+        }
     }
 
-    pub fn chain<S: BufRead>(self, next: S) -> Parser<Chain<R, S>>{
+    pub fn chain<S: BufRead>(self, next: S) -> Parser<Chain<R, S>> {
         Parser {
             reader: self.reader.chain(next),
             date: self.date,
@@ -52,16 +46,16 @@ impl<R: BufRead> Parser<R> {
                     }
                 } else if text.is_empty() {
                     self.next_raw()
-                } else if let Ok(date) = NaiveDate::parse_from_str(&text, "%F") {
+                } else if let Ok(date) = NaiveDate::parse_from_str(text.trim(), "%F") {
                     self.date = Some(date);
                     self.next_raw()
                 } else {
                     eprintln!("got here somehow");
+                    eprintln!("{}", text);
                     self.next_raw()
                 }
-            },
+            }
             Err(e) => panic!(format!("Problem reading file: {}", e)),
         }
-
     }
 }

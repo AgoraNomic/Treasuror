@@ -1,17 +1,17 @@
 mod amount;
-mod operator;
-mod token;
 mod line;
-mod statement;
+mod operator;
 mod parser;
+mod statement;
+mod token;
 mod unit;
 
 pub use crate::parser::{
     amount::Amount,
-    operator::Operator,
-    token::{Token, TokenIterator},
     line::Line,
-    statement::{Statement, Transaction, Command},
+    operator::Operator,
     parser::Parser,
+    statement::{Command, Statement, Transaction},
+    token::{Token, TokenIterator},
     unit::{Currency, FullUnit},
 };

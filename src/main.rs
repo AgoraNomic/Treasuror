@@ -1,15 +1,17 @@
-use std::io::BufReader;
 use std::fs::File;
+use std::io::{BufReader, Result as IoResult};
 
 use chrono::naive::MIN_DATE;
 
 pub mod parser;
-use parser::{Statement, Operator, Parser};
+use parser::{Operator, Parser, Statement};
 
 fn main() {
     let mut date = MIN_DATE;
 
-    let mut parser = Parser::from_filename("data.txt").expect("data.txt not found");
+    let mut parser = Parser::from_reader(BufReader::new(
+        File::open("data.txt").expect("data.txt not found"),
+    ));
 
     while let Some(lo) = parser.next_raw() {
         if lo.datetime().date() != date {
@@ -33,10 +35,10 @@ fn main() {
                         actstr,
                         w.amount().pretty(),
                         w.comment()
-                        )
+                    )
                 }
-            },
-            Statement::Command {..} => println!("a command occured here"),
+            }
+            Statement::Command { .. } => println!("a command occured here"),
         }
     }
 }
