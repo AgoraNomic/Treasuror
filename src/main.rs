@@ -1,5 +1,5 @@
 use std::fs::File;
-use std::io::{BufReader, Result as IoResult};
+use std::io::BufReader;
 
 use chrono::naive::MIN_DATE;
 
@@ -7,7 +7,10 @@ pub mod model;
 pub mod parser;
 
 use model::Context;
-use parser::{Operator, Parser, Statement};
+use parser::{
+    ast::Operator,
+    tll::{Parser, Statement},
+};
 
 fn main() {
     let mut context = Context::new();
@@ -45,7 +48,6 @@ fn main() {
                 }
             }
             Statement::Command(c) => context.exec(c),
-            Statement::Command { .. } => println!("a command occured here"),
         }
     }
 

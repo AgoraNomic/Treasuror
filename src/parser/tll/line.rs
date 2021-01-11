@@ -2,7 +2,8 @@
 
 use chrono::naive::{NaiveDate, NaiveDateTime};
 
-use super::{Statement, Token, TokenIterator};
+use super::Statement;
+use crate::parser::ast::{Token, TokenIterator};
 
 #[macro_export]
 macro_rules! match_first_pop {

@@ -1,4 +1,4 @@
-use crate::{model::Inventory, parser::Currency};
+use crate::{model::Inventory, parser::ast::Currency};
 
 #[allow(dead_code)]
 pub struct Entity {

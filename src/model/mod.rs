@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-use crate::parser::Currency;
+use crate::parser::ast::Currency;
 
 mod context;
 mod entity;

@@ -1,5 +1,5 @@
-use super::{Amount, Operator, Token};
 use crate::match_first_pop;
+use crate::parser::ast::{Amount, Operator, Token};
 
 #[derive(Clone)]
 pub enum Statement {

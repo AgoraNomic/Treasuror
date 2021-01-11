@@ -4,7 +4,10 @@ use chrono::naive::{NaiveDateTime, MIN_DATE};
 
 use crate::{
     model::{Entity, EntityKind, Inventory},
-    parser::{Amount, Command, Currency, FullUnit, Line, Operator},
+    parser::{
+        ast::{Amount, Currency, FullUnit, Operator},
+        tll::{Command, Line},
+    },
 };
 
 pub struct Context {

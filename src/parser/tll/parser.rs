@@ -2,7 +2,7 @@ use std::io::{prelude::*, Chain};
 
 use chrono::naive::NaiveDate;
 
-use crate::parser::Line;
+use crate::parser::tll::Line;
 
 pub struct Parser<R: BufRead> {
     reader: R,
@@ -30,7 +30,7 @@ impl<R: BufRead> Parser<R> {
                     // i'm not sure why but token production only works if there is
                     // a whitespace at the end. i tried to find a workaround but
                     // i'm too tired for this so here you go.
-                    text.push('\n');
+                    // text.push('\n');
                     match Line::with_date_from_str(date, &mut text) {
                         Some(l) => Some(l),
                         None => {
