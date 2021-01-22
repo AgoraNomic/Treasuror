@@ -1,8 +1,13 @@
 use std::collections::HashMap;
 
-use crate::{match_first_pop, model::Inventory, parser::ast::{Currency, Token}};
+use crate::{
+    match_first_pop,
+    model::Inventory,
+    parser::ast::{Currency, Token},
+};
 
 #[allow(dead_code)]
+#[derive(Clone)]
 pub struct Entity {
     full_name: String,
     identifier: String,
@@ -35,9 +40,15 @@ impl Entity {
                 Token::Integer(i) => { i },
             } else { panic!("expected number") });
 
-            let currency = match_first_pop!(tokens {
-                Token::Identifier(s) => { Currency::from_str(&s).expect(&format!("invalid currency: '{}'!", s)) },
-            } else { panic!("expected currency identifier") });
+            let currency = match_first_pop!(
+                tokens {
+                    Token::Identifier(s) => {
+                        Currency::from_str(&s).expect(
+                            &format!("invalid currency: '{}'!", s)
+                        )
+                    },
+                } else { panic!("expected currency identifier") }
+            );
 
             inventory.insert(currency, amount);
         }
@@ -63,10 +74,6 @@ impl Entity {
         *self.inventory.get(&c).unwrap_or(&0)
     }
 
-    pub fn inventory(&self) -> &Inventory {
-        &self.inventory
-    }
-
     pub fn grant(&mut self, c: Currency, a: u32) {
         *self.inventory.entry(c).or_insert(0) += a;
     }
@@ -79,6 +86,22 @@ impl Entity {
         } else {
             *q += a;
         }
+    }
+
+    pub fn full_name(&self) -> &String {
+        &self.full_name
+    }
+
+    pub fn identifier(&self) -> &String {
+        &self.identifier
+    }
+
+    pub fn kind(&self) -> EntityKind {
+        self.kind
+    }
+
+    pub fn inventory(&self) -> &Inventory {
+        &self.inventory
     }
 }
 

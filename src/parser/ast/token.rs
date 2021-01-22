@@ -54,11 +54,11 @@ impl<'a> Iterator for TokenIterator<'a> {
         let mut fchar: Option<char> = None;
 
         for (i, c) in self.chars.by_ref() {
-            //            println!("searching: {}", c);
+            // println!("searching: {}", c);
             if c.is_whitespace() {
                 continue;
             }
-            //            println!("found    : {}", c);
+            // println!("found    : {}", c);
             fidx = Some(i);
             fchar = Some(c);
             break;
@@ -77,7 +77,7 @@ impl<'a> Iterator for TokenIterator<'a> {
             // is an identifier; does not end until there are no more letters
             } else if fc.is_ascii_alphabetic() {
                 return produce_while!(
-                    c.is_ascii_alphabetic();
+                    c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&';
                     (i, c) in self.chars;
                     Token::Identifier(String::from(&self.source[fi..i]));
                 );
@@ -89,12 +89,13 @@ impl<'a> Iterator for TokenIterator<'a> {
                     &self.source[fi..i];
                 );
                 
-                if self.chars.peek().unwrap_or(&(0, ' ')).1 == '.' {
+                if self.chars.peek().unwrap().1 == '.' { //_or(&(0, ' ')).1 == '.' {
+                    self.chars.next();
                     return produce_while!(
                         c.is_digit(10);
                         (i, c) in self.chars;
                         Token::Float(self.source[fi..i].parse::<f32>().unwrap());
-                    )
+                    );
                 } else {
                     return Some(Token::Integer(first.unwrap().parse::<u32>().unwrap()));
                 }
@@ -110,7 +111,7 @@ impl<'a> Iterator for TokenIterator<'a> {
             // transaction operator; takes an identifier
             } else if fc == '>' {
                 return produce_while!(
-                    c.is_ascii_alphabetic();
+                    c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&';
                     (i, c) in self.chars;
                     Token::Op(Operator::Transfer(String::from(&self.source[fi+1..i])));
                 );

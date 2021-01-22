@@ -1,11 +1,7 @@
 use crate::{
-    parser::ast::{
-        Currency,
-        Token,
-        TokenIterator,
-    },
     match_first_pop,
     model::Entity,
+    parser::ast::{Currency, Token, TokenIterator},
 };
 
 pub enum Directive {
@@ -26,10 +22,14 @@ impl Directive {
                 "assets" => Directive::Assets(
                     tokens
                         .iter()
-                        .map(|x| Currency::from_str(x.extract_string()).expect("no such currency"))
+                        .map(|x| Currency::from_str(
+                            x.extract_string()).expect("no such currency")
+                        )
                         .collect::<Vec<Currency>>()
                 ),
-                "flotation" => Directive::Flotation(tokens.get(1).unwrap().extract_float()),
+                "flotation" => Directive::Flotation(
+                    tokens.get(0).unwrap().extract_float()
+                ),
                 "ent" => Directive::Entity(Entity::from_vec(&mut tokens)),
                 _ => panic!("No such directive"),
             }},

@@ -4,14 +4,16 @@ use chrono::naive::{NaiveDateTime, MIN_DATE};
 
 use crate::{
     match_first_pop,
-    model::{Entity},
+    model::Entity,
     parser::{
         ast::{Amount, Currency, FullUnit, Operator, Token},
+        gsdl::Directive,
         tll::{Command, Line},
     },
 };
 
 pub struct Context {
+    assets: Vec<Currency>,
     entities: HashMap<String, Entity>,
     flotation: f32,
     datetime: NaiveDateTime,
@@ -20,6 +22,7 @@ pub struct Context {
 impl Context {
     pub fn new() -> Context {
         Context {
+            assets: Vec::new(),
             entities: HashMap::new(),
             flotation: 1.0,
             datetime: MIN_DATE.and_hms(0, 0, 0),
@@ -98,15 +101,23 @@ impl Context {
         }
     }
 
-    pub fn add_player(&mut self, identifier: String, full_name: String) {
-        if self.entities.get(&full_name).is_some() {
-            panic!("entity already exists: {}", full_name);
+    pub fn process(&mut self, dir: &Directive) {
+        match dir {
+            Directive::Assets(v) => { self.assets = v.clone(); }
+            Directive::Flotation(f) => { self.flotation = f.clone(); }
+            Directive::Entity(e) => { self.insert_entity(e.clone()); }
         }
+    }
+    
+    pub fn insert_entity(&mut self, ent: Entity) {
+        if self.entities.get(&ent.identifier()[..]).is_some() {
+            panic!("entity {} already exists", ent.identifier());
+        }
+        self.entities.insert(ent.identifier().clone(), ent);
+    }
 
-        self.entities.insert(
-            identifier.to_string(),
-            Entity::player(identifier, full_name)
-        );
+    pub fn add_player(&mut self, identifier: String, full_name: String) {
+        self.insert_entity(Entity::player(identifier, full_name));
     }
 
     pub fn display(&self) -> String {
@@ -114,8 +125,8 @@ impl Context {
         for (name, ent) in self.entities.iter() {
             result.push_str(name);
             result.push_str(": ");
-            for (curr, amount) in ent.inventory().iter() {
-                result.push_str(&amount.to_string());
+            for curr in self.assets.iter() {
+                result.push_str(&ent.inventory().get(&curr).unwrap_or(&0).to_string());
                 result.push_str(curr.abbr());
                 result.push_str(", ");
             }

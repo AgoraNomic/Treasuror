@@ -9,7 +9,8 @@ pub mod parser;
 use model::Context;
 use parser::{
     ast::Operator,
-    tll::{Parser, Statement},
+    gsdl::{Parser as GsdParser},
+    tll::{Parser as TlParser, Statement},
 };
 
 fn main() {
@@ -17,11 +18,19 @@ fn main() {
 
     let mut date = MIN_DATE;
 
-    let mut parser = Parser::from_reader(BufReader::new(
+    let mut tlparser = TlParser::from_reader(BufReader::new(
         File::open("data.txt").expect("data.txt not found"),
     ));
 
-    while let Some(lo) = parser.next_raw() {
+    let mut gsdparser = GsdParser::from_reader(BufReader::new(
+        File::open("state.txt").expect("state.txt not found"),
+    ));
+
+    while let Some(d) = gsdparser.next_raw() {
+        context.process(&d);
+    }
+
+    while let Some(lo) = tlparser.next_raw() {
         if lo.datetime().date() != date {
             date = lo.datetime().date();
             println!("\n *** {}", date.format("%a %-d %B %Y"));

@@ -1,4 +1,4 @@
-ASSETS cn wc jc lc vs wp bg pd xv
+ASSETS cn wc jc lc vc wp bg pd xv
 FLOTATION 5.32
 ENT P Aris        1499cn   2lc   3wp   2bg  10pd   2xv
 ENT P ATMunn       373cn   1lc  11wp   2pd
@@ -23,7 +23,7 @@ ENT C DragonQE    "Dragon QuickExchange"            1jc  2lc   2wp   1xv
 ENT C IBTWWBG     "I bet this was written by G."   50cn
 ENT C PlunderPS   "Plunder Partnership"           179cn
 ENT C Press       "Agoran Press"                  118cn
-ENT C SEAMSTRESS  "Signature Enthusiast Allows Modification of Signature Through Rigorous Exchanging of Signature Suggestions" Other 
+ENT C SEAMSTRESS  "Signature Enthusiast Allows Modification of Signature Through Rigorous Exchanging of Signature Suggestions"
 ENT C TeamMarg    "Team Margaux"                  137cn
 ENT O Agora
 ENT O L&F_Dept.   "Lost and Found Department"    2236cn  4jc   7lc   5vc   5wp   4bg   4pd   3xv
