@@ -3,22 +3,8 @@
 use chrono::naive::{NaiveDate, NaiveDateTime};
 
 use super::Statement;
+use crate::match_first_pop;
 use crate::parser::ast::{Token, TokenIterator};
-
-#[macro_export]
-macro_rules! match_first_pop {
-    ($v:ident { $( $t:pat => $b:block ),+, } else $e:block) => {{
-        // println!("{}", $v.len());
-        let tmp_first = $v.get(0).cloned();
-        match tmp_first {
-            $(Some($t) => {
-                $v.remove(0);
-                $b
-            },)*
-            Some(_) | None => $e,
-        }
-    }}
-}
 
 #[derive(Clone)]
 pub struct Line {

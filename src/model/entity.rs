@@ -1,18 +1,61 @@
-use crate::{model::Inventory, parser::ast::Currency};
+use std::collections::HashMap;
+
+use crate::{match_first_pop, model::Inventory, parser::ast::{Currency, Token}};
 
 #[allow(dead_code)]
 pub struct Entity {
-    name: String,
+    full_name: String,
+    identifier: String,
     kind: EntityKind,
     inventory: Inventory,
 }
 
 impl Entity {
-    pub fn new(name: String, kind: EntityKind, inventory: Inventory) -> Entity {
+    pub fn from_vec(tokens: &mut Vec<Token>) -> Entity {
+        let kind = match_first_pop!(tokens {
+            Token::Identifier(s) => { match &s.to_lowercase()[..] {
+                "p" => EntityKind::Player,
+                "c"=> EntityKind::Contract,
+                "o" => EntityKind::Other,
+                _ => panic!("Expected 'P', 'C', or 'O'"),
+            }},
+        } else { panic!("Expected first arg of ENT directive to be identifier") });
+
+        let identifier = match_first_pop!(tokens {
+            Token::Identifier(s) => { s },
+        } else { panic!("Expected name") });
+
+        let full_name = match_first_pop!(tokens {
+            Token::String(s) => { s },
+        } else { identifier.clone() });
+
+        let mut inventory: Inventory = HashMap::new();
+        while tokens.len() > 0 {
+            let amount = match_first_pop!(tokens {
+                Token::Integer(i) => { i },
+            } else { panic!("expected number") });
+
+            let currency = match_first_pop!(tokens {
+                Token::Identifier(s) => { Currency::from_str(&s).expect(&format!("invalid currency: '{}'!", s)) },
+            } else { panic!("expected currency identifier") });
+
+            inventory.insert(currency, amount);
+        }
+
         Entity {
-            name: name,
-            kind: kind,
-            inventory: inventory,
+            full_name,
+            identifier,
+            kind,
+            inventory,
+        }
+    }
+
+    pub fn player(identifier: String, full_name: String) -> Entity {
+        Entity {
+            full_name,
+            identifier,
+            kind: EntityKind::Player,
+            inventory: HashMap::with_capacity(5),
         }
     }
 

@@ -21,7 +21,7 @@ macro_rules! produce_until {
 macro_rules! produce_while {
     ( $cond:expr; $pt:pat in $iter:expr; $prod:expr; ) => {{
         let mut tmp_result = None;
-        while let Some($pt) = $iter.peek() {
+        while let Some($pt) = $iter.peek().copied() {
             if !$cond {
                 tmp_result = Some($prod);
                 break;
@@ -79,15 +79,25 @@ impl<'a> Iterator for TokenIterator<'a> {
                 return produce_while!(
                     c.is_ascii_alphabetic();
                     (i, c) in self.chars;
-                    Token::Identifier(String::from(&self.source[fi..*i]));
+                    Token::Identifier(String::from(&self.source[fi..i]));
                 );
             // is an integer; does not end until there are no more numbers
             } else if fc.is_digit(10) {
-                return produce_while!(
+                let first = produce_while!(
                     c.is_digit(10);
                     (i, c) in self.chars;
-                    Token::Integer(self.source[fi..*i].parse::<u32>().unwrap());
+                    &self.source[fi..i];
                 );
+                
+                if self.chars.peek().unwrap_or(&(0, ' ')).1 == '.' {
+                    return produce_while!(
+                        c.is_digit(10);
+                        (i, c) in self.chars;
+                        Token::Float(self.source[fi..i].parse::<f32>().unwrap());
+                    )
+                } else {
+                    return Some(Token::Integer(first.unwrap().parse::<u32>().unwrap()));
+                }
             // these are just single characters
             } else if fc == '*' {
                 return Some(Token::Blob);
@@ -102,7 +112,7 @@ impl<'a> Iterator for TokenIterator<'a> {
                 return produce_while!(
                     c.is_ascii_alphabetic();
                     (i, c) in self.chars;
-                    Token::Op(Operator::Transfer(String::from(&self.source[fi+1..*i])));
+                    Token::Op(Operator::Transfer(String::from(&self.source[fi+1..i])));
                 );
             // strings end when there is a terminating '"'
             } else if fc == '"' {
@@ -120,6 +130,7 @@ impl<'a> Iterator for TokenIterator<'a> {
                 );
             } else {
                 println!("unknown char: {}", fc);
+                return None;
             }
         }
         return None;
@@ -140,6 +151,14 @@ pub enum Token {
 }
 
 impl Token {
+    pub fn extract_float(&self) -> f32 {
+        if let Token::Float(f) = self {
+            *f
+        } else {
+            panic!("cannot extract float");
+        }
+    }
+
     pub fn extract_int(&self) -> u32 {
         if let Token::Integer(i) = self {
             *i

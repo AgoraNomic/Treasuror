@@ -3,9 +3,10 @@ use std::collections::HashMap;
 use chrono::naive::{NaiveDateTime, MIN_DATE};
 
 use crate::{
-    model::{Entity, EntityKind, Inventory},
+    match_first_pop,
+    model::{Entity},
     parser::{
-        ast::{Amount, Currency, FullUnit, Operator},
+        ast::{Amount, Currency, FullUnit, Operator, Token},
         tll::{Command, Line},
     },
 };
@@ -48,7 +49,7 @@ impl Context {
         let trans = line
             .action()
             .transaction()
-            .expect("cannot apply transaction");
+            .expect("cannot apply non-transaction");
 
         for t in trans.expand() {
             let (currency, amount) = match t.amount() {
@@ -79,48 +80,33 @@ impl Context {
     pub fn exec(&mut self, com: &Command) {
         match com.command() {
             "relevel" => self.relevel(),
-            "newplayer" => self.new_player(String::from(com.args()[1].extract_string())),
-            _ => eprintln!("no such command: {}", com.command()),
+            "newplayer" => {
+                let mut args = com.args().clone();
+                args.remove(0);
+                let identifier = match_first_pop!(args {
+                    Token::Identifier(s) => { s },
+                } else { panic!("expected identifier in #newplayer command") });
+
+                let full_name = match_first_pop!(args {
+                    Token::String(s) => { s },
+                    Token::Identifier(s) => { s },
+                } else { identifier.clone() });
+
+                self.add_player(identifier, full_name);
+            }
+            _ => eprintln!("no such command: {}", &com.command()),
         }
     }
 
-    pub fn new_player(&mut self, name: String) {
-        if self.entities.get(&name).is_some() {
-            panic!("entity already exists: {}", name);
+    pub fn add_player(&mut self, identifier: String, full_name: String) {
+        if self.entities.get(&full_name).is_some() {
+            panic!("entity already exists: {}", full_name);
         }
 
         self.entities.insert(
-            name.clone(),
-            Entity::new(
-                name,
-                EntityKind::Player,
-                self.default_map(EntityKind::Player),
-            ),
+            identifier.to_string(),
+            Entity::player(identifier, full_name)
         );
-    }
-
-    /// Meant to be a better way of allocating maps for different kinds of
-    /// entities. Players start with coins and cards so they for sure need
-    /// five inventory spots. Other entities are usually only used to store
-    /// coins. This isn't perfect, but it should be marginally better than
-    /// leaving it up to default allocation.
-    ///
-    /// If assets change enough to warrant it, this may need to be updated
-    /// at some point. In that case, we will probably want to change
-    /// allocation rules based on the date the entity joined.
-    pub fn default_map(&self, ek: EntityKind) -> Inventory {
-        match ek {
-            EntityKind::Player => {
-                let mut m = HashMap::with_capacity(5);
-                m.insert(Currency::Coin, self.boatloads(10.0));
-                m.insert(Currency::WinCard, 1);
-                m.insert(Currency::JusticeCard, 1);
-                m.insert(Currency::LegiCard, 1);
-                m.insert(Currency::VoteCard, 1);
-                m
-            }
-            _ => HashMap::with_capacity(1),
-        }
     }
 
     pub fn display(&self) -> String {

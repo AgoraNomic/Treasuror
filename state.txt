@@ -1,27 +1,29 @@
-Aris        Player  1499cn   2lc   3wp   2bg  10pd   2xv
-ATMunn      Player   373cn   1lc  11wp   2pd
-Cuddlebeam  Player   508cn   2wc   1wp
-Falsifian   Player   817cn   1jc   3lc   1pd
-G.          Player  1645cn   6wc   1jc   1lc   2wp  11bg   8pd  10xv
-Gaelan      Player   400cn   1vc   1bg
-grok        Player   185cn   1wc   1jc   1lc   1vc
-Jason       Player  1918cn   1wc   3lc   2vc   1wp   8bg  13pd
-JTAC        Player    85cn   1wc   1jc   1lc   1vc
-Lucidiot    Player   150cn   2wc   1jc   1lc   1vc   1wp
-Murphy      Player   384cn   1jc   1lc   2vc
-Nathan      Player   137cn   1wc   1jc   1lc   1vc   3pd
-nix         Player   174cn   1wc   2lc   6vc   7wp   2pd   4xv
-omd         Player   378cn   1wc   1lc   1vc   2bg
-R._Lee      Player   147cn   1wc   1jc
-Shy_Owl     Player   144cn   1wc   1jc   1lc   1vc
-Trigon      Player  1141cn   1wc   1jc   1vc   2wp   8pd
-Agora       Other
-CB_Locker   "Cuddlebeam's Locker"  Other     2wc  1jc   1lc   1vc
-D._Corp.    "Dragon Corporation"   Other   495cn  1bg  11pd   1xv
-DragonQE    "Dragon QuickExchange" Other     1jc  2lc   2wp   1xv
-IBTWWBG     "I bet this was written by G." Other    50cn
-L&F_Dept.   "Lost and Found Department"    Other  2236cn  4jc   7lc   5vc   5wp   4bg   4pd   3xv
-PlunderPS   "Plunder Partnership"  Other   179cn
-Press       "Agoran Press"         Other   118cn
-SEAMSTRESS  "Signature Enthusiast Allows Modification of Signature Through Rigorous Exchanging of Signature Suggestions" Other 
-TeamMarg    "Team Margaux"         Other   137cn
+ASSETS cn wc jc lc vs wp bg pd xv
+FLOTATION 5.32
+ENT P Aris        1499cn   2lc   3wp   2bg  10pd   2xv
+ENT P ATMunn       373cn   1lc  11wp   2pd
+ENT P Cuddlebeam   508cn   2wc   1wp
+ENT P Falsifian    817cn   1jc   3lc   1pd
+ENT P G.          1645cn   6wc   1jc   1lc   2wp  11bg   8pd  10xv
+ENT P Gaelan       400cn   1vc   1bg
+ENT P grok         185cn   1wc   1jc   1lc   1vc
+ENT P Jason       1918cn   1wc   3lc   2vc   1wp   8bg  13pd
+ENT P JTAC          85cn   1wc   1jc   1lc   1vc
+ENT P Lucidiot     150cn   2wc   1jc   1lc   1vc   1wp
+ENT P Murphy       384cn   1jc   1lc   2vc
+ENT P Nathan       137cn   1wc   1jc   1lc   1vc   3pd
+ENT P nix          174cn   1wc   2lc   6vc   7wp   2pd   4xv
+ENT P omd          378cn   1wc   1lc   1vc   2bg
+ENT P R._Lee       147cn   1wc   1jc
+ENT P Shy_Owl      144cn   1wc   1jc   1lc   1vc
+ENT P Trigon      1141cn   1wc   1jc   1vc   2wp   8pd
+ENT C CB_Locker   "Cuddlebeam's Locker"             2wc  1jc   1lc   1vc
+ENT C D._Corp.    "Dragon Corporation"            495cn  1bg  11pd   1xv
+ENT C DragonQE    "Dragon QuickExchange"            1jc  2lc   2wp   1xv
+ENT C IBTWWBG     "I bet this was written by G."   50cn
+ENT C PlunderPS   "Plunder Partnership"           179cn
+ENT C Press       "Agoran Press"                  118cn
+ENT C SEAMSTRESS  "Signature Enthusiast Allows Modification of Signature Through Rigorous Exchanging of Signature Suggestions" Other 
+ENT C TeamMarg    "Team Margaux"                  137cn
+ENT O Agora
+ENT O L&F_Dept.   "Lost and Found Department"    2236cn  4jc   7lc   5vc   5wp   4bg   4pd   3xv
