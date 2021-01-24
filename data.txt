@@ -1,24 +1,32 @@
-2020-10-20
-[23:45] Trigon 15bl:cn+  "Reward (Treasuror weekly)"
-#relevel
+2021-01-18
+[16:16] nix 11bl:cn+ "E Glitter"
+[20:48] G. 2bg- "Expungement (Gaelan)"
+[21:04] G. 300cn>Gaelan
+[21:04] G. 1vc+ "Rulebending"
 
-2020-10-21
-[01:31] Aris        10cn>Cuddlebeam  "Agora Quest"
-[01:42] Cuddlebeam  *>CB_Locker
-[05:13] Trigon      4lc-
-[05:13] Trigon      10pd+
-[05:13] Trigon      2pd>Aris
-[05:13] Trigon      5pd>Jason
+2021-01-19
+[19:37] Aris 1pd>JTAC
+[19:55] #newplayer Joe
 
-2020-10-22
-[18:21] Falsifian   10cn>Cuddlebeam  "Agora Quest"
-[18:23] Aris        10cn>Cuddlebeam  "Agora Quest"
-[19:16] Press       5cn>Falsifian     
-[20:08] DragonQE    1pd>Falsifian     
-[20:08] Falsifian   1pd-             "Pending proposal (Zombie Races)"
-[20:28] Falsifian   1jc>DragonQE
-[20:28] DragonQE    2bg>Falsifian  
-[20:28] Falsifian   2bg-             "Expungement"
-
-2020-10-23
-[00:00] #relevel 2500
+2021-01-20
+[01:58] Joe 10bl:cn+ "Welcome Package: Falsifian"
+[01:58] Joe 1wc+ "Welcome Package: Falsifian"
+[01:58] Joe 1jc+ "Welcome Package: Falsifian"
+[01:58] Joe 1lc+ "Welcome Package: Falsifian"
+[01:58] Joe 1vc+ "Welcome Package: Falsifian"
+[11:27] Cuddlebeam *>CB_Locker
+[11:29] CB_Locker 300cn>Cuddlebeam
+[16:02] ATMunn 10cn>Jason "meme"
+[16:11] G. 1pd- "Pending proposal: Unofficial injustice"
+[16:14] G. 1pd- "Pending proposal: de-dictatorship"
+[17:57] Joe 1vc>Cuddlebeam "Promise"
+[17:57] Joe 200cn+ "Promise"
+[18:21] G. 1pd- "Pending proposal: Turn Undead v2"
+[18:46] G. 3wc>Cuddlebeam "Expungements"
+[18:46] G. 12wp>Cuddlebeam "Expungements"
+[18:46] G. 9bg- "Expungements"
+[18:46] Cuddlebeam 4wc- "Set of cards"
+[18:46] Cuddlebeam 10wp- "Set of products"
+[18:46] Cuddlebeam 4wc- "Set of cards"
+[18:46] Cuddlebeam 10wp- "Set of products"
+[18:46] #nuke

@@ -84,7 +84,7 @@ impl Entity {
             eprintln!("attempt to retract below zero");
             *q = 0;
         } else {
-            *q += a;
+            *q -= a;
         }
     }
 
@@ -105,7 +105,7 @@ impl Entity {
     }
 }
 
-#[derive(Clone, Copy)]
+#[derive(Clone, Copy, Eq, PartialEq)]
 pub enum EntityKind {
     Player,
     Contract,

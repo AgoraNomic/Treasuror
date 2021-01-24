@@ -42,6 +42,13 @@ impl Currency {
             Currency::ExtraVote => "xv",
         }
     }
+
+    pub fn is_card(&self) -> bool {
+        *self == Currency::WinCard
+            || *self == Currency::JusticeCard
+            || *self == Currency::LegiCard
+            || *self == Currency::VoteCard
+    }
 }
 
 #[derive(Copy, Clone)]

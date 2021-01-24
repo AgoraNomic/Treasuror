@@ -88,8 +88,9 @@ impl<'a> Iterator for TokenIterator<'a> {
                     (i, c) in self.chars;
                     &self.source[fi..i];
                 );
-                
-                if self.chars.peek().unwrap().1 == '.' { //_or(&(0, ' ')).1 == '.' {
+
+                if self.chars.peek().unwrap().1 == '.' {
+                    //_or(&(0, ' ')).1 == '.' {
                     self.chars.next();
                     return produce_while!(
                         c.is_digit(10);
