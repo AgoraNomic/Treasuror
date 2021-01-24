@@ -81,7 +81,7 @@ impl Entity {
     pub fn revoke(&mut self, c: Currency, a: u32) {
         let q = self.inventory.entry(c).or_insert(0);
         if *q < a {
-            eprintln!("attempt to retract below zero");
+            eprintln!("attempt to retract below zero: {} < {} ({})", *q, a, c.abbr());
             *q = 0;
         } else {
             *q -= a;

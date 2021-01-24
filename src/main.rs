@@ -1,5 +1,5 @@
 use std::fs::File;
-use std::io::BufReader;
+use std::io::{BufReader, Write};
 
 pub mod model;
 pub mod parser;
@@ -26,5 +26,6 @@ fn main() {
         context.enter(lo);
     }
 
-    println!("{}", context.report());
+    let mut f = File::create("out.txt").unwrap();
+    f.write(context.report().as_bytes()).unwrap();
 }

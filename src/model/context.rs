@@ -308,7 +308,7 @@ impl Context {
         }
 
         for (name, ent) in self.entities.iter() {
-            let mut row = Row::new().with_cell(name);
+            let mut row = Row::new().with_cell(name.replace("_", " "));
 
             for curr in self.assets.iter() {
                 row.add_cell(ent.balance(*curr));
