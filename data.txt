@@ -1,0 +1,58 @@
+2021-01-18
+[16:16] nix 11bl:cn+ "E Glitter"
+[20:48] G. 2bg- "Expungement (Gaelan)"
+[21:04] G. 300cn>Gaelan
+[21:04] G. 1wc+ "Rulebending"
+
+2021-01-19
+[19:37] Aris 1pd>JTAC
+[19:55] #newplayer Joe
+
+2021-01-20
+[01:58] Joe 10bl:cn+ "Welcome Package: Falsifian"
+[01:58] Joe 1wc+ "Welcome Package: Falsifian"
+[01:58] Joe 1jc+ "Welcome Package: Falsifian"
+[01:58] Joe 1lc+ "Welcome Package: Falsifian"
+[01:58] Joe 1vc+ "Welcome Package: Falsifian"
+[11:27] Cuddlebeam *>CB_Locker
+[11:29] CB_Locker 300cn>Cuddlebeam
+[16:02] ATMunn 10cn>Jason "meme"
+[16:11] G. 1pd- "Pending proposal: Unofficial injustice"
+[16:14] G. 1pd- "Pending proposal: de-dictatorship"
+[17:57] Joe 1wc>Cuddlebeam "Promise"
+[17:57] Joe 200cn+ "Promise"
+[18:21] G. 1pd- "Pending proposal: Turn Undead v2"
+[18:46] G. 3wc>Cuddlebeam "Expungements"
+[18:46] G. 12wp>Cuddlebeam "Expungements"
+[18:46] G. 9bg- "Expungements"
+[18:46] CB_Locker *wc>Cuddlebeam "Set of cards"
+[18:46] CB_Locker *wc>Cuddlebeam "Set of cards"
+[18:46] Cuddlebeam 4wc- "Set of cards"
+[18:46] Cuddlebeam 10wp+ "Set of products"
+[18:46] Cuddlebeam 4wc- "Set of cards"
+[18:46] Cuddlebeam 10wp+ "Set of products"
+[18:46] #nuke
+[19:05] Cuddlebeam 1lc>Aris
+[19:05] Aris 1wc>Cuddlebeam
+[19:16] Cuddlebeam 1vc>Jason
+[19:16] Cuddlebeam 1jc>Jason
+[19:16] Jason 1wc>Cuddlebeam
+[19:25] Cuddlebeam *wc>CB_Locker
+[19:44] Trigon 1lc>Jason
+[19:44] Jason 110cn>Trigon
+[19:47] Aris 2lc>Jason
+[19:47] Jason 4lc- "Set of cards"
+[19:47] Jason 10pd+ "Set of products"
+[19:47] Jason 5pd>Aris "Set of products"
+
+2021-01-24
+[08:53] Murphy      5bl:cn+ "Reward: ADoP weekly"
+[08:53] Trigon     15bl:cn+ "Reward: Treasuror weekly"
+[08:53] Ubercrow    5bl:cn+ "Reward: Tailor weekly"
+[08:53] Jason       5bl:cn+ "Reward: Stonemason weekly"
+[08:53] Aris       15bl:cn+ "Reward: Proposal pool
+[08:53] JTAC       10bl:cn+ "Reward: Referee weekly"
+[08:53] Falsifian   5bl:cn+ "Reward: Registrar weekly"
+[08:53] ATMunn     10bl:cn+ "Reward: Notary weekly"
+[08:53] nix        10bl:cn+ "Reward: Herald weekly"
+[23:48] Murphy      5bl:cn+ "Reward: CFJ 3892"

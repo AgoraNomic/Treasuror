@@ -1,6 +1,11 @@
 legacy/*
 *~
+*.swp
 
 out.md
 fresh.txt
 split.txt
+
+#Added by cargo
+
+/target
