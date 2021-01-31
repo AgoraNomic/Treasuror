@@ -2,7 +2,7 @@ legacy/*
 *~
 *.swp
 
-out.md
+out.*
 fresh.txt
 split.txt
 

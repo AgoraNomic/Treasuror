@@ -4,10 +4,9 @@ use chrono::naive::{NaiveDateTime, MIN_DATE};
 use tabular::{Row, Table};
 
 use crate::{
-    match_first_pop,
     model::{DatedHistoryEntry, Entity, EntityKind, HistoryEntry},
     parser::{
-        ast::{Amount, Currency, FullUnit, Operator, Token},
+        ast::{Amount, Currency, FullUnit, Operator},
         gsdl::Directive,
         tll::{AtomicTransaction, Command, Line, Statement, Transaction},
     },
@@ -125,32 +124,17 @@ impl Context {
     }
 
     fn exec(&mut self, com: &Command) -> Option<HistoryEntry> {
-        match com.command() {
-            "relevel" => {
+        match com {
+            Command::Relevel => {
                 let (tb, uf) = self.relevel();
                 Some(format!("-- RELEVELING: TB={}, UF={:.4}", tb, uf))
             }
-            "newplayer" => {
-                let mut args = com.args().clone();
-                args.remove(0);
-                let identifier = match_first_pop!(args {
-                    Token::Identifier(s) => { s },
-                } else { panic!("expected identifier in #newplayer command") });
-
-                let full_name = match_first_pop!(args {
-                    Token::String(s) => { s },
-                    Token::Identifier(s) => { s },
-                } else { identifier.clone() });
-
-                self.add_player(identifier, full_name);
+            Command::NewPlayer(identifier, full_name) => {
+                self.add_player(identifier.clone(), full_name.clone());
                 None
             }
-            "nuke" => {
+            Command::Nuke => {
                 self.nuke();
-                None
-            }
-            _ => {
-                eprintln!("no such command: {}", &com.command());
                 None
             }
         }

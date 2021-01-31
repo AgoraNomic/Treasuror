@@ -1,4 +1,4 @@
-use crate::parser::{ast::Token, tll::Transaction};
+use crate::parser::{ast::Token, tll::{Command, Transaction}};
 
 #[derive(Clone)]
 pub enum Statement {
@@ -7,15 +7,13 @@ pub enum Statement {
 }
 
 impl Statement {
-    pub fn from_vec(tokens: Vec<Token>) -> Option<Statement> {
+    pub fn from_vec(mut tokens: Vec<Token>) -> Option<Statement> {
         match tokens[0].clone() {
-            Token::Identifier(_) => {
-                Transaction::from_vec(tokens).map(|t| Statement::Transaction(t))
+            Token::Identifier(_) => Transaction::from_vec(tokens).map(|t| Statement::Transaction(t)),
+            Token::Command(s) => {
+                tokens.remove(0);
+                Command::from_name_and_vec(s, tokens).map(|c| Statement::Command(c))
             }
-            Token::Command(c) => Some(Statement::Command(Command {
-                cmd: String::from(c),
-                args: tokens,
-            })),
             _ => None,
         }
     }
@@ -34,21 +32,5 @@ impl Statement {
         } else {
             None
         }
-    }
-}
-
-#[derive(Clone)]
-pub struct Command {
-    cmd: String,
-    args: Vec<Token>,
-}
-
-impl Command {
-    pub fn command(&self) -> &str {
-        &self.cmd
-    }
-
-    pub fn args(&self) -> &Vec<Token> {
-        &self.args
     }
 }
