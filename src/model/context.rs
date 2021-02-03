@@ -1,5 +1,5 @@
-use std::mem;
 use std::collections::{HashMap, VecDeque};
+use std::mem;
 
 use chrono::naive::{NaiveDateTime, MIN_DATE};
 
@@ -151,10 +151,18 @@ impl Context {
 
     pub fn process(&mut self, dir: &Directive) {
         match dir {
-            Directive::Assets(v) => { self.assets = v.clone(); }
-            Directive::Entity(e) => { self.insert_entity(e.clone()); }
-            Directive::Flotation(f) => { self.flotation = f.clone(); }
-            Directive::Forbes(i) => { self.forbes = *i; }
+            Directive::Assets(v) => {
+                self.assets = v.clone();
+            }
+            Directive::Entity(e) => {
+                self.insert_entity(e.clone());
+            }
+            Directive::Flotation(f) => {
+                self.flotation = f.clone();
+            }
+            Directive::Forbes(i) => {
+                self.forbes = *i;
+            }
         }
     }
 

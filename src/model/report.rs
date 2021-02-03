@@ -1,38 +1,42 @@
 use std::collections::HashMap;
+use std::fmt::{self, Display};
 
-use chrono::naive::{MIN_DATE, NaiveDate};
+use chrono::naive::{NaiveDate, MIN_DATE};
 
-use tabular::{Row, Table};
 use numeral::Cardinal;
+use tabular::{Row, Table};
 
 use crate::{
     model::{Context, Entity, EntityKind, HistoryEntry},
     parser::ast::Currency,
 };
 
-pub struct Report {
+pub struct Report<'a> {
     forbes: u32,
     date: NaiveDate,
     notes: Vec<String>,
-    tables: Vec<String>,
+    tables: Vec<AssetTable<'a>>,
     history: String,
 }
 
-impl Report {
-    pub fn with_context(ctx: &mut Context) -> Report {
-        let mut asset_tables: HashMap<EntityKind, Table> = HashMap::new();
+impl<'a> Report<'a> {
+    pub fn with_context(ctx: &'a mut Context) -> Report<'a> {
+        let notes = ctx.take_notes();
+
+        let mut asset_tables: HashMap<EntityKind, AssetTable> = HashMap::new();
 
         let mut entities = ctx.entities().values().collect::<Vec<&Entity>>();
-        entities.sort_by(|a, b| a.identifier().to_lowercase().cmp(&b.identifier().to_lowercase()));
+        entities.sort_by(|a, b| {
+            a.identifier()
+                .to_lowercase()
+                .cmp(&b.identifier().to_lowercase())
+        });
 
         for ent in entities {
-            let mut row = Row::new().with_cell(ent.identifier().replace("_", " "));
-
-            for curr in ctx.assets().iter() {
-                row.add_cell(ent.balance(*curr));
-            }
-
-            asset_tables.entry(ent.kind()).or_insert(Report::asset_table(ctx.assets(), ent.kind())).add_row(row);
+            asset_tables
+                .entry(ent.kind())
+                .or_insert(AssetTable::new(ctx.assets(), ent.kind()))
+                .add_entity(ent)
         }
 
         let mut date = MIN_DATE;
@@ -71,17 +75,45 @@ impl Report {
         Report {
             forbes: ctx.forbes(),
             date,
-            notes: ctx.take_notes(),
-            tables: asset_tables.values().map(|t| t.to_string()).collect(),
+            notes,
+            tables: asset_tables.into_iter().map(|(_, e)| e).collect(),
             history,
         }
     }
-    
-    fn asset_table(assets: &Vec<Currency>, kind: EntityKind) -> Table {
+
+    pub fn format(&self, fstr: &str) -> String {
+        fstr.replace("{bar}", &"=".repeat(72))
+            .replace(
+                "{forbes}",
+                &format!(
+                    "{:^72}",
+                    String::from("FORBES ") + &self.forbes.cardinal().to_uppercase()
+                ),
+            )
+            .replace("{date}", &self.date.format("%d %B, %Y").to_string())
+            .replace(
+                "{tables}",
+                &self
+                    .tables
+                    .iter()
+                    .fold(String::new(), |acc, x| acc + "\n" + &x.to_string()),
+            )
+            .replace("{history}", &self.history)
+    }
+}
+
+struct AssetTable<'a> {
+    assets: &'a [Currency],
+    table: Table,
+    footnotes: Vec<&'a str>,
+}
+
+impl<'a> AssetTable<'a> {
+    pub fn new(assets: &'a [Currency], kind: EntityKind) -> AssetTable<'a> {
         let mut title_row = Row::new().with_cell(format!("{:^14}", kind));
         let mut bar_row = Row::new().with_cell("=".repeat(14));
 
-        assets.iter().for_each(|c| {
+        for c in assets.iter() {
             if *c == Currency::Coin {
                 title_row.add_cell(format!("{:^6}", c.abbr()));
                 bar_row.add_cell("======");
@@ -89,19 +121,55 @@ impl Report {
                 title_row.add_cell(format!("{:^4}", c.abbr()));
                 bar_row.add_cell("====");
             }
-        });
+        }
 
-        Table::new(&format!("{}{}", " {:<}", "  {:>}".repeat(assets.len())))
-            .with_row(title_row)
-            .with_row(bar_row)
+        AssetTable {
+            assets,
+            table: Table::new(&format!("{}{}", " {:<}", "  {:>}".repeat(assets.len())))
+                .with_row(title_row)
+                .with_row(bar_row),
+            footnotes: Vec::new(),
+        }
     }
 
-    pub fn format(&self, fstr: &str) -> String {
-        fstr
-            .replace("{bar}", &"=".repeat(72))
-            .replace("{forbes}", &format!("{:^72}", String::from("FORBES ") + &self.forbes.cardinal().to_uppercase()))
-            .replace("{date}", &self.date.format("%d %B, %Y").to_string())
-            .replace("{tables}", &self.tables.join("\n\n"))
-            .replace("{history}", &self.history)
+    pub fn add_entity(&mut self, ent: &'a Entity) {
+        let mut row = Row::new().with_cell(format!(
+            "{:<10}{:>4}",
+            ent.identifier().replace("$", " "),
+            if ent.has_full_name() {
+                format!("[{}]", self.footnotes.len())
+            } else {
+                String::from("   ")
+            }
+        ));
+
+        if ent.has_full_name() {
+            self.footnotes.push(ent.full_name());
+        }
+
+        for curr in self.assets.iter() {
+            row.add_cell(ent.balance(*curr));
+        }
+
+        self.table.add_row(row);
+    }
+}
+
+impl<'a> Display for AssetTable<'a> {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        if self.footnotes.len() != 0 {
+            write!(
+                f,
+                "{}\n{}",
+                self.table,
+                self.footnotes
+                    .iter()
+                    .enumerate()
+                    .fold(String::new(), |acc, (i, name)| acc
+                        + &format!("{}. {}\n", i, name))
+            )
+        } else {
+            f.write_str(&self.table.to_string())
+        }
     }
 }

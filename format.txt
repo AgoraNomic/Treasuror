@@ -7,11 +7,7 @@ Date: {date}
 
 ASSET BALANCES
 {bar}
-
 {tables}
-
-{bar}
-
 
 RECENT HISTORY
 {bar}

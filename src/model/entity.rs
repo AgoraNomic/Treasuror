@@ -1,5 +1,5 @@
-use std::fmt::{self, Display};
 use std::collections::HashMap;
+use std::fmt::{self, Display};
 
 use crate::{
     match_first_pop,
@@ -21,7 +21,7 @@ impl Entity {
         let kind = match_first_pop!(tokens {
             Token::Identifier(s) => { match &s.to_lowercase()[..] {
                 "p" => EntityKind::Player,
-                "c"=> EntityKind::Contract,
+                "c" => EntityKind::Contract,
                 "o" => EntityKind::Other,
                 _ => panic!("Expected 'P', 'C', or 'O'"),
             }},
@@ -82,11 +82,20 @@ impl Entity {
     pub fn revoke(&mut self, c: Currency, a: u32) {
         let q = self.inventory.entry(c).or_insert(0);
         if *q < a {
-            eprintln!("attempt to retract below zero: {} < {} ({})", *q, a, c.abbr());
+            eprintln!(
+                "attempt to retract below zero: {} < {} ({})",
+                *q,
+                a,
+                c.abbr()
+            );
             *q = 0;
         } else {
             *q -= a;
         }
+    }
+
+    pub fn has_full_name(&self) -> bool {
+        self.full_name != self.identifier
     }
 
     pub fn full_name(&self) -> &String {

@@ -30,6 +30,10 @@ fn main() -> io::Result<()> {
     File::open("format.txt")?.read_to_string(&mut format)?;
 
     let mut f = File::create("out.txt")?;
-    f.write(Report::with_context(&mut context).format(&format).as_bytes())?;
+    f.write(
+        Report::with_context(&mut context)
+            .format(&format)
+            .as_bytes(),
+    )?;
     Ok(())
 }

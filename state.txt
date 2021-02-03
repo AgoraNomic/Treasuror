@@ -2,31 +2,33 @@ ASSETS cn wc jc lc vc wp bg pd xv
 FLOTATION 5.32
 FORBES 463
 ENT P Aris          1563cn               5lc         3wp   2bg  10pd   2xv
-ENT P ATMunn         327cn               1lc        11wp         2pd      
-ENT P Cuddlebeam             2wc                     1wp                  
-ENT P Falsifian     1008cn         1jc   3lc                     1pd      
+ENT P ATMunn         327cn               1lc        11wp         2pd
+ENT P Cuddlebeam             2wc                     1wp
+ENT P Falsifian     1008cn         1jc   3lc                     1pd
 ENT P G.            1753cn   2wc   1jc   1lc        12wp  11bg   8pd  10xv
-ENT P Gaelan         410cn                     1vc         1bg   1pd      
-ENT P grok           185cn   1wc   1jc   1lc   1vc                        
-ENT P Jason         1733cn   1wc         1lc   2vc   1wp   8bg  31pd      
-ENT P JTAC           235cn   1wc   1jc   1lc   1vc                        
-ENT P Lucidiot       150cn   2wc   1jc   1lc   1vc   1wp                  
-ENT P Murphy         411cn         1jc   1lc   2vc                        
-ENT P Nathan         137cn   1wc   1jc   1lc   1vc               3pd      
+ENT P Gaelan         410cn                     1vc         1bg   1pd
+ENT P grok           185cn   1wc   1jc   1lc   1vc
+ENT P Jason         1733cn   1wc         1lc   2vc   1wp   8bg  31pd
+ENT P JTAC           235cn   1wc   1jc   1lc   1vc
+ENT P Lucidiot       150cn   2wc   1jc   1lc   1vc   1wp
+ENT P Murphy         411cn         1jc   1lc   2vc
+ENT P Nathan         137cn   1wc   1jc   1lc   1vc               3pd
 ENT P nix            255cn   1wc         2lc   6vc   7wp         1pd   4xv
-ENT P Noah            54cn   1wc   1jc   1lc   1vc                        
-ENT P omd            378cn   1wc         1lc   1vc         2bg            
-ENT P R._Lee         147cn   1wc   1jc                                    
-ENT P Shy_Owl        144cn   1wc   1jc   1lc   1vc                        
-ENT P Trigon        1381cn   1wc   1jc         1vc   2wp         8pd      
-ENT P Ubercrow        54cn   1wc   1jc   1lc   1vc                        
-ENT C CB_Locker      478cn   2wc   1jc   1lc   1vc                        
-ENT C D._Corp.       495cn                                 1bg  11pd   1xv
-ENT C DragonQE                     1jc   2lc         2wp               1xv
-ENT C IBTWWBG         50cn                                                
-ENT C PlunderPS      179cn                                                
-ENT C Press           14cn                                                
-ENT C SEAMSTRESS                                                          
-ENT C TeamMarg       137cn                                                
-ENT O Agora                                                               
+ENT P Noah            54cn   1wc   1jc   1lc   1vc
+ENT P omd            378cn   1wc         1lc   1vc         2bg
+ENT P R._Lee         147cn   1wc   1jc
+ENT P Shy_Owl        144cn   1wc   1jc   1lc   1vc
+ENT P Trigon        1381cn   1wc   1jc         1vc   2wp         8pd
+ENT P Ubercrow        54cn   1wc   1jc   1lc   1vc
+
+ENT O Agora
 ENT O L&F_Dept.     2236cn         4jc         5vc   5wp   4bg   4pd   3xv
+
+ENT C CB_Locker     "Cuddlebeam's Locker"    478cn   2wc   1jc   1lc   1vc
+ENT C D._Corp.      "Dragon Corporation"     495cn                                 1bg  11pd   1xv
+ENT C DragonQE      "Dragon Quickexchange"                 1jc   2lc         2wp               1xv
+ENT C IBTWWBG       "I Bet This Was Written By G."  50cn
+ENT C PlunderPS     "Plunder Partnership"          179cn
+ENT C Press         "Agoran Press"                  14cn
+ENT C SEAMSTRESS    "Signature Enthusiast Allows Modification of Signature Through Rigorous Exchanging of Signature Suggestions"
+ENT C TeamMarg      "Team Margaux" 137cn
