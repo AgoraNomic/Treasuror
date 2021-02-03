@@ -24,11 +24,11 @@ ENT P Ubercrow        54cn   1wc   1jc   1lc   1vc
 ENT O Agora
 ENT O L&F_Dept.     2236cn         4jc         5vc   5wp   4bg   4pd   3xv
 
-ENT C CB_Locker     "Cuddlebeam's Locker"    478cn   2wc   1jc   1lc   1vc
-ENT C D._Corp.      "Dragon Corporation"     495cn                                 1bg  11pd   1xv
-ENT C DragonQE      "Dragon Quickexchange"                 1jc   2lc         2wp               1xv
-ENT C IBTWWBG       "I Bet This Was Written By G."  50cn
-ENT C PlunderPS     "Plunder Partnership"          179cn
-ENT C Press         "Agoran Press"                  14cn
-ENT C SEAMSTRESS    "Signature Enthusiast Allows Modification of Signature Through Rigorous Exchanging of Signature Suggestions"
-ENT C TeamMarg      "Team Margaux" 137cn
+ENT C    CB_Locker     "Cuddlebeam's Locker"    478cn   2wc   1jc   1lc   1vc
+ENT C    D._Corp.      "Dragon Corporation"     495cn                                 1bg  11pd   1xv
+ENT C    DragonQE      "Dragon Quickexchange"                 1jc   2lc         2wp               1xv
+ENT C    IBTWWBG       "I Bet This Was Written By G."  50cn
+ENT C    PlunderPS     "Plunder Partnership"          179cn
+ENT C 25 Press         "Agoran Press"                  14cn
+ENT C    SEAMSTRESS    "Signature Enthusiast Allows Modification of Signature Through Rigorous Exchanging of Signature Suggestions"
+ENT C    TeamMarg      "Team Margaux" 137cn

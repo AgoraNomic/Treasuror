@@ -6,6 +6,7 @@ pub enum Command {
     Report,
     NewPlayer(String, String),
     Nuke,
+    Payday,
 }
 
 impl Command {
@@ -13,6 +14,8 @@ impl Command {
         match &name.to_lowercase()[..] {
             "relevel" => Some(Command::Relevel),
             "report" => Some(Command::Report),
+            "nuke" => Some(Command::Nuke),
+            "payday" => Some(Command::Payday),
             "newplayer" => {
                 let identifier = match_first_pop!(tokens {
                     Token::Identifier(s) => { s },
@@ -25,7 +28,6 @@ impl Command {
 
                 Some(Command::NewPlayer(identifier, full_name))
             }
-            "nuke" => Some(Command::Nuke),
             _ => {
                 eprintln!("no such command: {}", name);
                 None

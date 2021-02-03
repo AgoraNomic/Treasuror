@@ -25,14 +25,7 @@ impl<'a> Report<'a> {
 
         let mut asset_tables: HashMap<EntityKind, AssetTable> = HashMap::new();
 
-        let mut entities = ctx.entities().values().collect::<Vec<&Entity>>();
-        entities.sort_by(|a, b| {
-            a.identifier()
-                .to_lowercase()
-                .cmp(&b.identifier().to_lowercase())
-        });
-
-        for ent in entities {
+        for ent in ctx.entities_vec_sorted() {
             asset_tables
                 .entry(ent.kind())
                 .or_insert(AssetTable::new(ctx.assets(), ent.kind()))
@@ -135,7 +128,7 @@ impl<'a> AssetTable<'a> {
     pub fn add_entity(&mut self, ent: &'a Entity) {
         let mut row = Row::new().with_cell(format!(
             "{:<10}{:>4}",
-            ent.identifier().replace("$", " "),
+            ent.identifier().replace("_", " "),
             if ent.has_full_name() {
                 format!("[{}]", self.footnotes.len())
             } else {

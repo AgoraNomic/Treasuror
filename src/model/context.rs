@@ -83,6 +83,49 @@ impl Context {
         }
     }
 
+    pub fn payday(&mut self) {
+        let mut transactions = VecDeque::new();
+        for ent in self.entities_vec_sorted().iter() {
+            match ent.kind() {
+                EntityKind::Player => {
+                    transactions.push_back(Transaction::new(
+                        ent.identifier().clone(),
+                        Amount::PartOf(FullUnit::Boatload(Currency::Coin), 10),
+                        Operator::Plus,
+                        "Payday".to_string(),
+                    ));
+                }
+                EntityKind::Contract(dl) => {
+                    if dl > 0 {
+                        transactions.push_back(Transaction::new(
+                            ent.identifier().clone(),
+                            Amount::PartOf(
+                                FullUnit::Bare(Currency::Coin),
+                                (ent.balance(Currency::Coin) as f32 / 2.0).floor() as u32,
+                            ),
+                            Operator::Minus,
+                            "Payday: charity coin destruction".to_string(),
+                        ));
+                        transactions.push_back(Transaction::new(
+                            ent.identifier().clone(),
+                            Amount::PartOf(FullUnit::Boatload(Currency::Coin), dl),
+                            Operator::Plus,
+                            format!("Payday: donation level={}", dl),
+                        ));
+                    }
+                }
+                EntityKind::Other => (),
+            }
+        }
+
+        for trans in transactions.iter() {
+            self.apply(&trans).iter().for_each(|e| {
+                self.history
+                    .push_back(DatedHistoryEntry::new(self.datetime, e.clone()))
+            });
+        }
+    }
+
     pub fn enter(&mut self, line: Line) {
         if self.verify_datetime(line.datetime()) {
             self.datetime = line.datetime();
@@ -143,6 +186,10 @@ impl Context {
             }
             Command::Nuke => {
                 self.nuke();
+                None
+            }
+            Command::Payday => {
+                self.payday();
                 None
             }
         }
@@ -292,6 +339,16 @@ impl Context {
 
     pub fn entities(&self) -> &HashMap<String, Entity> {
         &self.entities
+    }
+
+    pub fn entities_vec_sorted(&self) -> Vec<&Entity> {
+        let mut entities = self.entities.values().collect::<Vec<&Entity>>();
+        entities.sort_by(|a, b| {
+            a.identifier()
+                .to_lowercase()
+                .cmp(&b.identifier().to_lowercase())
+        });
+        entities
     }
 
     pub fn assets(&self) -> &Vec<Currency> {

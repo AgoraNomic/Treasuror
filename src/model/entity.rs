@@ -21,7 +21,11 @@ impl Entity {
         let kind = match_first_pop!(tokens {
             Token::Identifier(s) => { match &s.to_lowercase()[..] {
                 "p" => EntityKind::Player,
-                "c" => EntityKind::Contract,
+                "c" => EntityKind::Contract(
+                    match_first_pop!(tokens {
+                        Token::Integer(i) => { i },
+                    } else { 0 })
+                ),
                 "o" => EntityKind::Other,
                 _ => panic!("Expected 'P', 'C', or 'O'"),
             }},
@@ -118,7 +122,7 @@ impl Entity {
 #[derive(Clone, Copy, Hash, Eq, PartialEq)]
 pub enum EntityKind {
     Player,
-    Contract,
+    Contract(u32),
     Other,
 }
 
@@ -126,7 +130,7 @@ impl Display for EntityKind {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         f.write_str(match self {
             EntityKind::Player => "Player",
-            EntityKind::Contract => "Contract",
+            EntityKind::Contract(_) => "Contract",
             EntityKind::Other => "Entity",
         })
     }
