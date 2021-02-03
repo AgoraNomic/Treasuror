@@ -50,9 +50,53 @@
 [08:53] Trigon     15bl:cn+ "Reward: Treasuror weekly"
 [08:53] Ubercrow    5bl:cn+ "Reward: Tailor weekly"
 [08:53] Jason       5bl:cn+ "Reward: Stonemason weekly"
-[08:53] Aris       15bl:cn+ "Reward: Proposal pool
+[08:53] Aris       15bl:cn+ "Reward: Proposal pool"
 [08:53] JTAC       10bl:cn+ "Reward: Referee weekly"
 [08:53] Falsifian   5bl:cn+ "Reward: Registrar weekly"
 [08:53] ATMunn     10bl:cn+ "Reward: Notary weekly"
 [08:53] nix        10bl:cn+ "Reward: Herald weekly"
 [23:48] Murphy      5bl:cn+ "Reward: CFJ 3892"
+
+2021-01-26
+[20:21] Aris 1pd- "Pending proposal: Power Up"
+[20:21] Aris 1pd- "Pending proposal: We the People"
+[20:21] Aris 1pd- "Pending proposal: Justice for All"
+[20:21] nix 7bl:cn+ "Reward: Proposal 8530"
+[20:21] Jason 9bl:cn+ "Reward: Proposal 8531"
+[20:24] Jason 1lc+ "Popular proposal: Proposal 8531"
+
+2021-01-28
+[01:52] nix 5bl:cn>Aris
+[19:35] CB_Locker *cn>Cuddlebeam "Trigon dislikes lockers"
+[19:42] Joe 1wc>Cuddlebeam
+[19:42] Cuddlebeam 200cn>Joe
+[20:07] CB_Locker *>Cuddlebeam "why are you like this"
+[20:07] Cuddlebeam 4wc- "Set of cards"
+[20:07] Cuddlebeam 10wp+ "Set of products"
+
+2021-01-30
+[03:33] Jason 90cn>ATMunn
+[03:33] ATMunn 1lc>Jason
+
+2021-01-31
+[18:28] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[18:28] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[18:28] G.     10bl:cn+ "Reward: Arbitor weekly"
+[18:28] Aris   15bl:cn+ "Reward: Proposal Pool"
+[18:28] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[18:28] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[18:28] JTAC   10bl:cn+ "Reward: Referee weekly"
+[18:28] Jason  15bl:cn+ "Reward: Assessed proposal"
+[18:28] Jason  15bl:cn+ "Reward: Full Logical Ruleset"
+[20:13] D._Corp. 220cn>Aris
+[20:13] D._Corp. 154cn>Falsifian
+[20:13] D._Corp. 121cn>Jason
+
+2021-02-01
+[00:32] Jason 20cn>ATMunn
+[00:32] ATMunn 1vc>Jason
+[00:32] Aris  75cn>ATMunn
+[00:32] ATMunn 1wc>Aris
+[01:16] G.    61cn>ATMunn
+[01:16] ATMunn 1jc>G.
+[05:00] #relevel

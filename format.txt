@@ -1,0 +1,19 @@
+{bar}
+{forbes}
+{bar}
+
+Date: {date}
+
+
+ASSET BALANCES
+{bar}
+
+{tables}
+
+{bar}
+
+
+RECENT HISTORY
+{bar}
+
+{history}

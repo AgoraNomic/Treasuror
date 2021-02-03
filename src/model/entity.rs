@@ -1,3 +1,4 @@
+use std::fmt::{self, Display};
 use std::collections::HashMap;
 
 use crate::{
@@ -105,9 +106,19 @@ impl Entity {
     }
 }
 
-#[derive(Clone, Copy, Eq, PartialEq)]
+#[derive(Clone, Copy, Hash, Eq, PartialEq)]
 pub enum EntityKind {
     Player,
     Contract,
     Other,
+}
+
+impl Display for EntityKind {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        f.write_str(match self {
+            EntityKind::Player => "Player",
+            EntityKind::Contract => "Contract",
+            EntityKind::Other => "Entity",
+        })
+    }
 }

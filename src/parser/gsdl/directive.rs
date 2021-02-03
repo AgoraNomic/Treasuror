@@ -6,8 +6,9 @@ use crate::{
 
 pub enum Directive {
     Assets(Vec<Currency>),
-    Flotation(f32),
     Entity(Entity),
+    Flotation(f32),
+    Forbes(u32),
 }
 
 impl Directive {
@@ -28,9 +29,10 @@ impl Directive {
                         .collect::<Vec<Currency>>()
                 ),
                 "flotation" => Directive::Flotation(
-                    tokens.get(0).unwrap().extract_float()
+                    tokens[0].extract_float()
                 ),
                 "ent" => Directive::Entity(Entity::from_vec(&mut tokens)),
+                "forbes" => Directive::Forbes(tokens[0].extract_int()),
                 _ => panic!("No such directive"),
             }},
         } else { panic!("directive must start with identifier") }))

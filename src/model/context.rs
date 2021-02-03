@@ -1,7 +1,7 @@
+use std::mem;
 use std::collections::{HashMap, VecDeque};
 
 use chrono::naive::{NaiveDateTime, MIN_DATE};
-use tabular::{Row, Table};
 
 use crate::{
     model::{DatedHistoryEntry, Entity, EntityKind, HistoryEntry},
@@ -13,6 +13,8 @@ use crate::{
 };
 
 pub struct Context {
+    forbes: u32,
+    notes: Vec<String>,
     assets: Vec<Currency>,
     entities: HashMap<String, Entity>,
     flotation: f32,
@@ -23,6 +25,8 @@ pub struct Context {
 impl Context {
     pub fn new() -> Context {
         Context {
+            forbes: 500,
+            notes: Vec::new(),
             assets: Vec::new(),
             entities: HashMap::new(),
             flotation: 1.0,
@@ -127,7 +131,11 @@ impl Context {
         match com {
             Command::Relevel => {
                 let (tb, uf) = self.relevel();
-                Some(format!("-- RELEVELING: TB={}, UF={:.4}", tb, uf))
+                Some(format!("  RELEVELING: TB={}, UF={:.4}", tb, uf))
+            }
+            Command::Report => {
+                self.forbes -= 1;
+                Some(String::from("  WEEKLY REPORT"))
             }
             Command::NewPlayer(identifier, full_name) => {
                 self.add_player(identifier.clone(), full_name.clone());
@@ -143,15 +151,10 @@ impl Context {
 
     pub fn process(&mut self, dir: &Directive) {
         match dir {
-            Directive::Assets(v) => {
-                self.assets = v.clone();
-            }
-            Directive::Flotation(f) => {
-                self.flotation = f.clone();
-            }
-            Directive::Entity(e) => {
-                self.insert_entity(e.clone());
-            }
+            Directive::Assets(v) => { self.assets = v.clone(); }
+            Directive::Entity(e) => { self.insert_entity(e.clone()); }
+            Directive::Flotation(f) => { self.flotation = f.clone(); }
+            Directive::Forbes(i) => { self.forbes = *i; }
         }
     }
 
@@ -271,61 +274,23 @@ impl Context {
         other >= self.datetime
     }
 
-    pub fn report(&self) -> String {
-        let tstr = "[{:<}] {:<} {:<}{:>}{:<} {:<}";
-        let table = &mut Table::new(&format!(
-            "{}{}",
-            " {:<}",
-            "  {:>}".repeat(self.assets.len())
-        ));
-        let mut date = MIN_DATE;
-        let mut result = String::from("");
+    pub fn forbes(&self) -> u32 {
+        self.forbes
+    }
 
-        {
-            let mut row = Row::new().with_cell("=".repeat(13));
+    pub fn take_notes(&mut self) -> Vec<String> {
+        mem::take(&mut self.notes)
+    }
 
-            self.assets.iter().for_each(|_| {
-                row.add_cell("====");
-            });
+    pub fn entities(&self) -> &HashMap<String, Entity> {
+        &self.entities
+    }
 
-            table.add_row(row);
-        }
+    pub fn assets(&self) -> &Vec<Currency> {
+        &self.assets
+    }
 
-        for (name, ent) in self.entities.iter() {
-            let mut row = Row::new().with_cell(name.replace("_", " "));
-
-            for curr in self.assets.iter() {
-                row.add_cell(ent.balance(*curr));
-            }
-
-            table.add_row(row);
-        }
-
-        for entry in self.history.iter().rev() {
-            if entry.datetime().date() != date {
-                result = format!("{}{}", result, *table);
-                *table = Table::new(tstr)
-                    .with_heading("")
-                    .with_heading(entry.datetime().format("*** %a %-d %B %Y").to_string());
-
-                date = entry.datetime().date();
-            }
-
-            match entry.entry() {
-                HistoryEntry::Transaction(t) => table.add_row(
-                    Row::new()
-                        .with_cell(entry.datetime().format("%R"))
-                        .with_cell(format!("{}:", t.agent().replace("_", " ")))
-                        .with_cell(if t.amount() > 0 { "+" } else { "-" })
-                        .with_cell(t.amount().abs())
-                        .with_cell(t.currency().abbr())
-                        .with_cell(format!("({})", t.comment())),
-                ),
-                HistoryEntry::Event(s) => {
-                    table.add_heading(format!("[{}] {}", entry.datetime().format("%R"), s))
-                }
-            };
-        }
-        format!("{}{}", result, *table)
+    pub fn history(&self) -> &VecDeque<DatedHistoryEntry> {
+        &self.history
     }
 }

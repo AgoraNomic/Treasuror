@@ -1,5 +1,6 @@
 ASSETS cn wc jc lc vc wp bg pd xv
 FLOTATION 5.32
+FORBES 463
 ENT P Aris          1563cn               5lc         3wp   2bg  10pd   2xv
 ENT P ATMunn         327cn               1lc        11wp         2pd      
 ENT P Cuddlebeam             2wc                     1wp                  

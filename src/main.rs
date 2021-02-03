@@ -1,13 +1,13 @@
 use std::fs::File;
-use std::io::{BufReader, Write};
+use std::io::{self, BufReader, Read, Write};
 
 pub mod model;
 pub mod parser;
 
-use model::Context;
+use model::{Context, Report};
 use parser::{gsdl::Parser as GsdParser, tll::Parser as TlParser};
 
-fn main() {
+fn main() -> io::Result<()> {
     let mut context = Context::new();
 
     let mut tlparser = TlParser::from_reader(BufReader::new(
@@ -26,6 +26,10 @@ fn main() {
         context.enter(lo);
     }
 
-    let mut f = File::create("out.txt").unwrap();
-    f.write(context.report().as_bytes()).unwrap();
+    let mut format = String::new();
+    File::open("format.txt")?.read_to_string(&mut format)?;
+
+    let mut f = File::create("out.txt")?;
+    f.write(Report::with_context(&mut context).format(&format).as_bytes())?;
+    Ok(())
 }
