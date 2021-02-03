@@ -5,6 +5,7 @@ use chrono::naive::{NaiveDate, MIN_DATE};
 
 use numeral::Cardinal;
 use tabular::{Row, Table};
+use textwrap::{wrap, Options};
 
 use crate::{
     model::{Context, Entity, EntityKind, HistoryEntry},
@@ -159,7 +160,7 @@ impl<'a> Display for AssetTable<'a> {
                     .iter()
                     .enumerate()
                     .fold(String::new(), |acc, (i, name)| acc
-                        + &format!("{}. {}\n", i, name))
+                        + &wrap(name, Options::new(72).initial_indent(&format!("{}. ", i)).subsequent_indent("   ")).join("\n") + "\n")
             )
         } else {
             f.write_str(&self.table.to_string())

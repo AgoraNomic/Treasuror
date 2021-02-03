@@ -9,5 +9,5 @@ edition = "2018"
 [dependencies]
 chrono = "0.4"
 numeral = "1.0.0"
-# textwrap = "0.13.2"
+textwrap = "0.13.2"
 tabular = "0.1.4"

@@ -14,6 +14,7 @@ pub struct Entity {
     identifier: String,
     kind: EntityKind,
     inventory: Inventory,
+    donation_level: u32,
 }
 
 impl Entity {
@@ -21,15 +22,17 @@ impl Entity {
         let kind = match_first_pop!(tokens {
             Token::Identifier(s) => { match &s.to_lowercase()[..] {
                 "p" => EntityKind::Player,
-                "c" => EntityKind::Contract(
-                    match_first_pop!(tokens {
-                        Token::Integer(i) => { i },
-                    } else { 0 })
-                ),
+                "c" => EntityKind::Contract,
                 "o" => EntityKind::Other,
                 _ => panic!("Expected 'P', 'C', or 'O'"),
             }},
         } else { panic!("Expected first arg of ENT directive to be identifier") });
+
+        let donation_level = if kind == EntityKind::Contract {
+            match_first_pop!(tokens {
+                Token::Integer(i) => { i },
+            } else { 0 })
+        } else { 0 };
 
         let identifier = match_first_pop!(tokens {
             Token::Identifier(s) => { s },
@@ -63,6 +66,7 @@ impl Entity {
             identifier,
             kind,
             inventory,
+            donation_level,
         }
     }
 
@@ -72,6 +76,7 @@ impl Entity {
             identifier,
             kind: EntityKind::Player,
             inventory: HashMap::with_capacity(5),
+            donation_level: 0,
         }
     }
 
@@ -117,20 +122,24 @@ impl Entity {
     pub fn inventory(&self) -> &Inventory {
         &self.inventory
     }
+
+    pub fn donation_level(&self) -> u32 {
+        self.donation_level
+    }
 }
 
 #[derive(Clone, Copy, Hash, Eq, PartialEq)]
 pub enum EntityKind {
     Player,
-    Contract(u32),
+    Contract,
     Other,
 }
 
 impl Display for EntityKind {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        f.write_str(match self {
+        f.pad(match self {
             EntityKind::Player => "Player",
-            EntityKind::Contract(_) => "Contract",
+            EntityKind::Contract => "Contract",
             EntityKind::Other => "Entity",
         })
     }

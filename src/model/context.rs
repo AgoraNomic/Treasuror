@@ -95,8 +95,8 @@ impl Context {
                         "Payday".to_string(),
                     ));
                 }
-                EntityKind::Contract(dl) => {
-                    if dl > 0 {
+                EntityKind::Contract => {
+                    if ent.donation_level() > 0 {
                         transactions.push_back(Transaction::new(
                             ent.identifier().clone(),
                             Amount::PartOf(
@@ -108,9 +108,9 @@ impl Context {
                         ));
                         transactions.push_back(Transaction::new(
                             ent.identifier().clone(),
-                            Amount::PartOf(FullUnit::Boatload(Currency::Coin), dl),
+                            Amount::PartOf(FullUnit::Boatload(Currency::Coin), ent.donation_level()),
                             Operator::Plus,
-                            format!("Payday: donation level={}", dl),
+                            format!("Payday: donation level={}", ent.donation_level()),
                         ));
                     }
                 }
