@@ -15,22 +15,25 @@ however, a new economic system involving "cards" and "products" was
 introduced. As of that date, textual reports became a bit ugly to look
 at, so there are also HTML reports listed.
 
+Later on, after 25 January 2021, I finished some software to generate
+my reports. As of now, HTML formatting is not implemented for this
+software, but the reports should look good enough that that is not an
+issue.
+
 ## Weekly Reports
 
 **[Latest official weekly report or midweekly draft](weekly/fresh.txt)**
-([HTML](weeklymd/fresh)): My goal for the timing of the official report
-is Wednesday/Thursday each week.
 
 Full List of Weekly Reports:
 
-* [2020-02-04](weekly/2020-02-04.txt)
-* [2020-02-02A](weekly/2020-02-02A.txt)
-* [2020-02-02](weekly/2020-02-02.txt)
-* [2020-02-01](weekly/2020-02-01.txt)
-* [2020-01-25](weekly/2020-01-25.txt)
-* [2020-01-17](weekly/2020-01-17.txt) ([HTML](weeklymd/2020-01-17))
-* [2020-01-06](weekly/2020-01-06.txt) ([HTML](weeklymd/2020-01-06))
-* [2020-01-03](weekly/2020-01-03.txt) ([HTML](weeklymd/2020-01-03))
+* [2021-02-04](weekly/2021-02-04.txt)
+* [2021-02-02A](weekly/2021-02-02A.txt)
+* [2021-02-02](weekly/2021-02-02.txt)
+* [2021-02-01](weekly/2021-02-01.txt)
+* [2021-01-25](weekly/2021-01-25.txt)
+* [2021-01-17](weekly/2021-01-17.txt) ([HTML](weeklymd/2021-01-17))
+* [2021-01-06](weekly/2021-01-06.txt) ([HTML](weeklymd/2021-01-06))
+* [2021-01-03](weekly/2021-01-03.txt) ([HTML](weeklymd/2021-01-03))
 * [2020-12-27](weekly/2020-12-27.txt) ([HTML](weeklymd/2020-12-27))
 * [2020-12-20](weekly/2020-12-20.txt) ([HTML](weeklymd/2020-12-20))
 * [2020-12-06](weekly/2020-12-06.txt) ([HTML](weeklymd/2020-12-06))
