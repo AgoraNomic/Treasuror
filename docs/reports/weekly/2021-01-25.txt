@@ -1,0 +1,366 @@
+========================================================================
+                      FORBES FOUR HUNDRED SIXTY-TWO
+--------------------------------   or   --------------------------------
+                        TREASUROR'S WEEKLY REPORT
+========================================================================
+
+Date of previous original report:  17 January 2021
+Date of this report:               25 January 2021
+
+(all times and dates in UTC)
+
+Reports available online in  and HTML formats at:
+<https://agoranomic.org/Treasuror/reports>
+
+
+NOTES ON REPORT                                       (contains no data)
+========================================================================
+
+* GENERAL
+   * I have started publishing Treasuror report drafts on discord before
+     I post them. If you want to give me feedback before I post, be sure
+     to check discord or IRC on Sundays. Except for this one, lol.
+   * You probably noticed that this report's format is completely
+     different from previous ones. Don't get used to it. This is a
+     consequence of my new automation, which is still unstable.
+     Suggestions are welcome, and encouraged. In fact, please tell me
+     how to fix this.
+   * Most of the history is gone from this report. If this bugs you, you
+     can just cat the two histories together.
+   * No, there was no report last week. Sorry.
+   * As always, please check the general accuracy of this report.
+
+
+ASSET BALANCES                                           (self-ratifies)
+========================================================================
+
+     Player        cn     wc    jc    lc    vc    wp    bg    pd    xv
+ ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
+ Aris              1643     0     1     0     1     0     0     5     0
+ ATMunn             371     1     1     1     1     0     0     0     0
+ Cuddlebeam         300     0     0     0     0     0     0     0     0
+ Falsifian         1035     1     1     1     1     0     0     0     0
+ G.                1453     1     1     1     1     0     0     0     0
+ Gaelan             710     1     1     1     1     0     0     0     0
+ grok               185     1     1     1     1     0     0     0     0
+ Jason             1660     0     2     0     2     0     0     5     0
+ Joe        [1]     254     1     1     1     1     0     0     0     0
+ JTAC               289     1     1     1     1     0     0     0     0
+ Lucidiot           150     1     1     1     1     0     0     0     0
+ Murphy             465     1     1     1     1     0     0     0     0
+ Nathan             137     1     1     1     1     0     0     0     0
+ nix                368     1     1     1     1     0     0     0     0
+ Noah                54     1     1     1     1     0     0     0     0
+ omd                378     1     1     1     1     0     0     0     0
+ R. Lee             147     1     1     1     1     0     0     0     0
+ Shy Owl            144     1     1     1     1     0     0     0     0
+ Trigon            1571     1     1     0     1     0     0     0     0
+ Ubercrow            81     1     1     1     1     0     0     0     0
+
+1. Slam_Joe_Junior_Supreme
+
+    Contract       cn     wc    jc    lc    vc    wp    bg    pd    xv
+ ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
+ CB Locker  [1]     178     3     0     0     0     0     0     0     0
+ D. Corp.   [2]     495     0     0     0     0     0     0     0     0
+ DragonQE   [3]       0     0     0     0     0     0     0     0     0
+ IBTWWBG    [4]      50     0     0     0     0     0     0     0     0
+ PlunderPS  [5]     179     0     0     0     0     0     0     0     0
+ Press      [6]      14     0     0     0     0     0     0     0     0
+ SEAMSTRESS [7]       0     0     0     0     0     0     0     0     0
+ TeamMarg   [8]     137     0     0     0     0     0     0     0     0
+
+1. Cuddlebeam's Locker
+2. Dragon Corporation
+3. Dragon QuickExchange
+4. I bet that was written by G.
+5. The Plunder Partnership
+6. Agoran Press
+7. Signature Enthusiast Allows Modification of Signature Through
+   Rigorous Exchanging of Signature Suggestions
+8. Team Margaux
+
+     Entity        cn     wc    jc    lc    vc    wp    bg    pd    xv
+ ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
+ Agora                0     0     0     0     0     0     0     0     0
+ L&F Dept.  [1]    2236     0     0     0     0     0     0     0     0
+
+1. Lost and Found Department
+
+
+ASSET INDEX                                       (does not self-ratify)
+========================================================================
+
+* Tracked by the Treasuror (this report)
+   * Coins (cn)
+   * Cards
+     * Victory (wc), Justice (jc), Legislative (lc), Voting (vc)
+   * Products
+     * Victory Points (wp), Blot-B-Gone (bg), Pendant (pd), Extra Vote
+       (xv)
+
+* Tracked by the Referee
+   * Blots
+
+* Tracked by the Notary
+   * Promises
+
+* Tracked by the Registrar
+   * Talismans
+
+
+RECENT HISTORY                                    (does not self-ratify)
+========================================================================
+
+*** Sun 24 January 2021
+[23:48] Murphy:    +27cn (Reward: CFJ 3892)
+[08:53] nix:       +54cn (Reward: Herald weekly)
+[08:53] ATMunn:    +54cn (Reward: Notary weekly)
+[08:53] Falsifian: +27cn (Reward: Registrar weekly)
+[08:53] JTAC:      +54cn (Reward: Referee weekly)
+[08:53] Aris:      +80cn ()
+[08:53] Jason:     +27cn (Reward: Stonemason weekly)
+[08:53] Ubercrow:  +27cn (Reward: Tailor weekly)
+[08:53] Trigon:    +80cn (Reward: Treasuror weekly)
+[08:53] Murphy:    +27cn (Reward: ADoP weekly)
+
+*** Wed 20 January 2021
+[19:47] Aris:       +  5pd (Transfer Jason: Set of products)
+[19:47] Jason:      -  5pd (Transfer Aris: Set of products)
+[19:47] Jason:      + 10pd (Set of products)
+[19:47] Jason:      -  4lc (Set of cards)
+[19:47] Jason:      +  2lc (Transfer Aris)
+[19:47] Aris:       -  2lc (Transfer Jason)
+[19:44] Trigon:     +110cn (Transfer Jason)
+[19:44] Jason:      -110cn (Transfer Trigon)
+[19:44] Jason:      +  1lc (Transfer Trigon)
+[19:44] Trigon:     -  1lc (Transfer Jason)
+[19:25] CB Locker:  +  3wc (Transfer Cuddlebeam)
+[19:25] Cuddlebeam: -  3wc (Transfer CB Locker)
+[19:16] Cuddlebeam: +  1wc (Transfer Jason)
+[19:16] Jason:      -  1wc (Transfer Cuddlebeam)
+[19:16] Jason:      +  1jc (Transfer Cuddlebeam)
+[19:16] Cuddlebeam: -  1jc (Transfer Jason)
+[19:16] Jason:      +  1vc (Transfer Cuddlebeam)
+[19:16] Cuddlebeam: -  1vc (Transfer Jason)
+[19:05] Cuddlebeam: +  1wc (Transfer Aris)
+[19:05] Aris:       -  1wc (Transfer Cuddlebeam)
+[19:05] Aris:       +  1lc (Transfer Cuddlebeam)
+[19:05] Cuddlebeam: -  1lc (Transfer Aris)
+[18:46] Nathan:     +  1vc (ECONOMY NUKE!)
+[18:46] Nathan:     +  1lc (ECONOMY NUKE!)
+[18:46] Nathan:     +  1jc (ECONOMY NUKE!)
+[18:46] Nathan:     +  1wc (ECONOMY NUKE!)
+[18:46] omd:        +  1vc (ECONOMY NUKE!)
+[18:46] omd:        +  1lc (ECONOMY NUKE!)
+[18:46] omd:        +  1jc (ECONOMY NUKE!)
+[18:46] omd:        +  1wc (ECONOMY NUKE!)
+[18:46] Murphy:     +  1vc (ECONOMY NUKE!)
+[18:46] Murphy:     +  1lc (ECONOMY NUKE!)
+[18:46] Murphy:     +  1jc (ECONOMY NUKE!)
+[18:46] Murphy:     +  1wc (ECONOMY NUKE!)
+[18:46] G.:         +  1vc (ECONOMY NUKE!)
+[18:46] G.:         +  1lc (ECONOMY NUKE!)
+[18:46] G.:         +  1jc (ECONOMY NUKE!)
+[18:46] G.:         +  1wc (ECONOMY NUKE!)
+[18:46] nix:        +  1vc (ECONOMY NUKE!)
+[18:46] nix:        +  1lc (ECONOMY NUKE!)
+[18:46] nix:        +  1jc (ECONOMY NUKE!)
+[18:46] nix:        +  1wc (ECONOMY NUKE!)
+[18:46] Jason:      +  1vc (ECONOMY NUKE!)
+[18:46] Jason:      +  1lc (ECONOMY NUKE!)
+[18:46] Jason:      +  1jc (ECONOMY NUKE!)
+[18:46] Jason:      +  1wc (ECONOMY NUKE!)
+[18:46] Trigon:     +  1vc (ECONOMY NUKE!)
+[18:46] Trigon:     +  1lc (ECONOMY NUKE!)
+[18:46] Trigon:     +  1jc (ECONOMY NUKE!)
+[18:46] Trigon:     +  1wc (ECONOMY NUKE!)
+[18:46] grok:       +  1vc (ECONOMY NUKE!)
+[18:46] grok:       +  1lc (ECONOMY NUKE!)
+[18:46] grok:       +  1jc (ECONOMY NUKE!)
+[18:46] grok:       +  1wc (ECONOMY NUKE!)
+[18:46] JTAC:       +  1vc (ECONOMY NUKE!)
+[18:46] JTAC:       +  1lc (ECONOMY NUKE!)
+[18:46] JTAC:       +  1jc (ECONOMY NUKE!)
+[18:46] JTAC:       +  1wc (ECONOMY NUKE!)
+[18:46] Gaelan:     +  1vc (ECONOMY NUKE!)
+[18:46] Gaelan:     +  1lc (ECONOMY NUKE!)
+[18:46] Gaelan:     +  1jc (ECONOMY NUKE!)
+[18:46] Gaelan:     +  1wc (ECONOMY NUKE!)
+[18:46] Joe:        +  1vc (ECONOMY NUKE!)
+[18:46] Joe:        +  1lc (ECONOMY NUKE!)
+[18:46] Joe:        +  1jc (ECONOMY NUKE!)
+[18:46] Joe:        +  1wc (ECONOMY NUKE!)
+[18:46] Lucidiot:   +  1vc (ECONOMY NUKE!)
+[18:46] Lucidiot:   +  1lc (ECONOMY NUKE!)
+[18:46] Lucidiot:   +  1jc (ECONOMY NUKE!)
+[18:46] Lucidiot:   +  1wc (ECONOMY NUKE!)
+[18:46] Shy Owl:    +  1vc (ECONOMY NUKE!)
+[18:46] Shy Owl:    +  1lc (ECONOMY NUKE!)
+[18:46] Shy Owl:    +  1jc (ECONOMY NUKE!)
+[18:46] Shy Owl:    +  1wc (ECONOMY NUKE!)
+[18:46] Falsifian:  +  1vc (ECONOMY NUKE!)
+[18:46] Falsifian:  +  1lc (ECONOMY NUKE!)
+[18:46] Falsifian:  +  1jc (ECONOMY NUKE!)
+[18:46] Falsifian:  +  1wc (ECONOMY NUKE!)
+[18:46] ATMunn:     +  1vc (ECONOMY NUKE!)
+[18:46] ATMunn:     +  1lc (ECONOMY NUKE!)
+[18:46] ATMunn:     +  1jc (ECONOMY NUKE!)
+[18:46] ATMunn:     +  1wc (ECONOMY NUKE!)
+[18:46] Noah:       +  1vc (ECONOMY NUKE!)
+[18:46] Noah:       +  1lc (ECONOMY NUKE!)
+[18:46] Noah:       +  1jc (ECONOMY NUKE!)
+[18:46] Noah:       +  1wc (ECONOMY NUKE!)
+[18:46] Ubercrow:   +  1vc (ECONOMY NUKE!)
+[18:46] Ubercrow:   +  1lc (ECONOMY NUKE!)
+[18:46] Ubercrow:   +  1jc (ECONOMY NUKE!)
+[18:46] Ubercrow:   +  1wc (ECONOMY NUKE!)
+[18:46] Cuddlebeam: +  1vc (ECONOMY NUKE!)
+[18:46] Cuddlebeam: +  1lc (ECONOMY NUKE!)
+[18:46] Cuddlebeam: +  1jc (ECONOMY NUKE!)
+[18:46] Cuddlebeam: +  1wc (ECONOMY NUKE!)
+[18:46] R. Lee:     +  1vc (ECONOMY NUKE!)
+[18:46] R. Lee:     +  1lc (ECONOMY NUKE!)
+[18:46] R. Lee:     +  1jc (ECONOMY NUKE!)
+[18:46] R. Lee:     +  1wc (ECONOMY NUKE!)
+[18:46] Aris:       +  1vc (ECONOMY NUKE!)
+[18:46] Aris:       +  1lc (ECONOMY NUKE!)
+[18:46] Aris:       +  1jc (ECONOMY NUKE!)
+[18:46] Aris:       +  1wc (ECONOMY NUKE!)
+[18:46] Nathan:     -  3pd (ECONOMY NUKE!)
+[18:46] Nathan:     -  1vc (ECONOMY NUKE!)
+[18:46] Nathan:     -  1lc (ECONOMY NUKE!)
+[18:46] Nathan:     -  1jc (ECONOMY NUKE!)
+[18:46] Nathan:     -  1wc (ECONOMY NUKE!)
+[18:46] omd:        -  2bg (ECONOMY NUKE!)
+[18:46] omd:        -  1vc (ECONOMY NUKE!)
+[18:46] omd:        -  1lc (ECONOMY NUKE!)
+[18:46] omd:        -  1wc (ECONOMY NUKE!)
+[18:46] L&F Dept.:  -  3xv (ECONOMY NUKE!)
+[18:46] L&F Dept.:  -  4pd (ECONOMY NUKE!)
+[18:46] L&F Dept.:  -  4bg (ECONOMY NUKE!)
+[18:46] L&F Dept.:  -  5wp (ECONOMY NUKE!)
+[18:46] L&F Dept.:  -  5vc (ECONOMY NUKE!)
+[18:46] L&F Dept.:  -  4jc (ECONOMY NUKE!)
+[18:46] Murphy:     -  2vc (ECONOMY NUKE!)
+[18:46] Murphy:     -  1lc (ECONOMY NUKE!)
+[18:46] Murphy:     -  1jc (ECONOMY NUKE!)
+[18:46] G.:         - 10xv (ECONOMY NUKE!)
+[18:46] G.:         -  5pd (ECONOMY NUKE!)
+[18:46] G.:         -  1lc (ECONOMY NUKE!)
+[18:46] G.:         -  1jc (ECONOMY NUKE!)
+[18:46] nix:        -  4xv (ECONOMY NUKE!)
+[18:46] nix:        -  1pd (ECONOMY NUKE!)
+[18:46] nix:        -  7wp (ECONOMY NUKE!)
+[18:46] nix:        -  6vc (ECONOMY NUKE!)
+[18:46] nix:        -  2lc (ECONOMY NUKE!)
+[18:46] nix:        -  1wc (ECONOMY NUKE!)
+[18:46] Jason:      - 31pd (ECONOMY NUKE!)
+[18:46] Jason:      -  8bg (ECONOMY NUKE!)
+[18:46] Jason:      -  1wp (ECONOMY NUKE!)
+[18:46] Jason:      -  2vc (ECONOMY NUKE!)
+[18:46] Jason:      -  1lc (ECONOMY NUKE!)
+[18:46] Jason:      -  1wc (ECONOMY NUKE!)
+[18:46] Trigon:     -  8pd (ECONOMY NUKE!)
+[18:46] Trigon:     -  2wp (ECONOMY NUKE!)
+[18:46] Trigon:     -  1vc (ECONOMY NUKE!)
+[18:46] Trigon:     -  1jc (ECONOMY NUKE!)
+[18:46] Trigon:     -  1wc (ECONOMY NUKE!)
+[18:46] CB Locker:  -  1wp (ECONOMY NUKE!)
+[18:46] CB Locker:  -  1vc (ECONOMY NUKE!)
+[18:46] CB Locker:  -  1lc (ECONOMY NUKE!)
+[18:46] CB Locker:  -  1jc (ECONOMY NUKE!)
+[18:46] grok:       -  1vc (ECONOMY NUKE!)
+[18:46] grok:       -  1lc (ECONOMY NUKE!)
+[18:46] grok:       -  1jc (ECONOMY NUKE!)
+[18:46] grok:       -  1wc (ECONOMY NUKE!)
+[18:46] D. Corp.:   -  1xv (ECONOMY NUKE!)
+[18:46] D. Corp.:   - 11pd (ECONOMY NUKE!)
+[18:46] D. Corp.:   -  1bg (ECONOMY NUKE!)
+[18:46] JTAC:       -  1pd (ECONOMY NUKE!)
+[18:46] JTAC:       -  1vc (ECONOMY NUKE!)
+[18:46] JTAC:       -  1lc (ECONOMY NUKE!)
+[18:46] JTAC:       -  1jc (ECONOMY NUKE!)
+[18:46] JTAC:       -  1wc (ECONOMY NUKE!)
+[18:46] Gaelan:     -  1pd (ECONOMY NUKE!)
+[18:46] Gaelan:     -  1bg (ECONOMY NUKE!)
+[18:46] Gaelan:     -  1vc (ECONOMY NUKE!)
+[18:46] Joe:        -  1vc (ECONOMY NUKE!)
+[18:46] Joe:        -  1lc (ECONOMY NUKE!)
+[18:46] Joe:        -  1jc (ECONOMY NUKE!)
+[18:46] Lucidiot:   -  1wp (ECONOMY NUKE!)
+[18:46] Lucidiot:   -  1vc (ECONOMY NUKE!)
+[18:46] Lucidiot:   -  1lc (ECONOMY NUKE!)
+[18:46] Lucidiot:   -  1jc (ECONOMY NUKE!)
+[18:46] Lucidiot:   -  2wc (ECONOMY NUKE!)
+[18:46] DragonQE:   -  1xv (ECONOMY NUKE!)
+[18:46] DragonQE:   -  2wp (ECONOMY NUKE!)
+[18:46] DragonQE:   -  2lc (ECONOMY NUKE!)
+[18:46] DragonQE:   -  1jc (ECONOMY NUKE!)
+[18:46] Shy Owl:    -  1vc (ECONOMY NUKE!)
+[18:46] Shy Owl:    -  1lc (ECONOMY NUKE!)
+[18:46] Shy Owl:    -  1jc (ECONOMY NUKE!)
+[18:46] Shy Owl:    -  1wc (ECONOMY NUKE!)
+[18:46] Falsifian:  -  1pd (ECONOMY NUKE!)
+[18:46] Falsifian:  -  3lc (ECONOMY NUKE!)
+[18:46] Falsifian:  -  1jc (ECONOMY NUKE!)
+[18:46] ATMunn:     -  2pd (ECONOMY NUKE!)
+[18:46] ATMunn:     - 11wp (ECONOMY NUKE!)
+[18:46] ATMunn:     -  1lc (ECONOMY NUKE!)
+[18:46] Noah:       -  1vc (ECONOMY NUKE!)
+[18:46] Noah:       -  1lc (ECONOMY NUKE!)
+[18:46] Noah:       -  1jc (ECONOMY NUKE!)
+[18:46] Noah:       -  1wc (ECONOMY NUKE!)
+[18:46] Ubercrow:   -  1vc (ECONOMY NUKE!)
+[18:46] Ubercrow:   -  1lc (ECONOMY NUKE!)
+[18:46] Ubercrow:   -  1jc (ECONOMY NUKE!)
+[18:46] Ubercrow:   -  1wc (ECONOMY NUKE!)
+[18:46] Cuddlebeam: - 32wp (ECONOMY NUKE!)
+[18:46] R. Lee:     -  1jc (ECONOMY NUKE!)
+[18:46] R. Lee:     -  1wc (ECONOMY NUKE!)
+[18:46] Aris:       -  2xv (ECONOMY NUKE!)
+[18:46] Aris:       -  9pd (ECONOMY NUKE!)
+[18:46] Aris:       -  2bg (ECONOMY NUKE!)
+[18:46] Aris:       -  3wp (ECONOMY NUKE!)
+[18:46] Aris:       -  5lc (ECONOMY NUKE!)
+[18:46] Cuddlebeam: + 10wp (Set of products)
+[18:46] Cuddlebeam: -  4wc (Set of cards)
+[18:46] Cuddlebeam: + 10wp (Set of products)
+[18:46] Cuddlebeam: -  4wc (Set of cards)
+[18:46] Cuddlebeam: +  4wc (Transfer CB Locker: Set of cards)
+[18:46] CB Locker:  -  4wc (Transfer Cuddlebeam: Set of cards)
+[18:46] G.:         -  9bg (Expungements)
+[18:46] Cuddlebeam: + 12wp (Transfer G.: Expungements)
+[18:46] G.:         - 12wp (Transfer Cuddlebeam: Expungements)
+[18:46] Cuddlebeam: +  3wc (Transfer G.: Expungements)
+[18:46] G.:         -  3wc (Transfer Cuddlebeam: Expungements)
+[18:21] G.:         -  1pd (Pending proposal: Turn Undead v2)
+[17:57] Joe:        +200cn (Promise)
+[17:57] Cuddlebeam: +  1wc (Transfer Joe: Promise)
+[17:57] Joe:        -  1wc (Transfer Cuddlebeam: Promise)
+[16:14] G.:         -  1pd (Pending proposal: de-dictatorship)
+[16:11] G.:         -  1pd (Pending proposal: Unofficial injustice)
+[16:02] Jason:      + 10cn (Transfer ATMunn: meme)
+[16:02] ATMunn:     - 10cn (Transfer Jason: meme)
+[11:29] Cuddlebeam: +300cn (Transfer CB Locker)
+[11:29] CB Locker:  -300cn (Transfer Cuddlebeam)
+[11:27] CB Locker:  +  1wp (Transfer Cuddlebeam)
+[11:27] Cuddlebeam: -  1wp (Transfer CB Locker)
+[11:27] CB Locker:  +  2wc (Transfer Cuddlebeam)
+[11:27] Cuddlebeam: -  2wc (Transfer CB Locker)
+[01:58] Joe:        +  1vc (Welcome Package: Falsifian)
+[01:58] Joe:        +  1lc (Welcome Package: Falsifian)
+[01:58] Joe:        +  1jc (Welcome Package: Falsifian)
+[01:58] Joe:        +  1wc (Welcome Package: Falsifian)
+[01:58] Joe:        + 54cn (Welcome Package: Falsifian)
+
+*** Tue 19 January 2021
+[19:37] JTAC: +1pd (Transfer Aris)
+[19:37] Aris: -1pd (Transfer JTAC)
+
+*** Mon 18 January 2021
+[21:04] G.:     +  1wc (Rulebending)
+[21:04] Gaelan: +300cn (Transfer G.)
+[21:04] G.:     -300cn (Transfer Gaelan)
+[20:48] G.:     -  2bg (Expungement (Gaelan))
+[16:16] nix:    + 59cn (E Glitter)

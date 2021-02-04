@@ -23,6 +23,23 @@ is Wednesday/Thursday each week.
 
 Full List of Weekly Reports:
 
+* [2020-02-04](weekly/2020-02-04.txt)
+* [2020-02-02A](weekly/2020-02-02A.txt)
+* [2020-02-02](weekly/2020-02-02.txt)
+* [2020-02-01](weekly/2020-02-01.txt)
+* [2020-01-25](weekly/2020-01-25.txt)
+* [2020-01-17](weekly/2020-01-17.txt) ([HTML](weeklymd/2020-01-17))
+* [2020-01-06](weekly/2020-01-06.txt) ([HTML](weeklymd/2020-01-06))
+* [2020-01-03](weekly/2020-01-03.txt) ([HTML](weeklymd/2020-01-03))
+* [2020-12-27](weekly/2020-12-27.txt) ([HTML](weeklymd/2020-12-27))
+* [2020-12-20](weekly/2020-12-20.txt) ([HTML](weeklymd/2020-12-20))
+* [2020-12-06](weekly/2020-12-06.txt) ([HTML](weeklymd/2020-12-06))
+* [2020-11-29A](weekly/2020-11-29A.txt) ([HTML](weeklymd/2020-11-29A))
+* [2020-11-29](weekly/2020-11-29.txt) ([HTML](weeklymd/2020-11-29))
+* [2020-11-16](weekly/2020-11-16.txt) ([HTML](weeklymd/2020-11-16))
+* [2020-11-04B](weekly/2020-11-04B.txt) ([HTML](weeklymd/2020-11-04B))
+* [2020-11-04A](weekly/2020-11-04A.txt) ([HTML](weeklymd/2020-11-04A))
+* [2020-11-04](weekly/2020-11-04.txt) ([HTML](weeklymd/2020-11-04))
 * [2020-10-28](weekly/2020-10-28.txt) ([HTML](weeklymd/2020-10-28))
 * [2020-10-25](weekly/2020-10-25.txt) ([HTML](weeklymd/2020-10-25))
 * [2020-10-18](weekly/2020-10-18.txt) ([HTML](weeklymd/2020-10-18))
