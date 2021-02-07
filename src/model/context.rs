@@ -35,16 +35,11 @@ impl Context {
         }
     }
 
-    pub fn relevel(&mut self) -> (u32, f32) {
-        let tb = self
-            .entities
-            .values()
-            .map(|ent| ent.balance(Currency::Coin))
-            .sum::<u32>();
+    pub fn relevel(&mut self, tb: u32) -> f32 {
         let uf = tb as f32 / 2500.0;
 
         self.flotation = uf;
-        (tb, uf)
+        uf
     }
 
     pub fn nuke(&mut self) {
@@ -172,8 +167,15 @@ impl Context {
 
     fn exec(&mut self, com: &Command) -> Option<HistoryEntry> {
         match com {
-            Command::Relevel => {
-                let (tb, uf) = self.relevel();
+            Command::Relevel(opttb) => {
+                let tb = opttb.unwrap_or(self
+                    .entities
+                    .values()
+                    .map(|ent| ent.balance(Currency::Coin))
+                    .sum::<u32>()
+                );
+                let uf = self.relevel(tb);
+
                 Some(format!("  RELEVELING: TB={}, UF={:.4}", tb, uf))
             }
             Command::Report => {
