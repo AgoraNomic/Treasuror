@@ -76,7 +76,9 @@ impl FullUnit {
                         panic!("invalid unit prefix!");
                     }
                 } else {
-                    FullUnit::Bare(Currency::from_str(&i1).unwrap())
+                    FullUnit::Bare(
+                        Currency::from_str(&i1).expect(&format!("invalid currency: {}", i1)),
+                    )
                 }
             } else {
                 FullUnit::Bare(Currency::from_str(&i1).unwrap())

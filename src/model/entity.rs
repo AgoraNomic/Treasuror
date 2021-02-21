@@ -32,7 +32,9 @@ impl Entity {
             match_first_pop!(tokens {
                 Token::Integer(i) => { i },
             } else { 0 })
-        } else { 0 };
+        } else {
+            0
+        };
 
         let identifier = match_first_pop!(tokens {
             Token::Identifier(s) => { s },
@@ -92,7 +94,8 @@ impl Entity {
         let q = self.inventory.entry(c).or_insert(0);
         if *q < a {
             eprintln!(
-                "attempt to retract below zero: {} < {} ({})",
+                "attempt to retract from {} below zero: {} < {} ({})",
+                self.full_name,
                 *q,
                 a,
                 c.abbr()

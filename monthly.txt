@@ -1,0 +1,55 @@
+========================================================================
+                       THE FLOATING RATE SCHEDULE
+========================================================================
+
+Ahoy!
+
+I, having been authorized to do so as Treasuror of Agora Nomic and being
+required to do so in the first Eastman week of each Agoran month, and
+being authorized to do so afterward in the event of errors in
+calculation, hereby flip the Total Buoyancy to be equal to the following
+sum, the amount of coins possessed by all entities at the time of the
+most recent Treasuror's report:
+
+TOTAL BUOYANCY:  16538
+
+The Unit of Flotation is one twenty-five hundredth part of said sum,
+unrounded. This is equal to the following quotient:
+
+UNIT OF FLOTATION:  6.6152
+
+
+========================================================================
+                  CONVERSION TABLE OF BOATLOAD VALUES
+------------------------------------------------------------------------
+
+    1 boatloads =   7 assets
+    2 boatloads =  14 assets
+    3 boatloads =  20 assets
+    4 boatloads =  27 assets
+    5 boatloads =  34 assets
+    6 boatloads =  40 assets
+    7 boatloads =  47 assets
+    8 boatloads =  53 assets
+    9 boatloads =  60 assets
+   10 boatloads =  67 assets
+   11 boatloads =  73 assets
+   12 boatloads =  80 assets
+   13 boatloads =  86 assets
+   14 boatloads =  93 assets
+   15 boatloads = 100 assets
+   16 boatloads = 106 assets
+   17 boatloads = 113 assets
+   18 boatloads = 120 assets
+   19 boatloads = 126 assets
+   20 boatloads = 133 assets
+   21 boatloads = 139 assets
+   22 boatloads = 146 assets
+   23 boatloads = 153 assets
+   24 boatloads = 159 assets
+   25 boatloads = 166 assets
+
+
+========================================================================
+                BOATLOAD VALUES IN RULES AND REGULATIONS
+------------------------------------------------------------------------

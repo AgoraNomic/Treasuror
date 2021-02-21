@@ -160,7 +160,14 @@ impl<'a> Display for AssetTable<'a> {
                     .iter()
                     .enumerate()
                     .fold(String::new(), |acc, (i, name)| acc
-                        + &wrap(name, Options::new(72).initial_indent(&format!("{}. ", i)).subsequent_indent("   ")).join("\n") + "\n")
+                        + &wrap(
+                            name,
+                            Options::new(72)
+                                .initial_indent(&format!("{}. ", i))
+                                .subsequent_indent("   ")
+                        )
+                        .join("\n")
+                        + "\n")
             )
         } else {
             f.write_str(&self.table.to_string())

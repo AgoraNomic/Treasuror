@@ -186,6 +186,10 @@ impl Context {
                 self.add_player(identifier.clone(), full_name.clone());
                 None
             }
+            Command::Deregister(identifier) => {
+                self.deregister(&identifier);
+                None
+            }
             Command::Nuke => {
                 self.nuke();
                 None
@@ -224,6 +228,30 @@ impl Context {
 
     pub fn add_player(&mut self, identifier: String, full_name: String) {
         self.insert_entity(Entity::player(identifier, full_name));
+    }
+
+    pub fn deregister(&mut self, identifier: &str) {
+        let transactions = {
+            let entity = self.entity(&identifier);
+
+            let comment = String::from("Indeterminate owner: was ") + &entity.identifier();
+            
+            self.assets.iter().map(|c| Transaction::new(
+                "L&F_Dept.".to_string(),
+                Amount::PartOf(FullUnit::Bare(*c), entity.balance(*c)),
+                Operator::Plus,
+                comment.clone(),
+            )).collect::<Vec<Transaction>>()
+        };
+
+        for trans in transactions {
+            self.apply(&trans).iter().for_each(|e| {
+                self.history
+                    .push_back(DatedHistoryEntry::new(self.datetime, e.clone()))
+            });
+        }
+
+        self.entities.remove(identifier);
     }
 
     pub fn entity(&self, identifier: &str) -> &Entity {

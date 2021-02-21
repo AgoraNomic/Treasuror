@@ -5,6 +5,7 @@ pub enum Command {
     Relevel(Option<u32>),
     Report,
     NewPlayer(String, String),
+    Deregister(String),
     Nuke,
     Payday,
 }
@@ -12,11 +13,9 @@ pub enum Command {
 impl Command {
     pub fn from_name_and_vec(name: String, mut tokens: Vec<Token>) -> Option<Command> {
         match &name.to_lowercase()[..] {
-            "relevel" => Some(Command::Relevel(
-                match_first_pop!(tokens {
+            "relevel" => Some(Command::Relevel(match_first_pop!(tokens {
                     Token::Integer(i) => { Some(i) },
-                } else { None })
-            )),
+                } else { None }))),
             "report" => Some(Command::Report),
             "nuke" => Some(Command::Nuke),
             "payday" => Some(Command::Payday),
@@ -32,6 +31,9 @@ impl Command {
 
                 Some(Command::NewPlayer(identifier, full_name))
             }
+            "deregister" => Some(Command::Deregister(match_first_pop!(tokens {
+                    Token::Identifier(s) => { s },
+                } else { panic!("expected identifier in #deregister command") }))),
             _ => {
                 eprintln!("no such command: {}", name);
                 None
