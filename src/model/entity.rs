@@ -21,7 +21,7 @@ impl Entity {
     pub fn from_vec(tokens: &mut Vec<Token>) -> Entity {
         let kind = match_first_pop!(tokens {
             Token::Identifier(s) => { match &s.to_lowercase()[..] {
-                "p" => EntityKind::Player,
+                "p" => EntityKind::Player(true),
                 "c" => EntityKind::Contract,
                 "o" => EntityKind::Other,
                 _ => panic!("Expected 'P', 'C', or 'O'"),
@@ -76,7 +76,7 @@ impl Entity {
         Entity {
             full_name,
             identifier,
-            kind: EntityKind::Player,
+            kind: EntityKind::Player(true),
             inventory: HashMap::with_capacity(5),
             donation_level: 0,
         }
@@ -103,6 +103,18 @@ impl Entity {
             *q = 0;
         } else {
             *q -= a;
+        }
+    }
+
+    pub fn activate(&mut self) {
+        if let EntityKind::Player(_) = self.kind {
+            self.kind = EntityKind::Player(true);
+        }
+    }
+
+    pub fn deactivate(&mut self) {
+        if let EntityKind::Player(_) = self.kind {
+            self.kind = EntityKind::Player(false);
         }
     }
 
@@ -133,17 +145,17 @@ impl Entity {
 
 #[derive(Clone, Copy, Hash, Eq, PartialEq)]
 pub enum EntityKind {
-    Player,
+    Player(bool),
     Contract,
     Other,
 }
 
 impl Display for EntityKind {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        f.pad(match self {
-            EntityKind::Player => "Player",
-            EntityKind::Contract => "Contract",
-            EntityKind::Other => "Entity",
+        f.pad(&match self {
+            EntityKind::Player(a) => format!("Player({}a)", if *a { "+" } else { "-" }),
+            EntityKind::Contract => String::from("Contract"),
+            EntityKind::Other => String::from("Entity"),
         })
     }
 }

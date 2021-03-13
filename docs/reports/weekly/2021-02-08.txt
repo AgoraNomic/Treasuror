@@ -1,5 +1,5 @@
 ========================================================================
-                       FORBES FOUR HUNDRED FIFTY-FOUR
+                       FORBES FOUR HUNDRED FIFTY-SEVEN
 --------------------------------   or   --------------------------------
                           TREASUROR'S WEEKLY REPORT
 ========================================================================
@@ -12,51 +12,49 @@ DATES OF PUBLICATION                                  (contains no data)
 
 (all times and dates in UTC)
 
-Date of previous original report:  23 February 2021
-Date of first report this week:    09 March 2021
+Date of previous original report:  01 February 2021
+Date of first report this week:    08 February 2021
 
 
 NOTES ON REPORT                                       (contains no data)
 ========================================================================
 
 * GENERAL
-   * Apologies for missing last week. Real life caught up with me.
-   * I have started publishing Treasuror report drafts on discord before
-     I post them. If you want to give me feedback before I post, be sure
-     to check discord or IRC on Sundays.
-   * As always, please check the general accuracy of this report.
+  * I have started publishing Treasuror report drafts on discord before
+    I post them. If you want to give me feedback before I post, be sure
+    to check discord or IRC on Sundays.
+  * For now, I've settled into a rhythm of publishing on Monday. I don't
+    know how long it will last, but it seems to be working so far.
+  * As always, please check the general accuracy of this report.
 
 
 ASSET BALANCES
 ========================================================================
 
-   Player(+a)      cn     wc    jc    lc    vc    wp    bg    pd    xv
+     Player        cn     wc    jc    lc    vc    wp    bg    pd    xv
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
- Aris              2495     0     1     2     1     0     0     2     0
- ATMunn             873     0     0     1     0     0     0     0     0
- Cuddlebeam         519     1     1     0     0    12     0     0     0
- Falsifian         1290     1     0     2     0    12     0     0     0
- G.                1982     1     1     0     1     0     5     5     0
- Gaelan             811     0     1     2     1     0     0     0     0
- Jason             3099     0     0     4     0     0     5     8     7
- Joe        [0]     571     0     1     1     1     0     0     0     0
- JTAC               523     1     1     1     1     0     0     0     0
- Lucidiot           267     1     1     1     1     2     0     0     0
- Murphy             865     1     1     1     1     0     0     4     0
- nix                727     1     2     0     2     0     0     1     0
- Noah               248     1     1     1     1     0     0     0     0
- omd                495     1     1     1     1     0     0     0     0
- R. Lee             264     1     1     1     1     0     0     0     0
- Trigon            2258     1     1     1     0     0     0     0     3
- Ubercrow           198     1     1     1     1     0     0     0     0
+ Aris              2148     0     1     0     1     0     0     4     0
+ ATMunn             830     0     0     0     0     0     0     0     0
+ Cuddlebeam         351     1     1     0     0    11     0     0     0
+ Falsifian         1422     0     0     1     0    11     0     0     0
+ G.                1651     1     0     2     1     0     5     0     0
+ Gaelan             835     0     1     1     1     0     0     0     0
+ grok               239     1     1     1     1     0     0     0     0
+ Jason             2320     0     0     1     3     0     5    10     0
+ Joe        [0]     508     0     1     1     1     0     0     0     0
+ JTAC               460     1     1     1     1     0     0     0     0
+ Lucidiot           204     1     1     1     1     1     0     0     0
+ Murphy             578     1     1     2     1     0     0     0     0
+ Nathan             191     1     1     1     1     0     0     0     0
+ nix                423     0     2     0     2     0     0     1     0
+ Noah               108     1     1     1     1     0     0     0     0
+ omd                432     1     1     1     1     0     0     0     0
+ R. Lee             201     1     1     1     1     0     0     0     0
+ Shy Owl            198     1     1     1     1     0     0     0     0
+ Trigon            1913     1     1     1     1     0     0     0     0
+ Ubercrow           135     1     1     1     1     0     0     0     0
 
 0. Slam_Joe_Junior_Supreme
-
-   Player(-a)      cn     wc    jc    lc    vc    wp    bg    pd    xv
- ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
- grok               239     1     1     1     1     0     0     0     0
- Nathan             191     1     1     1     1     0     0     0     0
- Shy Owl            198     1     1     1     1     0     0     0     0
 
     Contract       cn     wc    jc    lc    vc    wp    bg    pd    xv
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
@@ -65,7 +63,7 @@ ASSET BALANCES
  DragonQE   [2]       0     0     0     0     0     0     0     0     0
  IBTWWBG    [3]      50     0     0     0     0     0     0     0     0
  PlunderPS  [4]     179     0     0     0     0     0     0     0     0
- Press      [5]     162     0     0     0     0     0     0     0     0
+ Press      [5]      12     0     0     0     0     0     0     0     0
  SEAMSTRESS [6]       0     0     0     0     0     0     0     0     0
  TeamMarg   [7]     137     0     0     0     0     0     0     0     0
 
@@ -76,7 +74,7 @@ ASSET BALANCES
 4. Plunder Partnership
 5. Agoran Press
 6. Signature Enthusiast Allows Modification of Signature Through
-   Rigorous Exchanging of Signature Suggestions
+    Rigorous Exchanging of Signature Suggestions
 7. Team Margaux
 
      Entity        cn     wc    jc    lc    vc    wp    bg    pd    xv
@@ -88,163 +86,7 @@ ASSET BALANCES
 RECENT HISTORY
 ========================================================================
 
-*** Mon 8 March 2021
-[00:00]   RELEVELING: TB=20877, UF=8.3508
-
-*** Sun 7 March 2021
-[23:54] Jason:      + 32cn (Reward: CFJ 3899)
-[21:46] Aris:       +  1lc (Popular proposal: Proposal 8541)
-[21:41] nix:        + 63cn (Reward: Herald monthly)
-[21:41] nix:        + 32cn (Reward: Ministor monthly)
-[21:41] Murphy:     + 32cn (Reward: Tailor monthly)
-[21:41] Jason:      + 94cn (Reward: Assessed proposal)
-[21:41] G.:         + 63cn (Reward: Arbitor weekly)
-[21:41] Falsifian:  + 32cn (Reward: Registrar weekly)
-[21:41] Jason:      + 94cn (Reward: Short Logical Ruleset)
-[21:41] Jason:      + 32cn (Reward: Stonemason weekly)
-[21:41] Aris:       + 94cn (Reward: Proposal Pool)
-[21:41] Murphy:     + 32cn (Reward: Tailor weekly)
-[21:41] Murphy:     + 32cn (Reward: ADoP weekly)
-[20:55] Murphy:     +  1lc (Personal grant: Legislation)
-[19:09] Cuddlebeam: +100cn (Transfer Falsifian)
-[19:09] Falsifian:  -100cn (Transfer Cuddlebeam)
-
-*** Fri 5 March 2021
-[15:39] Aris:       +10cn (Transfer nix)
-[15:39] nix:        -10cn (Transfer Aris)
-[15:39] G.:         +10cn (Transfer nix)
-[15:39] nix:        -10cn (Transfer G.)
-[15:21] ATMunn:     + 1lc (Personal grant: Legislation)
-[05:46] Jason:      + 7cn (Transfer Gaelan)
-[05:46] Gaelan:     - 7cn (Transfer Jason)
-[05:46] Gaelan:     + 1lc (Personal grant: Legislation)
-[02:45] Lucidiot:   + 1wp (Legacy grant)
-[02:45] Falsifian:  + 1wp (Legacy grant)
-[02:45] Cuddlebeam: + 1wp (Legacy grant)
-[02:45] nix:        + 1wc (Legacy grant)
-
-*** Mon 1 March 2021
-[16:54] Jason:      +  1lc (Popular proposal: Proposal 8542)
-[16:23] Jason:      +  1lc (Wielding Concentration Stone)
-[16:23] Jason:      +  1lc (Personal grant: Legislation)
-[00:00] Ubercrow:   + 63cn (Payday)
-[00:00] Trigon:     + 63cn (Payday)
-[00:00] R. Lee:     + 63cn (Payday)
-[00:00] Press:      +156cn (Payday: donation level=25)
-[00:00] Press:      -  6cn (Payday: charity coin destruction)
-[00:00] omd:        + 63cn (Payday)
-[00:00] Noah:       + 63cn (Payday)
-[00:00] nix:        + 63cn (Payday)
-[00:00] Murphy:     + 63cn (Payday)
-[00:00] Lucidiot:   + 63cn (Payday)
-[00:00] JTAC:       + 63cn (Payday)
-[00:00] Joe:        + 63cn (Payday)
-[00:00] Jason:      + 63cn (Payday)
-[00:00] Gaelan:     + 63cn (Payday)
-[00:00] G.:         + 63cn (Payday)
-[00:00] Falsifian:  + 63cn (Payday)
-[00:00] Cuddlebeam: + 63cn (Payday)
-[00:00] ATMunn:     + 63cn (Payday)
-[00:00] Aris:       + 63cn (Payday)
-
-*** Sun 28 February 2021
-[23:38] Aris:       - 1pd (Pending proposal: Uncanny fixes)
-[23:24] Cuddlebeam: + 5cn (Transfer Aris)
-[23:24] Aris:       - 5cn (Transfer Cuddlebeam)
-[23:24] Falsifian:  + 5cn (Transfer Aris)
-[23:24] Aris:       - 5cn (Transfer Falsifian)
-[23:24] Jason:      + 5cn (Transfer Aris)
-[23:24] Aris:       - 5cn (Transfer Jason)
-[23:24] G.:         + 5cn (Transfer Aris)
-[23:24] Aris:       - 5cn (Transfer G.)
-[17:40] Jason:      +94cn (Reward: Full Logical Ruleset)
-[17:40] Falsifian:  +32cn (Reward: Registrar monthly)
-[17:40] Jason:      +94cn (Reward: Short Logical Ruleset)
-[17:40] Falsifian:  +32cn (Reward: Registrar weekly)
-[17:40] ATMunn:     +63cn (Reward: Notary weekly)
-[17:40] G.:         +63cn (Reward: Arbitor weekly)
-[17:40] Trigon:     +94cn (Reward: Treasuror weekly)
-[17:40] Aris:       +94cn (Reward: Proposal pool)
-[17:40] Jason:      +32cn (Reward: Stonemason weekly)
-[17:40] G.:         +63cn (Reward: Arbitor weekly)
-[17:40] Murphy:     +32cn (Reward: ADoP weekly)
-[17:25] Murphy:     - 1pd (Pending proposal: Clarify dependent actions)
-[16:28] G.:         + 1jc (Personal grant: Compliance)
-
-*** Tue 23 February 2021
-[19:47] Gaelan: +32cn (Wielding Wealth Stone)
-[19:07]   WEEKLY REPORT
-
-*** Sun 21 February 2021
-[23:58] Aris:      - 1pd (Pending proposal: You CAN, CAN'T you)
-[22:45] Aris:      +32cn (Reward: CFJ 3895)
-[22:45] Murphy:    +32cn (Reward: CFJ 3898)
-[22:45] G.:        +32cn (Reward: CFJ 3896)
-[22:45] G.:        +32cn (Reward: CFJ 3897)
-[18:22] Falsifian: +32cn (Registrar weekly)
-[18:22] Trigon:    +94cn (Treasuror weekly)
-[18:22] Jason:     +32cn (Stonemason weekly)
-[18:22] Murphy:    +32cn (ADoP weekly)
-[15:06] Jason:     - 1pd (Pending proposal: En Passant)
-[15:06] Jason:     - 1pd (Pending proposal: Stone Excitement)
-
-*** Wed 17 February 2021
-[19:50] G.:     + 5pd (Transfer Murphy)
-[19:50] Murphy: - 5pd (Transfer G.)
-[19:50] Murphy: +10pd (Set of products)
-[19:50] Murphy: - 4lc (Set of cards)
-[19:50] Murphy: + 2lc (Transfer G.)
-[19:50] G.:     - 2lc (Transfer Murphy)
-
-*** Mon 15 February 2021
-[19:49]   WEEKLY REPORT
-[02:54] Gaelan: +32cn (Wielding Wealth Stone)
-
-*** Sun 14 February 2021
-[21:22] Gaelan:    + 32cn (Wielding Wealth Stone)
-[21:22] Gaelan:    -176cn (Stone auction: Wealth Stone)
-[17:14] Jason:     +  1lc (Wielding Concentration Stone)
-[17:14] Falsifian: +  1lc (Transfer Jason)
-[17:14] Jason:     -  1lc (Transfer Falsifian)
-[16:39] nix:       + 63cn (Reward: Herald monthly)
-[16:39] nix:       + 32cn (Reward: Webmastor monthly)
-[16:39] nix:       + 32cn (Reward: Ministor monthly)
-[16:39] Jason:     + 94cn (Reward: Assessed proposal)
-[16:39] Falsifian: + 32cn (Reward: Registrar weekly)
-[16:39] Jason:     + 94cn (Reward: Short Logical Ruleset)
-[16:39] Trigon:    + 94cn (Reward: Treasuror weekly)
-[16:39] Murphy:    + 32cn (Reward: ADoP weekly)
-[01:11] Falsifian: + 20cn (Transfer ATMunn: HAPPY BIRTHDAY, FALSIFIAN!)
-[01:11] ATMunn:    - 20cn (Transfer Falsifian: HAPPY BIRTHDAY, FALSIFIAN!)
-
-*** Sat 13 February 2021
-[15:20] Falsifian: +20cn (Transfer Jason: HAPPY BIRTHDAY, FALSIFIAN!)
-[15:20] Jason:     -20cn (Transfer Falsifian: HAPPY BIRTHDAY, FALSIFIAN!)
-
-*** Thu 11 February 2021
-[23:45] Aris:      +  1lc (Popular proposal: Proposal 8539)
-[20:36] nix:       +  7cn (Transfer Aris)
-[20:36] Aris:      -  7cn (Transfer nix)
-[20:27] nix:       + 32cn (Reward: Proposal 8540)
-[20:27] Aris:      + 50cn (Reward: Proposal 8539)
-[19:25] Jason:     + 32cn (Transfer Aris)
-[19:25] Aris:      - 32cn (Transfer Jason)
-[19:25] Aris:      + 63cn (Transfer ATMunn)
-[19:25] ATMunn:    - 63cn (Transfer Aris)
-[03:09] Falsifian: +  1wc (Victory auction)
-[03:09] Falsifian: -300cn (Victory auction)
-
-*** Tue 9 February 2021
-[01:54] Noah: +77cn (Personal grant: Economy)
-
 *** Mon 8 February 2021
-[21:01] Trigon:     + 3xv (Transfer Jason)
-[21:01] Jason:      - 3xv (Transfer Trigon)
-[21:01] Jason:      +10xv (Set of products)
-[21:01] Jason:      - 4vc (Set of cards)
-[21:01] Jason:      + 1vc (Transfer Trigon)
-[21:01] Trigon:     - 1vc (Transfer Jason)
-[19:42]   WEEKLY REPORT
 [19:36] Cuddlebeam: +1jc (Finger pointer)
 
 *** Sun 7 February 2021

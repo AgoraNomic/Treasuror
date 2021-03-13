@@ -57,7 +57,7 @@ impl Context {
                     ));
                 }
 
-                if currency.is_card() && ent.kind() == EntityKind::Player {
+                if currency.is_card() && ent.kind() == EntityKind::Player(true) {
                     grants.push_back(Transaction::new(
                         name.clone(),
                         Amount::PartOf(FullUnit::Bare(*currency), 1),
@@ -82,7 +82,7 @@ impl Context {
         let mut transactions = VecDeque::new();
         for ent in self.entities_vec_sorted().iter() {
             match ent.kind() {
-                EntityKind::Player => {
+                EntityKind::Player(true) => {
                     transactions.push_back(Transaction::new(
                         ent.identifier().clone(),
                         Amount::PartOf(FullUnit::Boatload(Currency::Coin), 10),
@@ -109,7 +109,7 @@ impl Context {
                         ));
                     }
                 }
-                EntityKind::Other => (),
+                _ => (),
             }
         }
 
@@ -185,6 +185,14 @@ impl Context {
             Command::NewPlayer(identifier, full_name) => {
                 self.add_player(identifier.clone(), full_name.clone());
                 None
+            }
+            Command::Activate(name) => {
+                self.entity_mut(name).activate();
+                Some(format!("{} becomes active", name))
+            }
+            Command::Deactivate(name) => {
+                self.entity_mut(name).deactivate();
+                Some(format!("{} becomes inactive", name))
             }
             Command::Deregister(identifier) => {
                 self.deregister(&identifier);

@@ -15,14 +15,14 @@ use crate::{
 pub struct Report<'a> {
     forbes: u32,
     date: NaiveDate,
-    notes: Vec<String>,
+    // notes: Vec<String>,
     tables: Vec<AssetTable<'a>>,
     history: String,
 }
 
 impl<'a> Report<'a> {
     pub fn with_context(ctx: &'a mut Context) -> Report<'a> {
-        let notes = ctx.take_notes();
+        // let notes = ctx.take_notes();
 
         let mut asset_tables: HashMap<EntityKind, AssetTable> = HashMap::new();
 
@@ -69,7 +69,7 @@ impl<'a> Report<'a> {
         Report {
             forbes: ctx.forbes(),
             date,
-            notes,
+            // notes,
             tables: asset_tables.into_iter().map(|(_, e)| e).collect(),
             history,
         }

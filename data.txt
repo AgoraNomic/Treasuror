@@ -209,6 +209,9 @@
 
 2021-02-14
 [01:11] ATMunn 20cn>Falsifian "HAPPY BIRTHDAY, FALSIFIAN!"
+[03:48] #deactivate Shy_Owl
+[03:48] #deactivate Nathan
+[03:48] #deactivate grok
 [16:39] Murphy      5bl:cn+ "Reward: ADoP weekly"
 [16:39] Trigon     15bl:cn+ "Reward: Treasuror weekly"
 [16:39] Jason      15bl:cn+ "Reward: Short Logical Ruleset"
@@ -224,3 +227,84 @@
 
 2021-02-15
 [02:54] Gaelan 5bl:cn+ "Wielding Wealth Stone"
+[19:49] #report
+
+2021-02-17
+[19:50] G. 2lc>Murphy
+[19:50] Murphy  4lc- "Set of cards"
+[19:50] Murphy 10pd+ "Set of products"
+[19:50] Murphy  5pd>G.
+
+2021-02-21
+[15:06] Jason 1pd- "Pending proposal: Stone Excitement"
+[15:06] Jason 1pd- "Pending proposal: En Passant"
+[18:22] Murphy     5bl:cn+ "ADoP weekly"
+[18:22] Jason      5bl:cn+ "Stonemason weekly"
+[18:22] Trigon    15bl:cn+ "Treasuror weekly"
+[18:22] Falsifian  5bl:cn+ "Registrar weekly"
+[22:45] G.     5bl:cn+ "Reward: CFJ 3897"
+[22:45] G.     5bl:cn+ "Reward: CFJ 3896"
+[22:45] Murphy 5bl:cn+ "Reward: CFJ 3898"
+[22:45] Aris   5bl:cn+ "Reward: CFJ 3895"
+[23:58] Aris 1pd- "Pending proposal: You CAN, CAN'T you"
+
+2021-02-23
+[19:07] #report
+[19:47] Gaelan 5bl:cn+ "Wielding Wealth Stone"
+
+2021-02-28
+[16:28] G. 1jc+ "Personal grant: Compliance"
+[17:25] Murphy 1pd- "Pending proposal: Clarify dependent actions"
+[17:40] Murphy     5bl:cn+ "Reward: ADoP weekly"
+[17:40] G.        10bl:cn+ "Reward: Arbitor weekly"
+[17:40] Jason      5bl:cn+ "Reward: Stonemason weekly"
+[17:40] Aris      15bl:cn+ "Reward: Proposal pool"
+[17:40] Trigon    15bl:cn+ "Reward: Treasuror weekly"
+[17:40] G.        10bl:cn+ "Reward: Arbitor weekly"
+[17:40] ATMunn    10bl:cn+ "Reward: Notary weekly"
+[17:40] Falsifian  5bl:cn+ "Reward: Registrar weekly"
+[17:40] Jason     15bl:cn+ "Reward: Short Logical Ruleset"
+[17:40] Falsifian  5bl:cn+ "Reward: Registrar monthly"
+[17:40] Jason     15bl:cn+ "Reward: Full Logical Ruleset"
+[23:24] Aris 5cn>G.
+[23:24] Aris 5cn>Jason
+[23:24] Aris 5cn>Falsifian
+[23:24] Aris 5cn>Cuddlebeam
+[23:38] Aris 1pd- "Pending proposal: Uncanny fixes"
+
+2021-03-01
+[00:00] #payday
+[16:23] Jason 1lc+ "Personal grant: Legislation"
+[16:23] Jason 1lc+ "Wielding Concentration Stone"
+[16:54] Jason 1lc+ "Popular proposal: Proposal 8542"
+
+2021-03-05
+[02:45] nix        1wc+ "Legacy grant"
+[02:45] Cuddlebeam 1wp+ "Legacy grant"
+[02:45] Falsifian  1wp+ "Legacy grant"
+[02:45] Lucidiot   1wp+ "Legacy grant"
+[05:46] Gaelan 1lc+ "Personal grant: Legislation"
+[05:46] Gaelan 1bl:cn>Jason
+[15:21] ATMunn 1lc+ "Personal grant: Legislation"
+[15:39] nix 10cn>G.
+[15:39] nix 10cn>Aris
+
+2021-03-07
+[19:09] Falsifian 100cn>Cuddlebeam
+[20:55] Murphy 1lc+ "Personal grant: Legislation"
+[21:41] Murphy     5bl:cn+ "Reward: ADoP weekly"
+[21:41] Murphy     5bl:cn+ "Reward: Tailor weekly"
+[21:41] Aris      15bl:cn+ "Reward: Proposal Pool"
+[21:41] Jason      5bl:cn+ "Reward: Stonemason weekly"
+[21:41] Jason     15bl:cn+ "Reward: Short Logical Ruleset"
+[21:41] Falsifian  5bl:cn+ "Reward: Registrar weekly"
+[21:41] G.        10bl:cn+ "Reward: Arbitor weekly"
+[21:41] Jason     15bl:cn+ "Reward: Assessed proposal"
+[21:41] Murphy     5bl:cn+ "Reward: Tailor monthly"
+[21:41] nix        5bl:cn+ "Reward: Ministor monthly"
+[21:41] nix       10bl:cn+ "Reward: Herald monthly"
+[21:46] Aris 1lc+ "Popular proposal: Proposal 8541"
+[23:54] Jason 5bl:cn+ "Reward: CFJ 3899"
+
+2021-03-08
+[00:00] #relevel
