@@ -25,7 +25,7 @@ impl<R: BufRead> Parser<R> {
                 if text.trim().is_empty() {
                     self.next_raw()
                 } else {
-                    Directive::from_str(&mut text)
+                    Directive::with_source(&text)
                 }
             }
             Err(e) => panic!(format!("Problem reading file: {}", e)),

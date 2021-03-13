@@ -151,7 +151,7 @@ impl<'a> AssetTable<'a> {
 
 impl<'a> Display for AssetTable<'a> {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        if self.footnotes.len() != 0 {
+        if !self.footnotes.is_empty() {
             write!(
                 f,
                 "{}\n{}",

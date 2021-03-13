@@ -33,18 +33,14 @@ impl Command {
 
                 Some(Command::NewPlayer(identifier, full_name))
             }
-            "activate" => Some(Command::Activate(
-                match_first_pop!(tokens {
+            "activate" => Some(Command::Activate(match_first_pop!(tokens {
                     Token::String(s) => { s },
                     Token::Identifier(s) => { s },
-                } else { panic!("cannot activate no one") })
-            )),
-            "deactivate" => Some(Command::Deactivate(
-                match_first_pop!(tokens {
+                } else { panic!("cannot activate no one") }))),
+            "deactivate" => Some(Command::Deactivate(match_first_pop!(tokens {
                     Token::String(s) => { s },
                     Token::Identifier(s) => { s },
-                } else { panic!("cannot deactivate no one") })
-            )),
+                } else { panic!("cannot deactivate no one") }))),
             "deregister" => Some(Command::Deregister(match_first_pop!(tokens {
                     Token::Identifier(s) => { s },
                 } else { panic!("expected identifier in #deregister command") }))),

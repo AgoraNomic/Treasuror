@@ -38,7 +38,7 @@ pub struct TokenIterator<'a> {
 }
 
 impl<'a> TokenIterator<'a> {
-    pub fn from_str(s: &'a str) -> TokenIterator<'a> {
+    pub fn with_source(s: &'a str) -> TokenIterator<'a> {
         TokenIterator {
             source: s,
             chars: s.char_indices().peekable(),
@@ -67,20 +67,20 @@ impl<'a> Iterator for TokenIterator<'a> {
         if let (Some(fi), Some(fc)) = (fidx, fchar) {
             // is a time; does not end until ']'
             if fc == '[' {
-                return produce_until!(
+                produce_until!(
                     c == ']';
                     (i, c) in self.chars;
                     Token::Time(
                         NaiveTime::parse_from_str(&self.source[fi..i+1], "[%R]").unwrap()
                     );
-                );
+                )
             // is an identifier; does not end until there are no more letters
             } else if fc.is_ascii_alphabetic() {
-                return produce_while!(
+                produce_while!(
                     c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&';
                     (i, c) in self.chars;
                     Token::Identifier(String::from(&self.source[fi..i]));
-                );
+                )
             // is an integer; does not end until there are no more numbers
             } else if fc.is_digit(10) {
                 let first = produce_while!(
@@ -92,50 +92,51 @@ impl<'a> Iterator for TokenIterator<'a> {
                 if self.chars.peek().unwrap().1 == '.' {
                     //_or(&(0, ' ')).1 == '.' {
                     self.chars.next();
-                    return produce_while!(
+                    produce_while!(
                         c.is_digit(10);
                         (i, c) in self.chars;
                         Token::Float(self.source[fi..i].parse::<f32>().unwrap());
-                    );
+                    )
                 } else {
-                    return Some(Token::Integer(first.unwrap().parse::<u32>().unwrap()));
+                    Some(Token::Integer(first.unwrap().parse::<u32>().unwrap()))
                 }
             // these are just single characters
             } else if fc == '*' {
-                return Some(Token::Blob);
+                Some(Token::Blob)
             } else if fc == ':' {
-                return Some(Token::Separator);
+                Some(Token::Separator)
             } else if fc == '+' {
-                return Some(Token::Op(Operator::Plus));
+                Some(Token::Op(Operator::Plus))
             } else if fc == '-' {
-                return Some(Token::Op(Operator::Minus));
+                Some(Token::Op(Operator::Minus))
             // transaction operator; takes an identifier
             } else if fc == '>' {
-                return produce_while!(
+                produce_while!(
                     c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&';
                     (i, c) in self.chars;
                     Token::Op(Operator::Transfer(String::from(&self.source[fi+1..i])));
-                );
+                )
             // strings end when there is a terminating '"'
             } else if fc == '"' {
-                return produce_until!(
+                produce_until!(
                     c == '"';
                     (i, c) in self.chars;
                     Token::String(String::from(&self.source[fi+1..i]));
-                );
+                )
             // command; takes an identifier
             } else if fc == '#' {
-                return produce_until!(
+                produce_until!(
                     c.is_whitespace();
                     (i, c) in self.chars;
                     Token::Command(String::from(&self.source[fi+1..i]));
-                );
+                )
             } else {
                 println!("unknown char: {}", fc);
-                return None;
+                None
             }
+        } else {
+            None
         }
-        return None;
     }
 }
 

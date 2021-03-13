@@ -14,7 +14,7 @@ pub enum Currency {
 }
 
 impl Currency {
-    pub fn from_str(s: &str) -> Option<Currency> {
+    pub fn from_abbr(s: &str) -> Option<Currency> {
         match s {
             "cn" => Some(Currency::Coin),
             "wc" => Some(Currency::WinCard),
@@ -59,7 +59,7 @@ pub enum FullUnit {
 
 impl FullUnit {
     pub fn from_vec(s: &mut Vec<Token>) -> FullUnit {
-        if s.len() < 1 {
+        if s.is_empty() {
             panic!("no valid unit");
         }
 
@@ -71,17 +71,19 @@ impl FullUnit {
                     s.remove(0);
                     s.remove(0);
                     if i1 == "bl" {
-                        FullUnit::Boatload(Currency::from_str(&i2).unwrap())
+                        FullUnit::Boatload(Currency::from_abbr(&i2).unwrap())
                     } else {
                         panic!("invalid unit prefix!");
                     }
                 } else {
                     FullUnit::Bare(
-                        Currency::from_str(&i1).expect(&format!("invalid currency: {}", i1)),
+                        Currency::from_abbr(&i1).unwrap_or_else(
+                            || panic!("invalid currency: {}", i1)
+                        ),
                     )
                 }
             } else {
-                FullUnit::Bare(Currency::from_str(&i1).unwrap())
+                FullUnit::Bare(Currency::from_abbr(&i1).unwrap())
             }
         } else {
             panic!("no valid unit given");

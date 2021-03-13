@@ -24,14 +24,14 @@ impl Transaction {
     pub fn from_vec(mut tokens: Vec<Token>) -> Option<Transaction> {
         Some(Transaction {
             agent: match_first_pop!(tokens {
-                Token::Identifier(i) => { String::from(i) },
+                Token::Identifier(i) => { i },
             } else { return None }),
             amount: Amount::from_vec(&mut tokens),
             operator: match_first_pop!(tokens {
                 Token::Op(o) => { o },
             } else { return None }),
             comment: match_first_pop!(tokens {
-                Token::String(s) => { String::from(s) },
+                Token::String(s) => { s },
             } else { String::from("") }),
         })
     }
@@ -91,7 +91,7 @@ impl AtomicTransaction {
                 format!(
                     "Transfer {}{}",
                     patient.replace("_", " "),
-                    if comment == "" {
+                    if comment.is_empty() {
                         String::from("")
                     } else {
                         String::from(": ") + comment
@@ -105,7 +105,7 @@ impl AtomicTransaction {
                 format!(
                     "Transfer {}{}",
                     agent.replace("_", " "),
-                    if comment == "" {
+                    if comment.is_empty() {
                         String::from("")
                     } else {
                         String::from(": ") + comment

@@ -20,7 +20,7 @@ impl Line {
         if ln.trim().is_empty() {
             return None;
         }
-        let mut tokens: Vec<Token> = TokenIterator::from_str(ln).collect();
+        let mut tokens: Vec<Token> = TokenIterator::with_source(ln).collect();
 
         Some(Line {
             datetime: match_first_pop!(tokens {

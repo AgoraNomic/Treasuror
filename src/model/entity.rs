@@ -45,7 +45,7 @@ impl Entity {
         } else { identifier.clone() });
 
         let mut inventory: Inventory = HashMap::new();
-        while tokens.len() > 0 {
+        while !tokens.is_empty() {
             let amount = match_first_pop!(tokens {
                 Token::Integer(i) => { i },
             } else { panic!("expected number") });
@@ -53,8 +53,8 @@ impl Entity {
             let currency = match_first_pop!(
                 tokens {
                     Token::Identifier(s) => {
-                        Currency::from_str(&s).expect(
-                            &format!("invalid currency: '{}'!", s)
+                        Currency::from_abbr(&s).unwrap_or_else(
+                            || panic!("invalid currency: '{}'!", s)
                         )
                     },
                 } else { panic!("expected currency identifier") }

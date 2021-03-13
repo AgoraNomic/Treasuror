@@ -23,7 +23,7 @@ impl Amount {
                     s.remove(1);
                     s.remove(0);
                     Amount::AllOf(
-                        Currency::from_str(&i).expect("invalid currency specified after blob"),
+                        Currency::from_abbr(&i).expect("invalid currency specified after blob"),
                     )
                 }
                 Token::Op(_) => {

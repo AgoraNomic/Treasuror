@@ -1,3 +1,4 @@
+use std::cmp::Ordering;
 use std::collections::{HashMap, VecDeque};
 use std::mem;
 
@@ -103,7 +104,10 @@ impl Context {
                         ));
                         transactions.push_back(Transaction::new(
                             ent.identifier().clone(),
-                            Amount::PartOf(FullUnit::Boatload(Currency::Coin), ent.donation_level()),
+                            Amount::PartOf(
+                                FullUnit::Boatload(Currency::Coin),
+                                ent.donation_level(),
+                            ),
                             Operator::Plus,
                             format!("Payday: donation level={}", ent.donation_level()),
                         ));
@@ -138,10 +142,9 @@ impl Context {
                     .push_back(DatedHistoryEntry::new(self.datetime, e.clone()))
             }),
             Statement::Command(c) => {
-                let e = self.exec(&c);
-                if e.is_some() {
+                if let Some(message) = self.exec(&c) {
                     self.history
-                        .push_back(DatedHistoryEntry::new(self.datetime, e.unwrap().clone()))
+                        .push_back(DatedHistoryEntry::new(self.datetime, message))
                 }
             }
         };
@@ -152,10 +155,10 @@ impl Context {
         for t in self.expand_transaction(trans) {
             let player = self.entity_mut(t.agent());
 
-            if t.amount() > 0 {
-                player.grant(t.currency(), t.amount() as u32);
-            } else if t.amount() < 0 {
-                player.revoke(t.currency(), t.amount().abs() as u32);
+            match t.amount().cmp(&0) {
+                Ordering::Greater => player.grant(t.currency(), t.amount() as u32),
+                Ordering::Less => player.revoke(t.currency(), t.amount().abs() as u32),
+                Ordering::Equal => (),
             }
 
             if t.amount() != 0 {
@@ -168,11 +171,11 @@ impl Context {
     fn exec(&mut self, com: &Command) -> Option<HistoryEntry> {
         match com {
             Command::Relevel(opttb) => {
-                let tb = opttb.unwrap_or(self
-                    .entities
-                    .values()
-                    .map(|ent| ent.balance(Currency::Coin))
-                    .sum::<u32>()
+                let tb = opttb.unwrap_or(
+                    self.entities
+                        .values()
+                        .map(|ent| ent.balance(Currency::Coin))
+                        .sum::<u32>(),
                 );
                 let uf = self.relevel(tb);
 
@@ -207,7 +210,7 @@ impl Context {
                 None
             }
         }
-        .map(|s| HistoryEntry::Event(s))
+        .map(HistoryEntry::Event)
     }
 
     pub fn process(&mut self, dir: &Directive) {
@@ -219,7 +222,7 @@ impl Context {
                 self.insert_entity(e.clone());
             }
             Directive::Flotation(f) => {
-                self.flotation = f.clone();
+                self.flotation = *f;
             }
             Directive::Forbes(i) => {
                 self.forbes = *i;
@@ -243,13 +246,18 @@ impl Context {
             let entity = self.entity(&identifier);
 
             let comment = String::from("Indeterminate owner: was ") + &entity.identifier();
-            
-            self.assets.iter().map(|c| Transaction::new(
-                "L&F_Dept.".to_string(),
-                Amount::PartOf(FullUnit::Bare(*c), entity.balance(*c)),
-                Operator::Plus,
-                comment.clone(),
-            )).collect::<Vec<Transaction>>()
+
+            self.assets
+                .iter()
+                .map(|c| {
+                    Transaction::new(
+                        "L&F_Dept.".to_string(),
+                        Amount::PartOf(FullUnit::Bare(*c), entity.balance(*c)),
+                        Operator::Plus,
+                        comment.clone(),
+                    )
+                })
+                .collect::<Vec<Transaction>>()
         };
 
         for trans in transactions {
@@ -265,13 +273,13 @@ impl Context {
     pub fn entity(&self, identifier: &str) -> &Entity {
         self.entities
             .get(identifier)
-            .expect(&format!("no such entity: {}", identifier))
+            .unwrap_or_else(|| panic!("no such entity: {}", identifier))
     }
 
     pub fn entity_mut(&mut self, identifier: &str) -> &mut Entity {
         self.entities
             .get_mut(identifier)
-            .expect(&format!("no such entity: {}", identifier))
+            .unwrap_or_else(|| panic!("no such entity: {}", identifier))
     }
 
     pub fn boatloads(&self, amt: f32) -> u32 {
@@ -395,5 +403,11 @@ impl Context {
 
     pub fn history(&self) -> &VecDeque<DatedHistoryEntry> {
         &self.history
+    }
+}
+
+impl Default for Context {
+    fn default() -> Self {
+        Self::new()
     }
 }
