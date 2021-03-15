@@ -306,5 +306,37 @@
 [21:46] Aris 1lc+ "Popular proposal: Proposal 8541"
 [23:54] Jason 5bl:cn+ "Reward: CFJ 3899"
 
-2021-03-08
-[00:00] #relevel
+2021-03-09
+[23:38] #report
+[23:51] Trigon 1lc+ "Personal grant: Legislation"
+[23:51] Trigon 1lc>Aris
+[23:51] Aris 200cn>Trigon
+
+2021-03-10
+[01:10] #relevel 20877
+[23:13] Press 5bl:cn>Falsifian
+[23:13] Press 5bl:cn>Falsifian
+[23:13] Press 5bl:cn>Falsifian
+
+2021-03-14
+[15:25] Jason      10bl:cn+ "Reward: Referee weekly"
+[15:25] Trigon     15bl:cn+ "Reward: Treasuror weekly"
+[15:25] ATMunn     10bl:cn+ "Reward: Notary weekly"
+[15:25] Jason      15bl:cn+ "Reward: Short Logical Ruleset"
+[15:25] G.         10bl:cn+ "Reward: Arbitor weekly"
+[15:25] Falsifian   5bl:cn+ "Reward: Registrar weekly"
+[15:25] Murphy      5bl:cn+ "Reward: Tailor weekly"
+[15:25] Trigon     15bl:cn+ "Reward: Treasuror monthly"
+[15:25] Murphy      5bl:cn+ "Reward: Tailor monthly "
+[15:25] Murphy      5bl:cn+ "Reward: ADoP weekly"
+[15:25] Murphy      5bl:cn+ "Reward: Tailor weekly"
+[23:12] Aris 1pd- "Pending proposal: Turtle stack"
+
+2021-03-15
+[16:46] Aris 1lc+ "Popular proposal: Proposal 8545"
+[16:46] Aris  4lc- "Set of cards"
+[16:46] Aris 10pd+ "Set of products"
+[19:38] Gaelan 111cn- "Stone auction: Wealth Stone"
+[19:38] Gaelan 111cn- "Stone auction: Protection Stone"
+[20:15] G.      71cn- "Stone auction: Sabotage Stone"
+[20:17] Jason  105cn- "Stone auction: Power Stone"
