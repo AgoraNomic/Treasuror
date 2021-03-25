@@ -338,5 +338,54 @@
 [16:46] Aris 10pd+ "Set of products"
 [19:38] Gaelan 111cn- "Stone auction: Wealth Stone"
 [19:38] Gaelan 111cn- "Stone auction: Protection Stone"
+[19:38] Gaelan 5bl:cn+ "Wielding Wealth Stone"
 [20:15] G.      71cn- "Stone auction: Sabotage Stone"
 [20:17] Jason  105cn- "Stone auction: Power Stone"
+[21:29] #report
+
+2021-03-16
+[23:20] #newplayer banana "cuddlybanana"
+[23:21] banana 10bl:cn+ "Welcome Package: Jason"
+[23:21] banana 1wc+ "Welcome Package: Jason"
+[23:21] banana 1jc+ "Welcome Package: Jason"
+[23:21] banana 1lc+ "Welcome Package: Jason"
+[23:21] banana 1vc+ "Welcome Package: Jason"
+[23:33] #newplayer Aenet
+[23:40] Aenet 10bl:cn+ "Welcome Package: Trigon"
+[23:40] Aenet 1wc+ "Welcome Package: Trigon"
+[23:40] Aenet 1jc+ "Welcome Package: Trigon"
+[23:40] Aenet 1lc+ "Welcome Package: Trigon"
+[23:40] Aenet 1vc+ "Welcome Package: Trigon"
+
+2021-03-17
+[02:07] Jason  4lc- "Set of cards"
+[02:07] Jason 10pd+ "Set of products"
+[03:45] banana       1wc>Cuddlebeam
+[03:45] Cuddlebeam 200cn>banana
+
+2021-03-20
+[13:08] Jason 1pd- "Pending proposal: Apathy for all"
+[13:08] Jason 1pd- "Pending proposal: Less apathetic"
+
+2021-03-21
+[01:00] #newplayer Jumble
+[01:05] Jumble 10bl:cn+ "Welcome Package: ATMunn"
+[01:05] Jumble 1wc+ "Welcome Package: ATMunn"
+[01:05] Jumble 1jc+ "Welcome Package: ATMunn"
+[01:05] Jumble 1lc+ "Welcome Package: ATMunn"
+[01:05] Jumble 1vc+ "Welcome Package: ATMunn"
+[19:16] Murphy     5bl:cn+ "Reward: ADoP weekly"
+[19:16] Jason      5bl:cn+ "Reward: Stonemason weekly"
+[19:16] Trigon    15bl:cn+ "Reward: Treasuror weekly"
+[19:16] ATMunn    10bl:cn+ "Reward: Notary weekly"
+[19:16] G.        10bl:cn+ "Reward: Arbitor weekly"
+[19:16] Aris      15bl:cn+ "Reward: proposal pool"
+[19:16] Falsifian  5bl:cn+ "Reward: Registrar weekly"
+[19:16] Murphy     5bl:cn+ "Reward: Tailor weekly"
+[19:16] Jason     15bl:cn+ "Reward: Assessed proposal"
+
+2021-03-24
+[15:05] nix    100cn>Jason
+[15:05] Jason    1pd>nix
+[15:35] ATMunn   1lc>Jason
+[15:35] Jason  200cn>ATMunn
