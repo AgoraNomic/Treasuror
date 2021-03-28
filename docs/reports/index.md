@@ -41,6 +41,12 @@ Full List of Monthly Reports:
 
 Full List of Weekly Reports:
 
+* [2021-03-25](weekly/2021-03-25.txt)
+* [2021-03-15](weekly/2021-03-15.txt)
+* [2021-03-09](weekly/2021-03-09.txt)
+* [2021-02-23](weekly/2021-02-23.txt)
+* [2021-02-15](weekly/2021-02-15.txt)
+* [2021-02-08](weekly/2021-02-08.txt)
 * [2021-02-04](weekly/2021-02-04.txt)
 * [2021-02-02A](weekly/2021-02-02A.txt)
 * [2021-02-02](weekly/2021-02-02.txt)
