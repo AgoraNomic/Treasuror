@@ -1,0 +1,159 @@
+
+========================================================================
+                       THE FLOATING RATE SCHEDULE
+========================================================================
+
+Ahoy!
+
+I, having been authorized to do so as Treasuror of Agora Nomic and being
+required to do so in the first Eastman week of each Agoran month, hereby
+flip the Total Buoyancy to be equal to the following sum, the amount of
+coins possessed by all entities at the time of the most recent Treasuror's report:
+
+TOTAL BUOYANCY:  15532
+
+The Unit of Flotation is one twenty-five hundredth part of said sum,
+unrounded. This is equal to the following quotient:
+
+UNIT OF FLOTATION:  6.1328
+
+
+========================================================================
+                  CONVERSION TABLE OF BOATLOAD VALUES
+------------------------------------------------------------------------
+
+    1 boatloads =   7 assets
+    2 boatloads =  13 assets
+    3 boatloads =  19 assets
+    4 boatloads =  25 assets
+    5 boatloads =  31 assets
+    6 boatloads =  37 assets
+    7 boatloads =  43 assets
+    8 boatloads =  50 assets
+    9 boatloads =  56 assets
+   10 boatloads =  62 assets
+   11 boatloads =  68 assets
+   12 boatloads =  74 assets
+   13 boatloads =  80 assets
+   14 boatloads =  86 assets
+   15 boatloads =  92 assets
+   16 boatloads =  99 assets
+   17 boatloads = 105 assets
+   18 boatloads = 111 assets
+   19 boatloads = 117 assets
+   20 boatloads = 123 assets
+   21 boatloads = 129 assets
+   22 boatloads = 135 assets
+   23 boatloads = 142 assets
+   24 boatloads = 148 assets
+   25 boatloads = 154 assets
+
+
+========================================================================
+                BOATLOAD VALUES IN RULES AND REGULATIONS
+------------------------------------------------------------------------
+Rule 2496/23 (Power=1)
+Rewards
+
+      Each time a player fulfills a reward condition, the officer
+      associated with the condition CAN once by announcement, and SHALL
+      in an officially timely fashion, grant the associated set of
+      assets to the player.
+
+      Below is a list of reward conditions and their associated assets
+      and officers.
+
+      * Being the author of an adopted sponsored proposal: a number of
+        coins equal to 6.1328 * (the total number of valid ballots cast
+        FOR the decision - the total number of valid ballots cast
+        AGAINST) (Assessor).
+
+      * Judging a CFJ that e was assigned to without violating a time
+        limit to do so, unless at the time of judgement the case was
+        open due to self-filing a motion to reconsider it: 31 coins
+        (Arbitor).
+
+      * Publishing an office's wekly or monthly report, provided that
+        publication was the first report published for that office in
+        the relevant time period (week or month respectively) to fulfill
+        an official weekly or monthly duty: 31 coins times the
+        complexity of the office (ADoP).
+
+      * Resolving a referendum, provided that no other referendum had
+        been resolved earlier in that Agoran week: 31 coins times the
+        Assessor's complexity (ADoP).
+
+      * Having a Thesis pass peer-review and be granted a Degree based
+        on its merit: 123 coins (Herald)
+
+------------------------------------------------------------------------
+Rule 2559/8 (Power=2)
+Paydays
+
+      Whenever a Payday occurs, each active player earns 62 coins.
+
+      The occurrence of Paydays is secured. At the beginning of each
+      month, a Payday occurs.
+
+------------------------------------------------------------------------
+Rule 2499/11 (Power=1)
+Welcome Packages
+
+      If a player has not received a Welcome Package since e most
+      recently registered, any player CAN cause em to receive one by
+      announcement.
+
+      When a player receives a Welcome Package, if e has not received
+      one in the past 30 days, then e earns 62 coins and one of each
+      type of Card defined in the rules.
+
+------------------------------------------------------------------------
+Rule 2585/5 (Power=1)
+Birthday Gifts
+
+      It is considered to be a player's Agoran Birthday on the
+      anniversary of the day e first registered. If the day a player
+      first registered is unknown, that player CAN, with Agoran consent,
+      declare a day to be eir Agoran Birthday. As long as the day a
+      player first registered remains unknown, it is considered to be
+      eir Agoran Birthday on the anniversary of the day e most recently
+      declared as eir Agoran Birthday.
+
+      During a player's Agoran Birthday and the 7 days following, each
+      other player CAN, once, grant em X coins, where X is 19 if it is
+      actually the day of the player's birthday, and 13 otherwise.
+
+      Players are ENCOURAGED to announce their Agoran Birthdays.
+
+------------------------------------------------------------------------
+Rule 2602/6 (Power=1)
+Glitter
+
+      For each type of Ribbon, there is a type of Glitter with the same
+      name. An attempt to award Glitter is INEFFECTIVE if the type of
+      Glitter is not specified.
+
+      Each time a player is awarded a type of Glitter, the Tailor CAN
+      once by announcement, and SHALL in an officially timely fashion,
+      grant the player 6.1328(N+1) coins, where N is the number of
+      players who did not own the corresponding type of Ribbon at the
+      time of the award. The amount payable for each type of glitter is
+      tracked in the Tailor's weekly report.
+
+------------------------------------------------------------------------
+Rule 2631/1 (Power=1.0)
+Charities
+
+      Donation Level is a natural switch for contracts, tracked by the
+      Notary, with a default of 0 and a maximum of 25. A contract with
+      nonzero donation level is called a Charity.
+
+      The Notary CAN flip a contract's donation level to a non-default
+      value with 3 Agoran consent. This SHOULD only be done if the
+      contract's provisions ensure that its funds received from Agora
+      will be used solely for the betterment of Agora. Any player CAN
+      flip a contract's donation level to 0 with Agoran consent.
+
+      Whenever a payday occurs, half of each charity's coin holdings
+      (rounded down) are destroyed, and then each charity earns a number
+      of coins equal to its donation level times 6.1328.

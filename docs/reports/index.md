@@ -15,10 +15,25 @@ however, a new economic system involving "cards" and "products" was
 introduced. As of that date, textual reports became a bit ugly to look
 at, so there are also HTML reports listed.
 
+Starting in November 2021, the Treasuror also has a monthly report,
+which tracks some values which deal with the new boatload economy.
+
 Later on, after 25 January 2021, I finished some software to generate
 my reports. As of now, HTML formatting is not implemented for this
 software, but the reports should look good enough that that is not an
 issue.
+
+## Monthly Reports
+
+**[Latest official monthly report](monthly/fresh.txt)**
+
+Full List of Monthly Reports:
+
+* [November 2020](weekly/2020-11.txt)
+* [December 2020](weekly/2020-12.txt)
+* [January 2021](weekly/2021-01.txt)
+* [February 2021](weekly/2021-02.txt)
+* [March 2021](weekly/2021-03.txt)
 
 ## Weekly Reports
 
