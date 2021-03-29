@@ -3,7 +3,8 @@ legacy/*
 *.swp
 
 out.*
-/fresh.txt
+/weekly.txt
+/monthly.txt
 split.txt
 
 #Added by cargo
