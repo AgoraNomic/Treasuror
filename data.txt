@@ -389,3 +389,30 @@
 [15:05] Jason    1pd>nix
 [15:35] ATMunn   1lc>Jason
 [15:35] Jason  200cn>ATMunn
+
+2021-03-25
+[18:44] #report
+[18:46] Falsifian 10bl:cn+ "Glitter: CFJ 3899"
+[18:46] Jason     12bl:cn+ "Glitter: Proposal 8543"
+[18:46] Jason      8bl:cn+ "Glitter: deputising for Referee"
+[18:46] Murphy    10bl:cn+ "Glitter: CFJ 3902"
+[18:54] Murphy     5bl:cn+ "Reward: ADoP weekly"
+[18:54] Jason      5bl:cn+ "Reward: Stonemason weekly"
+[18:54] Trigon    15bl:cn+ "Reward: Treasuror weekly"
+[18:54] G.        10bl:cn+ "Reward: Arbitor weekly"
+[18:54] Falsifian  5bl:cn+ "Reward: Registrar weekly"
+[18:54] Murphy     5bl:cn+ "Reward: Tailor weekly"
+[18:54] Falsifian  5bl:cn+ "Reward: Registrar monthly"
+
+2021-03-29
+[02:19] Jason 1pd- "Pending proposal: Ministry Normalization"  
+
+2021-03-31
+[19:41] G.    1vc+ "Personal grant: Participation"
+[21:59] Aris  1vc+ "Personal grant: Participation"
+
+2021-04-01
+[00:00] #payday
+[06:15] Jason  1lc+ "Personal grant: Legislation"
+[06:32] ATMunn 1lc+ "Personal grant: Legislation"
+[22:22] #relevel
