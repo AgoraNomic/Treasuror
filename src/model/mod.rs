@@ -3,6 +3,7 @@ use std::collections::HashMap;
 use crate::parser::ast::Currency;
 
 mod context;
+pub mod dates;
 mod entity;
 mod history;
 mod report;

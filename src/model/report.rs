@@ -14,6 +14,8 @@ use crate::{
 
 pub struct Report<'a> {
     forbes: u32,
+    total_buoyancy: u32,
+    buoyancy_target: u32,
     date: NaiveDate,
     // notes: Vec<String>,
     tables: Vec<AssetTable<'a>>,
@@ -68,7 +70,9 @@ impl<'a> Report<'a> {
 
         Report {
             forbes: ctx.forbes(),
-            date,
+            buoyancy_target: ctx.buoyancy_target(),
+            total_buoyancy: ctx.total_buoyancy(),
+            date: ctx.datetime().date(),
             // notes,
             tables: asset_tables.into_iter().map(|(_, e)| e).collect(),
             history,
@@ -84,7 +88,7 @@ impl<'a> Report<'a> {
                     String::from("FORBES ") + &self.forbes.cardinal().to_uppercase()
                 ),
             )
-            .replace("{date}", &self.date.format("%d %B, %Y").to_string())
+            .replace("{date}", &self.date.format("%d %B %Y").to_string())
             .replace(
                 "{tables}",
                 &self
@@ -93,6 +97,14 @@ impl<'a> Report<'a> {
                     .fold(String::new(), |acc, x| acc + "\n" + &x.to_string()),
             )
             .replace("{history}", &self.history)
+            .replace(
+                "{buoyancy}",
+                &format!(
+                    "Total Buoyancy : {}\nBuoyancy Target: {}",
+                    self.total_buoyancy,
+                    self.buoyancy_target,
+                )
+            )
     }
 }
 

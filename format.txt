@@ -5,6 +5,12 @@
 Date: {date}
 
 
+BUOYANCY
+{bar}
+
+{buoyancy}
+
+
 ASSET BALANCES
 {bar}
 {tables}

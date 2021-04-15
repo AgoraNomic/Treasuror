@@ -2,10 +2,10 @@ use std::cmp::Ordering;
 use std::collections::{HashMap, VecDeque};
 use std::mem;
 
-use chrono::naive::{NaiveDateTime, MIN_DATE};
+use chrono::naive::{NaiveDateTime, MIN_DATETIME};
 
 use crate::{
-    model::{DatedHistoryEntry, Entity, EntityKind, HistoryEntry},
+    model::{DatedHistoryEntry, dates, Entity, EntityKind, HistoryEntry},
     parser::{
         ast::{Amount, Currency, FullUnit, Operator},
         gsdl::Directive,
@@ -19,6 +19,8 @@ pub struct Context {
     assets: Vec<Currency>,
     entities: HashMap<String, Entity>,
     flotation: f32,
+    total_buoyancy: u32,
+    buoyancy_target: u32,
     datetime: NaiveDateTime,
     history: VecDeque<DatedHistoryEntry>,
 }
@@ -31,16 +33,22 @@ impl Context {
             assets: Vec::new(),
             entities: HashMap::new(),
             flotation: 1.0,
-            datetime: MIN_DATE.and_hms(0, 0, 0),
+            total_buoyancy: 0,
+            buoyancy_target: 0,
+            datetime: MIN_DATETIME,
             history: VecDeque::new(),
         }
     }
 
     pub fn relevel(&mut self, tb: u32) -> f32 {
-        let uf = tb as f32 / 2500.0;
-
-        self.flotation = uf;
-        uf
+        if self.datetime < dates::proposal_8557() {
+            self.total_buoyancy = tb;
+            self.flotation = tb as f32 / 2500.0;
+        } else {
+            self.total_buoyancy = self.buoyancy_target;
+            self.flotation = (tb as f32 / 2500.0).ceil();
+        }
+        self.flotation
     }
 
     pub fn nuke(&mut self) {
@@ -170,6 +178,34 @@ impl Context {
 
     fn exec(&mut self, com: &Command) -> Option<HistoryEntry> {
         match com {
+            Command::Activate(name) => {
+                self.entity_mut(name).activate();
+                Some(format!("{} becomes active", name))
+            }
+            Command::BuoyancyTarget(bt) => {
+                self.buoyancy_target = *bt;
+                Some(format!("Buoyancy target set to {}", bt))
+            }
+            Command::Deactivate(name) => {
+                self.entity_mut(name).deactivate();
+                Some(format!("{} becomes inactive", name))
+            }
+            Command::Deregister(identifier) => {
+                self.deregister(&identifier);
+                None
+            }
+            Command::NewPlayer(identifier, full_name) => {
+                self.add_player(identifier.clone(), full_name.clone());
+                None
+            }
+            Command::Nuke => {
+                self.nuke();
+                None
+            }
+            Command::Payday => {
+                self.payday();
+                None
+            }
             Command::Relevel(opttb) => {
                 let tb = opttb.unwrap_or(
                     self.entities
@@ -188,30 +224,6 @@ impl Context {
             Command::Revision => {
                 self.forbes -= 1;
                 Some(String::from("  REPORT REVISION"))
-            }
-            Command::NewPlayer(identifier, full_name) => {
-                self.add_player(identifier.clone(), full_name.clone());
-                None
-            }
-            Command::Activate(name) => {
-                self.entity_mut(name).activate();
-                Some(format!("{} becomes active", name))
-            }
-            Command::Deactivate(name) => {
-                self.entity_mut(name).deactivate();
-                Some(format!("{} becomes inactive", name))
-            }
-            Command::Deregister(identifier) => {
-                self.deregister(&identifier);
-                None
-            }
-            Command::Nuke => {
-                self.nuke();
-                None
-            }
-            Command::Payday => {
-                self.payday();
-                None
             }
         }
         .map(HistoryEntry::Event)
@@ -379,16 +391,8 @@ impl Context {
         other >= self.datetime
     }
 
-    pub fn forbes(&self) -> u32 {
-        self.forbes
-    }
-
     pub fn take_notes(&mut self) -> Vec<String> {
         mem::take(&mut self.notes)
-    }
-
-    pub fn entities(&self) -> &HashMap<String, Entity> {
-        &self.entities
     }
 
     pub fn entities_vec_sorted(&self) -> Vec<&Entity> {
@@ -403,6 +407,26 @@ impl Context {
 
     pub fn assets(&self) -> &Vec<Currency> {
         &self.assets
+    }
+
+    pub fn buoyancy_target(&self) -> u32 {
+        self.buoyancy_target
+    }
+
+    pub fn total_buoyancy(&self) -> u32 {
+        self.total_buoyancy
+    }
+
+    pub fn datetime(&self) -> NaiveDateTime {
+        self.datetime
+    }
+
+    pub fn entities(&self) -> &HashMap<String, Entity> {
+        &self.entities
+    }
+
+    pub fn forbes(&self) -> u32 {
+        self.forbes
     }
 
     pub fn history(&self) -> &VecDeque<DatedHistoryEntry> {
