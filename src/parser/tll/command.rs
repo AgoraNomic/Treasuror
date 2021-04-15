@@ -4,6 +4,7 @@ use crate::{match_first_pop, parser::ast::Token};
 pub enum Command {
     Relevel(Option<u32>),
     Report,
+    Revision,
     NewPlayer(String, String),
     Activate(String),
     Deactivate(String),
@@ -19,6 +20,7 @@ impl Command {
                     Token::Integer(i) => { Some(i) },
                 } else { None }))),
             "report" => Some(Command::Report),
+            "revision" => Some(Command::Revision),
             "nuke" => Some(Command::Nuke),
             "payday" => Some(Command::Payday),
             "newplayer" => {

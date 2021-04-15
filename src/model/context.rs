@@ -185,6 +185,10 @@ impl Context {
                 self.forbes -= 1;
                 Some(String::from("  WEEKLY REPORT"))
             }
+            Command::Revision => {
+                self.forbes -= 1;
+                Some(String::from("  REPORT REVISION"))
+            }
             Command::NewPlayer(identifier, full_name) => {
                 self.add_player(identifier.clone(), full_name.clone());
                 None

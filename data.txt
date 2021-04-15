@@ -55,6 +55,7 @@
 [08:53] Falsifian   5bl:cn+ "Reward: Registrar weekly"
 [08:53] ATMunn     10bl:cn+ "Reward: Notary weekly"
 [08:53] nix        10bl:cn+ "Reward: Herald weekly"
+[22:11] #report
 [23:48] Murphy      5bl:cn+ "Reward: CFJ 3892"
 
 2021-01-26
@@ -118,6 +119,8 @@
 [21:49] Jason  4lc- "Set of cards"
 [21:49] Jason 10pd+ "Set of products"
 [21:49] Jason  5pd>Aris
+[22:15] #revision
+[22:28] #revision
 
 2021-02-03
 [00:06] Aris 1wc>Cuddlebeam
@@ -140,6 +143,7 @@
 [03:08] Falsifian 1vc>nix
 [03:08] nix 1wc>Falsifian
 [03:48] Gaelan 1cn>Trigon "Come at me"
+[17:35] #revision
 [22:00] G. 3bl:cn>Aris "HAPPY BIRTHDAY, G!"
 [22:00] G. 3bl:cn>Gaelan "HAPPY BIRTHDAY, G!"
 [22:00] G. 3bl:cn>ATMunn "HAPPY BIRTHDAY, G!"
