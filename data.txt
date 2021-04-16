@@ -157,6 +157,7 @@
 [02:35] nix    50cn>Jason
 
 2021-02-06
+[05:20] #newcontract Pooling "Obstructive Pooling"
 [05:27] Press 5bl:cn>Falsifian
 [05:27] Press 5bl:cn>Falsifian
 [05:27] Press 5bl:cn>Falsifian
@@ -469,3 +470,45 @@
 [02:11] Jason  6bl:cn+ "Reward: Proposal 8553"
 [02:11] Aris  10bl:cn+ "Reward: Proposal 8554"
 [02:11] G.     6bl:cn+ "Reward: Proposal 8555"
+
+2021-04-10
+[17:29] #report
+[21:00] #deactivate Lucidiot
+[21:00] #deactivate JTAC
+[21:00] #deactivate Ubercrow
+[21:00] #deactivate Joe
+
+2021-04-11
+[18:44] ATMunn 10bl:cn+ "Reward: Notary weekly"2021-04-11
+[18:44] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[19:39] ATMunn 16bl:cn+ "Glitter: Notary"
+[19:39] Jason  15bl:cn+ "Glitter: Proposal 8556"
+[19:41] Aris   11bl:cn+ "Glitter: Registrar"
+[20:07] Aris    5bl:cn+ "Reward: Registrar weekly"
+[20:07] Aris   15bl:cn+ "Reward: Proposal Pool"
+[20:07] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[20:07] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[20:07] Aris    5bl:cn+ "Reward: Registrar weekly"
+[20:07] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[20:07] Jason  15bl:cn+ "Reward: Assessed proposal"
+[20:07] Trigon 15bl:cn+ "Reward: Treasuror monthly"
+[20:07] Aris    5bl:cn+ "Reward: Registrar monthly"
+[21:27] G.      5bl:cn+ "Reward: CFJ 3903"
+[21:31] G.      1bg-    "Expungement"
+[23:07] nix     1wp+    "Personal Grant: Legacy"
+[23:51] Gaelan  5bl:cn+ "Wielding Wealth Stone"
+
+2021-04-12
+[12:03] Jason  1wc>Pooling
+[12:18] Gaelan 5bl:cn+ "Wielding Wealth Stone"
+[12:23] Jason  7bl:cn+ "Vocal Voter"
+
+2021-04-13
+[22:09] Cuddlebeam 1wp+ "Personal Grant: Legacy"
+
+2021-04-15
+[01:23] Aris 4bl:cn+ "Reward: Proposal 8557"
+[01:45] Aris 1lc+    "Popular Proposal: Proposal 8557"
+
+2021-04-16
+[02:29] #bt 25000
