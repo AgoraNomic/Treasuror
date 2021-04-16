@@ -6,6 +6,7 @@ pub enum Command {
     BuoyancyTarget(u32),
     Deactivate(String),
     Deregister(String),
+    NewContract(String, String),
     NewPlayer(String, String),
     Nuke,
     Payday,
@@ -32,6 +33,18 @@ impl Command {
                     Token::Identifier(s) => { s },
                 } else { panic!("expected identifier in #deregister command") }))),
             "payday" => Some(Command::Payday),
+            "newcontract" => {
+                let identifier = match_first_pop!(tokens {
+                    Token::Identifier(s) => { s },
+                } else { panic!("expected identifier in #newcontract command") });
+
+                let full_name = match_first_pop!(tokens {
+                    Token::String(s) => { s },
+                    Token::Identifier(s) => { s },
+                } else { identifier.clone() });
+
+                Some(Command::NewContract(identifier, full_name))
+            }
             "newplayer" => {
                 let identifier = match_first_pop!(tokens {
                     Token::Identifier(s) => { s },

@@ -82,6 +82,16 @@ impl Entity {
         }
     }
 
+    pub fn contract(identifier: String, full_name: String) -> Entity {
+        Entity {
+            full_name,
+            identifier,
+            kind: EntityKind::Contract,
+            inventory: HashMap::new(),
+            donation_level: 0,
+        }
+    }
+
     pub fn balance(&self, c: Currency) -> u32 {
         *self.inventory.get(&c).unwrap_or(&0)
     }

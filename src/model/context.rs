@@ -194,6 +194,12 @@ impl Context {
                 self.deregister(&identifier);
                 None
             }
+            Command::NewContract(identifier, full_name) => {
+                self.insert_entity(Entity::contract(
+                    identifier.clone(), full_name.clone()
+                ));
+                Some(format!("Contract {} created", identifier))
+            }
             Command::NewPlayer(identifier, full_name) => {
                 self.add_player(identifier.clone(), full_name.clone());
                 None
