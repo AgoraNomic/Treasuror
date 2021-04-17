@@ -77,9 +77,8 @@ impl FullUnit {
                     }
                 } else {
                     FullUnit::Bare(
-                        Currency::from_abbr(&i1).unwrap_or_else(
-                            || panic!("invalid currency: {}", i1)
-                        ),
+                        Currency::from_abbr(&i1)
+                            .unwrap_or_else(|| panic!("invalid currency: {}", i1)),
                     )
                 }
             } else {

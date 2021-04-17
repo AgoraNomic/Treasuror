@@ -5,7 +5,7 @@ use std::mem;
 use chrono::naive::{NaiveDateTime, MIN_DATETIME};
 
 use crate::{
-    model::{DatedHistoryEntry, dates, Entity, EntityKind, HistoryEntry},
+    model::{dates, DatedHistoryEntry, Entity, EntityKind, HistoryEntry},
     parser::{
         ast::{Amount, Currency, FullUnit, Operator},
         gsdl::Directive,
@@ -195,9 +195,7 @@ impl Context {
                 None
             }
             Command::NewContract(identifier, full_name) => {
-                self.insert_entity(Entity::contract(
-                    identifier.clone(), full_name.clone()
-                ));
+                self.insert_entity(Entity::contract(identifier.clone(), full_name.clone()));
                 Some(format!("Contract {} created", identifier))
             }
             Command::NewPlayer(identifier, full_name) => {
@@ -213,12 +211,7 @@ impl Context {
                 None
             }
             Command::Relevel(opttb) => {
-                let tb = opttb.unwrap_or(
-                    self.entities
-                        .values()
-                        .map(|ent| ent.balance(Currency::Coin))
-                        .sum::<u32>(),
-                );
+                let tb = opttb.unwrap_or(self.currency_total(Currency::Coin));
                 let uf = self.relevel(tb);
 
                 Some(format!("  RELEVELING: TB={}, UF={:.4}", tb, uf))
@@ -421,6 +414,13 @@ impl Context {
 
     pub fn total_buoyancy(&self) -> u32 {
         self.total_buoyancy
+    }
+
+    pub fn currency_total(&self, curr: Currency) -> u32 {
+        self.entities
+            .values()
+            .map(|ent| ent.balance(curr))
+            .sum::<u32>()
     }
 
     pub fn datetime(&self) -> NaiveDateTime {

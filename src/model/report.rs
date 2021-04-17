@@ -101,9 +101,8 @@ impl<'a> Report<'a> {
                 "{buoyancy}",
                 &format!(
                     "Total Buoyancy : {}\nBuoyancy Target: {}",
-                    self.total_buoyancy,
-                    self.buoyancy_target,
-                )
+                    self.total_buoyancy, self.buoyancy_target,
+                ),
             )
     }
 }

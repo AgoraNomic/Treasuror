@@ -5,7 +5,7 @@ pub mod model;
 pub mod parser;
 
 use model::{Context, Report};
-use parser::{gsdl::Parser as GsdParser, tll::Parser as TlParser};
+use parser::{ast::Currency, gsdl::Parser as GsdParser, tll::Parser as TlParser};
 
 fn main() -> io::Result<()> {
     let mut context = Context::new();
@@ -35,5 +35,10 @@ fn main() -> io::Result<()> {
             .format(&format)
             .as_bytes(),
     )?;
+
+    println!(
+        "total coins right now: {}",
+        context.currency_total(Currency::Coin)
+    );
     Ok(())
 }
