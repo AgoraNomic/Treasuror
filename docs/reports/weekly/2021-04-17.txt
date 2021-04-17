@@ -1,5 +1,5 @@
 ========================================================================
-                    FORBES FOUR HUNDRED FORTY-SEVEN
+                    FORBES FOUR HUNDRED FORTY-EIGHT
 --------------------------------   or   --------------------------------
                        TREASUROR'S WEEKLY REPORT
 ========================================================================
@@ -12,21 +12,16 @@ DATES OF PUBLICATION                                  (contains no data)
 
 (all times and dates in UTC)
 
-Date of previous original report:    10 April 2021
-Date of first report this week:      16 April 2021
-Date of this week's first revision:  17 April 2021
-Date of this week's second revision: 17 April 2021
+Date of previous original report:   10 April 2021
+Date of first report this week:     16 April 2021
+Date of this week's first revision: 17 April 2021
 
 
 NOTES ON REPORT                                       (contains no data)
 ========================================================================
 
-* NOTES ON REVISION 2:
-  * (CoE) Falsifian recieved a Victory Card from the victory card raffle
-    on 11 April 2021.
-
 * NOTES ON REVISION 1:
-  * (CoE) The first setting of the BT failed.
+  * (CoE) The first setting of the BT failed
   * I readded the parentheticals to the headers.
 
 * GENERAL
@@ -51,7 +46,7 @@ ASSET BALANCES                                           (self-ratifies)
  ATMunn            1936     0     0     1     0     0     0     0     0
  banana     [0]     368     0     1     1     1     0     0     0     0
  Cuddlebeam         403     2     1     0     0    12     0     0     0
- Falsifian         1836     2     0     2     0    13     0     0     0
+ Falsifian         1836     1     0     2     0    13     0     0     0
  G.                2441     1     1     0     2     0     4     5     0
  Gaelan             975     0     1     0     1     0     0     5     0
  Jason             4329     0     0     1     0     0     5    19     7
@@ -112,7 +107,6 @@ RECENT HISTORY                                    (does not self-ratify)
 ========================================================================
 
 *** Sat 17 April 2021
-[05:57]   REPORT REVISION
 [05:20] seventeen: +  1vc (Welcome Package: Trigon)
 [05:20] seventeen: +  1lc (Welcome Package: Trigon)
 [05:20] seventeen: +  1jc (Welcome Package: Trigon)
@@ -128,25 +122,24 @@ RECENT HISTORY                                    (does not self-ratify)
 [12:03] Jason:   -1wc (Transfer Pooling)
 
 *** Sun 11 April 2021
-[23:51] Gaelan:    + 50cn (Wielding Wealth Stone)
-[23:07] nix:       +  1wp (Personal Grant: Legacy)
-[22:53] Falsifian: +  1wc (Victory Card Raffle)
-[21:31] G.:        -  1bg (Expungement)
-[21:27] G.:        + 50cn (Reward: CFJ 3903)
-[20:07] Aris:      + 50cn (Reward: Registrar monthly)
-[20:07] Trigon:    +150cn (Reward: Treasuror monthly)
-[20:07] Jason:     +150cn (Reward: Assessed proposal)
-[20:07] Murphy:    + 50cn (Reward: Tailor weekly)
-[20:07] Aris:      + 50cn (Reward: Registrar weekly)
-[20:07] Trigon:    +150cn (Reward: Treasuror weekly)
-[20:07] ATMunn:    +100cn (Reward: Notary weekly)
-[20:07] Aris:      +150cn (Reward: Proposal Pool)
-[20:07] Aris:      + 50cn (Reward: Registrar weekly)
-[19:41] Aris:      +110cn (Glitter: Registrar)
-[19:39] Jason:     +150cn (Glitter: Proposal 8556)
-[19:39] ATMunn:    +160cn (Glitter: Notary)
-[18:44] ATMunn:    +100cn (Reward: Notary weekly)
-[18:44] ATMunn:    +100cn (Reward: Notary weekly)
+[23:51] Gaelan: + 50cn (Wielding Wealth Stone)
+[23:07] nix:    +  1wp (Personal Grant: Legacy)
+[21:31] G.:     -  1bg (Expungement)
+[21:27] G.:     + 50cn (Reward: CFJ 3903)
+[20:07] Aris:   + 50cn (Reward: Registrar monthly)
+[20:07] Trigon: +150cn (Reward: Treasuror monthly)
+[20:07] Jason:  +150cn
+[20:07] Murphy: + 50cn (Reward: Tailor weekly)
+[20:07] Aris:   + 50cn (Reward: Registrar weekly)
+[20:07] Trigon: +150cn (Reward: Treasuror weekly)
+[20:07] ATMunn: +100cn (Reward: Notary weekly)
+[20:07] Aris:   +150cn (Reward: Proposal Pool)
+[20:07] Aris:   + 50cn (Reward: Registrar weekly)
+[19:41] Aris:   +110cn (Glitter: Registrar)
+[19:39] Jason:  +150cn (Glitter: Proposal 8556)
+[19:39] ATMunn: +160cn (Glitter: Notary)
+[18:44] ATMunn: +100cn (Reward: Notary weekly)
+[18:44] ATMunn: +100cn (Reward: Notary weekly)
 
 *** Sat 10 April 2021
 [21:00] Joe becomes inactive

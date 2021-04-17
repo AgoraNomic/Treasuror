@@ -479,7 +479,7 @@
 [21:00] #deactivate Joe
 
 2021-04-11
-[18:44] ATMunn 10bl:cn+ "Reward: Notary weekly"2021-04-11
+[18:44] ATMunn 10bl:cn+ "Reward: Notary weekly"
 [18:44] ATMunn 10bl:cn+ "Reward: Notary weekly"
 [19:39] ATMunn 16bl:cn+ "Glitter: Notary"
 [19:39] Jason  15bl:cn+ "Glitter: Proposal 8556"
@@ -495,6 +495,7 @@
 [20:07] Aris    5bl:cn+ "Reward: Registrar monthly"
 [21:27] G.      5bl:cn+ "Reward: CFJ 3903"
 [21:31] G.      1bg-    "Expungement"
+[22:53] Falsifian 1wc+  "Victory Card Raffle"
 [23:07] nix     1wp+    "Personal Grant: Legacy"
 [23:51] Gaelan  5bl:cn+ "Wielding Wealth Stone"
 
@@ -511,4 +512,14 @@
 [01:45] Aris 1lc+    "Popular Proposal: Proposal 8557"
 
 2021-04-16
-[02:29] #bt 25000
+[02:37] #report
+[04:33] #bt 28418
+
+2021-04-17
+[05:17] #newplayer seventeen "seventeenMachine"
+[05:20] seventeen 10bl:cn+ "Welcome Package: Trigon"
+[05:20] seventeen 1wc+     "Welcome Package: Trigon"
+[05:20] seventeen 1jc+     "Welcome Package: Trigon"
+[05:20] seventeen 1lc+     "Welcome Package: Trigon"
+[05:20] seventeen 1vc+     "Welcome Package: Trigon"
+[05:57] #revision
