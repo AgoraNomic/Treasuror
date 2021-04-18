@@ -4,8 +4,8 @@ use std::io::{self, BufReader, Read, Write};
 pub mod model;
 pub mod parser;
 
-use model::{Context, Report};
-use parser::{ast::Currency, gsdl::Parser as GsdParser, tll::Parser as TlParser};
+use model::{Context, Report, Currency};
+use parser::{gsdl::Parser as GsdParser, tll::Parser as TlParser};
 
 fn main() -> io::Result<()> {
     let mut context = Context::new();

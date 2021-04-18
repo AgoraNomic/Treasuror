@@ -1,6 +1,6 @@
 use crate::{
     match_first_pop,
-    parser::ast::{Amount, Currency, Operator, Token},
+    model::{Amount, Currency, Operator, Token},
 };
 
 #[derive(Clone)]

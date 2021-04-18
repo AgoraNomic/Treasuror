@@ -4,7 +4,7 @@ use chrono::naive::{NaiveDate, NaiveDateTime};
 
 use super::Statement;
 use crate::match_first_pop;
-use crate::parser::ast::{Token, TokenIterator};
+use crate::model::{Token, TokenIterator};
 
 #[derive(Clone)]
 pub struct Line {

@@ -32,6 +32,10 @@ macro_rules! produce_while {
     }};
 }
 
+fn is_id_char(c: char) -> bool {
+    c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&'
+}
+
 pub struct TokenIterator<'a> {
     source: &'a str,
     chars: Peekable<CharIndices<'a>>,
@@ -77,7 +81,7 @@ impl<'a> Iterator for TokenIterator<'a> {
             // is an identifier; does not end until there are no more letters
             } else if fc.is_ascii_alphabetic() {
                 produce_while!(
-                    c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&';
+                    is_id_char(c);
                     (i, c) in self.chars;
                     Token::Identifier(String::from(&self.source[fi..i]));
                 )
@@ -112,7 +116,7 @@ impl<'a> Iterator for TokenIterator<'a> {
             // transaction operator; takes an identifier
             } else if fc == '>' {
                 produce_while!(
-                    c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&';
+                    is_id_char(c);
                     (i, c) in self.chars;
                     Token::Op(Operator::Transfer(String::from(&self.source[fi+1..i])));
                 )

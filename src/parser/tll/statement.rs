@@ -1,6 +1,6 @@
-use crate::parser::{
-    ast::Token,
-    tll::{Command, Transaction},
+use crate::{
+    model::Token,
+    parser::tll::{Command, Transaction}
 };
 
 #[derive(Clone)]

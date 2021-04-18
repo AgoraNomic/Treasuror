@@ -7,10 +7,7 @@ use numeral::Cardinal;
 use tabular::{Row, Table};
 use textwrap::{wrap, Options};
 
-use crate::{
-    model::{Context, Entity, EntityKind, HistoryEntry},
-    parser::ast::Currency,
-};
+use crate::model::{Context, Entity, EntityKind, HistoryEntry, Currency};
 
 pub struct Report<'a> {
     forbes: u32,

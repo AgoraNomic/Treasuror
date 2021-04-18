@@ -1,4 +1,4 @@
-use crate::{match_first_pop, parser::ast::Token};
+use crate::{match_first_pop, model::Token};
 
 #[derive(Clone)]
 pub enum Command {
