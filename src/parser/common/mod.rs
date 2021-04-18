@@ -1,3 +1,4 @@
+mod combinators;
 mod operator;
 mod token;
 
