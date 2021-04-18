@@ -73,7 +73,13 @@ pub fn token_integer(s: &str) -> IResult<&str, Token, ParseError<&str>> {
     }
 }
 
-// pub fn token_blob(s: &str) ->
+pub fn token_blob(s: &str) -> IResult<&str, Token> {
+    char('*')(s).map(|(rest, _)| (rest, Token::Blob))
+}
+
+pub fn token_separator(s: &str) -> IResult<&str, Token> {
+    char(':')(s).map(|(rest, _)| (rest, Token::Separator))
+}
 
 #[cfg(test)]
 mod tests {
@@ -142,5 +148,15 @@ mod tests {
     #[test]
     fn integer_test_currency() {
         assert_eq!(token_integer("15bl:cn"), Ok(("bl:cn", Token::Integer(15))))
+    }
+
+    #[test]
+    fn blob_test() {
+        assert_eq!(token_blob("*cn"), Ok(("cn", Token::Blob)))
+    }
+
+    #[test]
+    fn separator_test() {
+        assert_eq!(token_separator(":cn"), Ok(("cn", Token::Separator)))
     }
 }
