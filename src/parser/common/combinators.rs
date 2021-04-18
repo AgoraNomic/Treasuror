@@ -1,3 +1,5 @@
+use std::num::ParseIntError;
+
 use chrono::{
     format::ParseError as ChronoParseError,
     naive::NaiveTime,
@@ -20,6 +22,7 @@ use nom::{
 pub enum ParseError<I> {
     Chrono(ChronoParseError),
     Nom(NomError<I>),
+    Int(ParseIntError),
 }
 
 pub fn is_id_char(c: char) -> bool {
@@ -54,6 +57,18 @@ pub fn token_time(s: &str) -> IResult<&str, NaiveTime, ParseError<&str>> {
 
 pub fn token_identifier(s: &str) -> IResult<&str, &str> {
     take_while(is_id_char)(s)
+}
+
+pub fn token_integer(s: &str) -> IResult<&str, u32, ParseError<&str>> {
+    match take_while(|c: char| c.is_digit(10))(s) {
+        Ok((rest, digits)) => {
+            match digits.parse::<u32>() {
+                Ok(i) => Ok((rest, i)),
+                Err(pie) => Err(NomErr::Error(ParseError::Int(pie))),
+            }
+        }
+        Err(e) => Err(e.map(ParseError::Nom)),
+    }
 }
 
 #[cfg(test)]
@@ -99,5 +114,20 @@ mod tests {
     #[test]
     fn identifier_test_numbers() {
         assert_eq!(token_identifier("Trigon12"), Ok(("12", "Trigon")))
+    }
+
+    #[test]
+    fn integer_test() {
+        assert_eq!(token_integer("112"), Ok(("", 112)))
+    }
+
+    #[test]
+    fn integer_test_float() {
+        assert_eq!(token_integer("1.205"), Ok((".205", 1)))
+    }
+
+    #[test]
+    fn integer_test_currency() {
+        assert_eq!(token_integer("15bl:cn"), Ok(("bl:cn", 15)))
     }
 }
