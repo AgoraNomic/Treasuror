@@ -1,6 +1,6 @@
 use crate::parser::common::Token;
 
-#[derive(Copy, Clone, Hash, Eq, PartialEq)]
+#[derive(Copy, Clone, Debug, Hash, Eq, PartialEq)]
 pub enum Currency {
     Coin,
     WinCard,
@@ -51,7 +51,7 @@ impl Currency {
     }
 }
 
-#[derive(Copy, Clone)]
+#[derive(Copy, Clone, Debug, Eq, PartialEq)]
 pub enum FullUnit {
     Bare(Currency),
     Boatload(Currency),

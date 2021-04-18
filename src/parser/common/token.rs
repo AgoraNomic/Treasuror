@@ -144,7 +144,7 @@ impl<'a> Iterator for TokenIterator<'a> {
     }
 }
 
-#[derive(Clone)]
+#[derive(Clone, Debug, PartialEq)]
 pub enum Token {
     Time(NaiveTime),
     Identifier(String),

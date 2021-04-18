@@ -18,6 +18,8 @@ use nom::{
     sequence::delimited,
 };
 
+use super::Token;
+
 #[derive(Debug, PartialEq)]
 pub enum ParseError<I> {
     Chrono(ChronoParseError),
@@ -43,11 +45,11 @@ pub fn bracketed(s: &str) -> IResult<&str, &str> {
     delimited(char('['), take_till(|c| c == ']'), char(']'))(s)
 }
 
-pub fn token_time(s: &str) -> IResult<&str, NaiveTime, ParseError<&str>> {
+pub fn token_time(s: &str) -> IResult<&str, Token, ParseError<&str>> {
     match bracketed(s) {
         Ok((after, time_str)) => {
             match NaiveTime::parse_from_str(time_str, "%R") {
-                Ok(time) => Ok((after, time)),
+                Ok(time) => Ok((after, Token::Time(time))),
                 Err(cpe) => Err(NomErr::Error(ParseError::Chrono(cpe))),
             }
         }
@@ -55,21 +57,23 @@ pub fn token_time(s: &str) -> IResult<&str, NaiveTime, ParseError<&str>> {
     }
 }
 
-pub fn token_identifier(s: &str) -> IResult<&str, &str> {
-    take_while(is_id_char)(s)
+pub fn token_identifier(s: &str) -> IResult<&str, Token> {
+    take_while(is_id_char)(s).map(|(rest, id)| (rest, Token::Identifier(id.to_string())))
 }
 
-pub fn token_integer(s: &str) -> IResult<&str, u32, ParseError<&str>> {
+pub fn token_integer(s: &str) -> IResult<&str, Token, ParseError<&str>> {
     match take_while(|c: char| c.is_digit(10))(s) {
         Ok((rest, digits)) => {
             match digits.parse::<u32>() {
-                Ok(i) => Ok((rest, i)),
+                Ok(i) => Ok((rest, Token::Integer(i))),
                 Err(pie) => Err(NomErr::Error(ParseError::Int(pie))),
             }
         }
         Err(e) => Err(e.map(ParseError::Nom)),
     }
 }
+
+// pub fn token_blob(s: &str) ->
 
 #[cfg(test)]
 mod tests {
@@ -88,7 +92,7 @@ mod tests {
 
     #[test]
     fn time_test() {
-        assert_eq!(token_time("[12:34]"), Ok(("", NaiveTime::from_hms(12, 34, 0))))
+        assert_eq!(token_time("[12:34]"), Ok(("", Token::Time(NaiveTime::from_hms(12, 34, 0)))))
     }
 
     #[test]
@@ -103,31 +107,40 @@ mod tests {
 
     #[test]
     fn identifier_test() {
-        assert_eq!(token_identifier("Trigon 5cn>Aris"), Ok((" 5cn>Aris", "Trigon")))
+        assert_eq!(
+            token_identifier("Trigon 5cn>Aris"),
+            Ok((" 5cn>Aris", Token::Identifier("Trigon".to_string())))
+        )
     }
 
     #[test]
     fn identifier_test_weird_chars() {
-        assert_eq!(token_identifier("L&F_Dept. 331cn+"), Ok((" 331cn+", "L&F_Dept.")))
+        assert_eq!(
+            token_identifier("L&F_Dept. 331cn+"),
+            Ok((" 331cn+", Token::Identifier("L&F_Dept.".to_string())))
+        )
     }
 
     #[test]
     fn identifier_test_numbers() {
-        assert_eq!(token_identifier("Trigon12"), Ok(("12", "Trigon")))
+        assert_eq!(
+            token_identifier("Trigon12"),
+            Ok(("12", Token::Identifier("Trigon".to_string())))
+        )
     }
 
     #[test]
     fn integer_test() {
-        assert_eq!(token_integer("112"), Ok(("", 112)))
+        assert_eq!(token_integer("112"), Ok(("", Token::Integer(112))))
     }
 
     #[test]
     fn integer_test_float() {
-        assert_eq!(token_integer("1.205"), Ok((".205", 1)))
+        assert_eq!(token_integer("1.205"), Ok((".205", Token::Integer(1))))
     }
 
     #[test]
     fn integer_test_currency() {
-        assert_eq!(token_integer("15bl:cn"), Ok(("bl:cn", 15)))
+        assert_eq!(token_integer("15bl:cn"), Ok(("bl:cn", Token::Integer(15))))
     }
 }
