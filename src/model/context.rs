@@ -5,8 +5,11 @@ use std::mem;
 use chrono::naive::{NaiveDateTime, MIN_DATETIME};
 
 use crate::{
-    model::{dates, DatedHistoryEntry, Entity, EntityKind, HistoryEntry, Amount, Currency, FullUnit, Operator},
+    model::{
+        dates, Amount, Currency, DatedHistoryEntry, Entity, EntityKind, FullUnit, HistoryEntry,
+    },
     parser::{
+        common::Operator,
         gsdl::Directive,
         tll::{AtomicTransaction, Command, Line, Statement, Transaction},
     },

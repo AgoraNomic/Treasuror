@@ -4,7 +4,7 @@ use std::io::{self, BufReader, Read, Write};
 pub mod model;
 pub mod parser;
 
-use model::{Context, Report, Currency};
+use model::{Context, Currency, Report};
 use parser::{gsdl::Parser as GsdParser, tll::Parser as TlParser};
 
 fn main() -> io::Result<()> {

@@ -7,7 +7,7 @@ use numeral::Cardinal;
 use tabular::{Row, Table};
 use textwrap::{wrap, Options};
 
-use crate::model::{Context, Entity, EntityKind, HistoryEntry, Currency};
+use crate::model::{Context, Currency, Entity, EntityKind, HistoryEntry};
 
 pub struct Report<'a> {
     forbes: u32,

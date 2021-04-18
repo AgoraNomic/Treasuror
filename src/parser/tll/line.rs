@@ -3,8 +3,10 @@
 use chrono::naive::{NaiveDate, NaiveDateTime};
 
 use super::Statement;
-use crate::match_first_pop;
-use crate::model::{Token, TokenIterator};
+use crate::{
+    match_first_pop,
+    parser::common::{Token, TokenIterator},
+};
 
 #[derive(Clone)]
 pub struct Line {

@@ -1,6 +1,7 @@
 use crate::{
     match_first_pop,
-    model::{Entity, Currency, Token, TokenIterator},
+    model::{Currency, Entity},
+    parser::common::{Token, TokenIterator},
 };
 
 pub enum Directive {

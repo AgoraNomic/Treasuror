@@ -1,4 +1,4 @@
-use super::token::Token;
+use crate::parser::common::Token;
 
 #[derive(Copy, Clone, Hash, Eq, PartialEq)]
 pub enum Currency {

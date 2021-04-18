@@ -1,5 +1,5 @@
-use super::token::Token;
 use super::unit::{Currency, FullUnit};
+use crate::parser::common::Token;
 
 #[derive(Copy, Clone)]
 pub enum Amount {

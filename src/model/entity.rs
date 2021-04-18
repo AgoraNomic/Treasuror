@@ -3,7 +3,8 @@ use std::fmt::{self, Display};
 
 use crate::{
     match_first_pop,
-    model::{Currency, Inventory, Token},
+    model::{Currency, Inventory},
+    parser::common::Token,
 };
 
 #[allow(dead_code)]
