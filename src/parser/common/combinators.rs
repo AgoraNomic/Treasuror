@@ -1,21 +1,14 @@
-use std::num::ParseIntError;
+use std::num::{ParseFloatError, ParseIntError};
 
-use chrono::{
-    format::ParseError as ChronoParseError,
-    naive::NaiveTime,
-};
+use chrono::{format::ParseError as ChronoParseError, naive::NaiveTime};
 
 use nom::{
-    IResult,
-    bytes::complete::{take_while, take_till},
+    bytes::complete::{take_till, take_while},
     character::complete::char,
-    Err as NomErr,
-    error::{
-        Error as NomError,
-        ErrorKind,
-        ParseError as ParseErrorTrait,
-    },
+    combinator::recognize,
+    error::{Error as NomError, ErrorKind, ParseError as ParseErrorTrait},
     sequence::delimited,
+    Err as NomErr, IResult,
 };
 
 use super::Token;
@@ -25,7 +18,10 @@ pub enum ParseError<I> {
     Chrono(ChronoParseError),
     Nom(NomError<I>),
     Int(ParseIntError),
+    Float(ParseFloatError),
 }
+
+pub type TokenIResult<'a> = IResult<&'a str, Token, ParseError<&'a str>>;
 
 pub fn is_id_char(c: char) -> bool {
     c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&'
@@ -45,14 +41,11 @@ pub fn bracketed(s: &str) -> IResult<&str, &str> {
     delimited(char('['), take_till(|c| c == ']'), char(']'))(s)
 }
 
-pub fn token_time(s: &str) -> IResult<&str, Token, ParseError<&str>> {
+pub fn token_time(s: &str) -> TokenIResult {
     match bracketed(s) {
-        Ok((after, time_str)) => {
-            match NaiveTime::parse_from_str(time_str, "%R") {
-                Ok(time) => Ok((after, Token::Time(time))),
-                Err(cpe) => Err(NomErr::Error(ParseError::Chrono(cpe))),
-            }
-        }
+        Ok((after, time_str)) => NaiveTime::parse_from_str(time_str, "%R")
+            .map(|time| (after, Token::Time(time)))
+            .map_err(|cpe| NomErr::Error(ParseError::Chrono(cpe))),
         Err(e) => Err(e.map(ParseError::Nom)),
     }
 }
@@ -61,19 +54,17 @@ pub fn token_identifier(s: &str) -> IResult<&str, Token> {
     take_while(is_id_char)(s).map(|(rest, id)| (rest, Token::Identifier(id.to_string())))
 }
 
-pub fn token_integer(s: &str) -> IResult<&str, Token, ParseError<&str>> {
+pub fn token_integer(s: &str) -> TokenIResult {
     match take_while(|c: char| c.is_digit(10))(s) {
-        Ok((rest, digits)) => {
-            match digits.parse::<u32>() {
-                Ok(i) => Ok((rest, Token::Integer(i))),
-                Err(pie) => Err(NomErr::Error(ParseError::Int(pie))),
-            }
-        }
+        Ok((rest, digits)) => digits
+            .parse::<u32>()
+            .map(|i| (rest, Token::Integer(i)))
+            .map_err(|pie| NomErr::Error(ParseError::Int(pie))),
         Err(e) => Err(e.map(ParseError::Nom)),
     }
 }
 
-pub fn token_blob(s: &str) -> IResult<&str, Token> {
+pub fn token_blob(s: &str) -> TokenIResult {
     char('*')(s).map(|(rest, _)| (rest, Token::Blob))
 }
 
@@ -81,10 +72,30 @@ pub fn token_separator(s: &str) -> IResult<&str, Token> {
     char(':')(s).map(|(rest, _)| (rest, Token::Separator))
 }
 
+pub fn token_float(s: &str) -> IResult<&str, Token, ParseError<&str>> {
+    match recognize(delimited(
+        take_while(|c: char| c.is_digit(10)),
+        char('.'),
+        take_while(|c: char| c.is_digit(10)),
+    ))(s)
+    {
+        Ok((rest, digits)) => digits
+            .parse::<f32>()
+            .map(|f| (rest, Token::Float(f)))
+            .map_err(|e| NomErr::Error(ParseError::Float(e))),
+        Err(e) => Err(e.map(ParseError::Nom)),
+    }
+}
+
+pub fn token_string(s: &str) -> IResult<&str, Token> {
+    delimited(char('"'), take_till(|c| c == '"'), char('"'))(s)
+        .map(|(rest, s)| (rest, Token::String(s.to_string())))
+}
+
 #[cfg(test)]
 mod tests {
-    use chrono::naive::NaiveTime;
     use super::*;
+    use chrono::naive::NaiveTime;
 
     #[test]
     fn bracketed_test() {
@@ -98,7 +109,10 @@ mod tests {
 
     #[test]
     fn time_test() {
-        assert_eq!(token_time("[12:34]"), Ok(("", Token::Time(NaiveTime::from_hms(12, 34, 0)))))
+        assert_eq!(
+            token_time("[12:34]"),
+            Ok(("", Token::Time(NaiveTime::from_hms(12, 34, 0))))
+        )
     }
 
     #[test]
@@ -158,5 +172,18 @@ mod tests {
     #[test]
     fn separator_test() {
         assert_eq!(token_separator(":cn"), Ok(("cn", Token::Separator)))
+    }
+
+    #[test]
+    fn float_test() {
+        assert_eq!(token_float("123.321"), Ok(("", Token::Float(123.321))))
+    }
+
+    #[test]
+    fn string_test() {
+        assert_eq!(
+            token_string(r#""boatload""#),
+            Ok(("", Token::String("boatload".to_string())))
+        )
     }
 }
