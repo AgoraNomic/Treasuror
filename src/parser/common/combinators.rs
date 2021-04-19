@@ -44,6 +44,12 @@ impl<I> From<ParseIntError> for ParseError<I> {
     }
 }
 
+impl<I> From<ChronoParseError> for ParseError<I> {
+    fn from(e: ChronoParseError) -> ParseError<I> {
+        ParseError::Chrono(e)
+    }
+}
+
 impl<I> From<ParseFloatError> for ParseError<I> {
     fn from(e: ParseFloatError) -> ParseError<I> {
         ParseError::Float(e)
@@ -62,9 +68,12 @@ pub fn bracketed(s: &str) -> StringIResult {
 
 pub fn token_time(s: &str) -> TokenIResult {
     match bracketed(s) {
-        Ok((after, time_str)) => NaiveTime::parse_from_str(time_str, "%R")
-            .map(|time| (after, Token::Time(time)))
-            .map_err(|cpe| NomErr::Error(ParseError::Chrono(cpe))),
+        Ok((after, time_str)) => {
+            match NaiveTime::parse_from_str(time_str, "%R") {
+                Ok(time) => Ok((after, time.into())),
+                Err(cpe) => Err(NomErr::Error(cpe.into())),
+            }
+        }
         Err(e) => Err(e.into()),
     }
 }

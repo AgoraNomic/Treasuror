@@ -190,6 +190,12 @@ impl Token {
     }
 }
 
+impl From<NaiveTime> for Token {
+    fn from(dt: NaiveTime) -> Token {
+        Token::Time(dt)
+    }
+}
+
 impl From<u32> for Token {
     fn from(i: u32) -> Token {
         Token::Integer(i)
