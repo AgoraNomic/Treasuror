@@ -22,6 +22,7 @@ pub enum ParseError<I> {
 }
 
 pub type TokenIResult<'a> = IResult<&'a str, Token, ParseError<&'a str>>;
+pub type StringIResult<'a> = IResult<&'a str, &'a str, ParseError<&'a str>>;
 
 pub fn is_id_char(c: char) -> bool {
     c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&'
@@ -37,7 +38,25 @@ impl<I> ParseErrorTrait<I> for ParseError<I> {
     }
 }
 
-pub fn bracketed(s: &str) -> IResult<&str, &str> {
+impl<I> From<ParseIntError> for ParseError<I> {
+    fn from(e: ParseIntError) -> ParseError<I> {
+        ParseError::Int(e)
+    }
+}
+
+impl<I> From<ParseFloatError> for ParseError<I> {
+    fn from(e: ParseFloatError) -> ParseError<I> {
+        ParseError::Float(e)
+    }
+}
+
+// impl<I, T: ParseErrorTrait<I>> From<T> for ParseError<I> {
+//    fn from(error: T) {
+//        ParseError::Nom(error)
+//    }
+//}
+
+pub fn bracketed(s: &str) -> StringIResult {
     delimited(char('['), take_till(|c| c == ']'), char(']'))(s)
 }
 
@@ -46,21 +65,21 @@ pub fn token_time(s: &str) -> TokenIResult {
         Ok((after, time_str)) => NaiveTime::parse_from_str(time_str, "%R")
             .map(|time| (after, Token::Time(time)))
             .map_err(|cpe| NomErr::Error(ParseError::Chrono(cpe))),
-        Err(e) => Err(e.map(ParseError::Nom)),
+        Err(e) => Err(e.into()),
     }
 }
 
-pub fn token_identifier(s: &str) -> IResult<&str, Token> {
+pub fn token_identifier(s: &str) -> TokenIResult {
     take_while(is_id_char)(s).map(|(rest, id)| (rest, Token::Identifier(id.to_string())))
 }
 
 pub fn token_integer(s: &str) -> TokenIResult {
     match take_while(|c: char| c.is_digit(10))(s) {
-        Ok((rest, digits)) => digits
-            .parse::<u32>()
-            .map(|i| (rest, Token::Integer(i)))
-            .map_err(|pie| NomErr::Error(ParseError::Int(pie))),
-        Err(e) => Err(e.map(ParseError::Nom)),
+        Ok((rest, digits)) => match digits.parse::<u32>() {
+            Ok(i) => Ok((rest, i.into())),
+            Err(pie) => Err(NomErr::Error(pie.into())),
+        }
+        Err(e) => Err(e.into()),
     }
 }
 
@@ -68,22 +87,24 @@ pub fn token_blob(s: &str) -> TokenIResult {
     char('*')(s).map(|(rest, _)| (rest, Token::Blob))
 }
 
-pub fn token_separator(s: &str) -> IResult<&str, Token> {
+pub fn token_separator(s: &str) -> TokenIResult {
     char(':')(s).map(|(rest, _)| (rest, Token::Separator))
 }
 
-pub fn token_float(s: &str) -> IResult<&str, Token, ParseError<&str>> {
+pub fn token_float(s: &str) -> TokenIResult {
     match recognize(delimited(
         take_while(|c: char| c.is_digit(10)),
         char('.'),
         take_while(|c: char| c.is_digit(10)),
     ))(s)
     {
-        Ok((rest, digits)) => digits
-            .parse::<f32>()
-            .map(|f| (rest, Token::Float(f)))
-            .map_err(|e| NomErr::Error(ParseError::Float(e))),
-        Err(e) => Err(e.map(ParseError::Nom)),
+        Ok((rest, digits)) => {
+            match digits.parse::<f32>() {
+                Ok(f) => Ok((rest, f.into())),
+                Err(e) => Err(NomErr::Error(e.into())),
+            }
+        }
+        Err(e) => Err(e.into()),
     }
 }
 

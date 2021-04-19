@@ -189,3 +189,15 @@ impl Token {
         }
     }
 }
+
+impl From<u32> for Token {
+    fn from(i: u32) -> Token {
+        Token::Integer(i)
+    }
+}
+
+impl From<f32> for Token {
+    fn from(f: f32) -> Token {
+        Token::Float(f)
+    }
+}
