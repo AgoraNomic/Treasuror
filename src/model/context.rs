@@ -24,11 +24,12 @@ pub struct Context {
     total_buoyancy: u32,
     buoyancy_target: u32,
     datetime: NaiveDateTime,
+    max_datetime: NaiveDateTime,
     history: VecDeque<DatedHistoryEntry>,
 }
 
 impl Context {
-    pub fn new() -> Context {
+    pub fn from_datetime(dt: NaiveDateTime) -> Context {
         Context {
             forbes: 500,
             notes: Vec::new(),
@@ -38,6 +39,7 @@ impl Context {
             total_buoyancy: 0,
             buoyancy_target: 0,
             datetime: MIN_DATETIME,
+            max_datetime: dt,
             history: VecDeque::new(),
         }
     }
@@ -144,6 +146,10 @@ impl Context {
                 line.datetime().format("%F %R"),
                 self.datetime.format("%F %R")
             );
+        }
+
+        if !self.verify_max_datetime(line.datetime()) {
+            return;
         }
 
         match line.action() {
@@ -392,6 +398,10 @@ impl Context {
         other >= self.datetime
     }
 
+    pub fn verify_max_datetime(&self, other: NaiveDateTime) -> bool {
+        other <= self.max_datetime
+    }
+
     pub fn take_notes(&mut self) -> Vec<String> {
         mem::take(&mut self.notes)
     }
@@ -425,6 +435,10 @@ impl Context {
             .sum::<u32>()
     }
 
+    pub fn max_datetime(&self) -> NaiveDateTime {
+        self.max_datetime
+    }
+
     pub fn datetime(&self) -> NaiveDateTime {
         self.datetime
     }
@@ -439,11 +453,5 @@ impl Context {
 
     pub fn history(&self) -> &VecDeque<DatedHistoryEntry> {
         &self.history
-    }
-}
-
-impl Default for Context {
-    fn default() -> Self {
-        Self::new()
     }
 }

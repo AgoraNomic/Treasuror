@@ -69,7 +69,7 @@ impl<'a> Report<'a> {
             forbes: ctx.forbes(),
             buoyancy_target: ctx.buoyancy_target(),
             total_buoyancy: ctx.total_buoyancy(),
-            date: ctx.datetime().date(),
+            date: ctx.max_datetime().date(),
             // notes,
             tables: asset_tables.into_iter().map(|(_, e)| e).collect(),
             history,
