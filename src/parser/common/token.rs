@@ -1,52 +1,14 @@
-use std::iter::Peekable;
-use std::str::CharIndices;
-
 use chrono::naive::NaiveTime;
 
-use super::operator::Operator;
-
-macro_rules! produce_until {
-    ( $cond:expr; $pt:pat in $iter:expr; $prod:expr; ) => {{
-        let mut tmp_result = None;
-        while let Some($pt) = $iter.next() {
-            if $cond {
-                tmp_result = Some($prod);
-                break;
-            }
-        }
-        tmp_result
-    }};
-}
-
-macro_rules! produce_while {
-    ( $cond:expr; $pt:pat in $iter:expr; $prod:expr; ) => {{
-        let mut tmp_result = None;
-        while let Some($pt) = $iter.peek().copied() {
-            if !$cond {
-                tmp_result = Some($prod);
-                break;
-            }
-            $iter.next();
-        }
-        tmp_result
-    }};
-}
-
-fn is_id_char(c: char) -> bool {
-    c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&'
-}
+use super::{combinators as com, operator::Operator};
 
 pub struct TokenIterator<'a> {
     source: &'a str,
-    chars: Peekable<CharIndices<'a>>,
 }
 
 impl<'a> TokenIterator<'a> {
     pub fn with_source(s: &'a str) -> TokenIterator<'a> {
-        TokenIterator {
-            source: s,
-            chars: s.char_indices().peekable(),
-        }
+        TokenIterator { source: s }
     }
 }
 
@@ -54,92 +16,14 @@ impl<'a> Iterator for TokenIterator<'a> {
     type Item = Token;
 
     fn next(&mut self) -> Option<Token> {
-        let mut fidx: Option<usize> = None;
-        let mut fchar: Option<char> = None;
+        let rest = self.source.trim();
 
-        for (i, c) in self.chars.by_ref() {
-            // println!("searching: {}", c);
-            if c.is_whitespace() {
-                continue;
+        match com::token_any(rest) {
+            Ok((rest2, matched)) => {
+                self.source = rest2;
+                Some(matched)
             }
-            // println!("found    : {}", c);
-            fidx = Some(i);
-            fchar = Some(c);
-            break;
-        }
-
-        if let (Some(fi), Some(fc)) = (fidx, fchar) {
-            // is a time; does not end until ']'
-            if fc == '[' {
-                produce_until!(
-                    c == ']';
-                    (i, c) in self.chars;
-                    Token::Time(
-                        NaiveTime::parse_from_str(&self.source[fi..i+1], "[%R]").unwrap()
-                    );
-                )
-            // is an identifier; does not end until there are no more letters
-            } else if fc.is_ascii_alphabetic() {
-                produce_while!(
-                    is_id_char(c);
-                    (i, c) in self.chars;
-                    Token::Identifier(String::from(&self.source[fi..i]));
-                )
-            // is an integer; does not end until there are no more numbers
-            } else if fc.is_digit(10) {
-                let first = produce_while!(
-                    c.is_digit(10);
-                    (i, c) in self.chars;
-                    &self.source[fi..i];
-                );
-
-                if self.chars.peek().unwrap().1 == '.' {
-                    //_or(&(0, ' ')).1 == '.' {
-                    self.chars.next();
-                    produce_while!(
-                        c.is_digit(10);
-                        (i, c) in self.chars;
-                        Token::Float(self.source[fi..i].parse::<f32>().unwrap());
-                    )
-                } else {
-                    Some(Token::Integer(first.unwrap().parse::<u32>().unwrap()))
-                }
-            // these are just single characters
-            } else if fc == '*' {
-                Some(Token::Blob)
-            } else if fc == ':' {
-                Some(Token::Separator)
-            } else if fc == '+' {
-                Some(Token::Op(Operator::Plus))
-            } else if fc == '-' {
-                Some(Token::Op(Operator::Minus))
-            // transaction operator; takes an identifier
-            } else if fc == '>' {
-                produce_while!(
-                    is_id_char(c);
-                    (i, c) in self.chars;
-                    Token::Op(Operator::Transfer(String::from(&self.source[fi+1..i])));
-                )
-            // strings end when there is a terminating '"'
-            } else if fc == '"' {
-                produce_until!(
-                    c == '"';
-                    (i, c) in self.chars;
-                    Token::String(String::from(&self.source[fi+1..i]));
-                )
-            // command; takes an identifier
-            } else if fc == '#' {
-                produce_until!(
-                    c.is_whitespace();
-                    (i, c) in self.chars;
-                    Token::Command(String::from(&self.source[fi+1..i]));
-                )
-            } else {
-                println!("unknown char: {}", fc);
-                None
-            }
-        } else {
-            None
+            Err(_) => None,
         }
     }
 }
@@ -211,5 +95,67 @@ impl From<f32> for Token {
 impl From<Operator> for Token {
     fn from(o: Operator) -> Token {
         Token::Op(o)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use chrono::naive::NaiveTime;
+
+    #[test]
+    fn test_tll_1() {
+        assert_eq!(
+            TokenIterator::with_source("[01:23] Trigon 5bl:cn+").collect::<Vec<Token>>(),
+            vec![
+                Token::Time(NaiveTime::from_hms(1, 23, 0)),
+                Token::Identifier("Trigon".to_string()),
+                Token::Integer(5),
+                Token::Identifier("bl".to_string()),
+                Token::Separator,
+                Token::Identifier("cn".to_string()),
+                Token::Op(Operator::Plus),
+            ]
+        )
+    }
+
+    #[test]
+    fn test_tll_2() {
+        assert_eq!(
+            TokenIterator::with_source("[21:52] Cuddlebeam *>CB_Locker").collect::<Vec<Token>>(),
+            vec![
+                Token::Time(NaiveTime::from_hms(21, 52, 0)),
+                Token::Identifier("Cuddlebeam".to_string()),
+                Token::Blob,
+                Token::Op(Operator::Transfer("CB_Locker".to_string())),
+            ]
+        )
+    }
+
+    #[test]
+    fn test_gdsl_1() {
+        assert_eq!(
+            TokenIterator::with_source("FLOTATION 10.0000").collect::<Vec<Token>>(),
+            vec![
+                Token::Identifier("FLOTATION".to_string()),
+                Token::Float(10.0f32),
+            ]
+        )
+    }
+
+    #[test]
+    fn test_gdsl_2() {
+        assert_eq!(
+            TokenIterator::with_source(r#"ENT P L&F_Dept. "Lost and Found Department" 12024cn"#)
+                .collect::<Vec<Token>>(),
+            vec![
+                Token::Identifier("ENT".to_string()),
+                Token::Identifier("P".to_string()),
+                Token::Identifier("L&F_Dept.".to_string()),
+                Token::String("Lost and Found Department".to_string()),
+                Token::Integer(12024),
+                Token::Identifier("cn".to_string()),
+            ]
+        )
     }
 }

@@ -4,11 +4,11 @@ use chrono::{format::ParseError as ChronoParseError, naive::NaiveTime};
 
 use nom::{
     branch::alt,
-    bytes::complete::{take_till, take_while},
+    bytes::complete::{take_till, take_while, take_while1},
     character::complete::char,
     combinator::recognize,
     error::{Error as NomError, ErrorKind, ParseError as ParseErrorTrait},
-    sequence::delimited,
+    sequence::{delimited, preceded},
     Err as NomErr, IResult,
 };
 
@@ -69,18 +69,16 @@ pub fn bracketed(s: &str) -> StringIResult {
 
 pub fn token_time(s: &str) -> TokenIResult {
     match bracketed(s) {
-        Ok((after, time_str)) => {
-            match NaiveTime::parse_from_str(time_str, "%R") {
-                Ok(time) => Ok((after, time.into())),
-                Err(cpe) => Err(NomErr::Error(cpe.into())),
-            }
-        }
+        Ok((after, time_str)) => match NaiveTime::parse_from_str(time_str, "%R") {
+            Ok(time) => Ok((after, time.into())),
+            Err(cpe) => Err(NomErr::Error(cpe.into())),
+        },
         Err(e) => Err(e.into()),
     }
 }
 
 pub fn identifier(s: &str) -> StringIResult {
-    take_while(is_id_char)(s)
+    take_while1(is_id_char)(s)
 }
 
 pub fn token_identifier(s: &str) -> TokenIResult {
@@ -92,7 +90,7 @@ pub fn token_integer(s: &str) -> TokenIResult {
         Ok((rest, digits)) => match digits.parse::<u32>() {
             Ok(i) => Ok((rest, i.into())),
             Err(pie) => Err(NomErr::Error(pie.into())),
-        }
+        },
         Err(e) => Err(e.into()),
     }
 }
@@ -112,17 +110,15 @@ pub fn token_float(s: &str) -> TokenIResult {
         take_while(|c: char| c.is_digit(10)),
     ))(s)
     {
-        Ok((rest, digits)) => {
-            match digits.parse::<f32>() {
-                Ok(f) => Ok((rest, f.into())),
-                Err(e) => Err(NomErr::Error(e.into())),
-            }
-        }
+        Ok((rest, digits)) => match digits.parse::<f32>() {
+            Ok(f) => Ok((rest, f.into())),
+            Err(e) => Err(NomErr::Error(e.into())),
+        },
         Err(e) => Err(e.into()),
     }
 }
 
-pub fn token_string(s: &str) -> IResult<&str, Token> {
+pub fn token_string(s: &str) -> TokenIResult {
     delimited(char('"'), take_till(|c| c == '"'), char('"'))(s)
         .map(|(rest, s)| (rest, Token::String(s.to_string())))
 }
@@ -136,19 +132,38 @@ pub fn token_minus(s: &str) -> TokenIResult {
 }
 
 pub fn token_transfer(s: &str) -> TokenIResult {
-    match char('>')(s) {
-        Ok((rest, _)) => {
-            match identifier(rest) {
-                Ok((rest2, matched)) => Ok((rest2, Operator::Transfer(matched.to_string()).into())),
-                Err(e) => Err(e),
-            }
-        }
-        Err(e) => Err(e)
-    }
+    preceded(char('>'), identifier)(s)
+        .map(|(rest, t)| (rest, Token::Op(Operator::Transfer(t.to_string()))))
 }
 
 pub fn token_operator(s: &str) -> TokenIResult {
     alt((token_plus, alt((token_minus, token_transfer))))(s)
+}
+
+pub fn token_command(s: &str) -> TokenIResult {
+    preceded(char('#'), identifier)(s).map(|(rest, t)| (rest, Token::Command(t.to_string())))
+}
+
+pub fn token_any(s: &str) -> TokenIResult {
+    alt((
+        token_time,
+        alt((
+            token_identifier,
+            alt((
+                token_float,
+                alt((
+                    token_integer,
+                    alt((
+                        token_string,
+                        alt((
+                            token_operator,
+                            alt((token_blob, alt((token_separator, token_command)))),
+                        )),
+                    )),
+                )),
+            )),
+        )),
+    ))(s)
 }
 
 #[cfg(test)]
@@ -186,10 +201,7 @@ mod tests {
 
     #[test]
     fn identifier_str_test() {
-        assert_eq!(
-            identifier("Trigon 5cn>Aris"),
-            Ok((" 5cn>Aris", "Trigon"))
-        )
+        assert_eq!(identifier("Trigon 5cn>Aris"), Ok((" 5cn>Aris", "Trigon")))
     }
 
     #[test]
@@ -256,15 +268,33 @@ mod tests {
 
     #[test]
     fn plus_test() {
-        assert_eq!(token_operator("+5cn"), Ok(("5cn", Token::Op(Operator::Plus))))
+        assert_eq!(
+            token_operator("+5cn"),
+            Ok(("5cn", Token::Op(Operator::Plus)))
+        )
     }
 
     #[test]
     fn minus_test() {
-        assert_eq!(token_operator("-10cn"), Ok(("10cn", Token::Op(Operator::Minus))))
+        assert_eq!(
+            token_operator("-10cn"),
+            Ok(("10cn", Token::Op(Operator::Minus)))
+        )
     }
 
+    #[test]
     fn transfer_test() {
-        assert_eq!(token_operator(">Cuddlebeam"), Ok(("", Token::Op(Operator::Transfer("Cuddlebeam".to_string())))))
+        assert_eq!(
+            token_operator(">Cuddlebeam"),
+            Ok(("", Token::Op(Operator::Transfer("Cuddlebeam".to_string()))))
+        )
+    }
+
+    #[test]
+    fn command_test() {
+        assert_eq!(
+            token_command("#report"),
+            Ok(("", Token::Command("report".to_string()))),
+        )
     }
 }

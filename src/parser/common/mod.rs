@@ -1,4 +1,4 @@
-mod combinators;
+pub mod combinators;
 mod operator;
 mod token;
 
