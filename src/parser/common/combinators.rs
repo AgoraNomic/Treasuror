@@ -3,6 +3,7 @@ use std::num::{ParseFloatError, ParseIntError};
 use chrono::{format::ParseError as ChronoParseError, naive::NaiveTime};
 
 use nom::{
+    branch::alt,
     bytes::complete::{take_till, take_while},
     character::complete::char,
     combinator::recognize,
@@ -11,7 +12,7 @@ use nom::{
     Err as NomErr, IResult,
 };
 
-use super::Token;
+use super::{Operator, Token};
 
 #[derive(Debug, PartialEq)]
 pub enum ParseError<I> {
@@ -78,8 +79,12 @@ pub fn token_time(s: &str) -> TokenIResult {
     }
 }
 
+pub fn identifier(s: &str) -> StringIResult {
+    take_while(is_id_char)(s)
+}
+
 pub fn token_identifier(s: &str) -> TokenIResult {
-    take_while(is_id_char)(s).map(|(rest, id)| (rest, Token::Identifier(id.to_string())))
+    identifier(s).map(|(rest, matched)| (rest, Token::Identifier(matched.to_string())))
 }
 
 pub fn token_integer(s: &str) -> TokenIResult {
@@ -122,6 +127,30 @@ pub fn token_string(s: &str) -> IResult<&str, Token> {
         .map(|(rest, s)| (rest, Token::String(s.to_string())))
 }
 
+pub fn token_plus(s: &str) -> TokenIResult {
+    char('+')(s).map(|(rest, _)| (rest, Operator::Plus.into()))
+}
+
+pub fn token_minus(s: &str) -> TokenIResult {
+    char('-')(s).map(|(rest, _)| (rest, Operator::Minus.into()))
+}
+
+pub fn token_transfer(s: &str) -> TokenIResult {
+    match char('>')(s) {
+        Ok((rest, _)) => {
+            match identifier(rest) {
+                Ok((rest2, matched)) => Ok((rest2, Operator::Transfer(matched.to_string()).into())),
+                Err(e) => Err(e),
+            }
+        }
+        Err(e) => Err(e)
+    }
+}
+
+pub fn token_operator(s: &str) -> TokenIResult {
+    alt((token_plus, alt((token_minus, token_transfer))))(s)
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -153,6 +182,14 @@ mod tests {
     #[test]
     fn time_test_bad_format() {
         assert!(token_time("[12;34").is_err())
+    }
+
+    #[test]
+    fn identifier_str_test() {
+        assert_eq!(
+            identifier("Trigon 5cn>Aris"),
+            Ok((" 5cn>Aris", "Trigon"))
+        )
     }
 
     #[test]
@@ -215,5 +252,19 @@ mod tests {
             token_string(r#""boatload""#),
             Ok(("", Token::String("boatload".to_string())))
         )
+    }
+
+    #[test]
+    fn plus_test() {
+        assert_eq!(token_operator("+5cn"), Ok(("5cn", Token::Op(Operator::Plus))))
+    }
+
+    #[test]
+    fn minus_test() {
+        assert_eq!(token_operator("-10cn"), Ok(("10cn", Token::Op(Operator::Minus))))
+    }
+
+    fn transfer_test() {
+        assert_eq!(token_operator(">Cuddlebeam"), Ok(("", Token::Op(Operator::Transfer("Cuddlebeam".to_string())))))
     }
 }

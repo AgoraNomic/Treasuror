@@ -207,3 +207,9 @@ impl From<f32> for Token {
         Token::Float(f)
     }
 }
+
+impl From<Operator> for Token {
+    fn from(o: Operator) -> Token {
+        Token::Op(o)
+    }
+}
