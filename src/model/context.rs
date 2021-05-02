@@ -50,7 +50,7 @@ impl Context {
             self.flotation = tb as f32 / 2500.0;
         } else {
             self.total_buoyancy = self.buoyancy_target;
-            self.flotation = (tb as f32 / 2500.0).ceil();
+            self.flotation = (self.total_buoyancy as f32 / 2500.0).ceil();
         }
         self.flotation
     }
