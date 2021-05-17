@@ -627,4 +627,27 @@
 [21:06] Aris    15bl:cn+ "Reward: Proposal Pool"
 [21:06] Murphy   5bl:cn+ "Reward: Tailor weekly"
 [21:06] Aris     5bl:cn+ "Reward: Registrar monthly"
-[21:06] nix      5bl:cn+ "Reward: Ministor monthly "
+[21:06] nix      5bl:cn+ "Reward: Ministor monthly"
+[21:57] #report
+
+2021-05-10
+[02:00] Falsifian 1jc+ "Finger pointer"
+
+2021-05-11
+[20:20] G.      2lc>ATMunn
+[20:26] ATMunn  4lc- "Set of cards"
+[20:26] ATMunn 10pd+ "Set of products"
+[20:26] ATMunn  5pd>G.
+[20:29] ATMunn  1pd- "Pending proposal: Shredding"
+
+2021-05-14
+[21:53] Falsifian 400cn- "Victory Auction"
+[21:53] Falsifian   1wc+ "Victory Auction"
+
+2021-05-16
+[23:21] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[23:21] Aris    5bl:cn+ "Reward: Registrar weekly"
+[23:21] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[23:21] G.     10bl:cn+ "Reward: Arbitor weekly"
+[23:21] Gaelan 10bl:cn+ "Reward: Referee weekly"
+[23:21] Murphy  5bl:cn+ "Reward: Tailor weekly"
