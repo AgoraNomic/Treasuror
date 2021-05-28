@@ -676,3 +676,11 @@
 [16:37] ATMunn 4bl:cn+ "Reward: Proposal 8559"
 [16:37] Jason  7bl:cn+ "Vocal Voter"
 [19:10] ATMunn 1lc+    "Popular proposal: Proposal 8559"
+
+2021-05-28
+[00:20] Jason  5bl:cn+ "Reward: CFJ 3905"
+[01:23] #report
+[01:25] Jason  1320cn- "Stone auction: Soul Stone"
+[01:25] Jason   425cn- "Stone auction: Sabotage Stone"
+[01:25] Jason   425cn- "Stone auction: Concentration Stone"
+[01:25] Jason   670cn- "Stone auction: Protection Stone"
