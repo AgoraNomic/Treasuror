@@ -57,6 +57,10 @@ impl<I> From<ParseFloatError> for ParseError<I> {
     }
 }
 
+fn to_nom_err<I, E: Into<ParseError<I>>>(e: E) -> NomErr<ParseError<I>> {
+    NomErr::Error(e.into())
+}
+
 // impl<I, T: ParseErrorTrait<I>> From<T> for ParseError<I> {
 //    fn from(error: T) {
 //        ParseError::Nom(error)
@@ -69,7 +73,7 @@ pub fn bracketed(s: &str) -> StringIResult {
 
 pub fn token_time(s: &str) -> TokenIResult {
     let (after, time_str) = bracketed(s)?;
-    let time = NaiveTime::parse_from_str(time_str, "%R").map_err(|e| NomErr::Error(e.into()))?;
+    let time = NaiveTime::parse_from_str(time_str, "%R").map_err(to_nom_err)?;
     Ok((after, time.into()))
 }
 
@@ -83,7 +87,7 @@ pub fn token_identifier(s: &str) -> TokenIResult {
 
 pub fn token_integer(s: &str) -> TokenIResult {
     let (rest, digits) = take_while(|c: char| c.is_digit(10))(s)?;
-    let i = digits.parse::<u32>().map_err(|e| NomErr::Error(e.into()))?;
+    let i = digits.parse::<u32>().map_err(to_nom_err)?;
     Ok((rest, i.into()))
 }
 
@@ -102,7 +106,7 @@ pub fn token_float(s: &str) -> TokenIResult {
         take_while(|c: char| c.is_digit(10)),
     ))(s)?;
 
-    let f = digits.parse::<f32>().map_err(|e| NomErr::Error(e.into()))?;
+    let f = digits.parse::<f32>().map_err(to_nom_err)?;
     Ok((rest, f.into()))
 }
 
