@@ -68,13 +68,9 @@ pub fn bracketed(s: &str) -> StringIResult {
 }
 
 pub fn token_time(s: &str) -> TokenIResult {
-    match bracketed(s) {
-        Ok((after, time_str)) => match NaiveTime::parse_from_str(time_str, "%R") {
-            Ok(time) => Ok((after, time.into())),
-            Err(cpe) => Err(NomErr::Error(cpe.into())),
-        },
-        Err(e) => Err(e.into()),
-    }
+    let (after, time_str) = bracketed(s)?;
+    let time = NaiveTime::parse_from_str(time_str, "%R").map_err(|e| NomErr::Error(e.into()))?;
+    Ok((after, time.into()))
 }
 
 pub fn identifier(s: &str) -> StringIResult {
@@ -86,13 +82,9 @@ pub fn token_identifier(s: &str) -> TokenIResult {
 }
 
 pub fn token_integer(s: &str) -> TokenIResult {
-    match take_while(|c: char| c.is_digit(10))(s) {
-        Ok((rest, digits)) => match digits.parse::<u32>() {
-            Ok(i) => Ok((rest, i.into())),
-            Err(pie) => Err(NomErr::Error(pie.into())),
-        },
-        Err(e) => Err(e.into()),
-    }
+    let (rest, digits) = take_while(|c: char| c.is_digit(10))(s)?;
+    let i = digits.parse::<u32>().map_err(|e| NomErr::Error(e.into()))?;
+    Ok((rest, i.into()))
 }
 
 pub fn token_blob(s: &str) -> TokenIResult {
@@ -104,18 +96,14 @@ pub fn token_separator(s: &str) -> TokenIResult {
 }
 
 pub fn token_float(s: &str) -> TokenIResult {
-    match recognize(delimited(
+    let (rest, digits) = recognize(delimited(
         take_while(|c: char| c.is_digit(10)),
         char('.'),
         take_while(|c: char| c.is_digit(10)),
-    ))(s)
-    {
-        Ok((rest, digits)) => match digits.parse::<f32>() {
-            Ok(f) => Ok((rest, f.into())),
-            Err(e) => Err(NomErr::Error(e.into())),
-        },
-        Err(e) => Err(e.into()),
-    }
+    ))(s)?;
+
+    let f = digits.parse::<f32>().map_err(|e| NomErr::Error(e.into()))?;
+    Ok((rest, f.into()))
 }
 
 pub fn token_string(s: &str) -> TokenIResult {
