@@ -684,3 +684,4 @@
 [01:25] Jason   425cn- "Stone auction: Sabotage Stone"
 [01:25] Jason   425cn- "Stone auction: Concentration Stone"
 [01:25] Jason   670cn- "Stone auction: Protection Stone"
+[01:25] Jason     1lc+ "Wielding Concentration Stone"
