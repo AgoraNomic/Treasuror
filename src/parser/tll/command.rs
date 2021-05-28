@@ -1,3 +1,4 @@
+use crate::parser::tll::Transaction;
 use crate::{match_first_pop, parser::common::Token};
 
 #[derive(Clone)]
@@ -13,6 +14,7 @@ pub enum Command {
     Relevel(Option<u32>),
     Report,
     Revision,
+    Transaction(Transaction),
 }
 
 impl Command {
@@ -63,6 +65,9 @@ impl Command {
                 } else { None }))),
             "report" => Some(Command::Report),
             "revision" => Some(Command::Revision),
+            "transaction" | "t" => Some(Command::Transaction(
+                Transaction::from_vec(tokens).expect("no transaction specified"),
+            )),
             _ => {
                 eprintln!("no such command: {}", name);
                 None

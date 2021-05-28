@@ -11,7 +11,7 @@ use crate::{
     parser::{
         common::Operator,
         gsdl::Directive,
-        tll::{AtomicTransaction, Command, Line, Statement, Transaction},
+        tll::{AtomicTransaction, Command, Line, Transaction},
     },
 };
 
@@ -152,18 +152,10 @@ impl Context {
             return;
         }
 
-        match line.action() {
-            Statement::Transaction(t) => self.apply(&t).iter().for_each(|e| {
-                self.history
-                    .push_back(DatedHistoryEntry::new(self.datetime, e.clone()))
-            }),
-            Statement::Command(c) => {
-                if let Some(message) = self.exec(&c) {
-                    self.history
-                        .push_back(DatedHistoryEntry::new(self.datetime, message))
-                }
-            }
-        };
+        if let Some(message) = self.exec(&line.action()) {
+            self.history
+                .push_back(DatedHistoryEntry::new(self.datetime, message))
+        }
     }
 
     fn apply(&mut self, trans: &Transaction) -> Vec<HistoryEntry> {
@@ -188,15 +180,15 @@ impl Context {
         match com {
             Command::Activate(name) => {
                 self.entity_mut(name).activate();
-                Some(format!("{} becomes active", name))
+                Some(format!("  {} becomes active", name))
             }
             Command::BuoyancyTarget(bt) => {
                 self.buoyancy_target = *bt;
-                Some(format!("Buoyancy target set to {}", bt))
+                Some(format!("  Buoyancy target set to {}", bt))
             }
             Command::Deactivate(name) => {
                 self.entity_mut(name).deactivate();
-                Some(format!("{} becomes inactive", name))
+                Some(format!("  {} becomes inactive", name))
             }
             Command::Deregister(identifier) => {
                 self.deregister(&identifier);
@@ -204,7 +196,7 @@ impl Context {
             }
             Command::NewContract(identifier, full_name) => {
                 self.insert_entity(Entity::contract(identifier.clone(), full_name.clone()));
-                Some(format!("Contract {} created", identifier))
+                Some(format!("  Contract {} created", identifier))
             }
             Command::NewPlayer(identifier, full_name) => {
                 self.add_player(identifier.clone(), full_name.clone());
@@ -231,6 +223,10 @@ impl Context {
             Command::Revision => {
                 self.forbes -= 1;
                 Some(String::from("  REPORT REVISION"))
+            }
+            Command::Transaction(t) => {
+                self.apply(&t);
+                None
             }
         }
         .map(HistoryEntry::Event)
