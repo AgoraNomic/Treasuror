@@ -28,7 +28,7 @@ impl<R: BufRead> Parser<R> {
                     Directive::with_source(&text)
                 }
             }
-            Err(e) => panic!(format!("Problem reading file: {}", e)),
+            Err(e) => panic!("Problem reading file: {}", e),
         }
     }
 }

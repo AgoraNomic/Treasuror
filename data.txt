@@ -651,3 +651,28 @@
 [23:21] G.     10bl:cn+ "Reward: Arbitor weekly"
 [23:21] Gaelan 10bl:cn+ "Reward: Referee weekly"
 [23:21] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[23:31] #report
+[23:32] #bt 35799
+
+2021-05-17
+[16:15] Gaelan  5bl:cn+ "Wielding Wealth Stone"
+[23:39] Jason   7bl:cn+ "Vocal Voter"
+
+2021-05-23
+[08:10] Aris    1lc+    "Popular proposal: Proposal 8558"
+[19:31] nix     8bl:cn+ "Glitter: Silver Quill 2020"
+[19:31] Aris    8bl:cn+ "Glitter: Silver Quill 2020"
+[19:34] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[19:34] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[19:34] Aris   15bl:cn+ "Reward: Proposal Pool"
+[19:34] G.     10bl:cn+ "Reward: Arbitor weekly"
+[19:34] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[19:34] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[19:34] Jason  15bl:cn+ "Reward: Assessed proposal"
+
+2021-05-25
+[15:49] G.     1pd-    "Pending proposal: Election Cycle"
+[16:36] Aris   4bl:cn+ "Reward: Proposal 8558"
+[16:37] ATMunn 4bl:cn+ "Reward: Proposal 8559"
+[16:37] Jason  7bl:cn+ "Vocal Voter"
+[19:10] ATMunn 1lc+    "Popular proposal: Proposal 8559"

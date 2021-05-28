@@ -49,7 +49,7 @@ impl<R: BufRead> Parser<R> {
                     self.next_raw()
                 }
             }
-            Err(e) => panic!(format!("Problem reading file: {}", e)),
+            Err(e) => panic!("Problem reading file: {}", e),
         }
     }
 }
