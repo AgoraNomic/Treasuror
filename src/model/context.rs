@@ -84,10 +84,7 @@ impl Context {
         deletions.append(&mut grants);
 
         for trans in deletions.iter() {
-            self.apply(&trans).iter().for_each(|e| {
-                self.history
-                    .push_back(DatedHistoryEntry::new(self.datetime, e.clone()))
-            });
+            self.apply(self.datetime, &trans);
         }
     }
 
@@ -130,10 +127,7 @@ impl Context {
         }
 
         for trans in transactions.iter() {
-            self.apply(&trans).iter().for_each(|e| {
-                self.history
-                    .push_back(DatedHistoryEntry::new(self.datetime, e.clone()))
-            });
+            self.apply(self.datetime, &trans);
         }
     }
 
@@ -152,14 +146,10 @@ impl Context {
             return;
         }
 
-        if let Some(message) = self.exec(&line.action()) {
-            self.history
-                .push_back(DatedHistoryEntry::new(self.datetime, message))
-        }
+        self.exec(line.datetime(), &line.action());
     }
 
-    fn apply(&mut self, trans: &Transaction) -> Vec<HistoryEntry> {
-        let mut result = Vec::new();
+    fn apply(&mut self, dt: NaiveDateTime, trans: &Transaction) {
         for t in self.expand_transaction(trans) {
             let player = self.entity_mut(t.agent());
 
@@ -170,14 +160,13 @@ impl Context {
             }
 
             if t.amount() != 0 {
-                result.push(HistoryEntry::Transaction(t.clone()))
+                self.history.push_back(DatedHistoryEntry::new(dt, HistoryEntry::Transaction(t.clone())))
             }
         }
-        result
     }
 
-    fn exec(&mut self, com: &Command) -> Option<HistoryEntry> {
-        match com {
+    fn exec(&mut self, dt: NaiveDateTime, com: &Command) {
+        let option = match com {
             Command::Activate(name) => {
                 self.entity_mut(name).activate();
                 Some(format!("  {} becomes active", name))
@@ -225,11 +214,14 @@ impl Context {
                 Some(String::from("  REPORT REVISION"))
             }
             Command::Transaction(t) => {
-                self.apply(&t);
+                self.apply(dt, &t);
                 None
             }
+        };
+
+        if let Some(message) = option {
+            self.history.push_back(DatedHistoryEntry::new(dt, HistoryEntry::Event(message)));
         }
-        .map(HistoryEntry::Event)
     }
 
     pub fn process(&mut self, dir: &Directive) {
@@ -280,10 +272,7 @@ impl Context {
         };
 
         for trans in transactions {
-            self.apply(&trans).iter().for_each(|e| {
-                self.history
-                    .push_back(DatedHistoryEntry::new(self.datetime, e.clone()))
-            });
+            self.apply(self.datetime, &trans);
         }
 
         self.entities.remove(identifier);
