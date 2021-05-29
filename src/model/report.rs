@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use std::fmt::{self, Display};
 
-use chrono::naive::{NaiveDate, MIN_DATE};
+use chrono::{Datelike, naive::{NaiveDate, MIN_DATE}};
 
 use numeral::Cardinal;
 use tabular::{Row, Table};
@@ -39,6 +39,10 @@ impl<'a> Report<'a> {
         let history_table = &mut Table::new(tstr);
 
         for entry in ctx.history().iter().rev() {
+            if ctx.max_datetime().month() - entry.datetime().month() > 2 {
+                break;
+            }
+
             if entry.datetime().date() != date {
                 history.push_str(&history_table.to_string()[..]);
                 *history_table = Table::new(tstr)
