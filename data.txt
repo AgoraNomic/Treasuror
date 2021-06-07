@@ -685,3 +685,81 @@
 [01:25] Jason   425cn- "Stone auction: Concentration Stone"
 [01:25] Jason   670cn- "Stone auction: Protection Stone"
 [01:25] Jason     1lc+ "Wielding Concentration Stone"
+[01:47] #revision
+[01:49] #bt 34495
+[08:19] Aris      1vc+ "Personal grant: Participation"
+[19:21] Jason   300cn>Trigon
+
+2021-05-29
+[18:13] #revision
+
+2021-05-30
+[20:17] ATMunn 12bl:cn+ "O Glitter: Proposal 8559"
+[20:32] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[20:32] Aris    5bl:cn+ "Reward: Registrar weekly"
+[20:32] Aris   15bl:cn+ "Reward: Proposal Pool"
+[20:32] Gaelan 10bl:cn+ "Reward: Referee weekly"
+[20:32] G.     10bl:cn+ "Reward: Arbitor weekly"
+[20:32] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[20:32] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[20:32] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[20:32] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[20:32] Jason  15bl:cn+ "Reward: Assessed proposal"
+
+2021-05-31
+[21:36] Trigon 1lc+ "Personal grant: Legislation"
+
+2021-06-01
+#relevel
+#payday
+[20:31] Jason  1lc+ "Personal grant: Legislation"
+[20:31] Jason  4lc- "Set of cards"
+[20:31] Jason 10pd+ "Set of products"
+
+2021-06-02
+[18:05] Jason 3bl:cn+ "HAPPY BIRTHDAY, JASON!"
+
+2021-06-03
+[01:32] G.     2bl:cn+ "HAPPY BIRTHDAY, JASON!"
+[02:55] R._Lee 2bl:cn+ "HAPPY BIRTHDAY, JASON!"
+
+2021-06-04
+[15:24] Falsifian  2bl:cn+ "HAPPY BIRTHDAY, JASON!"
+[15:46] Falsifian   1wp+ "Personal grant: Legacy"
+[15:46] Falsifian   4wc- "Set of cards"
+[15:46] Falsifian  10wp+ "Set of products"
+[15:46] Falsifian   8wp>ATMunn
+[15:46] Falsifian   8wp>Pooling
+[15:46] ATMunn      8wp>Falsifian
+[18:34] Cuddlebeam  1jc- "Set of cards"
+[18:34] Cuddlebeam  1bg+ "Set of products"
+[18:34] Cuddlebeam  1bg- "Expungement"
+[23:43] G.      2vc>Murphy
+[23:43] Murphy  4vc- "Set of cards"
+[23:43] Murphy 10xv+ "Set of products"
+[23:43] Murphy  5xv>G.
+
+2021-06-05
+[00:54] G. 2bl:cn+ "Reward: Proposal 8560"
+[18:24] Jason 7pd- "Pending proposals"
+[23:57] Aris  1pd- "Pending proposal: Discord"
+
+2021-06-06
+[02:33] Aris     3pd- "Pending proposals"
+[19:45] Murphy   4pd- "Pending proposals"
+[19:58] Jason    5bg- "Expungements (R. Lee)"
+[21:00] Murphy   5bl:cn+ "Reward: ADoP weekly"
+[21:00] Aris     5bl:cn+ "Reward: Registrar weekly"
+[21:00] Jason    5bl:cn+ "Reward: Stonemason weekly"
+[21:00] G.      10bl:cn+ "Reward: Arbitor weekly"
+[21:00] Murphy   5bl:cn+ "Reward: Tailor weekly"
+[21:00] Jason   15bl:cn+ "Reward: Assessed proposal"
+[21:00] Murphy   5bl:cn+ "Reward: Tailor monthly"
+[23:21] Aris   294cn>Jason
+[23:21] Jason    7xv>Aris
+[23:24] Aris   200cn>banana
+[23:24] banana   1vc>Aris
+[23:48] #report
+
+2021-06-07
+[00:59] G. 2pd- "Pending proposals"

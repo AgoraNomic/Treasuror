@@ -203,7 +203,7 @@ impl Context {
                 let tb = opttb.unwrap_or(self.currency_total(Currency::Coin));
                 let uf = self.relevel(tb);
 
-                Some(format!("  RELEVELING: TB={}, UF={:.4}", tb, uf))
+                Some(format!("  RELEVELING: TB={}, UF={:.4}", self.total_buoyancy, uf))
             }
             Command::Report => {
                 self.forbes -= 1;

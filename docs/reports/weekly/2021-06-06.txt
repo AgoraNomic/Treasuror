@@ -1,5 +1,5 @@
 ========================================================================
-                    FORBES FOUR HUNDRED THIRTY-EIGHT
+                    FORBES FOUR HUNDRED THIRTY-NINE
 --------------------------------   or   --------------------------------
                        TREASUROR'S WEEKLY REPORT
 ========================================================================
@@ -13,13 +13,11 @@ DATES OF PUBLICATION                                  (contains no data)
 
 Date of previous original report: 28 May 2021
 Date of first report this week:   6 June 2021
-Date of first revision:           7 June 2021
 
 
 NOTES ON REPORT                                       (contains no data)
 ========================================================================
 
-* (Revision 1) Most of 6 June 2021's history was added.
 * Find my report drafts on Discord or IRC.
 * As always, please check the general accuracy of this report.
 
@@ -37,16 +35,16 @@ ASSET BALANCES                                           (self-ratifies)
    Player(+a)      cn     wc    jc    lc    vc    wp    bg    pd    xv 
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
  Aenet              428     1     1     1     1     0     0     0     0
- Aris              4728     0     0     2     6     0     0     6     7
+ Aris              5152     0     0     2     5     0     0     6     0
  ATMunn            3208     0     0     1     0     0     0     4     0
- banana     [0]     828     0     1     1     0     3     0     0     0
+ banana     [0]     628     0     1     1     1     3     0     0     0
  Cuddlebeam         583     1     0     0     0     1     0     0     0
  Falsifian         1484     0     1     2     0    23     0     0     0
- G.                3699     1     1     0     0     0     4     7     5
+ G.                3559     1     1     0     0     0     4     9     5
  Gaelan            2222     1     1     1     1     0     0     5     0
- Jason             3955     0     0     0     0     0     0    22     0
+ Jason             3381     0     0     0     0     0     5    22     7
  Jumble             428     1     1     1     1     3     0     0     0
- Murphy            2833     1     1     2     0     0     0     0     5
+ Murphy            2623     1     1     2     0     0     0     4     5
  Nathan             331     1     1     1     1     0     0     0     0
  nix               1282     1     3     0     1     1     0     2     0
  Noah               592     1     1     1     1     0     0     0     0
@@ -120,29 +118,8 @@ ASSET INDEX                                       (does not self-ratify)
 RECENT HISTORY                                    (does not self-ratify)
 ========================================================================
 
-*** Mon 7 June 2021
-[00:59] G.: -2pd (Pending proposals)
-
 *** Sun 6 June 2021
-[23:48]   WEEKLY REPORT
-[23:24] Aris:   +  1vc (Transfer banana)
-[23:24] banana: -  1vc (Transfer Aris)
-[23:24] banana: +200cn (Transfer Aris)
-[23:24] Aris:   -200cn (Transfer banana)
-[23:21] Aris:   +  7xv (Transfer Jason)
-[23:21] Jason:  -  7xv (Transfer Aris)
-[23:21] Jason:  +294cn (Transfer Aris)
-[23:21] Aris:   -294cn (Transfer Jason)
-[21:00] Murphy: + 70cn (Reward: Tailor monthly)
-[21:00] Jason:  +210cn (Reward: Assessed proposal)
-[21:00] Murphy: + 70cn (Reward: Tailor weekly)
-[21:00] G.:     +140cn (Reward: Arbitor weekly)
-[21:00] Jason:  + 70cn (Reward: Stonemason weekly)
-[21:00] Aris:   + 70cn (Reward: Registrar weekly)
-[21:00] Murphy: + 70cn (Reward: ADoP weekly)
-[19:58] Jason:  -  5bg (Expungements (R. Lee))
-[19:45] Murphy: -  4pd (Pending proposals)
-[02:33] Aris:   -  3pd (Pending proposals)
+[02:33] Aris: -3pd (Pending Proposals)
 
 *** Sat 5 June 2021
 [23:57] Aris:  - 1pd (Pending proposal: Discord)
@@ -359,7 +336,7 @@ RECENT HISTORY                                    (does not self-ratify)
 [00:00] ATMunn:     +120cn (Payday)
 [00:00] Aris:       +120cn (Payday)
 [00:00] Aenet:      +120cn (Payday)
-[00:00]   RELEVELING: TB=34495, UF=14.0000
+[00:00]   RELEVELING: TB=30618, UF=12.0000
 
 *** Fri 30 April 2021
 [23:25] Aris: +1vc (Personal grant: Participation)

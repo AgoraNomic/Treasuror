@@ -41,6 +41,10 @@ Full List of Monthly Reports:
 
 Full List of Weekly Reports:
 
+* [2021-06-07](weekly/2021-06-07.txt)
+* [2021-06-07](weekly/2021-06-07.txt)
+* [2021-06-07](weekly/2021-06-07.txt)
+* [2021-06-06](weekly/2021-06-06.txt)
 * [2021-05-29](weekly/2021-05-29.txt)
 * [2021-05-28A](weekly/2021-05-28A.txt)
 * [2021-05-28](weekly/2021-05-28.txt)
