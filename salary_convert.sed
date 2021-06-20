@@ -5,7 +5,7 @@
 
 /\(..\?\) BoC -.\+- \(.\+\) \(assessed\|published the\) \(.\+\)/ {
     s//[XX:XX] \2 \1bl:cn+ "Reward: \4"/
-    s/Proposals\? .\+\(.\+\)/Assessed proposal/
+    s/Proposals\? .\+\(.\+\)/Assessed proposal"/
     s/proposal pool/Proposal Pool/
 }
 s/\(.\+\)'s \(.\+\) report/\1 \2/

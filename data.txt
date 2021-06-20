@@ -779,13 +779,13 @@
 [14:55] Jason   1pd- "Pending proposal"
 [15:34] ATMunn  4pd- "Pending proposals"
 [15:45] G.      5xv- "Buying strength"
-[15:45] #newplayer ais523
+[15:45] #newplayer ais "ais523"
 [15:46] #nuke
-[15:54] ais523 10bl:cn+ "Welcome Package: G."
-[15:54] ais523 1wc+ "Welcome Package: G."
-[15:54] ais523 1jc+ "Welcome Package: G."
-[15:54] ais523 1lc+ "Welcome Package: G."
-[15:54] ais523 1vc+ "Welcome Package: G."
+[15:54] ais 10bl:cn+ "Welcome Package: G."
+[15:54] ais 1wc+ "Welcome Package: G."
+[15:54] ais 1jc+ "Welcome Package: G."
+[15:54] ais 1lc+ "Welcome Package: G."
+[15:54] ais 1vc+ "Welcome Package: G."
 [15:59] G. 2bl:cn+ "Popular proposal: Proposal 8560"
 
 2021-06-10
@@ -796,10 +796,9 @@
 [14:17] ATMunn      1wc>Cuddlebeam
 [14:36] R._Lee      1wc>Cuddlebeam
 [18:15] Cuddlebeam 50cn>Jumble
-[18:21] Joe         1wc>Cuddlebeam
 [19:05] Falsifian   1wc>ATMunn
 [20:08] Cuddlebeam  4wc- "Set of cards"
-[20:08] Cuddlebeam 10wc- "Set of products"
+[20:08] Cuddlebeam 10wp+ "Set of products"
 
 2021-06-13
 [06:34] Aris   300cn>Jason
@@ -815,4 +814,99 @@
 [15:03] G.       5bl:cn+ "Reward: CFJ 3908"
 [15:03] Jason    5bl:cn+ "Reward: CFJ 3912"
 [15:03] Murphy   5bl:cn+ "Reward: CFJ 3911"
-[21:04] Jason   10bl:cn+ "B Glitter: CFJ 3912"
+[21:30] Jason   13bl:cn+ "B Glitter: CFJ 3912"
+[22:47] Murphy   5bl:cn+ "Reward: ADoP weekly"
+[22:47] Aris    15bl:cn+ "Reward: Proposal Pool"
+[22:47] Trigon  15bl:cn+ "Reward: Treasuror weekly"
+[22:47] Trigon  15bl:cn+ "Reward: Treasuror weekly"
+[22:47] Aris     5bl:cn+ "Reward: Registrar weekly"
+[22:47] G.      10bl:cn+ "Reward: Arbitor weekly"
+[22:47] Murphy   5bl:cn+ "Reward: Tailor weekly"
+[23:19] #report
+
+2021-06-14
+[01:07] G.     7bl:cn+ "Reward: Proposal 8561"
+[01:07] ATMunn 7bl:cn+ "Reward: Proposal 8562"
+[01:07] Aris   7bl:cn+ "Reward: Proposal 8564"
+[01:07] Aris   6bl:cn+ "Reward: Proposal 8565"
+[01:07] Jason  9bl:cn+ "Reward: Proposal 8566"
+[01:07] Jason  7bl:cn+ "Reward: Proposal 8569"
+[01:07] Jason  9bl:cn+ "Reward: Proposal 8570"
+[01:07] Jason  7bl:cn+ "Reward: Proposal 8571"
+[01:07] Jason  9bl:cn+ "Reward: Proposal 8572"
+[01:25] Jason  1lc+    "Popular proposal: Proposal 8566"
+[07:07] #newplayer Telna
+[07:09] Telna 10bl:cn+ "Welcome Package: Telna"
+[07:09] Telna 1wc+ "Welcome Package: Telna"
+[07:09] Telna 1jc+ "Welcome Package: Telna"
+[07:09] Telna 1lc+ "Welcome Package: Telna"
+[07:09] Telna 1vc+ "Welcome Package: Telna"
+[12:29] Jumble       1wc>Cuddlebeam
+[16:04] Cuddlebeam 300cn>Telna
+[16:04] Cuddlebeam   1jc>Telna
+[16:04] Telna        1wc>Cuddlebeam
+[16:14] Cuddlebeam   1jc+ "Personal grant: Compliance"
+[16:29] Telna   1lc>Murphy
+[16:29] Murphy  1jc>Telna
+[16:51] G.      1jc>Telna
+[16:51] G.      1wp+ "Personal grant: Legacy"
+[16:55] Telna   4jc- "Set of cards"
+[16:55] Telna  10bg+ "Set of products"
+[16:56] Telna   2bg>G.
+[18:10] ais     2lc>Murphy
+[18:10] Murphy  4lc- "Set of cards"
+[18:10] Murphy 10pd+ "Set of products"
+[18:10] Murphy  5pd>ais
+
+2021-06-15
+[21:01] Falsifian 1wc+ "Victory raffle"
+[21:59] G.      120cn- "Stone Auction: Power Stone"
+[21:59] G.      350cn- "Stone Auction: Wealth Stone"
+[21:59] Jason   160cn- "Stone Auction: Concentration Stone"
+[22:45] Trigon    1wp+ "Personal grant: Legacy"
+[23:14] G.     5bl:cn+ "Wielding Wealth Stone"
+[23:17] ATMunn    1wp+ "Personal grant: Legacy"
+
+2021-06-16
+[00:53] nix    1wp+ "Personal grant: Legacy"
+[01:33] ATMunn 200cn>R._Lee
+[01:33] Jason  120cn>R._Lee
+[01:33] R._Lee   1vc>Jason
+[01:33] Jason   80cn>R._Lee
+[01:33] R._Lee   1jc>Jason
+
+2021-06-17
+[13:32] Jason  1lc+ "Wielding Concentration Stone"
+[13:40] ATMunn 1jc>Jason
+[13:40] Trigon 1lc>Jason
+
+2021-06-18
+[03:37] Falsifian 1wc>ATMunn
+[03:39] Falsifian 1wp+ "Personal grant: Legacy"
+[03:39] Falsifian 1wp>ATMunn
+[03:40] Gaelan    1lc+ "Personal grant: Legislation"
+
+2021-06-20
+[03:31] #newplayer surprise
+[07:09] surprise 10bl:cn+ "Welcome Package: Telna"
+[07:09] surprise 1wc+ "Welcome Package: Telna"
+[07:09] surprise 1jc+ "Welcome Package: Telna"
+[07:09] surprise 1lc+ "Welcome Package: Telna"
+[07:09] surprise 1vc+ "Welcome Package: Telna"
+[20:37] Jason   1lc>Trigon
+[20:37] Trigon  1jc>Jason
+[20:40] Jason   4jc- "Set of cards"
+[20:40] Jason  10bg+ "Set of products"
+[20:40] Jason   3bg>ATMunn
+[20:40] Jason   3bg>Trigon
+[20:43] Trigon  2bg- "Expungements"
+[22:39] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[22:39] Jason  15bl:cn+ "Reward: Assessed proposal"
+[22:39] nix     5bl:cn+ "Reward: Ministor monthly"
+[22:39] Aris   15bl:cn+ "Reward: proposal pool"
+[22:39] nix    10bl:cn+ "Reward: Herald monthly"
+[22:39] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[22:39] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[22:39] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[22:39] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[22:39] Jason  15bl:cn+ "Reward: Full Logical Ruleset"
