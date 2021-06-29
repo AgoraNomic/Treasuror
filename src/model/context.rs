@@ -160,7 +160,10 @@ impl Context {
             }
 
             if t.amount() != 0 {
-                self.history.push_back(DatedHistoryEntry::new(dt, HistoryEntry::Transaction(t.clone())))
+                self.history.push_back(DatedHistoryEntry::new(
+                    dt,
+                    HistoryEntry::Transaction(t.clone()),
+                ))
             }
         }
     }
@@ -203,7 +206,10 @@ impl Context {
                 let tb = opttb.unwrap_or(self.currency_total(Currency::Coin));
                 let uf = self.relevel(tb);
 
-                Some(format!("  RELEVELING: TB={}, UF={:.4}", self.total_buoyancy, uf))
+                Some(format!(
+                    "  RELEVELING: TB={}, UF={:.4}",
+                    self.total_buoyancy, uf
+                ))
             }
             Command::Report => {
                 self.forbes -= 1;
@@ -220,7 +226,8 @@ impl Context {
         };
 
         if let Some(message) = option {
-            self.history.push_back(DatedHistoryEntry::new(dt, HistoryEntry::Event(message)));
+            self.history
+                .push_back(DatedHistoryEntry::new(dt, HistoryEntry::Event(message)));
         }
     }
 

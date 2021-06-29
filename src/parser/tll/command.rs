@@ -31,9 +31,11 @@ impl Command {
                     Token::String(s) => { s },
                     Token::Identifier(s) => { s },
                 } else { panic!("cannot deactivate no one") }))),
-            "deregister" => Some(Command::Deregister(match_first_pop!(tokens {
+            "delplayer" | "delcontract" | "deregister" => {
+                Some(Command::Deregister(match_first_pop!(tokens {
                     Token::Identifier(s) => { s },
-                } else { panic!("expected identifier in #deregister command") }))),
+                } else { panic!("expected identifier in #deregister command") })))
+            }
             "payday" => Some(Command::Payday),
             "newcontract" => {
                 let identifier = match_first_pop!(tokens {
@@ -47,7 +49,7 @@ impl Command {
 
                 Some(Command::NewContract(identifier, full_name))
             }
-            "newplayer" => {
+            "newplayer" | "register" => {
                 let identifier = match_first_pop!(tokens {
                     Token::Identifier(s) => { s },
                 } else { panic!("expected identifier in #newplayer command") });

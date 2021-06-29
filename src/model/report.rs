@@ -1,7 +1,10 @@
 use std::collections::HashMap;
 use std::fmt::{self, Display};
 
-use chrono::{Datelike, naive::{NaiveDate, MIN_DATE}};
+use chrono::{
+    naive::{NaiveDate, MIN_DATE},
+    Datelike,
+};
 
 use numeral::Cardinal;
 use tabular::{Row, Table};

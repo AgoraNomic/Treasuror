@@ -910,3 +910,60 @@
 [22:39] R._Lee 10bl:cn+ "Reward: Referee weekly"
 [22:39] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
 [22:39] Jason  15bl:cn+ "Reward: Full Logical Ruleset"
+[22:50] #report
+[22:57] ATMunn 2bg- "Expungements"
+
+2021-06-21
+[01:32] Telna 1jc+ "Finger Pointer"
+[02:03] G. 5bl:cn+ "Wielding Wealth Stone"
+[04:29] Aris 50cn>ATMunn
+[04:29] Aris 50cn>Cuddlebeam
+[04:29] Aris 50cn>G.
+[04:29] Aris 50cn>Murphy
+[04:29] Aris 50cn>banana
+[04:29] Aris 100cn>Trigon
+[04:29] Aris 100cn>Jason
+[18:08] ATMunn 2wc>Falsifian
+[18:08] ATMunn 1wp>Falsifian
+[18:12] Jason  1wc>Falsifian
+
+2021-06-22
+[01:00] ais    5bl:cn+ "Reward: CFJ 3916"
+[01:00] Gaelan 5bl:cn+ "Reward: CFJ 3910"
+[01:00] G.     5bl:cn+ "Reward: CFJ 3917"
+
+2021-06-23
+[14:23] Trigon 1lc+ "Popular proposal: Proposal 8574"
+[14:29] Trigon 9bl:cn+ "Reward: Proposal 8574"
+[14:29] Jason 7bl:cn+  "Reward: Proposal 8575"
+[14:29] Jason 7bl:cn+  "Reward: Proposal 8576"
+[14:29] Jason 6bl:cn+  "Reward: Proposal 8578"
+[14:29] Jason 6bl:cn+  "Reward: Proposal 8579"
+[14:29] Jason 8bl:cn+  "Reward: Proposal 8580"
+[14:29] Aris 3bl:cn+   "Reward: Proposal 8582"
+[14:29] Murphy 7bl:cn+ "Reward: Proposal 8583"
+[14:29] Murphy 7bl:cn+ "Reward: Proposal 8585"
+
+2021-06-25
+[20:38] #delcontract TeamMarg
+
+2021-06-27
+[19:56] ATMunn     12bl:cn+ "V Glitter: Popular"
+[19:56] Aris       12bl:cn+ "V Glitter: Popular"
+[19:56] Cuddlebeam 12bl:cn+ "V Glitter: Popular"
+[19:56] Jason      12bl:cn+ "V Glitter: Popular"
+[19:56] Murphy     12bl:cn+ "V Glitter: Popular"
+[19:56] G.         12bl:cn+ "V Glitter: Popular"
+[19:56] Trigon     12bl:cn+ "V Glitter: Popular"
+[20:00] R._Lee     12bl:cn+ "C Glitter: Referee"
+[20:03] Trigon     17bl:cn+ "O Glitter: Proposal 8574"
+[21:28] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[21:28] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[21:28] Aris  5bl:cn+ "Reward: Registrar weekly"
+[21:28] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[21:28] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[21:28] Telna 10bl:cn+ "Reward: Arbitor weekly"
+[21:28] Jason  5bl:cn+ "Reward: Stonemason weekly"
+[21:28] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[21:28] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[21:28] Jason 15bl:cn+ "Reward: Assessed proposal"
