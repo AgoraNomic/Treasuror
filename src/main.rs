@@ -7,7 +7,7 @@ use chrono::{
     Utc,
 };
 
-use treasuror::{
+use treasuror_core::{
     model::{Context, Currency, Report},
     parser::{gsdl::Parser as GsdParser, tll::Parser as TlParser}
 };
