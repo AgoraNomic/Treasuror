@@ -1,0 +1,94 @@
+2021-01-18
+[16:16] nix 11bl:cn+ "E Glitter"
+[20:48] G. 2bg- "Expungement (Gaelan)"
+[21:04] G. 300cn>Gaelan
+[21:04] G. 1wc+ "Rulebending"
+
+2021-01-19
+[19:37] Aris 1pd>JTAC
+[19:55] #newplayer Joe "Slam_Joe_Junior_Supreme"
+
+2021-01-20
+[01:58] Joe 10bl:cn+ "Welcome Package: Falsifian"
+[01:58] Joe 1wc+ "Welcome Package: Falsifian"
+[01:58] Joe 1jc+ "Welcome Package: Falsifian"
+[01:58] Joe 1lc+ "Welcome Package: Falsifian"
+[01:58] Joe 1vc+ "Welcome Package: Falsifian"
+[11:27] Cuddlebeam *>CB_Locker
+[11:29] CB_Locker 300cn>Cuddlebeam
+[16:02] ATMunn 10cn>Jason "meme"
+[16:11] G. 1pd- "Pending proposal: Unofficial injustice"
+[16:14] G. 1pd- "Pending proposal: de-dictatorship"
+[17:57] Joe 1wc>Cuddlebeam "Promise"
+[17:57] Joe 200cn+ "Promise"
+[18:21] G. 1pd- "Pending proposal: Turn Undead v2"
+[18:46] G. 3wc>Cuddlebeam "Expungements"
+[18:46] G. 12wp>Cuddlebeam "Expungements"
+[18:46] G. 9bg- "Expungements"
+[18:46] CB_Locker *wc>Cuddlebeam "Set of cards"
+[18:46] CB_Locker *wc>Cuddlebeam "Set of cards"
+[18:46] Cuddlebeam 4wc- "Set of cards"
+[18:46] Cuddlebeam 10wp+ "Set of products"
+[18:46] Cuddlebeam 4wc- "Set of cards"
+[18:46] Cuddlebeam 10wp+ "Set of products"
+[18:46] #nuke
+[19:05] Cuddlebeam 1lc>Aris
+[19:05] Aris 1wc>Cuddlebeam
+[19:16] Cuddlebeam 1vc>Jason
+[19:16] Cuddlebeam 1jc>Jason
+[19:16] Jason 1wc>Cuddlebeam
+[19:25] Cuddlebeam *wc>CB_Locker
+[19:44] Trigon 1lc>Jason
+[19:44] Jason 110cn>Trigon
+[19:47] Aris 2lc>Jason
+[19:47] Jason 4lc- "Set of cards"
+[19:47] Jason 10pd+ "Set of products"
+[19:47] Jason 5pd>Aris "Set of products"
+
+2021-01-24
+[08:53] Murphy      5bl:cn+ "Reward: ADoP weekly"
+[08:53] Trigon     15bl:cn+ "Reward: Treasuror weekly"
+[08:53] Ubercrow    5bl:cn+ "Reward: Tailor weekly"
+[08:53] Jason       5bl:cn+ "Reward: Stonemason weekly"
+[08:53] Aris       15bl:cn+ "Reward: Proposal pool"
+[08:53] JTAC       10bl:cn+ "Reward: Referee weekly"
+[08:53] Falsifian   5bl:cn+ "Reward: Registrar weekly"
+[08:53] ATMunn     10bl:cn+ "Reward: Notary weekly"
+[08:53] nix        10bl:cn+ "Reward: Herald weekly"
+[22:11] #report
+[23:48] Murphy      5bl:cn+ "Reward: CFJ 3892"
+
+2021-01-26
+[20:21] Aris 1pd- "Pending proposal: Power Up"
+[20:21] Aris 1pd- "Pending proposal: We the People"
+[20:21] Aris 1pd- "Pending proposal: Justice for All"
+[20:21] nix 7bl:cn+ "Reward: Proposal 8530"
+[20:21] Jason 9bl:cn+ "Reward: Proposal 8531"
+[20:24] Jason 1lc+ "Popular proposal: Proposal 8531"
+
+2021-01-28
+[01:52] nix 5bl:cn>Aris
+[19:35] CB_Locker *cn>Cuddlebeam "Trigon dislikes lockers"
+[19:42] Joe 1wc>Cuddlebeam
+[19:42] Cuddlebeam 200cn>Joe
+[20:07] CB_Locker *>Cuddlebeam "why are you like this"
+[20:07] Cuddlebeam 4wc- "Set of cards"
+[20:07] Cuddlebeam 10wp+ "Set of products"
+
+2021-01-30
+[03:33] Jason 90cn>ATMunn
+[03:33] ATMunn 1lc>Jason
+
+2021-01-31
+[18:28] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[18:28] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[18:28] G.     10bl:cn+ "Reward: Arbitor weekly"
+[18:28] Aris   15bl:cn+ "Reward: Proposal Pool"
+[18:28] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[18:28] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[18:28] JTAC   10bl:cn+ "Reward: Referee weekly"
+[18:28] Jason  15bl:cn+ "Reward: Assessed proposal"
+[18:28] Jason  15bl:cn+ "Reward: Full Logical Ruleset"
+[20:13] D._Corp. 220cn>Aris
+[20:13] D._Corp. 154cn>Falsifian
+[20:13] D._Corp. 121cn>Jason

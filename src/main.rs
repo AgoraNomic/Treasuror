@@ -1,5 +1,5 @@
 use std::env::args;
-use std::fs::File;
+use std::fs::{self, File};
 use std::io::{self, BufReader, Read, Write};
 
 use chrono::{
@@ -22,38 +22,46 @@ fn main() -> io::Result<()> {
         );
         Context::from_datetime(Utc::now().naive_utc())
     } else if args.len() > 1 {
-        Context::from_datetime(
-            NaiveDate::parse_from_str(&(args[1])[..], "%F")
-                .unwrap_or_else(|_| panic!("invalid date format: {}", args[1]))
-                .and_time(if args.len() == 2 {
-                    NaiveTime::from_hms(0, 0, 0)
-                } else {
-                    NaiveTime::parse_from_str(&(args[2])[..], "%R")
-                        .unwrap_or_else(|_| panic!("invalid time format: {}", args[2]))
-                }),
-        )
+        let date = NaiveDate::parse_from_str(&(args[1])[..], "%F")
+                .unwrap_or_else(|_| panic!("invalid date format: {}", args[1]));
+
+        let time = if args.len() == 2 {
+            NaiveTime::from_hms(0, 0, 0)
+        } else {
+            NaiveTime::parse_from_str(&(args[2])[..], "%R")
+                .unwrap_or_else(|_| panic!("invalid time format: {}", args[2]))
+        };
+
+        Context::from_datetime(date.and_time(time))
     } else {
         panic!("unknown number of args: {}", args.len())
     };
 
-    let mut tlparser = TlParser::from_reader(BufReader::new(
-        File::open("data.txt").expect("data.txt not found"),
-    ));
-
     let mut gsdparser = GsdParser::from_reader(BufReader::new(
-        File::open("state.txt").expect("state.txt not found"),
+        File::open("data/state.txt").expect("data/state.txt not found"),
     ));
 
     while let Some(d) = gsdparser.next_raw() {
         context.process(&d);
     }
 
-    while let Some(lo) = tlparser.next_raw() {
-        context.enter(lo);
+    let mut files = fs::read_dir("data/tll")?
+        .map(|f| f.unwrap())
+        .collect::<Vec<_>>();
+    files.sort_by_key(|f| f.file_name());
+
+    for f in files.iter() {
+        let mut tlparser = TlParser::from_reader(BufReader::new(
+            File::open(f.path()).unwrap_or_else(|_| panic!("could not open file {:?}", f.file_name()))
+        ));
+
+        while let Some(lo) = tlparser.next_raw() {
+            context.enter(lo);
+        }
     }
 
     let mut format = String::new();
-    File::open("format.txt")?.read_to_string(&mut format)?;
+    File::open("data/format.txt")?.read_to_string(&mut format)?;
 
     let mut f = File::create("out.txt")?;
     f.write_all(

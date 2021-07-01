@@ -1,0 +1,163 @@
+2021-04-01
+[00:00] #payday
+[06:15] Jason  1lc+ "Personal grant: Legislation"
+[06:32] ATMunn 1lc+ "Personal grant: Legislation"
+
+2021-04-02
+[23:07] L&F_Dept. 46cn+ "Ratification without objection"
+
+2021-04-03
+[16:24] #report
+
+2021-04-04
+[00:42] Jason   2lc>Gaelan
+[00:44] Gaelan  4lc- "Set of cards"
+[00:44] Gaelan 10pd+ "Set of products"
+[00:44] Gaelan  5pd>Jason
+[00:45] Murphy  5bl:cn+ "Reward: CFJ 3902"
+[01:37] Gaelan  5bl:cn+ "Wielding Wealth Stone"
+[05:00] Press   5bl:cn>Falsifian
+[05:00] Press   5bl:cn>Falsifian
+[09:15] Murphy  1lc+ "Personal grant: Legislation"
+[10:17] ATMunn  8bl:cn+ "Glitter: 3MLS for Notary"
+[10:17] Jason   8bl:cn+ "Glitter: 12MLS for Assessor"
+[10:17] Trigon  8bl:cn+ "Glitter: 3/6/9MLS for Treasuror"
+[10:17] Aris    8bl:cn+ "Glitter: 3/6/9MLS for Promotor"
+[10:21] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[10:21] Gaelan 10bl:cn+ "Reward: Referee weekly"
+[10:21] Aris   15bl:cn+ "Reward: Proposal Pool"
+[10:21] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[10:21] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[10:21] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[10:21] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[10:21] G.     10bl:cn+ "Reward: Arbitor weekly"
+[10:21] Gaelan 10bl:cn+ "Reward: Referee weekly"
+[10:21] Jason  15bl:cn+ "Reward: Full Logical Ruleset "
+
+2021-04-06
+[11:12] Jason 5bl:cn+ "Reward: Proposal 8556"
+[11:14] Jason 1lc+    "Popular proposal: Proposal 8556"
+
+2021-04-07
+[15:35] Falsifian 1wp+ "Personal grant: Legacy"
+
+2021-04-08
+[20:28] nix  1vc>Aris
+[20:28] Aris 1jc>nix
+
+2021-04-09
+[00:00] #relevel 25000
+[02:10] Jason 1wc+ "Passage of Proposal 8555"
+[02:11] Aris  10bl:cn+ "Reward: Proposal 8549"
+[02:11] Jason  6bl:cn+ "Reward: Proposal 8553"
+[02:11] Aris  10bl:cn+ "Reward: Proposal 8554"
+[02:11] G.     6bl:cn+ "Reward: Proposal 8555"
+
+2021-04-10
+[17:29] #report
+[21:00] #deactivate Lucidiot
+[21:00] #deactivate JTAC
+[21:00] #deactivate Ubercrow
+[21:00] #deactivate Joe
+
+2021-04-11
+[18:44] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[18:44] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[19:39] ATMunn 16bl:cn+ "Glitter: Notary"
+[19:39] Jason  15bl:cn+ "Glitter: Proposal 8556"
+[19:41] Aris   11bl:cn+ "Glitter: Registrar"
+[20:07] Aris    5bl:cn+ "Reward: Registrar weekly"
+[20:07] Aris   15bl:cn+ "Reward: Proposal Pool"
+[20:07] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[20:07] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[20:07] Aris    5bl:cn+ "Reward: Registrar weekly"
+[20:07] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[20:07] Jason  15bl:cn+ "Reward: Assessed proposal"
+[20:07] Trigon 15bl:cn+ "Reward: Treasuror monthly"
+[20:07] Aris    5bl:cn+ "Reward: Registrar monthly"
+[21:27] G.      5bl:cn+ "Reward: CFJ 3903"
+[21:31] G.      1bg-    "Expungement"
+[22:53] Falsifian 1wc+  "Victory Card Raffle"
+[23:07] nix     1wp+    "Personal Grant: Legacy"
+[23:51] Gaelan  5bl:cn+ "Wielding Wealth Stone"
+
+2021-04-12
+[12:03] Jason  1wc>Pooling
+[12:18] Gaelan 5bl:cn+ "Wielding Wealth Stone"
+[12:23] Jason  7bl:cn+ "Vocal Voter"
+
+2021-04-13
+[22:09] Cuddlebeam 1wp+ "Personal Grant: Legacy"
+
+2021-04-15
+[01:23] Aris 4bl:cn+ "Reward: Proposal 8557"
+[01:45] Aris 1lc+    "Popular Proposal: Proposal 8557"
+
+2021-04-16
+[02:37] #report
+[04:33] #bt 28418
+
+2021-04-17
+[05:17] #newplayer seventeen "seventeenMachine"
+[05:20] seventeen 10bl:cn+ "Welcome Package: Trigon"
+[05:20] seventeen 1wc+     "Welcome Package: Trigon"
+[05:20] seventeen 1jc+     "Welcome Package: Trigon"
+[05:20] seventeen 1lc+     "Welcome Package: Trigon"
+[05:20] seventeen 1vc+     "Welcome Package: Trigon"
+[05:57] #revision
+[17:45] #revision
+
+2021-04-18
+[16:35] Cuddlebeam 3wp>Gaelan
+[16:51] Cuddlebeam 3wp>banana
+[17:32] Cuddlebeam 3wp>ATMunn
+[19:17] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[19:17] G.     10bl:cn+ "Reward: Arbitor weekly"
+[19:17] nix     5bl:cn+ "Reward: Ministor weekly"
+[19:17] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[19:17] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[19:17] Gaelan 10bl:cn+ "Reward: Referee weekly"
+[19:17] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[19:17] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[19:17] Aris    5bl:cn+ "Reward: Registrar weekly"
+[19:17] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[19:17] G.     10bl:cn+ "Reward: Arbitor weekly"
+[19:17] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[19:17] Jason  15bl:cn+ "Reward: Assessed proposal
+[19:17] nix    10bl:cn+ "Reward: Herald monthly"
+[19:23] Cuddlebeam 3wp>Jumble
+[20:44] ATMunn 3wp>Falsifian 
+[20:51] Cuddlebeam  1wc>seventeen
+[20:51] Cuddlebeam 80cn>seventeen
+
+2021-04-19
+[01:13] Gaelan      3wp>Falsifian
+[01:13] Falsifian 240cn>Gaelan   
+[01:13] Gaelan    200cn>Falsifian
+[01:13] Falsifian   1wc>Gaelan   
+[07:02] Gaelan      5bl:cn+       "Wielding Wealth Stone"
+[07:02] Gaelan      5cn>nix
+[07:02] Gaelan      2cn>Jason
+[07:02] Gaelan      2cn>seventeen
+[07:02] Gaelan      2cn>G.
+[07:02] Gaelan      2cn>Trigon
+[18:16] Falsifian   1wc>ATMunn   
+[18:16] ATMunn      1wc>Falsifian
+[18:16] Falsifian 200cn>ATMunn   
+
+2021-04-21
+[15:13] Pooling 1wc>Falsifian
+
+2021-04-25
+[17:11] Murphy 5bl:cn+ "Reward: ADoP weekly"
+[17:11] Aris 15bl:cn+ "Reward: Proposal Pool"
+[17:11] Gaelan 10bl:cn+ "Reward: Referee weekly"
+[17:11] Jason 5bl:cn+ "Reward: Stonemason weekly"
+[17:11] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[17:11] Murphy 5bl:cn+ "Reward: Tailor weekly"
+[19:46] #report
+[23:52] Jason 20bl:cn+ "Reward: 'Voting Thesis'"
+
+2021-04-30
+[20:28] G. 1lc+ "Personal grant: Legislation"
+[23:25] Aris 1vc+ "Personal grant: Participation"

@@ -1,0 +1,128 @@
+2021-05-01
+#relevel
+#payday
+[06:55] Gaelan 5bl:cn+ "Wielding Wealth Stone"
+[07:16] #activate Nathan
+[22:43] #deregister grok
+[22:43] #deregister Shy_Owl
+
+2021-05-02
+[15:48] Falsifian 1wp+ "Personal grant: Legacy"
+[17:11] ATMunn 1lc+ "Personal grant: Legislation"
+[17:14] Jason  1lc+ "Personal grant: Legislation"
+[21:43] Murphy 1vc+ "Personal grant: Participation"
+[23:38] ATMunn 5bl:cn+ "Reward: CFJ 3904"
+[23:53] #report
+[23:54] G. 1lc+ "Personal Grant: Legislation"
+
+2021-05-07
+[21:26] Falsifian 1wc+ "Legacy wc grant"
+
+2021-05-09
+[20:42] Gaelan    5bl:cn+  "Wielding Wealth Stone"
+[20:45] seventeen 1lc+     "Personal grant: Legislation"
+[20:47] Gaelan    1lc+     "Personal grant: Legislation"
+[20:53] Aris      1pd-     "Pending proposal: Silver Quill"
+[20:54] Trigon    11bl:cn+ "Glitter: 2020 Employee of the Year"
+[20:56] Murphy   5bl:cn+ "Reward: ADoP weekly"
+[20:56] Trigon  15bl:cn+ "Reward: Treasuror weekly"
+[20:56] Aris     5bl:cn+ "Reward: Registrar weekly"
+[20:56] Aris    15bl:cn+ "Reward: Proposal Pool"
+[20:56] Gaelan  10bl:cn+ "Reward: Referee weekly"
+[20:56] ATMunn  10bl:cn+ "Reward: Notary weekly"
+[20:56] Jason    5bl:cn+ "Reward: Stonemason weekly"
+[20:56] Murphy   5bl:cn+ "Reward: Tailor weekly"
+[20:56] Murphy   5bl:cn+ "Reward: Tailor monthly"
+[21:06] Murphy   5bl:cn+ "Reward: ADoP weekly"
+[21:06] Aris     5bl:cn+ "Reward: Registrar weekly"
+[21:06] Aris    15bl:cn+ "Reward: Proposal Pool"
+[21:06] G.      10bl:cn+ "Reward: Arbitor weekly"
+[21:06] Trigon  15bl:cn+ "Reward: Treasuror weekly"
+[21:06] ATMunn  10bl:cn+ "Reward: Notary weekly"
+[21:06] Jason   15bl:cn+ "Reward: Short Logical Ruleset"
+[21:06] G.      10bl:cn+ "Reward: Arbitor weekly"
+[21:06] Gaelan  10bl:cn+ "Reward: Referee weekly"
+[21:06] Aris    15bl:cn+ "Reward: Proposal Pool"
+[21:06] Murphy   5bl:cn+ "Reward: Tailor weekly"
+[21:06] Aris     5bl:cn+ "Reward: Registrar monthly"
+[21:06] nix      5bl:cn+ "Reward: Ministor monthly"
+[21:57] #report
+
+2021-05-10
+[02:00] Falsifian 1jc+ "Finger pointer"
+
+2021-05-11
+[20:20] G.      2lc>ATMunn
+[20:26] ATMunn  4lc- "Set of cards"
+[20:26] ATMunn 10pd+ "Set of products"
+[20:26] ATMunn  5pd>G.
+[20:29] ATMunn  1pd- "Pending proposal: Shredding"
+
+2021-05-14
+[21:53] Falsifian 400cn- "Victory Auction"
+[21:53] Falsifian   1wc+ "Victory Auction"
+
+2021-05-16
+[23:21] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[23:21] Aris    5bl:cn+ "Reward: Registrar weekly"
+[23:21] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[23:21] G.     10bl:cn+ "Reward: Arbitor weekly"
+[23:21] Gaelan 10bl:cn+ "Reward: Referee weekly"
+[23:21] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[23:31] #report
+[23:32] #bt 35799
+
+2021-05-17
+[16:15] Gaelan  5bl:cn+ "Wielding Wealth Stone"
+[23:39] Jason   7bl:cn+ "Vocal Voter"
+
+2021-05-23
+[08:10] Aris    1lc+    "Popular proposal: Proposal 8558"
+[19:31] nix     8bl:cn+ "Glitter: Silver Quill 2020"
+[19:31] Aris    8bl:cn+ "Glitter: Silver Quill 2020"
+[19:34] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[19:34] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[19:34] Aris   15bl:cn+ "Reward: Proposal Pool"
+[19:34] G.     10bl:cn+ "Reward: Arbitor weekly"
+[19:34] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[19:34] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[19:34] Jason  15bl:cn+ "Reward: Assessed proposal"
+
+2021-05-25
+[15:49] G.     1pd-    "Pending proposal: Election Cycle"
+[16:36] Aris   4bl:cn+ "Reward: Proposal 8558"
+[16:37] ATMunn 4bl:cn+ "Reward: Proposal 8559"
+[16:37] Jason  7bl:cn+ "Vocal Voter"
+[19:10] ATMunn 1lc+    "Popular proposal: Proposal 8559"
+
+2021-05-28
+[00:20] Jason  5bl:cn+ "Reward: CFJ 3905"
+[01:23] #report
+[01:25] Jason  1320cn- "Stone auction: Soul Stone"
+[01:25] Jason   425cn- "Stone auction: Sabotage Stone"
+[01:25] Jason   425cn- "Stone auction: Concentration Stone"
+[01:25] Jason   670cn- "Stone auction: Protection Stone"
+[01:25] Jason     1lc+ "Wielding Concentration Stone"
+[01:47] #revision
+[01:49] #bt 34495
+[08:19] Aris      1vc+ "Personal grant: Participation"
+[19:21] Jason   300cn>Trigon
+
+2021-05-29
+[18:13] #revision
+
+2021-05-30
+[20:17] ATMunn 12bl:cn+ "O Glitter: Proposal 8559"
+[20:32] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[20:32] Aris    5bl:cn+ "Reward: Registrar weekly"
+[20:32] Aris   15bl:cn+ "Reward: Proposal Pool"
+[20:32] Gaelan 10bl:cn+ "Reward: Referee weekly"
+[20:32] G.     10bl:cn+ "Reward: Arbitor weekly"
+[20:32] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[20:32] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[20:32] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[20:32] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[20:32] Jason  15bl:cn+ "Reward: Assessed proposal"
+
+2021-05-31
+[21:36] Trigon 1lc+ "Personal grant: Legislation"
