@@ -1,6 +1,6 @@
 [package]
 name = "assetlib"
-version = "1.2.0"
+version = "1.2.1"
 authors = ["Richard Snider <lighthousemaniac@gmail.com>"]
 edition = "2018"
 

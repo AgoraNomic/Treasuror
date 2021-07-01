@@ -67,27 +67,24 @@ pub struct Entity {
     identifier: String,
     kind: EntityKind,
     inventory: Inventory,
-    donation_level: u32,
 }
 
 impl Entity {
     pub fn from_vec(tokens: &mut Vec<Token>) -> Entity {
-        let kind = match_first_pop!(tokens {
+        let mut kind = match_first_pop!(tokens {
             Token::Identifier(s) => { match &s.to_lowercase()[..] {
-                "p" => EntityKind::Player(true),
-                "c" => EntityKind::Contract,
+                "p" => EntityKind::Player(PlayerParams::new()),
+                "c" => EntityKind::Contract(ContractParams::new()),
                 "o" => EntityKind::Other,
                 _ => panic!("Expected 'P', 'C', or 'O'"),
             }},
         } else { panic!("Expected first arg of ENT directive to be identifier") });
 
-        let donation_level = if kind == EntityKind::Contract {
-            match_first_pop!(tokens {
+        if let EntityKind::Contract(ref mut cp) = kind {
+            cp.donation_level = match_first_pop!(tokens {
                 Token::Integer(i) => { i },
             } else { 0 })
-        } else {
-            0
-        };
+        }
 
         let identifier = match_first_pop!(tokens {
             Token::Identifier(s) => { s },
@@ -121,7 +118,6 @@ impl Entity {
             identifier,
             kind,
             inventory,
-            donation_level,
         }
     }
 
@@ -129,9 +125,8 @@ impl Entity {
         Entity {
             full_name,
             identifier,
-            kind: EntityKind::Player(true),
+            kind: EntityKind::Player(PlayerParams::new()),
             inventory: HashMap::with_capacity(5),
-            donation_level: 0,
         }
     }
 
@@ -139,9 +134,8 @@ impl Entity {
         Entity {
             full_name,
             identifier,
-            kind: EntityKind::Contract,
+            kind: EntityKind::Contract(ContractParams::new()),
             inventory: HashMap::new(),
-            donation_level: 0,
         }
     }
 
@@ -170,14 +164,14 @@ impl Entity {
     }
 
     pub fn activate(&mut self) {
-        if let EntityKind::Player(_) = self.kind {
-            self.kind = EntityKind::Player(true);
+        if let EntityKind::Player(ref mut pp) = self.kind {
+            pp.is_active = true;
         }
     }
 
     pub fn deactivate(&mut self) {
-        if let EntityKind::Player(_) = self.kind {
-            self.kind = EntityKind::Player(false);
+        if let EntityKind::Player(ref mut pp) = self.kind {
+            pp.is_active = false;
         }
     }
 
@@ -200,25 +194,43 @@ impl Entity {
     pub fn inventory(&self) -> &Inventory {
         &self.inventory
     }
-
-    pub fn donation_level(&self) -> u32 {
-        self.donation_level
-    }
 }
 
-#[derive(Clone, Copy, Hash, Eq, PartialEq)]
+#[derive(Debug, Clone, Copy, Hash, Eq, PartialEq)]
 pub enum EntityKind {
-    Player(bool),
-    Contract,
+    Player(PlayerParams),
+    Contract(ContractParams),
     Other,
 }
 
 impl Display for EntityKind {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         f.pad(&match self {
-            EntityKind::Player(a) => format!("Player({}a)", if *a { "+" } else { "-" }),
-            EntityKind::Contract => String::from("Contract"),
+            EntityKind::Player(pp) => format!("Player({}a)", if pp.is_active { "+" } else { "-" }),
+            EntityKind::Contract(_) => String::from("Contract"),
             EntityKind::Other => String::from("Entity"),
         })
+    }
+}
+
+#[derive(Debug, Clone, Copy, Hash, Eq, PartialEq)]
+pub struct PlayerParams {
+    pub is_active: bool,
+}
+
+impl PlayerParams {
+    pub fn new() -> PlayerParams {
+        PlayerParams { is_active: true }
+    }
+}
+
+#[derive(Debug, Clone, Copy, Hash, Eq, PartialEq)]
+pub struct ContractParams {
+    pub donation_level: u32,
+}
+
+impl ContractParams {
+    pub fn new() -> ContractParams {
+        ContractParams { donation_level: 0 }
     }
 }

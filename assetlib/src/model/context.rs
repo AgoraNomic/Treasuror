@@ -61,6 +61,12 @@ impl Context {
         let assets = self.assets.clone();
         for ent in self.entities.as_sorted_vec().iter() {
             let name = ent.identifier();
+            let should_grant_cards = if let EntityKind::Player(pp) = ent.kind() {
+                pp.is_active
+            } else {
+                false
+            };
+
             for currency in assets.iter() {
                 if *currency != Currency::Coin {
                     deletions.push_back(Transaction::new(
@@ -71,7 +77,7 @@ impl Context {
                     ));
                 }
 
-                if currency.is_card() && ent.kind() == EntityKind::Player(true) {
+                if currency.is_card() && should_grant_cards {
                     grants.push_back(Transaction::new(
                         name.clone(),
                         Amount::PartOf(FullUnit::Bare(*currency), 1),
@@ -93,16 +99,18 @@ impl Context {
         let mut transactions = VecDeque::new();
         for ent in self.entities.as_sorted_vec().iter() {
             match ent.kind() {
-                EntityKind::Player(true) => {
-                    transactions.push_back(Transaction::new(
-                        ent.identifier().clone(),
-                        Amount::PartOf(FullUnit::Boatload(Currency::Coin), 10),
-                        Operator::Plus,
-                        "Payday".to_string(),
-                    ));
+                EntityKind::Player(pp) => {
+                    if pp.is_active {
+                        transactions.push_back(Transaction::new(
+                            ent.identifier().clone(),
+                            Amount::PartOf(FullUnit::Boatload(Currency::Coin), 10),
+                            Operator::Plus,
+                            "Payday".to_string(),
+                        ));
+                    }
                 }
-                EntityKind::Contract => {
-                    if ent.donation_level() > 0 {
+                EntityKind::Contract(cp) => {
+                    if cp.donation_level > 0 {
                         transactions.push_back(Transaction::new(
                             ent.identifier().clone(),
                             Amount::PartOf(
@@ -116,10 +124,10 @@ impl Context {
                             ent.identifier().clone(),
                             Amount::PartOf(
                                 FullUnit::Boatload(Currency::Coin),
-                                ent.donation_level(),
+                                cp.donation_level,
                             ),
                             Operator::Plus,
-                            format!("Payday: donation level={}", ent.donation_level()),
+                            format!("Payday: donation level={}", cp.donation_level),
                         ));
                     }
                 }
