@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::collections::hash_map::{HashMap, Entry};
 use std::fmt::{self, Display};
 
 use crate::{
@@ -6,6 +6,59 @@ use crate::{
     model::{Currency, Inventory},
     parser::common::Token,
 };
+
+pub struct Entities {
+    contents: HashMap<String, Entity>,
+}
+
+impl Entities {
+    pub fn new() -> Entities {
+        Entities {
+            contents: HashMap::new(),
+        }
+    }
+
+    pub fn add_player(&mut self, identifier: String, full_name: String) {
+        self.insert(Entity::player(identifier, full_name));
+    }
+
+    pub fn remove(&mut self, identifier: &str) -> Option<Entity> {
+        self.contents.remove(identifier)
+    }
+
+    pub fn get(&self, identifier: &str) -> Option<&Entity> {
+        self.contents.get(identifier)
+    }
+
+    pub fn get_mut(&mut self, identifier: &str) -> Option<&mut Entity> {
+        self.contents.get_mut(identifier)
+    }
+
+    pub fn insert(&mut self, ent: Entity) {
+        if let Entry::Vacant(o) = self.contents.entry(ent.identifier().clone()) {
+            o.insert(ent);
+        } else {
+            panic!("entity {} already exists", ent.identifier());
+        }
+    }
+
+    pub fn as_sorted_vec(&self) -> Vec<&Entity> {
+        let mut entities = self.contents.values().collect::<Vec<&Entity>>();
+        entities.sort_by(|a, b| {
+            a.identifier()
+                .to_lowercase()
+                .cmp(&b.identifier().to_lowercase())
+        });
+        entities
+    }
+
+    pub fn currency_total(&self, curr: Currency) -> u32 {
+        self.contents
+            .values()
+            .map(|ent| ent.balance(curr))
+            .sum::<u32>()
+    }
+}
 
 #[allow(dead_code)]
 #[derive(Clone)]

@@ -13,7 +13,7 @@ pub type Inventory = HashMap<Currency, u32>;
 pub use crate::model::{
     amount::Amount,
     context::Context,
-    entity::{Entity, EntityKind},
+    entity::{Entities, Entity, EntityKind},
     history::{DatedHistoryEntry, HistoryEntry},
     report::Report,
     unit::{Currency, FullUnit},

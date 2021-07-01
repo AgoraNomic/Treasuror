@@ -73,7 +73,7 @@ fn main() -> io::Result<()> {
 
     eprintln!(
         "total coins upon completion: {}",
-        context.currency_total(Currency::Coin)
+        context.entities().currency_total(Currency::Coin)
     );
     Ok(())
 }

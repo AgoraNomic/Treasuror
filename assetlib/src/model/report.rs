@@ -28,7 +28,7 @@ impl<'a> Report<'a> {
 
         let mut asset_tables: HashMap<EntityKind, AssetTable> = HashMap::new();
 
-        for ent in ctx.entities_vec_sorted() {
+        for ent in ctx.entities().as_sorted_vec() {
             asset_tables
                 .entry(ent.kind())
                 .or_insert(AssetTable::new(ctx.assets(), ent.kind()))

@@ -6,7 +6,7 @@ use chrono::naive::{NaiveDateTime, MIN_DATETIME};
 
 use crate::{
     model::{
-        dates, Amount, Currency, DatedHistoryEntry, Entity, EntityKind, FullUnit, HistoryEntry,
+        dates, Amount, Currency, DatedHistoryEntry, Entities, Entity, EntityKind, FullUnit, HistoryEntry,
     },
     parser::{
         common::Operator,
@@ -19,7 +19,7 @@ pub struct Context {
     forbes: u32,
     notes: Vec<String>,
     assets: Vec<Currency>,
-    entities: HashMap<String, Entity>,
+    entities: Entities,
     flotation: f32,
     total_buoyancy: u32,
     buoyancy_target: u32,
@@ -34,7 +34,7 @@ impl Context {
             forbes: 500,
             notes: Vec::new(),
             assets: Vec::new(),
-            entities: HashMap::new(),
+            entities: Entities::new(),
             flotation: 1.0,
             total_buoyancy: 0,
             buoyancy_target: 0,
@@ -59,7 +59,8 @@ impl Context {
         let mut deletions = VecDeque::new();
         let mut grants = VecDeque::new();
         let assets = self.assets.clone();
-        for (name, ent) in self.entities.iter() {
+        for ent in self.entities.as_sorted_vec().iter() {
+            let name = ent.identifier();
             for currency in assets.iter() {
                 if *currency != Currency::Coin {
                     deletions.push_back(Transaction::new(
@@ -90,7 +91,7 @@ impl Context {
 
     pub fn payday(&mut self) {
         let mut transactions = VecDeque::new();
-        for ent in self.entities_vec_sorted().iter() {
+        for ent in self.entities.as_sorted_vec().iter() {
             match ent.kind() {
                 EntityKind::Player(true) => {
                     transactions.push_back(Transaction::new(
@@ -187,11 +188,11 @@ impl Context {
                 None
             }
             Command::NewContract(identifier, full_name) => {
-                self.insert_entity(Entity::contract(identifier.clone(), full_name.clone()));
+                self.entities.insert(Entity::contract(identifier.clone(), full_name.clone()));
                 Some(format!("  Contract {} created", identifier))
             }
             Command::NewPlayer(identifier, full_name) => {
-                self.add_player(identifier.clone(), full_name.clone());
+                self.entities.add_player(identifier.clone(), full_name.clone());
                 None
             }
             Command::Nuke => {
@@ -203,7 +204,7 @@ impl Context {
                 None
             }
             Command::Relevel(opttb) => {
-                let tb = opttb.unwrap_or(self.currency_total(Currency::Coin));
+                let tb = opttb.unwrap_or(self.entities.currency_total(Currency::Coin));
                 let uf = self.relevel(tb);
 
                 Some(format!(
@@ -237,7 +238,7 @@ impl Context {
                 self.assets = v.clone();
             }
             Directive::Entity(e) => {
-                self.insert_entity(e.clone());
+                self.entities.insert(e.clone());
             }
             Directive::Flotation(f) => {
                 self.flotation = *f;
@@ -246,17 +247,6 @@ impl Context {
                 self.forbes = *i;
             }
         }
-    }
-
-    pub fn insert_entity(&mut self, ent: Entity) {
-        if self.entities.get(&ent.identifier()[..]).is_some() {
-            panic!("entity {} already exists", ent.identifier());
-        }
-        self.entities.insert(ent.identifier().clone(), ent);
-    }
-
-    pub fn add_player(&mut self, identifier: String, full_name: String) {
-        self.insert_entity(Entity::player(identifier, full_name));
     }
 
     pub fn deregister(&mut self, identifier: &str) {
@@ -398,16 +388,6 @@ impl Context {
         mem::take(&mut self.notes)
     }
 
-    pub fn entities_vec_sorted(&self) -> Vec<&Entity> {
-        let mut entities = self.entities.values().collect::<Vec<&Entity>>();
-        entities.sort_by(|a, b| {
-            a.identifier()
-                .to_lowercase()
-                .cmp(&b.identifier().to_lowercase())
-        });
-        entities
-    }
-
     pub fn assets(&self) -> &Vec<Currency> {
         &self.assets
     }
@@ -420,13 +400,6 @@ impl Context {
         self.total_buoyancy
     }
 
-    pub fn currency_total(&self, curr: Currency) -> u32 {
-        self.entities
-            .values()
-            .map(|ent| ent.balance(curr))
-            .sum::<u32>()
-    }
-
     pub fn max_datetime(&self) -> NaiveDateTime {
         self.max_datetime
     }
@@ -435,7 +408,7 @@ impl Context {
         self.datetime
     }
 
-    pub fn entities(&self) -> &HashMap<String, Entity> {
+    pub fn entities(&self) -> &Entities {
         &self.entities
     }
 
