@@ -9,7 +9,7 @@ use chrono::{
 
 use assetlib::{
     model::{Context, Currency, Report},
-    parser::{gsdl::Parser as GsdParser, tll::Parser as TlParser}
+    parser::{gsdl::Parser as GsdParser, tll::Parser as TlParser},
 };
 
 fn main() -> io::Result<()> {
@@ -23,7 +23,7 @@ fn main() -> io::Result<()> {
         Context::from_datetime(Utc::now().naive_utc())
     } else if args.len() > 1 {
         let date = NaiveDate::parse_from_str(&(args[1])[..], "%F")
-                .unwrap_or_else(|_| panic!("invalid date format: {}", args[1]));
+            .unwrap_or_else(|_| panic!("invalid date format: {}", args[1]));
 
         let time = if args.len() == 2 {
             NaiveTime::from_hms(0, 0, 0)
@@ -52,7 +52,8 @@ fn main() -> io::Result<()> {
 
     for f in files.iter() {
         let mut tlparser = TlParser::from_reader(BufReader::new(
-            File::open(f.path()).unwrap_or_else(|_| panic!("could not open file {:?}", f.file_name()))
+            File::open(f.path())
+                .unwrap_or_else(|_| panic!("could not open tll file {:?}", f.file_name()))
         ));
 
         while let Some(lo) = tlparser.next_raw() {
