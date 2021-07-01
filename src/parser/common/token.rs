@@ -23,10 +23,7 @@ impl<'a> Iterator for TokenIterator<'a> {
                 self.source = rest2;
                 Some(matched)
             }
-            Err(e) => {
-                println!("{:?}", e);
-                None
-            }
+            Err(_) => { None }
         }
     }
 }

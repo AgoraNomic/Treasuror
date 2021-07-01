@@ -7,11 +7,10 @@ use chrono::{
     Utc,
 };
 
-pub mod model;
-pub mod parser;
-
-use model::{Context, Currency, Report};
-use parser::{gsdl::Parser as GsdParser, tll::Parser as TlParser};
+use treasuror::{
+    model::{Context, Currency, Report},
+    parser::{gsdl::Parser as GsdParser, tll::Parser as TlParser}
+};
 
 fn main() -> io::Result<()> {
     let args = args().collect::<Vec<String>>();
