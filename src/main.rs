@@ -6,6 +6,7 @@ use std::io::{self, BufReader, Read, Write};
 use chrono::{
     naive::{NaiveDate, NaiveTime},
     Utc,
+    Duration,
 };
 
 use plotters::prelude::*;
@@ -74,39 +75,49 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                     break;
                 }
 
-                coinhist.push((d, context.entities().currency_total(Currency::Coin)));
+                coinhist.push((d + Duration::days(1), context.entities().currency_total(Currency::Coin)));
             }
         }
     }
     
     for d in context.datetime().date().iter_days() {
-        if d >= end_date.date() {
+        if d > end_date.date() {
             break;
         }
 
         coinhist.push((d, max_coins));
     }
 
+    for (date, amt) in coinhist.iter() {
+        println!("{} {}", date.format("%v"), amt);
+    }
+
     let root = BitMapBackend::new("chart.png", (1200, 800)).into_drawing_area();
     root.fill(&WHITE)?;
 
     let mut chart = ChartBuilder::on(&root)
-        .caption("Total coins over time (log scale)", ("sans serif", 50).into_font())
-        .margin(5)
+        .caption("Total coins over time (months)", ("sans serif", 50).into_font())
+        .margin(10)
         .x_label_area_size(30)
         .y_label_area_size(40)
         .build_cartesian_2d(
-            NaiveDate::from_ymd(2021, 1, 18)..end_date.date(),
+            (NaiveDate::from_ymd(2021, 1, 18)..end_date.date()).monthly(),
             (10000..max_coins)
-                .log_scale()
         )?;
 
     chart.configure_mesh()
-        .x_labels(18)
         .y_labels(30)
         .draw()?;
 
-    chart.draw_series(LineSeries::new(coinhist, RED.stroke_width(3)))?;
+    chart.draw_series(LineSeries::new(
+        coinhist,
+        RED.stroke_width(3))
+    )?;
+
+    // chart.draw_series(PointSeries::<_, _, Circle<_, _>, _>::new(
+    //     coinhist.iter(), coinhist.len() as u32,
+    //     RED.stroke_width(3))
+    // )?;
 
     // let mut format = String::new();
     // File::open("data/format.txt")?.read_to_string(&mut format)?;
