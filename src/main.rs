@@ -91,11 +91,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     root.fill(&WHITE)?;
 
     let mut chart = ChartBuilder::on(&root)
-        .caption("Total coins over time", ("sans serif", 50).into_font())
+        .caption("Total coins over time (log scale)", ("sans serif", 50).into_font())
         .margin(5)
         .x_label_area_size(30)
         .y_label_area_size(40)
-        .build_cartesian_2d(NaiveDate::from_ymd(2021, 1, 18)..end_date.date(), 0..max_coins)?;
+        .build_cartesian_2d(
+            NaiveDate::from_ymd(2021, 1, 18)..end_date.date(),
+            (10000..max_coins)
+                .log_scale()
+        )?;
 
     chart.configure_mesh()
         .x_labels(18)
