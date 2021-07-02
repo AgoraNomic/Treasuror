@@ -256,3 +256,20 @@
 [21:28] ATMunn     10bl:cn+ "Reward: Notary weekly"
 [21:28] Murphy      5bl:cn+ "Reward: Tailor weekly"
 [21:28] Jason      15bl:cn+ "Reward: Assessed proposal"
+[23:56] #report
+[23:57] #bt 47101
+
+2021-06-28
+[01:28] R._Lee  80cn>Jason
+[01:28] Jason    1bg>R._Lee
+[02:09] R._Lee  80cn>Telna
+[02:09] Telna    1bg>R._Lee
+[02:09] R._Lee   2bg- "Expungements"
+[02:23] R._Lee 879cn- "Victory Auction"
+[02:23] R._Lee   1wc+ "Victory Auction"
+[15:45] G.      5bl:cn+ "Wielding Wealth Stone"
+
+2021-06-30
+[08:27] #deregister Lucidiot
+[08:27] #deregister JTAC
+[08:27] #deregister Noah

@@ -1,0 +1,17 @@
+2021-07-01
+#relevel
+#payday
+[02:32] R._Lee  1lc+ "Personal grant: Legislation"
+[02:34] Jason   1lc+ "Personal grant: Legislation"
+[02:34] Jason   4lc- "Set of cards"
+[02:34] Jason  10pd+ "Set of cards"
+[02:44] Telna   1jc+ "Personal grant: Compliance"
+[02:49] ais     1lc+ "Personal grant: Legislation"
+[02:54] R._Lee  2lc- "Set of cards"
+[02:54] R._Lee  3pd+ "Set of products"
+[03:29] Falsifian  1wp+ "Personal grant: Legacy"
+[13:56] Cuddlebeam 1wp+ "Personal grant: Legacy"
+[13:56] Cuddlebeam 1wp+ "Personal grant from banana"
+[13:56] Cuddlebeam 1wp+ "Personal grant from Jumble"
+[13:56] Cuddlebeam 1wp+ "Personal grant from Joe"
+
