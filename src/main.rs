@@ -1,18 +1,20 @@
 use std::cmp::max;
 use std::env::args;
 use std::fs::{self, File};
-use std::io::{self, BufReader, Read, Write};
+use std::io::BufReader;
 
 use chrono::{
     naive::{NaiveDate, NaiveTime},
     Utc,
     Duration,
+    Datelike,
+    Weekday,
 };
 
 use plotters::prelude::*;
 
 use assetlib::{
-    model::{Context, Currency, Report},
+    model::{Context, Currency},
     parser::{gsdl::Parser as GsdParser, tll::Parser as TlParser},
 };
 
@@ -69,40 +71,40 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             let before = context.datetime().date();
             context.enter(lo);
             let after = context.datetime().date();
-            max_coins = max(max_coins, context.entities().currency_total(Currency::Coin));
+            let coins = context.entities().currency_total(Currency::Coin);
+            max_coins = max(max_coins, coins);
             for d in before.iter_days() {
                 if d >= after {
                     break;
                 }
 
-                coinhist.push((d + Duration::days(1), context.entities().currency_total(Currency::Coin)));
+                coinhist.push((d + Duration::days(1), coins));
             }
         }
     }
+
+    let final_count = context.entities().currency_total(Currency::Coin);
     
     for d in context.datetime().date().iter_days() {
         if d > end_date.date() {
             break;
         }
 
-        coinhist.push((d, max_coins));
-    }
-
-    for (date, amt) in coinhist.iter() {
-        println!("{} {}", date.format("%v"), amt);
+        coinhist.push((d + Duration::days(1), final_count));
     }
 
     let root = BitMapBackend::new("chart.png", (1200, 800)).into_drawing_area();
     root.fill(&WHITE)?;
 
     let mut chart = ChartBuilder::on(&root)
-        .caption("Total coins over time (months)", ("sans serif", 50).into_font())
+        .caption("Total coins over time (Mondays marked)", ("sans serif", 50).into_font())
         .margin(10)
         .x_label_area_size(30)
         .y_label_area_size(40)
         .build_cartesian_2d(
-            (NaiveDate::from_ymd(2021, 1, 18)..end_date.date()).monthly(),
-            (10000..max_coins)
+            (NaiveDate::from_ymd(2021, 1, 18)..end_date.date())
+                .monthly(),
+            10000..max_coins
         )?;
 
     chart.configure_mesh()
@@ -110,14 +112,21 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .draw()?;
 
     chart.draw_series(LineSeries::new(
-        coinhist,
+        coinhist.iter().copied(),
         RED.stroke_width(3))
     )?;
 
-    // chart.draw_series(PointSeries::<_, _, Circle<_, _>, _>::new(
-    //     coinhist.iter(), coinhist.len() as u32,
-    //     RED.stroke_width(3))
-    // )?;
+    chart.draw_series(PointSeries::of_element(
+        coinhist.iter()
+            .filter(|(d, _)| d.weekday() == Weekday::Mon)
+            .copied(),
+        5,
+        ShapeStyle::from(&RED).filled(),
+        &|coord, size, style| {
+            EmptyElement::at(coord)
+                + Circle::new((0, 0), size, style)
+        },
+    ))?;
 
     // let mut format = String::new();
     // File::open("data/format.txt")?.read_to_string(&mut format)?;
