@@ -19,6 +19,7 @@ use assetlib::{
 };
 
 struct EntHist {
+    active: bool,
     registered: bool,
     history: Vec<(NaiveDate, u32)>,
 }
@@ -26,6 +27,7 @@ struct EntHist {
 impl EntHist {
     fn new() -> EntHist {
         EntHist {
+            active: true,
             registered: true,
             history: Vec::new(),
         }
@@ -99,6 +101,12 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 Command::Deregister(s1) => {
                     coinhist.get_mut(&s1[..]).unwrap().registered = false;
                 }
+                Command::Deactivate(s1) => {
+                    coinhist.get_mut(&s1[..]).unwrap().active = false;
+                }
+                Command::Activate(s1) => {
+                    coinhist.get_mut(&s1[..]).unwrap().active = true;
+                }
                 _ => {}
             }
 
@@ -145,14 +153,14 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     root.fill(&RGBColor(180, 180, 180))?;
 
     let mut chart = ChartBuilder::on(&root)
-        .caption("All entities' coins over time", ("sans serif", 50).into_font())
+        .caption("Coins over time for currently active players", ("sans serif", 50).into_font())
         .margin(10)
         .x_label_area_size(30)
         .y_label_area_size(40)
         .build_cartesian_2d(
             (NaiveDate::from_ymd(2021, 1, 18)..end_date.date() + Duration::days(20))
                 .monthly(),
-            0u32..7200u32
+            0u32..7500u32
         )?;
 
     chart.configure_mesh()
@@ -161,10 +169,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let mut sorted = coinhist.iter()
         .filter(|(_, h)| {
+            h.active && h.registered
+        })
+        .filter(|(_, h)| {
             h.history.iter()
                 .filter(|(_, n)| n > &0)
                 .next()
                 .is_some()
+        })
+        .filter(|(e, _)| {
+            context.entities().get(e).unwrap().kind().is_player()
         })
         .collect::<Vec<_>>();
 

@@ -61,7 +61,7 @@ impl Entities {
 }
 
 #[allow(dead_code)]
-#[derive(Clone)]
+#[derive(Clone, Debug)]
 pub struct Entity {
     full_name: String,
     identifier: String,
@@ -201,6 +201,16 @@ pub enum EntityKind {
     Player(PlayerParams),
     Contract(ContractParams),
     Other,
+}
+
+impl EntityKind {
+    pub fn is_player(&self) -> bool {
+        if let EntityKind::Player(_) = self {
+            true
+        } else {
+            false
+        }
+    }
 }
 
 impl Display for EntityKind {
