@@ -1,4 +1,4 @@
-use chrono::naive::NaiveTime;
+use chrono::naive::{NaiveDate, NaiveTime};
 
 use super::{combinators as com, operator::Operator};
 
@@ -23,7 +23,7 @@ impl<'a> Iterator for TokenIterator<'a> {
                 self.source = rest2;
                 Some(matched)
             }
-            Err(_) => { None }
+            Err(_) => None,
         }
     }
 }
@@ -31,6 +31,7 @@ impl<'a> Iterator for TokenIterator<'a> {
 #[derive(Clone, Debug, PartialEq)]
 pub enum Token {
     Time(NaiveTime),
+    Date(NaiveDate),
     Identifier(String),
     Integer(u32),
     Blob,
@@ -42,6 +43,14 @@ pub enum Token {
 }
 
 impl Token {
+    pub fn extract_date(&self) -> NaiveDate {
+        if let Token::Date(d) = self {
+            *d
+        } else {
+            panic!("cannot extract Date");
+        }
+    }
+
     pub fn extract_float(&self) -> f32 {
         if let Token::Float(f) = self {
             *f
@@ -77,6 +86,12 @@ impl Token {
 impl From<NaiveTime> for Token {
     fn from(dt: NaiveTime) -> Token {
         Token::Time(dt)
+    }
+}
+
+impl From<NaiveDate> for Token {
+    fn from(dt: NaiveDate) -> Token {
+        Token::Date(dt)
     }
 }
 

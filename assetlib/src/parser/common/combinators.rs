@@ -1,6 +1,9 @@
 use std::num::{ParseFloatError, ParseIntError};
 
-use chrono::{format::ParseError as ChronoParseError, naive::NaiveTime};
+use chrono::{
+    format::ParseError as ChronoParseError,
+    naive::{NaiveDate, NaiveTime},
+};
 
 use nom::{
     branch::alt,
@@ -77,6 +80,12 @@ pub fn token_time(s: &str) -> TokenIResult {
     Ok((after, time.into()))
 }
 
+pub fn token_date(s: &str) -> TokenIResult {
+    let (after, date_str) = bracketed(s)?;
+    let date = NaiveDate::parse_from_str(date_str, "%F").map_err(to_nom_err)?;
+    Ok((after, date.into()))
+}
+
 pub fn identifier(s: &str) -> StringIResult {
     take_while1(is_id_char)(s)
 }
@@ -140,16 +149,19 @@ pub fn token_any(s: &str) -> TokenIResult {
     alt((
         token_time,
         alt((
-            token_identifier,
+            token_date,
             alt((
-                token_float,
+                token_identifier,
                 alt((
-                    token_integer,
+                    token_float,
                     alt((
-                        token_string,
+                        token_integer,
                         alt((
-                            token_operator,
-                            alt((token_blob, alt((token_separator, token_command)))),
+                            token_string,
+                            alt((
+                                token_operator,
+                                alt((token_blob, alt((token_separator, token_command)))),
+                            )),
                         )),
                     )),
                 )),

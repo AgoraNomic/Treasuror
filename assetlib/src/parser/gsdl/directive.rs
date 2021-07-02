@@ -1,3 +1,5 @@
+use chrono::naive::NaiveDate;
+
 use crate::{
     match_first_pop,
     model::{Currency, Entity},
@@ -6,6 +8,7 @@ use crate::{
 
 pub enum Directive {
     Assets(Vec<Currency>),
+    Date(NaiveDate),
     Entity(Entity),
     Flotation(f32),
     Forbes(u32),
@@ -28,6 +31,7 @@ impl Directive {
                         )
                         .collect::<Vec<Currency>>()
                 ),
+                "date" => Directive::Date(tokens[0].extract_date()),
                 "flotation" => Directive::Flotation(
                     tokens[0].extract_float()
                 ),

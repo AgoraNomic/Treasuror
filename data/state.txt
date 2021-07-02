@@ -1,4 +1,5 @@
 ASSETS cn wc jc lc vc wp bg pd xv
+DATE [2021-01-01]
 FLOTATION 5.32
 FORBES 462
 ENT P Aris          1563cn               5lc         3wp   2bg  10pd   2xv
