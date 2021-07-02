@@ -7,6 +7,8 @@ out.*
 /monthly.txt
 split.txt
 
+chart.*
+
 #Added by cargo
 
 /target
