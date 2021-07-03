@@ -18,6 +18,14 @@ case $1 in
 esac
 
 FILENAME=$DATE$2
+
+echo $2;
+
+case $3 in
+    ("") ;;
+    (*) FILENAME=$3$2
+esac
+
 INNERREPORTDIR=$REPORTDIR/$REPORTTYPE
 
 cp $REPORTTYPE.txt $INNERREPORTDIR/fresh.txt
