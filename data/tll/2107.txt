@@ -17,4 +17,20 @@
 
 2021-07-02
 [21:35] Trigon 1wp+ "Personal grant: Legacy"
-[21:37] G.     1lc+ "Personal grant: Legislation"
+[21:38] G.     1lc+ "Personal grant: Legislation"
+
+2021-07-03
+[02:20] #register Mask
+[02:28] Mask 10bl:cn+ "Welcome package (R. Lee)" 
+[02:28] Mask 1wc+     "Welcome package (R. Lee)"
+[02:28] Mask 1jc+     "Welcome package (R. Lee)"
+[02:28] Mask 1lc+     "Welcome package (R. Lee)"
+[02:28] Mask 1vc+     "Welcome package (R. Lee)"
+[18:14] ATMunn 1wp+ "Personal grant: Legacy"
+[18:14] nix    1wp+ "Personal grant: Legacy"
+
+2021-07-04
+[00:50] Falsifian  1wc+ "Legacy grant"
+[15:51] Falsifian  4wc- "Set of cards"
+[15:51] Falsifian 10wp+ "Set of products"
+

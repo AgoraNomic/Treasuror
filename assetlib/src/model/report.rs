@@ -26,13 +26,15 @@ impl<'a> Report<'a> {
     pub fn with_context(ctx: &'a mut Context) -> Report<'a> {
         // let notes = ctx.take_notes();
 
-        let mut asset_tables: HashMap<EntityKind, AssetTable> = HashMap::new();
+        let mut entities_grouped = ctx.entities().as_grouped_vec();
+        let mut asset_tables = Vec::new();
 
-        for ent in ctx.entities().as_sorted_vec() {
-            asset_tables
-                .entry(ent.kind())
-                .or_insert(AssetTable::new(ctx.assets(), ent.kind()))
-                .add_entity(ent)
+        for (kind, entities) in entities_grouped.iter() {
+            let mut at = AssetTable::new(&ctx.assets(), *kind);
+            for e in entities.iter() {
+                at.add_entity(e);
+            }
+            asset_tables.push(at);
         }
 
         let mut date = MIN_DATE;
@@ -78,7 +80,7 @@ impl<'a> Report<'a> {
             total_buoyancy: ctx.total_buoyancy(),
             date: ctx.max_datetime().date(),
             // notes,
-            tables: asset_tables.into_iter().map(|(_, e)| e).collect(),
+            tables: asset_tables,
             history,
         }
     }

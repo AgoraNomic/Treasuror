@@ -1,3 +1,4 @@
+use std::mem;
 use std::collections::hash_map::{HashMap, Entry};
 use std::fmt::{self, Display};
 
@@ -50,6 +51,31 @@ impl Entities {
                 .cmp(&b.identifier().to_lowercase())
         });
         entities
+    }
+
+    pub fn as_grouped_vec(&self) -> Vec<(EntityKind, Vec<&Entity>)> {
+        let mut entities = self.as_sorted_vec();
+        entities.sort_by_key(|e| e.kind());
+
+        let mut result = Vec::new();
+        let mut curkind = None;
+        let subvec = &mut Vec::new();
+        for e in entities.iter() {
+            if let Some(k) = curkind {
+                if e.kind() != k {
+                    result.push((k, mem::take(subvec)));
+                    curkind = Some(e.kind());
+                }
+            } else {
+                curkind = Some(e.kind());
+            }
+            subvec.push(*e)
+        }
+        if let Some(k) = curkind {
+            result.push((k, mem::take(subvec)));
+        }
+        
+        result
     }
 
     pub fn currency_total(&self, curr: Currency) -> u32 {
@@ -196,7 +222,7 @@ impl Entity {
     }
 }
 
-#[derive(Debug, Clone, Copy, Hash, Eq, PartialEq)]
+#[derive(Debug, Clone, Copy, Hash, Ord, PartialOrd, Eq, PartialEq)]
 pub enum EntityKind {
     Player(PlayerParams),
     Contract(ContractParams),
@@ -207,13 +233,13 @@ impl Display for EntityKind {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         f.pad(&match self {
             EntityKind::Player(pp) => format!("Player({}a)", if pp.is_active { "+" } else { "-" }),
-            EntityKind::Contract(_) => String::from("Contract"),
+            EntityKind::Contract(cp) => format!("Contract({:02})", cp.donation_level),
             EntityKind::Other => String::from("Entity"),
         })
     }
 }
 
-#[derive(Debug, Clone, Copy, Hash, Eq, PartialEq)]
+#[derive(Debug, Clone, Copy, Hash, Ord, PartialOrd, Eq, PartialEq)]
 pub struct PlayerParams {
     pub is_active: bool,
 }
@@ -224,7 +250,7 @@ impl PlayerParams {
     }
 }
 
-#[derive(Debug, Clone, Copy, Hash, Eq, PartialEq)]
+#[derive(Debug, Clone, Copy, Hash, Ord, PartialOrd, Eq, PartialEq)]
 pub struct ContractParams {
     pub donation_level: u32,
 }

@@ -53,7 +53,7 @@ fn main() -> io::Result<()> {
     for f in files.iter() {
         let mut tlparser = TlParser::from_reader(BufReader::new(
             File::open(f.path())
-                .unwrap_or_else(|_| panic!("could not open tll file {:?}", f.file_name()))
+                .unwrap_or_else(|_| panic!("could not open tll file {:?}", f.file_name())),
         ));
 
         while let Some(lo) = tlparser.next_raw() {
