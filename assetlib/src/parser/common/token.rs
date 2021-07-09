@@ -65,9 +65,9 @@ impl Token {
         }
     }
 
-    pub fn extract_operator(&self) -> Operator {
-        if let Token::Op(o) = &self {
-            o.clone()
+    pub fn extract_operator(&self) -> &Operator {
+        if let Token::Op(ref o) = &self {
+            o
         } else {
             panic!("cannot extract operator");
         }

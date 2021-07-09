@@ -45,8 +45,8 @@ impl Transaction {
         self.amount
     }
 
-    pub fn operator(&self) -> Operator {
-        self.operator.clone()
+    pub fn operator(&self) -> &Operator {
+        &self.operator
     }
 
     pub fn comment(&self) -> &str {

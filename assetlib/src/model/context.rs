@@ -318,7 +318,7 @@ impl Context {
                             )
                         })
                         .collect::<Vec<AtomicTransaction>>(),
-                    Operator::Transfer(patient) => {
+                    Operator::Transfer(ref patient) => {
                         let mut result = Vec::new();
                         for t in plus {
                             result.append(&mut AtomicTransaction::transfer_vec(
@@ -343,7 +343,7 @@ impl Context {
                         c,
                         trans.comment().to_string(),
                     )],
-                    Operator::Transfer(patient) => AtomicTransaction::transfer_vec(
+                    Operator::Transfer(ref patient) => AtomicTransaction::transfer_vec(
                         trans.agent(),
                         &patient,
                         balance,
@@ -366,7 +366,7 @@ impl Context {
                         currency,
                         trans.comment().to_string(),
                     )],
-                    Operator::Transfer(patient) => AtomicTransaction::transfer_vec(
+                    Operator::Transfer(ref patient) => AtomicTransaction::transfer_vec(
                         trans.agent(),
                         &patient,
                         amount,
