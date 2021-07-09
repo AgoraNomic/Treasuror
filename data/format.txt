@@ -13,7 +13,9 @@ BUOYANCY
 
 ASSET BALANCES
 {bar}
+
 {tables}
+
 
 RECENT HISTORY
 {bar}

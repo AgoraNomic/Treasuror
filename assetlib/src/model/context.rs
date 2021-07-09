@@ -400,6 +400,10 @@ impl Context {
         &self.assets
     }
 
+    pub fn flotation(&self) -> f32 {
+        self.flotation
+    }
+
     pub fn buoyancy_target(&self) -> u32 {
         self.buoyancy_target
     }

@@ -15,6 +15,7 @@ pub struct Report<'a> {
     forbes: u32,
     total_buoyancy: u32,
     buoyancy_target: u32,
+    flotation: f32,
     date: NaiveDate,
     // notes: Vec<String>,
     tables: Vec<AssetTable<'a>>,
@@ -77,6 +78,7 @@ impl<'a> Report<'a> {
             forbes: ctx.forbes(),
             buoyancy_target: ctx.buoyancy_target(),
             total_buoyancy: ctx.total_buoyancy(),
+            flotation: ctx.flotation(),
             date: ctx.max_datetime().date(),
             // notes,
             tables: asset_tables,
@@ -99,15 +101,30 @@ impl<'a> Report<'a> {
                 &self
                     .tables
                     .iter()
-                    .fold(String::new(), |acc, x| acc + "\n" + &x.to_string()),
+                    .fold(String::new(), |acc, x| acc + &x.to_string() + "\n")
+                    .trim_end()
             )
-            .replace("{history}", &self.history)
+            .replace("{history}", self.history.trim())
             .replace(
                 "{buoyancy}",
-                &format!(
-                    "Total Buoyancy : {}\nBuoyancy Target: {}",
-                    self.total_buoyancy, self.buoyancy_target,
-                ),
+                Table::new("{:<} {:<}")
+                    .with_row(
+                        Row::new()
+                            .with_cell("Total Buoyancy:")
+                            .with_cell(self.total_buoyancy)
+                    )
+                    .with_row(
+                        Row::new()
+                            .with_cell("Buoyancy Target:")
+                            .with_cell(self.buoyancy_target)
+                    )
+                    .with_row(
+                        Row::new()
+                            .with_cell("Unit of Flotation:")
+                            .with_cell(format!("{:.4}", self.flotation))
+                    )
+                    .to_string()
+                    .trim_end(),
             )
     }
 }
