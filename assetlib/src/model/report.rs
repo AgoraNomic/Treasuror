@@ -1,4 +1,3 @@
-use std::collections::HashMap;
 use std::fmt::{self, Display};
 
 use chrono::{
@@ -26,7 +25,7 @@ impl<'a> Report<'a> {
     pub fn with_context(ctx: &'a mut Context) -> Report<'a> {
         // let notes = ctx.take_notes();
 
-        let mut entities_grouped = ctx.entities().as_grouped_vec();
+        let entities_grouped = ctx.entities().as_grouped_vec();
         let mut asset_tables = Vec::new();
 
         for (kind, entities) in entities_grouped.iter() {

@@ -191,13 +191,13 @@ impl Entity {
 
     pub fn activate(&mut self) {
         if let EntityKind::Player(ref mut pp) = self.kind {
-            pp.is_active = true;
+            pp.activity = Activity::Active;
         }
     }
 
     pub fn deactivate(&mut self) {
         if let EntityKind::Player(ref mut pp) = self.kind {
-            pp.is_active = false;
+            pp.activity = Activity::Inactive;
         }
     }
 
@@ -232,7 +232,7 @@ pub enum EntityKind {
 impl Display for EntityKind {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         f.pad(&match self {
-            EntityKind::Player(pp) => format!("Player({}a)", if pp.is_active { "+" } else { "-" }),
+            EntityKind::Player(pp) => format!("Player({}a)", if pp.activity.is_active() { "+" } else { "-" }),
             EntityKind::Contract(cp) => format!("Contract({:02})", cp.donation_level),
             EntityKind::Other => String::from("Entity"),
         })
@@ -240,13 +240,28 @@ impl Display for EntityKind {
 }
 
 #[derive(Debug, Clone, Copy, Hash, Ord, PartialOrd, Eq, PartialEq)]
+pub enum Activity {
+    Active,
+    Inactive,
+}
+
+impl Activity {
+    pub fn is_active(&self) -> bool {
+        match self {
+            Activity::Active => true,
+            _ => false,
+        }
+    }
+}
+
+#[derive(Debug, Clone, Copy, Hash, Ord, PartialOrd, Eq, PartialEq)]
 pub struct PlayerParams {
-    pub is_active: bool,
+    pub activity: Activity
 }
 
 impl PlayerParams {
     pub fn new() -> PlayerParams {
-        PlayerParams { is_active: true }
+        PlayerParams { activity: Activity::Active }
     }
 }
 

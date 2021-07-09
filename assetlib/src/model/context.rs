@@ -1,5 +1,5 @@
 use std::cmp::Ordering;
-use std::collections::{HashMap, VecDeque};
+use std::collections::VecDeque;
 use std::mem;
 
 use chrono::naive::{NaiveDateTime, MIN_DATETIME};
@@ -62,7 +62,7 @@ impl Context {
         for ent in self.entities.as_sorted_vec().iter() {
             let name = ent.identifier();
             let should_grant_cards = if let EntityKind::Player(pp) = ent.kind() {
-                pp.is_active
+                pp.activity.is_active()
             } else {
                 false
             };
@@ -100,7 +100,7 @@ impl Context {
         for ent in self.entities.as_sorted_vec().iter() {
             match ent.kind() {
                 EntityKind::Player(pp) => {
-                    if pp.is_active {
+                    if pp.activity.is_active() {
                         transactions.push_back(Transaction::new(
                             ent.identifier().clone(),
                             Amount::PartOf(FullUnit::Boatload(Currency::Coin), 10),
