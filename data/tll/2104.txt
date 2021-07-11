@@ -22,10 +22,10 @@
 [10:17] ATMunn  8bl:cn+ "Glitter: 3MLS for Notary"
 [10:17] Jason   8bl:cn+ "Glitter: 12MLS for Assessor"
 [10:17] Trigon  8bl:cn+ "Glitter: 3/6/9MLS for Treasuror"
-[10:17] Aris    8bl:cn+ "Glitter: 3/6/9MLS for Promotor"
+[10:17] Aspen   8bl:cn+ "Glitter: 3/6/9MLS for Promotor"
 [10:21] Murphy  5bl:cn+ "Reward: ADoP weekly"
 [10:21] Gaelan 10bl:cn+ "Reward: Referee weekly"
-[10:21] Aris   15bl:cn+ "Reward: Proposal Pool"
+[10:21] Aspen  15bl:cn+ "Reward: Proposal Pool"
 [10:21] ATMunn 10bl:cn+ "Reward: Notary weekly"
 [10:21] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
 [10:21] Jason   5bl:cn+ "Reward: Stonemason weekly"
@@ -42,15 +42,15 @@
 [15:35] Falsifian 1wp+ "Personal grant: Legacy"
 
 2021-04-08
-[20:28] nix  1vc>Aris
-[20:28] Aris 1jc>nix
+[20:28] nix  1vc>Aspen
+[20:28] Aspen 1jc>nix
 
 2021-04-09
 [00:00] #relevel 25000
 [02:10] Jason 1wc+ "Passage of Proposal 8555"
-[02:11] Aris  10bl:cn+ "Reward: Proposal 8549"
+[02:11] Aspen 10bl:cn+ "Reward: Proposal 8549"
 [02:11] Jason  6bl:cn+ "Reward: Proposal 8553"
-[02:11] Aris  10bl:cn+ "Reward: Proposal 8554"
+[02:11] Aspen 10bl:cn+ "Reward: Proposal 8554"
 [02:11] G.     6bl:cn+ "Reward: Proposal 8555"
 
 2021-04-10
@@ -65,16 +65,16 @@
 [18:44] ATMunn 10bl:cn+ "Reward: Notary weekly"
 [19:39] ATMunn 16bl:cn+ "Glitter: Notary"
 [19:39] Jason  15bl:cn+ "Glitter: Proposal 8556"
-[19:41] Aris   11bl:cn+ "Glitter: Registrar"
-[20:07] Aris    5bl:cn+ "Reward: Registrar weekly"
-[20:07] Aris   15bl:cn+ "Reward: Proposal Pool"
+[19:41] Aspen  11bl:cn+ "Glitter: Registrar"
+[20:07] Aspen   5bl:cn+ "Reward: Registrar weekly"
+[20:07] Aspen  15bl:cn+ "Reward: Proposal Pool"
 [20:07] ATMunn 10bl:cn+ "Reward: Notary weekly"
 [20:07] Trigon 15bl:cn+ "Reward: Treasuror weekly"
-[20:07] Aris    5bl:cn+ "Reward: Registrar weekly"
+[20:07] Aspen   5bl:cn+ "Reward: Registrar weekly"
 [20:07] Murphy  5bl:cn+ "Reward: Tailor weekly"
 [20:07] Jason  15bl:cn+ "Reward: Assessed proposal"
 [20:07] Trigon 15bl:cn+ "Reward: Treasuror monthly"
-[20:07] Aris    5bl:cn+ "Reward: Registrar monthly"
+[20:07] Aspen   5bl:cn+ "Reward: Registrar monthly"
 [21:27] G.      5bl:cn+ "Reward: CFJ 3903"
 [21:31] G.      1bg-    "Expungement"
 [22:53] Falsifian 1wc+  "Victory Card Raffle"
@@ -90,8 +90,8 @@
 [22:09] Cuddlebeam 1wp+ "Personal Grant: Legacy"
 
 2021-04-15
-[01:23] Aris 4bl:cn+ "Reward: Proposal 8557"
-[01:45] Aris 1lc+    "Popular Proposal: Proposal 8557"
+[01:23] Aspen 4bl:cn+ "Reward: Proposal 8557"
+[01:45] Aspen 1lc+    "Popular Proposal: Proposal 8557"
 
 2021-04-16
 [02:37] #report
@@ -119,7 +119,7 @@
 [19:17] Gaelan 10bl:cn+ "Reward: Referee weekly"
 [19:17] Trigon 15bl:cn+ "Reward: Treasuror weekly"
 [19:17] ATMunn 10bl:cn+ "Reward: Notary weekly"
-[19:17] Aris    5bl:cn+ "Reward: Registrar weekly"
+[19:17] Aspen   5bl:cn+ "Reward: Registrar weekly"
 [19:17] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
 [19:17] G.     10bl:cn+ "Reward: Arbitor weekly"
 [19:17] Murphy  5bl:cn+ "Reward: Tailor weekly"
@@ -150,7 +150,7 @@
 
 2021-04-25
 [17:11] Murphy 5bl:cn+ "Reward: ADoP weekly"
-[17:11] Aris 15bl:cn+ "Reward: Proposal Pool"
+[17:11] Aspen 15bl:cn+ "Reward: Proposal Pool"
 [17:11] Gaelan 10bl:cn+ "Reward: Referee weekly"
 [17:11] Jason 5bl:cn+ "Reward: Stonemason weekly"
 [17:11] ATMunn 10bl:cn+ "Reward: Notary weekly"
@@ -160,4 +160,4 @@
 
 2021-04-30
 [20:28] G. 1lc+ "Personal grant: Legislation"
-[23:25] Aris 1vc+ "Personal grant: Participation"
+[23:25] Aspen 1vc+ "Personal grant: Participation"

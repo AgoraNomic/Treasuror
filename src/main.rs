@@ -50,14 +50,16 @@ fn main() -> io::Result<()> {
         .collect::<Vec<_>>();
     files.sort_by_key(|f| f.file_name());
 
-    for f in files.iter() {
+    'fileiter: for f in files.iter() {
         let mut tlparser = TlParser::from_reader(BufReader::new(
             File::open(f.path())
                 .unwrap_or_else(|_| panic!("could not open tll file {:?}", f.file_name())),
         ));
 
         while let Some(lo) = tlparser.next_raw() {
-            context.enter(lo);
+            if !context.enter(lo) {
+                break 'fileiter;
+            }
         }
     }
 

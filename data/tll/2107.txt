@@ -33,4 +33,57 @@
 [00:50] Falsifian  1wc+ "Legacy grant"
 [15:51] Falsifian  4wc- "Set of cards"
 [15:51] Falsifian 10wp+ "Set of products"
+[23:09] #report
+[23:59] Trigon  15bl:cn+ "Reward: Treasuror weekly"
+[23:59] Telna   10bl:cn+ "Reward: Arbitor weekly"
+[23:59] R._Lee  10bl:cn+ "Reward: Referee weekly"
+[23:59] Jason   15bl:cn+ "Reward: Short Logical Ruleset"
+[23:59] Jason    5bl:cn+ "Reward: Stonemason weekly"
+[23:59] Aspen   15bl:cn+ "Reward: Proposal Pool"
+[23:59] Aspen    5bl:cn+ "Reward: Registrar weekly"
+[23:59] Trigon  15bl:cn+ "Reward: Treasuror weekly"
+[23:59] nix     10bl:cn+ "Reward: Herald monthly"
+[23:59] nix      5bl:cn+ "Reward: Ministor monthly"
 
+2021-07-05
+[00:03] ais       12bl:cn+ "M Glitter"
+[00:03] Falsifian 12bl:cn+ "M Glitter"
+[00:03] G.        12bl:cn+ "M Glitter"
+[00:03] R._Lee    12bl:cn+ "M Glitter"
+[00:03] Telna     12bl:cn+ "M Glitter"
+[00:05] Aspen     200cn>R._Lee
+[01:41] ATMunn     1lc>Falsifian
+[01:41] Gaelan     1lc>Falsifian
+[01:41] omd        1lc>Falsifian
+[01:41] Falsifian  4lc- "Set of cards"
+[01:41] Falsifian 10pd+ "Set of products"
+[01:41] Falsifian  2pd>ATMunn
+[01:41] Falsifian  2pd>Gaelan
+[01:41] Falsifian  2pd>omd
+[01:41] Falsifian  1pd>omd
+[01:41] Falsifian  1pd>Gaelan
+[02:17] banana 1jc+ "Finger pointer"
+[03:32] Telna  2bg>Gaelan
+[03:32] Gaelan 1jc>Telna
+[03:51] Gaelan 2bg- "Expungements"
+
+2021-07-06
+[04:19] #deactivate Mask
+[13:15] L&F_Dept. 2856cn-
+[17:13] PlunderPS 35cn>Jason
+
+2021-07-08
+[01:12] PlunderPS 35cn>Falsifian
+
+2021-07-09
+[21:15] #bt 50109
+
+2021-07-11
+[20:17] Murphy  1vc+ "Personal grant: Participation"
+[20:37] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[20:37] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[20:37] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[20:37] Telna  10bl:cn+ "Reward: Arbitor weekly"
+[20:37] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[20:37] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[20:37] Murphy  5bl:cn+ "Reward: Tailor monthly"

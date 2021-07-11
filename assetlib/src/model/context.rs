@@ -140,7 +140,7 @@ impl Context {
         }
     }
 
-    pub fn enter(&mut self, line: Line) {
+    pub fn enter(&mut self, line: Line) -> bool {
         if self.verify_datetime(line.datetime()) {
             self.datetime = line.datetime();
         } else {
@@ -152,10 +152,12 @@ impl Context {
         }
 
         if !self.verify_max_datetime(line.datetime()) {
-            return;
+            return false;
         }
 
         self.exec(line.datetime(), &line.action());
+
+        true
     }
 
     fn apply(&mut self, dt: NaiveDateTime, trans: &Transaction) {

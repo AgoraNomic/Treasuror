@@ -2,14 +2,14 @@
 [00:00] #payday
 [00:32] Jason 20cn>ATMunn
 [00:32] ATMunn 1vc>Jason
-[00:32] Aris  75cn>ATMunn
-[00:32] ATMunn 1wc>Aris
+[00:32] Aspen 75cn>ATMunn
+[00:32] ATMunn 1wc>Aspen
 [01:16] G.    61cn>ATMunn
 [01:16] ATMunn 1jc>G.
 [04:05] #report
 [04:20] #relevel 15532
 [17:24] Jason  1lc+ "Personal grant: Legislation"
-[17:55] Aris   1lc+ "Personal grant: Legislation"
+[17:55] Aspen  1lc+ "Personal grant: Legislation"
 
 2021-02-02
 [06:58] Trigon 1lc+ "Personal grant: Legislation"
@@ -17,28 +17,28 @@
 [21:35] G.  4jc- "Set of cards"
 [21:35] G. 10bg+ "Set of products"
 [21:35] G.  5bg>Jason
-[21:41] nix   1lc>Aris
-[21:41] Aris  2pd>nix
-[21:41] Aris 40cn>nix
-[21:47] Aris   2lc>Jason
+[21:41] nix   1lc>Aspen
+[21:41] Aspen 2pd>nix
+[21:41] Aspen 40cn>nix
+[21:47] Aspen  2lc>Jason
 [21:49] Jason  4lc- "Set of cards"
 [21:49] Jason 10pd+ "Set of products"
-[21:49] Jason  5pd>Aris
+[21:49] Jason  5pd>Aspen
 [22:15] #revision
 [22:28] #revision
 
 2021-02-03
-[00:06] Aris 1wc>Cuddlebeam
+[00:06] Aspen 1wc>Cuddlebeam
 [01:07] G.   7bl:cn+ "Reward: Proposal 8532"
 [01:07] G.   9bl:cn+ "Reward: Proposal 8533"
-[01:07] Aris 6bl:cn+ "Reward: Proposal 8534"
-[01:07] Aris 7bl:cn+ "Reward: Proposal 8535"
-[01:07] Aris 7bl:cn+ "Reward: Proposal 8536"
+[01:07] Aspen 6bl:cn+ "Reward: Proposal 8534"
+[01:07] Aspen 7bl:cn+ "Reward: Proposal 8535"
+[01:07] Aspen 7bl:cn+ "Reward: Proposal 8536"
 [01:07] G.   6bl:cn+ "Reward: Proposal 8537"
 [01:19] G.   1lc+    "Popular proposal: Proposal 8533"
 [15:24] nix   1pd- "Pending proposal: Stong XVs"
 [17:36] Jason 5bl:cn+ "Reward: CFJ 3894"
-[18:48] Aris  1pd- "Pending proposal: The Great Rollback"
+[18:48] Aspen 1pd- "Pending proposal: The Great Rollback"
 
 2021-02-04
 [00:47] Jason 20cn>G.
@@ -49,7 +49,7 @@
 [03:08] nix 1wc>Falsifian
 [03:48] Gaelan 1cn>Trigon "Come at me"
 [17:35] #revision
-[22:00] G. 3bl:cn>Aris "HAPPY BIRTHDAY, G!"
+[22:00] G. 3bl:cn>Aspen HAPPY BIRTHDAY, G!"
 [22:00] G. 3bl:cn>Gaelan "HAPPY BIRTHDAY, G!"
 [22:00] G. 3bl:cn>ATMunn "HAPPY BIRTHDAY, G!"
 [22:00] G. 3bl:cn>Trigon "HAPPY BIRTHDAY, G!"
@@ -77,7 +77,7 @@
 [23:25] ATMunn     10bl:cn+ "Reward: Notary weekly"
 [23:25] Falsifian   5bl:cn+ "Reward: Registrar weekly"
 [23:25] G.         10bl:cn+ "Reward: Arbitor weekly"
-[23:25] Aris       15bl:cn+ "Reward: Proposal Pool"
+[23:25] Aspen      15bl:cn+ "Reward: Proposal Pool"
 [23:25] Jason      15bl:cn+ "Reward: Short Logical Ruleset"
 [23:25] JTAC       10bl:cn+ "Reward: Referee weekly"
 [23:25] Jason      15bl:cn+ "Reward: Assessed proposal"
@@ -107,12 +107,12 @@
 2021-02-11
 [03:09] Falsifian 300cn- "Victory auction"
 [03:09] Falsifian   1wc+ "Victory auction"
-[19:25] ATMunn 10bl:cn>Aris
-[19:25] Aris    5bl:cn>Jason
-[20:27] Aris 8bl:cn+ "Reward: Proposal 8539"
+[19:25] ATMunn 10bl:cn>Aspen
+[19:25] Aspen   5bl:cn>Jason
+[20:27] Aspen 8bl:cn+ "Reward: Proposal 8539"
 [20:27] nix  5bl:cn+ "Reward: Proposal 8540"
-[20:36] Aris 1bl:cn>nix
-[23:45] Aris 1lc+ "Popular proposal: Proposal 8539"
+[20:36] Aspen 1bl:cn>nix
+[23:45] Aspen 1lc+ "Popular proposal: Proposal 8539"
 
 2021-02-13
 [15:20] Jason  20cn>Falsifian "HAPPY BIRTHDAY, FALSIFIAN!"
@@ -155,8 +155,8 @@
 [22:45] G.     5bl:cn+ "Reward: CFJ 3897"
 [22:45] G.     5bl:cn+ "Reward: CFJ 3896"
 [22:45] Murphy 5bl:cn+ "Reward: CFJ 3898"
-[22:45] Aris   5bl:cn+ "Reward: CFJ 3895"
-[23:58] Aris 1pd- "Pending proposal: You CAN, CAN'T you"
+[22:45] Aspen  5bl:cn+ "Reward: CFJ 3895"
+[23:58] Aspen 1pd- "Pending proposal: You CAN, CAN'T you"
 
 2021-02-23
 [19:07] #report
@@ -168,7 +168,7 @@
 [17:40] Murphy     5bl:cn+ "Reward: ADoP weekly"
 [17:40] G.        10bl:cn+ "Reward: Arbitor weekly"
 [17:40] Jason      5bl:cn+ "Reward: Stonemason weekly"
-[17:40] Aris      15bl:cn+ "Reward: Proposal pool"
+[17:40] Aspen     15bl:cn+ "Reward: Proposal pool"
 [17:40] Trigon    15bl:cn+ "Reward: Treasuror weekly"
 [17:40] G.        10bl:cn+ "Reward: Arbitor weekly"
 [17:40] ATMunn    10bl:cn+ "Reward: Notary weekly"
@@ -176,8 +176,8 @@
 [17:40] Jason     15bl:cn+ "Reward: Short Logical Ruleset"
 [17:40] Falsifian  5bl:cn+ "Reward: Registrar monthly"
 [17:40] Jason     15bl:cn+ "Reward: Full Logical Ruleset"
-[23:24] Aris 5cn>G.
-[23:24] Aris 5cn>Jason
-[23:24] Aris 5cn>Falsifian
-[23:24] Aris 5cn>Cuddlebeam
-[23:38] Aris 1pd- "Pending proposal: Uncanny fixes"
+[23:24] Aspen 5cn>G.
+[23:24] Aspen 5cn>Jason
+[23:24] Aspen 5cn>Falsifian
+[23:24] Aspen 5cn>Cuddlebeam
+[23:38] Aspen 1pd- "Pending proposal: Uncanny fixes"
