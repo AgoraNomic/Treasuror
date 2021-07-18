@@ -72,6 +72,9 @@
 [13:15] L&F_Dept. 2856cn-
 [17:13] PlunderPS 35cn>Jason
 
+2021-07-07
+[02:20] G. 5bl:cn+ "Wielding Wealth Stone"
+
 2021-07-08
 [01:12] PlunderPS 35cn>Falsifian
 
@@ -87,3 +90,29 @@
 [20:37] Aspen  15bl:cn+ "Reward: Proposal Pool"
 [20:37] Murphy  5bl:cn+ "Reward: Tailor weekly"
 [20:37] Murphy  5bl:cn+ "Reward: Tailor monthly"
+[23:22] #report
+[23:24] #bt 51528
+[23:24] Falsifian 220cn>Trigon
+
+2021-07-13
+[00:17] Press  95cn>Telna
+[20:24] G.     5bl:cn+ "Wielding Wealth Stone"
+
+2021-07-14
+[18:55] R._Lee 5bl:cn+ "Reward: Proposal 8594"
+[19:02] R._Lee 1lc+    "Popular proposal: Proposal 8594"
+
+2021-07-18
+[21:59] R._Lee 17bl:cn+ "E Glitter: Referee"
+[22:05] R._Lee 16bl:cn+ "O Glitter: Proposal 8594"
+[22:07] R._Lee 11bl:cn+ "C Glitter: Registrar"
+[22:19] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[22:19] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[22:19] Telna  10bl:cn+ "Reward: Arbitor weekly"
+[22:19] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[22:19] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[22:19] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[22:19] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[22:19] R._Lee  5bl:cn+ "Reward: Registrar weekly"
+[22:19] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[22:19] Jason  15bl:cn+ "Reward: Assessed proposal"
