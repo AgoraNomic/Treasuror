@@ -116,3 +116,28 @@
 [22:19] R._Lee  5bl:cn+ "Reward: Registrar weekly"
 [22:19] Murphy  5bl:cn+ "Reward: Tailor weekly"
 [22:19] Jason  15bl:cn+ "Reward: Assessed proposal"
+[22:30] #report
+[22:31] #bt 54454
+
+2021-07-20
+[21:54] Jason  130cn- "Stone Auction: Sabotage Stone"
+[21:54] R._Lee 620cn- "Stone Auction: Concentration Stone"
+[21:54] Trigon 200cn- "Stone Auction: Protection Stone"
+[23:24] R._Lee   1lc+ "Wielding Concentration Stone"
+
+2021-07-21
+[00:19] G.       5bl:cn+ "Wielding Wealth Stone"
+[05:34] Jason  629cn-    "Victory Auction: Victory Card"
+[05:34] ais    628cn-    "Victory Auction: Legislative Card"
+[22:53] R._Lee 250cn>Trigon
+
+2021-07-22
+[23:51] ATMunn 100cn>Trigon "Trunging"
+
+2021-07-23
+[17:47] #register Pat
+[17:51] Pat 10bl:cn+ "Welcome package (Falsifian)" 
+[17:51] Pat 1wc+     "Welcome package (Falsifian)"
+[17:51] Pat 1jc+     "Welcome package (Falsifian)"
+[17:51] Pat 1lc+     "Welcome package (Falsifian)"
+[17:51] Pat 1vc+     "Welcome package (Falsifian)"
