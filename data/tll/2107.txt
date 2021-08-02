@@ -126,10 +126,12 @@
 [23:24] R._Lee   1lc+ "Wielding Concentration Stone"
 
 2021-07-21
-[00:19] G.       5bl:cn+ "Wielding Wealth Stone"
-[05:34] Jason  629cn-    "Victory Auction: Victory Card"
-[05:34] ais    628cn-    "Victory Auction: Legislative Card"
-[22:53] R._Lee 250cn>Trigon
+[00:19] G.       5bl:cn+    "Wielding Wealth Stone"
+[05:34] Jason     629cn-    "Victory Auction: Victory Card"
+[05:34] Jason       1wc+    "Victory Auction: Victory Card"
+[05:34] ais       628cn-    "Victory Auction: Legislative Card"
+[05:34] L&F_Dept.   1lc>ais "Victory Auction: Legislative Card"
+[22:53] R._Lee    250cn>Trigon
 
 2021-07-22
 [23:51] ATMunn 100cn>Trigon "Trunging"
@@ -141,3 +143,28 @@
 [17:51] Pat 1jc+     "Welcome package (Falsifian)"
 [17:51] Pat 1lc+     "Welcome package (Falsifian)"
 [17:51] Pat 1vc+     "Welcome package (Falsifian)"
+[19:07] #report
+[19:08] #bt 52532
+[21:29] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[21:29] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[21:29] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[21:29] Telna  10bl:cn+ "Reward: Arbitor weekly"
+[21:29] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[21:29] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[21:29] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[21:29] Murphy  5bl:cn+ "Reward: Tailor weekly"
+
+2021-07-26
+[14:28] #register D._Wet
+[23:32] D._Wet 10bl:cn+ "Welcome package (Trigon)" 
+[23:32] D._Wet 1wc+     "Welcome package (Trigon)"
+[23:32] D._Wet 1jc+     "Welcome package (Trigon)"
+[23:32] D._Wet 1lc+     "Welcome package (Trigon)"
+[23:32] D._Wet 1vc+     "Welcome package (Trigon)"
+
+2021-07-29
+[02:59] R._Lee 4bl:cn+ "Reward: Proposal 8595"
+[03:03] R._Lee 1lc+    "Popular Proposal: Proposal 8595"
+
+2021-07-30
+[17:51] G. 5bl:cn+ "Wielding Wealth Stone"

@@ -1,0 +1,19 @@
+2021-08-01
+#relevel
+#payday
+[04:36] R._Lee  1lc+ "Wielding Concentration Stone"
+[04:36] R._Lee  4lc- "Set of cards"
+[04:36] R._Lee 10pd+ "Set of products"
+[18:29] R._Lee  9bl:cn+ "R Glitter (Proposal 8595)"
+[18:38] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[18:38] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[18:38] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[18:38] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[18:38] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[18:38] Jason  15bl:cn+ "Reward: Assessed proposal"
+[18:38] Jason  15bl:cn+ "Reward: Full Logical Ruleset"
+[18:38] Murphy  5bl:cn+ "Reward: Tailor monthly"
+[19:20] ais     1lc+ "Personal grant: Legislation"
+[19:23] G.      1lc+ "Personal grant: Legislation"
+[19:23] G.      3lc- "Set of cards"
+[19:23] G.      6pd+ "Set of products"
