@@ -123,7 +123,7 @@
 [19:17] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
 [19:17] G.     10bl:cn+ "Reward: Arbitor weekly"
 [19:17] Murphy  5bl:cn+ "Reward: Tailor weekly"
-[19:17] Jason  15bl:cn+ "Reward: Assessed proposal
+[19:17] Jason  15bl:cn+ "Reward: Assessed proposal"
 [19:17] nix    10bl:cn+ "Reward: Herald monthly"
 [19:23] Cuddlebeam 3wp>Jumble
 [20:44] ATMunn 3wp>Falsifian 
