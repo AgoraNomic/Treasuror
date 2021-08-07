@@ -1,6 +1,11 @@
 use chrono::naive::NaiveTime;
 
-use super::{combinators as com, operator::Operator};
+use nom::{
+    Err as NomErr,
+    error::Error as NomError,
+};
+
+use super::{combinators as com, operator::Operator, error::ParseError};
 
 pub struct TokenIterator<'a> {
     source: &'a str,
@@ -13,17 +18,29 @@ impl<'a> TokenIterator<'a> {
 }
 
 impl<'a> Iterator for TokenIterator<'a> {
-    type Item = Token;
+    type Item = Result<Token, ParseError<&'a str>>;
 
-    fn next(&mut self) -> Option<Token> {
+    fn next(&mut self) -> Option<Self::Item> {
         let rest = self.source.trim();
 
+        println!("{}", rest);
         match com::token_any(rest) {
             Ok((rest2, matched)) => {
                 self.source = rest2;
-                Some(matched)
+                Some(Ok(matched))
             }
-            Err(_) => { None }
+            Err(e) => {
+                println!("{:?}", e);
+                match e {
+                NomErr::Error(ParseError::Nom(n)) => {
+                    match n {
+                        NomError { input: "", .. } => None,
+                        NomError { input: i, .. } => Some(Err(ParseError::Unparseable(i.to_string()))),
+                    }
+                }
+                NomErr::Error(e) | NomErr::Failure(e) => Some(Err(e)),
+                _ => None,
+            }}
         }
     }
 }

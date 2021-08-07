@@ -18,6 +18,7 @@ pub enum ParseError<I> {
     Nom(NomError<I>),
     Int(ParseIntError),
     Float(ParseFloatError),
+    Unparseable(String),
 }
 
 impl<I> ParseErrorTrait<I> for ParseError<I> {
@@ -51,4 +52,3 @@ impl<I> From<ParseFloatError> for ParseError<I> {
 pub fn to_nom_err<I, E: Into<ParseError<I>>>(e: E) -> NomErr<ParseError<I>> {
     NomErr::Error(e.into())
 }
-

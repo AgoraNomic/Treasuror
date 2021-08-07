@@ -23,7 +23,7 @@ impl<R: BufRead> Parser<R> {
                 self.linum += 1;
                 if let Some(date) = self.date {
                     Line::with_date_from_str(date, &mut text).or_else(|| {
-                        self.date = None;
+                        // self.date = None;
                         self.next_raw()
                     })
                 } else if text.is_empty() {
@@ -32,8 +32,8 @@ impl<R: BufRead> Parser<R> {
                     self.date = Some(date);
                     self.next_raw()
                 } else {
-                    eprintln!("got here somehow");
-                    eprintln!("{}", text);
+                    // eprintln!("got here somehow");
+                    // eprintln!("{}", text);
                     self.next_raw()
                 }
             }
