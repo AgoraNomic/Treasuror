@@ -43,7 +43,7 @@
 [19:47] Aspen 2lc>Jason
 [19:47] Jason 4lc- "Set of cards"
 [19:47] Jason 10pd+ "Set of products"
-[19:47] Jason 5pd>Aspen Set of products"
+[19:47] Jason 5pd>Aspen "Set of products"
 
 2021-01-24
 [08:53] Murphy      5bl:cn+ "Reward: ADoP weekly"
