@@ -1,4 +1,5 @@
 mod command;
+pub mod error;
 mod line;
 mod parser;
 mod transaction;

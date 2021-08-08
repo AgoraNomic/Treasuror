@@ -2,7 +2,10 @@ use std::io::prelude::*;
 
 use chrono::naive::NaiveDate;
 
-use crate::parser::tll::Line;
+use crate::parser::{
+    error::*,
+    tll::Line
+};
 
 pub struct Parser<R: BufRead> {
     reader: R,
@@ -15,7 +18,7 @@ impl<R: BufRead> Parser<R> {
         Parser { reader, date: None, linum: 1 }
     }
 
-    pub fn next_raw(&mut self) -> Option<Line> {
+    pub fn next_raw(&mut self) -> Option<Result<Line, AnyError<&str>>> {
         let mut text = String::new();
         match self.reader.read_line(&mut text) {
             Ok(0) => None,
@@ -26,9 +29,7 @@ impl<R: BufRead> Parser<R> {
                     self.date = None;
                     self.next_raw()
                 } else if let Some(date) = self.date {
-                    Line::with_date_from_str(date, &mut text)
-                } else if text.is_empty() {
-                    self.next_raw()
+                    Some(Line::with_date_from_str(date, &mut text))
                 } else if let Ok(date) = NaiveDate::parse_from_str(text.trim(), "%F") {
                     self.date = Some(date);
                     self.next_raw()
@@ -37,7 +38,7 @@ impl<R: BufRead> Parser<R> {
                     // eprintln!("{}", text);
                     self.next_raw()
                 }
-            }
+            },
             Err(e) => panic!("Problem reading file: {}", e),
         }
     }
