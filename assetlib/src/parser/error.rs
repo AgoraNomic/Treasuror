@@ -3,6 +3,7 @@ use super::{
     tll::error::*,
 };
 
+#[derive(Debug)]
 pub enum AnyError<I> {
     Parse(ParseError<I>),
     Syntax(SyntaxError),

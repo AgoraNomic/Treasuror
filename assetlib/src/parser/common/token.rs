@@ -23,14 +23,12 @@ impl<'a> Iterator for TokenIterator<'a> {
     fn next(&mut self) -> Option<Self::Item> {
         let rest = self.source.trim();
 
-        println!("{}", rest);
         match com::token_any(rest) {
             Ok((rest2, matched)) => {
                 self.source = rest2;
                 Some(Ok(matched))
             }
             Err(e) => {
-                println!("{:?}", e);
                 match e {
                 NomErr::Error(ParseError::Nom(n)) => {
                     match n {
