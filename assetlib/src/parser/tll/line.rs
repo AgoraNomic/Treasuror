@@ -39,9 +39,9 @@ impl Line {
             } else { date.and_hms(0,0,0) }),
             action: if let Token::Command(c) = tokens[0].clone() {
                 tokens.remove(0);
-                Command::from_name_and_vec(c.to_string(), tokens).unwrap()
+                Command::from_name_and_vec(c.to_string(), tokens)?
             } else {
-                Command::Transaction(Transaction::from_vec(tokens).expect("no transaction"))
+                Command::Transaction(Transaction::from_vec(tokens)?)
             },
         })
     }

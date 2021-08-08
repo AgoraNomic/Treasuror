@@ -113,6 +113,59 @@ impl From<Operator> for Token {
     }
 }
 
+pub mod combinators {
+    use crate::match_first_pop;
+
+    use super::{Operator, Token};
+
+    use crate::parser::tll::error::*;
+
+    pub fn expect_identifier<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> Result<String, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Identifier(s) => { Ok(s) },
+        } else {
+            return Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedIdentifier
+            ));
+        })
+    }
+
+    pub fn expect_integer<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> Result<u32, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Integer(i) => { Ok(i) },
+        } else {
+            return Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedIdentifier
+            ));
+        })
+    }
+
+    pub fn expect_operator<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> Result<Operator, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Op(o) => { Ok(o) },
+        } else {
+            return Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedOperator
+            ));
+        })
+    }
+
+    pub fn expect_stringlike<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> Result<String, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::String(s) => { Ok(s) },
+            Token::Identifier(s) => { Ok(s) },
+        } else {
+            return Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedStringlike
+            ));
+        })
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;

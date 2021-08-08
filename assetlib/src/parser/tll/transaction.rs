@@ -1,8 +1,10 @@
 use crate::{
     match_first_pop,
     model::{Amount, Currency},
-    parser::common::{Operator, Token},
+    parser::common::{Operator, token_com::*, Token},
 };
+
+use super::error::*;
 
 #[derive(Clone)]
 pub struct Transaction {
@@ -22,18 +24,12 @@ impl Transaction {
         }
     }
 
-    pub fn from_vec(mut tokens: Vec<Token>) -> Option<Transaction> {
-        Some(Transaction {
-            agent: match_first_pop!(tokens {
-                Token::Identifier(i) => { i },
-            } else { return None }),
+    pub fn from_vec(mut tokens: Vec<Token>) -> Result<Transaction, SyntaxError> {
+        Ok(Transaction {
+            agent: expect_identifier(&mut tokens, "need identifier as first argument")?,
             amount: Amount::from_vec(&mut tokens),
-            operator: match_first_pop!(tokens {
-                Token::Op(o) => { o },
-            } else { return None }),
-            comment: match_first_pop!(tokens {
-                Token::String(s) => { s },
-            } else { String::from("") }),
+            operator: expect_operator(&mut tokens, "need operator in transaction")?,
+            comment: expect_stringlike(&mut tokens, "").unwrap_or_else(|_| String::new()),
         })
     }
 
