@@ -21,11 +21,12 @@ impl<R: BufRead> Parser<R> {
             Ok(0) => None,
             Ok(_) => {
                 self.linum += 1;
-                if let Some(date) = self.date {
-                    Line::with_date_from_str(date, &mut text).or_else(|| {
-                        // self.date = None;
-                        self.next_raw()
-                    })
+
+                if text.trim().is_empty() {
+                    self.date = None;
+                    self.next_raw()
+                } else if let Some(date) = self.date {
+                    Line::with_date_from_str(date, &mut text)
                 } else if text.is_empty() {
                     self.next_raw()
                 } else if let Ok(date) = NaiveDate::parse_from_str(text.trim(), "%F") {
