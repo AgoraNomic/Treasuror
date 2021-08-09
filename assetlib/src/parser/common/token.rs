@@ -114,6 +114,8 @@ impl From<Operator> for Token {
 }
 
 pub mod combinators {
+    use chrono::naive::NaiveTime;
+
     use crate::match_first_pop;
 
     use super::{Operator, Token};
@@ -146,16 +148,15 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_currency<'a>(tokens: &'a mut Vec<Token>) -> Result<Currency, SyntaxError> {
-        let i = expect_identifier(tokens, "expected identifier in currency")?;
-        if let Some(c) = Currency::from_abbr(&i) {
-            Ok(c)
+    pub fn expect_command<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> Result<String, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Command(s) => { Ok(s) },
         } else {
-            Err(SyntaxError::from(
-                &format!("invalid currency abbreviation: {}", i),
-                ErrorKind::ExpectedIdentifier
-            ))
-        }
+            return Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedCommand
+            ));
+        })
     }
 
     pub fn expect_full_unit<'a>(tokens: &'a mut Vec<Token>) -> Result<FullUnit, SyntaxError> {
@@ -230,6 +231,17 @@ pub mod combinators {
             return Err(SyntaxError::from(
                 message,
                 ErrorKind::ExpectedStringlike
+            ));
+        })
+    }
+
+    pub fn expect_time<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> Result<NaiveTime, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Time(t) => { Ok(t) },
+        } else {
+            return Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedTime
             ));
         })
     }

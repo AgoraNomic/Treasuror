@@ -18,11 +18,13 @@ impl SyntaxError {
 pub enum ErrorKind {
     Empty,
     ExpectedBlob,
+    ExpectedCommand,
     ExpectedIdentifier,
     ExpectedInteger,
     ExpectedOperator,
     ExpectedSeparator,
     ExpectedStringlike,
+    ExpectedTime,
     IncompleteAmount,
     IncompleteUnit,
     InvalidPrefix,

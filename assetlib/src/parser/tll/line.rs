@@ -1,17 +1,13 @@
 #![allow(unused_assignments)]
 
-use crate::parser::tll::Command;
-use crate::parser::tll::Transaction;
 use chrono::naive::{NaiveDate, NaiveDateTime};
 
-use crate::{
-    match_first_pop,
-    parser::{
-        common::{Token, TokenIterator},
-        error::*,
-        tll::error::*,
-    }
+use crate::parser::{
+    common::{token_com::*, TokenIterator},
+    error::*,
 };
+
+use super::{Command, Transaction, error::*};
 
 #[derive(Clone)]
 pub struct Line {
@@ -34,11 +30,12 @@ impl Line {
         }
 
         Ok(Line {
-            datetime: match_first_pop!(tokens {
-                Token::Time(t) => { date.and_time(t) },
-            } else { date.and_hms(0,0,0) }),
-            action: if let Token::Command(c) = tokens[0].clone() {
-                tokens.remove(0);
+            datetime: if let Ok(t) = expect_time(&mut tokens, "") {
+                date.and_time(t)
+            } else {
+                date.and_hms(0,0,0)
+            },
+            action: if let Ok(c) = expect_command(&mut tokens, "") {
                 Command::from_name_and_vec(c.to_string(), tokens)?
             } else {
                 Command::Transaction(Transaction::from_vec(tokens)?)
