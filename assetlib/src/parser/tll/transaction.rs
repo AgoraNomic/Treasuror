@@ -1,6 +1,6 @@
 use crate::{
     model::{Amount, Currency},
-    parser::common::{Operator, token_com::*, Token},
+    parser::common::{token_com::*, Operator, Token},
 };
 
 use super::error::*;

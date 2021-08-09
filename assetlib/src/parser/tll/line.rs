@@ -7,7 +7,7 @@ use crate::parser::{
     error::*,
 };
 
-use super::{Command, Transaction, error::*};
+use super::{error::*, Command, Transaction};
 
 #[derive(Clone)]
 pub struct Line {
@@ -18,9 +18,10 @@ pub struct Line {
 impl Line {
     pub fn with_date_from_str(date: NaiveDate, ln: &str) -> Result<Line, AnyError<&str>> {
         if ln.trim().is_empty() {
-            return Err(AnyError::Syntax(
-                SyntaxError { message: "".to_string(), kind: ErrorKind::Empty })
-            );
+            return Err(AnyError::Syntax(SyntaxError {
+                message: "".to_string(),
+                kind: ErrorKind::Empty,
+            }));
         }
 
         let mut tokens = Vec::new();
@@ -33,7 +34,7 @@ impl Line {
             datetime: if let Ok(t) = expect_time(&mut tokens, "") {
                 date.and_time(t)
             } else {
-                date.and_hms(0,0,0)
+                date.and_hms(0, 0, 0)
             },
             action: if let Ok(c) = expect_command(&mut tokens, "") {
                 Command::from_name_and_vec(c.to_string(), tokens)?

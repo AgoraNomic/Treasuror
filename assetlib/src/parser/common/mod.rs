@@ -1,9 +1,9 @@
 pub mod combinators;
+pub mod error;
 mod operator;
 mod token;
-pub mod error;
 
 pub use crate::parser::common::{
     operator::Operator,
-    token::{Token, TokenIterator, combinators as token_com},
+    token::{combinators as token_com, Token, TokenIterator},
 };

@@ -12,7 +12,11 @@ pub struct Parser<R: BufRead> {
 
 impl<R: BufRead> Parser<R> {
     pub fn from_reader(reader: R) -> Parser<R> {
-        Parser { reader, date: None, linum: 0 }
+        Parser {
+            reader,
+            date: None,
+            linum: 0,
+        }
     }
 
     pub fn next_raw(&mut self) -> Option<Line> {
@@ -28,7 +32,7 @@ impl<R: BufRead> Parser<R> {
                 } else if let Some(date) = self.date {
                     Some(
                         Line::with_date_from_str(date, &text)
-                            .unwrap_or_else(|e| panic!("L{}: {:?}", self.linum, e))
+                            .unwrap_or_else(|e| panic!("L{}: {:?}", self.linum, e)),
                     )
                 } else if let Ok(date) = NaiveDate::parse_from_str(text.trim(), "%F") {
                     self.date = Some(date);
@@ -38,7 +42,7 @@ impl<R: BufRead> Parser<R> {
                     eprintln!("{}", text);
                     self.next_raw()
                 }
-            },
+            }
             Err(e) => panic!("Problem reading file: {}", e),
         }
     }

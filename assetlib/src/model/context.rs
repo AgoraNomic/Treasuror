@@ -6,7 +6,8 @@ use chrono::naive::{NaiveDateTime, MIN_DATETIME};
 
 use crate::{
     model::{
-        dates, Amount, Currency, DatedHistoryEntry, Entities, Entity, EntityKind, FullUnit, HistoryEntry,
+        dates, Amount, Currency, DatedHistoryEntry, Entities, Entity, EntityKind, FullUnit,
+        HistoryEntry,
     },
     parser::{
         common::Operator,
@@ -122,10 +123,7 @@ impl Context {
                         ));
                         transactions.push_back(Transaction::new(
                             ent.identifier().clone(),
-                            Amount::PartOf(
-                                FullUnit::Boatload(Currency::Coin),
-                                cp.donation_level,
-                            ),
+                            Amount::PartOf(FullUnit::Boatload(Currency::Coin), cp.donation_level),
                             Operator::Plus,
                             format!("Payday: donation level={}", cp.donation_level),
                         ));
@@ -198,11 +196,13 @@ impl Context {
                 None
             }
             Command::NewContract(identifier, full_name) => {
-                self.entities.insert(Entity::contract(identifier.clone(), full_name.clone()));
+                self.entities
+                    .insert(Entity::contract(identifier.clone(), full_name.clone()));
                 Some(format!("  Contract {} created", identifier))
             }
             Command::NewPlayer(identifier, full_name) => {
-                self.entities.add_player(identifier.clone(), full_name.clone());
+                self.entities
+                    .add_player(identifier.clone(), full_name.clone());
                 None
             }
             Command::Nuke => {

@@ -1,6 +1,6 @@
-use std::mem;
-use std::collections::hash_map::{HashMap, Entry};
+use std::collections::hash_map::{Entry, HashMap};
 use std::fmt::{self, Display};
+use std::mem;
 
 use crate::{
     match_first_pop,
@@ -74,7 +74,7 @@ impl Entities {
         if let Some(k) = curkind {
             result.push((k, mem::take(subvec)));
         }
-        
+
         result
     }
 
@@ -232,7 +232,10 @@ pub enum EntityKind {
 impl Display for EntityKind {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         f.pad(&match self {
-            EntityKind::Player(pp) => format!("Player({}a)", if pp.activity.is_active() { "+" } else { "-" }),
+            EntityKind::Player(pp) => format!(
+                "Player({}a)",
+                if pp.activity.is_active() { "+" } else { "-" }
+            ),
             EntityKind::Contract(cp) => format!("Contract({:02})", cp.donation_level),
             EntityKind::Other => String::from("Entity"),
         })
@@ -256,12 +259,14 @@ impl Activity {
 
 #[derive(Debug, Clone, Copy, Hash, Ord, PartialOrd, Eq, PartialEq)]
 pub struct PlayerParams {
-    pub activity: Activity
+    pub activity: Activity,
 }
 
 impl PlayerParams {
     pub fn new() -> PlayerParams {
-        PlayerParams { activity: Activity::Active }
+        PlayerParams {
+            activity: Activity::Active,
+        }
     }
 }
 

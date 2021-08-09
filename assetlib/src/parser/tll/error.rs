@@ -6,11 +6,17 @@ pub struct SyntaxError {
 
 impl SyntaxError {
     pub fn empty(kind: ErrorKind) -> SyntaxError {
-        SyntaxError { message: String::new(), kind }
+        SyntaxError {
+            message: String::new(),
+            kind,
+        }
     }
 
     pub fn from(message: &str, kind: ErrorKind) -> SyntaxError {
-        SyntaxError { message: message.to_string(), kind }
+        SyntaxError {
+            message: message.to_string(),
+            kind,
+        }
     }
 }
 
@@ -19,6 +25,7 @@ pub enum ErrorKind {
     Empty,
     ExpectedBlob,
     ExpectedCommand,
+    ExpectedFloat,
     ExpectedIdentifier,
     ExpectedInteger,
     ExpectedOperator,
@@ -30,4 +37,5 @@ pub enum ErrorKind {
     InvalidPrefix,
     InvalidCurrency,
     UnrecognizedCommand,
+    UnrecognizedDirective,
 }
