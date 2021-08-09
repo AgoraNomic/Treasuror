@@ -48,7 +48,7 @@ impl Directive {
                 &mut tokens,
                 "FLOTATION requires a float argument",
             )?)),
-            "ent" => Ok(Directive::Entity(Entity::from_vec(&mut tokens))),
+            "ent" => Ok(Directive::Entity(Entity::from_vec(&mut tokens)?)),
             "forbes" => Ok(Directive::Forbes(expect_integer(
                 &mut tokens,
                 "FORBES requires an integer argunent",

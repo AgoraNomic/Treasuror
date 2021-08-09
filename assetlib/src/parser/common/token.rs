@@ -228,7 +228,7 @@ pub mod combinators {
         } else {
             Err(SyntaxError::from(
                 message,
-                ErrorKind::ExpectedIdentifier
+                ErrorKind::ExpectedInteger
             ))
         })
     }

@@ -3,9 +3,11 @@ use std::fmt::{self, Display};
 use std::mem;
 
 use crate::{
-    match_first_pop,
     model::{Currency, Inventory},
-    parser::common::Token,
+    parser::{
+        common::{token_com::*, Token},
+        tll::error::*,
+    },
 };
 
 pub struct Entities {
@@ -96,55 +98,44 @@ pub struct Entity {
 }
 
 impl Entity {
-    pub fn from_vec(tokens: &mut Vec<Token>) -> Entity {
-        let mut kind = match_first_pop!(tokens {
-            Token::Identifier(s) => { match &s.to_lowercase()[..] {
-                "p" => EntityKind::Player(PlayerParams::new()),
-                "c" => EntityKind::Contract(ContractParams::new()),
-                "o" => EntityKind::Other,
-                _ => panic!("Expected 'P', 'C', or 'O'"),
-            }},
-        } else { panic!("Expected first arg of ENT directive to be identifier") });
+    pub fn from_vec(tokens: &mut Vec<Token>) -> Result<Entity, SyntaxError> {
+        let typeid = expect_identifier(tokens, "expected type identifier")?;
+
+        let mut kind = match &typeid.to_lowercase()[..] {
+            "p" => EntityKind::Player(PlayerParams::new()),
+            "c" => EntityKind::Contract(ContractParams::new()),
+            "o" => EntityKind::Other,
+            _ => {
+                return Err(SyntaxError::from(
+                    &format!("expected 'P', 'C', or 'O'; got '{}'", typeid),
+                    ErrorKind::InvalidEntityType,
+                ))
+            }
+        };
 
         if let EntityKind::Contract(ref mut cp) = kind {
-            cp.donation_level = match_first_pop!(tokens {
-                Token::Integer(i) => { i },
-            } else { 0 })
+            cp.donation_level = expect_integer(tokens, "").unwrap_or_else(|_| 0);
         }
 
-        let identifier = match_first_pop!(tokens {
-            Token::Identifier(s) => { s },
-        } else { panic!("Expected name") });
-
-        let full_name = match_first_pop!(tokens {
-            Token::String(s) => { s },
-        } else { identifier.clone() });
+        let identifier = expect_identifier(tokens, "expected name for entity")?;
+        let full_name = expect_stringlike(tokens, "").unwrap_or_else(|_| identifier.clone());
 
         let mut inventory: Inventory = HashMap::new();
         while !tokens.is_empty() {
-            let amount = match_first_pop!(tokens {
-                Token::Integer(i) => { i },
-            } else { panic!("expected number") });
+            let amount = expect_integer(tokens, "expected integer to begin simple amount")?;
 
-            let currency = match_first_pop!(
-                tokens {
-                    Token::Identifier(s) => {
-                        Currency::from_abbr(&s).unwrap_or_else(
-                            || panic!("invalid currency: '{}'!", s)
-                        )
-                    },
-                } else { panic!("expected currency identifier") }
-            );
+            let i = expect_identifier(tokens, "expected currency after integer")?;
+            let c = try_into_currency(&i)?;
 
-            inventory.insert(currency, amount);
+            inventory.insert(c, amount);
         }
 
-        Entity {
+        Ok(Entity {
             full_name,
             identifier,
             kind,
             inventory,
-        }
+        })
     }
 
     pub fn player(identifier: String, full_name: String) -> Entity {

@@ -34,8 +34,9 @@ pub enum ErrorKind {
     ExpectedTime,
     IncompleteAmount,
     IncompleteUnit,
-    InvalidPrefix,
     InvalidCurrency,
+    InvalidEntityType,
+    InvalidPrefix,
     UnrecognizedCommand,
     UnrecognizedDirective,
 }
