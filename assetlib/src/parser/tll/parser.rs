@@ -2,10 +2,7 @@ use std::io::prelude::*;
 
 use chrono::naive::NaiveDate;
 
-use crate::parser::{
-    error::*,
-    tll::Line
-};
+use crate::parser::tll::Line;
 
 pub struct Parser<R: BufRead> {
     reader: R,

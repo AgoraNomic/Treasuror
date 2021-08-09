@@ -17,9 +17,15 @@ impl SyntaxError {
 #[derive(Clone, Copy, Debug)]
 pub enum ErrorKind {
     Empty,
+    ExpectedBlob,
     ExpectedIdentifier,
     ExpectedInteger,
     ExpectedOperator,
+    ExpectedSeparator,
     ExpectedStringlike,
+    IncompleteAmount,
+    IncompleteUnit,
+    InvalidPrefix,
+    InvalidCurrency,
     UnrecognizedCommand,
 }

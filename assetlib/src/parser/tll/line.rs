@@ -7,7 +7,7 @@ use chrono::naive::{NaiveDate, NaiveDateTime};
 use crate::{
     match_first_pop,
     parser::{
-        common::{error::ParseError, Token, TokenIterator},
+        common::{Token, TokenIterator},
         error::*,
         tll::error::*,
     }

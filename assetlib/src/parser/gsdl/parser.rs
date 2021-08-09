@@ -1,4 +1,4 @@
-use std::io::{prelude::*, Chain};
+use std::io::prelude::*;
 
 use crate::parser::gsdl::Directive;
 

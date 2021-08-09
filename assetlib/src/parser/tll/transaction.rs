@@ -1,5 +1,4 @@
 use crate::{
-    match_first_pop,
     model::{Amount, Currency},
     parser::common::{Operator, token_com::*, Token},
 };
@@ -27,7 +26,7 @@ impl Transaction {
     pub fn from_vec(mut tokens: Vec<Token>) -> Result<Transaction, SyntaxError> {
         Ok(Transaction {
             agent: expect_identifier(&mut tokens, "need identifier as first argument")?,
-            amount: Amount::from_vec(&mut tokens),
+            amount: expect_amount(&mut tokens)?,
             operator: expect_operator(&mut tokens, "need operator in transaction")?,
             comment: expect_stringlike(&mut tokens, "").unwrap_or_else(|_| String::new()),
         })

@@ -1,4 +1,4 @@
-use crate::{match_first_pop, parser::common::{token_com::*, Token}};
+use crate::{parser::common::{token_com::*, Token}};
 
 use super::{
     error::*,

@@ -119,6 +119,64 @@ pub mod combinators {
     use super::{Operator, Token};
 
     use crate::parser::tll::error::*;
+    use crate::model::{Amount, Currency, FullUnit};
+
+    pub fn expect_amount<'a>(tokens: &'a mut Vec<Token>) -> Result<Amount, SyntaxError> {
+        if let Ok(i) = expect_integer(tokens, "") {
+            Ok(Amount::PartOf(expect_full_unit(tokens)?, i))
+        } else if let Ok(()) = expect_blob(tokens, "") {
+            if let Ok(c) = expect_identifier(tokens, "") {
+                Ok(Amount::AllOf(try_into_currency(&c)?))
+            } else {
+                Ok(Amount::Everything)
+            }
+        } else {
+            Err(SyntaxError::from("expected integer or blob at start of amount", ErrorKind::IncompleteAmount))
+        }
+    }
+
+    pub fn expect_blob<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> Result<(), SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Blob => { Ok(()) },
+        } else {
+            Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedBlob
+            ))
+        })
+    }
+
+    pub fn expect_currency<'a>(tokens: &'a mut Vec<Token>) -> Result<Currency, SyntaxError> {
+        let i = expect_identifier(tokens, "expected identifier in currency")?;
+        if let Some(c) = Currency::from_abbr(&i) {
+            Ok(c)
+        } else {
+            Err(SyntaxError::from(
+                &format!("invalid currency abbreviation: {}", i),
+                ErrorKind::ExpectedIdentifier
+            ))
+        }
+    }
+
+    pub fn expect_full_unit<'a>(tokens: &'a mut Vec<Token>) -> Result<FullUnit, SyntaxError> {
+        if let Ok(i1) = expect_identifier(tokens, "") {
+            if let Ok(()) = expect_separator(tokens, "") {
+                if let Ok(i2) = expect_identifier(tokens, "") {
+                    if i1 == "bl" {
+                        Ok(FullUnit::Boatload(try_into_currency(&i2)?))
+                    } else {
+                        Err(SyntaxError::from(&format!("invalid prefix {:?} in unit", i1), ErrorKind::InvalidPrefix))
+                    }
+                } else {
+                    Err(SyntaxError::from("expected currency after separator in unit", ErrorKind::IncompleteUnit))
+                }
+            } else {
+                Ok(FullUnit::Bare(try_into_currency(&i1)?))
+            }
+        } else {
+            Err(SyntaxError::from("expected identifier to begin unit", ErrorKind::IncompleteUnit))
+        }
+    }
 
     pub fn expect_identifier<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> Result<String, SyntaxError> {
         match_first_pop!(tokens {
@@ -139,6 +197,17 @@ pub mod combinators {
                 message,
                 ErrorKind::ExpectedIdentifier
             ));
+        })
+    }
+
+    pub fn expect_separator<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> Result<(), SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Separator => { Ok(()) },
+        } else {
+            Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedSeparator
+            ))
         })
     }
 
@@ -163,6 +232,10 @@ pub mod combinators {
                 ErrorKind::ExpectedStringlike
             ));
         })
+    }
+
+    pub fn try_into_currency(s: &str) -> Result<Currency, SyntaxError> {
+        Currency::from_abbr(s).ok_or_else(|| SyntaxError::from(&format!("unrecognized currency abbreviation: {}", s), ErrorKind::InvalidCurrency))
     }
 }
 
