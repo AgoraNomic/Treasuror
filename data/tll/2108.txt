@@ -39,8 +39,6 @@
 [03:30] R._Lee 5bl:cn+ "Reward: CFJ 3920"
 [03:30] Jason  5bl:cn+ "Reward: CFJ 3921"
 [03:44] R._Lee 1pd- "Pending proposal: decimation"
-[21:38] Falsifian 1717cn- "Victory Auction: Victory Card"
-[21:38] Falsifian    1wc+ "Victory Auction: Victory Card"
 
 2021-08-07
 [00:30] G. 1cn>ais
@@ -52,10 +50,6 @@
 [15:56] ATMunn     1wp+ "Personal grant: Legacy"
 [20:32] ATMunn     1wc>Falsifian
 [20:32] omd        1wc>Falsifian
-[20:32] Falsifian  4wc- "Set of cards"
-[20:32] Falsifian 10wp+ "Set of products"
-[20:32] Falsifian  2wp>ATMunn
-[20:32] Falsifian  2wp>omd
 [21:42] Murphy     1vc+ "Personal grant: Participation"
 [22:33] Murphy  5bl:cn+ "B Ribbon: CFJ 3922"
 [22:38] Murphy  5bl:cn+ "Reward: ADoP weekly"
@@ -70,3 +64,10 @@
 [00:59] G.     1pd- "Pending proposal"
 [01:25] Telna  1jc+ "Personal grant: Justice"
 [04:46] Trigon 1jc+ "Finger pointer"
+[05:02] #report
+[05:03] #bt 62160
+[21:03] Falsifian 1717cn- "Victory Auction: Victory Card"
+[21:03] Falsifian    1wc+ "Victory Auction: Victory Card"
+[21:03] Trigon      50cn- "Victory Auction: Justice Card"
+[21:03] Trigon       1jc+ "Victory Auction: Justice Card"
+[21:05] Trigon    5bl:cn>G.
