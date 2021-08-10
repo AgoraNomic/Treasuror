@@ -4,10 +4,13 @@ use chrono::naive::{NaiveDate, NaiveDateTime};
 
 use crate::parser::{
     common::{token_com::*, TokenIterator},
-    error::*,
+    error::{
+        any::AnyError,
+        syntax::{ErrorKind, SyntaxError},
+    },
 };
 
-use super::{error::*, Command, Transaction};
+use super::{Command, Transaction};
 
 #[derive(Clone)]
 pub struct Line {

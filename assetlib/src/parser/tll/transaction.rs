@@ -1,9 +1,10 @@
 use crate::{
     model::{Amount, Currency},
-    parser::common::{token_com::*, Operator, Token},
+    parser::{
+        common::{token_com::*, Operator, Token},
+        error::syntax::SyntaxError,
+    },
 };
-
-use super::error::*;
 
 #[derive(Clone)]
 pub struct Transaction {

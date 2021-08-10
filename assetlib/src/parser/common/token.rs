@@ -2,7 +2,9 @@ use chrono::naive::NaiveTime;
 
 use nom::{error::Error as NomError, Err as NomErr};
 
-use super::{combinators as com, error::ParseError, operator::Operator};
+use crate::parser::error::parse::ParseError;
+
+use super::{combinators as com, operator::Operator};
 
 pub struct TokenIterator<'a> {
     source: &'a str,
@@ -115,7 +117,7 @@ pub mod combinators {
     use super::{Operator, Token};
 
     use crate::model::{Amount, Currency, FullUnit};
-    use crate::parser::tll::error::*;
+    use crate::parser::error::syntax::{ErrorKind, SyntaxError};
 
     pub fn expect_amount<'a>(tokens: &'a mut Vec<Token>) -> Result<Amount, SyntaxError> {
         if let Ok(i) = expect_integer(tokens, "") {

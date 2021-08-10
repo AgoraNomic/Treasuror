@@ -1,5 +1,4 @@
 pub mod combinators;
-pub mod error;
 mod operator;
 mod token;
 

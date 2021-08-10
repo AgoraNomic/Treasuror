@@ -7,7 +7,7 @@ use nom::{
     Err as NomErr, IResult,
 };
 
-use super::Token;
+use crate::parser::common::Token;
 
 pub type TokenIResult<'a> = IResult<&'a str, Token, ParseError<&'a str>>;
 pub type StringIResult<'a> = IResult<&'a str, &'a str, ParseError<&'a str>>;

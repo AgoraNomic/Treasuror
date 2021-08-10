@@ -1,6 +1,9 @@
-use crate::parser::common::{token_com::*, Token};
+use crate::parser::{
+    common::{token_com::*, Token},
+    error::syntax::{ErrorKind, SyntaxError},
+};
 
-use super::{error::*, Transaction};
+use super::Transaction;
 
 #[derive(Clone)]
 pub enum Command {

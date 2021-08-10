@@ -6,7 +6,7 @@ use crate::{
     model::{Currency, Inventory},
     parser::{
         common::{token_com::*, Token},
-        tll::error::*,
+        error::syntax::*,
     },
 };
 
