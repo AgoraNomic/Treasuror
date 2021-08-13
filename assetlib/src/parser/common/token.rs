@@ -2,7 +2,7 @@ use chrono::naive::NaiveTime;
 
 use nom::{error::Error as NomError, Err as NomErr};
 
-use crate::parser::error::parse::ParseError;
+use crate::parser::error::parse::{ParseError, ParseResult};
 
 use super::{combinators as com, operator::Operator};
 
@@ -17,7 +17,7 @@ impl<'a> TokenIterator<'a> {
 }
 
 impl<'a> Iterator for TokenIterator<'a> {
-    type Item = Result<Token, ParseError<&'a str>>;
+    type Item = ParseResult<'a, Token>;
 
     fn next(&mut self) -> Option<Self::Item> {
         let rest = self.source.trim();
