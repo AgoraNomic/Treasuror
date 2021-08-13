@@ -98,7 +98,7 @@ pub struct Entity {
 }
 
 impl Entity {
-    pub fn from_vec(tokens: &mut Vec<Token>) -> Result<Entity, SyntaxError> {
+    pub fn from_vec(tokens: &mut Vec<Token>) -> SyntaxResult<Entity> {
         let typeid = expect_identifier(tokens, "expected type identifier")?;
 
         let mut kind = match &typeid.to_lowercase()[..] {

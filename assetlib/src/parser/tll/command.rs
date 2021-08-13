@@ -1,6 +1,6 @@
 use crate::parser::{
     common::{token_com::*, Token},
-    error::syntax::{ErrorKind, SyntaxError},
+    error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
 };
 
 use super::Transaction;
@@ -22,7 +22,7 @@ pub enum Command {
 }
 
 impl Command {
-    pub fn from_name_and_vec(name: String, mut tokens: Vec<Token>) -> Result<Command, SyntaxError> {
+    pub fn from_name_and_vec(name: String, mut tokens: Vec<Token>) -> SyntaxResult<Command> {
         match &name.to_lowercase()[..] {
             "activate" => Ok(Command::Activate(expect_stringlike(
                 &mut tokens,
