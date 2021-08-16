@@ -48,8 +48,6 @@
 2021-08-08
 [13:41] Falsifian  1wp+ "Personal grant: Legacy"
 [15:56] ATMunn     1wp+ "Personal grant: Legacy"
-[20:32] ATMunn     1wc>Falsifian
-[20:32] omd        1wc>Falsifian
 [21:42] Murphy     1vc+ "Personal grant: Participation"
 [22:33] Murphy  5bl:cn+ "B Ribbon: CFJ 3922"
 [22:38] Murphy  5bl:cn+ "Reward: ADoP weekly"
@@ -71,3 +69,47 @@
 [21:03] Trigon      50cn- "Victory Auction: Justice Card"
 [21:03] Trigon       1jc+ "Victory Auction: Justice Card"
 [21:05] Trigon    5bl:cn>G.
+[21:26] #revision
+
+2021-08-10
+[18:26] Jumble 1wp+ "Personal grant: Legacy"
+[18:26] Jumble 1wp>Cuddlebeam
+
+2021-08-11
+[23:07] Trigon 5bl:cn>Cuddlebeam
+
+2021-08-12
+[23:50] R._Lee 800cn- "Stone auction: Power Stone"
+[23:50] R._Lee 800cn- "Stone auction: Soul Stone"
+
+2021-08-13
+[01:53] G.       5bl:cn+ "Wielding Wealth Stone"
+[01:53] R._Lee 880cn>G.
+[20:14] Aspen    5bl:cn>Cuddlebeam
+
+2021-08-14
+[01:01] ATMunn 5bl:cn>Cuddlebeam
+[01:01] R._Lee 5bl:cn>Cuddlebeam
+[01:01] Aspen  5bl:cn>Cuddlebeam
+[08:22] D._Wet    1cn>Murphy
+
+2021-08-15
+[21:55] Murphy     1pd- "Proposal: Ribbon Reasons"
+[22:35] G.      7bl:cn+ "B Glitter: CFJ 3923"
+[22:55] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[22:55] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[22:55] Telna  10bl:cn+ "Reward: Arbitor weekly"
+[22:55] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[22:55] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[22:55] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[22:55] Murphy  5bl:cn+ "Reward: Tailor weekly"
+
+2021-08-16
+[00:57] Jason         1jc+ "Finger pointer"
+[02:47] Murphy     5bl:cn+ "Reward: CFJ 3922"
+[02:47] G.         5bl:cn+ "Reward: CFJ 3923"
+[02:47] Cuddlebeam 5bl:cn+ "Reward: CFJ 3924"
+[04:55] Jason      5bl:cn>Cuddlebeam
+[09:05] D._Wet        1cn>ATMunn
+[14:24] G.            1pd- "Pending proposal: fix win lockouts"
+[14:53] G.            1pd- "Pending proposal: The Device"
