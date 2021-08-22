@@ -1,5 +1,4 @@
 use super::unit::{Currency, FullUnit};
-use crate::parser::common::Token;
 
 #[derive(Copy, Clone)]
 pub enum Amount {
@@ -9,33 +8,6 @@ pub enum Amount {
 }
 
 impl Amount {
-    pub fn from_vec(s: &mut Vec<Token>) -> Amount {
-        match s[0] {
-            Token::Integer(i) => {
-                s.remove(0);
-                Amount::PartOf(
-                    FullUnit::from_vec(s), // s.remove(0).extract_string()).unwrap(),
-                    i,
-                )
-            }
-            Token::Blob => match s[1].clone() {
-                Token::Identifier(i) => {
-                    s.remove(1);
-                    s.remove(0);
-                    Amount::AllOf(
-                        Currency::from_abbr(&i).expect("invalid currency specified after blob"),
-                    )
-                }
-                Token::Op(_) => {
-                    s.remove(0);
-                    Amount::Everything
-                }
-                _ => panic!("operator or identifier expected after blob"),
-            },
-            _ => panic!("invalid token"),
-        }
-    }
-
     pub fn pretty(&self) -> String {
         match self {
             Amount::Everything => String::from("everything"),

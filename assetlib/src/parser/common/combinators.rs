@@ -8,11 +8,7 @@ use nom::{
     sequence::{delimited, preceded},
 };
 
-use super::{
-    error::*,
-    Operator,
-    Token
-};
+use super::{error::*, Operator, Token};
 
 pub fn is_id_char(c: char) -> bool {
     c.is_ascii_alphabetic() || c == '.' || c == '_' || c == '&'

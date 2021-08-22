@@ -1,5 +1,3 @@
-use crate::parser::common::Token;
-
 #[derive(Copy, Clone, Debug, Hash, Eq, PartialEq)]
 pub enum Currency {
     Coin,
@@ -58,37 +56,6 @@ pub enum FullUnit {
 }
 
 impl FullUnit {
-    pub fn from_vec(s: &mut Vec<Token>) -> FullUnit {
-        if s.is_empty() {
-            panic!("no valid unit");
-        }
-
-        if let Token::Identifier(i1) = s[0].clone() {
-            s.remove(0);
-
-            if s.len() >= 2 {
-                if let (Token::Separator, Token::Identifier(i2)) = (s[0].clone(), s[1].clone()) {
-                    s.remove(0);
-                    s.remove(0);
-                    if i1 == "bl" {
-                        FullUnit::Boatload(Currency::from_abbr(&i2).unwrap())
-                    } else {
-                        panic!("invalid unit prefix!");
-                    }
-                } else {
-                    FullUnit::Bare(
-                        Currency::from_abbr(&i1)
-                            .unwrap_or_else(|| panic!("invalid currency: {}", i1)),
-                    )
-                }
-            } else {
-                FullUnit::Bare(Currency::from_abbr(&i1).unwrap())
-            }
-        } else {
-            panic!("no valid unit given");
-        }
-    }
-
     pub fn currency(&self) -> Currency {
         match self {
             FullUnit::Bare(c) => *c,

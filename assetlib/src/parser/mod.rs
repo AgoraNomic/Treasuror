@@ -1,4 +1,5 @@
 pub mod common;
+pub mod error;
 pub mod gsdl;
 pub mod tll;
 

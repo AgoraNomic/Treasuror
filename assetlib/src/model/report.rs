@@ -102,7 +102,7 @@ impl<'a> Report<'a> {
                     .tables
                     .iter()
                     .fold(String::new(), |acc, x| acc + &x.to_string() + "\n")
-                    .trim_end()
+                    .trim_end(),
             )
             .replace("{history}", self.history.trim())
             .replace(
@@ -111,17 +111,17 @@ impl<'a> Report<'a> {
                     .with_row(
                         Row::new()
                             .with_cell("Total Buoyancy:")
-                            .with_cell(self.total_buoyancy)
+                            .with_cell(self.total_buoyancy),
                     )
                     .with_row(
                         Row::new()
                             .with_cell("Buoyancy Target:")
-                            .with_cell(self.buoyancy_target)
+                            .with_cell(self.buoyancy_target),
                     )
                     .with_row(
                         Row::new()
                             .with_cell("Unit of Flotation:")
-                            .with_cell(format!("{:.4}", self.flotation))
+                            .with_cell(format!("{:.4}", self.flotation)),
                     )
                     .to_string()
                     .trim_end(),

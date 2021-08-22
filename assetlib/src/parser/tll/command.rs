@@ -1,5 +1,6 @@
-use crate::parser::tll::Transaction;
-use crate::{match_first_pop, parser::common::Token};
+use crate::parser::common::{token_com::*, Token};
+
+use super::{error::*, Transaction};
 
 #[derive(Clone)]
 pub enum Command {
@@ -18,62 +19,49 @@ pub enum Command {
 }
 
 impl Command {
-    pub fn from_name_and_vec(name: String, mut tokens: Vec<Token>) -> Option<Command> {
+    pub fn from_name_and_vec(name: String, mut tokens: Vec<Token>) -> Result<Command, SyntaxError> {
         match &name.to_lowercase()[..] {
-            "activate" => Some(Command::Activate(match_first_pop!(tokens {
-                    Token::String(s) => { s },
-                    Token::Identifier(s) => { s },
-                } else { panic!("cannot activate no one") }))),
-            "bt" => Some(Command::BuoyancyTarget(match_first_pop!(tokens {
-                    Token::Integer(i) => { i },
-                } else { panic!("setting buoyancy target requires an integer") }))),
-            "deactivate" => Some(Command::Deactivate(match_first_pop!(tokens {
-                    Token::String(s) => { s },
-                    Token::Identifier(s) => { s },
-                } else { panic!("cannot deactivate no one") }))),
-            "delplayer" | "delcontract" | "deregister" => {
-                Some(Command::Deregister(match_first_pop!(tokens {
-                    Token::Identifier(s) => { s },
-                } else { panic!("expected identifier in #deregister command") })))
-            }
-            "payday" => Some(Command::Payday),
+            "activate" => Ok(Command::Activate(expect_stringlike(
+                &mut tokens,
+                "cannot activate no one",
+            )?)),
+            "bt" => Ok(Command::BuoyancyTarget(expect_integer(
+                &mut tokens,
+                "setting buoyancy target requires an integer",
+            )?)),
+            "deactivate" => Ok(Command::Deactivate(expect_stringlike(
+                &mut tokens,
+                "cannot deactivate no one",
+            )?)),
+            "delplayer" | "delcontract" | "deregister" => Ok(Command::Deregister(
+                expect_identifier(&mut tokens, "expected identifier in #deregister")?,
+            )),
+            "payday" => Ok(Command::Payday),
             "newcontract" => {
-                let identifier = match_first_pop!(tokens {
-                    Token::Identifier(s) => { s },
-                } else { panic!("expected identifier in #newcontract command") });
+                let identifier =
+                    expect_identifier(&mut tokens, "expected identifier in #newcontract")?;
+                let full_name =
+                    expect_stringlike(&mut tokens, "").unwrap_or_else(|_| identifier.clone());
 
-                let full_name = match_first_pop!(tokens {
-                    Token::String(s) => { s },
-                    Token::Identifier(s) => { s },
-                } else { identifier.clone() });
-
-                Some(Command::NewContract(identifier, full_name))
+                Ok(Command::NewContract(identifier, full_name))
             }
             "newplayer" | "register" => {
-                let identifier = match_first_pop!(tokens {
-                    Token::Identifier(s) => { s },
-                } else { panic!("expected identifier in #newplayer command") });
+                let identifier =
+                    expect_identifier(&mut tokens, "expected identifier in #newplayer")?;
+                let full_name =
+                    expect_stringlike(&mut tokens, "").unwrap_or_else(|_| identifier.clone());
 
-                let full_name = match_first_pop!(tokens {
-                    Token::String(s) => { s },
-                    Token::Identifier(s) => { s },
-                } else { identifier.clone() });
-
-                Some(Command::NewPlayer(identifier, full_name))
+                Ok(Command::NewPlayer(identifier, full_name))
             }
-            "nuke" => Some(Command::Nuke),
-            "relevel" => Some(Command::Relevel(match_first_pop!(tokens {
-                    Token::Integer(i) => { Some(i) },
-                } else { None }))),
-            "report" => Some(Command::Report),
-            "revision" => Some(Command::Revision),
-            "transaction" | "t" => Some(Command::Transaction(
-                Transaction::from_vec(tokens).expect("no transaction specified"),
+            "nuke" => Ok(Command::Nuke),
+            "relevel" => Ok(Command::Relevel(expect_integer(&mut tokens, "").ok())),
+            "report" => Ok(Command::Report),
+            "revision" => Ok(Command::Revision),
+            "transaction" | "t" => Ok(Command::Transaction(Transaction::from_vec(tokens)?)),
+            _ => Err(SyntaxError::from(
+                &format!("no such command: {}", name),
+                ErrorKind::UnrecognizedCommand,
             )),
-            _ => {
-                eprintln!("no such command: {}", name);
-                None
-            }
         }
     }
 }

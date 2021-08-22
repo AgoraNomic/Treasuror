@@ -1,6 +1,8 @@
 use chrono::naive::NaiveTime;
 
-use super::{combinators as com, operator::Operator};
+use nom::{error::Error as NomError, Err as NomErr};
+
+use super::{combinators as com, error::ParseError, operator::Operator};
 
 pub struct TokenIterator<'a> {
     source: &'a str,
@@ -13,17 +15,24 @@ impl<'a> TokenIterator<'a> {
 }
 
 impl<'a> Iterator for TokenIterator<'a> {
-    type Item = Token;
+    type Item = Result<Token, ParseError<&'a str>>;
 
-    fn next(&mut self) -> Option<Token> {
+    fn next(&mut self) -> Option<Self::Item> {
         let rest = self.source.trim();
 
         match com::token_any(rest) {
             Ok((rest2, matched)) => {
                 self.source = rest2;
-                Some(matched)
+                Some(Ok(matched))
             }
-            Err(_) => { None }
+            Err(e) => match e {
+                NomErr::Error(ParseError::Nom(n)) => match n {
+                    NomError { input: "", .. } => None,
+                    NomError { input: i, .. } => Some(Err(ParseError::Unparseable(i.to_string()))),
+                },
+                NomErr::Error(e) | NomErr::Failure(e) => Some(Err(e)),
+                _ => None,
+            },
         }
     }
 }
@@ -95,6 +104,199 @@ impl From<f32> for Token {
 impl From<Operator> for Token {
     fn from(o: Operator) -> Token {
         Token::Op(o)
+    }
+}
+
+pub mod combinators {
+    use chrono::naive::NaiveTime;
+
+    use crate::match_first_pop;
+
+    use super::{Operator, Token};
+
+    use crate::model::{Amount, Currency, FullUnit};
+    use crate::parser::tll::error::*;
+
+    pub fn expect_amount<'a>(tokens: &'a mut Vec<Token>) -> Result<Amount, SyntaxError> {
+        if let Ok(i) = expect_integer(tokens, "") {
+            Ok(Amount::PartOf(expect_full_unit(tokens)?, i))
+        } else if let Ok(()) = expect_blob(tokens, "") {
+            if let Ok(c) = expect_identifier(tokens, "") {
+                Ok(Amount::AllOf(try_into_currency(&c)?))
+            } else {
+                Ok(Amount::Everything)
+            }
+        } else {
+            Err(SyntaxError::from(
+                "expected integer or blob at start of amount",
+                ErrorKind::IncompleteAmount,
+            ))
+        }
+    }
+
+    pub fn expect_blob<'a>(
+        tokens: &'a mut Vec<Token>,
+        message: &'a str,
+    ) -> Result<(), SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Blob => { Ok(()) },
+        } else {
+            Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedBlob
+            ))
+        })
+    }
+
+    pub fn expect_command<'a>(
+        tokens: &'a mut Vec<Token>,
+        message: &'a str,
+    ) -> Result<String, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Command(s) => { Ok(s) },
+        } else {
+            Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedCommand
+            ))
+        })
+    }
+
+    pub fn expect_float<'a>(
+        tokens: &'a mut Vec<Token>,
+        message: &'a str,
+    ) -> Result<f32, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Float(f) => { Ok(f) },
+        } else {
+            Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedFloat
+            ))
+        })
+    }
+
+    pub fn expect_full_unit<'a>(tokens: &'a mut Vec<Token>) -> Result<FullUnit, SyntaxError> {
+        if let Ok(i1) = expect_identifier(tokens, "") {
+            if let Ok(()) = expect_separator(tokens, "") {
+                if let Ok(i2) = expect_identifier(tokens, "") {
+                    if i1 == "bl" {
+                        Ok(FullUnit::Boatload(try_into_currency(&i2)?))
+                    } else {
+                        Err(SyntaxError::from(
+                            &format!("invalid prefix {:?} in unit", i1),
+                            ErrorKind::InvalidPrefix,
+                        ))
+                    }
+                } else {
+                    Err(SyntaxError::from(
+                        "expected currency after separator in unit",
+                        ErrorKind::IncompleteUnit,
+                    ))
+                }
+            } else {
+                Ok(FullUnit::Bare(try_into_currency(&i1)?))
+            }
+        } else {
+            Err(SyntaxError::from(
+                "expected identifier to begin unit",
+                ErrorKind::IncompleteUnit,
+            ))
+        }
+    }
+
+    pub fn expect_identifier<'a>(
+        tokens: &'a mut Vec<Token>,
+        message: &'a str,
+    ) -> Result<String, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Identifier(s) => { Ok(s) },
+        } else {
+            Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedIdentifier
+            ))
+        })
+    }
+
+    pub fn expect_integer<'a>(
+        tokens: &'a mut Vec<Token>,
+        message: &'a str,
+    ) -> Result<u32, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Integer(i) => { Ok(i) },
+        } else {
+            Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedInteger
+            ))
+        })
+    }
+
+    pub fn expect_separator<'a>(
+        tokens: &'a mut Vec<Token>,
+        message: &'a str,
+    ) -> Result<(), SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Separator => { Ok(()) },
+        } else {
+            Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedSeparator
+            ))
+        })
+    }
+
+    pub fn expect_operator<'a>(
+        tokens: &'a mut Vec<Token>,
+        message: &'a str,
+    ) -> Result<Operator, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Op(o) => { Ok(o) },
+        } else {
+            Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedOperator
+            ))
+        })
+    }
+
+    pub fn expect_stringlike<'a>(
+        tokens: &'a mut Vec<Token>,
+        message: &'a str,
+    ) -> Result<String, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::String(s) => { Ok(s) },
+            Token::Identifier(s) => { Ok(s) },
+        } else {
+            Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedStringlike
+            ))
+        })
+    }
+
+    pub fn expect_time<'a>(
+        tokens: &'a mut Vec<Token>,
+        message: &'a str,
+    ) -> Result<NaiveTime, SyntaxError> {
+        match_first_pop!(tokens {
+            Token::Time(t) => { Ok(t) },
+        } else {
+            return Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedTime
+            ));
+        })
+    }
+
+    pub fn try_into_currency(s: &str) -> Result<Currency, SyntaxError> {
+        Currency::from_abbr(s).ok_or_else(|| {
+            SyntaxError::from(
+                &format!("unrecognized currency abbreviation: {}", s),
+                ErrorKind::InvalidCurrency,
+            )
+        })
     }
 }
 
