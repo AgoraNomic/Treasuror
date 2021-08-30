@@ -41,6 +41,7 @@ Full List of Monthly Reports:
 
 Full List of Weekly Reports:
 
+* [2021-08-30](weekly/2021-08-30.txt)
 * [2021-08-16](weekly/2021-08-16.txt)
 * [2021-08-09A](weekly/2021-08-09A.txt)
 * [2021-08-09](weekly/2021-08-09.txt)

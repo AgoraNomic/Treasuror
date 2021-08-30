@@ -113,3 +113,55 @@
 [09:05] D._Wet        1cn>ATMunn
 [14:24] G.            1pd- "Pending proposal: fix win lockouts"
 [14:53] G.            1pd- "Pending proposal: The Device"
+[22:41] #report
+[22:42] #bt 61634
+
+2021-08-20
+[01:54] Trigon    900cn- "Victory Auction: Victory Card"
+[01:54] Trigon      1wc+ "Victory Auction: Victory Card"
+[01:54] Jason      60cn- "Victory Auction: Voting Card"
+[01:54] L&F_Dept.   1vc>Jason "Victory Auction: Voting Card"
+
+2021-08-22
+[19:44] R._Lee  5bl:cn+ "Reward: Registrar weekly"
+[19:44] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[19:44] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[19:44] Telna  10bl:cn+ "Reward: Arbitor weekly"
+[19:44] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[19:44] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[19:44] R._Lee  5bl:cn+ "Reward: Registrar monthly"
+
+2021-08-24
+[02:10] #report
+[02:10] #bt 61884
+[08:05] Aspen    1jc+ "Finger pointer"
+[08:34] Telna    4jc- "Set of cards"
+[08:34] Telna   10bg+ "Set of products"
+[08:35] Telna    1bg>R._Lee
+[08:35] R._Lee   2bl:cn>Telna
+[08:52] R._Lee   1pd- "Pending proposal: ROCKS"
+
+2021-08-25
+[05:08] R._Lee 1bg- "Expungement"
+
+2021-08-27
+[09:15] D._Wet 1cn>R._Lee
+
+2021-08-29
+[23:24] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[23:24] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[23:24] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[23:24] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[23:24] R._Lee  5bl:cn+ "Reward: Registrar weekly"
+[23:24] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[23:24] Telna  10bl:cn+ "Reward: Arbitor weekly"
+[23:24] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[23:24] Murphy  5bl:cn+ "Reward: Tailor weekly"
+
+2021-08-30
+[14:37] Jason     1pd- "Pending proposal: Buying strength"
+[20:03] R._Lee 2bl:cn+ "Reward: Proposal 8597"
+[20:03] G.     5bl:cn+ "Reward: Proposal 8598"
+[20:03] G.     8bl:cn+ "Reward: Proposal 8599"
+[20:03] G.     8bl:cn+ "Reward: Proposal 8600"
+[20:03] Murphy 8bl:cn+ "Reward: Proposal 8601"
