@@ -1,0 +1,18 @@
+2021-09-01
+#relevel
+#payday
+[01:55] Telna 630cn>D._Wet
+[01:55] Telna 210cn>Trigon
+[03:55] Aspen   2jc>Trigon
+[03:55] Trigon  4jc- "Set of cards"
+[03:55] Trigon 10bg+ "Set of products"
+[03:55] Trigon  5bg>Aspen
+[03:56] Trigon  1bg- "Expungement"
+[03:58] Aspen   2bg- "Expungement"
+[05:29] Trigon    775cn- "Victory Auction: Victory Card"
+[05:29] Trigon      1wc+ "Victory Auction: Victory Card"
+[05:29] R._Lee    300cn- "Victory Auction: Justice Card"
+[05:29] L&F_Dept.   1jc+ "Victory Auction: Justice Card"
+[05:32] Trigon  4wc- "Set of cards"
+[05:32] Trigon 10wp+ "Set of products"
+[05:33] Trigon  1wp+ "Personal grant: Legacy"
