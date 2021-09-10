@@ -20,3 +20,62 @@
 [07:11] nix       1wc+ "Legacy grant"
 [07:12] R._Lee    1jc+ "Personal grant: Justice"
 [16:37] Falsifian 1wp+ "Personal grant: Legacy"
+
+2021-09-03
+[03:17] #revision
+
+2021-09-04
+[05:34] R._Lee 1pd- "Pending proposal: Stony Silence"
+[18:29] G.     1lc+ "Popular proposal: Proposals 8599, 8600"
+[18:30] G.     1lc+ "Personal grant: Legislation"
+[18:33] Jason  1lc+ "Personal grant: Legislation"
+
+2021-09-05
+[03:12] Telna   1jc+ "Personal grant: Justice"
+[03:19] ais     1lc+ "Personal grant: Legislation"
+[03:24] Telna  85cn>R._Lee
+[03:25] R._Lee  1pd>Telna
+[05:18] Telna   1pd- "Pending proposal: SR Fix"
+[05:32] R._Lee 10bl:cn+ "Reward: CFJ 3922x2"
+[05:32] ais     5bl:cn+ "Reward: CFJ 3925"
+[05:32] Telna   5bl:cn+ "Reward: CFJ 3927"
+[07:29] #deregister Mask
+[07:29] #deactivate Nathan
+[07:29] #deactivate seventeen
+[07:29] #deactivate surprise
+
+2021-09-06
+[03:33] banana  2jc>R._Lee
+[03:33] R._Lee  4jc- "Set of cards"
+[03:33] R._Lee 10bg+ "Set of products"
+[03:33] R._Lee  5bg>banana
+
+2021-09-08
+[00:34] ais     7bl:cn+ "B Glitter: CFJ 3925"
+[00:41] Murphy  1vc+ "Personal grant: Participation"
+[00:41] Murphy  4vc- "Set of cards"
+[00:41] Murphy 10xv+ "Set of products"
+[00:59] R._Lee  7bl:cn+ "B Glitter: CFJ 3922"
+[01:58] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[01:58] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[01:58] Telna  10bl:cn+ "Reward: Arbitor weekly"
+[01:58] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[01:58] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[01:58] R._Lee  5bl:cn+ "Reward: Registrar weekly"
+[01:58] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[01:58] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[01:58] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[01:58] G.      5bl:cn+ "Reward: Tracker of the Device weekly"
+[01:58] Telna  10bl:cn+ "Reward: Arbitor weekly"
+[01:58] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[01:58] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[01:58] Jason  15bl:cn+ "Reward: Assessed proposal"
+[01:58] Jason  15bl:cn+ "Reward: Assessed proposal"
+[01:58] Jason  15bl:cn+ "Reward: Full Logical Ruleset"
+[01:58] R._Lee  5bl:cn+ "Reward: Ministor monthly"
+[01:58] nix    10bl:cn+ "Reward: Herald monthly"
+[01:58] Murphy  5bl:cn+ "Reward: Tailor monthly"
+[18:22] banana 780cn>Trigon
+
+2021-09-09
+[15:46] banana 1lc>Jason
