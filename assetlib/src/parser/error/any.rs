@@ -1,4 +1,5 @@
-use super::{common::error::*, tll::error::*};
+use super::parse::ParseError;
+use super::syntax::SyntaxError;
 
 #[derive(Debug)]
 pub enum AnyError<I> {

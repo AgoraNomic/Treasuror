@@ -1,9 +1,10 @@
 use crate::{
     model::{Amount, Currency},
-    parser::common::{token_com::*, Operator, Token},
+    parser::{
+        common::{token_com::*, Operator, Token},
+        error::syntax::SyntaxResult,
+    },
 };
-
-use super::error::*;
 
 #[derive(Clone)]
 pub struct Transaction {
@@ -23,7 +24,7 @@ impl Transaction {
         }
     }
 
-    pub fn from_vec(mut tokens: Vec<Token>) -> Result<Transaction, SyntaxError> {
+    pub fn from_vec(mut tokens: Vec<Token>) -> SyntaxResult<Transaction> {
         Ok(Transaction {
             agent: expect_identifier(&mut tokens, "need identifier as first argument")?,
             amount: expect_amount(&mut tokens)?,

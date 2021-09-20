@@ -2,7 +2,9 @@ use chrono::naive::NaiveTime;
 
 use nom::{error::Error as NomError, Err as NomErr};
 
-use super::{combinators as com, error::ParseError, operator::Operator};
+use crate::parser::error::parse::{ParseError, ParseResult};
+
+use super::{combinators as com, operator::Operator};
 
 pub struct TokenIterator<'a> {
     source: &'a str,
@@ -15,7 +17,7 @@ impl<'a> TokenIterator<'a> {
 }
 
 impl<'a> Iterator for TokenIterator<'a> {
-    type Item = Result<Token, ParseError<&'a str>>;
+    type Item = ParseResult<'a, Token>;
 
     fn next(&mut self) -> Option<Self::Item> {
         let rest = self.source.trim();
@@ -51,36 +53,6 @@ pub enum Token {
 }
 
 impl Token {
-    pub fn extract_float(&self) -> f32 {
-        if let Token::Float(f) = self {
-            *f
-        } else {
-            panic!("cannot extract float");
-        }
-    }
-
-    pub fn extract_int(&self) -> u32 {
-        if let Token::Integer(i) = self {
-            *i
-        } else {
-            panic!("cannot extract int");
-        }
-    }
-
-    pub fn extract_string(&self) -> &str {
-        match self {
-            Token::Identifier(s) | Token::String(s) | Token::Command(s) => s,
-            _ => panic!("cannot extract string"),
-        }
-    }
-
-    pub fn extract_operator(&self) -> &Operator {
-        if let Token::Op(ref o) = &self {
-            o
-        } else {
-            panic!("cannot extract operator");
-        }
-    }
 }
 
 impl From<NaiveTime> for Token {
@@ -115,9 +87,9 @@ pub mod combinators {
     use super::{Operator, Token};
 
     use crate::model::{Amount, Currency, FullUnit};
-    use crate::parser::tll::error::*;
+    use crate::parser::error::syntax::{ErrorKind, SyntaxError, SyntaxResult};
 
-    pub fn expect_amount<'a>(tokens: &'a mut Vec<Token>) -> Result<Amount, SyntaxError> {
+    pub fn expect_amount<'a>(tokens: &'a mut Vec<Token>) -> SyntaxResult<Amount> {
         if let Ok(i) = expect_integer(tokens, "") {
             Ok(Amount::PartOf(expect_full_unit(tokens)?, i))
         } else if let Ok(()) = expect_blob(tokens, "") {
@@ -137,7 +109,7 @@ pub mod combinators {
     pub fn expect_blob<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
-    ) -> Result<(), SyntaxError> {
+    ) -> SyntaxResult<()> {
         match_first_pop!(tokens {
             Token::Blob => { Ok(()) },
         } else {
@@ -151,7 +123,7 @@ pub mod combinators {
     pub fn expect_command<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
-    ) -> Result<String, SyntaxError> {
+    ) -> SyntaxResult<String> {
         match_first_pop!(tokens {
             Token::Command(s) => { Ok(s) },
         } else {
@@ -165,7 +137,7 @@ pub mod combinators {
     pub fn expect_float<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
-    ) -> Result<f32, SyntaxError> {
+    ) -> SyntaxResult<f32> {
         match_first_pop!(tokens {
             Token::Float(f) => { Ok(f) },
         } else {
@@ -176,7 +148,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_full_unit<'a>(tokens: &'a mut Vec<Token>) -> Result<FullUnit, SyntaxError> {
+    pub fn expect_full_unit<'a>(tokens: &'a mut Vec<Token>) -> SyntaxResult<FullUnit> {
         if let Ok(i1) = expect_identifier(tokens, "") {
             if let Ok(()) = expect_separator(tokens, "") {
                 if let Ok(i2) = expect_identifier(tokens, "") {
@@ -208,7 +180,7 @@ pub mod combinators {
     pub fn expect_identifier<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
-    ) -> Result<String, SyntaxError> {
+    ) -> SyntaxResult<String> {
         match_first_pop!(tokens {
             Token::Identifier(s) => { Ok(s) },
         } else {
@@ -222,7 +194,7 @@ pub mod combinators {
     pub fn expect_integer<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
-    ) -> Result<u32, SyntaxError> {
+    ) -> SyntaxResult<u32> {
         match_first_pop!(tokens {
             Token::Integer(i) => { Ok(i) },
         } else {
@@ -236,7 +208,7 @@ pub mod combinators {
     pub fn expect_separator<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
-    ) -> Result<(), SyntaxError> {
+    ) -> SyntaxResult<()> {
         match_first_pop!(tokens {
             Token::Separator => { Ok(()) },
         } else {
@@ -250,7 +222,7 @@ pub mod combinators {
     pub fn expect_operator<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
-    ) -> Result<Operator, SyntaxError> {
+    ) -> SyntaxResult<Operator> {
         match_first_pop!(tokens {
             Token::Op(o) => { Ok(o) },
         } else {
@@ -264,7 +236,7 @@ pub mod combinators {
     pub fn expect_stringlike<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
-    ) -> Result<String, SyntaxError> {
+    ) -> SyntaxResult<String> {
         match_first_pop!(tokens {
             Token::String(s) => { Ok(s) },
             Token::Identifier(s) => { Ok(s) },
@@ -279,7 +251,7 @@ pub mod combinators {
     pub fn expect_time<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
-    ) -> Result<NaiveTime, SyntaxError> {
+    ) -> SyntaxResult<NaiveTime> {
         match_first_pop!(tokens {
             Token::Time(t) => { Ok(t) },
         } else {
@@ -290,7 +262,7 @@ pub mod combinators {
         })
     }
 
-    pub fn try_into_currency(s: &str) -> Result<Currency, SyntaxError> {
+    pub fn try_into_currency(s: &str) -> SyntaxResult<Currency> {
         Currency::from_abbr(s).ok_or_else(|| {
             SyntaxError::from(
                 &format!("unrecognized currency abbreviation: {}", s),

@@ -1,3 +1,5 @@
+pub type SyntaxResult<T> = Result<T, SyntaxError>;
+
 #[derive(Clone, Debug)]
 pub struct SyntaxError {
     pub message: String,

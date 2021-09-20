@@ -2,8 +2,10 @@ use crate::{
     model::{Currency, Entity},
     parser::{
         common::{token_com::*, TokenIterator},
-        error::*,
-        tll::error::*,
+        error::{
+            any::AnyError,
+            syntax::{ErrorKind, SyntaxError},
+        },
     },
 };
 
