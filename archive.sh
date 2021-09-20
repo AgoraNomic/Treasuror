@@ -5,7 +5,9 @@
 # argument one is m for monthly, w for weekly
 # argument two is any stuff you want to append to the filename
 
-REPORTDIR="docs/reports"
+SITEDIR="docs"
+REPORTDIR="$SITEDIR/reports"
+APIDIR="$SITEDIR/api"
 
 case $1 in
     (m) DATE=$(date -u +'%Y-%m');
@@ -27,6 +29,8 @@ case $3 in
 esac
 
 INNERREPORTDIR=$REPORTDIR/$REPORTTYPE
+
+grep -A2 "Total Buoyancy" weekly.txt | cut -d: -f2 | sed 's/\s//g' > $APIDIR/buoyancy.txt
 
 cp $REPORTTYPE.txt $INNERREPORTDIR/fresh.txt
 cp $REPORTTYPE.txt $INNERREPORTDIR/$FILENAME.txt
