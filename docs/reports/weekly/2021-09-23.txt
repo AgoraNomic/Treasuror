@@ -1,5 +1,5 @@
 ========================================================================
-                       FORBES FOUR HUNDRED TWENTY
+                     FORBES FOUR HUNDRED TWENTY-ONE
 --------------------------------   or   --------------------------------
                        TREASUROR'S WEEKLY REPORT
 ========================================================================
@@ -11,16 +11,14 @@ DATES OF PUBLICATION                                  (contains no data)
 
 (all times and dates in UTC)
 
-Date of previous original report:  23 September 2021
-Date of first report this week:    02 October 2021
+Date of previous original report:  10 September 2021
+Date of first report this week:    23 September 2021
 
 
 NOTES ON REPORT                                       (contains no data)
 ========================================================================
 
-* (FIX) Jumble is active.
-* (FIX) Jason used the Concentration Stone on 15 September.
-* A payday occured. Make sure everything is tracked correctly.
+* This week's report is later than I anticipated. Sincerest apologies.
 * Find my report drafts on Discord or IRC.
 * As always, please check the general accuracy of this report.
 
@@ -28,9 +26,9 @@ NOTES ON REPORT                                       (contains no data)
 BUOYANCY                                                 (self-ratifies)
 ========================================================================
 
-Total Buoyancy:    76648
-Buoyancy Target:   76648
-Unit of Flotation: 31.0000
+Total Buoyancy:    64546
+Buoyancy Target:   75708
+Unit of Flotation: 26.0000
 
 
 ASSET BALANCES                                           (self-ratifies)
@@ -38,30 +36,29 @@ ASSET BALANCES                                           (self-ratifies)
 
    Player(+a)      cn     wc    jc    lc    vc    wp    bg    pd    xv 
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
- ais        [0]    1433     1     1     2     1     0     0     0     0
- Aspen             8076     1     1     2     1     0     0     0     0
- ATMunn            6437     0     0     0     0     3     2     4     2
- banana     [1]    1078     0     1     1     1     1     0     0     0
- Cuddlebeam         631     1     0     0     0     3     2     2     4
- Falsifian          790     1     1     1     1     4     0     0     0
- G.               10035     1     1     0     1     0     0     5     0
- Gaelan            3382     1     1     2     1     0     0     0     0
- Jason             8765     0     0     2     0     0     3     6     2
- Jumble             788     1     1     1     1     0     0     0     0
- Murphy            7985     1     1     1     2     0     0     0     0
- nix               2877     0     0     0     0     4     3     1     2
- omd               1819     1     1     1     1     0     0     0     0
- Pat                980     1     1     1     1     0     0     0     0
- Spyder     [2]     570     1     1     1     1     0     0     0     0
- Telna             3632     1     2     0     1     0     0     1     0
- Trigon           12360     2     1     1     1     1     0     0     0
+ ais        [0]    1053     1     1     2     1     0     0     0     0
+ Aspen             7766     1     1     2     1     0     0     0     0
+ ATMunn            5607     0     0     0     0     3     2     4     2
+ banana     [1]     768     0     1     1     1     1     0     0     0
+ Cuddlebeam        2121     0     0     0     0     3     2     2     4
+ D. Wet            1297     1     1     1     1     0     0     0     0
+ Falsifian          480     1     1     1     1     1     0     0     0
+ G.                9439     1     1     0     1     0     0     5     0
+ Gaelan            3072     1     1     2     1     0     0     0     0
+ Jason             7729     0     0     0     0     3     3     6     2
+ Murphy            7415     1     1     1     2     0     0     0     0
+ nix               1567     0     0     0     0     4     3     1     2
+ omd               1509     1     1     1     1     0     0     0     0
+ Pat                670     1     1     1     1     0     0     0     0
+ Telna             3322     1     2     0     1     0     0     1     0
+ Trigon           11400     2     1     1     1     1     0     0     0
 
 0. ais523
 1. cuddlybanana
-2. TrapdoorSpyder
 
    Player(-a)      cn     wc    jc    lc    vc    wp    bg    pd    xv 
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
+ Jumble             478     0     0     0     0     0     0     0     0
  Nathan            1001     0     0     0     0     0     0     0     0
  seventeen  [0]    1112     0     0     1     0     0     0     0     0
  surprise           810     0     0     0     0     0     0     0     0
@@ -89,14 +86,14 @@ ASSET BALANCES                                           (self-ratifies)
 
   Contract(25)     cn     wc    jc    lc    vc    wp    bg    pd    xv 
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
- Press      [0]    1319     0     0     0     0     0     0     0     0
+ Press      [0]    1087     0     0     0     0     0     0     0     0
 
 0. Agoran Press
 
      Entity        cn     wc    jc    lc    vc    wp    bg    pd    xv 
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
  Agora                0     0     0     0     0     0     0     0     0
- L&F Dept.          297     2     3     2     2     0     0     0     0
+ L&F Dept.         6786     1     2     1     1     0     0     0     0
 
 
 ASSET INDEX                                       (does not self-ratify)
@@ -123,84 +120,7 @@ ASSET INDEX                                       (does not self-ratify)
 RECENT HISTORY                                    (does not self-ratify)
 ========================================================================
 
-*** Sat 2 October 2021
-[22:42] ais:   -371cn (Stone Auction: Sabotage Stone)
-[21:00] Jason: -  1cn (Stone Auction: Sabotage Stone)
-[21:00] Jason: -  1cn (Stone Auction: Soul Stone)
-[20:12] ais:   +155cn (Wielding Wealth Stone)
-
-*** Fri 1 October 2021
-[00:00] Trigon:     +310cn (Payday)
-[00:00] Telna:      +310cn (Payday)
-[00:00] Spyder:     +310cn (Payday)
-[00:00] Press:      +775cn (Payday: donation level=25)
-[00:00] Press:      -543cn (Payday: charity coin destruction)
-[00:00] Pat:        +310cn (Payday)
-[00:00] omd:        +310cn (Payday)
-[00:00] nix:        +310cn (Payday)
-[00:00] Murphy:     +310cn (Payday)
-[00:00] Jumble:     +310cn (Payday)
-[00:00] Jason:      +310cn (Payday)
-[00:00] Gaelan:     +310cn (Payday)
-[00:00] G.:         +310cn (Payday)
-[00:00] Falsifian:  +310cn (Payday)
-[00:00] Cuddlebeam: +310cn (Payday)
-[00:00] banana:     +310cn (Payday)
-[00:00] ATMunn:     +310cn (Payday)
-[00:00] Aspen:      +310cn (Payday)
-[00:00] ais:        +310cn (Payday)
-[00:00]   RELEVELING: TB=76648, UF=31.0000
-
-*** Tue 28 September 2021
-[01:04] L&F Dept.: -6786cn (Revocation w/o objection)
-
-*** Mon 27 September 2021
-[19:56] Falsifian: + 3wp (Transfer Jason)
-[19:56] Jason:     - 3wp (Transfer Falsifian)
-[16:19] Trigon:    +52cn (HAPPY BIRTHDAY, TRIGON!)
-[16:18] ATMunn:    +52cn (HAPPY BIRTHDAY, ATMUNN!)
-[15:59] ATMunn:    +52cn (HAPPY BIRTHDAY, ATMUNN!)
-[15:12] ATMunn:    +52cn (HAPPY BIRTHDAY, ATMUNN!)
-[15:09] Trigon:    +52cn (HAPPY BIRTHDAY, TRIGON!)
-[13:45] Trigon:    +52cn (HAPPY BIRTHDAY, TRIGON!)
-[13:44] ATMunn:    +52cn (HAPPY BIRTHDAY, ATMUNN!)
-[13:41] ATMunn:    +52cn (HAPPY BIRTHDAY, ATMUNN!)
-[13:41] Trigon:    +52cn (HAPPY BIRTHDAY, TRIGON!)
-[13:09] Trigon:    +52cn (HAPPY BIRTHDAY, TRIGON!)
-
-*** Sun 26 September 2021
-[21:24] Jason:     + 390cn (Reward: Assessed proposal)
-[21:24] Murphy:    + 130cn (Reward: Tailor weekly)
-[21:24] G.:        + 130cn (Reward: Tracker of the Device weekly)
-[21:24] Trigon:    + 390cn (Reward: Treasuror weekly)
-[21:24] Jason:     + 130cn (Reward: Stonemason weekly)
-[21:24] ais:       + 130cn (Reward: Mad Engineer weekly)
-[21:24] ATMunn:    + 260cn (Reward: Notary weekly)
-[21:24] Murphy:    + 130cn (Reward: ADoP weekly)
-[19:55] ais:       + 156cn ()
-[14:43] L&F Dept.: +   1vc (Indeterminate owner: was D._Wet)
-[14:43] L&F Dept.: +   1lc (Indeterminate owner: was D._Wet)
-[14:43] L&F Dept.: +   1jc (Indeterminate owner: was D._Wet)
-[14:43] L&F Dept.: +   1wc (Indeterminate owner: was D._Wet)
-[14:43] L&F Dept.: +1297cn (Indeterminate owner: was D._Wet)
-
-*** Sat 25 September 2021
-[21:16] Cuddlebeam: +   1wc (Victory auction: Victory card)
-[21:16] Cuddlebeam: -1800cn (Victory auction: Victory card)
-
-*** Fri 24 September 2021
-[16:55] Spyder: +260cn (Welcome package: Spyder)
-[16:55] Spyder: +  1vc (Welcome package: Spyder)
-[16:55] Spyder: +  1lc (Welcome package: Spyder)
-[16:55] Spyder: +  1jc (Welcome package: Spyder)
-[16:55] Spyder: +  1wc (Welcome package: Spyder)
-[02:34] Jason:  +  1lc (Popular proposal: Proposal 8603)
-[02:33] G.:     +156cn (Reward: Proposal 8604)
-[02:33] Jason:  +208cn (Reward: Proposal 8603)
-
 *** Thu 23 September 2021
-[01:26]   Buoyancy target set to 76648
-[01:24]   WEEKLY REPORT
 [00:34] Trigon: +1wc (Transfer banana)
 [00:34] banana: -1wc (Transfer Trigon)
 
@@ -211,6 +131,7 @@ RECENT HISTORY                                    (does not self-ratify)
 [15:42] ATMunn:     +   2pd (Transfer Cuddlebeam)
 [15:42] Cuddlebeam: -   2pd (Transfer ATMunn)
 [15:36] nix:        -   1pd (Pending proposal)
+[15:27] L&F Dept.:  +1000cn (Indeterminate owner: was CardSplit)
 [15:27] Cuddlebeam: + 500cn (Transfer nix)
 [15:27] nix:        - 500cn (Transfer Cuddlebeam)
 [15:27] ATMunn:     + 500cn (Transfer nix)
@@ -255,8 +176,6 @@ RECENT HISTORY                                    (does not self-ratify)
 [15:27] nix:        -   4jc (Set of cards)
 [15:27] nix:        +  10wp (Set of products)
 [15:27] nix:        -   4wc (Set of cards)
-[15:27] nix:        +1000cn (Transfer CardSplit)
-[15:27] CardSplit:  -1000cn (Transfer nix)
 [15:27] nix:        +   4vc (Transfer CardSplit)
 [15:27] CardSplit:  -   4vc (Transfer nix)
 [15:27] nix:        +   4lc (Transfer CardSplit)
@@ -312,7 +231,6 @@ RECENT HISTORY                                    (does not self-ratify)
 [02:21] Telna:      -   1lc (Transfer Jason)
 
 *** Mon 20 September 2021
-[21:15] Jason: + 1lc (Wielding Concentration Stone)
 [21:14] G.:    + 5pd (Transfer Jason)
 [21:14] Jason: - 5pd (Transfer G.)
 [21:14] Jason: +10pd ()
@@ -379,10 +297,6 @@ RECENT HISTORY                                    (does not self-ratify)
 [03:54] Murphy:     +   1lc (ECONOMY NUKE!)
 [03:54] Murphy:     +   1jc (ECONOMY NUKE!)
 [03:54] Murphy:     +   1wc (ECONOMY NUKE!)
-[03:54] Jumble:     +   1vc (ECONOMY NUKE!)
-[03:54] Jumble:     +   1lc (ECONOMY NUKE!)
-[03:54] Jumble:     +   1jc (ECONOMY NUKE!)
-[03:54] Jumble:     +   1wc (ECONOMY NUKE!)
 [03:54] Jason:      +   1vc (ECONOMY NUKE!)
 [03:54] Jason:      +   1lc (ECONOMY NUKE!)
 [03:54] Jason:      +   1jc (ECONOMY NUKE!)
@@ -841,7 +755,6 @@ RECENT HISTORY                                    (does not self-ratify)
 [18:26] Cuddlebeam: +1wp (Transfer Jumble)
 [18:26] Jumble:     -1wp (Transfer Cuddlebeam)
 [18:26] Jumble:     +1wp (Personal grant: Legacy)
-[12:40]   Jumble becomes active
 
 *** Mon 9 August 2021
 [21:26]   REPORT REVISION
@@ -942,3 +855,208 @@ RECENT HISTORY                                    (does not self-ratify)
 [00:00] Aspen:      +220cn (Payday)
 [00:00] ais:        +220cn (Payday)
 [00:00]   RELEVELING: TB=52532, UF=22.0000
+
+*** Fri 30 July 2021
+[17:51] G.: +95cn (Wielding Wealth Stone)
+
+*** Thu 29 July 2021
+[03:03] R. Lee: + 1lc (Popular Proposal: Proposal 8595)
+[02:59] R. Lee: +76cn (Reward: Proposal 8595)
+
+*** Mon 26 July 2021
+[23:32] D. Wet: +  1vc (Welcome package (Trigon))
+[23:32] D. Wet: +  1lc (Welcome package (Trigon))
+[23:32] D. Wet: +  1jc (Welcome package (Trigon))
+[23:32] D. Wet: +  1wc (Welcome package (Trigon))
+[23:32] D. Wet: +190cn (Welcome package (Trigon))
+
+*** Fri 23 July 2021
+[21:29] Murphy: + 95cn (Reward: Tailor weekly)
+[21:29] Trigon: +285cn (Reward: Treasuror weekly)
+[21:29] Jason:  + 95cn (Reward: Stonemason weekly)
+[21:29] Aspen:  +285cn (Reward: Proposal Pool)
+[21:29] Telna:  +190cn (Reward: Arbitor weekly)
+[21:29] R. Lee: +190cn (Reward: Referee weekly)
+[21:29] Trigon: +285cn (Reward: Treasuror weekly)
+[21:29] Murphy: + 95cn (Reward: ADoP weekly)
+[19:08]   Buoyancy target set to 52532
+[19:07]   WEEKLY REPORT
+[17:51] Pat:    +  1vc (Welcome package (Falsifian))
+[17:51] Pat:    +  1lc (Welcome package (Falsifian))
+[17:51] Pat:    +  1jc (Welcome package (Falsifian))
+[17:51] Pat:    +  1wc (Welcome package (Falsifian))
+[17:51] Pat:    +190cn (Welcome package (Falsifian))
+
+*** Thu 22 July 2021
+[23:51] Trigon: +100cn (Transfer ATMunn: Trunging)
+[23:51] ATMunn: -100cn (Transfer Trigon: Trunging)
+
+*** Wed 21 July 2021
+[22:53] Trigon:    +250cn (Transfer R. Lee)
+[22:53] R. Lee:    -250cn (Transfer Trigon)
+[05:34] ais:       +  1lc (Transfer L&F Dept.: Victory Auction: Legislative Card)
+[05:34] L&F Dept.: -  1lc (Transfer ais: Victory Auction: Legislative Card)
+[05:34] ais:       -628cn (Victory Auction: Legislative Card)
+[05:34] Jason:     +  1wc (Victory Auction: Victory Card)
+[05:34] Jason:     -629cn (Victory Auction: Victory Card)
+[00:19] G.:        + 95cn (Wielding Wealth Stone)
+
+*** Tue 20 July 2021
+[23:24] R. Lee: +  1lc (Wielding Concentration Stone)
+[21:54] Trigon: -200cn (Stone Auction: Protection Stone)
+[21:54] R. Lee: -620cn (Stone Auction: Concentration Stone)
+[21:54] Jason:  -130cn (Stone Auction: Sabotage Stone)
+
+*** Sun 18 July 2021
+[22:31]   Buoyancy target set to 54454
+[22:30]   WEEKLY REPORT
+[22:19] Jason:  +285cn (Reward: Assessed proposal)
+[22:19] Murphy: + 95cn (Reward: Tailor weekly)
+[22:19] R. Lee: + 95cn (Reward: Registrar weekly)
+[22:19] ATMunn: +190cn (Reward: Notary weekly)
+[22:19] Jason:  +285cn (Reward: Short Logical Ruleset)
+[22:19] Jason:  + 95cn (Reward: Stonemason weekly)
+[22:19] R. Lee: +190cn (Reward: Referee weekly)
+[22:19] Telna:  +190cn (Reward: Arbitor weekly)
+[22:19] Trigon: +285cn (Reward: Treasuror weekly)
+[22:19] Murphy: + 95cn (Reward: ADoP weekly)
+[22:07] R. Lee: +209cn (C Glitter: Registrar)
+[22:05] R. Lee: +304cn (O Glitter: Proposal 8594)
+[21:59] R. Lee: +323cn (E Glitter: Referee)
+
+*** Wed 14 July 2021
+[19:02] R. Lee: + 1lc (Popular proposal: Proposal 8594)
+[18:55] R. Lee: +95cn (Reward: Proposal 8594)
+
+*** Tue 13 July 2021
+[20:24] G.:    +95cn (Wielding Wealth Stone)
+[00:17] Telna: +95cn (Transfer Press)
+[00:17] Press: -95cn (Transfer Telna)
+
+*** Sun 11 July 2021
+[23:24] Trigon:    +220cn (Transfer Falsifian)
+[23:24] Falsifian: -220cn (Transfer Trigon)
+[23:24]   Buoyancy target set to 51528
+[23:22]   WEEKLY REPORT
+[20:37] Murphy:    + 95cn (Reward: Tailor monthly)
+[20:37] Murphy:    + 95cn (Reward: Tailor weekly)
+[20:37] Aspen:     +285cn (Reward: Proposal Pool)
+[20:37] Telna:     +190cn (Reward: Arbitor weekly)
+[20:37] ATMunn:    +190cn (Reward: Notary weekly)
+[20:37] R. Lee:    +190cn (Reward: Referee weekly)
+[20:37] Murphy:    + 95cn (Reward: ADoP weekly)
+[20:17] Murphy:    +  1vc (Personal grant: Participation)
+
+*** Fri 9 July 2021
+[21:15]   Buoyancy target set to 50109
+
+*** Thu 8 July 2021
+[01:12] Falsifian: +35cn (Transfer PlunderPS)
+[01:12] PlunderPS: -35cn (Transfer Falsifian)
+
+*** Wed 7 July 2021
+[02:20] G.: +95cn (Wielding Wealth Stone)
+
+*** Tue 6 July 2021
+[17:13] Jason:     +  35cn (Transfer PlunderPS)
+[17:13] PlunderPS: -  35cn (Transfer Jason)
+[13:15] L&F Dept.: -2856cn ()
+[04:19]   Mask becomes inactive
+
+*** Mon 5 July 2021
+[03:51] Gaelan:    -  2bg (Expungements)
+[03:32] Telna:     +  1jc (Transfer Gaelan)
+[03:32] Gaelan:    -  1jc (Transfer Telna)
+[03:32] Gaelan:    +  2bg (Transfer Telna)
+[03:32] Telna:     -  2bg (Transfer Gaelan)
+[02:17] banana:    +  1jc (Finger pointer)
+[01:41] Gaelan:    +  1pd (Transfer Falsifian)
+[01:41] Falsifian: -  1pd (Transfer Gaelan)
+[01:41] omd:       +  1pd (Transfer Falsifian)
+[01:41] Falsifian: -  1pd (Transfer omd)
+[01:41] omd:       +  2pd (Transfer Falsifian)
+[01:41] Falsifian: -  2pd (Transfer omd)
+[01:41] Gaelan:    +  2pd (Transfer Falsifian)
+[01:41] Falsifian: -  2pd (Transfer Gaelan)
+[01:41] ATMunn:    +  2pd (Transfer Falsifian)
+[01:41] Falsifian: -  2pd (Transfer ATMunn)
+[01:41] Falsifian: + 10pd (Set of products)
+[01:41] Falsifian: -  4lc (Set of cards)
+[01:41] Falsifian: +  1lc (Transfer omd)
+[01:41] omd:       -  1lc (Transfer Falsifian)
+[01:41] Falsifian: +  1lc (Transfer Gaelan)
+[01:41] Gaelan:    -  1lc (Transfer Falsifian)
+[01:41] Falsifian: +  1lc (Transfer ATMunn)
+[01:41] ATMunn:    -  1lc (Transfer Falsifian)
+[00:05] R. Lee:    +200cn (Transfer Aspen)
+[00:05] Aspen:     -200cn (Transfer R. Lee)
+[00:03] Telna:     +228cn (M Glitter)
+[00:03] R. Lee:    +228cn (M Glitter)
+[00:03] G.:        +228cn (M Glitter)
+[00:03] Falsifian: +228cn (M Glitter)
+[00:03] ais:       +228cn (M Glitter)
+
+*** Sun 4 July 2021
+[23:59] nix:       + 95cn (Reward: Ministor monthly)
+[23:59] nix:       +190cn (Reward: Herald monthly)
+[23:59] Trigon:    +285cn (Reward: Treasuror weekly)
+[23:59] Aspen:     + 95cn (Reward: Registrar weekly)
+[23:59] Aspen:     +285cn (Reward: Proposal Pool)
+[23:59] Jason:     + 95cn (Reward: Stonemason weekly)
+[23:59] Jason:     +285cn (Reward: Short Logical Ruleset)
+[23:59] R. Lee:    +190cn (Reward: Referee weekly)
+[23:59] Telna:     +190cn (Reward: Arbitor weekly)
+[23:59] Trigon:    +285cn (Reward: Treasuror weekly)
+[23:09]   WEEKLY REPORT
+[15:51] Falsifian: + 10wp (Set of products)
+[15:51] Falsifian: -  4wc (Set of cards)
+[00:50] Falsifian: +  1wc (Legacy grant)
+
+*** Sat 3 July 2021
+[18:14] nix:    +  1wp (Personal grant: Legacy)
+[18:14] ATMunn: +  1wp (Personal grant: Legacy)
+[02:28] Mask:   +  1vc (Welcome package (R. Lee))
+[02:28] Mask:   +  1lc (Welcome package (R. Lee))
+[02:28] Mask:   +  1jc (Welcome package (R. Lee))
+[02:28] Mask:   +  1wc (Welcome package (R. Lee))
+[02:28] Mask:   +190cn (Welcome package (R. Lee))
+
+*** Fri 2 July 2021
+[21:38] G.:     +1lc (Personal grant: Legislation)
+[21:35] Trigon: +1wp (Personal grant: Legacy)
+
+*** Thu 1 July 2021
+[13:56] Cuddlebeam: +  1wp (Personal grant from Joe)
+[13:56] Cuddlebeam: +  1wp (Personal grant from Jumble)
+[13:56] Cuddlebeam: +  1wp (Personal grant from banana)
+[13:56] Cuddlebeam: +  1wp (Personal grant: Legacy)
+[03:29] Falsifian:  +  1wp (Personal grant: Legacy)
+[02:54] R. Lee:     +  3pd (Set of products)
+[02:54] R. Lee:     -  2lc (Set of cards)
+[02:49] ais:        +  1lc (Personal grant: Legislation)
+[02:44] Telna:      +  1jc (Personal grant: Compliance)
+[02:34] Jason:      + 10pd (Set of cards)
+[02:34] Jason:      -  4lc (Set of cards)
+[02:34] Jason:      +  1lc (Personal grant: Legislation)
+[02:32] R. Lee:     +  1lc (Personal grant: Legislation)
+[00:00] Trigon:     +190cn (Payday)
+[00:00] Telna:      +190cn (Payday)
+[00:00] surprise:   +190cn (Payday)
+[00:00] seventeen:  +190cn (Payday)
+[00:00] R. Lee:     +190cn (Payday)
+[00:00] Press:      +475cn (Payday: donation level=25)
+[00:00] Press:      -268cn (Payday: charity coin destruction)
+[00:00] omd:        +190cn (Payday)
+[00:00] nix:        +190cn (Payday)
+[00:00] Nathan:     +190cn (Payday)
+[00:00] Murphy:     +190cn (Payday)
+[00:00] Jason:      +190cn (Payday)
+[00:00] Gaelan:     +190cn (Payday)
+[00:00] G.:         +190cn (Payday)
+[00:00] Falsifian:  +190cn (Payday)
+[00:00] Cuddlebeam: +190cn (Payday)
+[00:00] banana:     +190cn (Payday)
+[00:00] ATMunn:     +190cn (Payday)
+[00:00] Aspen:      +190cn (Payday)
+[00:00] ais:        +190cn (Payday)
+[00:00]   RELEVELING: TB=47101, UF=19.0000

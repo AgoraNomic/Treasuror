@@ -153,7 +153,7 @@ impl Context {
             return false;
         }
 
-        self.exec(line.datetime(), &line.action());
+        self.exec(line.datetime(), &line.action(), true);
 
         true
     }
@@ -177,7 +177,7 @@ impl Context {
         }
     }
 
-    fn exec(&mut self, dt: NaiveDateTime, com: &Command) {
+    fn exec(&mut self, dt: NaiveDateTime, com: &Command, record: bool) {
         let option = match com {
             Command::Activate(name) => {
                 self.entity_mut(name).activate();
@@ -195,6 +195,9 @@ impl Context {
                 self.deregister(&identifier);
                 None
             }
+            Command::Message(s) => {
+                Some(format!("  {}", s))
+            }
             Command::NewContract(identifier, full_name) => {
                 self.entities
                     .insert(Entity::contract(identifier.clone(), full_name.clone()));
@@ -203,6 +206,10 @@ impl Context {
             Command::NewPlayer(identifier, full_name) => {
                 self.entities
                     .add_player(identifier.clone(), full_name.clone());
+                None
+            }
+            Command::NoRecord(c) => {
+                self.exec(dt, c, false);
                 None
             }
             Command::Nuke => {
@@ -237,8 +244,10 @@ impl Context {
         };
 
         if let Some(message) = option {
-            self.history
-                .push_back(DatedHistoryEntry::new(dt, HistoryEntry::Event(message)));
+            if record {
+                self.history
+                    .push_back(DatedHistoryEntry::new(dt, HistoryEntry::Event(message)));
+            }
         }
     }
 

@@ -79,3 +79,229 @@
 
 2021-09-09
 [15:46] banana 1lc>Jason
+
+2021-09-10
+[04:14] #report
+[04:14] #nr activate Jumble
+[04:15] #bt 74708
+
+2021-09-12
+[18:32] G.      1bl:cn>Trigon
+[22:49] Jason   6bl:cn+
+[23:01] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[23:01] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[23:01] R._Lee 10bl:cn+ "Reward: Referee weekly"
+[23:01] R._Lee  5bl:cn+ "Reward: Registrar weekly"
+[23:01] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[23:01] G.      5bl:cn+ "Reward: Tracker of the Device weekly"
+
+2021-09-14
+[18:43] Jason  1890cn>Trigon
+
+2021-09-15
+[03:53] Cuddlebeam   *wc>Trigon
+[03:53] Cuddlebeam   *wp>Trigon
+[03:54] Trigon       3wc- "Set of cards"
+[03:54] Trigon       6wp+ "Set of products"
+[04:47] Jason        1bg- "Expungement: nix"
+[04:47] Jason        1bg- "Expungement: shelvacu"
+[14:11] Jason        1pd- "Pending proposal: Win Cards"
+[17:36] Cuddlebeam   1lc>nix
+[17:38] nix          2lc>Trigon
+[17:53] Trigon       4lc- "Set of cards"
+[17:53] Trigon      10pd+ "Set of products"
+[17:53] Trigon       5pd>nix
+[18:00] Jason      600cn- "Stone Auction: Power Stone"
+[18:00] Jason      656cn- "Stone Auction: Wealth Stone"
+[18:00] Jason      600cn- "Stone Auction: Concentration Stone"
+[18:05] nix          2pd- "Pending proposals"
+[18:55] ais          5bl:cn+ "Wielding Wealth Stone"
+[20:00] Jason        1pd- "Pending proposal: RRR"
+
+2021-09-16
+[01:01] Jason 1pd- "Pending proposal"
+[18:06] Aspen 2bl:cn+ "HAPPY BIRTHDAY ASPEN (Jason)"
+[18:21] Aspen 2bl:cn+ "HAPPY BIRTHDAY ASPEN (ATMunn)"
+[18:28] Aspen 2bl:cn+ "HAPPY BIRTHDAY ASPEN (Trigon)"
+[19:05] Jason 1pd- "Pending proposal"
+
+2021-09-17
+[03:14] Jason       5bl:cn+ "Reward: CFJ 3924"
+[03:43] Jason       1pd- "Pending proposal"
+[05:16] R._Lee      1pd- "Pending proposal"
+[05:18] R._Lee      1pd- "Pending proposal"
+[18:13] ATMunn      1pd- "Pending proposal"
+[19:22] Jason       1pd- "Pending proposal"
+[19:34] R._Lee      1pd- "Pending proposal"
+[19:40] R._Lee     30cn>G.
+[19:44] G.          2lc>Jason
+[19:50] Jason       4lc- "Set of cards"
+[19:50] Jason      10pd+ "Set of product"
+[19:50] Jason       5pd>G.
+[20:19] ATMunn     20cn>G.
+[20:46] Cuddlebeam 20cn>G.
+
+2021-09-18
+[03:56] R._Lee 4bg- "Blotting: G."
+[04:54] Jason  1pd- "Pending proposal"
+[18:16] Trigon 4pd- "Pending proposals"
+[18:22] Trigon 4bg- "Blotting: R. Lee"
+[19:04] G.     2bg- "Expungements"
+[21:35] Jason  1pd- "Pending proposal"
+[21:54] G.     1pd- "Pending proposal"
+[22:33] Jason  1pd- "Pending proposal"
+[22:40] G.     1pd- "Pending proposal"
+
+2021-09-19
+[03:15] R._Lee 2pd- "Pending proposals"
+[03:49] Telna  2bg- "Blotting: Cuddlebeam"
+[03:49] Telna  2bg- "Blotting: Trigon"
+[03:49] Telna  2bg- "Blotting: Cuddlebeam"
+[03:49] Telna  2bg- "Blotting: cuddlybanana"
+[03:49] Telna  2bg- "Blotting: Trigon"
+[03:49] Telna  1bg- "Expungement: Trigon"
+[03:49] Telna  2bg- "Blotting: Telna"
+[03:49] Telna  1bg- "Expungement: Telna"
+[03:54] #nuke
+[03:54] Telna       1jc+ "Focus grant"
+[03:54] R._Lee      1jc+ "Focus grant"
+[03:54] ATMunn      1wp+ "Focus grant"
+[03:54] Cuddlebeam  1wp+ "Focus grant"
+[03:54] Falsifian   1wp+ "Focus grant"
+[03:54] Trigon      1wp+ "Focus grant"
+[03:54] banana      1wp+ "Focus grant"
+[03:54] nix         1wp+ "Focus grant"
+[03:54] Aspen       1lc+ "Focus grant"
+[03:54] G.          1lc+ "Focus grant"
+[03:54] Gaelan      1lc+ "Focus grant"
+[03:54] ais         1lc+ "Focus grant"
+[03:54] seventeen   1lc+ "Focus grant"
+[03:54] Jason       1lc+ "Focus grant"
+[03:54] Murphy      1vc+ "Focus grant"
+[08:49] #deregister R._Lee
+[21:49] G. 5bl:cn+ "Reward: Mad Engineer weekly"
+[21:49] G. 5bl:cn+ "Reward: Mad Engineer weekly"
+[21:49] G. 5bl:cn+ "Reward: Mad Engineer weekly"
+[23:00] Trigon  8bl:cn+ "P Glitter"
+[23:04] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[23:04] Telna  10bl:cn+ "Reward: Arbitor weekly"
+[23:04] G.      5bl:cn+ "Reward: Tracker of the Device weekly"
+[23:04] Jason  5bl:cn+ "Reward: Stonemason weekly"
+[23:04] Murphy 5bl:cn+ "Reward: Tailor weekly"
+[23:19] Murphy 6bl:cn+ "B Glitter: CFJ 3926"
+
+2021-09-20
+[21:11] G.     2lc>Jason
+[21:14] Jason  4lc-
+[21:14] Jason 10pd+
+[21:14] Jason  5pd>G.
+[21:15] Jason  1lc+ "Wielding Concentration Stone"
+
+2021-09-22
+[02:21] Telna 1lc>Jason
+[02:21] Jason 1pd>Telna
+[14:55] #newcontract CardSplit "Let's Split Some Cards"
+[14:55] nix   1wc>CardSplit
+[14:55] nix   1jc>CardSplit
+[14:55] nix   1lc>CardSplit
+[14:55] nix   1vc>CardSplit
+[14:55] nix 250cn>CardSplit
+[15:03] ATMunn   1wc>CardSplit
+[15:03] ATMunn   1jc>CardSplit
+[15:03] ATMunn   1lc>CardSplit
+[15:03] ATMunn   1vc>CardSplit
+[15:03] ATMunn 250cn>CardSplit
+[15:12] Cuddlebeam   1wc>CardSplit
+[15:12] Cuddlebeam   1jc>CardSplit
+[15:12] Cuddlebeam   1lc>CardSplit
+[15:12] Cuddlebeam   1vc>CardSplit
+[15:12] Cuddlebeam 250cn>CardSplit
+[15:13] Jason   1wc>CardSplit
+[15:13] Jason   1jc>CardSplit
+[15:13] Jason   1lc>CardSplit
+[15:13] Jason   1vc>CardSplit
+[15:13] Jason 250cn>CardSplit
+[15:27] CardSplit 4wc>nix
+[15:27] CardSplit 4jc>nix
+[15:27] CardSplit 4lc>nix
+[15:27] CardSplit 4vc>nix
+[15:27] CardSplit *cn>nix
+[15:27] nix  4wc- "Set of cards"
+[15:27] nix 10wp+ "Set of products"
+[15:27] nix  4jc- "Set of cards"
+[15:27] nix 10bg+ "Set of products"
+[15:27] nix  4lc- "Set of cards"
+[15:27] nix 10pd+ "Set of products"
+[15:27] nix  4vc- "Set of cards"
+[15:27] nix 10xv+ "Set of products"
+[15:27] nix 2wp>ATMunn
+[15:27] nix 2bg>ATMunn
+[15:27] nix 2pd>ATMunn
+[15:27] nix 2xv>ATMunn
+[15:27] nix 2wp>Jason
+[15:27] nix 2bg>Jason
+[15:27] nix 2pd>Jason
+[15:27] nix 2xv>Jason
+[15:27] nix 2wp>Cuddlebeam
+[15:27] nix 2bg>Cuddlebeam
+[15:27] nix 2pd>Cuddlebeam
+[15:27] nix 2xv>Cuddlebeam
+[15:27] nix 2xv>ATMunn
+[15:27] nix 2pd>Cuddlebeam
+[15:27] nix 1wp>Jason
+[15:27] nix 1bg>Jason
+[15:27] nix 500cn>ATMunn
+[15:27] nix 500cn>Cuddlebeam
+[15:27] #delcontract CardSplit
+[15:36] nix 1pd- "Pending proposal"
+[15:42] Cuddlebeam 2pd>ATMunn
+[15:42] ATMunn 2xv>Cuddlebeam
+[17:52] ais 5bl:cn+ "Wielding Wealth Stone"
+
+2021-09-23
+[00:34] banana 1wc>Trigon
+[01:24] #report
+[01:26] #bt 76648
+
+2021-09-24
+[02:33] Jason 8bl:cn+ "Reward: Proposal 8603"
+[02:33] G.    6bl:cn+ "Reward: Proposal 8604"
+[02:34] Jason 1lc+    "Popular proposal: Proposal 8603"
+[16:55] #register Spyder "TrapdoorSpyder"
+[16:55] Spyder 1wc+ "Welcome package: Spyder"
+[16:55] Spyder 1jc+ "Welcome package: Spyder"
+[16:55] Spyder 1lc+ "Welcome package: Spyder"
+[16:55] Spyder 1vc+ "Welcome package: Spyder"
+[16:55] Spyder 10bl:cn+ "Welcome package: Spyder"
+
+2021-09-25
+[21:16] Cuddlebeam 1800cn- "Victory auction: Victory card"
+[21:16] Cuddlebeam 1wc+ "Victory auction: Victory card"
+
+2021-09-26
+[14:43] #deregister D._Wet
+[19:55] ais     6bl:cn+
+[21:24] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[21:24] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[21:24] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[21:24] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[21:24] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[21:24] G.      5bl:cn+ "Reward: Tracker of the Device weekly"
+[21:24] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[21:24] Jason  15bl:cn+ "Reward: Assessed proposal"
+
+2021-09-27
+[13:09] Trigon 2bl:cn+ "HAPPY BIRTHDAY, TRIGON!"
+[13:41] Trigon 2bl:cn+ "HAPPY BIRTHDAY, TRIGON!"
+[13:41] ATMunn 2bl:cn+ "HAPPY BIRTHDAY, ATMUNN!"
+[13:44] ATMunn 2bl:cn+ "HAPPY BIRTHDAY, ATMUNN!"
+[13:45] Trigon 2bl:cn+ "HAPPY BIRTHDAY, TRIGON!"
+[15:09] Trigon 2bl:cn+ "HAPPY BIRTHDAY, TRIGON!"
+[15:12] ATMunn 2bl:cn+ "HAPPY BIRTHDAY, ATMUNN!"
+[15:59] ATMunn 2bl:cn+ "HAPPY BIRTHDAY, ATMUNN!"
+[16:18] ATMunn 2bl:cn+ "HAPPY BIRTHDAY, ATMUNN!"
+[16:19] Trigon 2bl:cn+ "HAPPY BIRTHDAY, TRIGON!"
+[19:56] Jason  3wp>Falsifian
+
+2021-09-28
+[01:04] L&F_Dept. 6786cn- "Revocation w/o objection"

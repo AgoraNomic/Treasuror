@@ -11,8 +11,10 @@ pub enum Command {
     BuoyancyTarget(u32),
     Deactivate(String),
     Deregister(String),
+    Message(String),
     NewContract(String, String),
     NewPlayer(String, String),
+    NoRecord(Box<Command>),
     Nuke,
     Payday,
     Relevel(Option<u32>),
@@ -39,7 +41,9 @@ impl Command {
             "delplayer" | "delcontract" | "deregister" => Ok(Command::Deregister(
                 expect_identifier(&mut tokens, "expected identifier in #deregister")?,
             )),
-            "payday" => Ok(Command::Payday),
+            "message" | "msg" => {
+                Ok(Command::Message(expect_stringlike(&mut tokens, "expected string for message")?))
+            }
             "newcontract" => {
                 let identifier =
                     expect_identifier(&mut tokens, "expected identifier in #newcontract")?;
@@ -56,7 +60,14 @@ impl Command {
 
                 Ok(Command::NewPlayer(identifier, full_name))
             }
+            "norecord" | "nr" => {
+                let next_name = 
+                    expect_identifier(&mut tokens, "expected subcommand in #norecord")?;
+
+                Ok(Command::NoRecord(Box::new(Command::from_name_and_vec(next_name, tokens)?)))
+            }
             "nuke" => Ok(Command::Nuke),
+            "payday" => Ok(Command::Payday),
             "relevel" => Ok(Command::Relevel(expect_integer(&mut tokens, "").ok())),
             "report" => Ok(Command::Report),
             "revision" => Ok(Command::Revision),
