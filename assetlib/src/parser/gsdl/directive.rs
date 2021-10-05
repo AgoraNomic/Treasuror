@@ -1,3 +1,5 @@
+use chrono::naive::NaiveDate;
+
 use crate::{
     model::{Currency, Entity},
     parser::{
@@ -11,6 +13,7 @@ use crate::{
 
 pub enum Directive {
     Assets(Vec<Currency>),
+    Date(NaiveDate),
     Entity(Entity),
     Flotation(f32),
     Forbes(u32),
@@ -49,6 +52,10 @@ impl Directive {
             "flotation" => Ok(Directive::Flotation(expect_float(
                 &mut tokens,
                 "FLOTATION requires a float argument",
+            )?)),
+            "date" => Ok(Directive::Date(expect_date(
+                &mut tokens,
+                "DATE requires a date argument",
             )?)),
             "ent" => Ok(Directive::Entity(Entity::from_vec(&mut tokens)?)),
             "forbes" => Ok(Directive::Forbes(expect_integer(

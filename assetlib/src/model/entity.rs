@@ -233,6 +233,16 @@ impl Display for EntityKind {
     }
 }
 
+impl EntityKind {
+    pub fn is_player(&self) -> bool {
+        if let EntityKind::Player(_) = self {
+            true
+        } else {
+            false
+        }
+    }
+}
+
 #[derive(Debug, Clone, Copy, Hash, Ord, PartialOrd, Eq, PartialEq)]
 pub enum Activity {
     Active,

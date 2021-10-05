@@ -1,4 +1,4 @@
-use chrono::naive::NaiveTime;
+use chrono::naive::{NaiveTime, NaiveDate};
 
 use nom::{
     branch::alt,
@@ -29,6 +29,12 @@ pub fn token_time(s: &str) -> TokenIResult {
     let (after, time_str) = bracketed(s)?;
     let time = NaiveTime::parse_from_str(time_str, "%R").map_err(to_nom_err)?;
     Ok((after, time.into()))
+}
+
+pub fn token_date(s: &str) -> TokenIResult {
+    let (after, date_str) = bracketed(s)?;
+    let date = NaiveDate::parse_from_str(date_str, "%F").map_err(to_nom_err)?;
+    Ok((after, date.into()))
 }
 
 pub fn identifier(s: &str) -> StringIResult {
@@ -94,6 +100,8 @@ pub fn token_any(s: &str) -> TokenIResult {
     alt((
         token_time,
         alt((
+            token_date,
+            alt((
             token_identifier,
             alt((
                 token_float,
@@ -108,6 +116,7 @@ pub fn token_any(s: &str) -> TokenIResult {
                     )),
                 )),
             )),
+        )),
         )),
     ))(s)
 }

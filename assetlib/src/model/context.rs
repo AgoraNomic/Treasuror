@@ -256,6 +256,9 @@ impl Context {
             Directive::Assets(v) => {
                 self.assets = v.clone();
             }
+            Directive::Date(d) => {
+                self.datetime = d.and_hms(0,0,0);
+            }
             Directive::Entity(e) => {
                 self.entities.insert(e.clone());
             }

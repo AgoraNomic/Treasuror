@@ -1,4 +1,4 @@
-use chrono::naive::NaiveTime;
+use chrono::naive::{NaiveDate, NaiveTime};
 
 use nom::{error::Error as NomError, Err as NomErr};
 
@@ -41,6 +41,7 @@ impl<'a> Iterator for TokenIterator<'a> {
 
 #[derive(Clone, Debug, PartialEq)]
 pub enum Token {
+    Date(NaiveDate),
     Time(NaiveTime),
     Identifier(String),
     Integer(u32),
@@ -53,6 +54,12 @@ pub enum Token {
 }
 
 impl Token {
+}
+
+impl From<NaiveDate> for Token {
+    fn from(dt: NaiveDate) -> Token {
+        Token::Date(dt)
+    }
 }
 
 impl From<NaiveTime> for Token {
@@ -80,7 +87,7 @@ impl From<Operator> for Token {
 }
 
 pub mod combinators {
-    use chrono::naive::NaiveTime;
+    use chrono::naive::{NaiveDate, NaiveTime};
 
     use crate::match_first_pop;
 
@@ -131,6 +138,20 @@ pub mod combinators {
                 message,
                 ErrorKind::ExpectedCommand
             ))
+        })
+    }
+
+    pub fn expect_date<'a>(
+        tokens: &'a mut Vec<Token>,
+        message: &'a str,
+    ) -> SyntaxResult<NaiveDate> {
+        match_first_pop!(tokens {
+            Token::Date(t) => { Ok(t) },
+        } else {
+            return Err(SyntaxError::from(
+                message,
+                ErrorKind::ExpectedTime
+            ));
         })
     }
 
