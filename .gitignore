@@ -6,6 +6,7 @@ out.*
 /weekly.txt
 /monthly.txt
 split.txt
+table.txt
 
 chart.*
 

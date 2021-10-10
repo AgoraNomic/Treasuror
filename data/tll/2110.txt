@@ -7,3 +7,86 @@
 [21:00] Jason   1cn- "Stone Auction: Soul Stone"
 [21:00] Jason   1cn- "Stone Auction: Sabotage Stone"
 [22:42] ais   371cn- "Stone Auction: Sabotage Stone"
+[23:44] #report
+[23:46] #bt 76336
+
+2021-10-03
+[13:39] #register Benbot "Benbot²"
+[15:20] #register Shy_Owl "Shy Owl"
+[15:20] Shy_Owl 1wc+ "Welcome package: Shy Owl"
+[15:20] Shy_Owl 1jc+ "Welcome package: Shy Owl"
+[15:20] Shy_Owl 1lc+ "Welcome package: Shy Owl"
+[15:20] Shy_Owl 1vc+ "Welcome package: Shy Owl"
+[15:20] Shy_Owl 10bl:cn+ "Welcome package: Shy Owl"
+[20:18] Jason   6bl:cn+ "B Glitter: CFJ 3929"
+[20:18] Jason   6bl:cn+ "B Glitter: CFJ 3930"
+[20:50] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[20:50] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[20:50] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[20:50] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[20:50] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[20:50] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[20:50] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[20:50] Jason  15bl:cn+ "Reward: Full Logical Ruleset"
+[20:50] nix    10bl:cn+ "Reward: Herald monthly"
+[20:50] Murphy  5bl:cn+ "Reward: Tailor monthly"
+
+2021-10-04
+[06:16] Trigon 15bl:cn>Aspen
+[18:33] G.         100cn>ATMunn
+[19:37] Cuddlebeam  10cn>G.
+[21:58] Cuddlebeam  10cn>G.
+
+2021-10-05
+[21:24] ais 5bl:cn+ "Wielding Wealth Stone"
+
+2021-10-06
+[14:16] Jason  1lc+ "Personal grant: Legislation"
+[14:16] Jason  1lc+ "Wielding Concentration Stone"
+[14:35] Trigon 1wc+ "Legacy grant"
+
+2021-10-07
+[01:53] Falsifian 1wp+ "Personal grant: Legacy"
+[04:08] Murphy    5bl:cn+ "Reward: CFJ 3926"
+[04:08] Jason    10bl:cn+ "Reward: CFJ 3926"
+[04:08] ais       5bl:cn+ "Reward: CFJ 3926"
+[18:57] #register redtara
+[19:09] redtara 1wc+ "Welcome package: redtara"
+[19:09] redtara 1jc+ "Welcome package: redtara"
+[19:09] redtara 1lc+ "Welcome package: redtara"
+[19:09] redtara 1vc+ "Welcome package: redtara"
+[19:09] redtara 10bl:cn+ "Welcome package: redtara"
+[21:40] #newcontract Blacklist
+[21:40] nix *>Blacklist
+[21:48] Blacklist 2bl:cn>Shy_Owl
+[21:52] Blacklist 2bl:cn>Benbot
+[21:52] Blacklist 1wp>Benbot
+[21:54] Blacklist 1bg>Shy_Owl
+[23:27] nix 1wp+ "Personal grant: Legacy"
+[23:27] nix 1wp>Blacklist
+
+2021-10-10
+[20:58] #newcontract Pot "The Pot"
+[20:58] Falsifian 790cn>Pot
+[21:10] Benbot 1wc+ "Welcome package: Benbot"
+[21:10] Benbot 1jc+ "Welcome package: Benbot"
+[21:10] Benbot 1lc+ "Welcome package: Benbot"
+[21:10] Benbot 1vc+ "Welcome package: Benbot"
+[21:10] Benbot 10bl:cn+ "Welcome package: Benbot"
+[21:49] Jason 1pd>Murphy
+[22:35] G. 7bl:cn+ "C Glitter: Referee"
+[22:35] G. 7bl:cn+ "B Glitter: CFJ 3933"
+[22:35] Falsifian 7bl:cn+ "B Glitter: CFJ 3932"
+[23:32] Murphy   5bl:cn+ "Reward: ADoP weekly"
+[23:32] G.       5bl:cn+ "Reward: Tracker of the Device weekly"
+[23:32] Aspen   15bl:cn+ "Reward: Proposal Pool"
+[23:32] ais      5bl:cn+ "Reward: Mad Engineer weekly"
+[23:32] G.      10bl:cn+ "Reward: Referee weekly"
+[23:32] Jason    5bl:cn+ "Reward: Stonemason weekly"
+[23:32] Telna   10bl:cn+ "Reward: Arbitor weekly"
+[23:32] Shy_Owl  5bl:cn+ "Reward: Registrar weekly"
+[23:32] G.       5bl:cn+ "Reward: Tracker of the Device weekly"
+[23:32] Murphy   5bl:cn+ "Reward: Tailor weekly"
+[23:32] G.       5bl:cn+ "Reward: Ministor monthly"
+[23:32] Shy_Owl  5bl:cn+ "Reward: Registrar monthly"
+[23:32] Jason    5bl:cn+ "Reward: Webmastor monthly"
