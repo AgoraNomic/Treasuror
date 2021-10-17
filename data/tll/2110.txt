@@ -90,3 +90,9 @@
 [23:32] G.       5bl:cn+ "Reward: Ministor monthly"
 [23:32] Shy_Owl  5bl:cn+ "Reward: Registrar monthly"
 [23:32] Jason    5bl:cn+ "Reward: Webmastor monthly"
+[23:40] #report
+[23:43] #bt 84799
+
+2021-10-11
+[13:45] Falsifian 217cn>Pot
+[13:48] ais 5bl:cn+ "Wielding Wealth Stone"
