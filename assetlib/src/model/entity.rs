@@ -188,6 +188,7 @@ impl Entity {
         let first_balance = *self.inventory.get(&first).unwrap_or_else(|| &0);
 
         *self.inventory.entry(second).or_insert(0) = first_balance;
+        self.inventory.remove(&first);
     }
 
     pub fn activate(&mut self) {

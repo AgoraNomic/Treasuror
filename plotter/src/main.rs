@@ -208,7 +208,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .build_cartesian_2d(
             (NaiveDate::from_ymd(2021, 1, 18)..end_date.date() + Duration::days(30))
                 .monthly(),
-            0u32..13000u32
+            0u32..15000u32
         )?;
 
     chart.configure_mesh()
