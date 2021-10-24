@@ -229,6 +229,18 @@ impl Context {
                     self.total_buoyancy, uf
                 ))
             }
+            Command::Rename(first, second) => {
+                for a in self.assets.iter_mut() {
+                    if a == first {
+                        *a = *second;
+                        break;
+                    }
+                }
+                for e in self.entities.as_vec_mut() {
+                    e.rename(*first,*second);
+                }
+                None
+            }
             Command::Report => {
                 self.forbes -= 1;
                 Some(String::from("  WEEKLY REPORT"))

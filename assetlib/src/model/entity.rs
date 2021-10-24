@@ -45,6 +45,10 @@ impl Entities {
         }
     }
 
+    pub fn as_vec_mut(&mut self) -> Vec<&mut Entity> {
+        self.contents.values_mut().collect::<Vec<&mut Entity>>()
+    }
+
     pub fn as_sorted_vec(&self) -> Vec<&Entity> {
         let mut entities = self.contents.values().collect::<Vec<&Entity>>();
         entities.sort_by(|a, b| {
@@ -178,6 +182,12 @@ impl Entity {
         } else {
             *q -= a;
         }
+    }
+
+    pub fn rename(&mut self, first: Currency, second: Currency) {
+        let first_balance = *self.inventory.get(&first).unwrap_or_else(|| &0);
+
+        *self.inventory.entry(second).or_insert(0) = first_balance;
     }
 
     pub fn activate(&mut self) {

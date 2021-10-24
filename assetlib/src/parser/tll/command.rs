@@ -1,6 +1,9 @@
-use crate::parser::{
-    common::{token_com::*, Token},
-    error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
+use crate::{
+    model::Currency,
+    parser::{
+        common::{token_com::*, Token},
+        error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
+    }
 };
 
 use super::Transaction;
@@ -18,6 +21,7 @@ pub enum Command {
     Nuke,
     Payday,
     Relevel(Option<u32>),
+    Rename(Currency, Currency),
     Report,
     Revision,
     Transaction(Transaction),
@@ -69,6 +73,14 @@ impl Command {
             "nuke" => Ok(Command::Nuke),
             "payday" => Ok(Command::Payday),
             "relevel" => Ok(Command::Relevel(expect_integer(&mut tokens, "").ok())),
+            "rename" => {
+                let first =
+                    try_into_currency(&expect_identifier(&mut tokens, "expected identifier in #rename")?)?;
+                let second =
+                    try_into_currency(&expect_identifier(&mut tokens, "expected identifier in #rename")?)?;
+
+                Ok(Command::Rename(first, second))
+            }
             "report" => Ok(Command::Report),
             "revision" => Ok(Command::Revision),
             "transaction" | "t" => Ok(Command::Transaction(Transaction::from_vec(tokens)?)),

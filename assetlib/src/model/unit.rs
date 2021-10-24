@@ -6,9 +6,11 @@ pub enum Currency {
     LegiCard,
     VoteCard,
     WinPoint,
+    Winsome,
     BlotBGone,
     Pendant,
     ExtraVote,
+    Votive,
 }
 
 impl Currency {
@@ -20,9 +22,11 @@ impl Currency {
             "lc" => Some(Currency::LegiCard),
             "vc" => Some(Currency::VoteCard),
             "wp" => Some(Currency::WinPoint),
+            "ws" => Some(Currency::Winsome),
             "bg" => Some(Currency::BlotBGone),
             "pd" => Some(Currency::Pendant),
             "xv" => Some(Currency::ExtraVote),
+            "vo" => Some(Currency::Votive),
             _ => None,
         }
     }
@@ -35,9 +39,11 @@ impl Currency {
             Currency::LegiCard => "lc",
             Currency::VoteCard => "vc",
             Currency::WinPoint => "wp",
+            Currency::Winsome => "ws",
             Currency::BlotBGone => "bg",
             Currency::Pendant => "pd",
             Currency::ExtraVote => "xv",
+            Currency::Votive => "vo",
         }
     }
 
