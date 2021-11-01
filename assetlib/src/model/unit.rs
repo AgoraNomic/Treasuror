@@ -26,7 +26,7 @@ impl Currency {
             "bg" => Some(Currency::BlotBGone),
             "pd" => Some(Currency::Pendant),
             "xv" => Some(Currency::ExtraVote),
-            "vo" => Some(Currency::Votive),
+            "vt" => Some(Currency::Votive),
             _ => None,
         }
     }
@@ -43,7 +43,7 @@ impl Currency {
             Currency::BlotBGone => "bg",
             Currency::Pendant => "pd",
             Currency::ExtraVote => "xv",
-            Currency::Votive => "vo",
+            Currency::Votive => "vt",
         }
     }
 

@@ -321,6 +321,10 @@ impl Context {
             .unwrap_or_else(|| panic!("no such entity: {}", identifier))
     }
 
+    pub fn to_boatloads(&self, amt: u32) -> f32 {
+        amt as f32 / self.flotation
+    }
+
     pub fn boatloads(&self, amt: f32) -> u32 {
         (self.flotation * amt).ceil() as u32
     }

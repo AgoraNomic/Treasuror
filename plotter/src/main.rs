@@ -22,7 +22,7 @@ struct EntHist {
     active: bool,
     registered: bool,
     notable: bool,
-    history: Vec<(NaiveDate, u32)>,
+    history: Vec<(NaiveDate, f32)>,
 }
 
 impl EntHist {
@@ -130,15 +130,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                         continue;
                     }
                     
-                    let balance = context.entities().get(e).unwrap().balance(Currency::Coin);
+                    let balance = context.to_boatloads(context.entities().get(e).unwrap().balance(Currency::Coin));
 
-                    if balance > 1800 {
+                    if balance > 90f32 {
                         hist.notable = true;
                     }
 
                     hist.history.push((
                         d, //+ Duration::days(1),
-                        balance
+                        balance 
                     ));
                 }
             }
@@ -157,58 +157,58 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
             hist.history.push((
                 d, // + Duration::days(1),
-                context.entities().get(e).unwrap().balance(Currency::Coin)
+                context.to_boatloads(context.entities().get(e).unwrap().balance(Currency::Coin))
             ));
         }
     }
 
     // ---UNCOMMENT FOR CSV GENERATION--- //
-    //let mut table = Vec::new();
+    let mut table = Vec::new();
 
-    //let mut hists = coinhist.iter().map(|(e, hist)| {
-    //    let mut v = Vec::new();
-    //    v.push(e.clone());
-    //    table.push(v);
-    //    hist.history.iter().peekable()
-    //}).collect::<Vec<_>>();
+    let mut hists = coinhist.iter().map(|(e, hist)| {
+        let mut v = Vec::new();
+        v.push(e.clone());
+        table.push(v);
+        hist.history.iter().peekable()
+    }).collect::<Vec<_>>();
 
-    //for d in start_date.iter_days() {
-    //    if d >= end_date.date() {
-    //        break;
-    //    }
+    for d in start_date.iter_days() {
+        if d >= end_date.date() {
+            break;
+        }
 
-    //    for (i, col) in table.iter_mut().enumerate() {
-    //        let hist = &mut hists[i];
-    //        if let Some((hd, entry)) = hist.peek() {
-    //            if d != *hd {
-    //                col.push("".to_string());
-    //            } else {
-    //                col.push(entry.to_string());
-    //                hist.next();
-    //            }
-    //        }
-    //    }
-    //}
+        for (i, col) in table.iter_mut().enumerate() {
+            let hist = &mut hists[i];
+            if let Some((hd, entry)) = hist.peek() {
+                if d != *hd {
+                    col.push("".to_string());
+                } else {
+                    col.push(entry.to_string());
+                    hist.next();
+                }
+            }
+        }
+    }
 
-    //let table_out = table.iter().map(|c| c.join(",")).fold(String::new(), |acc, item| {
-    //    acc + &item[..] + "\n"
-    //});
+    let table_out = table.iter().map(|c| c.join(",")).fold(String::new(), |acc, item| {
+        acc + &item[..] + "\n"
+    });
 
-    //let mut f = File::create("table.txt")?;
-    //f.write_all(table_out.as_bytes())?;
+    let mut f = File::create("table.txt")?;
+    f.write_all(table_out.as_bytes())?;
 
     let root = BitMapBackend::new("chart.png", (1350, 800)).into_drawing_area();
     root.fill(&RGBColor(180, 180, 180))?;
 
     let mut chart = ChartBuilder::on(&root)
-        .caption("Coins over time for entities who at one time owned over 1800 coins", ("sans serif", 50).into_font())
+        .caption("BoC over time for entities who at one time owned over 90 BoC", ("sans serif", 50).into_font())
         .margin(10)
         .x_label_area_size(30)
         .y_label_area_size(40)
         .build_cartesian_2d(
             (NaiveDate::from_ymd(2021, 1, 18)..end_date.date() + Duration::days(30))
                 .monthly(),
-            0u32..15000u32
+            0f32..550f32
         )?;
 
     chart.configure_mesh()
@@ -221,7 +221,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         })
         .filter(|(_, h)| {
             h.history.iter()
-                .filter(|(_, n)| n > &0)
+                .filter(|(_, n)| n > &0f32)
                 .next()
                 .is_some()
         })
