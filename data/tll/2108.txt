@@ -21,8 +21,8 @@
 2021-08-02
 [00:19] #report
 [00:35] R._Lee     1lc+ "Personal grant: Legislation"
-[18:48] Cuddlebeam 1wp+ "Personal grant: Legacy"
-[18:48] Cuddlebeam 1wp+ "Personal grant from banana"
+[18:48] Madrid     1wp+ "Personal grant: Legacy"
+[18:48] Madrid     1wp+ "Personal grant from banana"
 [19:49] G.         5bl:cn+ "Wielding Wealth Stone"
 [19:57] Trigon     1wp+ "Personal grant: Legacy"
 [20:03] Jason      1wp+ "Personal grant: Legacy"
@@ -74,10 +74,10 @@
 2021-08-10
 [12:40] #msg "Jumble becomes active"
 [18:26] Jumble 1wp+ "Personal grant: Legacy"
-[18:26] Jumble 1wp>Cuddlebeam
+[18:26] Jumble 1wp>Madrid    
 
 2021-08-11
-[23:07] Trigon 5bl:cn>Cuddlebeam
+[23:07] Trigon 5bl:cn>Madrid    
 
 2021-08-12
 [23:50] R._Lee 800cn- "Stone auction: Power Stone"
@@ -86,12 +86,12 @@
 2021-08-13
 [01:53] G.       5bl:cn+ "Wielding Wealth Stone"
 [01:53] R._Lee 880cn>G.
-[20:14] Aspen    5bl:cn>Cuddlebeam
+[20:14] Aspen    5bl:cn>Madrid    
 
 2021-08-14
-[01:01] ATMunn 5bl:cn>Cuddlebeam
-[01:01] R._Lee 5bl:cn>Cuddlebeam
-[01:01] Aspen  5bl:cn>Cuddlebeam
+[01:01] ATMunn 5bl:cn>Madrid    
+[01:01] R._Lee 5bl:cn>Madrid    
+[01:01] Aspen  5bl:cn>Madrid    
 [08:22] D._Wet    1cn>Murphy
 
 2021-08-15
@@ -109,8 +109,8 @@
 [00:57] Jason         1jc+ "Finger pointer"
 [02:47] Murphy     5bl:cn+ "Reward: CFJ 3922"
 [02:47] G.         5bl:cn+ "Reward: CFJ 3923"
-[02:47] Cuddlebeam 5bl:cn+ "Reward: CFJ 3924"
-[04:55] Jason      5bl:cn>Cuddlebeam
+[02:47] Madrid     5bl:cn+ "Reward: CFJ 3924"
+[04:55] Jason      5bl:cn>Madrid    
 [09:05] D._Wet        1cn>ATMunn
 [14:24] G.            1pd- "Pending proposal: fix win lockouts"
 [14:53] G.            1pd- "Pending proposal: The Device"

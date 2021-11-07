@@ -87,7 +87,7 @@
 [12:23] Jason  7bl:cn+ "Vocal Voter"
 
 2021-04-13
-[22:09] Cuddlebeam 1wp+ "Personal Grant: Legacy"
+[22:09] Madrid     1wp+ "Personal Grant: Legacy"
 
 2021-04-15
 [01:23] Aspen 4bl:cn+ "Reward: Proposal 8557"
@@ -108,9 +108,9 @@
 [17:45] #revision
 
 2021-04-18
-[16:35] Cuddlebeam 3wp>Gaelan
-[16:51] Cuddlebeam 3wp>banana
-[17:32] Cuddlebeam 3wp>ATMunn
+[16:35] Madrid     3wp>Gaelan
+[16:51] Madrid     3wp>banana
+[17:32] Madrid     3wp>ATMunn
 [19:17] Murphy  5bl:cn+ "Reward: ADoP weekly"
 [19:17] G.     10bl:cn+ "Reward: Arbitor weekly"
 [19:17] nix     5bl:cn+ "Reward: Ministor weekly"
@@ -125,10 +125,10 @@
 [19:17] Murphy  5bl:cn+ "Reward: Tailor weekly"
 [19:17] Jason  15bl:cn+ "Reward: Assessed proposal"
 [19:17] nix    10bl:cn+ "Reward: Herald monthly"
-[19:23] Cuddlebeam 3wp>Jumble
+[19:23] Madrid     3wp>Jumble
 [20:44] ATMunn 3wp>Falsifian 
-[20:51] Cuddlebeam  1wc>seventeen
-[20:51] Cuddlebeam 80cn>seventeen
+[20:51] Madrid      1wc>seventeen
+[20:51] Madrid     80cn>seventeen
 
 2021-04-19
 [01:13] Gaelan      3wp>Falsifian

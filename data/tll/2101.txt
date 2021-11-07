@@ -14,30 +14,30 @@
 [01:58] Joe 1jc+ "Welcome Package: Falsifian"
 [01:58] Joe 1lc+ "Welcome Package: Falsifian"
 [01:58] Joe 1vc+ "Welcome Package: Falsifian"
-[11:27] Cuddlebeam *>CB_Locker
-[11:29] CB_Locker 300cn>Cuddlebeam
+[11:27] Madrid     *>CB_Locker
+[11:29] CB_Locker 300cn>Madrid    
 [16:02] ATMunn 10cn>Jason "meme"
 [16:11] G. 1pd- "Pending proposal: Unofficial injustice"
 [16:14] G. 1pd- "Pending proposal: de-dictatorship"
-[17:57] Joe 1wc>Cuddlebeam "Promise"
+[17:57] Joe 1wc>Madrid     "Promise"
 [17:57] Joe 200cn+ "Promise"
 [18:21] G. 1pd- "Pending proposal: Turn Undead v2"
-[18:46] G. 3wc>Cuddlebeam "Expungements"
-[18:46] G. 12wp>Cuddlebeam "Expungements"
+[18:46] G. 3wc>Madrid     "Expungements"
+[18:46] G. 12wp>Madrid     "Expungements"
 [18:46] G. 9bg- "Expungements"
-[18:46] CB_Locker *wc>Cuddlebeam "Set of cards"
-[18:46] CB_Locker *wc>Cuddlebeam "Set of cards"
-[18:46] Cuddlebeam 4wc- "Set of cards"
-[18:46] Cuddlebeam 10wp+ "Set of products"
-[18:46] Cuddlebeam 4wc- "Set of cards"
-[18:46] Cuddlebeam 10wp+ "Set of products"
+[18:46] CB_Locker *wc>Madrid     "Set of cards"
+[18:46] CB_Locker *wc>Madrid     "Set of cards"
+[18:46] Madrid     4wc- "Set of cards"
+[18:46] Madrid     10wp+ "Set of products"
+[18:46] Madrid     4wc- "Set of cards"
+[18:46] Madrid     10wp+ "Set of products"
 [18:46] #nuke
-[19:05] Cuddlebeam 1lc>Aspen
-[19:05] Aspen 1wc>Cuddlebeam
-[19:16] Cuddlebeam 1vc>Jason
-[19:16] Cuddlebeam 1jc>Jason
-[19:16] Jason 1wc>Cuddlebeam
-[19:25] Cuddlebeam *wc>CB_Locker
+[19:05] Madrid     1lc>Aspen
+[19:05] Aspen 1wc>Madrid    
+[19:16] Madrid     1vc>Jason
+[19:16] Madrid     1jc>Jason
+[19:16] Jason 1wc>Madrid    
+[19:25] Madrid     *wc>CB_Locker
 [19:44] Trigon 1lc>Jason
 [19:44] Jason 110cn>Trigon
 [19:47] Aspen 2lc>Jason
@@ -68,12 +68,12 @@
 
 2021-01-28
 [01:52] nix 5bl:cn>Aspen
-[19:35] CB_Locker *cn>Cuddlebeam "Trigon dislikes lockers"
-[19:42] Joe 1wc>Cuddlebeam
-[19:42] Cuddlebeam 200cn>Joe
-[20:07] CB_Locker *>Cuddlebeam "why are you like this"
-[20:07] Cuddlebeam 4wc- "Set of cards"
-[20:07] Cuddlebeam 10wp+ "Set of products"
+[19:35] CB_Locker *cn>Madrid     "Trigon dislikes lockers"
+[19:42] Joe 1wc>Madrid    
+[19:42] Madrid     200cn>Joe
+[20:07] CB_Locker *>Madrid     "why are you like this"
+[20:07] Madrid     4wc- "Set of cards"
+[20:07] Madrid     10wp+ "Set of products"
 
 2021-01-30
 [03:33] Jason 90cn>ATMunn

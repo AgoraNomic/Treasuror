@@ -6,7 +6,7 @@
 
 2021-03-05
 [02:45] nix        1wc+ "Legacy grant"
-[02:45] Cuddlebeam 1wp+ "Legacy grant"
+[02:45] Madrid     1wp+ "Legacy grant"
 [02:45] Falsifian  1wp+ "Legacy grant"
 [02:45] Lucidiot   1wp+ "Legacy grant"
 [05:46] Gaelan 1lc+ "Personal grant: Legislation"
@@ -16,7 +16,7 @@
 [15:39] nix 10cn>Aspen
 
 2021-03-07
-[19:09] Falsifian 100cn>Cuddlebeam
+[19:09] Falsifian 100cn>Madrid    
 [20:55] Murphy 1lc+ "Personal grant: Legislation"
 [21:41] Murphy     5bl:cn+ "Reward: ADoP weekly"
 [21:41] Murphy     5bl:cn+ "Reward: Tailor weekly"
@@ -86,8 +86,8 @@
 2021-03-17
 [02:07] Jason  4lc- "Set of cards"
 [02:07] Jason 10pd+ "Set of products"
-[03:45] banana       1wc>Cuddlebeam
-[03:45] Cuddlebeam 200cn>banana
+[03:45] banana       1wc>Madrid    
+[03:45] Madrid     200cn>banana
 
 2021-03-20
 [13:08] Jason 1pd- "Pending proposal: Apathy for all"

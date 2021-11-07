@@ -4,7 +4,7 @@ FORBES 462
 DATE [2021-01-18]
 ENT P Aspen         1563cn               5lc         3wp   2bg  10pd   2xv
 ENT P ATMunn         327cn               1lc        11wp         2pd
-ENT P Cuddlebeam             2wc                     1wp
+ENT P Madrid                 2wc                     1wp
 ENT P Falsifian     1008cn         1jc   3lc                     1pd
 ENT P G.            1753cn   2wc   1jc   1lc        12wp  11bg   8pd  10xv
 ENT P Gaelan         410cn                     1vc         1bg   1pd

@@ -28,7 +28,7 @@
 [22:28] #revision
 
 2021-02-03
-[00:06] Aspen 1wc>Cuddlebeam
+[00:06] Aspen 1wc>Madrid    
 [01:07] G.   7bl:cn+ "Reward: Proposal 8532"
 [01:07] G.   9bl:cn+ "Reward: Proposal 8533"
 [01:07] Aspen 6bl:cn+ "Reward: Proposal 8534"
@@ -53,7 +53,7 @@
 [22:00] G. 3bl:cn>Gaelan "HAPPY BIRTHDAY, G!"
 [22:00] G. 3bl:cn>ATMunn "HAPPY BIRTHDAY, G!"
 [22:00] G. 3bl:cn>Trigon "HAPPY BIRTHDAY, G!"
-[22:00] G. 3bl:cn>Cuddlebeam "HAPPY BIRTHDAY, G!"
+[22:00] G. 3bl:cn>Madrid     "HAPPY BIRTHDAY, G!"
 
 2021-02-05
 [02:17] Jason  21cn>Gaelan
@@ -85,7 +85,7 @@
 
 2021-02-07
 [15:59] nix        1wc+ "Legacy grant"
-[15:59] Cuddlebeam 1wp+ "Legacy grant"
+[15:59] Madrid     1wp+ "Legacy grant"
 [15:59] Falsifian  1wp+ "Legacy grant"
 [15:59] Lucidiot   1wp+ "Legacy grant"
 [17:38] ATMunn 77cn+ "Personal grant: Economy"
@@ -94,7 +94,7 @@
 [18:33] Falsifian 10wp+ "Set of products"
 
 2021-02-08
-[19:36] Cuddlebeam 1jc+ "Finger pointer"
+[19:36] Madrid     1jc+ "Finger pointer"
 [19:42] #report
 [21:01] Trigon 1vc>Jason
 [21:01] Jason  4vc- "Set of cards"
@@ -179,5 +179,5 @@
 [23:24] Aspen 5cn>G.
 [23:24] Aspen 5cn>Jason
 [23:24] Aspen 5cn>Falsifian
-[23:24] Aspen 5cn>Cuddlebeam
+[23:24] Aspen 5cn>Madrid    
 [23:38] Aspen 1pd- "Pending proposal: Uncanny fixes"

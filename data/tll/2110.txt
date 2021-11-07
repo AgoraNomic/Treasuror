@@ -34,8 +34,8 @@
 2021-10-04
 [06:16] Trigon 15bl:cn>Aspen
 [18:33] G.         100cn>ATMunn
-[19:37] Cuddlebeam  10cn>G.
-[21:58] Cuddlebeam  10cn>G.
+[19:37] Madrid      10cn>G.
+[21:58] Madrid      10cn>G.
 
 2021-10-05
 [21:24] ais 5bl:cn+ "Wielding Wealth Stone"
@@ -185,6 +185,7 @@
 [01:45] Falsifian   1pd- "Pending proposal"
 [02:45] #newcontract Hoard "Dragon's Hoard"
 [02:45] Telna *cn>Hoard
+[02:45] #deregister Telna
 
 2021-10-31
 [18:47] Murphy 14bl:cn+ "B Glitter: 3935-3936"
@@ -197,3 +198,5 @@
 [20:53] G. 1pd- "Pending proposal: forgiveness"
 [21:49] Jason    211cn>Trigon
 [21:49] Jason   5bl:cn+ "Wielding Wealth Stone"
+[23:40] #report
+[23:41] #bt 95615

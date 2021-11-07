@@ -1,0 +1,33 @@
+2021-11-01
+#relevel
+#payday
+[00:07] ais 5bl:cn+ "Wielding Wealth Stone"
+
+2021-11-03
+[04:23] Falsifian 1ws+ "Personal grant: Legacy"
+[04:26] Jason     1ws+ "Personal grant: Legacy"
+[04:27] Trigon    1ws+ "Personal grant: Legacy"
+[17:08] Madrid    1ws+ "Personal grant: Legacy"
+[17:30] ATMunn    1wc+ "Legacy card raffle"
+[18:43] Trigon 1710cn>ATMunn
+[18:43] ATMunn    1wc>Trigon
+
+2021-11-04
+[00:59] Jason 1ws+ "Wielding Concentration Stone"
+[01:35] #deregister Shy_Owl
+
+2021-11-07
+[22:09] Trigon       1wc+   "Victory Auction: Win Card"
+[22:09] Trigon    1900cn-   "Victory Auction: Win Card"
+[22:09] L&F_Dept.    4jc>G. "Victory Auction: Justice Card"
+[22:09] G.        1600cn-   "Victory Auction: Justice Card"
+[22:54] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[22:54] G.     10bl:cn+ "Reward: Referee weekly"
+[22:54] G.      5bl:cn+ "Reward: Tracker of the Device weekly"
+[22:54] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[22:54] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[22:54] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[22:54] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[22:54] Trigon 15bl:cn+ "Reward: Treasuror monthly"
+[22:54] G.      5bl:cn+ "Reward: Ministor monthly"
+[22:54] Murphy  5bl:cn+ "Reward: Tailor monthly "

@@ -20,9 +20,9 @@
 [15:46] Falsifian   8wp>ATMunn
 [15:46] Falsifian   8wp>Pooling
 [15:46] ATMunn      8wp>Falsifian
-[18:34] Cuddlebeam  1jc- "Set of cards"
-[18:34] Cuddlebeam  1bg+ "Set of products"
-[18:34] Cuddlebeam  1bg- "Expungement"
+[18:34] Madrid      1jc- "Set of cards"
+[18:34] Madrid      1bg+ "Set of products"
+[18:34] Madrid      1bg- "Expungement"
 [23:43] G.      2vc>Murphy
 [23:43] Murphy  4vc- "Set of cards"
 [23:43] Murphy 10xv+ "Set of products"
@@ -78,16 +78,16 @@
 [15:59] G. 2bl:cn+ "Popular proposal: Proposal 8560"
 
 2021-06-10
-[01:35] Gaelan      1wc>Cuddlebeam
+[01:35] Gaelan      1wc>Madrid    
 [07:41] #deactivate Aenet
 [07:41] #deactivate Jumble
-[11:48] banana      1wc>Cuddlebeam
-[14:17] ATMunn      1wc>Cuddlebeam
-[14:36] R._Lee      1wc>Cuddlebeam
-[18:15] Cuddlebeam 50cn>Jumble
+[11:48] banana      1wc>Madrid    
+[14:17] ATMunn      1wc>Madrid    
+[14:36] R._Lee      1wc>Madrid    
+[18:15] Madrid     50cn>Jumble
 [19:05] Falsifian   1wc>ATMunn
-[20:08] Cuddlebeam  4wc- "Set of cards"
-[20:08] Cuddlebeam 10wp+ "Set of products"
+[20:08] Madrid      4wc- "Set of cards"
+[20:08] Madrid     10wp+ "Set of products"
 
 2021-06-13
 [06:34] Aspen  300cn>Jason
@@ -130,11 +130,11 @@
 [07:09] Telna 1jc+ "Welcome Package: Telna"
 [07:09] Telna 1lc+ "Welcome Package: Telna"
 [07:09] Telna 1vc+ "Welcome Package: Telna"
-[12:29] Jumble       1wc>Cuddlebeam
-[16:04] Cuddlebeam 300cn>Telna
-[16:04] Cuddlebeam   1jc>Telna
-[16:04] Telna        1wc>Cuddlebeam
-[16:14] Cuddlebeam   1jc+ "Personal grant: Compliance"
+[12:29] Jumble       1wc>Madrid    
+[16:04] Madrid     300cn>Telna
+[16:04] Madrid       1jc>Telna
+[16:04] Telna        1wc>Madrid    
+[16:14] Madrid       1jc+ "Personal grant: Compliance"
 [16:29] Telna   1lc>Murphy
 [16:29] Murphy  1jc>Telna
 [16:51] G.      1jc>Telna
@@ -206,7 +206,7 @@
 [01:32] Telna 1jc+ "Finger Pointer"
 [02:03] G. 5bl:cn+ "Wielding Wealth Stone"
 [04:29] Aspen 50cn>ATMunn
-[04:29] Aspen 50cn>Cuddlebeam
+[04:29] Aspen 50cn>Madrid    
 [04:29] Aspen 50cn>G.
 [04:29] Aspen 50cn>Murphy
 [04:29] Aspen 50cn>banana
@@ -239,7 +239,7 @@
 2021-06-27
 [19:56] ATMunn     12bl:cn+ "V Glitter: Popular"
 [19:56] Aspen      12bl:cn+ "V Glitter: Popular"
-[19:56] Cuddlebeam 12bl:cn+ "V Glitter: Popular"
+[19:56] Madrid     12bl:cn+ "V Glitter: Popular"
 [19:56] Jason      12bl:cn+ "V Glitter: Popular"
 [19:56] Murphy     12bl:cn+ "V Glitter: Popular"
 [19:56] G.         12bl:cn+ "V Glitter: Popular"

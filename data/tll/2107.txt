@@ -10,10 +10,10 @@
 [02:54] R._Lee  2lc- "Set of cards"
 [02:54] R._Lee  3pd+ "Set of products"
 [03:29] Falsifian  1wp+ "Personal grant: Legacy"
-[13:56] Cuddlebeam 1wp+ "Personal grant: Legacy"
-[13:56] Cuddlebeam 1wp+ "Personal grant from banana"
-[13:56] Cuddlebeam 1wp+ "Personal grant from Jumble"
-[13:56] Cuddlebeam 1wp+ "Personal grant from Joe"
+[13:56] Madrid     1wp+ "Personal grant: Legacy"
+[13:56] Madrid     1wp+ "Personal grant from banana"
+[13:56] Madrid     1wp+ "Personal grant from Jumble"
+[13:56] Madrid     1wp+ "Personal grant from Joe"
 
 2021-07-02
 [21:35] Trigon 1wp+ "Personal grant: Legacy"

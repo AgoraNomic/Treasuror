@@ -99,14 +99,14 @@
 [18:43] Jason  1890cn>Trigon
 
 2021-09-15
-[03:53] Cuddlebeam   *wc>Trigon
-[03:53] Cuddlebeam   *wp>Trigon
+[03:53] Madrid       *wc>Trigon
+[03:53] Madrid       *wp>Trigon
 [03:54] Trigon       3wc- "Set of cards"
 [03:54] Trigon       6wp+ "Set of products"
 [04:47] Jason        1bg- "Expungement: nix"
 [04:47] Jason        1bg- "Expungement: shelvacu"
 [14:11] Jason        1pd- "Pending proposal: Win Cards"
-[17:36] Cuddlebeam   1lc>nix
+[17:36] Madrid       1lc>nix
 [17:38] nix          2lc>Trigon
 [17:53] Trigon       4lc- "Set of cards"
 [17:53] Trigon      10pd+ "Set of products"
@@ -139,7 +139,7 @@
 [19:50] Jason      10pd+ "Set of product"
 [19:50] Jason       5pd>G.
 [20:19] ATMunn     20cn>G.
-[20:46] Cuddlebeam 20cn>G.
+[20:46] Madrid     20cn>G.
 
 2021-09-18
 [03:56] R._Lee 4bg- "Blotting: G."
@@ -154,9 +154,9 @@
 
 2021-09-19
 [03:15] R._Lee 2pd- "Pending proposals"
-[03:49] Telna  2bg- "Blotting: Cuddlebeam"
+[03:49] Telna  2bg- "Blotting: Madrid    "
 [03:49] Telna  2bg- "Blotting: Trigon"
-[03:49] Telna  2bg- "Blotting: Cuddlebeam"
+[03:49] Telna  2bg- "Blotting: Madrid    "
 [03:49] Telna  2bg- "Blotting: cuddlybanana"
 [03:49] Telna  2bg- "Blotting: Trigon"
 [03:49] Telna  1bg- "Expungement: Trigon"
@@ -166,7 +166,7 @@
 [03:54] Telna       1jc+ "Focus grant"
 [03:54] R._Lee      1jc+ "Focus grant"
 [03:54] ATMunn      1wp+ "Focus grant"
-[03:54] Cuddlebeam  1wp+ "Focus grant"
+[03:54] Madrid      1wp+ "Focus grant"
 [03:54] Falsifian   1wp+ "Focus grant"
 [03:54] Trigon      1wp+ "Focus grant"
 [03:54] banana      1wp+ "Focus grant"
@@ -211,11 +211,11 @@
 [15:03] ATMunn   1lc>CardSplit
 [15:03] ATMunn   1vc>CardSplit
 [15:03] ATMunn 250cn>CardSplit
-[15:12] Cuddlebeam   1wc>CardSplit
-[15:12] Cuddlebeam   1jc>CardSplit
-[15:12] Cuddlebeam   1lc>CardSplit
-[15:12] Cuddlebeam   1vc>CardSplit
-[15:12] Cuddlebeam 250cn>CardSplit
+[15:12] Madrid       1wc>CardSplit
+[15:12] Madrid       1jc>CardSplit
+[15:12] Madrid       1lc>CardSplit
+[15:12] Madrid       1vc>CardSplit
+[15:12] Madrid     250cn>CardSplit
 [15:13] Jason   1wc>CardSplit
 [15:13] Jason   1jc>CardSplit
 [15:13] Jason   1lc>CardSplit
@@ -242,20 +242,20 @@
 [15:27] nix 2bg>Jason
 [15:27] nix 2pd>Jason
 [15:27] nix 2xv>Jason
-[15:27] nix 2wp>Cuddlebeam
-[15:27] nix 2bg>Cuddlebeam
-[15:27] nix 2pd>Cuddlebeam
-[15:27] nix 2xv>Cuddlebeam
+[15:27] nix 2wp>Madrid    
+[15:27] nix 2bg>Madrid    
+[15:27] nix 2pd>Madrid    
+[15:27] nix 2xv>Madrid    
 [15:27] nix 2xv>ATMunn
-[15:27] nix 2pd>Cuddlebeam
+[15:27] nix 2pd>Madrid    
 [15:27] nix 1wp>Jason
 [15:27] nix 1bg>Jason
 [15:27] nix 500cn>ATMunn
-[15:27] nix 500cn>Cuddlebeam
+[15:27] nix 500cn>Madrid    
 [15:27] #delcontract CardSplit
 [15:36] nix 1pd- "Pending proposal"
-[15:42] Cuddlebeam 2pd>ATMunn
-[15:42] ATMunn 2xv>Cuddlebeam
+[15:42] Madrid     2pd>ATMunn
+[15:42] ATMunn 2xv>Madrid    
 [17:52] ais 5bl:cn+ "Wielding Wealth Stone"
 
 2021-09-23
@@ -275,8 +275,8 @@
 [16:55] Spyder 10bl:cn+ "Welcome package: Spyder"
 
 2021-09-25
-[21:16] Cuddlebeam 1800cn- "Victory auction: Victory card"
-[21:16] Cuddlebeam 1wc+ "Victory auction: Victory card"
+[21:16] Madrid     1800cn- "Victory auction: Victory card"
+[21:16] Madrid     1wc+ "Victory auction: Victory card"
 
 2021-09-26
 [14:43] #deregister D._Wet
