@@ -31,3 +31,12 @@
 [22:54] Trigon 15bl:cn+ "Reward: Treasuror monthly"
 [22:54] G.      5bl:cn+ "Reward: Ministor monthly"
 [22:54] Murphy  5bl:cn+ "Reward: Tailor monthly "
+[23:20] #report
+
+2021-11-12
+[05:21] #register tris
+[05:21] tris 10bl:cn+ "Welcome package: Aspen"
+[05:21] tris     1wc+ "Welcome package: Aspen"
+[05:21] tris     1jc+ "Welcome package: Aspen"
+[05:21] tris     1lc+ "Welcome package: Aspen"
+[05:21] tris     1vc+ "Welcome package: Aspen"
