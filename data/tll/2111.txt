@@ -40,3 +40,26 @@
 [05:21] tris     1jc+ "Welcome package: Aspen"
 [05:21] tris     1lc+ "Welcome package: Aspen"
 [05:21] tris     1vc+ "Welcome package: Aspen"
+
+2021-11-14
+[22:42] #report
+[23:05] #bt 102961
+[23:26] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[23:26] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[23:26] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[23:26] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[23:26] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[23:26] G.     10bl:cn+ "Reward: Referee weekly"
+[23:26] G.      5bl:cn+ "Reward: Tracker of the Device weekly"
+[23:26] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[23:26] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[23:26] nix    10bl:cn+ "Reward: Herald monthly"
+[23:29] Murphy  1vc+    "Personal grant: Participation"
+
+2021-11-15
+[22:30] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[22:30] G.      5bl:cn+ "Reward: Tracker of the Device weekly"
+[22:30] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[22:30] G.     10bl:cn+ "Reward: Referee weekly"
+[22:30] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[22:30] Jason  15bl:cn+ "Reward: Assessed proposal"
