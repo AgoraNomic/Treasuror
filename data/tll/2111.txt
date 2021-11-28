@@ -63,3 +63,21 @@
 [22:30] G.     10bl:cn+ "Reward: Referee weekly"
 [22:30] Murphy  5bl:cn+ "Reward: Tailor weekly"
 [22:30] Jason  15bl:cn+ "Reward: Assessed proposal"
+
+2021-11-21
+[23:21] #report
+[23:27] #bt 108421
+
+2021-11-23
+[03:51] G. 1lc+ "Popular proposal: Proposal 8631"
+
+2021-11-28
+[11:54] Aspen 1lc+ "Personal grant: Legislation"
+[13:27] ais   1lc+ "Personal grant: Legislation"
+[21:06] G.      9bl:cn+ "O Glitter: Proposal 8631"
+[21:06] G.      8bl:cn+ "G Glitter: Ministor"
+[21:40] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[21:40] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[21:40] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[21:40] G.     10bl:cn+ "Reward: Referee weekly"
+[21:40] Murphy  5bl:cn+ "Reward: Tailor weekly"
