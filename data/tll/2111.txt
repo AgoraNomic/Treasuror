@@ -81,3 +81,12 @@
 [21:40] ais     5bl:cn+ "Reward: Mad Engineer weekly"
 [21:40] G.     10bl:cn+ "Reward: Referee weekly"
 [21:40] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[23:42] #report
+[23:43] #bt 110644
+
+2021-11-29
+[03:52] G.        8bl:cn+ "Reward: Proposal 8631"
+[03:52] Falsifian 4bl:cn+ "Reward: Proposal 8633"
+
+2021-11-30
+[16:18] G. 1lc+ "Personal grant"
