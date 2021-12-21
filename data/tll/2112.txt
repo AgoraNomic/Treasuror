@@ -51,3 +51,21 @@
 [18:18] Jason   5bl:cn+ "Reward: Stonemason weekly"
 [18:18] ais     5bl:cn+ "Reward: Mad Engineer weekly"
 [18:18] Murphy  5bl:cn+ "Reward: Tailor weekly "
+[21:49] #report
+[21:51] #bt 126230
+
+2021-12-17
+[04:19] Jason 550cn- "Stone auction: Recursion Stone"
+[04:19] G.    500cn- "Stone auction: Protection Stone"
+[17:32] G.   5bl:cn+ "Wielding Wealth Stone"
+
+2021-12-19
+[20:46] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[20:46] G. 10bl:cn+ "Reward: Referee weekly"
+[20:46] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[20:46] Aspen 15bl:cn+ "Reward: Proposal Pool"
+[20:46] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[20:46] Jason  5bl:cn+ "Reward: Stonemason weekly"
+[20:46] G. 10bl:cn+ "Reward: Referee weekly"
+[20:46] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[20:46] nix 10bl:cn+ "Reward: Herald monthly "
