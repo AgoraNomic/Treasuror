@@ -1,0 +1,14 @@
+2022-01-01
+#relevel
+#payday
+
+2022-01-02
+[21:32] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[21:32] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[21:32] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[21:32] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[21:32] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[21:32] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[21:32] Jason  15bl:cn+ "Reward: Assessed proposal"
+[21:32] Jason  15bl:cn+ "Reward: Full Logical Ruleset"
+[21:32] Murphy  5bl:cn+ "Reward: Tailor monthly"
