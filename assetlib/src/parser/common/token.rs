@@ -41,16 +41,19 @@ impl<'a> Iterator for TokenIterator<'a> {
 
 #[derive(Clone, Debug, PartialEq)]
 pub enum Token {
+    Blob,
+    CommandSigil,
     Date(NaiveDate),
-    Time(NaiveTime),
+    Float(f32),
     Identifier(String),
     Integer(u32),
-    Blob,
+    OpPlus,
+    OpMinus,
+    OpTransfer,
+    OpTrade,
     Separator,
-    Float(f32),
     String(String),
-    Op(Operator),
-    Command(String),
+    Time(NaiveTime),
 }
 
 impl Token {
@@ -80,12 +83,6 @@ impl From<f32> for Token {
     }
 }
 
-impl From<Operator> for Token {
-    fn from(o: Operator) -> Token {
-        Token::Op(o)
-    }
-}
-
 pub mod combinators {
     use chrono::naive::{NaiveDate, NaiveTime};
 
@@ -94,7 +91,10 @@ pub mod combinators {
     use super::{Operator, Token};
 
     use crate::model::{Amount, Currency, FullUnit};
-    use crate::parser::error::syntax::{ErrorKind, SyntaxError, SyntaxResult};
+    use crate::parser::{
+        error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
+        tll::Trade,
+    };
 
     pub fn expect_amount<'a>(tokens: &'a mut Vec<Token>) -> SyntaxResult<Amount> {
         if let Ok(i) = expect_integer(tokens, "") {
@@ -132,7 +132,9 @@ pub mod combinators {
         message: &'a str,
     ) -> SyntaxResult<String> {
         match_first_pop!(tokens {
-            Token::Command(s) => { Ok(s) },
+            Token::CommandSigil => {
+                Ok(expect_identifier(tokens, "string needed after command sigil")?)
+            },
         } else {
             Err(SyntaxError::from(
                 message,
@@ -245,7 +247,17 @@ pub mod combinators {
         message: &'a str,
     ) -> SyntaxResult<Operator> {
         match_first_pop!(tokens {
-            Token::Op(o) => { Ok(o) },
+            Token::OpPlus => { Ok(Operator::Plus) },
+            Token::OpMinus => { Ok(Operator::Minus) },
+            Token::OpTransfer => {
+                Ok(Operator::Transfer(expect_identifier(
+                    tokens,
+                    "string expected after transfer operator"
+                )?)) 
+            },
+            Token::OpTrade => {
+                Ok(Operator::Trade(Trade::from_vec(tokens)?))
+            },
         } else {
             Err(SyntaxError::from(
                 message,

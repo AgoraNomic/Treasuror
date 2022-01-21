@@ -50,6 +50,36 @@ impl Transaction {
     }
 }
 
+#[derive(Clone, Debug, Eq, PartialEq)]
+pub struct Trade {
+    patient: String,
+    amount: Amount,
+}
+
+impl Trade {
+    pub fn new<S: Into<String>>(amount: Amount, patient: S) -> Trade {
+        Trade {
+            patient: patient.into(),
+            amount,
+        }
+    }
+
+    pub fn from_vec(tokens: &mut Vec<Token>) -> SyntaxResult<Trade> {
+        Ok(Trade {
+            amount: expect_amount(tokens)?,
+            patient: expect_identifier(tokens, "need identifier as second argument to trade")?,
+        })
+    }
+
+    pub fn patient(&self) -> &str {
+        &self.patient
+    }
+
+    pub fn amount(&self) -> Amount {
+        self.amount
+    }
+}
+
 #[derive(Clone)]
 pub struct AtomicTransaction {
     agent: String,
@@ -59,17 +89,17 @@ pub struct AtomicTransaction {
 }
 
 impl AtomicTransaction {
-    pub fn new(
-        agent: String,
+    pub fn new<S: Into<String>>(
+        agent: S,
         amount: i32,
         currency: Currency,
-        comment: String,
+        comment: S,
     ) -> AtomicTransaction {
         AtomicTransaction {
-            agent,
+            agent: agent.into(),
             amount,
             currency,
-            comment,
+            comment: comment.into(),
         }
     }
 
@@ -110,6 +140,33 @@ impl AtomicTransaction {
                 ),
             ),
         ]
+    }
+
+    pub fn trade_vec(
+        agent: &str,
+        patient: &str,
+        amount1: i32,
+        currency1: Currency,
+        amount2: i32,
+        currency2: Currency,
+        comment: &str,
+    ) -> Vec<AtomicTransaction> {
+        let mut one = AtomicTransaction::transfer_vec(
+            agent,
+            patient,
+            amount1,
+            currency1,
+            comment
+        );
+        let mut two = AtomicTransaction::transfer_vec(
+            patient,
+            agent,
+            amount2,
+            currency2,
+            comment
+        );
+        one.append(&mut two);
+        one
     }
 
     pub fn agent(&self) -> &str {

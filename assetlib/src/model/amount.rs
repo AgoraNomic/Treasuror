@@ -1,6 +1,6 @@
 use super::unit::{Currency, FullUnit};
 
-#[derive(Copy, Clone)]
+#[derive(Copy, Clone, Debug, Eq, PartialEq)]
 pub enum Amount {
     Everything,
     AllOf(Currency),

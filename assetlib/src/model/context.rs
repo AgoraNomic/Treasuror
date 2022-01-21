@@ -329,89 +329,149 @@ impl Context {
         (self.flotation * amt).ceil() as u32
     }
 
-    pub fn expand_transaction(&self, trans: &Transaction) -> Vec<AtomicTransaction> {
-        match trans.amount() {
+    pub fn resolve_amount(&self, amount: &Amount, entity: &Entity) -> Vec<(Currency, u32)> {
+        match amount {
             Amount::Everything => {
-                let plus = self
-                    .assets
-                    .iter()
-                    .map(|c| (self.entity(trans.agent()).balance(*c) as i32, c));
+                let mut v = Vec::new();
+                for c in &self.assets {
+                    v.push((
+                        *c,
+                        entity.balance(*c),
+                    ));
+                }
+                v
+            }
+            Amount::AllOf(c) => vec![(
+                *c,
+                entity.balance(*c),
+            )],
+            Amount::PartOf(fu, n) => vec![
+                match fu {
+                    FullUnit::Bare(c) => (*c, *n),
+                    FullUnit::Boatload(c) => (*c, self.boatloads(*n as f32)),
+                }
+            ],
+        }
+    }
+                
+
+    pub fn expand_transaction(&self, trans: &Transaction) -> Vec<AtomicTransaction> {
+//        match trans.amount() {
+//            Amount::Everything => {
+//                let plus = self
+//                    .assets
+//                    .iter()
+//                    .map(|c| (self.entity(trans.agent()).balance(*c) as i32, c));
+
+                let lamount = self.resolve_amount(&trans.amount(), self.entity(trans.agent()));
 
                 match trans.operator() {
-                    Operator::Minus => plus
-                        .map(|x| {
-                            AtomicTransaction::new(
-                                trans.agent().to_string(),
-                                x.0,
-                                *x.1,
-                                trans.comment().to_string(),
-                            )
-                        })
-                        .collect::<Vec<AtomicTransaction>>(),
+                    Operator::Plus => lamount.iter().map(|(c, n)| {
+                        AtomicTransaction::new(
+                            trans.agent(),
+                            *n as i32,
+                            *c,
+                            trans.comment(),
+                        )
+                    }).collect(),
+                    Operator::Minus => lamount.iter().map(|(c, n)| {
+                        AtomicTransaction::new(
+                            trans.agent(),
+                            -(*n as i32),
+                            *c,
+                            trans.comment(),
+                        )
+                    }).collect(),
                     Operator::Transfer(ref patient) => {
                         let mut result = Vec::new();
-                        for t in plus {
+                        lamount.iter().for_each(|(c, n)| {
                             result.append(&mut AtomicTransaction::transfer_vec(
                                 trans.agent(),
                                 &patient,
-                                t.0,
-                                *t.1,
+                                *n as i32,
+                                *c,
                                 trans.comment(),
                             ));
-                        }
+                        });
                         result
                     }
-                    Operator::Plus => panic!("cannot add everything"),
+                    Operator::Trade(ref trade) => {
+                        let mut result = Vec::new();
+                        lamount.iter().for_each(|(c1, n1)| {
+                            let ramount = self.resolve_amount(&trade.amount(), self.entity(trade.patient()));
+                            ramount.iter().for_each(|(c2, n2)| {
+                                result.append(&mut AtomicTransaction::trade_vec(
+                                    trans.agent(),
+                                    &trade.patient(),
+                                    *n1 as i32,
+                                    *c1,
+                                    *n2 as i32,
+                                    *c2,
+                                    trans.comment(),
+                                ));
+                            });
+                        });
+                        result
+                    }
                 }
-            }
-            Amount::AllOf(c) => {
-                let balance = self.entity(trans.agent()).balance(c) as i32;
-                match trans.operator() {
-                    Operator::Minus => vec![AtomicTransaction::new(
-                        trans.agent().to_string(),
-                        -balance,
-                        c,
-                        trans.comment().to_string(),
-                    )],
-                    Operator::Transfer(ref patient) => AtomicTransaction::transfer_vec(
-                        trans.agent(),
-                        &patient,
-                        balance,
-                        c,
-                        trans.comment(),
-                    ),
-                    Operator::Plus => panic!("cannot add all of something"),
-                }
-            }
-            Amount::PartOf(unit, amt) => {
-                let (amount, currency) = match unit {
-                    FullUnit::Bare(c) => (amt as i32, c),
-                    FullUnit::Boatload(c) => (self.boatloads(amt as f32) as i32, c),
-                };
 
-                match trans.operator() {
-                    Operator::Minus => vec![AtomicTransaction::new(
-                        trans.agent().to_string(),
-                        -amount,
-                        currency,
-                        trans.comment().to_string(),
-                    )],
-                    Operator::Transfer(ref patient) => AtomicTransaction::transfer_vec(
-                        trans.agent(),
-                        &patient,
-                        amount,
-                        currency,
-                        trans.comment(),
-                    ),
-                    Operator::Plus => vec![AtomicTransaction::new(
-                        trans.agent().to_string(),
-                        amount,
-                        currency,
-                        trans.comment().to_string(),
-                    )],
-                }
-            }
-        }
+            // }
+            // Amount::AllOf(c) => {
+            //     let balance = self.entity(trans.agent()).balance(c) as i32;
+            //     match trans.operator() {
+            //         Operator::Minus => vec![AtomicTransaction::new(
+            //             trans.agent().to_string(),
+            //             -balance,
+            //             c,
+            //             trans.comment().to_string(),
+            //         )],
+            //         Operator::Trade(ref trade) => AtomicTransaction::trade_vec(
+            //             trans.agent(),
+            //             trade.patient(),
+            //             balance,
+            //             c,
+            //             trade.amount().
+            //             trans.comment(),
+            //         ),
+            //         Operator::Transfer(ref patient) => AtomicTransaction::transfer_vec(
+            //             trans.agent(),
+            //             &patient,
+            //             balance,
+            //             c,
+            //             trans.comment(),
+            //         ),
+            //         Operator::Plus => panic!("cannot add all of something"),
+            //     }
+            // }
+            // Amount::PartOf(unit, amt) => {
+            //     let (amount, currency) = match unit {
+            //         FullUnit::Bare(c) => (amt as i32, c),
+            //         FullUnit::Boatload(c) => (self.boatloads(amt as f32) as i32, c),
+            //     };
+
+            //     match trans.operator() {
+            //         Operator::Minus => vec![AtomicTransaction::new(
+            //             trans.agent().to_string(),
+            //             -amount,
+            //             currency,
+            //             trans.comment().to_string(),
+            //         )],
+            //         Operator::Transfer(ref patient) => AtomicTransaction::transfer_vec(
+            //             trans.agent(),
+            //             &patient,
+            //             amount,
+            //             currency,
+            //             trans.comment(),
+            //         ),
+            //         Operator::Plus => vec![AtomicTransaction::new(
+            //             trans.agent().to_string(),
+            //             amount,
+            //             currency,
+            //             trans.comment().to_string(),
+            //         )],
+            //     }
+            // }
+        //}
     }
 
     pub fn verify_datetime(&self, other: NaiveDateTime) -> bool {
