@@ -195,9 +195,7 @@ impl Context {
                 self.deregister(&identifier);
                 None
             }
-            Command::Message(s) => {
-                Some(format!("  {}", s))
-            }
+            Command::Message(s) => Some(format!("  {}", s)),
             Command::NewContract(identifier, full_name) => {
                 self.entities
                     .insert(Entity::contract(identifier.clone(), full_name.clone()));
@@ -237,7 +235,7 @@ impl Context {
                     }
                 }
                 for e in self.entities.as_vec_mut() {
-                    e.rename(*first,*second);
+                    e.rename(*first, *second);
                 }
                 None
             }
@@ -269,7 +267,7 @@ impl Context {
                 self.assets = v.clone();
             }
             Directive::Date(d) => {
-                self.datetime = d.and_hms(0,0,0);
+                self.datetime = d.and_hms(0, 0, 0);
             }
             Directive::Entity(e) => {
                 self.entities.insert(e.clone());
@@ -334,143 +332,129 @@ impl Context {
             Amount::Everything => {
                 let mut v = Vec::new();
                 for c in &self.assets {
-                    v.push((
-                        *c,
-                        entity.balance(*c),
-                    ));
+                    v.push((*c, entity.balance(*c)));
                 }
                 v
             }
-            Amount::AllOf(c) => vec![(
-                *c,
-                entity.balance(*c),
-            )],
-            Amount::PartOf(fu, n) => vec![
-                match fu {
-                    FullUnit::Bare(c) => (*c, *n),
-                    FullUnit::Boatload(c) => (*c, self.boatloads(*n as f32)),
-                }
-            ],
+            Amount::AllOf(c) => vec![(*c, entity.balance(*c))],
+            Amount::PartOf(fu, n) => vec![match fu {
+                FullUnit::Bare(c) => (*c, *n),
+                FullUnit::Boatload(c) => (*c, self.boatloads(*n as f32)),
+            }],
         }
     }
-                
 
     pub fn expand_transaction(&self, trans: &Transaction) -> Vec<AtomicTransaction> {
-//        match trans.amount() {
-//            Amount::Everything => {
-//                let plus = self
-//                    .assets
-//                    .iter()
-//                    .map(|c| (self.entity(trans.agent()).balance(*c) as i32, c));
+        //        match trans.amount() {
+        //            Amount::Everything => {
+        //                let plus = self
+        //                    .assets
+        //                    .iter()
+        //                    .map(|c| (self.entity(trans.agent()).balance(*c) as i32, c));
 
-                let lamount = self.resolve_amount(&trans.amount(), self.entity(trans.agent()));
+        let lamount = self.resolve_amount(&trans.amount(), self.entity(trans.agent()));
 
-                match trans.operator() {
-                    Operator::Plus => lamount.iter().map(|(c, n)| {
-                        AtomicTransaction::new(
+        match trans.operator() {
+            Operator::Plus => lamount
+                .iter()
+                .map(|(c, n)| AtomicTransaction::new(trans.agent(), *n as i32, *c, trans.comment()))
+                .collect(),
+            Operator::Minus => lamount
+                .iter()
+                .map(|(c, n)| {
+                    AtomicTransaction::new(trans.agent(), -(*n as i32), *c, trans.comment())
+                })
+                .collect(),
+            Operator::Transfer(ref patient) => {
+                let mut result = Vec::new();
+                lamount.iter().for_each(|(c, n)| {
+                    result.append(&mut AtomicTransaction::transfer_vec(
+                        trans.agent(),
+                        &patient,
+                        *n as i32,
+                        *c,
+                        trans.comment(),
+                    ));
+                });
+                result
+            }
+            Operator::Trade(ref trade) => {
+                let mut result = Vec::new();
+                lamount.iter().for_each(|(c1, n1)| {
+                    let ramount =
+                        self.resolve_amount(&trade.amount(), self.entity(trade.patient()));
+                    ramount.iter().for_each(|(c2, n2)| {
+                        result.append(&mut AtomicTransaction::trade_vec(
                             trans.agent(),
-                            *n as i32,
-                            *c,
+                            &trade.patient(),
+                            *n1 as i32,
+                            *c1,
+                            *n2 as i32,
+                            *c2,
                             trans.comment(),
-                        )
-                    }).collect(),
-                    Operator::Minus => lamount.iter().map(|(c, n)| {
-                        AtomicTransaction::new(
-                            trans.agent(),
-                            -(*n as i32),
-                            *c,
-                            trans.comment(),
-                        )
-                    }).collect(),
-                    Operator::Transfer(ref patient) => {
-                        let mut result = Vec::new();
-                        lamount.iter().for_each(|(c, n)| {
-                            result.append(&mut AtomicTransaction::transfer_vec(
-                                trans.agent(),
-                                &patient,
-                                *n as i32,
-                                *c,
-                                trans.comment(),
-                            ));
-                        });
-                        result
-                    }
-                    Operator::Trade(ref trade) => {
-                        let mut result = Vec::new();
-                        lamount.iter().for_each(|(c1, n1)| {
-                            let ramount = self.resolve_amount(&trade.amount(), self.entity(trade.patient()));
-                            ramount.iter().for_each(|(c2, n2)| {
-                                result.append(&mut AtomicTransaction::trade_vec(
-                                    trans.agent(),
-                                    &trade.patient(),
-                                    *n1 as i32,
-                                    *c1,
-                                    *n2 as i32,
-                                    *c2,
-                                    trans.comment(),
-                                ));
-                            });
-                        });
-                        result
-                    }
-                }
+                        ));
+                    });
+                });
+                result
+            }
+        }
 
-            // }
-            // Amount::AllOf(c) => {
-            //     let balance = self.entity(trans.agent()).balance(c) as i32;
-            //     match trans.operator() {
-            //         Operator::Minus => vec![AtomicTransaction::new(
-            //             trans.agent().to_string(),
-            //             -balance,
-            //             c,
-            //             trans.comment().to_string(),
-            //         )],
-            //         Operator::Trade(ref trade) => AtomicTransaction::trade_vec(
-            //             trans.agent(),
-            //             trade.patient(),
-            //             balance,
-            //             c,
-            //             trade.amount().
-            //             trans.comment(),
-            //         ),
-            //         Operator::Transfer(ref patient) => AtomicTransaction::transfer_vec(
-            //             trans.agent(),
-            //             &patient,
-            //             balance,
-            //             c,
-            //             trans.comment(),
-            //         ),
-            //         Operator::Plus => panic!("cannot add all of something"),
-            //     }
-            // }
-            // Amount::PartOf(unit, amt) => {
-            //     let (amount, currency) = match unit {
-            //         FullUnit::Bare(c) => (amt as i32, c),
-            //         FullUnit::Boatload(c) => (self.boatloads(amt as f32) as i32, c),
-            //     };
+        // }
+        // Amount::AllOf(c) => {
+        //     let balance = self.entity(trans.agent()).balance(c) as i32;
+        //     match trans.operator() {
+        //         Operator::Minus => vec![AtomicTransaction::new(
+        //             trans.agent().to_string(),
+        //             -balance,
+        //             c,
+        //             trans.comment().to_string(),
+        //         )],
+        //         Operator::Trade(ref trade) => AtomicTransaction::trade_vec(
+        //             trans.agent(),
+        //             trade.patient(),
+        //             balance,
+        //             c,
+        //             trade.amount().
+        //             trans.comment(),
+        //         ),
+        //         Operator::Transfer(ref patient) => AtomicTransaction::transfer_vec(
+        //             trans.agent(),
+        //             &patient,
+        //             balance,
+        //             c,
+        //             trans.comment(),
+        //         ),
+        //         Operator::Plus => panic!("cannot add all of something"),
+        //     }
+        // }
+        // Amount::PartOf(unit, amt) => {
+        //     let (amount, currency) = match unit {
+        //         FullUnit::Bare(c) => (amt as i32, c),
+        //         FullUnit::Boatload(c) => (self.boatloads(amt as f32) as i32, c),
+        //     };
 
-            //     match trans.operator() {
-            //         Operator::Minus => vec![AtomicTransaction::new(
-            //             trans.agent().to_string(),
-            //             -amount,
-            //             currency,
-            //             trans.comment().to_string(),
-            //         )],
-            //         Operator::Transfer(ref patient) => AtomicTransaction::transfer_vec(
-            //             trans.agent(),
-            //             &patient,
-            //             amount,
-            //             currency,
-            //             trans.comment(),
-            //         ),
-            //         Operator::Plus => vec![AtomicTransaction::new(
-            //             trans.agent().to_string(),
-            //             amount,
-            //             currency,
-            //             trans.comment().to_string(),
-            //         )],
-            //     }
-            // }
+        //     match trans.operator() {
+        //         Operator::Minus => vec![AtomicTransaction::new(
+        //             trans.agent().to_string(),
+        //             -amount,
+        //             currency,
+        //             trans.comment().to_string(),
+        //         )],
+        //         Operator::Transfer(ref patient) => AtomicTransaction::transfer_vec(
+        //             trans.agent(),
+        //             &patient,
+        //             amount,
+        //             currency,
+        //             trans.comment(),
+        //         ),
+        //         Operator::Plus => vec![AtomicTransaction::new(
+        //             trans.agent().to_string(),
+        //             amount,
+        //             currency,
+        //             trans.comment().to_string(),
+        //         )],
+        //     }
+        // }
         //}
     }
 

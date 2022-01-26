@@ -56,8 +56,7 @@ pub enum Token {
     Time(NaiveTime),
 }
 
-impl Token {
-}
+impl Token {}
 
 impl From<NaiveDate> for Token {
     fn from(dt: NaiveDate) -> Token {
@@ -101,27 +100,7 @@ pub mod combinators {
         Parseable::from_tokens(tokens)
     }
 
-//    pub fn expect_amount<'a>(tokens: &'a mut Vec<Token>) -> SyntaxResult<Amount> {
-//        if let Ok(i) = expect_integer(tokens, "") {
-//            Ok(Amount::PartOf(expect_full_unit(tokens)?, i))
-//        } else if let Ok(()) = expect_blob(tokens, "") {
-//            if let Ok(c) = expect_identifier(tokens, "") {
-//                Ok(Amount::AllOf(try_into_currency(&c)?))
-//            } else {
-//                Ok(Amount::Everything)
-//            }
-//        } else {
-//            Err(SyntaxError::from(
-//                "expected integer or blob at start of amount",
-//                ErrorKind::IncompleteAmount,
-//            ))
-//        }
-//    }
-
-    pub fn expect_blob<'a>(
-        tokens: &'a mut Vec<Token>,
-        message: &'a str,
-    ) -> SyntaxResult<()> {
+    pub fn expect_blob<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<()> {
         match_first_pop!(tokens {
             Token::Blob => { Ok(()) },
         } else {
@@ -162,10 +141,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_float<'a>(
-        tokens: &'a mut Vec<Token>,
-        message: &'a str,
-    ) -> SyntaxResult<f32> {
+    pub fn expect_float<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<f32> {
         match_first_pop!(tokens {
             Token::Float(f) => { Ok(f) },
         } else {
@@ -219,10 +195,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_integer<'a>(
-        tokens: &'a mut Vec<Token>,
-        message: &'a str,
-    ) -> SyntaxResult<u32> {
+    pub fn expect_integer<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<u32> {
         match_first_pop!(tokens {
             Token::Integer(i) => { Ok(i) },
         } else {
@@ -233,10 +206,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_separator<'a>(
-        tokens: &'a mut Vec<Token>,
-        message: &'a str,
-    ) -> SyntaxResult<()> {
+    pub fn expect_separator<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<()> {
         match_first_pop!(tokens {
             Token::Separator => { Ok(()) },
         } else {
@@ -258,7 +228,7 @@ pub mod combinators {
                 Ok(Operator::Transfer(expect_identifier(
                     tokens,
                     "string expected after transfer operator"
-                )?)) 
+                )?))
             },
             Token::OpTrade => {
                 Ok(Operator::Trade(Trade::from_vec(tokens)?))

@@ -1,4 +1,4 @@
-use chrono::naive::{NaiveTime, NaiveDate};
+use chrono::naive::{NaiveDate, NaiveTime};
 
 use nom::{
     branch::alt,
@@ -92,7 +92,10 @@ pub fn token_trade(s: &str) -> TokenIResult {
 }
 
 pub fn token_operator(s: &str) -> TokenIResult {
-    alt((token_plus, alt((token_minus, alt((token_transfer, token_trade))))))(s)
+    alt((
+        token_plus,
+        alt((token_minus, alt((token_transfer, token_trade)))),
+    ))(s)
 }
 
 pub fn token_command(s: &str) -> TokenIResult {
@@ -105,21 +108,21 @@ pub fn token_any(s: &str) -> TokenIResult {
         alt((
             token_date,
             alt((
-            token_identifier,
-            alt((
-                token_float,
+                token_identifier,
                 alt((
-                    token_integer,
+                    token_float,
                     alt((
-                        token_string,
+                        token_integer,
                         alt((
-                            token_operator,
-                            alt((token_blob, alt((token_separator, token_command)))),
+                            token_string,
+                            alt((
+                                token_operator,
+                                alt((token_blob, alt((token_separator, token_command)))),
+                            )),
                         )),
                     )),
                 )),
             )),
-        )),
         )),
     ))(s)
 }

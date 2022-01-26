@@ -151,20 +151,8 @@ impl AtomicTransaction {
         currency2: Currency,
         comment: &str,
     ) -> Vec<AtomicTransaction> {
-        let mut one = AtomicTransaction::transfer_vec(
-            agent,
-            patient,
-            amount1,
-            currency1,
-            comment
-        );
-        let mut two = AtomicTransaction::transfer_vec(
-            patient,
-            agent,
-            amount2,
-            currency2,
-            comment
-        );
+        let mut one = AtomicTransaction::transfer_vec(agent, patient, amount1, currency1, comment);
+        let mut two = AtomicTransaction::transfer_vec(patient, agent, amount2, currency2, comment);
         one.append(&mut two);
         one
     }

@@ -1,7 +1,7 @@
 pub mod combinators;
 mod operator;
-mod token;
 mod parseable;
+mod token;
 
 pub use crate::parser::common::{
     operator::Operator,
@@ -11,7 +11,7 @@ pub use crate::parser::common::{
 
 pub mod parseable_prelude {
     pub use crate::parser::{
-        common::{token_com::*, Token, Parseable},
+        common::{token_com::*, Parseable, Token},
         error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
     };
 }
