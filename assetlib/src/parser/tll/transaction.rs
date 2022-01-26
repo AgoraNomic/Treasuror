@@ -1,7 +1,7 @@
 use crate::{
     model::{Amount, Currency},
     parser::{
-        common::{token_com::*, Operator, Token},
+        common::{token_com::*, Operator, Parseable, Token},
         error::syntax::SyntaxResult,
     },
 };
@@ -27,7 +27,7 @@ impl Transaction {
     pub fn from_vec(mut tokens: Vec<Token>) -> SyntaxResult<Transaction> {
         Ok(Transaction {
             agent: expect_identifier(&mut tokens, "need identifier as first argument")?,
-            amount: expect_amount(&mut tokens)?,
+            amount: expect(&mut tokens)?,
             operator: expect_operator(&mut tokens, "need operator in transaction")?,
             comment: expect_stringlike(&mut tokens, "").unwrap_or_else(|_| String::new()),
         })
@@ -66,7 +66,7 @@ impl Trade {
 
     pub fn from_vec(tokens: &mut Vec<Token>) -> SyntaxResult<Trade> {
         Ok(Trade {
-            amount: expect_amount(tokens)?,
+            amount: expect(tokens)?,
             patient: expect_identifier(tokens, "need identifier as second argument to trade")?,
         })
     }

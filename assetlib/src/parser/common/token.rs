@@ -92,26 +92,31 @@ pub mod combinators {
 
     use crate::model::{Amount, Currency, FullUnit};
     use crate::parser::{
+        common::Parseable,
         error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
         tll::Trade,
     };
 
-    pub fn expect_amount<'a>(tokens: &'a mut Vec<Token>) -> SyntaxResult<Amount> {
-        if let Ok(i) = expect_integer(tokens, "") {
-            Ok(Amount::PartOf(expect_full_unit(tokens)?, i))
-        } else if let Ok(()) = expect_blob(tokens, "") {
-            if let Ok(c) = expect_identifier(tokens, "") {
-                Ok(Amount::AllOf(try_into_currency(&c)?))
-            } else {
-                Ok(Amount::Everything)
-            }
-        } else {
-            Err(SyntaxError::from(
-                "expected integer or blob at start of amount",
-                ErrorKind::IncompleteAmount,
-            ))
-        }
+    pub fn expect<'a, P: Parseable>(tokens: &'a mut Vec<Token>) -> SyntaxResult<P> {
+        Parseable::from_tokens(tokens)
     }
+
+//    pub fn expect_amount<'a>(tokens: &'a mut Vec<Token>) -> SyntaxResult<Amount> {
+//        if let Ok(i) = expect_integer(tokens, "") {
+//            Ok(Amount::PartOf(expect_full_unit(tokens)?, i))
+//        } else if let Ok(()) = expect_blob(tokens, "") {
+//            if let Ok(c) = expect_identifier(tokens, "") {
+//                Ok(Amount::AllOf(try_into_currency(&c)?))
+//            } else {
+//                Ok(Amount::Everything)
+//            }
+//        } else {
+//            Err(SyntaxError::from(
+//                "expected integer or blob at start of amount",
+//                ErrorKind::IncompleteAmount,
+//            ))
+//        }
+//    }
 
     pub fn expect_blob<'a>(
         tokens: &'a mut Vec<Token>,
