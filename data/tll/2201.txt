@@ -56,7 +56,7 @@
 [19:16] ais     5bl:cn+ "Reward: Mad Engineer weekly"
 [19:16] Murphy  5bl:cn+ "Reward: Tailor weekly"
 
-2022-01-22
+2022-01-23
 [20:01] banana    2000cn-   "Victory auction: 1wc"
 [20:01] banana       1wc+   "Victory auction: 1wc"
 [20:01] G.        1200cn-   "Victory auction: 3jc"
@@ -75,3 +75,57 @@
 [21:11] G.      1pd- "Pending proposal"
 [21:53] Jason 850cn<>1lc Trigon
 [21:53] Trigon 4vc<>1200cn Jason
+[22:25] #report
+[22:27] #bt 144369
+[22:35] Jason *ws>Falsifian
+[22:42] Trigon  4wc- "Set of cards"
+[22:42] Trigon 10ws+ "Set of products"
+[22:45] G.      2bg- "Blotting: Trigon"
+[22:49] G.      2bg- "Blotting: Trigon"
+[23:04] banana  1lc>Jason
+[23:04] Jason   4lc- "Set of cards"
+[23:04] Jason  10pd+ "Set of products"
+[23:04] Jason   3pd>banana
+
+2022-01-24
+[00:24] G.      1jc+ "Finger pointer"
+[02:07] G.      4lc- "Set of cards"
+[02:07] G.     10pd+ "Set of products"
+[02:07] G.      1pd- "Pending proposal"
+[17:18] ATMunn  1ws+ "Focus grant"
+
+2022-01-25
+[03:00] Jason  1pd- "Pending proposal"
+[03:48] Jason  1pd- "Pending proposal"
+[05:02] Aspen  1lc+ "Focus grant"
+
+2022-01-28
+[05:02] Aspen  4lc- "Set of cards"
+[05:02] Aspen 10pd+ "Set of products"
+[18:07] #register Sgeo
+[18:32] Sgeo 10bl:cn+ "Welcome package: Jason"
+[18:32] Sgeo     1wc+ "Welcome package: Jason"
+[18:32] Sgeo     1jc+ "Welcome package: Jason"
+[18:32] Sgeo     1lc+ "Welcome package: Jason"
+[18:32] Sgeo     1vc+ "Welcome package: Jason"
+
+2022-01-29
+[08:31] #register snail secretsnail
+[08:34] snail 10bl:cn+ "Welcome package: Trigon"
+[08:34] snail     1wc+ "Welcome package: Trigon"
+[08:34] snail     1jc+ "Welcome package: Trigon"
+[08:34] snail     1lc+ "Welcome package: Trigon"
+[08:34] snail     1vc+ "Welcome package: Trigon"
+[20:37] Jason     *wc>Falsifian 
+
+2022-01-30
+[20:02] Jason  8bl:cn+ "B Glitter: CFJ 3938"
+[20:49] Murphy   5bl:cn+ "Reward: ADoP weekly"
+[20:49] Trigon  15bl:cn+ "Reward: Treasuror weekly"
+[20:49] Aspen   15bl:cn+ "Reward: Proposal Pool"
+[20:49] Jason   15bl:cn+ "Reward: Short Logical Ruleset"
+[20:49] ais      5bl:cn+ "Reward: Mad Engineer weekly"
+[20:49] G.      10bl:cn+ "Reward: Referee weekly"
+[20:49] Murphy   5bl:cn+ "Reward: Tailor weekly"
+[20:49] Jason   15bl:cn+ "Reward: Full Logical Ruleset"
+[22:34] G.       5bl:cn+ "Wielding Wealth Stone"
