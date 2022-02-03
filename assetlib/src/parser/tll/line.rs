@@ -42,7 +42,7 @@ impl Line {
             action: if let Ok(c) = expect_command(&mut tokens, "") {
                 Command::from_name_and_vec(c.to_string(), tokens)?
             } else {
-                Command::Transaction(expect(&mut tokens)?)
+                Command::Transaction(parse(&mut tokens)?)
             },
         })
     }

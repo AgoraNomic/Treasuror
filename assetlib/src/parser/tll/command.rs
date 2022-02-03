@@ -89,7 +89,7 @@ impl Command {
             }
             "report" => Ok(Command::Report),
             "revision" => Ok(Command::Revision),
-            "transaction" | "t" => Ok(Command::Transaction(expect(&mut tokens)?)),
+            "transaction" | "t" => Ok(Command::Transaction(parse(&mut tokens)?)),
             _ => Err(SyntaxError::from(
                 &format!("no such command: {}", name),
                 ErrorKind::UnrecognizedCommand,

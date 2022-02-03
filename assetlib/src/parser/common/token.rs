@@ -95,7 +95,7 @@ pub mod combinators {
         error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
     };
 
-    pub fn expect<'a, P: Parseable>(tokens: &'a mut Vec<Token>) -> SyntaxResult<P> {
+    pub fn parse<'a, P: Parseable>(tokens: &'a mut Vec<Token>) -> SyntaxResult<P> {
         Parseable::from_tokens(tokens)
     }
 
@@ -230,7 +230,7 @@ pub mod combinators {
                 )?))
             },
             Token::OpTrade => {
-                Ok(Operator::Trade(expect(tokens)?))
+                Ok(Operator::Trade(parse(tokens)?))
             },
         } else {
             Err(SyntaxError::from(
