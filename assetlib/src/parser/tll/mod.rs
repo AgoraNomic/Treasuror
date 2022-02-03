@@ -7,5 +7,5 @@ pub use crate::parser::tll::{
     command::Command,
     line::Line,
     parser::Parser,
-    transaction::{AtomicTransaction, Transaction},
+    transaction::{AtomicTransaction, Trade, Transaction},
 };

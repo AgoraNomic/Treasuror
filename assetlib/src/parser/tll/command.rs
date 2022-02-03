@@ -3,7 +3,7 @@ use crate::{
     parser::{
         common::{token_com::*, Token},
         error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
-    }
+    },
 };
 
 use super::Transaction;
@@ -45,9 +45,10 @@ impl Command {
             "delplayer" | "delcontract" | "deregister" => Ok(Command::Deregister(
                 expect_identifier(&mut tokens, "expected identifier in #deregister")?,
             )),
-            "message" | "msg" => {
-                Ok(Command::Message(expect_stringlike(&mut tokens, "expected string for message")?))
-            }
+            "message" | "msg" => Ok(Command::Message(expect_stringlike(
+                &mut tokens,
+                "expected string for message",
+            )?)),
             "newcontract" => {
                 let identifier =
                     expect_identifier(&mut tokens, "expected identifier in #newcontract")?;
@@ -65,25 +66,30 @@ impl Command {
                 Ok(Command::NewPlayer(identifier, full_name))
             }
             "norecord" | "nr" => {
-                let next_name = 
-                    expect_identifier(&mut tokens, "expected subcommand in #norecord")?;
+                let next_name = expect_identifier(&mut tokens, "expected subcommand in #norecord")?;
 
-                Ok(Command::NoRecord(Box::new(Command::from_name_and_vec(next_name, tokens)?)))
+                Ok(Command::NoRecord(Box::new(Command::from_name_and_vec(
+                    next_name, tokens,
+                )?)))
             }
             "nuke" => Ok(Command::Nuke),
             "payday" => Ok(Command::Payday),
             "relevel" => Ok(Command::Relevel(expect_integer(&mut tokens, "").ok())),
             "rename" => {
-                let first =
-                    try_into_currency(&expect_identifier(&mut tokens, "expected identifier in #rename")?)?;
-                let second =
-                    try_into_currency(&expect_identifier(&mut tokens, "expected identifier in #rename")?)?;
+                let first = try_into_currency(&expect_identifier(
+                    &mut tokens,
+                    "expected identifier in #rename",
+                )?)?;
+                let second = try_into_currency(&expect_identifier(
+                    &mut tokens,
+                    "expected identifier in #rename",
+                )?)?;
 
                 Ok(Command::Rename(first, second))
             }
             "report" => Ok(Command::Report),
             "revision" => Ok(Command::Revision),
-            "transaction" | "t" => Ok(Command::Transaction(Transaction::from_vec(tokens)?)),
+            "transaction" | "t" => Ok(Command::Transaction(parse(&mut tokens)?)),
             _ => Err(SyntaxError::from(
                 &format!("no such command: {}", name),
                 ErrorKind::UnrecognizedCommand,

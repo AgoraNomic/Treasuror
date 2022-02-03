@@ -41,20 +41,22 @@ impl<'a> Iterator for TokenIterator<'a> {
 
 #[derive(Clone, Debug, PartialEq)]
 pub enum Token {
+    Blob,
+    CommandSigil,
     Date(NaiveDate),
-    Time(NaiveTime),
+    Float(f32),
     Identifier(String),
     Integer(u32),
-    Blob,
+    OpPlus,
+    OpMinus,
+    OpTransfer,
+    OpTrade,
     Separator,
-    Float(f32),
     String(String),
-    Op(Operator),
-    Command(String),
+    Time(NaiveTime),
 }
 
-impl Token {
-}
+impl Token {}
 
 impl From<NaiveDate> for Token {
     fn from(dt: NaiveDate) -> Token {
@@ -80,12 +82,6 @@ impl From<f32> for Token {
     }
 }
 
-impl From<Operator> for Token {
-    fn from(o: Operator) -> Token {
-        Token::Op(o)
-    }
-}
-
 pub mod combinators {
     use chrono::naive::{NaiveDate, NaiveTime};
 
@@ -93,30 +89,17 @@ pub mod combinators {
 
     use super::{Operator, Token};
 
-    use crate::model::{Amount, Currency, FullUnit};
-    use crate::parser::error::syntax::{ErrorKind, SyntaxError, SyntaxResult};
+    use crate::model::{Currency, FullUnit};
+    use crate::parser::{
+        common::Parseable,
+        error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
+    };
 
-    pub fn expect_amount<'a>(tokens: &'a mut Vec<Token>) -> SyntaxResult<Amount> {
-        if let Ok(i) = expect_integer(tokens, "") {
-            Ok(Amount::PartOf(expect_full_unit(tokens)?, i))
-        } else if let Ok(()) = expect_blob(tokens, "") {
-            if let Ok(c) = expect_identifier(tokens, "") {
-                Ok(Amount::AllOf(try_into_currency(&c)?))
-            } else {
-                Ok(Amount::Everything)
-            }
-        } else {
-            Err(SyntaxError::from(
-                "expected integer or blob at start of amount",
-                ErrorKind::IncompleteAmount,
-            ))
-        }
+    pub fn parse<'a, P: Parseable>(tokens: &'a mut Vec<Token>) -> SyntaxResult<P> {
+        Parseable::from_tokens(tokens)
     }
 
-    pub fn expect_blob<'a>(
-        tokens: &'a mut Vec<Token>,
-        message: &'a str,
-    ) -> SyntaxResult<()> {
+    pub fn expect_blob<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<()> {
         match_first_pop!(tokens {
             Token::Blob => { Ok(()) },
         } else {
@@ -132,7 +115,9 @@ pub mod combinators {
         message: &'a str,
     ) -> SyntaxResult<String> {
         match_first_pop!(tokens {
-            Token::Command(s) => { Ok(s) },
+            Token::CommandSigil => {
+                Ok(expect_identifier(tokens, "string needed after command sigil")?)
+            },
         } else {
             Err(SyntaxError::from(
                 message,
@@ -155,10 +140,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_float<'a>(
-        tokens: &'a mut Vec<Token>,
-        message: &'a str,
-    ) -> SyntaxResult<f32> {
+    pub fn expect_float<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<f32> {
         match_first_pop!(tokens {
             Token::Float(f) => { Ok(f) },
         } else {
@@ -212,10 +194,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_integer<'a>(
-        tokens: &'a mut Vec<Token>,
-        message: &'a str,
-    ) -> SyntaxResult<u32> {
+    pub fn expect_integer<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<u32> {
         match_first_pop!(tokens {
             Token::Integer(i) => { Ok(i) },
         } else {
@@ -226,10 +205,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_separator<'a>(
-        tokens: &'a mut Vec<Token>,
-        message: &'a str,
-    ) -> SyntaxResult<()> {
+    pub fn expect_separator<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<()> {
         match_first_pop!(tokens {
             Token::Separator => { Ok(()) },
         } else {
@@ -245,7 +221,17 @@ pub mod combinators {
         message: &'a str,
     ) -> SyntaxResult<Operator> {
         match_first_pop!(tokens {
-            Token::Op(o) => { Ok(o) },
+            Token::OpPlus => { Ok(Operator::Plus) },
+            Token::OpMinus => { Ok(Operator::Minus) },
+            Token::OpTransfer => {
+                Ok(Operator::Transfer(expect_identifier(
+                    tokens,
+                    "string expected after transfer operator"
+                )?))
+            },
+            Token::OpTrade => {
+                Ok(Operator::Trade(parse(tokens)?))
+            },
         } else {
             Err(SyntaxError::from(
                 message,

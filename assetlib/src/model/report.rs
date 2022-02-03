@@ -46,11 +46,15 @@ impl<'a> Report<'a> {
         let threshold = 2;
         let mut end_month = ctx.max_datetime().month();
 
-        if end_month <= threshold { end_month += 12 }
+        if end_month <= threshold {
+            end_month += 12
+        }
 
         for entry in ctx.history().iter().rev() {
             let mut now_month = entry.datetime().month();
-            if now_month <= threshold { now_month += 12 }
+            if now_month <= threshold {
+                now_month += 12
+            }
 
             if end_month - now_month > 2 {
                 break;

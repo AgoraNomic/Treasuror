@@ -1,14 +1,14 @@
-use chrono::naive::{NaiveTime, NaiveDate};
+use chrono::naive::{NaiveDate, NaiveTime};
 
 use nom::{
     branch::alt,
-    bytes::complete::{take_till, take_while, take_while1},
+    bytes::complete::{tag, take_till, take_while, take_while1},
     character::complete::char,
     combinator::recognize,
-    sequence::{delimited, preceded},
+    sequence::delimited,
 };
 
-use super::{Operator, Token};
+use super::Token;
 use crate::parser::error::parse::{to_nom_err, StringIResult, TokenIResult};
 
 pub fn is_id_char(c: char) -> bool {
@@ -76,24 +76,30 @@ pub fn token_string(s: &str) -> TokenIResult {
 }
 
 pub fn token_plus(s: &str) -> TokenIResult {
-    char('+')(s).map(|(rest, _)| (rest, Operator::Plus.into()))
+    char('+')(s).map(|(rest, _)| (rest, Token::OpPlus))
 }
 
 pub fn token_minus(s: &str) -> TokenIResult {
-    char('-')(s).map(|(rest, _)| (rest, Operator::Minus.into()))
+    char('-')(s).map(|(rest, _)| (rest, Token::OpMinus))
 }
 
 pub fn token_transfer(s: &str) -> TokenIResult {
-    preceded(char('>'), identifier)(s)
-        .map(|(rest, t)| (rest, Token::Op(Operator::Transfer(t.to_string()))))
+    char('>')(s).map(|(rest, _)| (rest, Token::OpTransfer))
+}
+
+pub fn token_trade(s: &str) -> TokenIResult {
+    tag("<>")(s).map(|(rest, _)| (rest, Token::OpTrade))
 }
 
 pub fn token_operator(s: &str) -> TokenIResult {
-    alt((token_plus, alt((token_minus, token_transfer))))(s)
+    alt((
+        token_plus,
+        alt((token_minus, alt((token_transfer, token_trade)))),
+    ))(s)
 }
 
 pub fn token_command(s: &str) -> TokenIResult {
-    preceded(char('#'), identifier)(s).map(|(rest, t)| (rest, Token::Command(t.to_string())))
+    char('#')(s).map(|(rest, _)| (rest, Token::CommandSigil))
 }
 
 pub fn token_any(s: &str) -> TokenIResult {
@@ -102,21 +108,21 @@ pub fn token_any(s: &str) -> TokenIResult {
         alt((
             token_date,
             alt((
-            token_identifier,
-            alt((
-                token_float,
+                token_identifier,
                 alt((
-                    token_integer,
+                    token_float,
                     alt((
-                        token_string,
+                        token_integer,
                         alt((
-                            token_operator,
-                            alt((token_blob, alt((token_separator, token_command)))),
+                            token_string,
+                            alt((
+                                token_operator,
+                                alt((token_blob, alt((token_separator, token_command)))),
+                            )),
                         )),
                     )),
                 )),
             )),
-        )),
         )),
     ))(s)
 }
