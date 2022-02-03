@@ -5,10 +5,10 @@ use nom::{
     bytes::complete::{tag, take_till, take_while, take_while1},
     character::complete::char,
     combinator::recognize,
-    sequence::{delimited, preceded},
+    sequence::delimited,
 };
 
-use super::{Operator, Token};
+use super::Token;
 use crate::parser::error::parse::{to_nom_err, StringIResult, TokenIResult};
 
 pub fn is_id_char(c: char) -> bool {

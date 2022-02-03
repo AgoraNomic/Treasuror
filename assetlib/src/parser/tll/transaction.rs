@@ -24,15 +24,6 @@ impl Transaction {
         }
     }
 
-    pub fn from_vec(mut tokens: Vec<Token>) -> SyntaxResult<Transaction> {
-        Ok(Transaction {
-            agent: expect_identifier(&mut tokens, "need identifier as first argument")?,
-            amount: expect(&mut tokens)?,
-            operator: expect_operator(&mut tokens, "need operator in transaction")?,
-            comment: expect_stringlike(&mut tokens, "").unwrap_or_else(|_| String::new()),
-        })
-    }
-
     pub fn agent(&self) -> &str {
         &self.agent
     }
@@ -50,6 +41,17 @@ impl Transaction {
     }
 }
 
+impl Parseable for Transaction {
+    fn from_tokens(tokens: &mut Vec<Token>) -> SyntaxResult<Transaction> {
+        Ok(Transaction {
+            agent: expect_identifier(tokens, "need identifier as first argument")?,
+            amount: expect(tokens)?,
+            operator: expect_operator(tokens, "need operator in transaction")?,
+            comment: expect_stringlike(tokens, "").unwrap_or_else(|_| String::new()),
+        })
+    }
+}
+
 #[derive(Clone, Debug, Eq, PartialEq)]
 pub struct Trade {
     patient: String,
@@ -64,13 +66,6 @@ impl Trade {
         }
     }
 
-    pub fn from_vec(tokens: &mut Vec<Token>) -> SyntaxResult<Trade> {
-        Ok(Trade {
-            amount: expect(tokens)?,
-            patient: expect_identifier(tokens, "need identifier as second argument to trade")?,
-        })
-    }
-
     pub fn patient(&self) -> &str {
         &self.patient
     }
@@ -80,6 +75,14 @@ impl Trade {
     }
 }
 
+impl Parseable for Trade {
+    fn from_tokens(tokens: &mut Vec<Token>) -> SyntaxResult<Trade> {
+        Ok(Trade {
+            amount: expect(tokens)?,
+            patient: expect_identifier(tokens, "need identifier as second argument to trade")?,
+        })
+    }
+}
 #[derive(Clone)]
 pub struct AtomicTransaction {
     agent: String,

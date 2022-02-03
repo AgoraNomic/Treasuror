@@ -89,11 +89,10 @@ pub mod combinators {
 
     use super::{Operator, Token};
 
-    use crate::model::{Amount, Currency, FullUnit};
+    use crate::model::{Currency, FullUnit};
     use crate::parser::{
         common::Parseable,
         error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
-        tll::Trade,
     };
 
     pub fn expect<'a, P: Parseable>(tokens: &'a mut Vec<Token>) -> SyntaxResult<P> {
@@ -231,7 +230,7 @@ pub mod combinators {
                 )?))
             },
             Token::OpTrade => {
-                Ok(Operator::Trade(Trade::from_vec(tokens)?))
+                Ok(Operator::Trade(expect(tokens)?))
             },
         } else {
             Err(SyntaxError::from(

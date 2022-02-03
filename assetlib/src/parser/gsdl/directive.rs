@@ -57,7 +57,7 @@ impl Directive {
                 &mut tokens,
                 "DATE requires a date argument",
             )?)),
-            "ent" => Ok(Directive::Entity(Entity::from_vec(&mut tokens)?)),
+            "ent" => Ok(Directive::Entity(expect(&mut tokens)?)),
             "forbes" => Ok(Directive::Forbes(expect_integer(
                 &mut tokens,
                 "FORBES requires an integer argunent",

@@ -10,7 +10,7 @@ use crate::parser::{
     },
 };
 
-use super::{Command, Transaction};
+use super::Command;
 
 #[derive(Clone)]
 pub struct Line {
@@ -42,7 +42,7 @@ impl Line {
             action: if let Ok(c) = expect_command(&mut tokens, "") {
                 Command::from_name_and_vec(c.to_string(), tokens)?
             } else {
-                Command::Transaction(Transaction::from_vec(tokens)?)
+                Command::Transaction(expect(&mut tokens)?)
             },
         })
     }
