@@ -129,3 +129,6 @@
 [20:49] Murphy   5bl:cn+ "Reward: Tailor weekly"
 [20:49] Jason   15bl:cn+ "Reward: Full Logical Ruleset"
 [22:34] G.       5bl:cn+ "Wielding Wealth Stone"
+[23:41] #report
+[23:41] #bt 150245
+[23:57] #revision

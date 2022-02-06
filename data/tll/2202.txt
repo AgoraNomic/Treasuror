@@ -1,0 +1,32 @@
+2022-02-01
+#relevel
+#payday
+[17:49] ais     5bl:cn+ "Reward: CFJ 3943"
+[17:49] Jason   5bl:cn+ "Reward: CFJ 3938"
+[17:49] Jason   5bl:cn+ "Reward: CFJ 3938"
+[17:49] R._Lee  5bl:cn+ "Reward: CFJ 3939"
+[17:49] G.      5bl:cn+ "Reward: CFJ 3937"
+[19:56] Murphy  5bl:cn+ "Reward: CFJ 3935"
+[20:58] ais        1jc+ "Focus grant"
+[21:04] G.         1pd- "Pending Proposal"
+[21:30] Madrid     1pd- "Pending Proposal"
+
+2022-02-02
+[00:38] snail 1ws+ "Focus grant"
+[00:50] Jason 1ws+ "Focus grant"
+[17:38] Jason 1pd- "Pending Proposal"
+[18:04] ais        5bl:cn+ "Reward: CFJ 3934"
+[18:04] G.         5bl:cn+ "Reward: CFJ 3933"
+[18:04] Falsifian  5bl:cn+ "Reward: CFJ 3932"
+[23:16] ais   1wc>Falsifian
+
+2022-02-03
+[19:15] G.    5bl:cn+ "Reward: CFJ 3942"
+[19:15] Jason 5bl:cn+ "Reward: CFJ 3944"
+
+2022-02-04
+[00:34] nix 2200cn>Blacklist
+[00:34] nix    1wc>Blacklist
+[18:42] Trigon 1ws+ "Focus grant"
+[19:06] G.  5bl:cn+ "Wielding Wealth Stone"
+[20:19] Madrid 1jc+ "Focus grant"
