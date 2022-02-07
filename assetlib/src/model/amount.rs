@@ -27,10 +27,10 @@ impl Amount {
 
 impl Parseable for Amount {
     fn from_tokens(tokens: &mut Vec<Token>) -> SyntaxResult<Amount> {
-        if let Ok(i) = expect_integer(tokens, "") {
-            Ok(Amount::PartOf(expect_full_unit(tokens)?, i))
-        } else if let Ok(()) = expect_blob(tokens, "") {
-            if let Ok(c) = expect_identifier(tokens, "") {
+        if let Ok(i) = take_integer(tokens, "") {
+            Ok(Amount::PartOf(take_full_unit(tokens)?, i))
+        } else if let Ok(()) = take_blob(tokens, "") {
+            if let Ok(c) = take_identifier(tokens, "") {
                 Ok(Amount::AllOf(try_into_currency(&c)?))
             } else {
                 Ok(Amount::Everything)

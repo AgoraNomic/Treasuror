@@ -34,15 +34,15 @@ impl Line {
         }
 
         Ok(Line {
-            datetime: if let Ok(t) = expect_time(&mut tokens, "") {
+            datetime: if let Ok(t) = take_time(&mut tokens, "") {
                 date.and_time(t)
             } else {
                 date.and_hms(0, 0, 0)
             },
-            action: if let Ok(c) = expect_command(&mut tokens, "") {
+            action: if let Ok(c) = take_command(&mut tokens, "") {
                 Command::from_name_and_vec(c.to_string(), tokens)?
             } else {
-                Command::Transaction(parse(&mut tokens)?)
+                Command::Transaction(take(&mut tokens)?)
             },
         })
     }

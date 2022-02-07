@@ -30,43 +30,43 @@ pub enum Command {
 impl Command {
     pub fn from_name_and_vec(name: String, mut tokens: Vec<Token>) -> SyntaxResult<Command> {
         match &name.to_lowercase()[..] {
-            "activate" => Ok(Command::Activate(expect_stringlike(
+            "activate" => Ok(Command::Activate(take_stringlike(
                 &mut tokens,
                 "cannot activate no one",
             )?)),
-            "bt" => Ok(Command::BuoyancyTarget(expect_integer(
+            "bt" => Ok(Command::BuoyancyTarget(take_integer(
                 &mut tokens,
                 "setting buoyancy target requires an integer",
             )?)),
-            "deactivate" => Ok(Command::Deactivate(expect_stringlike(
+            "deactivate" => Ok(Command::Deactivate(take_stringlike(
                 &mut tokens,
                 "cannot deactivate no one",
             )?)),
             "delplayer" | "delcontract" | "deregister" => Ok(Command::Deregister(
-                expect_identifier(&mut tokens, "expected identifier in #deregister")?,
+                take_identifier(&mut tokens, "expected identifier in #deregister")?,
             )),
-            "message" | "msg" => Ok(Command::Message(expect_stringlike(
+            "message" | "msg" => Ok(Command::Message(take_stringlike(
                 &mut tokens,
                 "expected string for message",
             )?)),
             "newcontract" => {
                 let identifier =
-                    expect_identifier(&mut tokens, "expected identifier in #newcontract")?;
+                    take_identifier(&mut tokens, "expected identifier in #newcontract")?;
                 let full_name =
-                    expect_stringlike(&mut tokens, "").unwrap_or_else(|_| identifier.clone());
+                    take_stringlike(&mut tokens, "").unwrap_or_else(|_| identifier.clone());
 
                 Ok(Command::NewContract(identifier, full_name))
             }
             "newplayer" | "register" => {
                 let identifier =
-                    expect_identifier(&mut tokens, "expected identifier in #newplayer")?;
+                    take_identifier(&mut tokens, "expected identifier in #newplayer")?;
                 let full_name =
-                    expect_stringlike(&mut tokens, "").unwrap_or_else(|_| identifier.clone());
+                    take_stringlike(&mut tokens, "").unwrap_or_else(|_| identifier.clone());
 
                 Ok(Command::NewPlayer(identifier, full_name))
             }
             "norecord" | "nr" => {
-                let next_name = expect_identifier(&mut tokens, "expected subcommand in #norecord")?;
+                let next_name = take_identifier(&mut tokens, "expected subcommand in #norecord")?;
 
                 Ok(Command::NoRecord(Box::new(Command::from_name_and_vec(
                     next_name, tokens,
@@ -74,13 +74,13 @@ impl Command {
             }
             "nuke" => Ok(Command::Nuke),
             "payday" => Ok(Command::Payday),
-            "relevel" => Ok(Command::Relevel(expect_integer(&mut tokens, "").ok())),
+            "relevel" => Ok(Command::Relevel(take_integer(&mut tokens, "").ok())),
             "rename" => {
-                let first = try_into_currency(&expect_identifier(
+                let first = try_into_currency(&take_identifier(
                     &mut tokens,
                     "expected identifier in #rename",
                 )?)?;
-                let second = try_into_currency(&expect_identifier(
+                let second = try_into_currency(&take_identifier(
                     &mut tokens,
                     "expected identifier in #rename",
                 )?)?;
@@ -89,7 +89,7 @@ impl Command {
             }
             "report" => Ok(Command::Report),
             "revision" => Ok(Command::Revision),
-            "transaction" | "t" => Ok(Command::Transaction(parse(&mut tokens)?)),
+            "transaction" | "t" => Ok(Command::Transaction(take(&mut tokens)?)),
             _ => Err(SyntaxError::from(
                 &format!("no such command: {}", name),
                 ErrorKind::UnrecognizedCommand,

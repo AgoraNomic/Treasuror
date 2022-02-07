@@ -44,10 +44,10 @@ impl Transaction {
 impl Parseable for Transaction {
     fn from_tokens(tokens: &mut Vec<Token>) -> SyntaxResult<Transaction> {
         Ok(Transaction {
-            agent: expect_identifier(tokens, "need identifier as first argument")?,
-            amount: parse(tokens)?,
-            operator: expect_operator(tokens, "need operator in transaction")?,
-            comment: expect_stringlike(tokens, "").unwrap_or_else(|_| String::new()),
+            agent: take_identifier(tokens, "need identifier as first argument")?,
+            amount: take(tokens)?,
+            operator: take_operator(tokens, "need operator in transaction")?,
+            comment: take_stringlike(tokens, "").unwrap_or_else(|_| String::new()),
         })
     }
 }
@@ -78,8 +78,8 @@ impl Trade {
 impl Parseable for Trade {
     fn from_tokens(tokens: &mut Vec<Token>) -> SyntaxResult<Trade> {
         Ok(Trade {
-            amount: parse(tokens)?,
-            patient: expect_identifier(tokens, "need identifier as second argument to trade")?,
+            amount: take(tokens)?,
+            patient: take_identifier(tokens, "need identifier as second argument to trade")?,
         })
     }
 }

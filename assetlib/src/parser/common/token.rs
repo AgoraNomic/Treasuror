@@ -95,11 +95,11 @@ pub mod combinators {
         error::syntax::{ErrorKind, SyntaxError, SyntaxResult},
     };
 
-    pub fn parse<'a, P: Parseable>(tokens: &'a mut Vec<Token>) -> SyntaxResult<P> {
+    pub fn take<'a, P: Parseable>(tokens: &'a mut Vec<Token>) -> SyntaxResult<P> {
         Parseable::from_tokens(tokens)
     }
 
-    pub fn expect_blob<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<()> {
+    pub fn take_blob<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<()> {
         match_first_pop!(tokens {
             Token::Blob => { Ok(()) },
         } else {
@@ -110,13 +110,13 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_command<'a>(
+    pub fn take_command<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
     ) -> SyntaxResult<String> {
         match_first_pop!(tokens {
             Token::CommandSigil => {
-                Ok(expect_identifier(tokens, "string needed after command sigil")?)
+                Ok(take_identifier(tokens, "string needed after command sigil")?)
             },
         } else {
             Err(SyntaxError::from(
@@ -126,7 +126,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_date<'a>(
+    pub fn take_date<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
     ) -> SyntaxResult<NaiveDate> {
@@ -140,7 +140,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_float<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<f32> {
+    pub fn take_float<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<f32> {
         match_first_pop!(tokens {
             Token::Float(f) => { Ok(f) },
         } else {
@@ -151,10 +151,10 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_full_unit<'a>(tokens: &'a mut Vec<Token>) -> SyntaxResult<FullUnit> {
-        if let Ok(i1) = expect_identifier(tokens, "") {
-            if let Ok(()) = expect_separator(tokens, "") {
-                if let Ok(i2) = expect_identifier(tokens, "") {
+    pub fn take_full_unit<'a>(tokens: &'a mut Vec<Token>) -> SyntaxResult<FullUnit> {
+        if let Ok(i1) = take_identifier(tokens, "") {
+            if let Ok(()) = take_separator(tokens, "") {
+                if let Ok(i2) = take_identifier(tokens, "") {
                     if i1 == "bl" {
                         Ok(FullUnit::Boatload(try_into_currency(&i2)?))
                     } else {
@@ -180,7 +180,7 @@ pub mod combinators {
         }
     }
 
-    pub fn expect_identifier<'a>(
+    pub fn take_identifier<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
     ) -> SyntaxResult<String> {
@@ -194,7 +194,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_integer<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<u32> {
+    pub fn take_integer<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<u32> {
         match_first_pop!(tokens {
             Token::Integer(i) => { Ok(i) },
         } else {
@@ -205,7 +205,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_separator<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<()> {
+    pub fn take_separator<'a>(tokens: &'a mut Vec<Token>, message: &'a str) -> SyntaxResult<()> {
         match_first_pop!(tokens {
             Token::Separator => { Ok(()) },
         } else {
@@ -216,7 +216,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_operator<'a>(
+    pub fn take_operator<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
     ) -> SyntaxResult<Operator> {
@@ -224,13 +224,13 @@ pub mod combinators {
             Token::OpPlus => { Ok(Operator::Plus) },
             Token::OpMinus => { Ok(Operator::Minus) },
             Token::OpTransfer => {
-                Ok(Operator::Transfer(expect_identifier(
+                Ok(Operator::Transfer(take_identifier(
                     tokens,
                     "string expected after transfer operator"
                 )?))
             },
             Token::OpTrade => {
-                Ok(Operator::Trade(parse(tokens)?))
+                Ok(Operator::Trade(take(tokens)?))
             },
         } else {
             Err(SyntaxError::from(
@@ -240,7 +240,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_stringlike<'a>(
+    pub fn take_stringlike<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
     ) -> SyntaxResult<String> {
@@ -255,7 +255,7 @@ pub mod combinators {
         })
     }
 
-    pub fn expect_time<'a>(
+    pub fn take_time<'a>(
         tokens: &'a mut Vec<Token>,
         message: &'a str,
     ) -> SyntaxResult<NaiveTime> {

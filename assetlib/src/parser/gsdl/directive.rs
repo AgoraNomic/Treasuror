@@ -34,14 +34,14 @@ impl Directive {
             tokens.push(tr?);
         }
 
-        let s = expect_identifier(&mut tokens, "need an identifier to begin an identifier")?;
+        let s = take_identifier(&mut tokens, "need an identifier to begin an identifier")?;
 
         match &s.to_lowercase()[..] {
             "assets" => {
                 let mut result = Vec::new();
 
                 while !tokens.is_empty() {
-                    result.push(try_into_currency(&expect_identifier(
+                    result.push(try_into_currency(&take_identifier(
                         &mut tokens,
                         "parameters to CURRENCY must be identifiers",
                     )?)?)
@@ -49,16 +49,16 @@ impl Directive {
 
                 Ok(Directive::Assets(result))
             }
-            "flotation" => Ok(Directive::Flotation(expect_float(
+            "flotation" => Ok(Directive::Flotation(take_float(
                 &mut tokens,
                 "FLOTATION requires a float argument",
             )?)),
-            "date" => Ok(Directive::Date(expect_date(
+            "date" => Ok(Directive::Date(take_date(
                 &mut tokens,
                 "DATE requires a date argument",
             )?)),
-            "ent" => Ok(Directive::Entity(parse(&mut tokens)?)),
-            "forbes" => Ok(Directive::Forbes(expect_integer(
+            "ent" => Ok(Directive::Entity(take(&mut tokens)?)),
+            "forbes" => Ok(Directive::Forbes(take_integer(
                 &mut tokens,
                 "FORBES requires an integer argunent",
             )?)),
