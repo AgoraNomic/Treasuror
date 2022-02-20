@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # script to add this report to the report archive
 # copies files, then adds an entry to the list of files in the report index
