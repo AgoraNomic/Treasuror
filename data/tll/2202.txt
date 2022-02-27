@@ -105,3 +105,86 @@
 
 2022-02-19
 [17:08] ais 5bl:cn+ "Reward: CFJ 3946"
+
+2022-02-20
+[22:46] #report
+[22:54] #bt 193350
+[23:42] snail 1450cn- "Stone Auction: Wealth Stone"
+[23:42] Jason  676cn- "Stone Auction: Power Stone"
+
+2022-02-21
+[15:23] snail   5bl:cn+ "Wielding Wealth Stone"
+[22:11] nix    10bl:cn+ "Reward: Herald weekly"
+[22:11] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[22:11] G.     10bl:cn+ "Reward: Referee weekly"
+[22:11] ATMunn 10bl:cn+ "Reward: Notary weekly"
+[22:11] snail  10bl:cn+ "Reward: Arbitor weekly"
+[22:11] nix    10bl:cn+ "Reward: Herald weekly"
+[22:11] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[22:11] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[22:11] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[22:11] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[22:11] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[22:31] ais     4lc- "Set of cards"
+[22:31] ais    10pd+ "Set of products"
+[23:53] ATMunn  1pd- "Pending proposal"
+
+2022-02-22
+[01:21] #nr newcontract Lever "The Useless Lever"
+[01:21] #nr newcontract FIAA "Food Industry Association of Agora"
+[01:21] Falsifian   14ws>ais
+[01:21] Falsifian    3wc>Press
+[01:21] Falsifian    1jc>Lever
+[01:21] Falsifian    1lc>Hoard
+[01:21] Falsifian    1vc>Pooling
+[01:21] Falsifian   13pd>FIAA
+[01:21] Falsifian 3156cn>D._Corp.
+[01:21] #deregister Falsifian
+[20:45] snail 100cn>Hoard
+[21:19] Jason 500cn>Hoard
+[22:03] #deregister Nathan
+[22:03] #deregister seventeen
+[22:03] #deregister surprise
+[22:03] #deregister Pat
+[22:03] #deactivate tris
+[22:03] #deactivate redtara
+[22:03] #deactivate Benbot
+[22:03] #deactivate Spyder
+[22:03] #nr register Joe "Slam_Joe_Jr_Supreme"
+[22:03] #deactivate Joe
+
+2022-02-23
+[03:39] Jason 1pd- "Pending proposal"
+[06:55] snail 5bl:cn+ "Reward: Proposal 8638"
+[06:55] G.    3bl:cn+ "Reward: Proposal 8639"
+[06:55] Jason 3bl:cn+ "Reward: Proposal 8642"
+[06:55] G.    3bl:cn+ "Reward: Proposal 8643"
+[06:55] Jason 1bl:cn+ "Reward: Proposal 8644"
+
+2022-02-24
+[16:55] Blacklist 2bl:cn>snail
+[16:55] Blacklist    1vt>snail
+[20:59] snail  1lc+ "Popular proposal: proposal 8638"
+[20:59] snail  1jc+ "Finger pointer"
+
+2022-02-25
+[13:44] ais 1pd- "Pending proposal"
+
+2022-02-26
+[20:04] G.    5bl:cn+ "Reward: CFJ 3941"
+[20:04] snail 5bl:cn+ "Reward: CFJ 3947"
+
+2022-02-27
+[21:26] ais    5pd>Murphy
+[21:26] Murphy 5vt>ais
+[21:53] Murphy 1pd- "Pending proposal"
+[21:54] snail  8bl:cn+ "C Glitter: Registrar"
+[22:12] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[22:12] nix    10bl:cn+ "Reward: Herald weekly"
+[22:12] G.     10bl:cn+ "Reward: Referee weekly"
+[22:12] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[22:12] snail  10bl:cn+ "Reward: Arbitor weekly"
+[22:12] snail   5bl:cn+ "Reward: Registrar weekly"
+[22:12] Jason  15bl:cn+ "Reward: Assessed proposal"
+[22:12] snail   5bl:cn+ "Reward: Registrar monthly "
+
