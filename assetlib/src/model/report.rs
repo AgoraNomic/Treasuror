@@ -44,19 +44,13 @@ impl<'a> Report<'a> {
         let history_table = &mut Table::new(tstr);
 
         let threshold = 2;
-        let mut end_month = ctx.max_datetime().month();
-
-        if end_month <= threshold {
-            end_month += 12
-        }
+        let end_month = ctx.max_datetime().month0();
+        let before_month = (end_month + 11 - threshold) % 12;
 
         for entry in ctx.history().iter().rev() {
-            let mut now_month = entry.datetime().month();
-            if now_month <= threshold {
-                now_month += 12
-            }
+            let now_month = entry.datetime().month0();
 
-            if end_month - now_month > 2 {
+            if now_month == before_month {
                 break;
             }
 
