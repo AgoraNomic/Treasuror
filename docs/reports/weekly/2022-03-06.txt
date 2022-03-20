@@ -1,5 +1,5 @@
 ========================================================================
-                          FORBES FOUR HUNDRED                           
+                        FORBES FOUR HUNDRED ONE                         
 --------------------------------   or   --------------------------------
                        TREASUROR'S WEEKLY REPORT
 ========================================================================
@@ -11,8 +11,8 @@ DATES OF PUBLICATION                                  (contains no data)
 
 (all times and dates in UTC)
 
-Date of previous original report: 06 March 2022
-Date of first report this week:   20 March 2022
+Date of previous original report: 27 February 2022
+Date of first report this week:   06 March 2022
 
 
 NOTES ON REPORT                                       (contains no data)
@@ -26,7 +26,7 @@ BUOYANCY
 ========================================================================
 
 Total Buoyancy:    203607
-Buoyancy Target:   234421
+Buoyancy Target:   203607
 Unit of Flotation: 82.0000
 
 
@@ -35,24 +35,22 @@ ASSET BALANCES
 
    Player(+a)      cn     wc    jc    lc    vc    ws    bg    pd    vt 
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
- ais        [0]   12739     0     1     0     2    16     0     4     5
- Aspen            19836     1     1     0     1     0     0    10     0
+ ais        [0]   13673     0     3     0     2    14     0     4     5
+ Aspen            17376     1     1     0     1     0     0    10     0
+ ATMunn           17538     0     0     0     0     2     2     3     2
  banana     [1]    3255     1     1     0     1     1     0     3     0
- duck               820     0     1     1     2     0     0     0     0
- G.               31763     1     9     1     1     0     6     9     0
- Gaelan            6664     1     1     0     0     0     0     3     2
- Jason            29587     1     0     3     0     3     1    11    12
- juan               738     0     1     1     2     0     0     0     0
+ G.               29221     1     8     1     1     0     6     9     0
+ Gaelan            6664     1     1     0     1     0     0     3     0
+ Jason            30824     0     0     0     4     1     1     9     2
  Madrid            3893     1     1     0     0     4     2     1     4
- Murphy           25425     1     1     1     1     0     0     3     5
- nix              16486     1     0     0     0     0     0     4     0
- omd               5101     1     1     0     0     0     0     3     2
- R. Lee            4307     1     1     1     1     0     0     0     0
+ Murphy           23621     1     1     1     1     0     0     4     5
+ nix               5182     1     0     0     0     0     0     0     0
+ omd               5101     1     1     0     1     0     0     3     0
+ R. Lee            3897     1     1     1     1     0     0     0     0
  Sgeo              1950     1     1     1     1     0     0     0     0
- snail      [2]   16796     0     0     7     0     1     0     5     2
+ snail      [2]   14041     1     2     3     0     1     0     0     2
  TABBAT            1430     1     1     1     1     0     0     0     0
- Telna              820     0     1     1     2     0     0     0     0
- Trigon           22921     2     1     0     0    29     0     0     0
+ Trigon           24027     0     1     0     2    28     0     0     0
 
 0. ais523
 1. cuddlybanana
@@ -72,46 +70,43 @@ ASSET BALANCES
 
   Contract(00)     cn     wc    jc    lc    vc    ws    bg    pd    vt 
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
- ATMStash   [0]   17538     0     0     0     0     1     6     1     2
- CB Locker  [1]       0     0     0     0     0     0     0     0     0
- D. Corp.   [2]    3156     0     0     0     0     0     0     0     0
- DragonQE   [3]       0     0     0     0     0     0     0     0     0
- FIAA       [4]       0     0     0     0     0     0     0     0     0
- Geocache   [5]       0     0     0     0     0     2     0     1     0
- Hoard      [6]    4914     0     0     1     0     0     0     0     0
- IBTWWBG    [7]      50     0     0     0     0     0     0     0     0
- Lever      [8]       0     0     1     0     0     0     0     0     0
+ Blacklist         5566     1     0     0     0     4     2     0     0
+ CB Locker  [0]       0     0     0     0     0     0     0     0     0
+ D. Corp.   [1]    3156     0     0     0     0     0     0     0     0
+ DragonQE   [2]       0     0     0     0     0     0     0     0     0
+ FIAA       [3]       0     0     0     0     0     0     0    13     0
+ Hoard      [4]    4914     0     0     1     0     0     0     0     0
+ IBTWWBG    [5]      50     0     0     0     0     0     0     0     0
+ Lever      [6]       0     0     1     0     0     0     0     0     0
  Nim                 50     0     0     0     0     0     0     0     0
- PlunderPS  [9]     109     0     0     0     0     0     0     0     0
- Pooling   [10]       0     0     0     0     1     0     0     0     0
- Pot       [11]       0     0     0     0     0     0     0     0     0
- SEAMSTRESS[12]     246     0     0     0     0     0     0     0     0
+ PlunderPS  [7]     109     0     0     0     0     0     0     0     0
+ Pooling    [8]       0     0     0     0     1     0     0     0     0
+ Pot        [9]       0     0     0     0     0     0     0     0     0
+ SEAMSTRESS[10]       0     0     0     0     0     0     0     0     0
 
-0. ATMunn's Stash
-1. Cuddlebeam's Locker
-2. Dragon Corporation
-3. Dragon Quickexchange
-4. Food Industry Association of Agora
-5. Growing Endlessly Operation: Cache
-6. Dragon's Hoard
-7. I Bet This Was Written By G.
-8. The Useless Lever
-9. Plunder Partnership
-10. Obstructive Pooling
-11. The Pot
-12. Signature Enthusiast Allows Modification of Signature Through
+0. Cuddlebeam's Locker
+1. Dragon Corporation
+2. Dragon Quickexchange
+3. Food Industry Association of Agora
+4. Dragon's Hoard
+5. I Bet This Was Written By G.
+6. The Useless Lever
+7. Plunder Partnership
+8. Obstructive Pooling
+9. The Pot
+10. Signature Enthusiast Allows Modification of Signature Through
    Rigorous Exchanging of Signature Suggestions
 
   Contract(25)     cn     wc    jc    lc    vc    ws    bg    pd    vt 
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
- Press      [0]    2561     3     0     0     0     0     0     0     0
+ Press      [0]    3381     3     0     0     0     0     0     0     0
 
 0. Agoran Press
 
      Entity        cn     wc    jc    lc    vc    ws    bg    pd    vt 
  ==============  ======  ====  ====  ====  ====  ====  ====  ====  ====
  Agora                0     0     0     0     0     0     0     0     0
- L&F Dept.         6444     6     1     0     1     1     1     2     0
+ L&F Dept.         6370     6     1     6     1     0     1     1     0
 
 
 ASSET INDEX                                       (does not self-ratify)
@@ -133,188 +128,11 @@ ASSET INDEX                                       (does not self-ratify)
 * Tracked by the Stonemason
    * Stones
 
-* Tracked by the Herald
-   * Points
 
 RECENT HISTORY                                    (does not self-ratify)
 ========================================================================
 
-*** Sun 20 March 2022
-[22:47] R. Lee: + 410cn (Reward: CFJ 3950)
-[22:02] Murphy: -   1pd (Pending proposal)
-[21:54] nix:    + 820cn (Reward: Herald monthly)
-[21:54] Jason:  +1230cn (Reward: Assessed proposal)
-[21:54] G.:     + 820cn (Reward: Referee weekly)
-[21:54] ais:    + 410cn (Reward: Mad Engineer weekly)
-[21:54] Aspen:  +1230cn (Reward: Proposal Pool)
-[21:54] Jason:  + 410cn (Reward: Stonemason weekly)
-[21:54] nix:    + 820cn (Reward: Herald weekly)
-[21:54] Murphy: + 410cn (Reward: ADoP weekly)
-[14:25] G.:     +   1jc (Finger pointer)
-
-*** Fri 18 March 2022
-[20:35] L&F Dept.: +1pd (Transfer FIAA)
-[20:35] FIAA:      -1pd (Transfer L&F Dept.)
-[20:35] snail:     +4pd (Transfer FIAA)
-[20:35] FIAA:      -4pd (Transfer snail)
-[20:35] Jason:     +4pd (Transfer FIAA)
-[20:35] FIAA:      -4pd (Transfer Jason)
-[20:35] nix:       +4pd (Transfer FIAA)
-[20:35] FIAA:      -4pd (Transfer nix)
-[20:23] snail:     +1lc (Popular proposal: Proposal 8648)
-[03:34] Geocache:  +2ws (Transfer snail)
-[03:34] snail:     -2ws (Transfer Geocache)
-[03:34] Geocache:  +1pd (Transfer snail)
-[03:34] snail:     -1pd (Transfer Geocache)
-[03:32]   Contract Geocache created
-
-*** Thu 17 March 2022
-[20:06] snail:  +  82cn (Transfer juan)
-[20:06] juan:   -  82cn (Transfer snail)
-[16:59] nix:    +2500cn (Transfer Trigon)
-[16:59] Trigon: -2500cn (Transfer nix)
-[16:59] Trigon: +   1wc (Transfer nix)
-[16:59] nix:    -   1wc (Transfer Trigon)
-[16:14] nix:    +2000cn (Transfer ais)
-[16:14] ais:    -2000cn (Transfer nix)
-[16:14] ais:    +   2ws (Transfer nix)
-[16:14] nix:    -   2ws (Transfer ais)
-
-*** Wed 16 March 2022
-[22:08] Jason:     + 656cn (Wielding Hot Potato Stone)
-[22:03] Jason:     -1000cn (Stone Auction: Alchemy Stone)
-[22:03] Jason:     -1000cn (Stone Auction: Hot Potato Stone)
-[21:17] nix:       -   2bg (Expungement)
-[21:17] nix:       +   2bg (Transfer L&F Dept.)
-[21:17] L&F Dept.: -   2bg (Transfer nix)
-[21:17] nix:       +   1wc (Transfer L&F Dept.)
-[21:17] L&F Dept.: -   1wc (Transfer nix)
-[21:17] nix:       +5000cn (Transfer L&F Dept.)
-[21:17] L&F Dept.: -5000cn (Transfer nix)
-
-*** Tue 15 March 2022
-[23:48] Jason:  -  1pd (Pending proposal)
-[23:45] Jason:  +574cn (Vocal voter)
-[23:43] G.:     +492cn (Reward: Proposal 8654)
-[23:43] ais:    +246cn (Reward: Proposal 8653)
-[23:43] Jason:  +492cn (Reward: Proposal 8651)
-[23:43] Jason:  +246cn (Reward: Proposal 8650)
-[23:43] snail:  +738cn (Reward: Proposal 8648)
-[23:43] Jason:  +492cn (Reward: Proposal 8646)
-[22:38] Jason:  + 10vt (Set of products)
-[22:38] Jason:  -  4vc (Set of cards)
-[22:35] snail:  -  6vt ()
-[22:34] omd:    +  2vt (Transfer snail)
-[22:34] snail:  -  2vt (Transfer omd)
-[22:34] Gaelan: +  2vt (Transfer snail)
-[22:34] snail:  -  2vt (Transfer Gaelan)
-[22:34] snail:  + 10vt (Set of products)
-[22:34] snail:  -  4vc (Set of cards)
-[22:34] snail:  +  1vc (Transfer Gaelan)
-[22:34] Gaelan: -  1vc (Transfer snail)
-[22:34] snail:  +  1vc (Transfer omd)
-[22:34] omd:    -  1vc (Transfer snail)
-[00:10] juan:   +  1vc (Welcome package)
-[00:10] juan:   +  1lc (Welcome package)
-[00:10] juan:   +  1jc (Welcome package)
-[00:10] juan:   +  1vc (Welcome package)
-[00:10] juan:   +820cn (Welcome package)
-
-*** Mon 14 March 2022
-[20:01] Jason:    -    1pd (Pending proposal)
-[18:37] ATMStash: +    2vt (Transfer ATMunn)
-[18:37] ATMunn:   -    2vt (Transfer ATMStash)
-[18:37] ATMStash: +    1pd (Transfer ATMunn)
-[18:37] ATMunn:   -    1pd (Transfer ATMStash)
-[18:37] ATMStash: +    6bg (Transfer ATMunn)
-[18:37] ATMunn:   -    6bg (Transfer ATMStash)
-[18:37] ATMStash: +    1ws (Transfer ATMunn)
-[18:37] ATMunn:   -    1ws (Transfer ATMStash)
-[18:37] ATMStash: +17538cn (Transfer ATMunn)
-[18:37] ATMunn:   -17538cn (Transfer ATMStash)
-[18:37]   Contract ATMStash created
-[18:37] ATMunn:   -    6bg (Expungement)
-[18:05] ATMunn:   +   10bg (Set of Products)
-[18:05] ATMunn:   -    4jc (Set of Cards)
-[18:05] ATMunn:   +    2jc (Transfer ais)
-[18:05] ais:      -    2jc (Transfer ATMunn)
-[17:48] snail:    +    2pd (Transfer ATMunn)
-[17:48] ATMunn:   -    2pd (Transfer snail)
-[17:48] snail:    +    1ws (Transfer ATMunn)
-[17:48] ATMunn:   -    1ws (Transfer snail)
-[17:48] ATMunn:   +    2jc (Transfer snail)
-[17:48] snail:    -    2jc (Transfer ATMunn)
-
-*** Sun 13 March 2022
-[22:48] Murphy:    + 410cn (Reward: Tailor weekly )
-[22:48] snail:     + 410cn (Reward: Registrar weekly)
-[22:48] snail:     + 820cn (Reward: Arbitor weekly)
-[22:48] Jason:     + 410cn (Reward: Stonemason weekly)
-[22:48] G.:        + 820cn (Reward: Referee weekly)
-[22:48] ais:       + 410cn (Reward: Mad Engineer weekly)
-[22:48] Aspen:     +1230cn (Reward: Proposal Pool)
-[22:48] Trigon:    +1230cn (Reward: Treasuror weekly)
-[22:48] Murphy:    + 410cn (Reward: ADoP weekly)
-[22:18] Murphy:    + 574cn (B Glitter: CFJ 3949)
-[22:18] snail:     + 410cn (Reward: CFJ 3949)
-[22:18] G.:        + 410cn (Reward: CFJ 3948)
-[22:13] snail:     + 410cn (Transfer Press: Thanking)
-[22:13] Press:     - 410cn (Transfer snail: Thanking)
-[20:12] Telna:     +   1vc (Welcome package)
-[20:12] Telna:     +   1lc (Welcome package)
-[20:12] Telna:     +   1jc (Welcome package)
-[20:12] Telna:     +   1vc (Welcome package)
-[20:12] Telna:     + 820cn (Welcome package)
-[19:58] Trigon:    +   1wc (Transfer snail)
-[19:58] snail:     -   1wc (Transfer Trigon)
-[19:58] snail:     +   2vc (Transfer Trigon)
-[19:58] Trigon:    -   2vc (Transfer snail)
-[19:23] L&F Dept.: +   2bg (Indeterminate owner: was Blacklist)
-[19:23] L&F Dept.: +   1ws (Indeterminate owner: was Blacklist)
-[19:23] L&F Dept.: +   1wc (Indeterminate owner: was Blacklist)
-[19:23] L&F Dept.: +5074cn (Indeterminate owner: was Blacklist)
-
-*** Sat 12 March 2022
-[04:07] duck:  +  1vc (Welcome package)
-[04:07] duck:  +  1lc (Welcome package)
-[04:07] duck:  +  1jc (Welcome package)
-[04:07] duck:  +  1vc (Welcome package)
-[04:07] duck:  +820cn (Welcome package)
-[01:58] snail: +410cn (Wielding Wealth Stone)
-
-*** Wed 9 March 2022
-[19:31] SEAMSTRESS: + 246cn (Transfer Jason)
-[19:31] Jason:      - 246cn (Transfer SEAMSTRESS)
-[19:17] Jason:      + 935cn (Transfer snail)
-[19:17] snail:      - 935cn (Transfer Jason)
-[19:17] snail:      +   3lc (Transfer Jason)
-[19:17] Jason:      -   3lc (Transfer snail)
-[18:18] nix:        +   1ws (Focus grant)
-[18:13] nix:        +   1ws (Transfer Blacklist)
-[18:13] Blacklist:  -   1ws (Transfer nix)
-[18:13] nix:        + 164cn (Transfer Blacklist)
-[18:13] Blacklist:  - 164cn (Transfer nix)
-[18:09] Jason:      -1850cn (Victory Auction: 6Leg)
-[18:09] Jason:      +   6lc (Transfer L&F Dept.: Victory Auction: 6Leg)
-[18:09] L&F Dept.:  -   6lc (Transfer Jason: Victory Auction: 6Leg)
-[18:09] Jason:      -2750cn (Victory Auction: Win Card)
-[18:09] Jason:      +   1wc (Victory Auction: Win Card)
-[18:04] Trigon:     +   1ws (Transfer Blacklist)
-[18:04] Blacklist:  -   1ws (Transfer Trigon)
-[18:04] Trigon:     + 164cn (Transfer Blacklist)
-[18:04] Blacklist:  - 164cn (Transfer Trigon)
-[18:03] Jason:      +   1ws (Focus grant)
-[18:03] Jason:      +   1ws (Transfer Blacklist)
-[18:03] Blacklist:  -   1ws (Transfer Jason)
-[18:03] Jason:      + 164cn (Transfer Blacklist)
-[18:03] Blacklist:  - 164cn (Transfer Jason)
-[03:58] snail:      + 410cn (Transfer Press: Reportor weekly)
-[03:58] Press:      - 410cn (Transfer snail: Reportor weekly)
-[03:58] snail:      +   1ws (Focus grant)
-
 *** Sun 6 March 2022
-[23:46]   Buoyancy target set to 234421
-[23:44]   WEEKLY REPORT
 [20:37] Murphy: + 410cn (Reward: Tailor monthly)
 [20:37] G.:     + 410cn (Reward: Ministor monthly)
 [20:37] Jason:  +1230cn (Reward: Full Logical Ruleset)

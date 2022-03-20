@@ -1,0 +1,177 @@
+2022-03-01
+#relevel
+#payday
+[01:36] #newcontract Nim
+[02:57] snail 50cn>Nim
+
+2022-03-02
+[01:12] snail 5bl:cn+ "Wielding Wealth Stone"
+[04:20] snail 1pd- "Pending Proposal"
+
+2022-03-04
+[04:55] Blacklist 2bl:cn>snail
+[04:55] Blacklist    1vt>snail
+[06:44] ATMunn    5bl:cn+
+[13:45] G.           1pd- "Pending proposal"
+[18:16] Jason 2bg- "Expunging"
+[21:06] Jason 1pd- "Pending proposal"
+
+2022-03-06
+[19:06] nix 1wc+ "Legacy grant"
+[19:57] omd    6bl:cn+ "V Glitter"
+[19:57] Gaelan 6bl:cn+ "V Glitter"
+[19:57] G.     6bl:cn+ "V Glitter"
+[19:57] Madrid 6bl:cn+ "V Glitter"
+[19:57] Trigon 6bl:cn+ "V Glitter"
+[19:57] Murphy 6bl:cn+ "V Glitter"
+[19:57] ATMunn 6bl:cn+ "V Glitter"
+[19:57] nix    6bl:cn+ "V Glitter"
+[19:57] banana 6bl:cn+ "V Glitter"
+[19:57] ais    6bl:cn+ "V Glitter"
+[19:57] R._Lee 6bl:cn+ "V Glitter"
+[20:07] snail  6bl:cn+ "take your best guess what this reward is for"
+[20:37] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[20:37] G.     10bl:cn+ "Reward: Referee weekly"
+[20:37] nix    10bl:cn+ "Reward: Herald weekly"
+[20:37] snail  10bl:cn+ "Reward: Arbitor weekly"
+[20:37] snail   5bl:cn+ "Reward: Registrar weekly"
+[20:37] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[20:37] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[20:37] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[20:37] Murphy  5bl:cn+ "Reward: Tailor weekly"
+[20:37] Trigon 15bl:cn+ "Reward: Treasuror monthly"
+[20:37] banana  5bl:cn+ "Reward: Webmastor monthly"
+[20:37] Jason  15bl:cn+ "Reward: Full Logical Ruleset"
+[20:37] G.      5bl:cn+ "Reward: Ministor monthly"
+[20:37] Murphy  5bl:cn+ "Reward: Tailor monthly"
+[23:44] #report
+[23:46] #bt 234421
+
+2022-03-09
+[03:58] snail    1ws+ "Focus grant"
+[03:58] Press 5bl:cn>snail "Reportor weekly"
+[18:03] Blacklist 2bl:cn>Jason
+[18:03] Blacklist    1ws>Jason
+[18:03] Jason 1ws+ "Focus grant"
+[18:04] Blacklist 2bl:cn>Trigon
+[18:04] Blacklist    1ws>Trigon
+[18:09] Jason          1wc+ "Victory Auction: Win Card"
+[18:09] Jason       2750cn- "Victory Auction: Win Card"
+[18:09] L&F_Dept. 6lc>Jason "Victory Auction: 6Leg"
+[18:09] Jason       1850cn- "Victory Auction: 6Leg"
+[18:13] Blacklist 2bl:cn>nix
+[18:13] Blacklist    1ws>nix
+[18:18] nix 1ws+ "Focus grant"
+[19:17] Jason   3lc>snail
+[19:17] snail 935cn>Jason
+[19:31] Jason 3bl:cn>SEAMSTRESS
+
+2022-03-12
+[01:58] snail 5bl:cn+ "Wielding Wealth Stone"
+[02:04] #register duck
+[04:07] duck 10bl:cn+ "Welcome package"
+[04:07] duck     1vc+ "Welcome package"
+[04:07] duck     1jc+ "Welcome package"
+[04:07] duck     1lc+ "Welcome package"
+[04:07] duck     1vc+ "Welcome package"
+[08:11] #register Telna
+
+2022-03-13
+[19:23] #delcontract Blacklist
+[19:58] Trigon 2vc>snail
+[19:58] snail  1wc>Trigon
+[20:12] Telna 10bl:cn+ "Welcome package"
+[20:12] Telna     1vc+ "Welcome package"
+[20:12] Telna     1jc+ "Welcome package"
+[20:12] Telna     1lc+ "Welcome package"
+[20:12] Telna     1vc+ "Welcome package"
+[22:13] Press   5bl:cn>snail "Thanking"
+[22:18] G.      5bl:cn+ "Reward: CFJ 3948"
+[22:18] snail   5bl:cn+ "Reward: CFJ 3949"
+[22:18] Murphy  7bl:cn+ "B Glitter: CFJ 3949"
+[22:48] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[22:48] Trigon 15bl:cn+ "Reward: Treasuror weekly"
+[22:48] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[22:48] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[22:48] G.     10bl:cn+ "Reward: Referee weekly"
+[22:48] Jason  5bl:cn+ "Reward: Stonemason weekly"
+[22:48] snail  10bl:cn+ "Reward: Arbitor weekly"
+[22:48] snail   5bl:cn+ "Reward: Registrar weekly"
+[22:48] Murphy  5bl:cn+ "Reward: Tailor weekly "
+
+2022-03-14
+[17:48] snail   2jc>ATMunn
+[17:48] ATMunn  1ws>snail
+[17:48] ATMunn  2pd>snail
+[18:05] ais     2jc>ATMunn
+[18:05] ATMunn  4jc- "Set of Cards"
+[18:05] ATMunn 10bg+ "Set of Products"
+[18:37] ATMunn  6bg- "Expungement"
+[18:37] #newcontract ATMStash "ATMunn's Stash"
+[18:37] ATMunn  *>ATMStash
+[18:37] #deregister ATMunn
+[20:01] Jason 1pd- "Pending proposal"
+[22:52] #register juan
+
+2022-03-15
+[00:10] juan 10bl:cn+ "Welcome package"
+[00:10] juan     1vc+ "Welcome package"
+[00:10] juan     1jc+ "Welcome package"
+[00:10] juan     1lc+ "Welcome package"
+[00:10] juan     1vc+ "Welcome package"
+[22:34] omd       1vc>snail
+[22:34] Gaelan    1vc>snail
+[22:34] snail     4vc- "Set of cards"
+[22:34] snail    10vt+ "Set of products"
+[22:34] snail     2vt>Gaelan
+[22:34] snail     2vt>omd
+[22:35] snail     6vt-
+[22:38] Jason     4vc- "Set of cards"
+[22:38] Jason    10vt+ "Set of products"
+[23:43] Jason     6bl:cn+ "Reward: Proposal 8646"
+[23:43] snail     9bl:cn+ "Reward: Proposal 8648"
+[23:43] Jason     3bl:cn+ "Reward: Proposal 8650"
+[23:43] Jason     6bl:cn+ "Reward: Proposal 8651"
+[23:43] ais       3bl:cn+ "Reward: Proposal 8653"
+[23:43] G.        6bl:cn+ "Reward: Proposal 8654"
+[23:45] Jason     7bl:cn+ "Vocal voter"
+[23:48] Jason     1pd- "Pending proposal"
+
+2022-03-16
+[21:17] L&F_Dept. 5000cn>nix
+[21:17] L&F_Dept.    1wc>nix
+[21:17] L&F_Dept.    2bg>nix
+[21:17] nix 2bg- "Expungement"
+[22:03] Jason 1000cn- "Stone Auction: Hot Potato Stone"
+[22:03] Jason 1000cn- "Stone Auction: Alchemy Stone"
+[22:08] Jason 8bl:cn+ "Wielding Hot Potato Stone"
+
+2022-03-17
+[16:14] nix       2ws>ais
+[16:14] ais    2000cn>nix
+[16:59] nix       1wc>Trigon
+[16:59] Trigon 2500cn>nix
+[20:06] juan  1bl:cn>snail
+
+2022-03-18
+[03:32] #newcontract Geocache "Growing Endlessly Operation: Cache"
+[03:34] snail 1pd>Geocache
+[03:34] snail 2ws>Geocache
+[20:23] snail 1lc+ "Popular proposal: Proposal 8648"
+[20:35] FIAA 4pd>nix
+[20:35] FIAA 4pd>Jason
+[20:35] FIAA 4pd>snail
+[20:35] FIAA 1pd>L&F_Dept.
+
+2022-03-20
+[14:25] G.         1jc+ "Finger pointer"
+[21:54] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[21:54] nix    10bl:cn+ "Reward: Herald weekly"
+[21:54] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[21:54] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[21:54] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[21:54] G.     10bl:cn+ "Reward: Referee weekly"
+[21:54] Jason  15bl:cn+ "Reward: Assessed proposal"
+[21:54] nix    10bl:cn+ "Reward: Herald monthly"
+[22:02] Murphy     1pd- "Pending proposal"
+[22:47] R._Lee  5bl:cn+ "Reward: CFJ 3950"

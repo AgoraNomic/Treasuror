@@ -186,5 +186,16 @@
 [22:12] snail  10bl:cn+ "Reward: Arbitor weekly"
 [22:12] snail   5bl:cn+ "Reward: Registrar weekly"
 [22:12] Jason  15bl:cn+ "Reward: Assessed proposal"
-[22:12] snail   5bl:cn+ "Reward: Registrar monthly "
+[22:12] snail   5bl:cn+ "Reward: Registrar monthly"
+[23:55] #report
+[23:57] #bt 203607
+
+2022-02-28
+[00:04] Jason 1pd- "Pending Proposal"
+[00:07] Jason 1pd- "Pending Proposal"
+[06:44] snail 500cn>Jason
+[06:44] Jason 3pd>snail
+[07:33] snail 1pd- "Pending Proposal"
+[07:46] snail 1pd- "Pending Proposal"
+[23:45] G.    1jc+ "Focus grant"
 
