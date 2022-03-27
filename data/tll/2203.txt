@@ -63,14 +63,14 @@
 [18:13] Blacklist    1ws>nix
 [18:18] nix 1ws+ "Focus grant"
 [19:17] Jason   3lc>snail
-[19:17] snail 935cn>Jason
+[19:17] snail 925cn>Jason
 [19:31] Jason 3bl:cn>SEAMSTRESS
 
 2022-03-12
 [01:58] snail 5bl:cn+ "Wielding Wealth Stone"
 [02:04] #register duck
 [04:07] duck 10bl:cn+ "Welcome package"
-[04:07] duck     1vc+ "Welcome package"
+[04:07] duck     1wc+ "Welcome package"
 [04:07] duck     1jc+ "Welcome package"
 [04:07] duck     1lc+ "Welcome package"
 [04:07] duck     1vc+ "Welcome package"
@@ -81,7 +81,7 @@
 [19:58] Trigon 2vc>snail
 [19:58] snail  1wc>Trigon
 [20:12] Telna 10bl:cn+ "Welcome package"
-[20:12] Telna     1vc+ "Welcome package"
+[20:12] Telna     1wc+ "Welcome package"
 [20:12] Telna     1jc+ "Welcome package"
 [20:12] Telna     1lc+ "Welcome package"
 [20:12] Telna     1vc+ "Welcome package"
@@ -103,9 +103,10 @@
 [17:48] snail   2jc>ATMunn
 [17:48] ATMunn  1ws>snail
 [17:48] ATMunn  2pd>snail
-[18:05] ais     2jc>ATMunn
-[18:05] ATMunn  4jc- "Set of Cards"
-[18:05] ATMunn 10bg+ "Set of Products"
+[18:07] ais     2jc>ATMunn
+[18:07] ATMunn  4jc- "Set of Cards"
+[18:07] ATMunn 10bg+ "Set of Products"
+[18:07] ATMunn  6bg>ais
 [18:37] ATMunn  6bg- "Expungement"
 [18:37] #newcontract ATMStash "ATMunn's Stash"
 [18:37] ATMunn  *>ATMStash
@@ -115,7 +116,7 @@
 
 2022-03-15
 [00:10] juan 10bl:cn+ "Welcome package"
-[00:10] juan     1vc+ "Welcome package"
+[00:10] juan     1wc+ "Welcome package"
 [00:10] juan     1jc+ "Welcome package"
 [00:10] juan     1lc+ "Welcome package"
 [00:10] juan     1vc+ "Welcome package"
@@ -125,9 +126,10 @@
 [22:34] snail    10vt+ "Set of products"
 [22:34] snail     2vt>Gaelan
 [22:34] snail     2vt>omd
-[22:35] snail     6vt-
+[22:35] snail     6vt- "Buying strength"
 [22:38] Jason     4vc- "Set of cards"
 [22:38] Jason    10vt+ "Set of products"
+[22:38] Jason     6vt- "Buying strength"
 [23:43] Jason     6bl:cn+ "Reward: Proposal 8646"
 [23:43] snail     9bl:cn+ "Reward: Proposal 8648"
 [23:43] Jason     3bl:cn+ "Reward: Proposal 8650"
@@ -155,6 +157,7 @@
 
 2022-03-18
 [03:32] #newcontract Geocache "Growing Endlessly Operation: Cache"
+[03:34] snail 5bl:cn+ "Wielding Wealth Stone"
 [03:34] snail 1pd>Geocache
 [03:34] snail 2ws>Geocache
 [20:23] snail 1lc+ "Popular proposal: Proposal 8648"
@@ -175,3 +178,49 @@
 [21:54] nix    10bl:cn+ "Reward: Herald monthly"
 [22:02] Murphy     1pd- "Pending proposal"
 [22:47] R._Lee  5bl:cn+ "Reward: CFJ 3950"
+[23:26] #report
+
+2022-03-23
+[17:02] #deactivate omd
+[17:02] #deactivate Sgeo
+[17:02] #deactivate TABBAT
+[18:03] snail  4lc- "Set of cards"
+[18:03] snail 10pd+ "Set of products"
+[18:03] snail  1pd- "Pending proposal"
+
+2022-03-24
+[15:28] nix 1pd- "Pending proposal"
+[19:39] nix 1pd- "Pending proposal"
+[21:19] nix 1pd- "Pending proposal"
+[21:28] Jason *wc>ais
+[21:28] Jason *wp>ais
+[22:13] nix      1wc>snail
+[22:13] snail 3350cn>nix
+[22:22] snail    2pd>Geocache
+[22:22] Geocache 1ws>snail
+[22:22] snail    2pd>Geocache
+[22:22] Geocache 1ws>snail
+[22:22] snail 5bl:cn+ "Wielding Wealth Stone"
+[22:22] snail    1vt>Geocache
+
+2022-03-25
+[08:03] Aspen 1pd- "Pending proposal"
+
+2022-03-26
+[00:06] ATMStash 1ws>snail
+[00:06] ATMStash 1pd>banana
+[00:06] ATMStash 1vt>snail
+[00:06] ATMStash 1vt>banana
+[17:10] G. 1jc+ "Focus grant"
+[20:53] ais 5bl:cn+ "Reward: CFJ 3951"
+
+2022-03-27
+[01:39] ais     1wc>Jason
+[01:39] Jason   1wc- "Wielding Alchemy Stone"
+[01:39] Jason   3lc- "Wielding Alchemy Stone"
+[01:39] Jason   7ws+ "Wielding Alchemy Stone"
+[01:39] Jason   7ws>ais
+[07:18] ais     1jc+ "Focus grant"
+[07:18] ais     1jc+ "Focus grant"
+[20:48] Madrid  1jc+ "Focus grant"
+[21:26] Trigon  1ws+ "Focus grant"
