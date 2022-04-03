@@ -41,6 +41,7 @@ Full List of Monthly Reports:
 
 Full List of Weekly Reports:
 
+* [2022-04-03A](weekly/2022-04-03A.txt)
 * [2022-04-03](weekly/2022-04-03.txt)
 * [2022-03-27](weekly/2022-03-27.txt)
 * [2022-03-20](weekly/2022-03-20.txt)

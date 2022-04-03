@@ -14,7 +14,7 @@
 [12:40] Madrid  1jc+ "Focus grant"
 [12:59] Madrid  3jc- "Set of cards"
 [12:59] Madrid  6bg+ "Set of products"
-[12:59] Madrid  8bg- "Expunging"
+[12:59] Madrid  7bg- "Expunging"
 [12:59] Madrid  1bg>Aspen
 [13:27] banana  1jc>Aspen
 [14:16] G.      4bg- "Blotting"
@@ -44,3 +44,20 @@
 [21:43] Murphy 42bl:cn- "Stamp creation x14"
 [21:53] Murphy 50bl:cn- "Beast permit"
 [21:53] Murphy 15bl:cn- "Bird food x3"
+[22:06] #report
+[22:07] #bt 270761
+[22:16] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[22:16] nix    10bl:cn+ "Reward: Herald weekly"
+[22:16] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[22:16] snail   5bl:cn+ "Reward: Avicultor weekly"
+[22:16] Jason  15bl:cn+ "Reward: Short Logical Ruleset"
+[22:16] Jason   5bl:cn+ "Reward: Stonemason weekly"
+[22:16] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[22:16] G.     10bl:cn+ "Reward: Referee weekly"
+[22:16] nix     5bl:cn+ "Reward: Collector weekly"
+[22:16] Jason  15bl:cn+ "Reward: Assessed proposal"
+[22:16] Trigon 15bl:cn+ "Reward: Treasuror monthly"
+[22:16] snail   5bl:cn+ "Reward: Registrar monthly"
+[22:16] snail   5bl:cn+ "Reward: Avicultor monthly"
+[22:16] G.      5bl:cn+ "Reward: Ministor monthly"
+[22:16] Murphy  5bl:cn+ "Reward: Tailor monthly"
