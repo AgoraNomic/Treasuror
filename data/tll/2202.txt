@@ -140,6 +140,7 @@
 [01:21] Falsifian   13pd>FIAA
 [01:21] Falsifian 3156cn>D._Corp.
 [01:21] #deregister Falsifian
+[01:21] #delcontract DragonQE
 [20:45] snail 100cn>Hoard
 [21:19] Jason 500cn>Hoard
 [22:03] #deregister Nathan

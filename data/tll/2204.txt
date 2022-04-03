@@ -1,0 +1,46 @@
+2022-04-01
+#relevel
+#payday
+[00:41] G.  1jc+ "Focus grant"
+[00:41] G.  4jc- "Set of cards"
+[00:41] G. 10bg+ "Set of cards"
+[00:41] G.  4jc- "Set of cards"
+[00:41] G. 10bg+ "Set of cards"
+[00:41] G.  6bg- "Blotting"
+[02:30] Aspen    1vc>Murphy
+[03:33] Aspen 3200cn>ais
+[03:33] ais     2bg>Aspen
+[05:53] Telna   1jc>Aspen
+[12:40] Madrid  1jc+ "Focus grant"
+[12:59] Madrid  3jc- "Set of cards"
+[12:59] Madrid  6bg+ "Set of products"
+[12:59] Madrid  8bg- "Expunging"
+[12:59] Madrid  1bg>Aspen
+[13:27] banana  1jc>Aspen
+[14:16] G.      4bg- "Blotting"
+[15:34] nix  3200cn>juan 
+[15:34] juan    1jc>nix
+[21:09] #register dahuman
+
+2022-04-03
+[03:00] Jason 1jc+ "Focus grant"
+[03:04] dahuman 10bl:cn+ "Welcome package"
+[03:04] dahuman     1wc+ "Welcome package"
+[03:04] dahuman     1jc+ "Welcome package"
+[03:04] dahuman     1lc+ "Welcome package"
+[03:04] dahuman     1vc+ "Welcome package"
+[03:05] Murphy 6bl:cn+ "Reward: Proposal 8657"
+[03:05] nix    7bl:cn+ "Reward: Proposal 8659"
+[03:05] nix    5bl:cn+ "Reward: Proposal 8660"
+[03:05] nix    6bl:cn+ "Reward: Proposal 8661"
+[03:05] snail  5bl:cn+ "Reward: Proposal 8662"
+[03:07] Jason  2bl:cn+ "Reward: Proposal 8655"
+[07:24] Trigon    1jc+ "Focus grant"
+[18:38] Madrid    1wc>nix
+[18:38] Madrid    1pd>nix
+[18:38] Madrid    4vt>nix
+[19:48] Madrid 3bl:cn- "Stamp creation"
+[21:24] Murphy     1vc+ "Focus grant"
+[21:43] Murphy 42bl:cn- "Stamp creation x14"
+[21:53] Murphy 50bl:cn- "Beast permit"
+[21:53] Murphy 15bl:cn- "Bird food x3"
