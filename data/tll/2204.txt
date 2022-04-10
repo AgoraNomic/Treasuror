@@ -61,3 +61,62 @@
 [22:16] snail   5bl:cn+ "Reward: Avicultor monthly"
 [22:16] G.      5bl:cn+ "Reward: Ministor monthly"
 [22:16] Murphy  5bl:cn+ "Reward: Tailor monthly"
+[22:29] #report
+[22:39] Jason   5pd>nix
+[23:42] juan    3bl:cn- "Stamp creation"
+
+2022-04-04
+[01:33] snail   1jc+ "Finger pointer"
+[01:33] snail   1jc+ "Focus grant"
+[01:33] omd     1jc>snail
+[01:33] Gaelan  1jc>snail
+[01:33] snail   4jc- "Set of cards"
+[01:33] snail  10bg+ "Set of products"
+[01:33] snail   2bg>omd
+[01:33] snail   2bg>Gaelan
+[01:33] snail   1bg>omd
+[09:52] ais     6bl:cn- "Stamp creation x2"
+[12:57] juan    5bl:cn- "Buying bird food"
+[14:03] ais     2bg- "Blotting"
+[17:38] nix    18bl:cn- "Stamp creation x6"
+[17:40] Jason   6bl:cn- "Stamp creation x2"
+[17:41] Jason   6bl:cn- "Stamp creation x2"
+[17:41] Jason   6bl:cn- "Stamp creation x2"
+[21:51] snail   1pd- "Pending"
+
+2022-04-06
+[18:47] Madrid    1cn>snail
+[18:47] Madrid    2cn>snail
+[18:58] nix       1lc+ "Popular proposal: Proposal 8659"
+[22:46] snail  2500cn>G.
+[22:46] G.        3bg- "Expunging: snail"
+
+2022-04-07
+[18:11] duck 1wc+ "Victory grant"
+[22:10] nix  1lc+ "Focus grant"
+
+2022-04-10
+[04:58] Jason 14815cn>G.
+[07:03] snail  5bl:cn+ "Wielding Wealth Stone"
+[07:03] Press 10bl:cn>snail
+[07:21] ais    4000cn>G.
+[22:31] Murphy  5bl:cn+ "Reward: ADoP weekly"
+[22:31] snail  10bl:cn+ "Reward: Notary weekly"
+[22:31] snail  10bl:cn+ "Reward: Arbitor weekly"
+[22:31] snail   5bl:cn+ "Reward: Registrar weekly"
+[22:31] nix    10bl:cn+ "Reward: Herald weekly"
+[22:31] G.     10bl:cn+ "Reward: Referee weekly"
+[22:31] nix     5bl:cn+ "Reward: Collector weekly"
+[22:31] snail   5bl:cn+ "Reward: Avicultor weekly"
+[22:31] snail  10bl:cn+ "Reward: Arbitor weekly"
+[22:31] snail   5bl:cn+ "Reward: Registrar weekly"
+[22:31] Aspen  15bl:cn+ "Reward: Proposal Pool"
+[22:31] snail  10bl:cn+ "Reward: Notary weekly"
+[22:31] ais     5bl:cn+ "Reward: Mad Engineer weekly"
+[22:31] Jason  15bl:cn+ "Reward: Assessed proposal"
+[23:23] G.        40001cn-   "Victory Auction: 6wc"
+[23:23] L&F_Dept.     6wc>G. "Victory Auction: 6wc"
+[23:31] #report
+[23:33] #bt 247260
+[23:42] G.         3600cn-   "Victory Auction: 1wc"
+[23:42] G.            1wc+   "Victory Auction: 1wc"

@@ -1,5 +1,5 @@
 ========================================================================
-                    FORBES THREE HUNDRED NINETY-FIVE                    
+                    FORBES THREE HUNDRED NINETY-SIX                     
 --------------------------------   or   --------------------------------
                        TREASUROR'S WEEKLY REPORT
 ========================================================================
@@ -26,7 +26,7 @@ BUOYANCY
 ========================================================================
 
 Total Buoyancy:    249961
-Buoyancy Target:   247260
+Buoyancy Target:   270761
 Unit of Flotation: 100.0000
 
 
@@ -40,9 +40,9 @@ ASSET BALANCES
  banana     [1]    4255     1     0     0     1     1     0     4     1
  dahuman           1000     1     1     1     1     0     0     0     0
  duck              1820     2     1     1     1     0     0     0     0
- G.               13697     8     3     1     1     0    13     9     0
+ G.               17297     7     3     1     1     0    13     9     0
  Gaelan            7664     1     0     0     0     0     2     3     2
- Jason            20801     0     1     0     0     0     1     6     6
+ Jason            17301     1     1     0     0     0     1     6     6
  juan              4138     1     0     1     1     0     0     0     0
  Madrid            4590     0     0     0     0     4     0     0     0
  Murphy           18235     1     1     1     3     0     0     3     5
@@ -146,10 +146,8 @@ RECENT HISTORY                                    (does not self-ratify)
 ========================================================================
 
 *** Sun 10 April 2022
-[23:42] G.:        +    1wc (Victory Auction: 1wc)
-[23:42] G.:        - 3600cn (Victory Auction: 1wc)
-[23:33]   Buoyancy target set to 247260
-[23:31]   WEEKLY REPORT
+[23:23] Jason:     +    1wc (Victory Auction: 1wc)
+[23:23] Jason:     - 3500cn (Victory Auction: 1wc)
 [23:23] G.:        +    6wc (Transfer L&F Dept.: Victory Auction: 6wc)
 [23:23] L&F Dept.: -    6wc (Transfer G.: Victory Auction: 6wc)
 [23:23] G.:        -40001cn (Victory Auction: 6wc)
